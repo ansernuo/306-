@@ -1,6 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 
 const SUBJECTS = {
+  politics: {
+    label: '政治',
+    title: '政治 · 冲刺背诵匹配自测',
+    subtitle: '专题一试用 · 按手册考点改编',
+    sectionLabel: '政治专题',
+    defaultTopic: '专题一 · 马、恩、列经典著作和标志理论',
+    sourceName: '27腿姐《冲刺背诵手册》完整版.pdf',
+  },
   med: {
     label: '内科',
     title: '内科-学成选择题byBi8bo&戒不掉甜食',
@@ -66,6 +74,10 @@ const appendSupplement = (content, supplement) => ({
 })
 
 const CONTENT_LOADERS = {
+  politics: () => loadJson(() => import('./data/politics-data.json')).then((data) => ({
+    ...data,
+    groups: data.groups.map((group) => ({ ...group, lectureEvidence: { ...group.lectureEvidence, image: data.referenceImages[group.lectureEvidence.image] } })),
+  })),
   med: async () => {
     const [content, homework, exam] = await Promise.all([
       loadJson(() => import('./data/med-data.json')),
@@ -498,6 +510,7 @@ function unique(values) {
 
 function assetPath(path) {
   if (!path) return path
+  if (/^(data:|https?:)/.test(String(path))) return path
   const base = import.meta.env.VITE_ASSET_BASE || import.meta.env.BASE_URL || '/'
   return `${base.replace(/\/?$/, '/')}${String(path).replace(/^\/+/, '')}`
 }
@@ -658,7 +671,7 @@ function App() {
   const counts = useMemo(() => topicCounts(content.groups), [content])
   const chapterTree = useMemo(() => lectureChapterTree(content, subject), [content, subject])
   const [topic, setTopic] = useState(SUBJECTS.med.defaultTopic)
-  const showContentWatermark = subject !== 'physiology'
+  const showContentWatermark = subject !== 'politics' && subject !== 'physiology'
     && subject !== 'biochemistry'
     && !(subject === 'surgery' && (topic === '骨科' || topic === '外科总论'))
   const [chapterId, setChapterId] = useState('')
@@ -679,7 +692,8 @@ function App() {
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
 
   useEffect(() => {
-    const storedSubject = readLocalStorage('study-subject', 'med')
+    const requestedSubject = new URLSearchParams(window.location.search).get('subject')
+    const storedSubject = SUBJECTS[requestedSubject] ? requestedSubject : readLocalStorage('study-subject', 'med')
     const nextSubject = SUBJECTS[storedSubject] ? storedSubject : 'med'
     setSubject(nextSubject)
     setTopic(SUBJECTS[nextSubject].defaultTopic)
@@ -964,7 +978,7 @@ function App() {
           <div className="brand-copy"><strong>{subjectConfig.title}</strong><span>{subjectConfig.subtitle}</span></div>
         </div>
         <div className="subject-switch" aria-label="选择科目">
-          {Object.entries(SUBJECTS).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
+          {Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
         </div>
         <div className="progress-strip">
           <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
@@ -999,7 +1013,7 @@ function App() {
           </nav>
           <div className="sidebar-footer">
             <div className="source-stat"><span>题库来源</span><strong>{content.meta.sourceLabel || '学成选择题（题目数据版）'}</strong><small>{content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
-            <div className="lecture-stat"><span>讲义依据</span><strong>{subjectConfig.label}讲义 PDF 共 {content.meta.lectureCount} 份</strong><Icon name="file" size={18} /></div>
+            <div className="lecture-stat"><span>讲义依据</span><strong>{subject === 'politics' ? '手册专题一 · 书内第 3—4 页' : `${subjectConfig.label}讲义 PDF 共 ${content.meta.lectureCount} 份`}</strong><Icon name="file" size={18} /></div>
           </div>
         </aside>
 
@@ -1025,7 +1039,7 @@ function App() {
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
-            <div><h1>{group.title || '题库原题'}</h1><p>{group.supplement ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}` : (group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。'))}</p></div>
+            <div><h1>{group.title || '题库原题'}</h1><p>{group.studyNotice || (group.supplement ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}` : (group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。')))}</p></div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
@@ -1213,11 +1227,26 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill })
           ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => <div className="answer-choice-category" key={category}><span>{category}</span><div>{choiceOptions.filter((option) => option.category === category).map(renderChoiceButton)}</div></div>)}</div>
           : <div className="answer-choices">{choiceOptions.map(renderChoiceButton)}</div>)}
       {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
+      {submitted && stem.explanation ? <p className="matching-explanation">{stem.explanation}</p> : null}
     </div>
   )
 }
 
+function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }) {
+  const [reveal, setReveal] = useState(false)
+  useEffect(() => setReveal(false), [group.id])
+  return <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
+    <div className="evidence-rail"><button className="evidence-toggle" onClick={() => setEvidenceCollapsed(false)} aria-label="展开讲义栏"><Icon name="left" size={17} /></button><span className="evidence-rail-label">手册依据</span></div>
+    <div className="evidence-panel-content">
+      <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>手册依据</h2><p>书内第 3—4 页 · PDF 第 7—8 页</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
+      <div className="politics-source-note"><strong>专题一 · 13 项考点</strong><p>题目由手册表格改编。先独立匹配，提交后核对；每题选项独立，可以重复使用。</p><p>正向匹配 → 反向匹配 → 易混辨析</p><button className="ghost-button" onClick={() => setReveal((value) => !value)}>{reveal ? '收起原文' : submitted ? '查看原文依据' : '提前查看原文（含答案）'}</button></div></div>
+      {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>仅显示专题一对应内容，点击放大。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={group.lectureEvidence.image} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
+    </div>
+  </aside>
+}
+
 function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
+  if (subject === 'politics') return <PoliticsEvidence {...{ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }} />
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   const currentEvidence = group.lectureEvidence
   const currentEvidenceLocation = currentEvidence?.pageLabel || (typeof currentEvidence?.page === 'number' ? `对应第 ${currentEvidence.page} 页` : (currentEvidence?.page ? `对应${currentEvidence.page}` : '已关联讲义'))

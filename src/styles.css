@@ -390,3 +390,14 @@ button:disabled { cursor: default; }
   .modal-footer { align-items: flex-start; flex-direction: column; }
   .site-watermark { right: max(8px, env(safe-area-inset-right)); bottom: max(8px, env(safe-area-inset-bottom)); padding: 3px 5px; font-size: 9px; }
 }
+
+.matching-explanation { grid-column: 1 / -1; margin: 4px 0 0 30px; color: #526176; line-height: 1.75; font-size: 13px; padding: 10px 12px; background: #f5f8fd; border-radius: 6px; }
+.politics-source-note { margin-top: 20px; color: #607089; font-size: 13px; line-height: 1.8; }
+.politics-source-note strong { color: #23334c; }
+@media (max-width: 720px) {
+  .topbar { height: auto; min-height: 108px; flex-wrap: wrap; gap: 10px; padding-top: 12px; padding-bottom: 12px; }
+  .subject-switch { flex: 0 0 100%; justify-content: space-between; margin-left: 0; }
+  .subject-switch button { flex: 1; min-width: 0; }
+  .sidebar { top: 152px; }
+  .brand-copy strong { max-width: calc(100vw - 90px); }
+}
