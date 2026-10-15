@@ -159,12 +159,13 @@ button:disabled { cursor: default; }
 .keyboard-help strong { color: #3566a8; }
 [data-stem-index][data-keyboard-active="true"] { outline: 2px solid #8eb8fa; outline-offset: -2px; background-color: #f4f8ff; }
 [data-stem-index]:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+.stem-list > .stem-row { margin-inline: -8px; padding-inline: 8px; border-radius: 8px; }
 .categorized-answer-tables { padding: 0 20px 12px; }
 .answer-table-hint { display: flex; align-items: center; gap: 6px; margin: 0 -1px 12px; padding: 9px 10px; border: 1px solid #dbe7f7; border-radius: 7px; color: #6680a6; background: #f7faff; font-size: 11px; line-height: 1.5; }
 .answer-table-section + .answer-table-section { margin-top: 20px; padding-top: 18px; border-top: 1px solid #e8edf4; }
 .answer-table-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 9px; color: #3566a8; font-size: 12px; }
 .answer-table-title span { color: #9aa6b5; font-size: 11px; font-weight: 400; }
-.answer-table-scroll { overflow-x: auto; border: 1px solid #dfe6ef; border-radius: 8px; scrollbar-gutter: stable; }
+.answer-table-scroll { overflow-x: auto; margin-inline: -8px; border: 1px solid #dfe6ef; border-radius: 8px; scrollbar-gutter: stable; }
 .answer-table { width: 100%; min-width: 620px; border-collapse: separate; border-spacing: 0; table-layout: fixed; }
 .answer-table th, .answer-table td { border-right: 1px solid #edf1f6; border-bottom: 1px solid #edf1f6; }
 .answer-table tr > :last-child { border-right: 0; }
