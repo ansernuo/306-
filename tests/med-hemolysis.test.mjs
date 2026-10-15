@@ -36,16 +36,32 @@ test('summary includes lecture-backed splenectomy for warm AIHA and glucocortico
   assert.equal(group('p46-g1').stems[5].sourceAnswerRaw, 'BGSTL')
 })
 
-test('PNH homework diagnosis is corrected without treating uncertain complication wording as verified', () => {
-  const [diagnosis, complication] = group('med-teacher-06-07-08').stems
+test('homework question 8 belongs to the preceding girl case and grades gallstones as B', () => {
+  const pnh = group('med-teacher-06-07-08')
+  const previousCase = group('med-teacher-06-06')
+  const [diagnosis] = pnh.stems
+  const [investigation, complication] = previousCase.stems
+  assert.deepEqual(pnh.stems.map(s => s.number), [7])
+  assert.deepEqual(previousCase.stems.map(s => s.number), [6, 8])
+  assert.match(previousCase.sharedStem, /女性,15岁/)
+  assert.match(previousCase.sharedStem, /其父亲有轻度黄疸/)
+  assert.doesNotMatch(previousCase.sourceText, /Ham|Rous|男性,44岁/)
+  assert.match(diagnosis.text, /男性,44岁/)
+  assert.ok(pnh.options.every(o => o.key.startsWith('q7-')))
+  assert.deepEqual(investigation.answer, ['q6-A'])
+  assert.deepEqual(previousCase.sourcePages, [70, 71])
+  assert.deepEqual(previousCase.lectureEvidence.pages, [2, 3])
   assert.deepEqual(diagnosis.answer, ['q7-C'])
   assert.equal(diagnosis.answerRaw, 'C')
   assert.equal(diagnosis.sourceAnswerRaw, 'B')
   assert.equal(diagnosis.answerState, '讲义核对答案')
   assert.equal(complication.sourceAnswerRaw, 'C')
-  assert.deepEqual(complication.answer, [])
-  assert.equal(complication.answerMode, '待核对')
-  assert.equal(complication.answerState, '待原题页核对')
+  assert.deepEqual(complication.answer, ['q8-B'])
+  assert.equal(complication.answerRaw, 'B')
+  assert.equal(complication.answerMode, '单选')
+  assert.equal(complication.answerState, '病例归属及讲义核对答案')
+  assert.equal(previousCase.options.find(o => o.key === 'q8-B').label, '胆囊结石')
+  assert.equal(homework.groups.flatMap(g => g.stems).filter(s => s.number === 8 && s.lectureId === 'lecture-30').length, 1)
   assert.equal(group('med-stage-exam-2026-09-q086').stems[0].answerRaw, 'C')
 })
 
@@ -56,7 +72,9 @@ test('hemolysis evidence covers the actual pages and corrected attempts have a f
     assert.ok(existsSync(resolve('public', g.lectureEvidence.image)), id)
     assert.equal(g.answerRevision, 'hemolysis-20261011')
   }
-  assert.equal(group('med-teacher-06-07-08').answerRevision, 'hemolysis-20261011')
+  for (const id of ['med-teacher-06-06', 'med-teacher-06-07-08']) {
+    assert.equal(group(id).answerRevision, 'hemolysis-homework-20261015')
+  }
   for (const g of [...base.groups, ...homework.groups, ...exam.groups].filter(g => g.lectureIds.includes('lecture-30'))) {
     assert.equal(g.topic, '血液', g.id)
     assert.deepEqual(g.lectureIds, ['lecture-30'], g.id)

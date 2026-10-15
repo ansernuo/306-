@@ -10,7 +10,7 @@ const expected = {
   3: ['D','D','D','D','ABC','A','ABC','D','C','C','A','C','A','A','C','ABD','C','CD'],
   4: ['D','BC','D','AB','D','B','D','BC','C','ACD','A','C'],
   5: ['D','D','B','A','D','ABCD','C','AB','C','B','D','A'],
-  6: ['D','B','B','C','A','A','C','','A','A','ABD','AD','D','D','B'],
+  6: ['D','B','B','C','A','A','C','B','A','A','ABD','AD','D','D','B'],
   7: ['ACD','AC','C','A','D','C','B','A','C','C','A','A','D','A','ABC'],
   8: ['D','C','','CD','ACD','B','C','B','C','B','A','D','D','B','B','A','D','A','D'],
 }
@@ -38,7 +38,7 @@ test('all 126 source questions retain scoped answers including reviewed PNH exce
     }
   }
   assert.equal(seen.size, 126)
-  assert.equal(answered, 124)
+  assert.equal(answered, 125)
   assert.equal(data.meta.answeredStemCount, answered)
 })
 
