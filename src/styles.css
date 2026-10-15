@@ -155,6 +155,10 @@ button:disabled { cursor: default; }
 .shared-stem-panel p { margin: 0; color: #26344b; font-size: 14px; line-height: 1.75; }
 .shared-stem-panel span { color: #8a98ab; font-size: 11px; }
 .stem-list { padding: 9px 20px 5px; }
+.keyboard-help { display: flex; flex-wrap: wrap; gap: 5px 12px; padding: 10px 20px; border-bottom: 1px solid #e8edf4; color: #7a8ba3; background: #fbfcff; font-size: 11px; line-height: 1.6; }
+.keyboard-help strong { color: #3566a8; }
+[data-stem-index][data-keyboard-active="true"] { outline: 2px solid #8eb8fa; outline-offset: -2px; background-color: #f4f8ff; }
+[data-stem-index]:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
 .categorized-answer-tables { padding: 0 20px 12px; }
 .answer-table-hint { display: flex; align-items: center; gap: 6px; margin: 0 -1px 12px; padding: 9px 10px; border: 1px solid #dbe7f7; border-radius: 7px; color: #6680a6; background: #f7faff; font-size: 11px; line-height: 1.5; }
 .answer-table-section + .answer-table-section { margin-top: 20px; padding-top: 18px; border-top: 1px solid #e8edf4; }

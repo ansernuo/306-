@@ -1,4 +1,5 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 
 const SUBJECTS = {
   politics: {
@@ -690,6 +691,15 @@ function App() {
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
+  const [keyboardStem, setKeyboardStem] = useState(null)
+  const [pendingShortcut, setPendingShortcut] = useState('')
+  const questionCardRef = useRef(null)
+  const pendingOptionRef = useRef(null)
+  const flushPendingOption = useCallback(() => {
+    const button = pendingOptionRef.current
+    pendingOptionRef.current = null
+    if (button?.isConnected && !button.disabled) button.click()
+  }, [])
 
   useEffect(() => {
     const requestedSubject = new URLSearchParams(window.location.search).get('subject')
@@ -788,6 +798,8 @@ function App() {
   const answerStorageId = groupAnswerStorageKey(subject, group)
   const currentSelections = selections[answerStorageId] || {}
   const isSubmitted = Boolean(submitted[answerStorageId])
+  const activeStemIndex = keyboardStem?.groupId === answerStorageId
+    ? Math.min(keyboardStem.index, Math.max(0, group.stems.length - 1)) : 0
   const currentPage = content.pages.find((item) => item.page === group.page && item.sourceKey === group.sourceKey)
   const favorite = favorites.includes(groupStorageId)
   const activeSystem = group.topic || topic
@@ -815,7 +827,7 @@ function App() {
       if (multi) {
         nextGroup[stemIndex] = current.includes(key) ? current.filter((item) => item !== key) : [...current, key]
       } else {
-        nextGroup[stemIndex] = [key]
+        nextGroup[stemIndex] = current.includes(key) ? [] : [key]
       }
       return { ...previous, [answerStorageId]: nextGroup }
     })
@@ -835,26 +847,6 @@ function App() {
   const submitGroup = useCallback(() => {
     setSubmitted((previous) => ({ ...previous, [answerStorageId]: true }))
   }, [answerStorageId])
-
-  useEffect(() => {
-    if (isLoadingContent || !filteredGroups.length || isSubmitted || showSource || showLectureEvidence) return undefined
-
-    function handleEnter(event) {
-      if (event.key !== 'Enter' || event.defaultPrevented || event.isComposing || event.keyCode === 229
-        || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
-
-      const control = event.target instanceof Element
-        ? event.target.closest('input, textarea, select, button, a, [contenteditable]:not([contenteditable="false"]), [role="button"]')
-        : null
-      if (control && !control.matches('.answer-chip, .fill-answers input, .question-card-bottom .primary-button')) return
-
-      event.preventDefault()
-      if (!event.repeat) submitGroup()
-    }
-
-    window.addEventListener('keydown', handleEnter)
-    return () => window.removeEventListener('keydown', handleEnter)
-  }, [filteredGroups.length, isLoadingContent, isSubmitted, showLectureEvidence, showSource, submitGroup])
 
   function redoGroup() {
     setSubmitted((previous) => {
@@ -884,14 +876,117 @@ function App() {
     setMobileEvidence(false)
   }
 
-  function goTo(offset) {
+  const goTo = useCallback((offset) => {
     if (!filteredGroups.length) return
+    setKeyboardStem(null)
     setJumpGroupId('')
     setGroupIndex((previous) => (previous + offset + filteredGroups.length) % filteredGroups.length)
     setShowSource(false)
     setShowLectureEvidence(false)
     setShowNote(false)
+  }, [filteredGroups.length])
+
+  function lockStem(event) {
+    const row = event.target.closest('[data-stem-index]')
+    if (row) {
+      flushPendingOption()
+      setKeyboardStem({ groupId: answerStorageId, index: Number(row.dataset.stemIndex) })
+    }
   }
+
+  useEffect(() => {
+    if (isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence) return undefined
+    let sequence = ''
+    let timer
+
+    function clearSequence() {
+      window.clearTimeout(timer)
+      sequence = ''
+      pendingOptionRef.current = null
+      setPendingShortcut('')
+    }
+
+    function handleStudyKey(event) {
+      if (event.defaultPrevented || event.isComposing || event.keyCode === 229) {
+        clearSequence()
+        return
+      }
+      const target = event.target instanceof Element ? event.target : null
+      const editable = target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')
+      const plain = !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey
+      if (editable && !(plain && event.key === 'Enter' && editable.matches('.fill-answers input'))) {
+        clearSequence()
+        return
+      }
+      const control = target?.closest('button, a, [role="button"]')
+      if (control && !control.matches('.answer-chip, .question-card-bottom .primary-button, .pager-button')) return
+
+      if (plain && ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Enter'].includes(event.key)) {
+        flushPendingOption()
+        clearSequence()
+        if (event.key === 'Enter' && isSubmitted) return
+        event.preventDefault()
+        if (event.repeat) return
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+          goTo(event.key === 'ArrowRight' ? 1 : -1)
+        } else if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+          const rows = [...questionCardRef.current.querySelectorAll('[data-stem-index]')]
+          const index = Math.min(Math.max(activeStemIndex + (event.key === 'ArrowDown' ? 1 : -1), 0), rows.length - 1)
+          if (index < 0) return
+          setKeyboardStem({ groupId: answerStorageId, index })
+          rows[index].focus({ preventScroll: true })
+          rows[index].scrollIntoView({ block: 'nearest', inline: 'nearest' })
+        } else {
+          submitGroup()
+        }
+        return
+      }
+      if (isSubmitted) return
+      const character = shortcutCharacter(event)
+      if (!character) {
+        clearSequence()
+        return
+      }
+      const row = questionCardRef.current.querySelector(`[data-stem-index="${activeStemIndex}"]`)
+      const choices = [...(row?.querySelectorAll('.answer-chip:not(:disabled)') || [])]
+        .map(button => ({ button, shortcut: optionShortcut(button.dataset.optionLabel) }))
+        .filter(choice => choice.shortcut)
+      let nextSequence = sequence + character
+      let match = matchShortcut(choices, nextSequence)
+      if (!match.matches) {
+        flushPendingOption()
+        nextSequence = character
+        match = matchShortcut(choices, nextSequence)
+      }
+      if (!match.matches) {
+        clearSequence()
+        return
+      }
+      event.preventDefault()
+      if (event.repeat) return
+      clearSequence()
+      if (match.exact && !match.hasLonger) {
+        match.exact.button.click()
+      } else {
+        sequence = nextSequence
+        pendingOptionRef.current = match.exact?.button || null
+        setPendingShortcut(nextSequence)
+        // Wait briefly only for ambiguous labels such as ① / ⑩ or A / AA.
+        timer = window.setTimeout(() => {
+          clearSequence()
+          match.exact?.button.click()
+        }, 500)
+      }
+    }
+
+    window.addEventListener('keydown', handleStudyKey)
+    window.addEventListener('blur', clearSequence)
+    return () => {
+      window.removeEventListener('keydown', handleStudyKey)
+      window.removeEventListener('blur', clearSequence)
+      clearSequence()
+    }
+  }, [activeStemIndex, answerStorageId, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, showLectureEvidence, showSource, submitGroup])
 
   function jumpTo(index) {
     if (!filteredGroups.length) return
@@ -1068,13 +1163,14 @@ function App() {
           <div className={`study-grid ${group.options.length ? '' : 'no-options'}`}>
           {group.options.length > 0 && <OptionBank group={group} />}
           <div className="question-side">
-          <section className="question-card">
+          <section className="question-card" ref={questionCardRef} onClickCapture={lockStem} onFocusCapture={lockStem}>
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
+            <div className="keyboard-help"><strong aria-live="polite">锁定小题 {activeStemIndex + 1} / {group.stems.length}{pendingShortcut ? ` · 输入 ${pendingShortcut}…` : ''}</strong><span>↑↓ 锁定小题 · ←→ 切换题组 · Enter 提交</span><span>字母／数字选择，再按取消；⌘＋字母选小写；多位编号连续输入。</span></div>
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
             {group.answerLayout !== 'rows' && group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
-              ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} />
+              ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} activeStemIndex={activeStemIndex} />
               : <div className="stem-list">
-                {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
+                {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} active={activeStemIndex === index} />)}
               </div>}
             <div className="question-card-bottom">
               {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>{group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
@@ -1082,7 +1178,7 @@ function App() {
             </div>
           </section>
 
-          <div className="bottom-nav"><button className="pager-button" onClick={() => goTo(-1)}><Icon name="left" size={18} />上一组</button><GroupJump key={`${subject}-${groupIndex}-${filteredGroups.length}`} current={groupIndex + 1} total={filteredGroups.length} onJump={jumpTo} /><button className="pager-button" onClick={() => goTo(1)}>下一组<Icon name="right" size={18} /></button></div>
+          <div className="bottom-nav"><button className="pager-button" onClick={() => goTo(-1)} title="上一组（←）"><Icon name="left" size={18} />上一组</button><GroupJump key={`${subject}-${groupIndex}-${filteredGroups.length}`} current={groupIndex + 1} total={filteredGroups.length} onJump={jumpTo} /><button className="pager-button" onClick={() => goTo(1)} title="下一组（→）">下一组<Icon name="right" size={18} /></button></div>
           </div>
           </div>
           </div>}
@@ -1146,7 +1242,7 @@ function GroupJump({ current, total, onJump }) {
   )
 }
 
-function CategorizedAnswerTable({ group, selections, submitted, onSelect }) {
+function CategorizedAnswerTable({ group, selections, submitted, onSelect, activeStemIndex }) {
   const categories = unique(group.stems.map((stem) => stem.optionCategory).filter(Boolean))
 
   return (
@@ -1168,7 +1264,7 @@ function CategorizedAnswerTable({ group, selections, submitted, onSelect }) {
                   </tr>
                 </thead>
                 <tbody>
-                  {rows.map(({ stem, index }) => <CategorizedAnswerRow key={index} group={group} stem={stem} index={index} options={options} selection={selections[index] || []} submitted={submitted} onSelect={onSelect} />)}
+                  {rows.map(({ stem, index }) => <CategorizedAnswerRow key={index} group={group} stem={stem} index={index} options={options} selection={selections[index] || []} submitted={submitted} onSelect={onSelect} active={activeStemIndex === index} />)}
                 </tbody>
               </table>
             </div>
@@ -1179,7 +1275,7 @@ function CategorizedAnswerTable({ group, selections, submitted, onSelect }) {
   )
 }
 
-function CategorizedAnswerRow({ group, stem, index, options, selection, submitted, onSelect }) {
+function CategorizedAnswerRow({ group, stem, index, options, selection, submitted, onSelect, active }) {
   const answer = answerLetters(stem)
   const multi = isMultiStem(group, stem)
   const unresolved = isUnresolvedStem(stem)
@@ -1191,7 +1287,7 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
 
   return (
     <>
-      <tr className={`answer-table-row ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
+      <tr data-stem-index={index} data-keyboard-active={active} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`answer-table-row ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
         <th scope="row" className="answer-table-number"><span>{String(index + 1).padStart(2, '0')}</span></th>
         <td className="answer-table-stem"><div className="answer-table-stem-copy">{stem.image && <img src={assetPath(stem.image)} alt={stem.imageAlt || '题干图片'} />}{stem.text && <p>{stem.text}</p>}<span className={`answer-mode ${(multi || stem.answerMode === '排序') ? 'is-multi' : ''}`}>{unresolved ? unresolvedLabel : (stem.answerMode === '排序' ? '排序' : (multi ? '多选' : '单选'))}</span></div></td>
         {options.map((option) => {
@@ -1202,7 +1298,7 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
           const isMissed = submitted && isAnswer && !active
           const isWrong = submitted && !unresolved && active && !isAnswer
           const stateLabel = isMissed ? '，漏选' : (isWrong ? '，错选' : '')
-          return <td key={item} className="answer-table-cell"><button type="button" aria-label={`${String(index + 1).padStart(2, '0')}题，选项 ${label}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{label}</button></td>
+          return <td key={item} className="answer-table-cell"><button type="button" data-option-label={label} aria-pressed={active} aria-label={`${String(index + 1).padStart(2, '0')}题，选项 ${label}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{label}</button></td>
         })}
       </tr>
       {submitted && <tr className={`answer-table-result-row ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><td colSpan={options.length + 2}><span><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</span></td></tr>}
@@ -1210,7 +1306,7 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
   )
 }
 
-function StemRow({ group, stem, index, selection, submitted, onSelect, onFill }) {
+function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, active: keyboardActive }) {
   const answer = isFillStem(stem) ? answerValues(stem) : answerLetters(stem)
   const multi = isMultiStem(group, stem)
   const ordered = isRankingStem(stem)
@@ -1236,10 +1332,10 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill })
     const order = ordered && active ? selection.indexOf(item) + 1 : null
     const isWrong = submitted && !unresolved && active && !isAnswer
     const stateLabel = isMissed ? '，漏选' : (isWrong ? '，错选' : '')
-    return <button key={item} aria-label={`选项 ${label}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{label}{order && <sup className="rank-order">{order}</sup>}</button>
+    return <button key={item} data-option-label={label} aria-pressed={active} aria-label={`选项 ${label}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{label}{order && <sup className="rank-order">{order}</sup>}</button>
   }
   return (
-    <div className={`stem-row ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
+    <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : '单选')))}</span></div>}{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
       {fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div>
