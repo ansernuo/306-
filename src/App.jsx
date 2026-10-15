@@ -848,7 +848,7 @@ function App() {
     setSubmitted((previous) => ({ ...previous, [answerStorageId]: true }))
   }, [answerStorageId])
 
-  function redoGroup() {
+  const redoGroup = useCallback(() => {
     setSubmitted((previous) => {
       const next = { ...previous }
       delete next[answerStorageId]
@@ -862,7 +862,7 @@ function App() {
     setShowSource(false)
     setShowLectureEvidence(false)
     setShowNote(false)
-  }
+  }, [answerStorageId])
 
   function redoSystem() {
     if (!activeSystem || activeSystem === '全部' || !systemStorageIds.size) return
@@ -924,7 +924,6 @@ function App() {
       if (plain && ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Enter'].includes(event.key)) {
         flushPendingOption()
         clearSequence()
-        if (event.key === 'Enter' && isSubmitted) return
         event.preventDefault()
         if (event.repeat) return
         if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
@@ -937,7 +936,8 @@ function App() {
           rows[index].focus({ preventScroll: true })
           rows[index].scrollIntoView({ block: 'nearest', inline: 'nearest' })
         } else {
-          submitGroup()
+          if (isSubmitted) redoGroup()
+          else submitGroup()
         }
         return
       }
@@ -986,7 +986,7 @@ function App() {
       window.removeEventListener('blur', clearSequence)
       clearSequence()
     }
-  }, [activeStemIndex, answerStorageId, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, showLectureEvidence, showSource, submitGroup])
+  }, [activeStemIndex, answerStorageId, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showSource, submitGroup])
 
   function jumpTo(index) {
     if (!filteredGroups.length) return
@@ -1165,7 +1165,7 @@ function App() {
           <div className="question-side">
           <section className="question-card" ref={questionCardRef} onClickCapture={lockStem} onFocusCapture={lockStem}>
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
-            <div className="keyboard-help"><strong aria-live="polite">锁定小题 {activeStemIndex + 1} / {group.stems.length}{pendingShortcut ? ` · 输入 ${pendingShortcut}…` : ''}</strong><span>↑↓ 锁定小题 · ←→ 切换题组 · Enter 提交</span><span>字母／数字选择，再按取消；⌘＋字母选小写；多位编号连续输入。</span></div>
+            <div className="keyboard-help"><strong aria-live="polite">锁定小题 {activeStemIndex + 1} / {group.stems.length}{pendingShortcut ? ` · 输入 ${pendingShortcut}…` : ''}</strong><span>↑↓ 锁定小题 · ←→ 切换题组 · Enter {isSubmitted ? '重新作答' : '提交'}</span><span>字母／数字选择，再按取消；⌘＋字母选小写；多位编号连续输入。</span></div>
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
             {group.answerLayout !== 'rows' && group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
               ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} activeStemIndex={activeStemIndex} />
