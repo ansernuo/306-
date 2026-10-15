@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 
 const SUBJECTS = {
   politics: {
@@ -832,9 +832,29 @@ function App() {
     })
   }
 
-  function submitGroup() {
+  const submitGroup = useCallback(() => {
     setSubmitted((previous) => ({ ...previous, [answerStorageId]: true }))
-  }
+  }, [answerStorageId])
+
+  useEffect(() => {
+    if (isLoadingContent || !filteredGroups.length || isSubmitted || showSource || showLectureEvidence) return undefined
+
+    function handleEnter(event) {
+      if (event.key !== 'Enter' || event.defaultPrevented || event.isComposing || event.keyCode === 229
+        || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
+
+      const control = event.target instanceof Element
+        ? event.target.closest('input, textarea, select, button, a, [contenteditable]:not([contenteditable="false"]), [role="button"]')
+        : null
+      if (control && !control.matches('.answer-chip, .fill-answers input, .question-card-bottom .primary-button')) return
+
+      event.preventDefault()
+      if (!event.repeat) submitGroup()
+    }
+
+    window.addEventListener('keydown', handleEnter)
+    return () => window.removeEventListener('keydown', handleEnter)
+  }, [filteredGroups.length, isLoadingContent, isSubmitted, showLectureEvidence, showSource, submitGroup])
 
   function redoGroup() {
     setSubmitted((previous) => {
@@ -1057,7 +1077,7 @@ function App() {
                 {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
               </div>}
             <div className="question-card-bottom">
-              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>{group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">完成每个题干后提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
+              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>{group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
               <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{isSubmitted ? '重新作答' : '提交本题组'}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
             </div>
           </section>
