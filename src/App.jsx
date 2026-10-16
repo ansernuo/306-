@@ -105,14 +105,15 @@ const CONTENT_LOADERS = {
     })
   },
   physiology: async () => {
-    const [content, supplement, exam] = await Promise.all([
+    const [content, supplement, exam, endocrineSummary] = await Promise.all([
       loadJson(() => import('./data/physiology-data.json')),
       loadJson(() => import('./data/physiology-teacher-supplement.json')),
       loadJson(() => import('./data/physiology-stage-exam-data.json')),
+      loadJson(() => import('./data/physiology-endocrine-summary-data.json')),
     ])
     return appendSupplement(content, {
-      groups: [...supplement.groups, ...exam.groups],
-      pages: [...supplement.pages, ...exam.pages],
+      groups: [...supplement.groups, ...exam.groups, ...endocrineSummary.groups],
+      pages: [...supplement.pages, ...exam.pages, ...endocrineSummary.pages],
     })
   },
   surgery: async () => {
