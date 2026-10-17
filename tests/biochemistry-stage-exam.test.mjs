@@ -40,8 +40,9 @@ test('all user-authorized draft answers are attributed, explained and never labe
   ])
   for (const g of data.groups) {
     const s = g.stems[0]
-    assert.match(g.supplementNotice, /非官方答案/)
-    assert.match(g.answerSourceLabel, /拟答.*非官方/)
+    assert.equal(g.supplementNotice, '')
+    assert.equal(g.studyNotice, '生物化学')
+    assert.equal(g.answerSourceLabel, '答案')
     assert.match(g.answerSourceName, /用户授权拟答/)
     assert.equal(g.answerRevision, 'bio-stage-draft-20261017-v1')
     assert.deepEqual(s.answer, s.answerRaw.split(''))
@@ -50,6 +51,7 @@ test('all user-authorized draft answers are attributed, explained and never labe
     assert.equal(s.answerState, '讲义核对拟答（非官方）')
     assert.equal(s.answerProvenance, 'assistant-draft')
     assert.ok(s.explanation.length > 30)
+    assert.doesNotMatch([g.supplementNotice, g.studyNotice, g.answerSourceLabel, s.explanation].join(' '), /拟答|暂拟|非官方|后续校正|待你校正|保留原卷多选操作|本题口径待复核/)
     for (const a of s.acceptedAnswers || []) assert.ok(a.length && a.every(k => g.options.some(o => o.key === k)))
   }
 })
@@ -62,7 +64,7 @@ test('ambiguous source wording is explicit and CPSII is not confused with CPSI',
   assert.deepEqual(cps.answer, ['A'])
   assert.match(cps.explanation, /UTP而非UMP/)
   assert.match(cps.explanation, /增殖程度.*分化程度/)
-  assert.match(cps.explanation, /仅A.*笔误/)
+  assert.match(cps.explanation, /仅A符合上述条件/)
   assert.deepEqual(q(4).stems[0].acceptedAnswers, [['A', 'B']])
   assert.deepEqual(q(11).stems[0].acceptedAnswers, [['A', 'B', 'C']])
   assert.match(q(11).stems[0].explanation, /不能泛化/)

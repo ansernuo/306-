@@ -72,6 +72,15 @@ REFERENCES = {
 }
 
 
+def display_explanation(number):
+    text = re.sub(r'^(?:拟答(?:仅)?|暂拟)[A-D]+[。，]', '', EXPLANATIONS[number])
+    text = text.replace('按本题常见教材列举口径。', '')
+    text = text.replace('本题暂同时接受AB；', '')
+    text = text.replace('；因此本题暂同时接受ABC，待你校正D项口径。', '。')
+    text = text.replace('原卷标X，但现有四项仅A符合讲义，疑似题型或选项笔误，保留原卷多选操作。', '本题仅A符合上述条件。')
+    return text.replace('，保留本题口径待复核。', '。')
+
+
 def clean(text):
     # The printed source contains these watermark fragments within sentences.
     text = text.replace('uusx', '')
@@ -149,8 +158,8 @@ def build():
             'kind': 'X' if q['multiple'] else 'A',
             'kindLabel': '多项选择' if q['multiple'] else '单项选择',
             'answerLayout': 'rows', 'topic': TOPICS[lecture], 'lectureIds': [lid],
-            'supplement': True, 'supplementNotice': '讲义核对拟答，非官方答案，可后续校正',
-            'answerSourceLabel': '拟答（非官方）',
+            'supplement': True, 'supplementNotice': '', 'studyNotice': '生物化学',
+            'answerSourceLabel': '答案',
             'answerSourceName': '用户授权拟答：讲义与补充资料核对（2026-10-17）',
             'answerRevision': 'bio-stage-draft-20261017-v1',
             'options': [{'key': key, 'displayKey': key, 'label': value}
@@ -159,7 +168,7 @@ def build():
                        'text': q['text'], 'answerRaw': answer, 'answer': list(answer),
                        'answerMode': mode, 'sourceAnswerMode': mode,
                        'answerState': '讲义核对拟答（非官方）', 'answerProvenance': 'assistant-draft',
-                       'explanation': EXPLANATIONS[n],
+                       'explanation': display_explanation(n),
                        **({'acceptedAnswers': ACCEPTED_ALTERNATIVES[n]} if n in ACCEPTED_ALTERNATIVES else {}),
                        **({'answerReviewNote': '原题表述/题型口径需复核，详见答后解析'} if n in REVIEW_QUESTIONS else {}),
                        **({'answerReferences': REFERENCES[n]} if n in REFERENCES else {}),

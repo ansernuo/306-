@@ -1369,6 +1369,7 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
 function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
   if (subject === 'politics') return <PoliticsEvidence {...{ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }} />
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
+  const supplementDescription = ['按考点归入讲义', group.supplementNotice ?? '答案尚未逐项复核'].filter(Boolean).join('；')
   const currentEvidence = group.lectureEvidence
   const currentEvidenceLocation = currentEvidence?.pageLabel || (typeof currentEvidence?.page === 'number' ? `对应第 ${currentEvidence.page} 页` : (currentEvidence?.page ? `对应${currentEvidence.page}` : '已关联讲义'))
   return (
@@ -1379,7 +1380,7 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
         <span className="evidence-rail-label">讲义</span>
       </div>
       <div className="evidence-panel-content">
-      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name={group.supplement ? 'file' : 'check'} size={18} /></span><div><h2>{group.supplement ? '章节定位' : '讲义依据'}</h2><p>{group.supplement ? `按考点归入讲义；${group.supplementNotice || '答案尚未逐项复核'}` : (lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义')}</p></div>{group.supplement ? null : <span className="verified-dot"><Icon name="check" size={13} /></span>}<button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
+      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name={group.supplement ? 'file' : 'check'} size={18} /></span><div><h2>{group.supplement ? '章节定位' : '讲义依据'}</h2><p>{group.supplement ? supplementDescription : (lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义')}</p></div>{group.supplement ? null : <span className="verified-dot"><Icon name="check" size={13} /></span>}<button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? currentEvidenceLocation : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">对应</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
