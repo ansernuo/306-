@@ -184,7 +184,7 @@ const CONTENT_LOADERS = {
         lectureCount: 20,
         groupCount: groups.length,
         stemCount: groups.reduce((sum, group) => sum + group.stems.length, 0),
-        answerNote: '已收录第01～20讲题组、分章课后巩固及阶段考试；阶段考试原卷未附答案，暂不自动判分。',
+        answerNote: `已收录第01～20讲题组、分章课后巩固及阶段考试；${biochemistryExamContent.meta.answerNote}`,
       },
       topics: ['糖代谢', '生物氧化', '脂代谢', '氨基酸与蛋白质', '核苷酸代谢', '胆色素代谢与生物转化', '酶', '维生素', '小基因', '核酸'],
       groups,

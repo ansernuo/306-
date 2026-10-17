@@ -68,7 +68,10 @@ def audit():
                     issue('invalid_answer', answer, n)
                 if len(set(answer)) != len(answer):
                     issue('duplicate_answer', answer, n)
-                expected = '多选' if len(answer) > 1 else '单选'
+                # A source X-type question may have just one defensible draft
+                # answer (exam Q10); preserve the source checkbox semantics.
+                source_multiple = group.get('kind') == 'X' and stem.get('sourceAnswerMode') == '多选'
+                expected = '多选' if len(answer) > 1 or source_multiple else '单选'
                 if mode != expected:
                     issue('incorrect_answer_mode', {'actual': mode, 'expected': expected}, n)
                 display = {o['key']: o.get('displayKey', o['key']) for o in pool}

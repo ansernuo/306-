@@ -27,16 +27,49 @@ test('all 25 biochemistry exam questions retain original numbering, four choices
   }
 })
 
-test('the source has no answer key: no answers are inferred or labelled as supplied', () => {
-  assert.deepEqual(data.meta.missingAnswerQuestions, Array.from({ length: 25 }, (_, i) => i + 1))
+test('all user-authorized draft answers are attributed, explained and never labelled official', () => {
+  assert.deepEqual(data.meta.missingAnswerQuestions, [])
+  assert.equal(data.meta.hasOfficialAnswerKey, false)
+  assert.deepEqual(data.meta.missingOfficialAnswerQuestions, Array.from({ length: 25 }, (_, i) => i + 1))
+  assert.deepEqual(data.meta.draftAnswerQuestions, data.meta.missingOfficialAnswerQuestions)
   assert.equal(data.meta.answerRows, undefined)
+  assert.deepEqual(data.groups.map(g => g.stems[0].answerRaw), [
+    'B', 'D', 'BC', 'ABC', 'D', 'ABD', 'C', 'B', 'A', 'A',
+    'ABCD', 'D', 'ABD', 'B', 'B', 'B', 'B', 'AC', 'D', 'B',
+    'ABCD', 'ACD', 'C', 'B', 'D',
+  ])
   for (const g of data.groups) {
-    assert.match(g.supplementNotice, /原卷未附答案/)
-    assert.equal(g.answerSourceName, undefined)
-    assert.deepEqual(g.stems[0].answer, [])
-    assert.equal(g.stems[0].answerRaw, '')
-    assert.equal(g.stems[0].answerState, '暂无参考答案')
+    const s = g.stems[0]
+    assert.match(g.supplementNotice, /非官方答案/)
+    assert.match(g.answerSourceLabel, /拟答.*非官方/)
+    assert.match(g.answerSourceName, /用户授权拟答/)
+    assert.equal(g.answerRevision, 'bio-stage-draft-20261017-v1')
+    assert.deepEqual(s.answer, s.answerRaw.split(''))
+    assert.ok(s.answer.length && s.answer.every(k => g.options.some(o => o.key === k)))
+    assert.equal(s.sourceAnswerMode, s.answerMode)
+    assert.equal(s.answerState, '讲义核对拟答（非官方）')
+    assert.equal(s.answerProvenance, 'assistant-draft')
+    assert.ok(s.explanation.length > 30)
+    for (const a of s.acceptedAnswers || []) assert.ok(a.length && a.every(k => g.options.some(o => o.key === k)))
   }
+})
+
+test('ambiguous source wording is explicit and CPSII is not confused with CPSI', () => {
+  assert.deepEqual(data.meta.reviewQuestionNumbers, [4, 10, 11, 18, 24])
+  const cps = q(10).stems[0]
+  assert.equal(q(10).kind, 'X')
+  assert.equal(cps.answerMode, '多选', 'keep the source X-type controls, even when only A is defensible')
+  assert.deepEqual(cps.answer, ['A'])
+  assert.match(cps.explanation, /UTP而非UMP/)
+  assert.match(cps.explanation, /增殖程度.*分化程度/)
+  assert.match(cps.explanation, /仅A.*笔误/)
+  assert.deepEqual(q(4).stems[0].acceptedAnswers, [['A', 'B']])
+  assert.deepEqual(q(11).stems[0].acceptedAnswers, [['A', 'B', 'C']])
+  assert.match(q(11).stems[0].explanation, /不能泛化/)
+  assert.match(q(18).stems[0].explanation, /最终多肽/)
+  assert.match(q(24).stems[0].explanation, /缺少统计范围/)
+  assert.deepEqual(q(21).stems[0].answer, ['A', 'B', 'C', 'D'])
+  assert.ok(q(21).stems[0].answerReferences.some(url => url.includes('11545734')))
 })
 
 test('cross-page choices, source page images and notation survive extraction', () => {
