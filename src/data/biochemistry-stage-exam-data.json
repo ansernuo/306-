@@ -135,7 +135,11 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "接近生理pH时，pI低于环境pH的蛋白质带负电、向正极迁移。按本题以pI比较的条件，自正极侧依次为B（2.77）、A（6.01）、D（7.80）、C（9.64）。",
-          "lectureId": "lecture-08"
+          "lectureId": "lecture-08",
+          "knowledgeConnections": [
+            "环境pH＞pI→蛋白带负电向正极；pH＜pI→带正电向负极，pH＝pI时净电荷约为零。",
+            "非变性电泳还受分子大小及形状影响；SDS-PAGE则主要按分子量分离。"
+          ]
         }
       ]
     },
@@ -201,7 +205,11 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "肌肉缺乏葡糖-6-磷酸酶，不能将葡糖-6-磷酸水解为可释放入血的游离葡萄糖；不要与磷酸戊糖途径中的葡糖-6-磷酸脱氢酶混淆。",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "knowledgeConnections": [
+            "肝可用葡糖-6-磷酸酶将糖原生成的G6P转成游离葡萄糖；骨骼肌G6P主要供自身代谢。",
+            "葡糖-6-磷酸脱氢酶属于磷酸戊糖途径，生成NADPH以维持抗氧化。"
+          ]
         }
       ]
     },
@@ -268,7 +276,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "磷酸戊糖途径提供5-磷酸核糖和NADPH，分别满足核酸合成和脂肪酸等还原性合成的需要。糖异生或尿素合成增强本身并不必然要求该途径增强。",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "knowledgeConnections": [
+            "NADPH联系脂肪酸、胆固醇合成及谷胱甘肽还原；5-磷酸核糖联系核苷酸合成。"
+          ]
         }
       ]
     },
@@ -346,7 +357,10 @@
           "answerReferences": [
             "https://pubmed.ncbi.nlm.nih.gov/1747116/"
           ],
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "knowledgeConnections": [
+            "肌肉糖酵解利用局部糖原供能，肝糖异生回收乳酸却要消耗ATP，乳酸循环并非全身净产能。"
+          ]
         }
       ]
     },
@@ -413,7 +427,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "胞质脂肪酸合成中，延长中的酰基由ACP（酰基载体蛋白）的磷酸泛酰巯基乙胺臂携带。生物素主要参与羧化反应，不能据此选作延长酰基的载体。",
-          "lectureId": "lecture-06"
+          "lectureId": "lecture-06",
+          "knowledgeConnections": [
+            "脂肪酸合成的ACP与β氧化的CoA载体不同；ACP和CoA都含与泛酸有关的巯基携带结构。"
+          ]
         }
       ]
     },
@@ -481,7 +498,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "按正常成人的典型供能特点，肝、心及肾（尤其肾皮质）大量利用脂肪酸；脑通常不以长链脂肪酸β氧化为主要能源。肾髓质与肾皮质不同，不能将“肾”理解为所有肾细胞均主要氧化脂肪酸。",
-          "lectureId": "lecture-06"
+          "lectureId": "lecture-06",
+          "knowledgeConnections": [
+            "脑主要利用葡萄糖，长期饥饿可增加酮体利用；成熟红细胞无线粒体，不能靠脂肪酸氧化供能。"
+          ]
         }
       ]
     },
@@ -547,7 +567,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "P/O约1.4接近通常所用的1.5，提示绕过复合体Ⅰ、在辅酶Q水平进入呼吸链；NADH经复合体Ⅰ进入时常按约2.5计算。",
-          "lectureId": "lecture-02"
+          "lectureId": "lecture-02",
+          "knowledgeConnections": [
+            "复合体Ⅰ、Ⅲ、Ⅳ泵质子，复合体Ⅱ不泵质子；绕过Ⅰ进入辅酶Q时ATP产量较低。"
+          ]
         }
       ]
     },
@@ -613,7 +636,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "鸟氨酸脱羧酶催化鸟氨酸生成腐胺，是多胺合成的关键调节酶；注意是脱羧，不是脱氨。",
-          "lectureId": "lecture-07"
+          "lectureId": "lecture-07",
+          "knowledgeConnections": [
+            "鸟氨酸经脱羧生成腐胺，后续可形成亚精胺、精胺，多胺合成常联系细胞增殖。"
+          ]
         }
       ]
     },
@@ -679,7 +705,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "蛋氨酸经SAM提供甲基，参与磷脂酰胆碱等代谢；缺乏可影响肝内脂质输出，促进脂肪肝形成。",
-          "lectureId": "lecture-07"
+          "lectureId": "lecture-07",
+          "knowledgeConnections": [
+            "蛋氨酸—SAM提供活性甲基；磷脂酰胆碱参与脂蛋白组装和肝脂质输出。"
+          ]
         }
       ]
     },
@@ -706,8 +735,8 @@
       "supplementNotice": "",
       "studyNotice": "生物化学",
       "answerSourceLabel": "答案",
-      "answerSourceName": "用户授权拟答：讲义与补充资料核对（2026-10-17）",
-      "answerRevision": "bio-stage-draft-20261017-v1",
+      "answerSourceName": "用户校正（2026-10-17）",
+      "answerRevision": "bio-stage-cpsii-20261017-v2",
       "options": [
         {
           "key": "A",
@@ -736,20 +765,23 @@
           "sourceQuestion": 10,
           "sourcePage": 2,
           "text": "以下关于氨基甲酰磷酸合成酶Ⅱ的叙述，正确的有",
-          "answerRaw": "A",
+          "answerRaw": "AC",
           "answer": [
-            "A"
+            "A",
+            "C"
           ],
           "answerMode": "多选",
           "sourceAnswerMode": "多选",
-          "answerState": "讲义核对拟答（非官方）",
-          "answerProvenance": "assistant-draft",
-          "explanation": "按本题采用的哺乳动物CPSⅡ口径：其位于胞质、氮源为谷氨酰胺，受UTP而非UMP反馈抑制。讲义将细菌嘧啶合成的经典关键酶列为天冬氨酸氨基甲酰转移酶；CPSⅡ对应细胞增殖程度，肝细胞分化程度对应CPSⅠ。本题仅A符合上述条件。",
-          "answerReviewNote": "原题表述/题型口径需复核，详见答后解析",
+          "answerState": "用户校正",
+          "answerProvenance": "user-correction",
+          "explanation": "本题选A、C。CPSⅡ位于胞质，以谷氨酰胺为氮源；细菌嘧啶合成的经典关键酶是天冬氨酸氨基甲酰转移酶。CPSⅡ反映细胞增殖程度，肝细胞分化程度对应CPSⅠ，注意区分B、D中的表述。",
           "answerReferences": [
             "https://pubmed.ncbi.nlm.nih.gov/14651476/"
           ],
-          "lectureId": "lecture-09"
+          "lectureId": "lecture-09",
+          "knowledgeConnections": [
+            "CPSⅠ：线粒体、氨为氮源、尿素合成；CPSⅡ：胞质、谷氨酰胺为氮源、嘧啶合成。"
+          ]
         }
       ]
     },
@@ -817,7 +849,7 @@
           "sourceAnswerMode": "多选",
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
-          "explanation": "磺胺、水杨酸及较高浓度游离脂肪酸可干扰胆红素—白蛋白结合，增加游离胆红素。胆汁酸项有表述争议：影响依具体分子及实验条件而异，原始研究也有增强胆红素结合的结果，不能泛化为所有胆汁酸均竞争置换。",
+          "explanation": "本题按讲义考查影响胆红素与白蛋白结合的因素，选磺胺、水杨酸、游离脂肪酸及胆汁酸。药物竞争结合位点或结合环境改变可增加游离胆红素；具体影响与浓度、分子种类和结合条件有关，不能泛化为所有胆汁酸均在所有条件下竞争置换。",
           "acceptedAnswers": [
             [
               "A",
@@ -830,7 +862,10 @@
             "https://www.jci.org/articles/view/107882",
             "https://pubmed.ncbi.nlm.nih.gov/2444264/"
           ],
-          "lectureId": "lecture-10"
+          "lectureId": "lecture-10",
+          "knowledgeConnections": [
+            "游离非结合胆红素可通过血脑屏障，白蛋白结合减少或被置换可增加胆红素脑病风险。"
+          ]
         }
       ]
     },
@@ -896,7 +931,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "题目问错误项。讲义列出的睾酮诱导对象是ALA合酶，而非终末步骤的血红素合成酶（亚铁螯合酶）。甘氨酸、琥珀酰CoA和Fe²⁺为原料，起始与终末阶段在线粒体，ALA合酶需要磷酸吡哆醛。",
-          "lectureId": "lecture-10"
+          "lectureId": "lecture-10",
+          "knowledgeConnections": [
+            "血红素合成始末在线粒体，中间在胞质；ALA合酶需VitB₆，铅主要影响ALA脱水酶和亚铁螯合酶等环节。"
+          ]
         }
       ]
     },
@@ -964,7 +1002,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "真核基因组中编码序列占比较小，存在多基因家族及假基因，典型蛋白质编码mRNA为单顺反子。“断裂基因”指外显子被内含子隔开，不是说转录本身跳过内含子、断续进行。",
-          "lectureId": "lecture-20"
+          "lectureId": "lecture-20",
+          "knowledgeConnections": [
+            "内含子、外显子与转录后剪接相联系；外显子中也可有非翻译区，不等同全部为编码区。"
+          ]
         }
       ]
     },
@@ -1030,7 +1071,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "遗传性乳腺癌的重要易感基因BRCA1/BRCA2参与同源重组修复；错配修复缺陷典型关联Lynch综合征，核苷酸切除修复缺陷典型关联着色性干皮病。",
-          "lectureId": "lecture-20"
+          "lectureId": "lecture-20",
+          "knowledgeConnections": [
+            "BRCA与同源重组，MMR与Lynch，NER与着色性干皮病，可按损伤修复路径串联。"
+          ]
         }
       ]
     },
@@ -1096,7 +1140,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "端粒酶延长染色体末端富G/T的端粒重复序列，从而补偿复制导致的末端缩短；polyA尾是典型真核mRNA加工特征。",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "knowledgeConnections": [
+            "端粒酶含RNA模板并有逆转录酶活性；mRNA的polyA尾不用于补偿DNA末端复制。"
+          ]
         }
       ]
     },
@@ -1163,7 +1210,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "题目问错误项。端粒酶以自身RNA为模板延长DNA的3′端，而不是向5′端添加端粒；其余项描述RNA模板、富G/T单链末端识别及线性染色体复制相关作用。",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "knowledgeConnections": [
+            "DNA新链均按5′→3′合成；端粒酶先延长模板链3′端，另一条链再由复制系统补合。"
+          ]
         }
       ]
     },
@@ -1229,7 +1279,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "流产性起始指转录起始时RNA聚合酶反复合成并释放短RNA，未能进入稳定延长阶段，属于RNA合成的起始过程。",
-          "lectureId": "lecture-17"
+          "lectureId": "lecture-17",
+          "knowledgeConnections": [
+            "转录起始要从启动子结合进入启动子逃逸和稳定延长；释放短RNA不等于翻译提前终止。"
+          ]
         }
       ]
     },
@@ -1297,7 +1350,10 @@
           "answerProvenance": "assistant-draft",
           "explanation": "一个mRNA可同时结合多个核糖体，形成多聚核糖体；C按各核糖体完成同一开放阅读框后所得最终多肽解释。瞬时新生肽链长度不同，合成单条完整肽链所需时间并未因此缩短，提高的是并行产量。",
           "answerReviewNote": "原题表述/题型口径需复核，详见答后解析",
-          "lectureId": "lecture-18"
+          "lectureId": "lecture-18",
+          "knowledgeConnections": [
+            "多聚核糖体提高单位时间总产量，单个核糖体仍按mRNA的5′→3′读取、肽链N端→C端延长。"
+          ]
         }
       ]
     },
@@ -1363,7 +1419,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "典型动物miRNA与靶mRNA多不完全互补。转录后调控、Dicer加工和RISC参与并不是miRNA相对于siRNA独有的特点。",
-          "lectureId": "lecture-19"
+          "lectureId": "lecture-19",
+          "knowledgeConnections": [
+            "miRNA及siRNA均可进入RISC；互补程度及生物体背景影响靶RNA切割、降解与翻译抑制。"
+          ]
         }
       ]
     },
@@ -1429,7 +1488,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "按本讲义的经典原核/真核比较，miRNA调控属于真核机制；原核可通过反义RNA、调节蛋白结合mRNA及稀有密码子比例影响表达。本题不讨论非典型或工程化RNA系统。",
-          "lectureId": "lecture-19"
+          "lectureId": "lecture-19",
+          "knowledgeConnections": [
+            "原核表达可由操纵子、RNA稳定性和翻译效率调控；典型miRNA机制主要用于真核比较。"
+          ]
         }
       ]
     },
@@ -1501,7 +1563,10 @@
           "answerReferences": [
             "https://pubmed.ncbi.nlm.nih.gov/11545734/"
           ],
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "knowledgeConnections": [
+            "p53可通过周期阻滞、损伤应答和凋亡抑制肿瘤；p21抑CDK、BAX促凋亡、PTEN限制PI3K-AKT。"
+          ]
         }
       ]
     },
@@ -1569,7 +1634,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "化学合成、cDNA文库和PCR均可用于获得目的基因。基因芯片主要用于检测、分析序列或表达信息，不是本题所考的目的基因制备方法。",
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "knowledgeConnections": [
+            "获取目的基因、载体连接、导入宿主、筛选鉴定属于不同步骤；cDNA通常不含基因组内含子。"
+          ]
         }
       ]
     },
@@ -1635,7 +1703,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "GATATC的反向互补序列仍为GATATC，符合本题所考常见Ⅱ类限制酶识别的回文结构；EcoRV即识别这一序列。并非所有Ⅱ类限制酶都只识别这种回文序列。",
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "knowledgeConnections": [
+            "回文序列需比较双链各自5′→3′读序；限制酶切割可形成黏性或平末端。"
+          ]
         }
       ]
     },
@@ -1700,12 +1771,15 @@
           "sourceAnswerMode": "单选",
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
-          "explanation": "按本讲义中用于蛋白质相互作用分析的GST pull-down考点，标签是GST；GST与固定化谷胱甘肽结合以捕获相互作用蛋白。“目前最常用”缺少统计范围，不能据此断言GST在所有标签技术中都最常用；His标签也能用于亲和纯化及pull-down。",
+          "explanation": "本题考查讲义中的GST pull-down技术，选择GST标签。GST与固定化谷胱甘肽特异结合，捕获带标签的诱饵蛋白及其相互作用蛋白；His标签对应金属离子亲和体系，应按标签与配体的对应关系区分。",
           "answerReviewNote": "原题表述/题型口径需复核，详见答后解析",
           "answerReferences": [
             "https://www.thermofisher.com/order/catalog/product/21516"
           ],
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "knowledgeConnections": [
+            "GST配体为谷胱甘肽，His标签联系金属离子亲和；蛋白纯化与验证直接相互作用需分开设计。"
+          ]
         }
       ]
     },
@@ -1771,7 +1845,10 @@
           "answerState": "讲义核对拟答（非官方）",
           "answerProvenance": "assistant-draft",
           "explanation": "ddNTP缺少继续延长所需的3′-OH，掺入后终止DNA链合成；Sanger链终止测序据终止片段确定序列。",
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "knowledgeConnections": [
+            "ddNTP缺少3′-OH使下一次磷酸二酯键不能形成；普通dNTP仍可用于链延伸。"
+          ]
         }
       ]
     }

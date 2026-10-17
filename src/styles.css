@@ -397,6 +397,17 @@ button:disabled { cursor: default; }
 }
 
 .matching-explanation { grid-column: 1 / -1; margin: 4px 0 0 30px; color: #526176; line-height: 1.75; font-size: 13px; padding: 10px 12px; background: #f5f8fd; border-radius: 6px; }
+.question-study-notes { grid-column: 1 / -1; min-width: 0; margin: 4px 0 0 30px; padding: 12px 14px; border-left: 3px solid #aac6e3; border-radius: 6px; background: #f5f8fd; color: #43536a; font-size: 13px; line-height: 1.8; overflow-wrap: anywhere; }
+.question-study-notes h3 { margin: 0 0 4px; color: #37678e; font-size: 13px; font-weight: 700; }
+.question-study-notes p { margin: 0; white-space: pre-line; }
+.question-connections { margin-top: 12px; }
+.question-connections:first-child { margin-top: 0; }
+.question-connections h3 { color: #945849; }
+.question-connections ul { margin: 0; padding-left: 18px; }
+.question-connections li + li { margin-top: 5px; }
+.answer-table-study-row td { padding: 0 10px 12px; background: rgba(255,255,255,.72); }
+.answer-table-study-row .question-study-notes { margin: 0; }
+@media (max-width: 640px) { .question-study-notes { margin-left: 0; padding: 10px 12px; } }
 .politics-source-note { margin-top: 20px; color: #607089; font-size: 13px; line-height: 1.8; }
 .politics-source-note strong { color: #23334c; }
 @media (max-width: 720px) {

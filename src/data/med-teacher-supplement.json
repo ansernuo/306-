@@ -88,7 +88,12 @@
           "optionCategory": "第 1 题选项",
           "sourceQuestion": 1,
           "lectureId": "lecture-01",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "COPD伴肺气肿使含气量增多、声音传导减弱，可有心音遥远、语音共振减弱及呼气延长。支气管呼吸音提示肺实变或与支气管相通的空洞，不是单纯肺气肿的典型表现。",
+          "knowledgeConnections": [
+            "肺气肿使语音震颤减弱，肺实变反而增强",
+            "阻塞性通气障碍以呼气流速下降为特征"
+          ]
         },
         {
           "number": 2,
@@ -102,7 +107,12 @@
           "optionCategory": "第 2 题选项",
           "sourceQuestion": 2,
           "lectureId": "lecture-11",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "pH7.49提示碱血症，PaCO2仍高达55mmHg却不能解释碱血症，说明呼吸性酸中毒同时存在更强的代谢性碱中毒；BE+15支持碱储备明显增加。不能只凭pH判成单纯代碱。",
+          "knowledgeConnections": [
+            "慢性CO2潴留经肾代偿保留HCO3−",
+            "纠正通气过快、利尿及缺钾缺氯可诱发治疗后碱中毒"
+          ]
         }
       ],
       "sourceText": "男性,60岁。反复咳喘40余年,活动后气短10余年,加重1天入院,吸烟40年。查体:口唇发绀,双肺闻及干湿啰音。血气分析示pH7.26,PaO2 45mmHg,PaCO2 75mmHg。 该患者心肺听诊时最不可能出现的体征是 该患者经治疗后病情有好转。数日后出现烦躁,有时抽搐,血气分析示pH7.49,PaO2 66mmHg,PaCO2 55mmHg,BE+15mmol/L。上述情况最可能是 语音共振减弱 心音遥远 呼气相延长 支气管呼吸音 失代偿性代谢性碱中毒 失代偿性呼吸性酸中毒 呼吸性碱中毒合并代谢性碱中毒 呼吸性酸中毒合并代谢性碱中毒",
@@ -157,7 +167,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 5,
           "lectureId": "lecture-01",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "肺心病患者长期缺氧、右房扩大及电解质紊乱，易发生房性心律失常，其中紊乱性房性心动过速最具特征性。并非说它比所有房性期前收缩都常见，而是题目问特征。",
+          "knowledgeConnections": [
+            "紊乱性房速可见至少三种P波形态及不等的P-P间期",
+            "与房颤无明确P波鉴别"
+          ]
         }
       ],
       "sourceText": "在慢性肺心病的并发症中,心律失常最特征的类型是 房性期前收缩 紊乱性房速 室性心动过速 阵发性室上性心动过速",
@@ -211,7 +226,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 10,
           "lectureId": "lecture-03",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "肺血栓主要为静脉系统形成的纤维蛋白血栓，基础治疗是抗凝。华法林、肝素及利伐沙班均作用于凝血过程；阿司匹林主要抑制血小板，不能替代肺栓塞的规范抗凝。",
+          "knowledgeConnections": [
+            "静脉血栓抗凝与动脉粥样血栓抗血小板的侧重不同",
+            "溶栓用于特定高危肺栓塞而非所有患者"
+          ]
         }
       ],
       "sourceText": "在肺血栓栓塞症的基本治疗中,尚不能满足要求的是 华法林 阿司匹林 普通肝素 利伐沙班",
@@ -265,7 +285,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 11,
           "lectureId": "lecture-04",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "进行性活动后气短、干咳及双肺底吸气末爆裂音提示间质性肺疾病。HRCT能识别网格影、蜂窝肺及分布模式，较肺功能更有助于明确影像类型；BALF主要辅助排除感染和其他病因。",
+          "knowledgeConnections": [
+            "特发性肺纤维化常有肺底Velcro啰音及杵状指",
+            "肺功能评估严重度不等于确定病因"
+          ]
         }
       ],
       "sourceText": "男性,62岁,吸烟60支/年。1年前无明显诱因出现活动后气短,干咳,快步行或上楼时感呼吸困难, 有时需停下休息。查体:T36.9度,P70次/分,R26次/分,BP120/60mmHg。神志清楚,双肺底可闻及吸 气末爆裂音。该患者明确诊断的最佳检查是 BALF 痰培养 肺功能 HRCT",
@@ -319,7 +344,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 12,
           "lectureId": "lecture-04",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "肺纤维化使肺顺应性下降，出现限制性通气障碍，肺总量TLC下降最有代表性。FEV1与FVC可同步下降，FEV1/FVC常正常或升高；RV/TLC显著升高更提示气体潴留。",
+          "knowledgeConnections": [
+            "肺纤维化限制性通气与COPD阻塞性通气鉴别",
+            "间质增厚还导致DLCO下降"
+          ]
         }
       ],
       "sourceText": "特发性肺纤维化的典型肺容量和通气功能的特征性变化是 FEV1/FVC减低 TLC减低 RV/TLC升高 FEV1占预计值百分比减低",
@@ -374,7 +404,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 13,
           "lectureId": "lecture-04",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "吡非尼酮为抗纤维化治疗，合并低氧时氧疗改善氧合。稳定期IPF不常规用糖皮质激素，机械通气也不是稳定期治疗；不能把其他炎症性间质肺病的激素方案直接套用。",
+          "knowledgeConnections": [
+            "尼达尼布同属抗纤维化治疗",
+            "氧疗纠正低氧但不能逆转纤维化"
+          ]
         }
       ],
       "sourceText": "(多选题)特发性肺纤维化患者在稳定期推荐的治疗有 糖皮质激素 氧疗 吡非尼酮 机械通气",
@@ -487,7 +522,12 @@
           "optionCategory": "第 14 题选项",
           "sourceQuestion": 14,
           "lectureId": "lecture-04",
-          "answerSourcePage": 2
+          "answerSourcePage": 2,
+          "explanation": "牛乳状BALF及PAS阳性肺泡填充物指向肺泡蛋白沉积症。充填的肺泡仍有灌注但通气不足，形成显著肺内分流，是本题低氧的主要机制，而不单是间质增厚引起弥散障碍。",
+          "knowledgeConnections": [
+            "ARDS与肺泡蛋白沉积症均可有肺内分流",
+            "分流性低氧对吸氧的改善相对较差"
+          ]
         },
         {
           "number": 15,
@@ -501,7 +541,12 @@
           "optionCategory": "第 15 题选项",
           "sourceQuestion": 15,
           "lectureId": "lecture-04",
-          "answerSourcePage": 2
+          "answerSourcePage": 2,
+          "explanation": "肺泡蛋白沉积症的HRCT常见磨玻璃影和小叶间隔增厚形成铺路石征，可与正常肺呈地图样分界。肺门淋巴结对称增大更提示结节病，胸膜下基底蜂窝影则偏向UIP型纤维化。",
+          "knowledgeConnections": [
+            "PAS阳性脂蛋白物质对应肺泡腔内填充",
+            "铺路石征并非该病独有，需结合BALF"
+          ]
         },
         {
           "number": 16,
@@ -515,7 +560,12 @@
           "optionCategory": "第 16 题选项",
           "sourceQuestion": 16,
           "lectureId": "lecture-04",
-          "answerSourcePage": 2
+          "answerSourcePage": 2,
+          "explanation": "全肺灌洗直接清除肺泡内异常积聚的表面活性物质，是本题所列措施中最有效的针对性治疗。脱离抗原用于过敏性肺炎，尼达尼布用于纤维化，糖皮质激素不是本病常规治疗。",
+          "knowledgeConnections": [
+            "肺泡巨噬细胞清除表面活性物质障碍参与发病",
+            "自身免疫性类型与GM-CSF通路有关"
+          ]
         }
       ],
       "sourceText": "男性,50岁。进行性气促、呼吸困难,伴咳嗽,咳痰5年,近期查体见杵状指。胸片示双侧肺门呈对称性放射状斑点状、片状浸润影,BALF呈牛乳状,细支气管和肺泡充填PAS染色阳性物质。 该患者低氧血症最主要的机制是 该患者胸部HRCT的特征性表现为 该患者最有效的治疗措施是 肺泡通气量下降 肺内分流 弥散障碍 VA/Q失调 肺水肿反转形状 双侧肺门淋巴结肿大 磨玻璃影与正常肺组织截然分开呈地图样 胸膜下、基底部分布为主的网格、蜂窝影 糖皮质激素 全肺灌洗 脱离抗原接触,必要时糖皮质激素 尼达尼布抗纤维化,必要时肺移植",
@@ -569,7 +619,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 9,
           "lectureId": "lecture-05",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "支扩病变仅局限右肺中叶，反复咯血20年且内科治疗效果欠佳，符合讲义局限性病变手术切除的条件，故选B。支气管动脉栓塞可控制急性出血，肺动脉栓塞不是支扩咯血的常规靶点。",
+          "knowledgeConnections": [
+            "支扩大咯血主要来自高压的支气管动脉而非肺动脉",
+            "局限病灶可评估手术，弥漫病变通常不宜切除"
+          ]
         }
       ],
       "sourceText": "女性,35岁。间断咳嗽、咳痰伴咯血20年。HRCT:右肺中叶支气管囊状扩张,其余肺叶未见明显异常。 今日再次咯血,量约200ml,给予静脉点滴垂体后叶素,效果欠佳。该患者宜选择的最佳治疗措施是 支气管镜下止血 手术切除病变肺叶 病变肺叶肺动脉栓塞 病变肺叶支气管动脉栓塞",
@@ -623,7 +678,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 1,
           "lectureId": "lecture-07",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "医院获得性肺炎在本讲义中强调误吸胃肠道定植菌，胃食管反流、意识障碍及醉酒等可促成，故选D。飞沫吸入、口咽分泌物吸入与血行播散也可参与肺部感染，但不是本题采用的主要途径。",
+          "knowledgeConnections": [
+            "医院肺炎常见革兰阴性杆菌及金葡菌",
+            "胃食管反流、意识障碍及人工气道可增加误吸风险"
+          ]
         }
       ],
       "sourceText": "在医院获得性肺炎中,病原体进入肺组织引起感染的最主要途径是 飞沫吸入 口咽部分泌物吸入 血源性播散 胃食管反流物误吸",
@@ -712,7 +772,12 @@
           "optionCategory": "第 2 题选项",
           "sourceQuestion": 2,
           "lectureId": "lecture-07",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "左下肺实变可增强语音震颤、传导支气管呼吸音，邻近胸膜受累可有摩擦音。单纯大叶性肺炎一般无明显肺容积改变，不将气管推向对侧；明显健侧移位更考虑大量积液或张力性气胸。",
+          "knowledgeConnections": [
+            "肺实变增强声音传导",
+            "肺不张牵向患侧、大量胸腔积液推向健侧"
+          ]
         },
         {
           "number": 3,
@@ -726,7 +791,12 @@
           "optionCategory": "第 3 题选项",
           "sourceQuestion": 3,
           "lectureId": "lecture-07",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "寒战高热、口角疱疹、胸痛及大叶实变伴空气支气管征符合肺炎链球菌肺炎。青霉素耐药并不排除链球菌；金葡菌更常见多发坏死空洞，克雷伯杆菌常有黏稠胶冻样痰。",
+          "knowledgeConnections": [
+            "空气支气管征来自充气支气管被实变肺泡衬托",
+            "病原学与药敏结果共同决定抗菌药"
+          ]
         }
       ],
       "sourceText": "男性,38岁。醉酒后畏寒、高热,继之咳嗽、咳少量黏液脓性痰,伴左胸和左上腹痛、 全身肌肉酸痛5天。查体:急性病容,口角疱疹,T39.5度,P110次/分,R28次/分,BP120/80mmHg, 心率110次/分,偶有早搏。左下肺叩诊浊音,呼吸音减弱。胸部X线见左肺下叶大片浓淡不均、密度增高浸润阴影,内见空气支气管征。实验室检查:血WBC14.3×10^9/L,N0.92。药敏试验示青霉素耐药。 该患者查体时最不可能出现的其他体征是 该患者最可能感染的病原体是 左下肺语音震颤增强 左下肺闻及支气管呼吸音 左下腋前线部闻及胸膜摩擦音 气管向右侧移位 肺炎支原体 肺炎链球菌 金黄色葡萄球菌 肺炎克雷伯杆菌",
@@ -780,7 +850,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 4,
           "lectureId": "lecture-07",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "本题延续前面的耐青霉素肺炎链球菌病例，所列药物中选择头孢曲松。苯唑西林侧重敏感金葡菌，阿米卡星不作为肺炎链球菌肺炎单药首选，阿奇霉素需考虑耐药及病原覆盖。",
+          "knowledgeConnections": [
+            "耐青霉素并不自动等于耐所有头孢菌素",
+            "抗菌治疗需按药敏而非只凭痰色选择"
+          ]
         }
       ],
       "sourceText": "该患者首选的抗感染药物是 头孢曲松 阿奇霉素 阿米卡星 苯唑西林",
@@ -836,7 +911,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 5,
           "lectureId": "lecture-08",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "按讲义，临床无症状以及影像钙化、纤维化支持非活动或陈旧病变，故选ACD。痰涂片阴性不能单独排除活动性肺结核；若影像仍有渗出、空洞或播散，也不能仅凭局部纤维钙化判断已无活动。",
+          "knowledgeConnections": [
+            "潜伏感染、陈旧病灶与活动性结核需综合区分",
+            "涂阴肺结核仍可有活动病变"
+          ]
         }
       ],
       "sourceText": "判断肺结核无活动性的依据有 无任何症状 痰涂片检查阴性 X线见钙化 X线见纤维化",
@@ -949,7 +1029,12 @@
           "optionCategory": "第 6 题选项",
           "sourceQuestion": 6,
           "lectureId": "lecture-09",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "语不成句、呼吸32次/分、心率126次/分、发绀及端坐呼吸提示严重急性发作，题目按通气衰竭趋向选择D。早期哮喘常过度通气出现呼碱，严重时CO2正常化或升高是警讯；未给血气时不能绝对排除呼碱。",
+          "knowledgeConnections": [
+            "危重哮喘可由响亮哮鸣音转为沉默肺",
+            "PaCO2升高提示呼吸肌疲劳及肺泡通气不足"
+          ]
         },
         {
           "number": 7,
@@ -963,7 +1048,12 @@
           "optionCategory": "第 7 题选项",
           "sourceQuestion": 7,
           "lectureId": "lecture-09",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "患者已有严重呼吸窘迫和发绀，应优先动脉血气分析判断氧合、CO2潴留及酸碱状态。急性重症时用力肺功能可能难完成，嗜酸细胞计数也不能反映当前呼吸衰竭程度。",
+          "knowledgeConnections": [
+            "哮喘早期低PaCO2与晚期高PaCO2意义相反",
+            "SpO2不能反映二氧化碳潴留"
+          ]
         },
         {
           "number": 8,
@@ -977,7 +1067,12 @@
           "optionCategory": "第 8 题选项",
           "sourceQuestion": 8,
           "lectureId": "lecture-09",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "病情稳定后的动态自我监测以PEF简便实用，可反映气流受限及昼夜变异。血氧饱和度在较早加重时可仍正常，定期FEV1/FVC不如家庭PEF适合频繁观察。",
+          "knowledgeConnections": [
+            "PEF变异率帮助评价哮喘变异性气流受限",
+            "急性危重时仍需血气与临床共同评估"
+          ]
         }
       ],
       "sourceText": "男性,41岁。支气管哮喘20年,再发咳嗽伴喘息1天。查体:R32次/分,心率126次 /分,口唇发绀,端坐呼吸,大汗,语不成句。 该患者目前最不可能出现的是 该患者首选的检查是 患者经治疗后病情稳定。密切关注患者病情变化推荐的最佳方式是 奇脉 三凹征 双肺响亮弥漫的哮鸣音 呼吸性碱中毒 肺功能 胸部X线 动脉血气分析 血嗜酸性粒细胞计数 定期复查FEV1/FVC 监测血氧饱和度 监测呼气峰流速 监测肺部体征变化",
@@ -1031,7 +1126,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 3,
           "lectureId": "lecture-11",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "低流量鼻导管的考试估算式为吸氧浓度约21＋4×流量，27＝21＋4×1.5，故选择1.5L/min。该式仅为粗略估算，实际吸氧浓度还受呼吸方式和分钟通气量影响。",
+          "knowledgeConnections": [
+            "慢性高碳酸血症吸氧需监测血气",
+            "低氧与CO2潴留不能只凭SpO2同时判断"
+          ]
         }
       ],
       "sourceText": "女性,65岁。间断咳嗽、咳痰10年,加重伴呼吸困难2天。动脉血气分析示pH7.35,PaO2 56mmHg, PaCO2 47mmHg。给予该患者鼻导管吸氧治疗,若需使用的吸氧浓度为27%,则其氧流量应调整为 1.0L/min 1.5L/min 2.0L/min 2.5L/min",
@@ -1087,7 +1187,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 8,
           "lectureId": "lecture-11",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "机械通气过度使PaCO2过快下降，原有HCO3−潴留尚未排出；过量利尿和补钾不及时又造成缺氯缺钾性代碱，均使pH升高。单纯补液过多主要加重容量负荷，不是此处主要碱中毒原因。",
+          "knowledgeConnections": [
+            "低钾促进H+进入细胞并增强肾排酸",
+            "治疗后碱中毒可减弱呼吸驱动、加重脑缺氧"
+          ]
         }
       ],
       "sourceText": "(多选)慢性II型呼吸衰竭,肺性脑病的患者在治疗过程中出现了血pH值升高,主要的原因有 机械通气过度 利尿剂使用过量 液体补充过多 氯化钾的补充不及时",
@@ -1141,7 +1246,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 6,
           "lectureId": "lecture-12",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "杵状指可属于肺癌相关肥大性骨关节病等副肿瘤表现。Horner征来自交感神经受侵，声嘶来自喉返神经受累，锁骨上结节为转移表现，均属于局部侵犯或转移的直接效应。",
+          "knowledgeConnections": [
+            "副肿瘤综合征由异位激素或免疫等远隔机制引起",
+            "肺尖癌可侵犯颈交感干形成Horner征"
+          ]
         }
       ],
       "sourceText": "下列表现属于肺癌副肿瘤综合征的是 一侧眼睑下垂、瞳孔缩小 声音嘶哑 杵状指 锁骨上淋巴结肿大",
@@ -1195,7 +1305,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 4,
           "lectureId": "lecture-13",
-          "answerSourcePage": 1
+          "answerSourcePage": 1,
+          "explanation": "既往慢性咳嗽提示COPD背景，突发单侧胸痛继之呼吸困难应警惕继发性气胸。询问疼痛性质及发生先后有助于与肺栓塞、心梗等鉴别，比单纯补问吸烟史更直接关系本次急症。",
+          "knowledgeConnections": [
+            "COPD肺大疱破裂可致继发性自发性气胸",
+            "张力性气胸可伴颈静脉怒张和循环障碍"
+          ]
         }
       ],
       "sourceText": "男性,75岁。慢性咳嗽,咳痰20余年,每年持续4个月。今晨突感左上胸疼痛,呼吸困难,大汗,不能 平卧,颈静脉怒张。询问病史的重点是 吸烟史、痰液性质及既往胸部X线检查情况 有无长期卧床、血脂有无异常等病史 胸痛的性质及与呼吸困难的发生顺序 心绞痛发作史及近期心电图检查情况",
@@ -1249,7 +1364,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 7,
           "lectureId": "lecture-13",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "缩窄性心包炎因体静脉压升高、胸膜毛细血管静水压增加产生积液，不主要靠通透性升高。肿瘤、肺梗死及类风湿性胸膜炎可通过炎症或肿瘤作用形成渗出液。",
+          "knowledgeConnections": [
+            "漏出液重在静水压/胶体渗透压失衡",
+            "渗出液重在通透性及淋巴回流异常"
+          ]
         }
       ],
       "sourceText": "下疾病的胸腔积液不是由于胸膜毛细血管壁通透性增加所致的是 胸膜间皮瘤 肺部梗死 缩窄性心包炎 类风湿关节炎",
@@ -1303,7 +1423,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 1,
           "lectureId": "lecture-14",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "洛杉矶分级C级要求黏膜破损融合、跨越至少两条黏膜皱襞顶部，但累及周径不足75%；达到75%及以上为D级。A、B级主要看破损长度是否超过5mm且尚不跨皱襞融合。",
+          "knowledgeConnections": [
+            "反流性食管炎内镜分级与症状强弱并非完全平行",
+            "Barrett食管另有癌前风险"
+          ]
         }
       ],
       "sourceText": "在胃镜下将反流性食管炎分为C级的依据是 食管黏膜有破损,其长径>5mm 食管黏膜有破损,其长径>10mm 食管黏膜破损有融合,但<50%食管周径 食管黏膜破损有融合,但<75%食管周径",
@@ -1358,7 +1483,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 2,
           "lectureId": "lecture-14",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "地西泮及硝酸甘油可降低食管下括约肌压力，使抗反流屏障减弱。贲门失弛缓主要是LES松弛不全，莫沙必利为促动力药，二者不符合题目所问降低LES压力的促反流药物。",
+          "knowledgeConnections": [
+            "一过性LES松弛是反流重要机制",
+            "食管裂孔疝也可削弱抗反流屏障"
+          ]
         }
       ],
       "sourceText": "(多选题)通过影响LES压力,能促进胃食管反流病发生的是 贲门失弛缓症 地西泮 硝酸甘油 莫沙必利",
@@ -1412,7 +1542,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 3,
           "lectureId": "lecture-14",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "Barrett食管为食管下段柱状上皮化生，具有腺癌风险，需按病理异型增生情况安排内镜随访。单纯反酸、咽异物感或裂孔疝不等于均需按Barrett方案定期监测。",
+          "knowledgeConnections": [
+            "慢性反流→肠化生→异型增生→食管腺癌",
+            "内镜活检决定风险分层"
+          ]
         }
       ],
       "sourceText": "胃食管反流病患者需要定期接受内镜复查的是 伴有咽部异物感 反酸、烧心反复出现者 合并食管裂孔疝 Barrett食管",
@@ -1467,7 +1602,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 4,
           "lectureId": "lecture-15",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "幽门螺杆菌与消化性溃疡、胃癌密切相关。A型萎缩性胃炎以自身免疫破坏胃体壁细胞为主；急性糜烂性胃炎常由应激、药物或酒精引起，不是最密切关联项。",
+          "knowledgeConnections": [
+            "Hp还与胃MALT淋巴瘤相关",
+            "自身免疫性胃炎与恶性贫血、其他自身免疫病相连"
+          ]
         }
       ],
       "sourceText": "(多选题)与幽门螺杆菌感染关系密切的疾病是 胃溃疡 胃癌 A型萎缩性胃炎 急性糜烂性胃炎",
@@ -1521,7 +1661,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 5,
           "lectureId": "lecture-15",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "Hp抗体在根除后仍可持续阳性，不能区分既往与现症感染，因此不用于判断根除成功。尿素呼气试验可评估活动感染，检测前须停用可能抑菌导致假阴性的药物足够时间。",
+          "knowledgeConnections": [
+            "Hp尿素酶产生氨是呼气试验原理",
+            "PPI及近期抗菌药可造成复查假阴性"
+          ]
         }
       ],
       "sourceText": "根除幽门螺杆菌后,不宜选用的复查方法是 尿素呼气试验 幽门螺杆菌培养 快速尿素酶试验 血清幽门螺杆菌抗体",
@@ -1575,7 +1720,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 6,
           "lectureId": "lecture-15",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "桥本甲状腺炎合并胃体萎缩提示自身免疫性胃炎，壁细胞减少使胃酸下降，负反馈减弱使胃泌素升高。内因子不足还可导致维生素B12吸收障碍，而非B12升高。",
+          "knowledgeConnections": [
+            "胃体萎缩与胃窦为主的Hp相关胃炎鉴别",
+            "B12缺乏可引起巨幼变及神经损害"
+          ]
         }
       ],
       "sourceText": "女性,46岁。上腹部不适1年,近2个月加重,伴头晕、乏力。既往桥本甲状腺炎10年。胃镜见胃体黏 膜下血管透见。该患者以下指标最可能升高的是 胃蛋白酶原 胃泌素 胃酸 VitB12",
@@ -1629,7 +1779,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 7,
           "lectureId": "lecture-16",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "反复上腹痛、夜间痛醒、反酸且出血后疼痛缓解，符合十二指肠溃疡节律。十二指肠溃疡更常空腹或夜间痛，胃溃疡常餐后痛；黑便提示已合并上消化道出血。",
+          "knowledgeConnections": [
+            "出血进入肠道可形成柏油样便",
+            "溃疡疼痛突然减轻也需结合出血与穿孔表现判断"
+          ]
         }
       ],
       "sourceText": "男性,35岁。3个月来间断上腹痛,有时夜间痛醒,反酸。1天前黑便1次,无呕血,但腹痛减轻,化验 大便隐血呈阳性。该患者最可能的诊断是 慢性胃炎 胃溃疡 胃癌 十二指肠溃疡",
@@ -1684,7 +1839,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 8,
           "lectureId": "lecture-16",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "长期十二指肠球部溃疡后出现餐后呕吐，考虑幽门梗阻，胃潴留可出现振水音，需胃镜明确病因及排除恶性病变。幽门以上梗阻呕吐物一般不含大量胆汁，应先减压和纠正水电解质再判断手术。",
+          "knowledgeConnections": [
+            "持续呕吐导致低氯低钾性代谢性碱中毒",
+            "瘢痕性与炎症水肿性幽门梗阻处理不同"
+          ]
         }
       ],
       "sourceText": "(多选题)男性,39岁。间断出现反酸、呕吐3个月,饭后明显。既往反复发作十二指肠球部溃疡5年 余,间断服用PPI治疗。关于该患者描述正确的有 呕吐物常含大量胆汁 查体可发现上腹部振水音 需进行胃镜检查以确诊 目前应首选手术治疗",
@@ -1738,7 +1898,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 9,
           "lectureId": "lecture-16",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "裸露血管属于高危再出血征象，需内镜止血联合PPI抑酸以稳定血凝块。仅用PPI不足，内镜后也需抑酸；手术通常留给内镜及介入失败或其他明确指征。",
+          "knowledgeConnections": [
+            "ForrestⅡa为非活动出血的裸露血管",
+            "溃疡出血风险取决于内镜征象而非仅看溃疡大小"
+          ]
         }
       ],
       "sourceText": "胃镜下见溃疡面裸露血管,主要的治疗策略是 仅用PPI治疗 仅用胃镜治疗 PPI+胃镜治疗 PPI+胃镜治疗,手术治疗",
@@ -1794,7 +1959,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 10,
           "lectureId": "lecture-17",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "增生型肠结核以肠壁增厚、狭窄和肠梗阻为突出特点，常便秘，腹痛可在排便排气后减轻。里急后重偏向直肠病变，出血不是其最常见并发症，因此错误项为ACD。",
+          "knowledgeConnections": [
+            "肠结核好发回盲部",
+            "溃疡型与增生型分别偏腹泻吸收障碍及梗阻表现"
+          ]
         }
       ],
       "sourceText": "(多选题)下列关于增生型肠结核临床表现的描述,错误的是 腹痛在排便排气后不缓解 以便秘为主 常伴里急后重 并发症以出血最多见",
@@ -1848,7 +2018,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 11,
           "lectureId": "lecture-18",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "结节性红斑常与肠道炎症活动同步，控制克罗恩病后可改善。强直性脊柱炎、原发性硬化性胆管炎等不一定随肠病缓解而消退，不能把所有肠外表现视为活动度指标。",
+          "knowledgeConnections": [
+            "IBD可伴眼炎、关节炎、皮肤病变",
+            "外周关节炎与轴性关节炎和肠病活动的关联不同"
+          ]
         }
       ],
       "sourceText": "关于克罗恩病的肠外表现,控制病情后缓解恢复的是 结节性红斑 强直性脊柱炎 淀粉样变性 原发性硬化性胆管炎",
@@ -1902,7 +2077,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 12,
           "lectureId": "lecture-19",
-          "answerSourcePage": 7
+          "answerSourcePage": 7,
+          "explanation": "IBS属于肠脑互动障碍，内脏高敏感使正常程度的扩张也引起腹痛，是选项中最核心机制。感染、心理因素及食物可作为触发或加重因素，但并非所有患者共同的唯一病因。",
+          "knowledgeConnections": [
+            "IBS腹痛常与排便相关且缺少器质性证据",
+            "警报症状需排除IBD、肿瘤等"
+          ]
         }
       ],
       "sourceText": "肠易激综合征最重要的核心发病机制是 急性肠道感染 精神心理障碍 内脏敏感性高 对食物不耐受",
@@ -1956,7 +2136,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 1,
           "lectureId": "lecture-22",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "两者都可有肝大、腹水和下肢水肿，但缩窄性心包炎导致体静脉回流受阻，颈静脉怒张较具鉴别意义。单纯门脉高压性肝硬化通常没有颈静脉压升高。",
+          "knowledgeConnections": [
+            "缩窄性心包炎可有Kussmaul征",
+            "肝源性腹水重在门脉高压和低白蛋白血症"
+          ]
         }
       ],
       "sourceText": "肝硬化与缩窄性心包炎的水肿鉴别点是 有无肝肿大 有无腹水 有无下肢水肿 有无颈静脉怒张",
@@ -2010,7 +2195,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 2,
           "lectureId": "lecture-22",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "失代偿肝硬化出现有效动脉循环量不足、肾血管收缩，GFR降低使尿素氮升高；水潴留造成稀释性低钠，肾保钠使尿钠降低。尿钠只是辅助线索，不能单独确诊肝肾综合征。",
+          "knowledgeConnections": [
+            "内脏血管扩张与RAAS/ADH激活联系",
+            "肝肾综合征与急性肾小管坏死的鉴别"
+          ]
         }
       ],
       "sourceText": "肝硬化患者并发肝肾综合征的特点是 血BUN↑、血钠↑、尿钠↑ 血BUN↑、血钠↑、尿钠↓ 血BUN↑、血钠↓、尿钠↑ 血BUN↑、血钠↓、尿钠↓",
@@ -2064,7 +2254,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 3,
           "lectureId": "lecture-23",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "加贝酯为蛋白酶抑制剂，直接抑制胰酶活性。奥曲肽主要抑制胰液分泌，西咪替丁抑制胃酸，谷氨酰胺偏营养支持，机制不同。",
+          "knowledgeConnections": [
+            "急性胰腺炎的酶原提前激活与自身消化",
+            "抑制分泌不等于抑制已经激活的蛋白酶"
+          ]
         }
       ],
       "sourceText": "以下治疗急性胰腺炎的药物中,属于抑制胰酶活性的是 奥曲肽 加贝酯 谷氨酰胺 西咪替丁",
@@ -2118,7 +2313,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 4,
           "lectureId": "lecture-23",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "继发胰腺感染需兼顾肠源性革兰阴性菌、厌氧菌及组织穿透，所列方案中亚胺培南-西司他丁符合讲义首选。此题已有感染，不能由此推出无感染的胰腺坏死均应预防性使用抗生素。",
+          "knowledgeConnections": [
+            "胰腺感染多为肠源性移位",
+            "抗感染需结合培养、引流及清除感染灶"
+          ]
         }
       ],
       "sourceText": "急性危重症胰腺炎继发胰腺感染时,为针对革兰阴性菌和厌氧菌,首选的抗生素是 亚胺培南-西司他丁 环丙沙星+甲硝唑 头孢曲松+甲硝唑 头孢孟多+甲硝唑",
@@ -2172,7 +2372,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 5,
           "lectureId": "lecture-25",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "尿路刺激征和白细胞增多也可见于尿道综合征，鉴别关键是真性细菌尿。白细胞管型提示感染可能累及肾实质，但不能作为区分所有尿感与尿道综合征的必要条件。",
+          "knowledgeConnections": [
+            "尿培养需规范留取避免污染",
+            "症状性尿感的菌落计数阈值与人群及取样方式有关"
+          ]
         }
       ],
       "sourceText": "鉴别尿路感染与尿道综合征的关键是 尿路刺激症的有无 尿白细胞的多少 尿白细胞管型的有无 真性细菌尿的有无",
@@ -2229,7 +2434,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 6,
           "lectureId": "lecture-26",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "失液使循环容量下降，失代偿肝硬化使有效循环量减少，正压通气降低回心血量，ARB扩张出球小动脉降低滤过压，均可诱发肾前性AKI。它们并非都直接造成肾小管坏死。",
+          "knowledgeConnections": [
+            "肾前性AKI持续可进展为缺血性肾小管坏死",
+            "ACEI/ARB在低灌注时削弱滤过压的代偿"
+          ]
         }
       ],
       "sourceText": "(多选题)肾前性AKI的常见病因有 胃肠道液体丢失 肝硬化失代偿期 正压机械通气 血管紧张素II受体拮抗剂",
@@ -2283,7 +2493,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 7,
           "lectureId": "lecture-26",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "长期水肿、高血压、夜尿增多、明显贫血及出血倾向提示慢性肾衰，腹泻后进一步恶化可发生尿毒症脑病。选项中血肌酐最能验证肾功能损害；既往急性甲肝不能解释慢性病程。",
+          "knowledgeConnections": [
+            "肾衰贫血与EPO不足相关",
+            "失液可在CKD基础上叠加肾前性AKI"
+          ]
         }
       ],
       "sourceText": "男性,35岁。反复水肿伴血压高5年,近半年夜尿增多,有时牙龈出血,口渴,气促,面色逐渐苍白。 曾化验血红蛋白65g/L。1天前多次稀便后逐渐神志不清。2年前患急性甲型肝炎。为明确患者的昏迷原因, 除全面的体格检查外,首选的检查是 肝功能和血氨 血糖 血肌酐 骨髓穿刺",
@@ -2338,7 +2553,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 8,
           "lectureId": "lecture-26",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "按讲义肾性骨营养不良可有高转换性骨病，继发甲旁亢使破骨细胞活动增强，出现骨质疏松和纤维囊性骨炎，故选AB。低转换性病变另包括骨软化和骨再生不良，不能将这些都概括为骨质增生。",
+          "knowledgeConnections": [
+            "磷潴留和活性维生素D下降→低钙及继发甲旁亢",
+            "高转换与低转换肾性骨病机制不同"
+          ]
         }
       ],
       "sourceText": "(多选题)尿毒症肾性骨营养不良包括 纤维囊性骨炎 骨质疏松 骨质增生 骨硬化症",
@@ -2451,7 +2671,12 @@
           "optionCategory": "第 9 题选项",
           "sourceQuestion": 9,
           "lectureId": "lecture-26",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "B超可观察双肾大小及皮质厚度，双肾缩小、皮质变薄支持慢性病程，故为首要鉴别检查。肌酐升高和酸中毒反映严重程度，不能单独区分急慢性；部分CKD也可双肾不缩小。",
+          "knowledgeConnections": [
+            "贫血、低钙高磷是慢性肾衰辅助线索",
+            "糖尿病肾病、多囊肾等可保留或增大肾体积"
+          ]
         },
         {
           "number": 10,
@@ -2465,7 +2690,12 @@
           "optionCategory": "第 10 题选项",
           "sourceQuestion": 10,
           "lectureId": "lecture-26",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "纠正酸中毒使H+退出细胞、K+移入细胞，血钾可迅速下降。碱化还增加钙与白蛋白结合，降低游离钙而非升高血钙；因此应防低钾、低游离钙，避免只追求快速纠正pH。",
+          "knowledgeConnections": [
+            "酸中毒时血钾可高但体内总钾仍缺乏",
+            "低钾和低游离钙均可增加心律失常风险"
+          ]
         },
         {
           "number": 11,
@@ -2479,7 +2709,12 @@
           "optionCategory": "第 11 题选项",
           "sourceQuestion": 11,
           "lectureId": "lecture-26",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "动静脉内瘘建立低阻力分流，回心血量及心输出需求增加，原有肾衰心脏储备不足可诱发高输出量心衰。时间上紧接内瘘手术是关键，比笼统归因于血压或尿毒症心肌病更有针对性。",
+          "knowledgeConnections": [
+            "高输出量心衰还见于严重贫血、甲亢",
+            "内瘘血流过大可加重容量负荷"
+          ]
         }
       ],
       "sourceText": "男性,55岁。反复双下肢水肿3年,发热、呕吐、伴腹泻1周。血压180/110mmHg。 血肌酐530μmol/L,尿素氮20mmol/L。血气分析pH7.12。 鉴别急、慢性肾功能不全的首要检查是 迅速纠正代谢性酸中毒后可能导致 患者最终确诊为慢性肾衰竭,肾性高血压,入院后予以透析。住院期间患者接受动静脉内瘘成形术,患 者感心悸、气促,不能平卧,双肺听诊闻及较多湿啰音。导致患者上述病情变化最可能的原因是 血红蛋白 血电解质 B超 肾图 低钠血症 低钾血症 高钙血症 高氯血症 血压控制不佳 尿毒症心肌病 容量负荷过重 高输出量心衰",
@@ -2533,7 +2768,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 12,
           "lectureId": "lecture-27",
-          "answerSourcePage": 8
+          "answerSourcePage": 8,
+          "explanation": "肾病性水肿以大量蛋白尿导致低白蛋白、胶体渗透压下降及肾性保钠为主，可伴RAAS激活。GFR显著下降更符合肾炎性或肾衰水肿；并非所有肾病综合征都以滤过率下降起病。",
+          "knowledgeConnections": [
+            "肾炎性水肿偏水钠潴留和眼睑水肿",
+            "肾病性水肿常严重并伴大量蛋白尿、低白蛋白"
+          ]
         }
       ],
       "sourceText": "以下哪项不是肾病性水肿的主要发生机制 肾小球滤过率下降 肾小管重吸收增加 血浆胶体渗透压下降 RAAS系统的激活",
@@ -2587,7 +2827,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 1,
           "lectureId": "lecture-28",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "肝病可因红细胞膜脂质组成改变、营养缺乏等表现为大细胞性贫血。地中海贫血是小细胞性，肾性贫血通常正细胞性，再障通常亦按正细胞性归类；MCV不是病因诊断的唯一依据。",
+          "knowledgeConnections": [
+            "大细胞贫血需区分巨幼细胞性与非巨幼细胞性",
+            "肝病、饮酒可导致非巨幼细胞性大细胞改变"
+          ]
         }
       ],
       "sourceText": "大细胞性贫血可见于 再生障碍性贫血 肾性贫血 珠蛋白生成障碍性贫血 肝脏疾病",
@@ -2700,7 +2945,12 @@
           "optionCategory": "第 2 题选项",
           "sourceQuestion": 2,
           "lectureId": "lecture-29",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "全血细胞减少、极低网织红细胞、无肝脾肿大和巨核细胞缺乏支持再障。胸骨局部增生活跃不能否定全身造血低下；缺铁和ITP不能解释三系减少，急性白血病需异常原始细胞证据。",
+          "knowledgeConnections": [
+            "再障骨髓可存在局灶残留造血",
+            "多部位穿刺及骨髓活检帮助避免取样误判"
+          ]
         },
         {
           "number": 3,
@@ -2714,7 +2964,12 @@
           "optionCategory": "第 3 题选项",
           "sourceQuestion": 3,
           "lectureId": "lecture-29",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "再障粒、红及巨核系减少，非造血细胞如淋巴细胞的相对比例增高，注意是比例而非必然绝对计数升高。原始细胞明显增多应考虑白血病，核浆成熟不同步偏巨幼细胞性贫血。",
+          "knowledgeConnections": [
+            "外周网织红细胞下降反映有效造血不足",
+            "再障与MDS还需形态、细胞遗传和克隆性鉴别"
+          ]
         },
         {
           "number": 4,
@@ -2728,7 +2983,12 @@
           "optionCategory": "第 4 题选项",
           "sourceQuestion": 4,
           "lectureId": "lecture-29",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "血小板18×10^9/L且有鼻出血和舌部血疱，当前有显著出血危险，应先输注血小板支持。铁剂不针对骨髓衰竭，白血病化疗无依据，泼尼松也不能代替再障的规范病因治疗。",
+          "knowledgeConnections": [
+            "重型再障长期治疗包括造血干细胞移植或免疫抑制",
+            "先处理感染、出血再制定根治方案"
+          ]
         }
       ],
       "sourceText": "女性,24岁。头晕、乏力伴月经量增多1个月,发热、伴鼻出血1周。查体:T39.1度, 面色苍白,舌尖血疱,双下肢瘀斑。心尖部闻及2‐ 3级收缩期吹风样杂音,右肺背部闻及湿啰音,肝脾肋下未触及。实验室检查:Hb60g/L,RBC2.0×10^12/L,WBC1.2×10^9/L,Plt18×10^9/L,网织红细胞0.002。 胸骨穿刺涂片见增生活跃,未见巨核细胞。 该患者最可能的诊断是 符合该患者骨髓细胞学检查结果的是 该患者目前首选的治疗是 缺铁性贫血 再生障碍性贫血 急性白血病 原发免疫性血小板减少症 原始细胞↑ 淋巴细胞比例↑ 核老浆幼 血小板抗体阳性 泼尼松 琥珀酸亚铁 血小板 蒽环类药+阿糖胞苷",
@@ -2816,7 +3076,12 @@
           "lectureId": "lecture-30",
           "answerSourcePage": 9,
           "optionCategory": "第 6 题选项",
-          "sourcePage": 70
+          "sourcePage": 70,
+          "explanation": "幼年起病、贫血黄疸脾大、父亲黄疸及渗透脆性增高提示遗传性球形红细胞增多症。外周血涂片发现球形红细胞最能在这些选项中指向病型；网织红细胞和寿命检查主要说明溶血存在。",
+          "knowledgeConnections": [
+            "球形红细胞表面积/体积比下降→渗透脆性增加",
+            "自身免疫性溶血也可有球形细胞但Coombs可阳性"
+          ]
         },
         {
           "number": 8,
@@ -2833,7 +3098,12 @@
           "answerSourcePage": 9,
           "sourceAnswerRaw": "C",
           "sourcePage": 71,
-          "answerSourceNote": "第8题对应第6题15岁女孩病例；第30讲第3页列出常并发胆囊结石。"
+          "answerSourceNote": "第8题对应第6题15岁女孩病例；第30讲第3页列出常并发胆囊结石。",
+          "explanation": "慢性溶血使非结合胆红素生成增加，长期可形成胆色素性胆囊结石，是遗传性球形红细胞增多症的常见并发症。Budd-Chiari更应联想到PNH相关静脉血栓。",
+          "knowledgeConnections": [
+            "血管外溶血常有黄疸、脾大和胆色素结石",
+            "溶血危象与感染后再障危象需区别"
+          ]
         }
       ],
       "sourceText": "女性,15岁。头晕、乏力3年,加重5天。查体:贫血貌,巩膜黄染,肺(-),心率96次/分,心律齐,腹 软,脾肋下2.5cm,质中。化验Hb75g/L,RBC2.5×10^12/L,WBC7.4×10^9/L,Plt185×10^9/L。红细 胞渗透脆性试验:0.7%盐水溶液开始溶血。其父亲有轻度黄疸。 为明确诊断,最有价值的检查是 该患者最常见的并发症是 外周血涂片 骨髓细胞学 网织红细胞计数 红细胞寿命测定 痛风 胆囊结石 肝功能损害 Budd‐ Chiari综合征",
@@ -2911,7 +3181,12 @@
           "sourceQuestion": 7,
           "lectureId": "lecture-30",
           "answerSourcePage": 9,
-          "sourceAnswerRaw": "B"
+          "sourceAnswerRaw": "B",
+          "explanation": "全血细胞减少伴红系增生、Rous阳性及Ham阳性符合PNH，提示血管内溶血并可伴骨髓衰竭。缺铁不能解释溶血试验，AIHA以Coombs试验为关键；确诊可用流式检测GPI锚定蛋白缺失。",
+          "knowledgeConnections": [
+            "PIGA突变→CD55/CD59缺失→补体介导溶血",
+            "PNH兼有血栓和骨髓衰竭风险"
+          ]
         }
       ],
       "sourceText": "男性,44岁。头晕乏力,面色苍白3年。巩膜轻度黄染,脾肋下2cm。Hb56g/L,RBC 1.8×10^12/L,WBC2.2×10^9/L,Plt32×10^9/L。骨髓增生减低,但红系增生,以中晚幼红为主,尿Rous 试验(+),Ham试验(+)。 首先考虑 缺铁性贫血 巨幼细胞性贫血 阵发性睡眠性血红蛋白尿 自身免疫性溶血性贫血",
@@ -2973,7 +3248,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 9,
           "lectureId": "lecture-31",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "孤立性血小板减少、巨核细胞多但成熟受阻及激素有效支持ITP。血小板已恢复、出血消失后应逐渐减量至有效低剂量并按疗程停药，避免长期足量激素；此时无立即换药或切脾依据。",
+          "knowledgeConnections": [
+            "ITP外周破坏增多伴代偿性巨核增生",
+            "血小板恢复与临床止血均参与疗效判断"
+          ]
         }
       ],
       "sourceText": "女性,32岁。月经量增多伴牙龈出血1周。血常规:Hb90g/L,WBC5.6×10^9/L,Plt21×10^9/L。骨髓 细胞学检查:粒、红系增生良好,全片可见巨核细胞156个,以颗粒型为主。泼尼松治疗2周后出血症状 消失,复查血常规:Hb110g/L,WBC12.7×10^9/L,Plt120×10^9/L。下一步的措施是 泼尼松尽快减少至最小剂量 改用长春新碱治疗 改用丙种球蛋白治疗 择期行脾切除术",
@@ -3027,7 +3307,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 10,
           "lectureId": "lecture-31",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "PS即蛋白S，是蛋白C抗凝系统的辅因子，反映天然抗凝功能。FDP偏纤溶产物，PIC为纤溶酶-抑制物复合物；不能因都与凝血检验有关就混为抗凝指标。",
+          "knowledgeConnections": [
+            "蛋白C/蛋白S抑制活化凝血因子Ⅴ和Ⅷ",
+            "DIC可同时涉及凝血激活与继发纤溶"
+          ]
         }
       ],
       "sourceText": "反应抗凝功能的指标是 PS FDP PIC CRT",
@@ -3140,7 +3425,12 @@
           "optionCategory": "第 13 题选项",
           "sourceQuestion": 13,
           "lectureId": "lecture-32",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "异常浆细胞45%、贫血、骨折、肾损害及球蛋白显著增多提示骨髓瘤。血尿免疫球蛋白鉴定有助于确认单克隆性和分型；β2微球蛋白重在分期预后，血钙及本周蛋白只覆盖部分表现。",
+          "knowledgeConnections": [
+            "骨髓瘤CRAB包括高钙、肾损害、贫血和骨病",
+            "免疫固定与游离轻链检测互补"
+          ]
         },
         {
           "number": 14,
@@ -3154,7 +3444,12 @@
           "optionCategory": "第 14 题选项",
           "sourceQuestion": 14,
           "lectureId": "lecture-32",
-          "answerSourcePage": 10
+          "answerSourcePage": 10,
+          "explanation": "按Durie-Salmon标准，Hb80g/L低于85g/L，已符合Ⅲ期条件；肌酐187μmol/L高于约177μmol/L（2mg/dL），归B组，故为ⅢB。分期与肾功能分组分别判断，不能混用ISS标准。",
+          "knowledgeConnections": [
+            "Durie-Salmon结合肿瘤负荷与器官损害",
+            "ISS以β2微球蛋白和白蛋白为主"
+          ]
         },
         {
           "number": 15,
@@ -3168,7 +3463,12 @@
           "optionCategory": "第 15 题选项",
           "sourceQuestion": 15,
           "lectureId": "lecture-32",
-          "answerSourcePage": 10
+          "answerSourcePage": 10,
+          "explanation": "骨髓瘤中IgG型最多见，题目问最可能类型，按先验频率选IgG。现有贫血、骨折和高球蛋白本身不能精确识别免疫球蛋白类别，最终仍须免疫固定等证实，不能把常见类型当成已确诊分型。",
+          "knowledgeConnections": [
+            "IgA型、轻链型等也可有CRAB表现",
+            "轻链型血清总蛋白未必明显增加"
+          ]
         }
       ],
       "sourceText": "男性,70岁。乏力、腰痛半个月,既往体健。查体:轻度贫血貌,第2‐ 4腰椎局部压痛。实验室检查:Hb80g/L,WBC5.6×10^9/L,Plt156×10^9/L;血清总蛋白108g/L,白蛋白30g/L, 血肌酐187μmol/L。骨髓细胞学检查示骨髓中异常浆细胞占0.45,腰椎X线片示第2腰椎压缩性骨折。 为进一步明确诊断,下一步应做的检查是 根据目前的临床资料及Durie和Salmon临床分期标准,该患者最可能的临床分期是 该患者疾病最可能的类型是 血清β2微球蛋白测定 尿本‐ 周蛋白测定 血清钙测定 血、尿免疫球蛋白鉴定 II期A组 II期B组 III期A组 III期B组 IgD型 IgG型 IgE型 轻链型",
@@ -3223,7 +3523,12 @@
           ],
           "answerMode": "多选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "游离轻链可形成管型并伤肾，淀粉样沉积及高黏滞可损害肾脏。B把高尿酸与低血钙并列，错误在低血钙：骨髓瘤肾损害的经典代谢因素是高钙血症，故不选B。",
+          "knowledgeConnections": [
+            "轻链管型肾病与AL淀粉样变部位及机制不同",
+            "高钙可造成肾血管收缩、肾钙化"
+          ]
         }
       ],
       "sourceText": " (多选题)多发性骨髓瘤患者出现慢性肾衰竭的原因有",
@@ -3280,7 +3585,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 11,
           "lectureId": "lecture-34",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "按讲义传统分期，加速期可见治疗难以控制的血小板进行性减少或增加，以及骨髓原始细胞升高，故选ABD。原始细胞10%–19%对应加速期，达到20%及以上或出现髓外原始细胞浸润应考虑急变，需注意上限。",
+          "knowledgeConnections": [
+            "CML与BCR::ABL1相关",
+            "加速期及急变阈值需按具体分类版本使用"
+          ]
         }
       ],
       "sourceText": "(多选题)下列属于慢性髓系白血病加速期表现的有 血小板进行性减少 血小板进行性增加 髓外原始细胞浸润 骨髓原始细胞≥10%",
@@ -3335,7 +3645,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 12,
           "lectureId": "lecture-34",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "再障及类白血病反应的成熟中性粒细胞NAP常增高。CML和PNH则常降低，是本题的对照；NAP只能辅助鉴别，不能取代CML融合基因或PNH流式检测。",
+          "knowledgeConnections": [
+            "感染性类白血病反应与CML可均白细胞很高",
+            "CML结合嗜碱细胞增多和BCR::ABL1判断"
+          ]
         }
       ],
       "sourceText": "(多选题)中性粒细胞碱性磷酸酶染色强阳性主要见于 再生障碍性贫血 阵发性睡眠性血红蛋白尿 慢性髓系白血病 类白血病反应",
@@ -3388,7 +3703,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "妊娠早期需抗甲状腺药时常优先PTU，以减少甲巯咪唑相关胚胎发育异常风险。放射碘妊娠禁用，手术一般不作为早孕首选；后续需考虑PTU肝毒性并按孕期评估换药。",
+          "knowledgeConnections": [
+            "孕中期必要时可考虑甲状腺手术",
+            "抗甲状腺药用最低有效量以免胎儿甲减"
+          ]
         }
       ],
       "sourceText": " 女性,25岁。半个月来怕热,心悸,多汗,体重下降6kg。查体:血压120/65mmHg,无突眼,甲状腺 轻度弥漫性肿大,可闻及血管杂音,心率120次/分,律齐。若患者未愈而发生早孕,最佳的治疗方法是",
@@ -3499,7 +3819,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "非妊娠、无甲危的Graves甲亢，一般首选甲巯咪唑控制激素合成。普萘洛尔只缓解心悸震颤等，碘制剂不作长期单药；PTU更常用于特定情境如妊娠早期。",
+          "knowledgeConnections": [
+            "硫脲类抑制甲状腺过氧化物酶",
+            "抗甲状腺药需警惕粒细胞缺乏和肝损害"
+          ]
         },
         {
           "number": 5,
@@ -3513,7 +3838,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "甲状腺刺激免疫球蛋白属于刺激性TSH受体抗体，持续阳性提示致病免疫活动仍在，停药后复发风险较高。TSH/T3/T4主要反映当时甲功正常与否，不能同等替代复发风险判断。",
+          "knowledgeConnections": [
+            "Graves的受体抗体直接刺激甲状腺",
+            "TPOAb/TgAb并非该题最佳停药预测指标"
+          ]
         },
         {
           "number": 6,
@@ -3527,7 +3857,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "甲亢患者夜间突发下肢软瘫首先警惕低钾性周期性麻痹，应立即查血电解质及心电图。甲亢相关低钾主要是钾转入细胞，并非总钾必定大量丢失；头颅CT不是本病例首选。",
+          "knowledgeConnections": [
+            "Na+/K+-ATP酶活性增高促进钾内移",
+            "补钾需警惕恢复时反跳性高钾"
+          ]
         }
       ],
       "sourceText": "男性,35岁。乏力,心悸一年余,近2个月症状加重,伴消瘦、手颤。查体:甲状腺 弥漫性肿大,心率126次/分,心律整。实验室检查提示FT3、FT4显著增高,TSH降低。 该患者首选的治疗药物是 预测该患者停药是否易复发的指标是 患者夜间突然出现双下肢软瘫,为明确诊断应首选的检查是",
@@ -3583,7 +3918,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "淡漠型甲亢多见于老年人，高代谢与交感兴奋表现不典型，甲状腺可不明显肿大，故选B。常有消瘦、淡漠或抑郁，也可能发生甲状腺危象，不能因不兴奋就判断病情轻。",
+          "knowledgeConnections": [
+            "老年甲亢可突出房颤、心衰或消瘦",
+            "无突眼和无甲状腺肿大均不能排除甲亢"
+          ]
         }
       ],
       "sourceText": " 淡漠型甲亢的特点有",
@@ -3637,7 +3977,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "两类甲减均可FT4低，鉴别看TSH：原发性通常明显升高，中枢性常低或不恰当地正常。TRAb主要关联Graves，T3/T4降低说明功能不足而不能单独定位病变。",
+          "knowledgeConnections": [
+            "下丘脑-垂体-甲状腺轴负反馈",
+            "中枢性甲减替代监测更重视FT4而不是单用TSH"
+          ]
         }
       ],
       "sourceText": " 原发性甲减与继发性甲减的鉴别指标是",
@@ -3691,7 +4036,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "持续足量L-T4替代才是从根本上纠正甲减、预防黏液性水肿昏迷的措施。避免感染、镇静药及寒冷有帮助，但不能替代激素；限水限钠也不能解决甲状腺激素缺乏。",
+          "knowledgeConnections": [
+            "甲减可有低温、低通气和低钠",
+            "严重昏迷需急救并寻找诱因"
+          ]
         }
       ],
       "sourceText": " 预防慢性淋巴细胞性甲状腺炎患者出现黏液性水肿昏迷的关键措施是",
@@ -3802,7 +4152,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "畏寒、干燥、非凹陷性水肿和跟腱反射迟缓提示甲减，TPOAb在所列项目中有助于提示自身免疫性甲状腺炎。需指出它是病因抗体，甲减的功能确诊仍应查TSH和FT4；胺碘酮也可致甲功异常。",
+          "knowledgeConnections": [
+            "甲减可造成心包积液而心界向两侧扩大",
+            "自身免疫性甲状腺炎常与TPOAb相关"
+          ]
         },
         {
           "number": 11,
@@ -3816,7 +4171,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "患者有既往心律失常及心包积液等心脏表现，讲义强调从小剂量L-T4开始，逐渐调整以避免增加心脏负担，故选A。长期甲减应持续替代，不能间断服药或甲功正常就自行停药；孕期还需及时复查并保证足量替代。",
+          "knowledgeConnections": [
+            "孕期甲状腺激素需求增加",
+            "慢性原发性甲减通常需持续替代而非间断用药"
+          ]
         },
         {
           "number": 12,
@@ -3830,7 +4190,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "若按原发性甲减处理，TSH是主要调整指标，应按妊娠相应目标复查。TPOAb反映自身免疫背景而不用于滴定药量；中枢性甲减则不能靠TSH，需要FT4，孕期也应结合FT4。",
+          "knowledgeConnections": [
+            "甲状腺激素改变后TSH恢复有时间滞后",
+            "孕期替代需求可随孕周变化"
+          ]
         }
       ],
       "sourceText": "女性,35岁,孕妇。1个月来乏力、畏寒、胸闷、气短、记忆力明显减退,食欲 差,夜间愿高枕卧位。既往因心律失常服用胺碘酮治疗,有高脂血症、关节痛史。入院查体:T35.9°C,P 84次/分,BP100/85mmHg,高枕位,表情淡漠,皮肤干燥,睑结膜稍苍白,颈静脉充盈,双肺(-),心浊 音界向两侧扩大,S1遥远,肝肋下1.5cm,双下肢非凹陷性水肿,跟腱反射迟钝。 对确诊最有价值的检查项目是 该患者替代治疗的原则是 患者经治疗后,上述临床表现明显好转,调整L‐T4的剂量主要依据是",
@@ -3937,7 +4302,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "凌晨手抖、大汗、饥饿提示夜间低血糖，空腹高血糖不能据此加大睡前胰岛素，应先监测夜间血糖并减少引起低血糖的剂量。本题为Somogyi现象，需与无低血糖的黎明现象区分。",
+          "knowledgeConnections": [
+            "胰岛素过量可致夜间低血糖",
+            "持续血糖监测帮助区分黎明现象与夜间低血糖"
+          ]
         },
         {
           "number": 2,
@@ -3951,7 +4321,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "传统Mogensen分期中，持续显性蛋白尿达到＞0.5g/d符合Ⅳ期临床糖尿病肾病；肌酐未明显升高不排除Ⅳ期。不能将该分期与按eGFR划分的CKD G1–G5直接对应。",
+          "knowledgeConnections": [
+            "早期Ⅲ期主要为持续微量白蛋白尿",
+            "现代DKD评价联合eGFR与白蛋白尿分层"
+          ]
         },
         {
           "number": 3,
@@ -3963,7 +4338,12 @@
           "answer": [],
           "answerMode": "单选",
           "answerState": "原PDF选项与答案缺失",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "双下肢袜套样刺痛及行走不稳提示糖尿病远端对称性多发神经病，检查重点是神经查体及神经传导速度等电生理评价；血管超声主要评估缺血。原题A选项未完整录入，暂不判分。",
+          "knowledgeConnections": [
+            "糖尿病周围神经病可累及痛温觉与振动觉",
+            "血管性跛行需看脉搏、皮温和血流检查"
+          ]
         }
       ],
       "sourceText": "女性,54岁。临床诊断为糖尿病,给予胰岛素治疗。患者经常于凌晨3‐4点出现手 抖,大汗,自觉饥饿感。化验空腹血糖11mmol/L,尿糖(+++)。 该患者目前应采取的措施是 患者近2个月出现头晕,视物模糊,渐进性水肿。查体:BP170/100mmHg,双肺呼吸音清,心界不大, 肝脾未触及,双下肢水肿。化验空腹血糖9.6mmol/L,餐后血糖14.2mmol/L,血肌酐105μmol/L,尿蛋白 定量0.7g/d。目前应诊断为糖尿病肾病的 患者近来感双下肢阵发性刺痛,呈袜套样分布,行走稍不稳。此时应进行的检查是",
@@ -4020,7 +4400,12 @@
           ],
           "answerMode": "多选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "西格列汀抑制DPP-4、减少内源GLP-1降解，利拉鲁肽直接激动GLP-1受体，均属肠促胰素相关治疗。达格列净抑制SGLT2促进尿糖排出，吡格列酮改善胰岛素抵抗。",
+          "knowledgeConnections": [
+            "GLP-1促进葡萄糖依赖性胰岛素分泌并抑制胰高血糖素",
+            "不同降糖机制决定低血糖和体重效应"
+          ]
         }
       ],
       "sourceText": " (多选题)基于胰高血糖素样肽‐1(GLP‐1)的2型糖尿病治疗药物有",
@@ -4075,7 +4460,12 @@
           ],
           "answerMode": "多选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "Liddle为ENaC活性增强，导致保钠、排钾、高血压，阿米洛利直接阻断ENaC，氯化钾纠正低钾。其肾素和醛固酮均受抑，螺内酯不针对根本机制，ACEI也不是首选。",
+          "knowledgeConnections": [
+            "原醛症为醛固酮高而Liddle为醛固酮低",
+            "两者均可有高血压、低钾、代碱"
+          ]
         }
       ],
       "sourceText": " (多选题)可用于治疗Liddle综合征的药物有",
@@ -4129,7 +4519,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "Carney综合征可有原发性色素性结节性肾上腺皮质病，肾上腺自主分泌皮质醇，属于ACTH不依赖性。垂体瘤、异位ACTH及异位CRH均依赖ACTH轴驱动。",
+          "knowledgeConnections": [
+            "库欣病专指垂体ACTH瘤",
+            "低ACTH提示肾上腺性或外源性激素相关病因"
+          ]
         }
       ],
       "sourceText": " 不依赖ACTH的库欣综合征的病因是",
@@ -4183,7 +4578,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "高血压伴头痛、心悸、多汗且由情绪或体位诱发，提示嗜铬细胞瘤，先用α受体阻断减轻血管收缩。不能先单用β阻断，否则可能形成无对抗的α缩血管作用并加重高血压。",
+          "knowledgeConnections": [
+            "儿茶酚胺瘤术前需阻断及补充容量",
+            "在充分α阻断后再按心率需要加β阻断"
+          ]
         }
       ],
       "sourceText": " 女性,32岁。发现持续性高血压3年,BP150‐160/90‐100mmHg,常因情绪激动或体位改变诱发血压升 高,最高210/110mmHg,伴头痛、心悸、出汗。口服多种降压药疗效不佳。查体:T36.7°C,P90次/分, BP158/95mmHg,甲状腺(-),双肺(-),心界不大,心律不整,可闻及期前收缩5‐6次/分,心尖部S1增 强,腹部未闻及血管杂音,双下肢不肿。应首选的治疗药物为",
@@ -4239,7 +4639,12 @@
           ],
           "answerMode": "多选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 11
+          "answerSourcePage": 11,
+          "explanation": "肿瘤出血坏死可使儿茶酚胺骤降，长期血管收缩伴容量不足可致低血压；肾上腺素β2效应也可扩血管。血清素不是嗜铬细胞瘤低血压的经典主要机制，因此选ABC。",
+          "knowledgeConnections": [
+            "长期缩血管可使循环容量收缩",
+            "嗜铬细胞瘤可交替高血压与低血压并非只持续高压"
+          ]
         }
       ],
       "sourceText": " (多选题)嗜铬细胞瘤患者出现低血压的机制有",
@@ -4293,7 +4698,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "无禁忌的SLE患者常以羟氯喹作为基础治疗，有助于控制疾病及减少复发。糖皮质激素和环磷酰胺按病情及脏器受累程度使用，不能把强免疫抑制药当作人人固定的基础方案。",
+          "knowledgeConnections": [
+            "羟氯喹长期应用需眼底/视网膜风险监测",
+            "SLE活动度与器官损害决定加药强度"
+          ]
         }
       ],
       "sourceText": " 常作为SLE患者的基础治疗药物是",
@@ -4347,7 +4757,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "发热、关节痛、口腔溃疡、血小板减少及蛋白尿为多系统受累，首先考虑SLE，盘状红斑可增加支持证据。无痛结节偏类风湿，结节性红斑并非该病例最具指向性的皮损。",
+          "knowledgeConnections": [
+            "SLE可同时影响皮肤、血细胞及肾脏",
+            "需结合ANA、抗dsDNA/抗Sm及补体"
+          ]
         }
       ],
       "sourceText": " 女性,25岁。1周来无明显诱因发热、双膝关节疼痛伴皮肤出血点,自测体温最高38.8°C,无寒战。既 往体健。查体:T38.1°C,四肢皮肤可见出血点,口腔黏膜见两处溃疡。心、肺、腹无明显异常。化验 血:Hb102g/L,WBC5.2×10^9/L,Plt24×10^9/L,网织红细胞4.9%,尿蛋白(++)。为明确诊断,查体中 还需特别注意检查",
@@ -4403,7 +4818,12 @@
           ],
           "answerMode": "多选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "氯喹、甲氨蝶呤及柳氮磺吡啶属于改善病情抗风湿药，可影响疾病过程。萘普生是NSAID，主要缓解疼痛炎症，不能单靠它阻止RA关节结构损害。",
+          "knowledgeConnections": [
+            "RA治疗需尽早启动DMARD并评估达标",
+            "对症止痛与抑制疾病进展作用不同"
+          ]
         }
       ],
       "sourceText": " (多选题)下列属于改善病情的抗风湿药物是",
@@ -4457,7 +4877,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "RA典型累及近端指间、掌指及腕关节，通常相对保留远端指间关节。远端指间为主的病变更应考虑骨关节炎或银屑病关节炎，但不是绝对完全不累及。",
+          "knowledgeConnections": [
+            "RA常对称性小关节炎并有晨僵",
+            "骨关节炎可有Heberden结节"
+          ]
         }
       ],
       "sourceText": " 类风湿关节炎不常累及的关节是",
@@ -4544,7 +4969,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "已有骨质破坏和关节间隙狭窄符合Ⅲ期影像表现；Ⅰ期以关节周围骨质疏松为主，Ⅱ期有较轻破坏，Ⅳ期出现纤维或骨性强直。题干未给强直，不能仅凭活动受限判Ⅳ期。",
+          "knowledgeConnections": [
+            "RA滑膜炎形成血管翳→软骨、骨侵蚀",
+            "影像分期不同于临床活动度评分"
+          ]
         },
         {
           "number": 8,
@@ -4558,7 +4988,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "足量常规DMARD治疗后仍高活动且结构损害进展，应升级治疗，选项中加TNF抑制剂益赛普更适合。继续无效原方案不符合达标治疗；置换是晚期结构损害功能重建，并不能控制全身炎症。",
+          "knowledgeConnections": [
+            "生物制剂使用前筛查结核等感染",
+            "治疗达标依据症状、炎症指标及关节损伤综合判断"
+          ]
         }
       ],
       "sourceText": "女性,55岁。间断多关节肿痛5年,手关节为著,明显晨僵,近3年双腕关节活动逐 渐受限,肘后出现多个皮下结节,质硬、无压痛。超声心动图发现少量心包积液。X线示双手指间关节间 隙狭窄,双侧腕骨可见骨质破坏,间隙变窄。实验室检查:ESR45mm/h,抗环瓜氨酸抗体阳性。 该患者腕关节病变的影像学分期为 给予患者糖皮质激素和甲氨蝶呤治疗,病变仍处于高活动状态,关节破坏有进展。考虑",
@@ -4647,7 +5082,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "口眼干、猖獗龋齿及SSA/SSB阳性提示干燥综合征。唇腺病理、眼表染色及Schirmer试验可提供腺体受累证据，肘关节X线即使能评价关节病也不直接确立本病。",
+          "knowledgeConnections": [
+            "外分泌腺淋巴细胞浸润导致泪液唾液减少",
+            "SSA相关性不等于SSB单独即可确诊"
+          ]
         },
         {
           "number": 12,
@@ -4661,7 +5101,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "持续腮腺肿大、新出现的血细胞减少和单克隆免疫球蛋白升高应警惕淋巴增殖。SSA/SSB滴度升高并非同等可靠的淋巴瘤转化信号，故选D；可疑肿大需进一步病理评估。",
+          "knowledgeConnections": [
+            "干燥综合征增加B细胞淋巴瘤风险",
+            "多克隆高球蛋白与单克隆成分需区别"
+          ]
         }
       ],
       "sourceText": "男性,58岁。近5年来无明显原因出现口干、眼干,近3个月来加重,伴双侧肘关 节疼痛。查体:T36.8度,P80次/分,R15次/分,BP120/80mmHg。舌干,牙齿多个脱落,双侧肘关节 稍肿胀,轻压痛。实验室检查:血清抗SSA、抗SSB抗体(+)。 以下检查中,对该病的诊断没有价值的是 应警惕该疾病发展为非霍奇金淋巴瘤的情况不包括",
@@ -4717,7 +5162,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 12
+          "answerSourcePage": 12,
+          "explanation": "慢性鼻窦炎、肺结节空洞、肾小球受累及c-ANCA阳性构成GPA典型线索。显微镜下多血管炎也可肺肾损害，但通常不以坏死性肉芽肿及上气道病变突出，抗结核无效进一步提示非结核。",
+          "knowledgeConnections": [
+            "GPA常与PR3-ANCA关联，MPA常与MPO-ANCA关联",
+            "两者均可致少免疫沉积性新月体肾炎"
+          ]
         }
       ],
       "sourceText": " 男性,56岁。既往鼻窦炎5年,低热、咳嗽5个月。CT发现左侧肺内空洞及结节影,血沉60mm/h。 尿常规:尿蛋白(++),沉渣镜检RBC6‐10个/HP。ANA(-),c‐ANCA(+)。予以抗结核治疗3个月,复查肺 内空洞及结节影增多。该患者最可能的诊断是",
@@ -4804,7 +5254,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 13
+          "answerSourcePage": 13,
+          "explanation": "按2014国际白塞病评分，生殖器阿弗他溃疡、口腔阿弗他溃疡及眼部病变各2分；皮肤、血管、神经及针刺反应各1分。故生殖器溃疡符合本题2分项，不能把所有特征等权计分。",
+          "knowledgeConnections": [
+            "复发口腔/生殖器溃疡、眼炎与针刺阳性构成白塞病线索",
+            "血栓属于血管受累"
+          ]
         },
         {
           "number": 15,
@@ -4818,7 +5273,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 13
+          "answerSourcePage": 13,
+          "explanation": "秋水仙碱适合预防白塞病黏膜皮肤病变特别是结节性红斑、生殖器溃疡复发。题目仅问这些病变，不能由此推断有眼、神经或大血管受累时仅用秋水仙碱足够。",
+          "knowledgeConnections": [
+            "秋水仙碱抑制微管相关炎细胞功能",
+            "严重器官受累需更强的免疫抑制方案"
+          ]
         }
       ],
       "sourceText": "男性,33岁。反复口腔溃疡5年,偶有阴囊溃疡,结节性红斑1年,近1个月出现 视物模糊,头痛明显。针刺皮肤后出现局部红丘疹。下肢静脉超声发现静脉血栓。 根据2014年国际白塞病诊断标准,权重积分为2分的表现是 为防止结节性红斑和阴囊溃疡的复发,首选的药物是",
@@ -4874,7 +5334,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 13
+          "answerSourcePage": 13,
+          "explanation": "贝赫切特病即白塞病属于可变血管性血管炎，可累及不同大小的动静脉。巨细胞动脉炎偏大血管，GPA偏小血管，IgA血管炎为免疫复合物相关小血管炎。",
+          "knowledgeConnections": [
+            "血管炎可按受累血管大小和免疫机制分类",
+            "白塞病可同时出现静脉血栓和动脉病变"
+          ]
         }
       ],
       "sourceText": " 累及血管大小可变的原发性血管炎是",
@@ -4928,7 +5393,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 13
+          "answerSourcePage": 13,
+          "explanation": "高铁血红蛋白占58%伴明显发绀，提示氧化性毒物导致Fe2+氧化为Fe3+，亚硝酸盐最符合。CO形成碳氧血红蛋白，有机磷为胆碱能危象，肉毒毒素为神经肌接头传递阻滞。",
+          "knowledgeConnections": [
+            "高铁血红蛋白不能有效携氧且影响剩余Hb释氧",
+            "与PaO2正常但组织缺氧的情形联系"
+          ]
         }
       ],
       "sourceText": " 男性,55岁。因头晕,头痛,烦躁不安,呼吸困难入院。查体:口唇、面部及指甲发绀,心率130次/ 分,R30次/分,BP90/60mmHg。高铁血红蛋白定量检测58%。该患者最可能的诊断是",
@@ -4982,7 +5452,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 13
+          "answerSourcePage": 13,
+          "explanation": "煤气热水器暴露后昏迷、短暂恢复，再经约两周假愈期出现痴呆木僵，是CO中毒迟发性脑病的典型时序。不是病人已苏醒就代表中枢损害风险完全消失。",
+          "knowledgeConnections": [
+            "CO与Hb高亲和力结合并影响细胞呼吸",
+            "迟发性脑病可有认知、精神及锥体外系表现"
+          ]
         }
       ],
       "sourceText": " 男性,16岁。煤气热水器洗澡过程中出现意识障碍,经吸氧、促进脑细胞代谢等药物治疗后,患者意 识障碍2天即恢复。15天后患者呈现反复短暂痴呆木僵发作。该患者最可能的诊断是",
@@ -5036,7 +5511,12 @@
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
-          "answerSourcePage": 13
+          "answerSourcePage": 13,
+          "explanation": "氢氧化钾是强碱腐蚀剂，洗胃可加重食管胃损伤并增加穿孔、误吸风险，因此禁忌。不能把一般毒物的胃肠去污措施照搬到腐蚀性物质摄入。",
+          "knowledgeConnections": [
+            "强酸强碱可造成腐蚀性消化道损伤",
+            "催吐和盲目酸碱中和也可增加损伤"
+          ]
         }
       ],
       "sourceText": " 误服下列哪种药物应禁忌洗胃",
@@ -5093,7 +5573,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 7,
           "lectureId": "lecture-49",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "DCM可因右心衰出现双下肢水肿，心腔及瓣环扩张造成相对性二尖瓣、三尖瓣关闭不全杂音。第二心音固定分裂是房间隔缺损的典型线索，不是DCM的常规体征。",
+          "knowledgeConnections": [
+            "左室扩张→相对二闭的心尖收缩期杂音",
+            "右室扩张→三闭的胸骨左缘收缩期杂音"
+          ]
         }
       ],
       "sourceText": "(多选题)扩张型心肌病患者可具备的体征有 双下肢凹陷性水肿 心尖部收缩期杂音 胸骨左缘4‐ 5肋间收缩期杂音 第二心音固定分裂",
@@ -5147,7 +5632,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 8,
           "lectureId": "lecture-49",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "部分携带高危致病基因的DCM患者，即使LVEF未降至传统阈值，也需结合其他危险因素考虑ICD。B的38%不符合常用≤35%阈值，单纯房颤或NT-proBNP升高不足以构成同等指征；基因阳性也须风险分层。",
+          "knowledgeConnections": [
+            "ICD预防恶性室性心律失常猝死而非单纯改善泵功能",
+            "规范心衰治疗后的LVEF与心肌瘢痕参与评估"
+          ]
         }
       ],
       "sourceText": "为防治扩张型心肌病患者发生猝死,植入ICD的主要适应证是 伴发心房颤动 LVEF38%、NYHAII‐ III级 NTproBNP增高 携带高危致病基因",
@@ -5260,7 +5750,12 @@
           "optionCategory": "第 9 题选项",
           "sourceQuestion": 9,
           "lectureId": "lecture-49",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "双心房显著增大、心室正常大小而充盈受限，配合体静脉淤血，提示限制型心肌病。DCM以心室扩张、收缩障碍为主，肥厚型需壁厚增加；缩窄性心包炎需心包和呼吸相关血流特征鉴别。",
+          "knowledgeConnections": [
+            "心室顺应性下降→舒张压升高→心房扩大",
+            "限制型与缩窄性都可有右心衰表现"
+          ]
         },
         {
           "number": 10,
@@ -5274,7 +5769,12 @@
           "optionCategory": "第 10 题选项",
           "sourceQuestion": 10,
           "lectureId": "lecture-49",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "僵硬的心室在心房收缩充盈时产生第四心音，符合限制型心肌病。开瓣音关联二狭，喀喇音偏瓣膜脱垂等，心包叩击音偏缩窄性心包炎，不能把后两种充盈受限疾病的声音混同。",
+          "knowledgeConnections": [
+            "S4位于舒张晚期、需要有效心房收缩",
+            "房颤时一般不能形成典型S4"
+          ]
         },
         {
           "number": 11,
@@ -5288,7 +5788,12 @@
           "optionCategory": "第 11 题选项",
           "sourceQuestion": 11,
           "lectureId": "lecture-49",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "心脏MRI可评估心肌浸润、纤维化及组织特征，有助于限制型心肌病与心包性缩窄鉴别。NT-proBNP反映血流动力学负担但不确定病因，心电图亦缺乏足够特异性。",
+          "knowledgeConnections": [
+            "心肌淀粉样变、铁沉积等可致限制性生理",
+            "MRI组织学线索与必要时活检互补"
+          ]
         }
       ],
       "sourceText": "男性,42岁。活动后气短,腹胀,双下肢水肿3个月。查体:血压100/70mmHg,颈静脉怒张,心界不大,心率92次/分,律齐,心音低钝。肺部听诊无啰音。腹部膨隆,移动性浊音阳性,肝肋下4cm,质韧,有触痛。双下肢凹陷性水肿。超声心动图示:双心房显著增大,心室大小及室壁厚度正常,心室充盈受限。 该患者最可能的诊断是 该患者查体时,最可能出现的额外心音是 为明确诊断,最佳的检查是 缩窄性心包炎 扩张型心肌病 限制型心肌病 肥厚型心肌病 开瓣音 喀喇音 第四心音 心包叩击音 心脏磁共振 血NT-proBNP 心导管检查 心电图",
@@ -5401,7 +5906,12 @@
           "optionCategory": "第 12 题选项",
           "sourceQuestion": 12,
           "lectureId": "lecture-50",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "颈静脉怒张、脉压小、心尖搏动减弱及吸气室间隔左移提示心包压力影响心室相互依赖，符合心包积液。需超声直接评估积液及心腔塌陷，不能仅凭室间隔移动独立确诊。",
+          "knowledgeConnections": [
+            "心包压升高限制舒张充盈",
+            "与肺淤血为主的左心衰和壁厚增加的肥厚型鉴别"
+          ]
         },
         {
           "number": 13,
@@ -5415,7 +5925,12 @@
           "optionCategory": "第 13 题选项",
           "sourceQuestion": 13,
           "lectureId": "lecture-50",
-          "answerSourcePage": 6
+          "answerSourcePage": 6,
+          "explanation": "按讲义，心包积液影响舒张充盈，吸气时右心充盈受限并影响左室充盈，可出现奇脉；静脉血不能顺利回心时可出现吸气颈静脉扩张更明显的Kussmaul征，故选A。Musset征和水冲脉偏主动脉瓣关闭不全，SAM是超声征象。",
+          "knowledgeConnections": [
+            "奇脉为吸气收缩压下降过多",
+            "Kussmaul征为吸气颈静脉压不降反升，机制和疾病侧重点不同"
+          ]
         },
         {
           "number": 14,
@@ -5429,7 +5944,12 @@
           "optionCategory": "第 14 题选项",
           "sourceQuestion": 14,
           "lectureId": "lecture-50",
-          "answerSourcePage": 6
+          "answerSourcePage": 6,
+          "explanation": "大量心包积液可使心影普遍增大而肺血相对清晰，符合A。肺门蝴蝶影、上肺血管重分布及Kerley B线偏肺静脉压升高所致心源性肺水肿，不能只凭心影大就等同左心衰。",
+          "knowledgeConnections": [
+            "心包积液的心影扩大并非心肌本身增厚",
+            "心脏压塞严重度还取决于积液速度"
+          ]
         }
       ],
       "sourceText": "男性,50岁。2个月来渐进性乏力,活动后呼吸困难,近2周加重,端坐呼吸,下肢水肿。吸烟30年。查体:T37.3°C,R24次/分,血压95/80mmHg,半卧位,口唇轻度发绀,颈静脉怒张, 心率104次/分,律齐,心尖搏动减弱,肝肋下2cm,下肢凹陷性水肿(++)。超声心动图示吸气时室间隔左移。 该患者最可能的诊断是 该患者查体最可能出现的其他体征是 该患者胸部X线检查最可能的结果是 扩张型心肌病 肥厚型心肌病 心包积液 慢性左心衰 奇脉,Kussmaul征 奇脉,Musset征 水冲脉,Ewart征 水冲脉,SAM征 肺部无明显充血,心影显著增大 肺门呈蝴蝶状,心胸比>50% 上肺血管影增多,KerleyB线 上肺边界不清的云雾影",
@@ -5483,7 +6003,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 15,
           "lectureId": "lecture-50",
-          "answerSourcePage": 6
+          "answerSourcePage": 6,
+          "explanation": "既往结核、低热、大量心包积液及奇脉支持结核性心包炎，心包液可为血性且淋巴细胞较多，故选C。血性并非恶性肿瘤专有，结核液也可为浆液性，最终需病原学与临床综合判断。",
+          "knowledgeConnections": [
+            "血性胸/心包积液需鉴别结核、肿瘤等",
+            "脓性细菌感染则常中性粒细胞占优"
+          ]
         }
       ],
       "sourceText": "男性,46岁。两个月来渐进性乏力,活动后呼吸困难。既往有肺结核病史,吸烟25年。查体:T37.8°C, 心率104次/分,R18次/分,BP95/85mmHg,半卧位,口唇轻度发绀,颈静脉怒张,双肺未闻及干湿性啰 音,心界向两侧扩大,心律齐,脉搏随呼吸强弱不等,肝肋下2cm,下肢凹陷性水肿(++)。该患者行心包穿 刺最可能的结果是 草黄色,淋巴细胞较多 浆液性,淋巴细胞较多 血性,淋巴细胞较多 脓性,中性粒细胞较多",
@@ -5539,7 +6064,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 16,
           "lectureId": "lecture-50",
-          "answerSourcePage": 6
+          "answerSourcePage": 6,
+          "explanation": "压塞使舒张充盈及搏出量下降，表现低血压、心率快、心音低、奇脉，可伴心界扩大。脉压通常缩小而非增大，因此C错误；快速少量积液也可压塞，心影不一定明显增大。",
+          "knowledgeConnections": [
+            "Beck三联征为低血压、心音遥远、颈静脉怒张",
+            "心包压力与积液量和形成速度共同相关"
+          ]
         }
       ],
       "sourceText": "(多选题)下列符合心脏压塞体征的是 奇脉 心界扩大 血压下降,脉压增大 心率加快,心音减弱",
@@ -5593,7 +6123,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 17,
           "lectureId": "lecture-51",
-          "answerSourcePage": 6
+          "answerSourcePage": 6,
+          "explanation": "真菌性心内膜炎单靠药物清除困难，常为手术联合抗真菌治疗的重要指征。杂音改变需警惕瓣膜破坏但不单独等于必须手术，血培养反复阳性也须看是否规范治疗后仍持续感染。",
+          "knowledgeConnections": [
+            "IE手术主要针对心衰、感染难控制及预防栓塞",
+            "赘生物大小和瓣周脓肿影响决策"
+          ]
         }
       ],
       "sourceText": "感染性心内膜炎患者需外科治疗的指征有 心脏杂音性质改变 伴有急性心肌梗死 真菌性心内膜炎 血培养多次阳性",
@@ -5648,7 +6183,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 18,
           "lectureId": "lecture-51",
-          "answerSourcePage": 6
+          "answerSourcePage": 6,
+          "explanation": "亚急性IE赘生物常在二尖瓣心房侧，讲义抗感染原则强调杀菌药、足量长疗程并可联合氨基糖苷类，故CD。房间隔缺损并非典型易感基础病，血培养应抗菌前采多组，不需等待体温升高；联合用药须监测肾毒性。",
+          "knowledgeConnections": [
+            "高压血流冲击低压面易造成瓣膜内皮损伤",
+            "培养阴性IE与先用抗菌药有关"
+          ]
         }
       ],
       "sourceText": "(多选题)以下关于亚急性感染性心内膜炎的叙述,正确的有 常在房间隔缺损的基础疾病上发生 血培养是重要的诊断方法,应在体温升高时采血 赘生物多位于二尖瓣的心房侧 常需联合使用氨基糖苷类抗生素",
@@ -5702,7 +6242,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 19,
           "lectureId": "lecture-52",
-          "answerSourcePage": 4
+          "answerSourcePage": 4,
+          "explanation": "左室肥厚属于高血压的靶器官损害，而不是已经发生的伴随临床疾病，故选B。缺血性卒中、糖尿病及严重视网膜病变在本题讲义风险分层中提示更高风险，不要把“靶器官损害”与“伴随临床疾病”混列。",
+          "knowledgeConnections": [
+            "高血压风险评估结合血压分级、危险因素、靶器官损害及临床病",
+            "不能只按血压数值分危度"
+          ]
         }
       ],
       "sourceText": "不属于高血压病危险评估伴随临床疾病的是 缺血性脑卒中 左心室肥厚 视网膜病变 糖尿病",
@@ -5756,7 +6301,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 4,
           "lectureId": "lecture-53",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "房颤可由多种心房扩张或结构病引起，不能可靠区分器质性二狭与功能性心尖舒张杂音。拍击样S1、开瓣音及典型粗糙杂音对瓣膜本身病变更有帮助，仍应以超声确认。",
+          "knowledgeConnections": [
+            "Austin Flint杂音可见于重度主动脉瓣关闭不全",
+            "房颤增加栓塞风险但不定位瓣膜病"
+          ]
         }
       ],
       "sourceText": "器质性和功能性心尖部舒张期杂音的鉴别,以下较不可靠的是 杂音是否粗糙、递增、伴震颤 拍击样S1有或无 开瓣音有或无 心房颤动有或无",
@@ -5810,7 +6360,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 6,
           "lectureId": "lecture-53",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "心尖滚筒样舒张杂音提示器质性二狭；胸骨左缘第2肋间的舒张杂音吸气增强，提示肺高压导致相对肺动脉瓣关闭不全，即Graham Steell杂音。问题问器质性病变，因此选二狭而非把相对关闭不全列为第二器质性病。",
+          "knowledgeConnections": [
+            "二狭→肺静脉高压→肺动脉高压",
+            "右心杂音多随吸气增强"
+          ]
         }
       ],
       "sourceText": "女性,35岁。患有风湿性关节炎。3天来感冒、发热、咳嗽,入院前突感呼吸困难,咳粉红色泡沫样痰, 烦躁不安。查体:心尖区闻及滚筒样舒张期杂音,胸骨左缘第2肋间递减型高调叹气样舒张期杂音,于吸 气末增强,双肺散在哮鸣音,肺底湿啰音。该患者最可能的器质性病变是 二尖瓣狭窄 二尖瓣狭窄伴肺动脉瓣狭窄 二尖瓣狭窄伴肺动脉瓣关闭不全 二尖瓣狭窄伴主动脉瓣关闭不全",
@@ -5923,7 +6478,12 @@
           "optionCategory": "第 1 题选项",
           "sourceQuestion": 1,
           "lectureId": "lecture-54",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "胸痛已持续2小时不缓解，且有广泛ST段水平压低，按讲义应优先考虑非ST段抬高型心肌梗死，故选D。肌钙蛋白一般3–4小时后才明显升高，早期单次正常不能据此排除，需动态复查；变异型更典型ST抬高。",
+          "knowledgeConnections": [
+            "心肌梗死诊断需心肌损伤标志物动态变化并有缺血证据",
+            "缺血性ST压低不等于已坏死"
+          ]
         },
         {
           "number": 2,
@@ -5937,7 +6497,12 @@
           "optionCategory": "第 2 题选项",
           "sourceQuestion": 2,
           "lectureId": "lecture-54",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "按题设ACS双联抗血小板负荷方案，阿司匹林300mg联合替格瑞洛180mg符合选项D。100mg阿司匹林偏维持量，氯吡格雷180mg不是常用负荷量；实际给药时机还需结合造影计划、出血风险及禁忌证。",
+          "knowledgeConnections": [
+            "阿司匹林抑制COX-1而替格瑞洛阻断P2Y12",
+            "抗血小板与抗凝靶点不同"
+          ]
         },
         {
           "number": 3,
@@ -5951,7 +6516,12 @@
           "optionCategory": "第 3 题选项",
           "sourceQuestion": 3,
           "lectureId": "lecture-54",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "本题考NSTE-ACS极高危标准：反复间歇性ST段抬高提示不稳定的严重缺血，应在2小时内介入评估，故选D。一般房颤或既往慢性心衰不自动等同极高危，持续胸痛需结合是否经药物治疗仍反复无效。",
+          "knowledgeConnections": [
+            "极高危NSTE-ACS包括血流动力学不稳、难治性胸痛和反复动态ST改变",
+            "危险分层决定介入时机"
+          ]
         }
       ],
       "sourceText": "男性,70岁。一年来快跑时感心前区闷痛,持续3‐ 5分钟,休息即可缓解。近一个月来上一层楼时即出现胸痛,疼痛较前加重,伴出汗。2小时前再发胸痛,持续不缓解。既往糖尿病18年。 查体:R20次/分,BP110/65mmHg,心率96次/分,心律齐,心音低钝,双肺呼吸音清。心电图示V1—6、 I、aVL导联ST段水平下移0.4mv,T波倒置。实验室检查血清cTnI水平正常。 该患者目前最可能的诊断是 抗血小板治疗时首选的药物和相应负荷剂量为 患者需在2小时内进行介入评估的依据是 恶化型心绞痛 初发型心绞痛 变异型心绞痛 急性心肌梗死 阿司匹林100mg 阿司匹林300mg 阿司匹林100mg+氯吡格雷180mg 阿司匹林300mg+替格瑞洛180mg 持续胸痛 心房颤动 慢性心力衰竭 间歇性ST段抬高",
@@ -6007,7 +6577,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 5,
           "lectureId": "lecture-54",
-          "answerSourcePage": 5
+          "answerSourcePage": 5,
+          "explanation": "ST压低且cTnI阳性符合NSTEMI，采用抗凝及P2Y12抑制剂；无急性心衰、低血压等禁忌时可使用β阻断控制缺血。阿替普酶溶栓不用于NSTEMI；静脉β阻断仍须监测心率血压及灌注。",
+          "knowledgeConnections": [
+            "STEMI与NSTEMI的再灌注策略不同",
+            "抗凝时肾功能和介入方案影响药物选择"
+          ]
         }
       ],
       "sourceText": "(多选题)女性,60岁。6小时前突发胸骨后持续性疼痛,剧烈,呈压榨性。含服硝酸甘油后短暂减轻, 继之胸痛持续加重。既往高血压病史。查体:BP130/70mmHg,双肺呼吸音清,心率86次/分,律齐,A2 >P2。心电图示V1‐ 6导联ST段压低0.4mv,实验室检查血cTnI(+)。该患者宜采取的治疗措施是 皮下注射磺达肝癸钠 口服替格瑞洛 静脉滴注艾司洛尔 静脉注射阿替普酶",
@@ -6096,7 +6671,12 @@
           "optionCategory": "第 9 题选项",
           "sourceQuestion": 9,
           "lectureId": "lecture-55",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "夜间憋醒、坐起缓解、双肺底湿啰音及两次心梗史更支持左心衰导致心源性呼吸困难。虽有慢支和桶状胸背景，但不能用既往肺病解释本次典型端坐和阵发性夜间呼吸困难。",
+          "knowledgeConnections": [
+            "夜间平卧回心血量增加可加重肺淤血",
+            "慢性肺病与心衰可并存"
+          ]
         },
         {
           "number": 10,
@@ -6110,7 +6690,12 @@
           "optionCategory": "第 10 题选项",
           "sourceQuestion": 10,
           "lectureId": "lecture-55",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "左室功能受损使左房及肺静脉压升高，形成肺淤血，降低肺顺应性并刺激感受器引发呼吸困难。小支气管痉挛可伴心源性哮喘，但不是此病例最根本的病理生理环节。",
+          "knowledgeConnections": [
+            "肺静脉压升高→间质/肺泡水肿",
+            "肺部湿啰音对应液体进入小气道及肺泡"
+          ]
         }
       ],
       "sourceText": "男性,66岁。2个月来稍事活动即出现心悸、气短、呼吸困难,1周以来反复发生夜间憋醒,需坐起方可缓解。既往有两次急性心肌梗死病史,慢性支气管炎病史30年,吸烟40年。查体:R18 次/分,BP140/80mmHg,高枕位,无发绀,轻度桶状胸,双肺底可闻及湿啰音,下肢无水肿,心律整,心率108次/分,第一心音低钝,A2=P2。 该患者呼吸困难的类型是 该患者呼吸困难最可能的病理生理机制为 心源性 肺源性 血源性 神经精神性 肺泡张力增高 血氧分压降低 小支气管痉挛 肺淤血",
@@ -6164,7 +6749,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 11,
           "lectureId": "lecture-55",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "既往心梗后LVEF30%提示持续重度左室收缩功能障碍，是四个选项中评估ICD猝死预防最主要依据。QRS仅100ms不支持宽QRS相关CRT指征；急性心梗当时的室颤需结合是否属可逆早期事件判断。",
+          "knowledgeConnections": [
+            "心梗后ICD一级预防需满足等待期及规范治疗后再评估",
+            "ICD预防室速室颤，CRT改善不同步"
+          ]
         }
       ],
       "sourceText": "女性,65岁。急性前壁心肌梗死后2个月复诊。日常活动感气短,有时心悸,无黑朦、晕厥。超声心动 图示左室前壁节段性运动减弱,室壁瘤形成,左室扩大,LVEF30%。心电图示窦性心律,不完全性右束支 传导阻滞,QRS波时限0.1s。追问病史:心梗发作时曾因室颤行电除颤一次,就诊后建议该患者植入心律 转复除颤器(ICD),其最主要的依据是 日常活动感气短、心悸 LVEF30% 室壁瘤形成 不完全性右束支传导阻滞",
@@ -6218,7 +6808,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 18,
           "lectureId": "lecture-55",
-          "answerSourcePage": 4
+          "answerSourcePage": 4,
+          "explanation": "严重高血压诱发急性肺水肿，心律绝对不齐提示房颤，硝普钠降前后负荷、呋塞米减淤血，毛花苷丙可帮助控制房颤心室率。地尔硫卓在收缩性心衰时可能抑制心肌，不宜照搬；急性失代偿期不新启常规β阻断。",
+          "knowledgeConnections": [
+            "高血压急症须有急性靶器官损害",
+            "血流动力学不稳的快速房颤需考虑电复律"
+          ]
         }
       ],
       "sourceText": "男性,60岁。突发心悸、气促2小时,咳粉红色泡沫样痰,不能平卧。高血压20年,未规律服用降压 药。查体:BP180/130mmHg。双肺满布干湿性啰音,心界扩大,心率110次/分,心律绝对不齐。该患者最 恰当的治疗是 硝酸甘油、地尔硫卓、呋塞米 硝普钠、地尔硫卓、呋塞米 硝普钠、毛花苷丙、呋塞米 尼尔地平、毛花苷丙、美托洛尔",
@@ -6272,7 +6867,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 12,
           "lectureId": "lecture-56",
-          "answerSourcePage": 3
+          "answerSourcePage": 3,
+          "explanation": "有症状的长间歇达4.2秒并出现交界性逸搏，最提示窦房结冲动形成或传导障碍。平均窦性心率56次/分本身可能无病理意义，一度房室阻滞定位房室传导而非直接证明病窦。",
+          "knowledgeConnections": [
+            "慢-快综合征为病窦一种表现",
+            "起搏决策重视症状与缓慢心律的时间相关性"
+          ]
         }
       ],
       "sourceText": "男性,68岁。近2年反复出现发作性心悸,伴头晕、黑矇。查体:BP135/65mmHg,心率52次/分,律 齐,心脏各瓣膜听诊区未闻及杂音。动态心电图:窦性心律为主,平均心率56次/分,R‐ R长间歇35次, 最长4.2秒伴房室交界逸搏,房性期前收缩,短阵房性心动过速,一度房室传导阻滞。最能提示该患者为病 态窦房结综合征的动态心电图表现是 一度房室传导阻滞 R‐ R长间歇35次,最长4.2秒伴房室交界逸搏 窦性心律为主,平均心率56次/分 房性期前收缩,短阵房性心动过速",
@@ -6328,7 +6928,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 13,
           "lectureId": "lecture-56",
-          "answerSourcePage": 4
+          "answerSourcePage": 4,
+          "explanation": "AVNRT常由房性早搏触发，规则的折返激动使心率突发突止，逆行P波可埋在QRS内。强心苷并非在无预激的AVNRT一概禁用；应与预激合并房颤时的房室结阻滞药禁忌区别。",
+          "knowledgeConnections": [
+            "房室结快慢径路形成折返",
+            "AVRT需要房室旁道，而AVNRT回路位于房室结附近"
+          ]
         }
       ],
       "sourceText": "(多选题)下列关于房室结折返性心动过速的描述,正确的有 多由房早触发 心律绝对规则 逆行P波常埋藏于QRS波内 禁用强心苷治疗",
@@ -6384,7 +6989,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 14,
           "lectureId": "lecture-56",
-          "answerSourcePage": 4
+          "answerSourcePage": 4,
+          "explanation": "典型室早提前出现宽大畸形QRS、前无相关窦性P波，T波多与QRS主波相反，常有完全代偿间歇。D应按夹住室早的两次正常窦性下传搏动跨两个基本周期理解，不能把窦房结实际节律误认为被室早固定重置。",
+          "knowledgeConnections": [
+            "室早通常不重置窦房结，房早常使窦房结节律重置",
+            "插入性室早也可无代偿间歇"
+          ]
         }
       ],
       "sourceText": "(多选题)下列符合室性期前收缩的心电图表现是 期前出现的QRS波通常>0.12秒 期前出现的QRS‐ T波前通常有P波 T波方向通常与QRS的主波方向相反 期前收缩前后的两个窦性P波间距=正常PP间距的2倍",
@@ -6439,7 +7049,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 15,
           "lectureId": "lecture-56",
-          "answerSourcePage": 4
+          "answerSourcePage": 4,
+          "explanation": "文氏型多在房室结，PR逐渐延长但增量递减，RR因而逐渐缩短，脱漏后PR最短，故BC正确。希氏束远端更提示Ⅱ型；单独2:1传导不能根据一张图可靠判定Ⅰ或Ⅱ型。",
+          "knowledgeConnections": [
+            "二度Ⅰ型与Ⅱ型预后及阻滞部位不同",
+            "规律P波中缺一个QRS需判断传导比例与PR序列"
+          ]
         }
       ],
       "sourceText": "(多选题)下列关于二度I型房室传导阻滞的描述,正确的有 病变多位于希氏束的远端 PP间期恒定,RR间期逐渐缩短 漏搏后的PR间期趋于缩短 房室传导比例为2:1-4:1",
@@ -6493,7 +7108,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 16,
           "lectureId": "lecture-56",
-          "answerSourcePage": 4
+          "answerSourcePage": 4,
+          "explanation": "原房颤为绝对不齐，地高辛后一旦变成缓慢而规则的45次/分，警惕完全房室阻滞后的交界性/室性逸搏。恢复窦律应重新出现窦性P波，不能只凭心室规则就判断转复成功。",
+          "knowledgeConnections": [
+            "洋地黄可抑制房室结",
+            "房颤伴完全房室阻滞仍可保留f波而心室节律变规则"
+          ]
         }
       ],
       "sourceText": "女性,40岁。因间断胸闷2年,再发加重1个月入院。既往无高血压及胸痛病史。查体:T37.5度,P88 次/分,R18次/分,BP100/80mmHg,心界向左下明显扩大。心音低钝,可闻及期前收缩。患者突发心悸、 气促,不能平卧。心电图示P波消失,可见形态不等的f波,QRS波时限0.08s,间距不等。该患者经地高 辛治疗1周后,心室律突然规则,心率45次/分。最可能的考虑是 已恢复窦性心律 转为心房扑动4:1传导 预激综合征加重 并发三度房室传导阻滞",
@@ -6547,7 +7167,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 17,
           "lectureId": "lecture-56",
-          "answerSourcePage": 4
+          "answerSourcePage": 4,
+          "explanation": "加用美托洛尔后出现乏力黑矇及PR渐延至QRS脱漏，提示药物加重二度Ⅰ型房室阻滞，首先停用可逆诱因。地尔硫卓同样抑制房室结，不宜作为替代；持续有症状再评估起搏需要。",
+          "knowledgeConnections": [
+            "β阻断与非二氢吡啶CCB均可减慢房室传导",
+            "高龄对联合负性频率药更敏感"
+          ]
         }
       ],
       "sourceText": "男性,87岁。高血压病10余年,长期服用钙通道阻滞剂,1个月前因血压控制不满意加用美托洛尔12.5mg Bid,近1周感乏力、倦怠,偶有四肢发冷,间断出现黑矇。查体:BP110/70mmHg,心率50次/分。心电 图示PR间期逐渐延长,直至QRS波脱落。目前最恰当的处理是 植入永久起搏器 停用美托洛尔 将美托洛尔更换为地尔硫卓 暂不处理,严密观察",
@@ -6601,7 +7226,12 @@
           "answerState": "原PDF标红答案",
           "sourceQuestion": 5,
           "lectureId": null,
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "explanation": "骨髓纤维化使造血结构扭曲，红细胞穿过纤维化骨髓和髓外造血部位时可形成泪滴形。靶形细胞偏地贫/肝病，球形细胞偏膜病或免疫性溶血，口形细胞另有膜通透性机制。",
+          "knowledgeConnections": [
+            "骨髓纤维化可有幼红幼粒细胞及巨大脾",
+            "骨髓穿刺干抽需结合活检"
+          ]
         }
       ],
       "sourceText": "骨髓纤维化患者外周血涂片常见的红细胞形态异常是 泪滴形细胞 口形细胞 靶形细胞 球形细胞",

@@ -1307,6 +1307,7 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
         })}
       </tr>
       {submitted && <tr className={`answer-table-result-row ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><td colSpan={options.length + 2}><span><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</span></td></tr>}
+      {submitted && (stem.explanation || stem.knowledgeConnections?.length) ? <tr className="answer-table-study-row"><td colSpan={options.length + 2}><QuestionStudyNotes stem={stem} /></td></tr> : null}
     </>
   )
 }
@@ -1348,9 +1349,18 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
           ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => <div className="answer-choice-category" key={category}><span>{category}</span><div>{choiceOptions.filter((option) => option.category === category).map(renderChoiceButton)}</div></div>)}</div>
           : <div className="answer-choices">{choiceOptions.map(renderChoiceButton)}</div>)}
       {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
-      {submitted && stem.explanation ? <p className="matching-explanation">{stem.explanation}</p> : null}
+      {submitted ? <QuestionStudyNotes stem={stem} /> : null}
     </div>
   )
+}
+
+function QuestionStudyNotes({ stem }) {
+  const connections = stem.knowledgeConnections || []
+  if (!stem.explanation && !connections.length) return null
+  return <section className="question-study-notes" aria-label="解析与知识点串联">
+    {stem.explanation ? <div className="question-explanation"><h3>解析</h3><p>{stem.explanation}</p></div> : null}
+    {connections.length ? <div className="question-connections"><h3>知识点串联</h3><ul>{connections.map((connection, index) => <li key={index}>{connection}</li>)}</ul></div> : null}
+  </section>
 }
 
 function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }) {

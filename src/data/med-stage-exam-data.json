@@ -75,7 +75,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-01"
+          "lectureId": "lecture-01",
+          "explanation": "小气道早期阻力改变可先影响最大呼气流量-容积曲线，尤其中低肺容积段流量下降，故选MEFV相关变化。闭合容积在小气道病变时通常增大而非减小；DLCO降低主要提示气体交换膜或肺血管床异常。",
+          "knowledgeConnections": [
+            "小气道病变可早于常规FEV1/FVC明显异常",
+            "闭合容积升高反映小气道提前关闭"
+          ]
         }
       ]
     },
@@ -136,7 +141,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-01"
+          "lectureId": "lecture-01",
+          "explanation": "慢性咳痰、晨起明显、秋冬加重及吸烟史提示慢性支气管炎/COPD，中性粒细胞及其蛋白酶参与主要炎症过程。嗜酸细胞在典型过敏性哮喘更突出，不能仅因有咳嗽就选它。",
+          "knowledgeConnections": [
+            "中性粒细胞弹性蛋白酶破坏肺弹性结构",
+            "黏液腺增生和纤毛清除障碍导致慢性咳痰"
+          ]
         }
       ]
     },
@@ -197,7 +207,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-01"
+          "lectureId": "lecture-01",
+          "explanation": "长期咳痰喘、桶状胸及低氧高CO2提示COPD并Ⅱ型呼衰。呼气受限使FEV1相关比值下降、气体潴留使RV/TLC升高，肺活量可下降，故D的组合最吻合。",
+          "knowledgeConnections": [
+            "阻塞性通气与限制性通气比较FEV1/FVC及TLC",
+            "肺气肿残气量增加可形成桶状胸"
+          ]
         }
       ]
     },
@@ -258,7 +273,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-09"
+          "lectureId": "lecture-09",
+          "explanation": "发作性喘息且支气管扩张治疗有效提示哮喘，Th2相关IL-4促进IgE类别转换，是选项中最典型的参与因子。IL-1、IL-2等不是完全不参与免疫反应，而是与本题过敏机制的对应不如IL-4。",
+          "knowledgeConnections": [
+            "IL-5与嗜酸细胞相关、IL-13与黏液及气道高反应相关",
+            "IgE介导肥大细胞激活"
+          ]
         }
       ]
     },
@@ -320,7 +340,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-09"
+          "lectureId": "lecture-09",
+          "explanation": "哮喘发作早期常过度通气、PaCO2下降；严重梗阻及呼吸肌疲劳时CO2反而升高，提示通气衰竭危险。哮鸣音响亮、PEF下降及三凹征可见于重症，但PaCO2升高更指向危重进展。",
+          "knowledgeConnections": [
+            "沉默肺可能比响亮哮鸣更危险",
+            "血气同时评价氧合、通气与酸碱平衡"
+          ]
         }
       ]
     },
@@ -381,7 +406,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-05"
+          "lectureId": "lecture-05",
+          "explanation": "十余年大量脓痰反复发作及局部多发薄壁囊腔、液平面，支持囊状支气管扩张。肺脓肿多为局限坏死空洞且急性感染突出；纤维空洞结核更多上肺纤维收缩和结核活动线索。",
+          "knowledgeConnections": [
+            "支扩为支气管壁破坏导致不可逆扩张",
+            "薄壁囊状扩张与坏死性厚壁空洞需区别"
+          ]
         }
       ]
     },
@@ -442,7 +472,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-07"
+          "lectureId": "lecture-07",
+          "explanation": "所列药物中，头孢曲松可用于耐青霉素肺炎链球菌肺炎。阿米卡星不适合作为其单药首选，大环内酯需考虑耐药，头孢呋辛对耐药株覆盖不如第三代头孢可靠，实际须结合药敏和感染部位。",
+          "knowledgeConnections": [
+            "耐青霉素机制与青霉素结合蛋白改变有关",
+            "耐某一β内酰胺不等于所有同类均无效"
+          ]
         }
       ]
     },
@@ -503,7 +538,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-06"
+          "lectureId": "lecture-06",
+          "explanation": "醉酒增加误吸风险，急性高热、脓臭痰及团块影内空洞液平提示厌氧菌相关吸入性肺脓肿。普通大叶性肺炎通常不快速形成脓臭空洞，支扩则应有长期反复大量痰病史。",
+          "knowledgeConnections": [
+            "误吸与厌氧菌混合感染联系",
+            "肺脓肿引流支气管打开后可突然咳出大量脓痰"
+          ]
         }
       ]
     },
@@ -564,7 +604,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-08"
+          "lectureId": "lecture-08",
+          "explanation": "低热乏力、痰血、上肺斑片影内透亮空洞及常规头孢治疗无效，提示肺结核。金葡菌肺炎通常毒血症更重、急性多灶坏死；支原体和病毒一般不以此种上肺空洞为典型。",
+          "knowledgeConnections": [
+            "继发性肺结核好发上叶尖后段和下叶背段",
+            "抗感染无效需转向病原学及影像复核"
+          ]
         }
       ]
     },
@@ -626,7 +671,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-08"
+          "lectureId": "lecture-08",
+          "explanation": "双上肺多发空洞、没有明显液平且肺门上提，说明上肺长期纤维化收缩牵拉，符合慢性纤维空洞性肺结核。COPD虽可透亮度高但不解释双肺门上提及典型结核空洞组合。",
+          "knowledgeConnections": [
+            "纤维化收缩使纵隔/肺门向病变侧牵拉",
+            "肺脓肿常有感染表现及气液平面"
+          ]
         }
       ]
     },
@@ -687,7 +737,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-08"
+          "lectureId": "lecture-08",
+          "explanation": "按经典抗结核药作用部位，吡嗪酰胺在酸性环境对细胞内结核菌有效，故选D。链霉素主要作用于细胞外菌，利福平可作用于细胞内外；“仅能”是教材分类用语，不应扩展为所有体内环境的绝对定律。",
+          "knowledgeConnections": [
+            "不同代谢状态结核菌对药敏感不同",
+            "联合治疗兼顾作用部位并减少耐药"
+          ]
         }
       ]
     },
@@ -748,7 +803,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "explanation": "呼吸困难、胸痛、痰血与单侧下肢肿痛，提示下肢深静脉血栓脱落导致肺栓塞；右心负荷征及少量胸水增加支持。冠心病不解释单侧肢体血栓线索，肺部听诊少也不排除肺栓塞。",
+          "knowledgeConnections": [
+            "DVT与PE合称静脉血栓栓塞症",
+            "急性右心应变可有V1–V3导联T倒置"
+          ]
         }
       ]
     },
@@ -809,7 +869,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "explanation": "抗凝是肺血栓栓塞基本治疗，肝素抑制血栓继续扩展并利于内源纤溶。阿替普酶属溶栓，主要用于适当的高危病例；阿司匹林不能替代抗凝，手术更非人人首选。",
+          "knowledgeConnections": [
+            "血流动力学不稳的PE需评估再灌注",
+            "抗凝与溶栓的风险和适应证不同"
+          ]
         }
       ]
     },
@@ -870,7 +935,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-10"
+          "lectureId": "lecture-10",
+          "explanation": "ARDS为毛细血管通透性增高的非心源性肺水肿，心源性水肿则主要由肺静脉压力增加导致。Swan-Ganz导管可测楔压，提供血流动力学鉴别：讲义以ARDS楔压＜18mmHg与心源性水肿升高相对照，故选C。",
+          "knowledgeConnections": [
+            "ARDS与心源性肺水肿都可低氧、双肺浸润",
+            "静水压升高与毛细血管屏障损伤机制不同"
+          ]
         }
       ]
     },
@@ -931,7 +1001,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-10"
+          "lectureId": "lecture-10",
+          "explanation": "重症肺炎后呼吸窘迫、低氧而CO2低、双肺影及正常心胸比提示ARDS。在循环灌注已稳定的前提下采取保守液体策略，力争入量小于出量以减轻肺水肿；不能在休克未复苏时机械追求负平衡。",
+          "knowledgeConnections": [
+            "ARDS为通透性增高的非心源性肺水肿",
+            "过度通气可形成呼碱，晚期才可能CO2潴留"
+          ]
         }
       ]
     },
@@ -992,7 +1067,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-13"
+          "lectureId": "lecture-13",
+          "explanation": "缩窄性心包炎主要因静脉压、胸膜毛细血管静水压升高形成积液，不以通透性增加为主。其余选项可由肿瘤、炎症或肺梗死增加通透性形成渗出液。",
+          "knowledgeConnections": [
+            "漏出液与渗出液按Light标准等评价",
+            "病因判断要与容量状态和心脏体征相结合"
+          ]
         }
       ]
     },
@@ -1053,7 +1133,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-13"
+          "lectureId": "lecture-13",
+          "explanation": "类肺炎性积液培养阳性说明胸膜腔感染，需考虑引流而不能仅抗菌等待。血性或中性粒细胞占优本身不必然需要置管；还要结合脓液、pH、葡萄糖、分隔和积液量。",
+          "knowledgeConnections": [
+            "复杂性类肺炎积液/脓胸需感染源控制",
+            "胸水pH低提示更高引流可能"
+          ]
         }
       ]
     },
@@ -1114,7 +1199,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-13"
+          "lectureId": "lecture-13",
+          "explanation": "胸廓饱满、下肺实音及呼吸音低提示胸腔积液，液体隔开肺与胸壁使语音共振减弱。大量右积液可将气管推左而非推右，积液上方可有压迫性支气管呼吸音但并非题述所有右上肺必然出现。",
+          "knowledgeConnections": [
+            "胸腔积液与实变都叩浊但语音传导方向不同",
+            "积液上方压迫肺可产生异常支气管呼吸音"
+          ]
         }
       ]
     },
@@ -1175,7 +1265,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-02"
+          "lectureId": "lecture-02",
+          "explanation": "慢性咳痰基础上气短、水肿，心电图顺钟向转位及右室优势支持慢性肺心病。肺源性肺高压造成右室肥厚和右心衰，冠心病或DCM不能同样解释该呼吸病史和右室型图形。",
+          "knowledgeConnections": [
+            "COPD→慢性缺氧性肺血管收缩→肺高压→右室肥厚",
+            "体循环淤血可有水肿和颈静脉怒张"
+          ]
         }
       ]
     },
@@ -1236,7 +1331,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-02"
+          "lectureId": "lecture-02",
+          "explanation": "按讲义，肺心病失代偿时右心衰伴三尖瓣相对关闭不全，舒张期流经瓣口血量增多可出现三尖瓣区血流性舒张期杂音，故选D。注意区分代偿和失代偿期均可出现的三尖瓣区收缩期杂音，其机制是相对关闭不全。",
+          "knowledgeConnections": [
+            "肺高压导致右室肥厚，失代偿后右室扩张和体静脉淤血",
+            "三尖瓣反流的收缩期杂音与大量血流通过瓣口的舒张期杂音不是同一机制"
+          ]
         }
       ]
     },
@@ -1297,7 +1397,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-12"
+          "lectureId": "lecture-12",
+          "explanation": "高危人群肺癌筛查以低剂量螺旋CT为主要方法，较痰细胞学及肿瘤标志物有更好的早期病灶发现能力。HRCT常用于特定肺实质病变细节分析，不是此题筛查方案的标准名称。",
+          "knowledgeConnections": [
+            "筛查对象需按年龄、吸烟暴露等风险选择",
+            "筛查发现结节不等于已确诊癌症"
+          ]
         }
       ]
     },
@@ -1358,7 +1463,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-12"
+          "lectureId": "lecture-12",
+          "explanation": "老年重度吸烟、痰血、杵状指及肺门影提示中央型肺癌，增强CT可进一步判断肿块、血管及纵隔。题目给定选项中选D，但最终确诊需组织/细胞病理；肺门病灶通常还应评估支气管镜取材。",
+          "knowledgeConnections": [
+            "影像定位分期与病理确诊分工不同",
+            "中央病灶不宜笼统首选经皮穿刺"
+          ]
         }
       ]
     },
@@ -1419,7 +1529,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-11"
+          "lectureId": "lecture-11",
+          "explanation": "低氧、高CO2加HCO3−升高说明CO2潴留已有肾脏代偿，更符合慢性低通气，脊柱后侧凸可长期限制胸廓运动。异物、急性脑干出血和哮喘急发通常更急，尚无如此充分的慢性代偿线索。",
+          "knowledgeConnections": [
+            "慢性呼酸肾代偿需时间",
+            "胸廓畸形导致限制性通气并可发展Ⅱ型呼衰"
+          ]
         }
       ]
     },
@@ -1480,7 +1595,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-55"
+          "lectureId": "lecture-55",
+          "explanation": "结缔组织病可在全身疾病基础上继发累及心肌，属于继发性心肌损害。冠心病是缺血性心肌损害，肥厚型心肌病和病毒性心肌炎在讲义病因分类中另列，不按此项“继发性”归类。",
+          "knowledgeConnections": [
+            "系统性硬化症、SLE等可累及心肌",
+            "病因分类与最终心衰表型是两个层次"
+          ]
         }
       ]
     },
@@ -1541,7 +1661,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-55"
+          "lectureId": "lecture-55",
+          "explanation": "肺动脉高压主要增加右室射血阻力，属于压力后负荷过重。主动脉瓣反流、室间隔分流和动静脉瘘均增加需要处理的血容量，偏容量前负荷过重。",
+          "knowledgeConnections": [
+            "压力负荷倾向向心性肥厚",
+            "长期容量负荷更易心腔扩张及离心性重构"
+          ]
         }
       ]
     },
@@ -1602,7 +1727,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-55"
+          "lectureId": "lecture-55",
+          "explanation": "平卧回心血量增多、膈肌上升及夜间迷走兴奋均可加重左心衰呼吸困难。外周小动脉扩张使后负荷下降，通常有利于左室射血，并非这些症状发生的主要机制。",
+          "knowledgeConnections": [
+            "端坐可减少回心血量并降低膈肌",
+            "夜间体位性液体再分布增加肺淤血"
+          ]
         }
       ]
     },
@@ -1663,7 +1793,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-55"
+          "lectureId": "lecture-55",
+          "explanation": "急性肺水肿同时BP80/50mmHg，存在低灌注，硝普钠强效扩血管可进一步降压，故最不应选择。升压/正性肌力药需按灌注监测选用；不能因为是心衰就一概常规给扩血管药。",
+          "knowledgeConnections": [
+            "急性心衰按淤血和灌注分型",
+            "低血压休克与高血压肺水肿用药方向不同"
+          ]
         }
       ]
     },
@@ -1724,7 +1859,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-56"
+          "lectureId": "lecture-56",
+          "explanation": "预激病史、绝对不齐的宽QRS心动过速提示预激合并房颤，BP70/50为血流动力学不稳，应立即同步电复律。洋地黄及单纯房室结阻断可能促进旁道快速传导，不能按普通房颤处理。",
+          "knowledgeConnections": [
+            "旁道无正常房室结的生理性递减传导保护",
+            "预激房颤可恶化为室颤"
+          ]
         }
       ]
     },
@@ -1785,7 +1925,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-56"
+          "lectureId": "lecture-56",
+          "explanation": "长QT相关尖端扭转型室速首选静脉硫酸镁，并纠正低钾及停致QT延长药。胺碘酮本身延长复极，不是该情境的理想选择；不稳定或无脉时电击不能被药物延误。",
+          "knowledgeConnections": [
+            "早期后除极与QT延长相关",
+            "反复发作可按病因考虑提高心率"
+          ]
         }
       ]
     },
@@ -1848,7 +1993,12 @@
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-56",
           "image": "med/med-stage-exam-2026-09/q030-ecg.webp",
-          "imageAlt": "阶段考试第30题原始心电图"
+          "imageAlt": "阶段考试第30题原始心电图",
+          "explanation": "图中看不到规则窦性P波，基线有不规则细颤动且R-R明显不等，符合房颤。房扑通常有规则锯齿F波，典型室上速多规则，室速通常宽QRS且需结合房室分离等证据。",
+          "knowledgeConnections": [
+            "房颤的心音强弱不等及短绌脉来自每搏充盈不同",
+            "房颤管理同时关注卒中抗凝与心室率"
+          ]
         }
       ]
     },
@@ -1910,7 +2060,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-52"
+          "lectureId": "lecture-52",
+          "explanation": "舒张压100mmHg达到2级，以较高一级归类；年龄、血脂异常及父亲50岁早发心梗家族史增加风险，按讲义传统分层为高危。收缩压仅155不能据此降为1级。",
+          "knowledgeConnections": [
+            "高血压级别由收缩压或舒张压较高者决定",
+            "高血压分级不等于心血管风险分层"
+          ]
         }
       ]
     },
@@ -1971,7 +2126,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-52"
+          "lectureId": "lecture-52",
+          "explanation": "孕期不能用缬沙坦；心率50次/分且有哮喘，不利于美托洛尔，维拉帕米也可进一步减慢心率，故所列选项选氨氯地平。孕期临床常用药及急症处理需按产科方案，不能把本题选项代表全部首选药序列。",
+          "knowledgeConnections": [
+            "ACEI/ARB孕期禁忌",
+            "非二氢吡啶CCB可抑制窦房结及房室结"
+          ]
         }
       ]
     },
@@ -2032,7 +2192,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-54"
+          "lectureId": "lecture-54",
+          "explanation": "缺血发作伴急性左心衰提示极高危NSTE-ACS，应争取立即侵入性评估。仅发作延长、静息发作或ST压低说明不稳定，但未必单凭该项达到需2小时内评估的最高风险层。",
+          "knowledgeConnections": [
+            "难治性胸痛、休克、致命心律失常也属极高危",
+            "介入时机由整体危险度决定"
+          ]
         }
       ]
     },
@@ -2093,7 +2258,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-54"
+          "lectureId": "lecture-54",
+          "explanation": "心梗后第4天突发心衰，胸骨左缘新发响亮全收缩期杂音伴震颤，提示室间隔破裂产生左向右分流。乳头肌断裂主要为急性二闭、心尖区杂音；室壁瘤多较慢且不典型产生此杂音。",
+          "knowledgeConnections": [
+            "梗死后坏死组织软化易出现机械并发症",
+            "床旁超声可定位分流及瓣膜损伤"
+          ]
         }
       ]
     },
@@ -2154,7 +2324,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-54"
+          "lectureId": "lecture-54",
+          "explanation": "患者已明确冠脉粥样硬化并有糖尿病，按本讲义糖尿病合并ASCVD的控制目标，LDL-C应＜1.8mmol/L，故选B。未合并ASCVD的糖尿病目标不同；不要把本病例与急性冠脉综合征的降脂考点混淆。",
+          "knowledgeConnections": [
+            "他汀为ASCVD降脂基础，必要时联合依折麦布等",
+            "LDL目标取决于风险类别与指南版本"
+          ]
         }
       ]
     },
@@ -2216,7 +2391,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-54"
+          "lectureId": "lecture-54",
+          "explanation": "Ⅱ、Ⅲ、aVF是下壁导联，持续胸痛伴这些导联ST抬高首先考虑急性下壁STEMI。应进一步看右胸导联和后壁导联；心率偏慢也可与右冠/房室结供血相关。",
+          "knowledgeConnections": [
+            "前间隔看V1–V3、高侧壁看Ⅰ及aVL",
+            "下壁梗死可并右室梗死、房室阻滞"
+          ]
         }
       ]
     },
@@ -2277,7 +2457,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-54"
+          "lectureId": "lecture-54",
+          "explanation": "硝酸异山梨酯主要通过扩血管减少心肌耗氧、缓解心绞痛症状，不作为讲义改善预后的核心药物，故选A。阿司匹林减少血小板血栓，他汀降低动脉粥样硬化风险，β阻断剂降低心率及心肌耗氧。",
+          "knowledgeConnections": [
+            "缓解缺血症状与改善长期结局不是同一终点",
+            "二级预防需控制血脂血压、戒烟和抗栓"
+          ]
         }
       ]
     },
@@ -2338,7 +2523,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-53"
+          "lectureId": "lecture-53",
+          "explanation": "胸骨左缘舒张期叹气杂音加周围血管征指向主动脉瓣关闭不全，左室容量负荷和扩张可呈靴形心。梨形偏二狭，烧瓶样偏大量心包积液，球形更常用于全心扩大。",
+          "knowledgeConnections": [
+            "主动脉瓣反流→舒张压下降及脉压增大",
+            "左室长期容量负荷造成心尖向左下移"
+          ]
         }
       ]
     },
@@ -2399,7 +2589,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-53"
+          "lectureId": "lecture-53",
+          "explanation": "左房黏液瘤的肿瘤扑落音可类似开瓣音，但常较迟、随体位变化。房颤、心尖舒张杂音和P2亢进两种情况均可出现，特异性较差；真正鉴别依靠超声显示肿块及蒂。",
+          "knowledgeConnections": [
+            "黏液瘤可机械阻塞二尖瓣口并引发体位性晕厥",
+            "肿瘤栓塞不同于房颤附壁血栓"
+          ]
         }
       ]
     },
@@ -2460,7 +2655,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-53"
+          "lectureId": "lecture-53",
+          "explanation": "二狭面容、开瓣音、舒张隆隆杂音和心腰膨隆提示二尖瓣狭窄。继发肺高压可致相对肺动脉瓣关闭不全，在胸骨左缘第2肋间形成舒张早期递减型G-S杂音；S1通常增强而非减弱。",
+          "knowledgeConnections": [
+            "二狭→肺静脉高压→肺高压→右心负担增加",
+            "G-S杂音与主动脉瓣反流杂音位置及呼吸反应不同"
+          ]
         }
       ]
     },
@@ -2521,7 +2721,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-53"
+          "lectureId": "lecture-53",
+          "explanation": "主动脉瓣狭窄为收缩期喷射性杂音，随射血流速先增加后减少，形成菱形的递增-递减型。舒张期反流性杂音更常递减，不能仅用“收缩期”就忽略其强度轮廓。",
+          "knowledgeConnections": [
+            "狭窄后压力负荷使左室向心性肥厚",
+            "主动脉瓣狭窄杂音常向颈动脉传导"
+          ]
         }
       ]
     },
@@ -2612,7 +2817,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-49",
-          "optionCategory": "第42题选项"
+          "optionCategory": "第42题选项",
+          "explanation": "年轻人活动后胸痛气短、S4及胸骨左缘3–4肋间喷射性收缩杂音提示肥厚型心肌病伴流出道梗阻。心尖杂音可来自伴随二尖瓣反流，主动脉瓣狭窄通常以主动脉瓣区及颈部传导突出。",
+          "knowledgeConnections": [
+            "肥厚心室顺应性降低可有S4",
+            "动态梗阻随前后负荷及收缩力改变"
+          ]
         },
         {
           "number": 43,
@@ -2626,7 +2836,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-49",
-          "optionCategory": "第43题选项"
+          "optionCategory": "第43题选项",
+          "explanation": "超声可测量室间隔和心室壁厚度、流出道压差并观察二尖瓣收缩期前向运动，是疑似肥厚型心肌病最有价值的首选结构检查。心电图可异常却缺少形态确诊能力，活检不作为常规首选。",
+          "knowledgeConnections": [
+            "肥厚型的SAM可加重流出道梗阻及二尖瓣反流",
+            "心脏MRI用于补充形态和纤维化评估"
+          ]
         }
       ],
       "sharedStem": "男，32 岁。活动后心悸，胸痛，喘息 2 月余。查体：P 78 次/分，BP 105/75mmHg，双肺呼吸音清。心尖部闻及第四心音和 3/6 级收缩期杂音，胸骨左缘第 3-4 肋间闻及 3/6 级收缩期喷射样杂音。",
@@ -2689,7 +2904,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-49"
+          "lectureId": "lecture-49",
+          "explanation": "DCM常全心腔扩大，以左室最早和最显著，故A正确。瓣环扩张主要产生关闭不全收缩期杂音，低流速及房颤可致血栓；高危致病基因等情况下LVEF＞35%也并非绝不考虑ICD。",
+          "knowledgeConnections": [
+            "心腔扩张→血流淤滞→附壁血栓",
+            "遗传风险、瘢痕与LVEF共同影响猝死评估"
+          ]
         }
       ]
     },
@@ -2750,7 +2970,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-50"
+          "lectureId": "lecture-50",
+          "explanation": "消融术中突然低血压、脉压小、颈静脉怒张及奇脉应警惕穿孔导致急性心包压塞。心脏充盈受阻使心输出量下降，上游静脉压升高，所以选B；双肺清晰不支持以肺水肿为主。",
+          "knowledgeConnections": [
+            "医源性少量快速积液也可致压塞",
+            "需立即超声评估及必要时引流"
+          ]
         }
       ]
     },
@@ -2811,7 +3036,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-50"
+          "lectureId": "lecture-50",
+          "explanation": "心包叩击音来自舒张早期快速充盈突然被僵硬心包限制，对缩窄性心包炎较特异。肝大及奇脉也可见于多种病，Ewart征偏大量心包积液压迫左下肺。",
+          "knowledgeConnections": [
+            "缩窄性心包炎可有Kussmaul征、腹水和颈静脉怒张",
+            "与限制型心肌病需结构和血流动力学鉴别"
+          ]
         }
       ]
     },
@@ -2872,7 +3102,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-51"
+          "lectureId": "lecture-51",
+          "explanation": "既有瓣膜病又持续低热、消瘦、贫血，应警惕亚急性感染性心内膜炎，首选抗菌前多组血培养寻找病原。超声也非常重要，但阴性不能排除小赘生物；肌钙蛋白不是该病首要病原学检查。",
+          "knowledgeConnections": [
+            "IE可引起栓塞、免疫复合物肾炎及瓣膜破坏",
+            "采血不应为了等高热而延误"
+          ]
         }
       ]
     },
@@ -2933,7 +3168,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-51"
+          "lectureId": "lecture-51",
+          "explanation": "按讲义基础心脏病考点，二尖瓣脱垂尤其伴反流时易造成瓣膜内皮损伤及血流紊乱，成为IE的基础病，故选C。心力衰竭是一种临床综合征，不直接等同具体易感瓣膜病；仍需结合瓣膜结构及反流程度。",
+          "knowledgeConnections": [
+            "异常高速血流损伤内皮便于细菌黏附",
+            "IE预防性抗菌药并非所有脱垂都需要"
+          ]
         }
       ]
     },
@@ -2994,7 +3234,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-57"
+          "lectureId": "lecture-57",
+          "explanation": "室颤为非同步除颤节律，单相波通常选择360J，故D正确。双相波按设备建议能量，常见初始推荐范围不是一概100J；不要将同步心脏复律的能量直接用于无脉室颤。",
+          "knowledgeConnections": [
+            "室颤/无脉室速需尽快电击并高质量CPR",
+            "心静止和无脉电活动不属于可电击节律"
+          ]
         }
       ]
     },
@@ -3055,7 +3300,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "explanation": "贲门失弛缓为LES松弛障碍而非抗反流压力下降，故为不包括项。硝酸甘油等可降低LES张力，腹水提高腹压促反流；腹压升高属于压力梯度变化，不能都表述为直接松弛括约肌。",
+          "knowledgeConnections": [
+            "反流发生取决于抗反流屏障和腹胸压力差",
+            "贲门失弛缓以吞咽困难和食管排空障碍突出"
+          ]
         }
       ]
     },
@@ -3116,7 +3366,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-15"
+          "lectureId": "lecture-15",
+          "explanation": "A型自身免疫性胃炎主要累及胃体胃底，壁细胞和内因子减少，可发生B12缺乏性巨幼贫。它与自身免疫及遗传易感有关，不以Hp感染作为主要病因。",
+          "knowledgeConnections": [
+            "壁细胞减少→低胃酸→高胃泌素",
+            "与桥本甲状腺炎等可伴发"
+          ]
         }
       ]
     },
@@ -3177,7 +3432,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-15"
+          "lectureId": "lecture-15",
+          "explanation": "突发剧烈头痛、偏瘫提示急性颅脑事件，随后呕血应想到应激相关急性胃黏膜病变，颅内病变可关联Cushing溃疡。Mallory-Weiss需反复剧烈呕吐后黏膜撕裂，题目更突出严重脑病的应激背景。",
+          "knowledgeConnections": [
+            "应激、黏膜低灌注及酸损伤导致急性糜烂出血",
+            "颅脑与烧伤相关应激性溃疡不同命名"
+          ]
         }
       ]
     },
@@ -3238,7 +3498,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "伏诺拉生为钾离子竞争性酸阻滞剂，可快速而持续抑制胃酸，题目所列抑酸作用最强。铝碳酸镁主要中和酸及保护黏膜，铋剂保护黏膜并参与Hp治疗，法莫替丁是H2受体拮抗剂。",
+          "knowledgeConnections": [
+            "P-CAB与PPI抑制胃酸的结合方式及起效特点不同",
+            "抗酸药不等于抑制酸分泌"
+          ]
         }
       ]
     },
@@ -3300,7 +3565,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "胃泌素即促胃液素，既促进泌酸又对胃黏膜和壁细胞有营养作用，长期升高可使壁细胞增生，故B。乙酰胆碱也促分泌，但反复难治溃疡与明显壁细胞增生更应关注胃泌素过多。",
+          "knowledgeConnections": [
+            "胃泌素瘤可导致高酸、难治多发溃疡及腹泻",
+            "生长抑素则抑制多种胃肠激素"
+          ]
         }
       ]
     },
@@ -3361,7 +3631,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-15"
+          "lectureId": "lecture-15",
+          "explanation": "呼气试验阳性说明活动性Hp感染，常用抑酸药、铋剂和适当双抗组合根除。阿米卡星不属于常用口服Hp根除方案，而阿莫西林、奥美拉唑及枸橼酸铋钾均可作为方案组成。",
+          "knowledgeConnections": [
+            "Hp尿素酶是呼气试验基础",
+            "治疗后复查不可用持续阳性的抗体判断疗效"
+          ]
         }
       ]
     },
@@ -3422,7 +3697,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "胃小弯龛影有狭颈、黏膜皱襞集中，偏良性胃溃疡。恶性龛影常边缘不规则、壁僵硬及皱襞中断，但影像不能完全排癌，胃溃疡应经胃镜活检评估。",
+          "knowledgeConnections": [
+            "良性溃疡为局灶黏膜缺损向壁外凹陷",
+            "胃癌可溃疡型生长而外观重叠"
+          ]
         }
       ]
     },
@@ -3483,7 +3763,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-17"
+          "lectureId": "lecture-17",
+          "explanation": "低热盗汗、揉面感提示结核性腹膜炎背景，现突发绞痛、停止排气排便、肠型及高调肠鸣音提示机械性梗阻。所列检查中立位腹片可快速看液气平面；疑似急性梗阻时不先做结肠镜。",
+          "knowledgeConnections": [
+            "腹膜粘连可导致肠梗阻",
+            "腹膜炎进展为肠麻痹时肠鸣音反而减弱"
+          ]
         }
       ]
     },
@@ -3544,7 +3829,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-17"
+          "lectureId": "lecture-17",
+          "explanation": "肠结核多累及回盲部，溃疡型常腹泻，可与便秘交替，大便一般少有黏液脓血。里急后重更提示直肠刺激，如菌痢或UC，故C为错误项。",
+          "knowledgeConnections": [
+            "回盲部病变与直肠病变的排便表现不同",
+            "增生型肠结核更容易狭窄梗阻"
+          ]
         }
       ]
     },
@@ -3606,7 +3896,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-18"
+          "lectureId": "lecture-18",
+          "explanation": "UC主要累及黏膜和黏膜下层，多发瘘管远不如全层炎症的克罗恩病常见。UC可有出血、结直肠癌、严重发作时中毒性巨结肠和穿孔，因此C最不常见。",
+          "knowledgeConnections": [
+            "CD全层炎症→裂隙溃疡、瘘管和肛周病变",
+            "UC连续浅溃疡→脓血便"
+          ]
         }
       ]
     },
@@ -3667,7 +3962,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-18"
+          "lectureId": "lecture-18",
+          "explanation": "频繁脓血便、高热、弥漫浅溃疡及抗菌无效支持活动性重症UC，需糖皮质激素诱导缓解，故在选项中选D。真正急性重症住院常使用静脉激素；硫唑嘌呤起效慢，不用于立即控制此发作。",
+          "knowledgeConnections": [
+            "5-ASA多用于轻中度UC",
+            "激素难治时评估救援治疗及外科，不能长期以激素维持"
+          ]
         }
       ]
     },
@@ -3728,7 +4028,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-18"
+          "lectureId": "lecture-18",
+          "explanation": "年轻、反复右下腹痛、口腔溃疡、低热及可触包块提示克罗恩病，包块可由增厚肠袢和系膜形成。肠结核也可类似，否认接触史不能单独排除，应结合内镜病理和结核证据鉴别。",
+          "knowledgeConnections": [
+            "CD常节段性全层炎症并可狭窄",
+            "UC多从直肠连续向近端扩展"
+          ]
         }
       ]
     },
@@ -3789,7 +4094,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-19"
+          "lectureId": "lecture-19",
+          "explanation": "IBS的核心环节是内脏高敏感及肠脑轴失调，正常肠道刺激也可产生疼痛。精神、饮食和感染可诱发或加重，但不是所有患者均存在的单一必要病因，故C最符合。",
+          "knowledgeConnections": [
+            "IBS腹痛与排便及便形频率改变相关",
+            "器质性警报征需进一步检查"
+          ]
         }
       ]
     },
@@ -3850,7 +4160,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-22"
+          "lectureId": "lecture-22",
+          "explanation": "自发性细菌性腹膜炎常与肠源菌移位相关，经验方案应覆盖革兰阴性杆菌并兼顾革兰阳性球菌，故B。若明显厌氧菌或多菌种感染，应警惕继发性腹膜炎，不能照搬SBP判断。",
+          "knowledgeConnections": [
+            "肝硬化腹水PMN≥250/μL支持SBP",
+            "医院感染及耐药风险影响经验用药"
+          ]
         }
       ]
     },
@@ -3911,7 +4226,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-22"
+          "lectureId": "lecture-22",
+          "explanation": "蜘蛛痣、脾大、腹水提示肝硬化门脉高压，鲜血呕吐考虑曲张静脉破裂，生长抑素可减少内脏血流和门脉压力。PPI主要针对非静脉曲张性出血，不能替代本病特异性血管活性治疗和内镜止血。",
+          "knowledgeConnections": [
+            "门脉高压→侧支循环与食管胃底静脉曲张",
+            "急性出血还需复苏、抗感染及内镜处理"
+          ]
         }
       ]
     },
@@ -3973,7 +4293,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-20"
+          "lectureId": "lecture-20",
+          "explanation": "肝衰时芳香族氨基酸清除下降，血中升高，而支链氨基酸相对下降，支芳比失衡。脑内氨消耗α-酮戊二酸形成谷氨酸/谷氨酰胺，可干扰能量代谢，故不是α-酮戊二酸升高。",
+          "knowledgeConnections": [
+            "假性神经递质学说与芳香族氨基酸增加有关",
+            "肝性脑病还涉及氨毒性和炎症"
+          ]
         }
       ]
     },
@@ -4034,7 +4359,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-21"
+          "lectureId": "lecture-21",
+          "explanation": "肝癌最早常见肝内血行播散，易侵犯门静脉形成癌栓；淋巴转移并非发生最早的主要方式，故B错误。肝外血行转移以肺常见，也可腹膜种植。",
+          "knowledgeConnections": [
+            "门静脉癌栓可加重门脉高压",
+            "血行、淋巴和种植转移需按肿瘤特点区别"
+          ]
         }
       ]
     },
@@ -4095,7 +4425,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-23"
+          "lectureId": "lecture-23",
+          "explanation": "加贝酯直接抑制蛋白酶活性；奥曲肽主要抑制胰液分泌，西咪替丁抑制胃酸，谷氨酰胺属于营养相关支持。题目区分酶活性与酶分泌两个靶点，故B。",
+          "knowledgeConnections": [
+            "胰酶在胰腺内提前激活造成自身消化",
+            "不同治疗机制不能因都用于胰腺炎就混同"
+          ]
         }
       ]
     },
@@ -4156,7 +4491,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-24"
+          "lectureId": "lecture-24",
+          "explanation": "非肾小球源性出血的红细胞通常形态较均一；经受肾小球滤过屏障及肾小管渗透压变化的红细胞较易畸形。红细胞管型强烈提示肾实质特别是肾小球来源，肉眼血尿两者均可有。",
+          "knowledgeConnections": [
+            "均一红细胞需排查结石、肿瘤等泌尿道病变",
+            "红细胞形态需结合蛋白尿和管型综合判断"
+          ]
         }
       ]
     },
@@ -4217,7 +4557,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-27"
+          "lectureId": "lecture-27",
+          "explanation": "肾病性水肿主要与低白蛋白降低胶体渗透压、肾小管保钠及RAAS相关，GFR下降不是主要必要环节。与肾炎性水肿相比，肾病综合征可在滤过功能相对正常时出现重度水肿。",
+          "knowledgeConnections": [
+            "大量蛋白尿→低白蛋白并加重水肿",
+            "肾炎性水肿更侧重滤过下降和水钠潴留"
+          ]
         }
       ]
     },
@@ -4278,7 +4623,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-27"
+          "lectureId": "lecture-27",
+          "explanation": "短期肾炎表现而肾功能迅速恶化，抗GBM抗体阳性最支持Ⅰ型急进性肾炎。Ⅱ型为免疫复合物相关，Ⅲ型多为ANCA相关少免疫沉积；C3正常不能排除严重急进性肾炎。",
+          "knowledgeConnections": [
+            "抗GBM病可累及肺泡基底膜导致肺出血",
+            "新月体是急进性肾炎的共同病理表型"
+          ]
         }
       ]
     },
@@ -4369,7 +4719,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-27",
-          "optionCategory": "第71题选项"
+          "optionCategory": "第71题选项",
+          "explanation": "基底膜弥漫增厚、嗜银染色钉突是膜性肾病的关键病理。钉突来自上皮下免疫沉积之间的新生基底膜物质；微小病变光镜接近正常，膜增生性病变更典型双轨样。",
+          "knowledgeConnections": [
+            "膜性肾病常表现肾病综合征并易肾静脉血栓",
+            "电镜上皮下电子致密物与IgG颗粒沉积相应"
+          ]
         },
         {
           "number": 72,
@@ -4383,7 +4738,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-27",
-          "optionCategory": "第72题选项"
+          "optionCategory": "第72题选项",
+          "explanation": "膜性肾病表现肾病综合征，按讲义应采用糖皮质激素联合免疫抑制剂，所列选项中为激素加环磷酰胺。激素单药疗效不佳；肝素主要针对高凝/血栓风险，利尿剂减水肿，都不能替代控制肾小球免疫损伤的治疗。",
+          "knowledgeConnections": [
+            "低风险膜性肾病可先支持治疗和观察",
+            "免疫抑制前需排除继发病因并评估感染/生育风险"
+          ]
         }
       ],
       "sharedStem": "男，50 岁。双下肢水肿 2 个月。查体：BP 140/90mmHg，血 ALB 27g/L，Scr 92μmol/L，尿蛋白(+++)，尿潜血(-)。肾活检：基底膜增厚，嗜银染色有钉突形成。",
@@ -4446,7 +4806,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-27"
+          "lectureId": "lecture-27",
+          "explanation": "极低白蛋白、高胆固醇及高凝指标符合肾病综合征，突然肉眼血尿、腰痛和肾区叩痛提示并发肾静脉血栓，故A。肾病蛋白丢失及促凝因素增加形成高凝状态；尿路感染不能充分解释该高凝背景和突发腰痛。",
+          "knowledgeConnections": [
+            "尿中丢失抗凝蛋白及肝合成促凝蛋白增加促发血栓",
+            "膜性肾病尤需注意肾静脉血栓"
+          ]
         }
       ]
     },
@@ -4560,7 +4925,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-27",
-          "optionCategory": "第74题选项"
+          "optionCategory": "第74题选项",
+          "explanation": "上感约两周后水肿、血尿、高血压和低C3符合感染后急性肾炎，红细胞进入肾小管形成红细胞管型。白细胞管型偏肾盂肾炎/间质炎，上皮管型偏小管损伤，蜡样管型偏长期严重肾病。",
+          "knowledgeConnections": [
+            "Tamm-Horsfall蛋白构成管型基质",
+            "红细胞管型指向肾实质出血而非单纯膀胱出血"
+          ]
         },
         {
           "number": 75,
@@ -4574,7 +4944,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-27",
-          "optionCategory": "第75题选项"
+          "optionCategory": "第75题选项",
+          "explanation": "感染后急性肾炎主要对症支持、控制水钠及血压，不常规使用糖皮质激素，故B错误。抗菌药主要根除仍存在的感染，不能直接逆转已形成的免疫性肾炎；是否治疗残留链球菌感染需依病情评估。",
+          "knowledgeConnections": [
+            "感染后肾炎常经免疫复合物/补体损伤肾小球",
+            "出现急进进展时需重新评估而非机械按普通急性肾炎处理"
+          ]
         },
         {
           "number": 76,
@@ -4588,7 +4963,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-27",
-          "optionCategory": "第76题选项"
+          "optionCategory": "第76题选项",
+          "explanation": "原拟急性肾炎却出现持续少尿、肌酐快速升高，应警惕新月体性急进性肾炎，肾活检可明确病理并指导免疫治疗。B超可排梗阻但不足以说明肾小球免疫损伤类型，静脉造影此时也不合适。",
+          "knowledgeConnections": [
+            "急性肾炎综合征是临床表型而非单一病因",
+            "快速恶化需区分抗GBM、免疫复合物与ANCA相关病变"
+          ]
         }
       ],
       "sharedStem": "男，19 岁，咽痛，发热，伴咳嗽 2 周，眼睑水肿伴肉眼血尿 3 天，BP 150/100mmHg。实验室检查：尿蛋白(++)，尿红细胞 30-40/HP，管型 3-5/LP，血 C3 降低，Scr 126μmol/L。",
@@ -4652,7 +5032,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-27"
+          "lectureId": "lecture-27",
+          "explanation": "儿童感染后腹痛便血，之后肾炎而C3正常，符合IgA血管炎相关肾炎。虽未描述皮肤紫癜，胃肠受累先于肾损害比单纯IgA肾病更有系统性线索；应补问皮疹而不是由缺失直接排除。",
+          "knowledgeConnections": [
+            "IgA血管炎可累及皮肤、关节、胃肠和肾",
+            "IgA肾病多突出感染同期或随后短期血尿"
+          ]
         }
       ]
     },
@@ -4713,7 +5098,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-25"
+          "lectureId": "lecture-25",
+          "explanation": "寒战高热、腰痛、肾区叩痛及明显脓尿提示急性肾盂肾炎，即使无下尿路刺激征也不能排除。首选规范中段尿培养明确致病菌并做药敏；老年或重症还可加血培养及影像。",
+          "knowledgeConnections": [
+            "上尿路感染可无明显尿频尿痛",
+            "梗阻性肾盂肾炎需抗菌同时处理梗阻"
+          ]
         }
       ]
     },
@@ -4774,7 +5164,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-25"
+          "lectureId": "lecture-25",
+          "explanation": "两者都可有尿频、尿急、尿痛及白细胞，关键是真性细菌尿，故D。白细胞管型提示肾实质受累，不是诊断全部尿路感染必须具备的证据；单凭症状无法确认细菌病因。",
+          "knowledgeConnections": [
+            "尿培养污染与真性菌尿需结合菌种和计数",
+            "尿道综合征还需排查非细菌性刺激因素"
+          ]
         }
       ]
     },
@@ -4835,7 +5230,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-26"
+          "lectureId": "lecture-26",
+          "explanation": "ATN维持期GFR下降使尿素氮及肌酐上升，但小管重吸收尿素减少，BUN/肌酐比相对肾前性下降。常有高钾及尿钠升高而非下降；比值受单位、饮食、出血和分解状态影响，不能单独确诊。",
+          "knowledgeConnections": [
+            "肾前性低灌注保钠保尿素，ATN小管重吸收受损",
+            "FeNa受利尿剂及基础肾病影响"
+          ]
         }
       ]
     },
@@ -4896,7 +5296,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-26"
+          "lectureId": "lecture-26",
+          "explanation": "肾动态显像给出分肾GFR，总滤过量应相加：10.2＋11.5＝21.7ml/min，对应传统CKD G4的15–29区间。不能把每侧均小于15就判全身G5；临床还需按体表面积标准化及确认慢性病程。",
+          "knowledgeConnections": [
+            "CKD分级以双肾总体功能而非较差一侧判断",
+            "GFR分期需结合白蛋白尿风险分层"
+          ]
         }
       ]
     },
@@ -4957,7 +5362,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-28"
+          "lectureId": "lecture-28",
+          "explanation": "再障通常为正细胞正色素贫血，并伴其他系细胞减少，因此不是典型小细胞贫血。地贫、铁运输障碍以及长期失血所致缺铁可表现小细胞性，MCV正常也不能单独排除早期缺铁。",
+          "knowledgeConnections": [
+            "小细胞贫血重在血红蛋白合成不足",
+            "再障为骨髓造血干细胞数量/功能受损"
+          ]
         }
       ]
     },
@@ -5019,7 +5429,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-28"
+          "lectureId": "lecture-28",
+          "explanation": "心悸气短是贫血造成携氧不足的共同症状，并非组织缺铁特异表现。口角炎、舌炎、毛发异常和匙状甲更对应含铁酶不足及上皮营养障碍，故C。",
+          "knowledgeConnections": [
+            "缺铁可以先于Hb下降出现",
+            "贫血症状的严重程度还取决于发生速度和心肺储备"
+          ]
         }
       ]
     },
@@ -5080,7 +5495,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-28"
+          "lectureId": "lecture-28",
+          "explanation": "月经过多、低Hb及红细胞中央淡染扩大提示缺铁。血清铁下降，转铁蛋白代偿增加使总铁结合力升高；铁不能插入原卟啉合成血红素，游离原卟啉增多，故C。",
+          "knowledgeConnections": [
+            "缺铁血清铁蛋白常下降，慢性炎症贫血可铁低但铁蛋白正常/高",
+            "铁蛋白受炎症影响"
+          ]
         }
       ]
     },
@@ -5141,7 +5561,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-30"
+          "lectureId": "lecture-30",
+          "explanation": "按讲义，血浆游离Hb升高、结合珠蛋白明显下降及尿Rous阳性更直接提示血管内释放血红蛋白；单凭涂片破碎和畸形红细胞不能完成内外溶血分型，故选C。形态学仍有助于追查机械性等具体病因，应结合其他溶血指标。",
+          "knowledgeConnections": [
+            "血管内溶血可有血红蛋白尿、游离Hb升高",
+            "结合珠蛋白在血管内外溶血均可能降低，程度不同"
+          ]
         }
       ]
     },
@@ -5202,7 +5627,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-30"
+          "lectureId": "lecture-30",
+          "explanation": "全血细胞减少合并慢性溶血，尿Rous和Ham阳性符合PNH。再障可三系少但不能单独解释补体敏感性溶血；AIHA看Coombs，巨幼贫常有细胞巨大、核浆不同步等证据。",
+          "knowledgeConnections": [
+            "PNH兼具溶血、血栓及骨髓衰竭",
+            "现代诊断以流式检测GPI锚定蛋白缺失为主"
+          ]
         }
       ]
     },
@@ -5263,7 +5693,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-31"
+          "lectureId": "lecture-31",
+          "explanation": "ITP主要是血小板数量减少和功能受影响，凝血因子通路通常正常，常规凝血时间/凝血筛查并不典型延长，故D。可见平均血小板体积增大、巨核增多及免疫抗体异常，但不是每项都为必要诊断条件。",
+          "knowledgeConnections": [
+            "血小板异常偏皮肤黏膜即刻出血",
+            "凝血因子异常偏深部血肿和迟发出血"
+          ]
         }
       ]
     },
@@ -5324,7 +5759,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-33"
+          "lectureId": "lecture-33",
+          "explanation": "FAB体系中出现Auer小体可归RAEB-t，即使原始细胞只有16%，故选C。环形铁粒幼细胞12%不满足传统RAS所需比例，不能忽略Auer小体只按原始细胞百分比归RAEB；本题不能套用当前WHO命名。",
+          "knowledgeConnections": [
+            "FAB与WHO的MDS/AML原始细胞阈值不同",
+            "Auer小体提示髓系分化但需结合分类版本解释"
+          ]
         }
       ]
     },
@@ -5438,7 +5878,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-34",
-          "optionCategory": "第89题选项"
+          "optionCategory": "第89题选项",
+          "explanation": "大量异常早幼粒细胞及明显低纤维蛋白原提示APL伴严重凝血病，出血不能仅由血小板50×10^9/L解释，故选DIC。APL还可有突出纤溶亢进，是早期致死性出血的重要机制。",
+          "knowledgeConnections": [
+            "APL多与PML::RARA融合相关",
+            "疑诊即应紧急采取分化治疗及凝血支持"
+          ]
         },
         {
           "number": 90,
@@ -5452,7 +5897,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-34",
-          "optionCategory": "第90题选项"
+          "optionCategory": "第90题选项",
+          "explanation": "异常早幼粒细胞85%及严重凝血障碍指向APL，题中应选择含全反式维甲酸的D，而不是普通急性髓系白血病的DA或其他方案。ATRA针对分化阻滞，凝血病同时需要动态凝血监测和输注支持；不能因组合中有肝素就把肝素单独当作APL的治疗关键。",
+          "knowledgeConnections": [
+            "ATRA解除分化阻滞",
+            "APL诱导需监测分化综合征并维持血小板和纤维蛋白原"
+          ]
         },
         {
           "number": 91,
@@ -5466,7 +5916,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-34",
-          "optionCategory": "第91题选项"
+          "optionCategory": "第91题选项",
+          "explanation": "完全缓解后仍需继续清除残留白血病细胞，按本题讲义选择化疗与ATRA交替的缓解后治疗，故D。立即停药会增加复发风险，单用ATRA或只按普通急性白血病化疗都未体现此题APL的分化治疗特点。",
+          "knowledgeConnections": [
+            "形态学缓解与分子学缓解不同",
+            "PML::RARA监测用于评估残留病和复发"
+          ]
         }
       ],
       "sharedStem": "男，30 岁，因发热、面色苍白伴牙龈出血 1 周入院。次日出现皮肤多处片状瘀斑。实验室检查：Hb 80g/L，WBC 2.0×10⁹/L，Plt 50×10⁹/L。血浆纤维蛋白原 0.8g/L。骨髓检查：有核细胞增生极度活跃，胞浆颗粒粗大的早幼粒细胞占 85%。",
@@ -5529,7 +5984,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-34"
+          "lectureId": "lecture-34",
+          "explanation": "CML慢性期粒系克隆性增殖，NAP活性常低，故B。血小板早期可正常或增多、巨核也可增多；明显血小板下降及幼红细胞出现等需结合进展、治疗或其他骨髓问题判断。",
+          "knowledgeConnections": [
+            "类白血病反应NAP常高，与CML相反",
+            "BCR::ABL1才是CML核心分子证据"
+          ]
         }
       ]
     },
@@ -5590,7 +6050,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-35"
+          "lectureId": "lecture-35",
+          "explanation": "霍奇金淋巴瘤若以不明原因发热为突出起病表现，常提示病变较广泛或深部淋巴结受累，故B。没有体表淋巴结并不排除腹膜后病灶；瘙痒可有但并非多数病例必有。",
+          "knowledgeConnections": [
+            "B症状包括不明发热、盗汗及显著体重下降",
+            "症状影响分期后缀但不能单凭发热判具体Ⅲ/Ⅳ期"
+          ]
         }
       ]
     },
@@ -5681,7 +6146,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-35",
-          "optionCategory": "第94题选项"
+          "optionCategory": "第94题选项",
+          "explanation": "本题按胃、胰头和腹膜等结外组织受累理解，为Ⅳ期；合并发热、盗汗、体重减轻等全身症状，后缀B，故ⅣB。仅膈上下淋巴结受累属于Ⅲ期，判断Ⅳ期的关键是结外器官受累而非单看颈部加腹部两个区域。",
+          "knowledgeConnections": [
+            "Ann Arbor分期Ⅲ为膈肌两侧淋巴区，Ⅳ为弥漫结外器官受累",
+            "B后缀需符合规定的全身症状"
+          ]
         },
         {
           "number": 95,
@@ -5695,7 +6165,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-35",
-          "optionCategory": "第95题选项"
+          "optionCategory": "第95题选项",
+          "explanation": "T细胞来源NHL在给定选项中以CHOP类方案最匹配。ABVD主要用于霍奇金，IA偏急性髓系白血病，RD偏骨髓瘤；实际T细胞淋巴瘤还需具体亚型和标志物决定方案，不能全部等同。",
+          "knowledgeConnections": [
+            "CHOP包括环磷酰胺、蒽环类、长春新碱及泼尼松",
+            "抗CD20药并非所有T细胞瘤适用"
+          ]
         }
       ],
       "sharedStem": "男，46 岁，右颈部无痛性淋巴结肿大 4 个月，伴上腹疼痛，食欲不佳，发热，盗汗，体重减轻。行剖腹探查见胃与胰头及腹膜有粘连，周围有多个肿大的淋巴结，病理检查为非霍奇金淋巴瘤，T 细胞来源。",
@@ -5787,7 +6262,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-32",
-          "optionCategory": "第96题选项"
+          "optionCategory": "第96题选项",
+          "explanation": "老年腰痛、压缩骨折、贫血、肾损害和总蛋白高而白蛋白不高提示单克隆球蛋白病，骨髓穿刺联合血尿免疫固定最有价值。不能因已有糖尿病就把短病程严重蛋白尿和骨折全部归糖尿病肾病。",
+          "knowledgeConnections": [
+            "骨髓瘤CRAB涵盖高钙、肾损害、贫血及骨病",
+            "单克隆轻链可形成肾小管管型"
+          ]
         },
         {
           "number": 97,
@@ -5801,7 +6281,12 @@
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
           "lectureId": "lecture-32",
-          "optionCategory": "第97题选项"
+          "optionCategory": "第97题选项",
+          "explanation": "Hb80g/L＜85g/L，已满足Durie-SalmonⅢ期；Scr190μmol/L＞约177μmol/L，属于B组，故ⅢB。腰椎骨折也支持器官损害，但无需等所有Ⅲ期条件同时出现才分期。",
+          "knowledgeConnections": [
+            "Durie-Salmon的A/B按肾功能分，Ⅰ/Ⅱ/Ⅲ按肿瘤负荷表现",
+            "不要与ISS/R-ISS直接互换"
+          ]
         }
       ],
       "sharedStem": "男，70 岁。腰痛，消瘦，乏力半年，双下肢水肿 3 个月。既往高血压 5 年，糖尿病 3 年。查体：BP 120/80mmHg，贫血貌，双下肢中度凹陷性水肿。尿常规：RBC 0-2 个/HP，尿蛋白 (+++)，尿蛋白定量 3.6g/d，尿糖(+)。血常规：Hb 80g/L，WBC 5.6×10⁹/L，Plt 156×10⁹/L，ESR 106mm/h。血 Scr 190μmol/L，TP 108g/L，ALB 30g/L。腰椎 X 线示第 2 腰椎压缩性骨折。",
@@ -5864,7 +6349,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-31"
+          "lectureId": "lecture-31",
+          "explanation": "血管壁脆性或完整性异常主要表现皮肤黏膜瘀点瘀斑，故C。深部肌肉、关节出血及受伤后迟发出血更指向凝血因子障碍，但出血部位不是唯一病因判断依据。",
+          "knowledgeConnections": [
+            "血管壁及血小板共同参与一期止血",
+            "凝血因子形成稳定纤维蛋白属于二期止血"
+          ]
         }
       ]
     },
@@ -5925,7 +6415,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-36"
+          "lectureId": "lecture-36",
+          "explanation": "急性病毒性肝炎可使TBG升高，雄激素、糖皮质激素及肾病蛋白丢失更易使TBG下降。TBG变化可改变总T3/T4，不一定导致游离激素和真实甲功同步改变。",
+          "knowledgeConnections": [
+            "妊娠/雌激素也可提高TBG",
+            "结合蛋白异常时需参考FT4与TSH而非只看总T4"
+          ]
         }
       ]
     },
@@ -5986,7 +6481,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-36"
+          "lectureId": "lecture-36",
+          "explanation": "完整垂体轴下，TSH对FT4微小变化有放大反馈反应，故是常用最敏感筛查指标。TRAb主要用于病因，TRH不是常规一线检测；中枢病、重症或药物影响时不能单独依赖TSH。",
+          "knowledgeConnections": [
+            "亚临床甲亢/甲减可TSH异常而FT4仍正常",
+            "中枢性甲减可低FT4配不恰当正常TSH"
+          ]
         }
       ]
     },
@@ -6047,7 +6547,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-37"
+          "lectureId": "lecture-37",
+          "explanation": "原发性甲减病变在甲状腺，低激素使TSH反馈性升高；继发/中枢性甲减则TSH低或不恰当正常。T3/T4两者均可下降，不能单凭低激素值定位病因。",
+          "knowledgeConnections": [
+            "负反馈决定原发性与中枢性激素组合",
+            "中枢性甲减调整替代量主要参考FT4"
+          ]
         }
       ]
     },
@@ -6108,7 +6613,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-39"
+          "lectureId": "lecture-39",
+          "explanation": "按讲义，原醛低钾抑制胰岛素释放，可出现糖耐量减低，故C。肾素因反馈抑制而下降；低钾心电图为T波降低、高U波，T波高耸反而偏高钾；尿液酸碱不能替代醛固酮和肾素的病因检查。",
+          "knowledgeConnections": [
+            "原醛常高血压、低钾及代碱，但正常血钾也不能排除",
+            "确诊需结合醛固酮-肾素及进一步评估"
+          ]
         }
       ]
     },
@@ -6169,7 +6679,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-40"
+          "lectureId": "lecture-40",
+          "explanation": "库欣外观、尿皮质醇增高、小剂量不抑制而大剂量可抑制，支持垂体ACTH瘤，鞍区MRI最针对。大剂量试验并非百分之百定位，必要时需ACTH及进一步内分泌定位检查。",
+          "knowledgeConnections": [
+            "库欣病是ACTH依赖性库欣的一种",
+            "肾上腺自主皮质醇分泌通常ACTH受抑"
+          ]
         }
       ]
     },
@@ -6230,7 +6745,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-40"
+          "lectureId": "lecture-40",
+          "explanation": "库欣表型合并肺占位，需警惕异位ACTH来源，先测血浆ACTH确定是否依赖ACTH。即使ACTH高也不直接证明该肺灶是来源，还需结合抑制/刺激试验及影像等，不能凭共存就认定因果。",
+          "knowledgeConnections": [
+            "小细胞肺癌和部分神经内分泌瘤可分泌ACTH",
+            "低ACTH则更指向肾上腺性病因"
+          ]
         }
       ]
     },
@@ -6291,7 +6811,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-41"
+          "lectureId": "lecture-41",
+          "explanation": "肾上腺髓质素具有扩血管作用，可导致面部潮红，故D。神经肽Y偏缩血管和苍白，血清素更关联腹泻等；嗜铬细胞瘤既可苍白也可潮红，要看具体分泌物作用。",
+          "knowledgeConnections": [
+            "儿茶酚胺α受体缩血管与共分泌扩血管肽效应可相反",
+            "扩血管肽还可参与低血压"
+          ]
         }
       ]
     },
@@ -6353,7 +6878,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-38"
+          "lectureId": "lecture-38",
+          "explanation": "直立性低血压源于自主神经受损后血管反射调节不足。动眼神经麻痹属单神经病，袜套样感觉异常属远端对称多发神经病，共济失调也不等于自主神经功能障碍。",
+          "knowledgeConnections": [
+            "自主神经病还可有胃轻瘫、膀胱功能障碍和无症状心肌缺血",
+            "体位血压检查帮助识别"
+          ]
         }
       ]
     },
@@ -6414,7 +6944,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-38"
+          "lectureId": "lecture-38",
+          "explanation": "糖尿病视网膜病变属于微血管并发症，眼底出血最符合B。心梗主要为大血管粥样硬化，高血压是共病/危险因素，足溃疡常混合神经、缺血和感染，不能单独归微血管病变。",
+          "knowledgeConnections": [
+            "糖尿病肾病与视网膜病变为经典微血管损害",
+            "大血管病变包括冠心病、脑卒中及外周动脉病"
+          ]
         }
       ]
     },
@@ -6475,7 +7010,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-38"
+          "lectureId": "lecture-38",
+          "explanation": "发热伴颈后化脓性感染，糖尿病处于应激和感染状态，宜用胰岛素灵活、快速控制血糖，即使BMI高且酮体阴性也不能因此只选口服药。还需积极控制感染和处理脓肿/坏死组织。",
+          "knowledgeConnections": [
+            "感染升高反调节激素并加重高血糖",
+            "高血糖又损害中性粒细胞功能，形成恶性循环"
+          ]
         }
       ]
     },
@@ -6536,7 +7076,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-43"
+          "lectureId": "lecture-43",
+          "explanation": "Reiter综合征即反应性关节炎，归脊柱关节炎谱系，不属于传统弥漫性结缔组织病，故C。RA、系统性硬化症及干燥综合征均在所列弥漫结缔组织病中。",
+          "knowledgeConnections": [
+            "反应性关节炎常在泌尿生殖道或肠道感染后出现",
+            "HLA-B27相关脊柱关节炎与结缔组织病分类不同"
+          ]
         }
       ]
     },
@@ -6597,7 +7142,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-45"
+          "lectureId": "lecture-45",
+          "explanation": "对称小关节炎、长晨僵及侵蚀性改变支持RA。乌帕替尼为JAK抑制剂，属靶向合成DMARD；甲氨蝶呤为传统合成DMARD，美洛昔康和泼尼松主要抗炎而非该类别。",
+          "knowledgeConnections": [
+            "JAK-STAT介导多种细胞因子信号",
+            "靶向药需评估严重感染、血栓和心血管风险"
+          ]
         }
       ]
     },
@@ -6658,7 +7208,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-44"
+          "lectureId": "lecture-44",
+          "explanation": "血沉增快可见于很多炎症、感染或贫血，缺乏足够特异性，未作为题目所用传统ACR标准条目。非畸形关节炎、浆膜炎及白细胞减少均在该体系内；分类标准不等于个体诊断的全部。",
+          "knowledgeConnections": [
+            "SLE血液学标准还涉及溶血性贫血和血小板减少",
+            "ESR可辅助活动判断但不能单独诊断"
+          ]
         }
       ]
     },
@@ -6720,7 +7275,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-44"
+          "lectureId": "lecture-44",
+          "explanation": "本题按减量后自身免疫活动的实验室评价选C：血常规可观察血细胞减少，补体下降支持免疫复合物消耗，血沉可随活动升高；血培养用于寻找菌血症病原，不直接反映SLE活动度。临床鉴别发热时仍应结合感染表现，不能仅凭激素减量认定复发。",
+          "knowledgeConnections": [
+            "激素既可控制SLE又增加感染风险",
+            "活动与感染可同时存在，不能只凭减量时间推断"
+          ]
         }
       ]
     },
@@ -6781,7 +7341,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-45"
+          "lectureId": "lecture-45",
+          "explanation": "RA分类评分不计远端指间关节，腕、踝及第2跖趾可计入，故A。排除远端指间、第一腕掌及第一跖趾等易受骨关节炎影响部位，有利于避免误分类。",
+          "knowledgeConnections": [
+            "RA典型近端指间/掌指/腕受累",
+            "银屑病关节炎及骨关节炎可突出远端指间"
+          ]
         }
       ]
     },
@@ -6842,7 +7407,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-46"
+          "lectureId": "lecture-46",
+          "explanation": "抗SSA是现行干燥综合征分类中重要血清指标，较单独SSB更具诊断权重。ANA不特异，M3受体抗体不是常规主要分类指标；仍应结合腺体病理及眼口客观检查。",
+          "knowledgeConnections": [
+            "抗SSA也可见于SLE而非干燥专属",
+            "唇腺灶性淋巴细胞浸润为重要客观证据"
+          ]
         }
       ]
     },
@@ -6903,7 +7473,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-48"
+          "lectureId": "lecture-48",
+          "explanation": "停阿托品后原有流涎样胆碱能表现、湿冷及针尖瞳孔再现，提示反跳/再中毒且阿托品停减过快，故A。中间综合征以颈、近端及呼吸肌无力突出，通常不是典型毒蕈碱症状重新明显出现。",
+          "knowledgeConnections": [
+            "有机磷抑制胆碱酯酶导致M和N效应",
+            "阿托品解除M症状而复能药作用于酶"
+          ]
         }
       ]
     },
@@ -6964,7 +7539,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-48"
+          "lectureId": "lecture-48",
+          "explanation": "昏迷、显著呼吸抑制和缩瞳是阿片中毒三联征，故A。阿托品多瞳孔散大干热，有机磷常有流涎、多汗、支气管分泌物增多等；无蒜味不是绝对排除有机磷的依据。",
+          "knowledgeConnections": [
+            "阿片μ受体抑制呼吸中枢",
+            "抢救需保障通气并按情况用纳洛酮逆转"
+          ]
         }
       ]
     }

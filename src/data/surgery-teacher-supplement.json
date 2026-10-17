@@ -59,7 +59,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "大量吐泻后出现心动过速、少尿和低血压，符合至少中度等渗性缺水的循环表现。按体重丢失5%的下限估算，70×5%×1000＝3500ml，故选C；不能仅按每日尿量估算全部丢失。",
+          "knowledgeConnections": [
+            "等渗性缺水先减少细胞外液；低血容量进一步激活交感、RAAS及ADH，出现少尿和脉搏细速。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -114,7 +118,11 @@
           ],
           "answerRaw": "BC",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "低渗性缺水为失钠多于失水，血浆渗透压下降，早期ADH受抑制，可尿量增多、尿比重降低；后期血容量不足又使尿量减少，故B、C符合。失水多于失钠属于高渗性缺水；血钠低于125mmol/L并非本讲义所用重度低渗性缺水的统一界限。",
+          "knowledgeConnections": [
+            "低渗→水进入细胞→细胞外容量减少；神经症状既与低钠有关，也与循环不足有关。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -168,7 +176,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "饮水不足而持续丢水，首先指向高渗性缺水。口渴、少尿之后出现躁狂、幻觉等明显中枢症状，按题库分度提示重度；正常血压不能排除严重细胞内脱水。",
+          "knowledgeConnections": [
+            "高渗→细胞内水移向细胞外，早期可部分维持血压；这与等渗性缺水更早出现循环不足不同。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -222,7 +234,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "幽门梗阻反复呕吐，丢失胃酸中的H⁺和Cl⁻，首先形成低氯性代谢性碱中毒。合并容量收缩和缺钾时，肾排H⁺增加，碱中毒更难自行纠正。",
+          "knowledgeConnections": [
+            "呕吐失酸→代碱；腹泻丢失肠液HCO₃⁻更易代酸，不能把所有胃肠液丢失归为同一酸碱紊乱。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -276,7 +292,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "瘢痕性幽门梗阻常同时缺水、缺氯、缺钾并呈代谢性碱中毒，题给方案中葡萄糖盐水联合氯化钾最能针对这些缺失。碳酸氢钠、乳酸钠等碱性液可进一步加重碱中毒；补钾仍需确认尿量及肾功能。",
+          "knowledgeConnections": [
+            "低氯、低容量使肾排HCO₃⁻受限，补充氯化钠和氯化钾有助纠正氯反应性代碱。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -330,7 +350,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "良性甲状腺腺瘤无急性危象时可充分准备后安排手术，属于择期。消化道穿孔、嵌顿疝及脾破裂存在腹膜炎、绞窄或出血风险，不能按普通择期处理。",
+          "knowledgeConnections": [
+            "择期看能否安全等待；限期手术常对应恶性肿瘤，急诊手术对应出血、穿孔、急性梗阻等威胁。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -386,7 +410,11 @@
           ],
           "answerRaw": "BCD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "B、C、D的留置或拆除时限不符合讲义。导尿量超过500ml应留置尿管1—2天；骶前神经损伤或前列腺增生者留置4—5天。腹壁减张缝线术后14天拆除；T管术后2周造影，通畅后闭管，无残石者术后4周拔管。",
+          "knowledgeConnections": [
+            "胆道T管拔除要防胆漏和胆汁性腹膜炎；腹壁减张线过早拆除可导致切口裂开。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -440,7 +468,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "咳嗽后切口突然剧痛、敷料被渗液浸透且肠管脱出，提示全层切口裂开。病房内先以无菌湿敷料保护肠管和切口并准备急诊处理，不能在未探查、未清创条件下强行还纳或局麻简单缝合。",
+          "knowledgeConnections": [
+            "腹压骤升是诱因，感染、营养不良、缝合及局部张力是基础风险；湿性覆盖可减少肠管干燥及污染。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -496,7 +528,11 @@
           ],
           "answerRaw": "ACD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "皮褶厚度反映脂肪储备，氮平衡反映蛋白质摄入与分解的净结果，转铁蛋白可辅助评价蛋白营养，故选A、C、D。血小板计数受造血、消耗等影响，不是本题所列营养评价指标；蛋白指标也需考虑炎症等干扰。",
+          "knowledgeConnections": [
+            "负氮平衡见于严重创伤、感染、烧伤等高分解状态；白蛋白、转铁蛋白不能脱离炎症与肝功能单独解释。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -550,7 +586,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "温结节提示摄碘功能并不能单独证明必须手术。本例肿物持续增大并出现憋闷感，最直接的手术依据是压迫症状；题干没有感染、破裂或继发甲亢的证据。",
+          "knowledgeConnections": [
+            "甲状腺压迫气管可呼吸不适；侵犯喉返神经可声音嘶哑，需区分机械压迫与功能亢进。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -604,7 +644,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "饮水呛咳而发音不变提示喉上神经内支感觉受损，吞咽时喉入口保护下降。上极血管应贴近腺体结扎以减少喉上神经损伤；喉返神经损伤主要表现为声音嘶哑。",
+          "knowledgeConnections": [
+            "喉上神经内支主喉黏膜感觉，外支支配环甲肌、影响音调；喉返神经支配多数喉内肌。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -658,7 +702,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "髓样癌源于甲状腺滤泡旁C细胞，可分泌降钙素及多种活性物质，出现腹泻、潮红等表现。乳头状癌、滤泡癌源于滤泡上皮，未分化癌的关键是高度恶性和局部侵袭，并非该分泌综合征。",
+          "knowledgeConnections": [
+            "髓样癌可与RET及MEN2相关；肿瘤间质淀粉样物质与其分泌产物有关。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -745,7 +793,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 13 题选项"
+          "optionCategory": "第 13 题选项",
+          "explanation": "乳腺淋巴常先引流至腋窝前群即胸肌淋巴结，再至中央群、尖群等。题问通常最早累及，故选胸肌淋巴结；胸骨旁和锁骨上并非多数乳腺区域的首站。",
+          "knowledgeConnections": [
+            "乳腺外侧病灶多向腋窝引流，内侧亦可到胸骨旁链；解剖引流影响区域淋巴结分期。"
+          ]
         },
         {
           "number": 14,
@@ -759,7 +811,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 14 题选项"
+          "optionCategory": "第 14 题选项",
+          "explanation": "卫星皮肤结节、橘皮样改变提示皮肤受累，T分期按T4而非单按5.5cm判T3。腋窝淋巴结质硬且融合提示N2；题中未见远处转移证据，按给定选项对应T4N2M0。",
+          "knowledgeConnections": [
+            "乳腺T4看胸壁／皮肤受累；N1与N2的区别需看结节是否固定或融合，不能只数个数。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -816,7 +872,11 @@
           ],
           "answerRaw": "BC",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "橘皮样变来自皮肤淋巴回流受阻，卫星结节可由皮肤淋巴播散形成，故选B、C。酒窝征是Cooper韧带受牵拉；湿疹样乳头改变需想到Paget病，机制不同。",
+          "knowledgeConnections": [
+            "同为乳腺癌皮肤改变，韧带牵拉→酒窝，淋巴阻塞→橘皮，表皮内肿瘤细胞→Paget病。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -872,7 +932,11 @@
           ],
           "answerRaw": "BCD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "保乳手术适用于Ⅰ、Ⅱ期且乳房有适当体积者，因此A所述Ⅱ期及部分Ⅲ期不符合讲义适应证。多中心病灶为禁忌；切除肿块及周围1—2cm组织，并配合术后放疗，故B、C、D正确。",
+          "knowledgeConnections": [
+            "保乳是局部切除与放疗的综合治疗；肿瘤大小、相对乳房体积、病灶分布和切缘均影响选择。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -926,7 +990,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "年轻女性，孤立、光滑、活动、橡皮样无痛肿块，典型考虑乳腺纤维腺瘤。题库治疗选择为局部切除肿块，既明确病理又去除病灶；缺乏行全乳切除或化疗的依据。",
+          "knowledgeConnections": [
+            "纤维腺瘤常质韧、活动好；乳腺癌多质硬、边界不清、活动差，不能只凭无痛鉴别。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -980,7 +1048,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "伤后患侧胸廓隆起、皮下气肿、呼吸音消失且气管推向健侧，提示张力性气胸。先迅速减压以解除胸腔高压，再建立可靠引流；单纯吸氧或插管不能解除单向活瓣所致压力。",
+          "knowledgeConnections": [
+            "张力性气胸→静脉回流受阻→阻塞性休克；先减压是处理病理生理原因，而非等待影像确诊。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1067,7 +1139,11 @@
           "answerRaw": "B",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 2 题选项"
+          "optionCategory": "第 2 题选项",
+          "explanation": "胸壁创口有气体进出声提示开放性气胸。封闭后若呼吸困难加重，应警惕形成张力状态，及时松开或开放敷料减压，B表达这一急救原则。A将封闭时相写成吸气末；胸腔引流是后续重要处理，但单选题强调现场封闭后恶化的应对。",
+          "knowledgeConnections": [
+            "开放伤口会造成纵隔摆动；封闭敷料与胸腔引流需配合，防止开放性气胸转为张力性。"
+          ]
         },
         {
           "number": 3,
@@ -1081,7 +1157,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 3 题选项"
+          "optionCategory": "第 3 题选项",
+          "explanation": "闭式引流后持续明显漏气且患肺长时间不能复张，应想到气管或大支气管破裂。普通肺裂伤漏气可随修复减轻；食管损伤更常伴纵隔污染，不能解释持续大量气体进入胸腔的典型组合。",
+          "knowledgeConnections": [
+            "支气管断裂可出现患肺复张失败；支气管镜用于定位，需与单纯气胸、肺实质漏气鉴别。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1139,7 +1219,11 @@
           ],
           "answerRaw": "ACD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "胸腔阴影持续增大、引流血与外周血相近且迅速凝固、连续3小时每小时超过200ml，都提示持续活动出血。穿刺液红白细胞比值更用于判断积血是否合并感染，不能单凭100∶1认定活动出血。",
+          "knowledgeConnections": [
+            "陈旧胸腔积血可因脱纤维蛋白作用不凝；新鲜持续出血较易凝，结合引流趋势和循环状态判断。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1250,7 +1334,11 @@
           "answerRaw": "B",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 5 题选项"
+          "optionCategory": "第 5 题选项",
+          "explanation": "已有中等量积血并气胸、肺压缩约70%，胸腔闭式引流可同时引流血和气、促进复张。单纯包扎只处理胸壁，输血不能替代清除胸腔积聚；本例也没有必须先针刺抢救的典型张力表现。",
+          "knowledgeConnections": [
+            "创伤性血气胸的治疗兼顾呼吸与循环；引流还能用于监测继续出血。"
+          ]
         },
         {
           "number": 6,
@@ -1264,7 +1352,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 6 题选项"
+          "optionCategory": "第 6 题选项",
+          "explanation": "影像见胸腔积液，结合外伤、血红蛋白下降和心动过速，首先考虑血胸。题干不支持多根多处骨折造成的游离胸壁，也未给出张力性气胸的高压气体依据。",
+          "knowledgeConnections": [
+            "肋骨骨折可损伤肋间血管或肺组织，导致血胸、气胸，二者可以共存。"
+          ]
         },
         {
           "number": 7,
@@ -1278,7 +1370,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 7 题选项"
+          "optionCategory": "第 7 题选项",
+          "explanation": "该患者已证实较大气胸，胸腔含气区域叩诊可呈鼓音，故选C；积血区域则可能浊音。张力时气管多移向健侧，连枷胸的反常运动需要多根多处肋骨折这一基础。",
+          "knowledgeConnections": [
+            "气与液对叩诊的影响相反；混合血气胸可随体位及积聚位置出现不同体征。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1334,7 +1430,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "开放性气胸的胸腔与外界相通，两侧胸腔压力在呼吸时不对称，可造成纵隔随呼吸往返摆动。闭合性或张力性气胸可使纵隔偏移，但不是该题所指的纵隔扑动。",
+          "knowledgeConnections": [
+            "纵隔扑动可加重呼吸循环障碍；固定向健侧移位与呼吸性往返摆动要分清。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1388,7 +1488,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "食管切除后通常优先用胃重建消化通道，血供可靠、长度合适且吻合相对少。结肠、空肠可用于胃不能使用等情况；广泛切除后通常不能将食管残端直接端端吻合。",
+          "knowledgeConnections": [
+            "食管替代器官需兼顾长度、血供和功能；术后要识别吻合口漏与狭窄。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1444,7 +1548,11 @@
           ],
           "answerRaw": "ACD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "化脓性腹膜炎刺激壁层腹膜，常持续剧痛，咳嗽、体位变化等牵动腹膜时加重，原发病灶处往往最显著。阵发性全腹绞痛更应考虑机械性肠梗阻，故不选B。",
+          "knowledgeConnections": [
+            "壁层腹膜躯体感觉定位较清楚；早期内脏痛可模糊，累及壁层后出现压痛、反跳痛和肌紧张。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1498,7 +1606,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "多年饥饿痛、夜间痛提示十二指肠溃疡，突发剧痛、腹式呼吸消失提示穿孔后腹膜刺激征。Murphy征偏向胆囊炎，Cullen征为脐周瘀斑，Courvoisier征为黄疸伴无痛性胆囊肿大。",
+          "knowledgeConnections": [
+            "溃疡穿孔→胃肠内容物刺激腹膜；肝浊音界缩小／消失还提示腹腔游离气体。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1552,7 +1664,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "突发刀割样腹痛、板状腹、肝浊音界缩小，符合胃十二指肠穿孔。穿刺液可黄色浑浊并含胆汁或食物残渣；血性且淀粉酶高更提示重症胰腺炎，恶臭脓液多提示远端肠道污染。",
+          "knowledgeConnections": [
+            "穿刺液性质与漏出器官内容物有关，需同时结合气腹、腹膜刺激征及病史。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1606,7 +1722,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "疼痛起于上腹后蔓延右下腹和全腹、板状腹，符合消化性溃疡穿孔，胃内容物可沿右结肠旁沟下流。已有弥漫腹膜炎表现，需及时控制穿孔，不能误作原发阑尾炎或仅保守观察。",
+          "knowledgeConnections": [
+            "穿孔的右下腹痛是继发污染；与阑尾炎由脐周转向右下腹的典型转移痛路径不同。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1662,7 +1782,11 @@
           ],
           "answerRaw": "ACD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "胃切除术后发热、弥漫腹膜炎和引流出现肠内容物，提示吻合口等消化道瘘。治疗需减压、感染源控制及抗感染，并根据瘘和营养状态提供肠外营养等支持；单靠吗啡掩盖症状不能解决病因。",
+          "knowledgeConnections": [
+            "术后腹膜炎要找吻合口漏、残端漏；全身抗感染与局部充分引流缺一不可。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1718,7 +1842,11 @@
           ],
           "answerRaw": "ABD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "早期胃癌以浸润深度不超过黏膜下层定义，不以有无淋巴结转移为界，因此A、B都属于。浸润达浆膜已非早期；一点癌属特殊微小早期病变，D可选。",
+          "knowledgeConnections": [
+            "胃癌早期／进展期与TNM不是同一分类轴；T1可再分黏膜内T1a、黏膜下T1b。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1772,7 +1900,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "结肠内容物含水少、较干，进入腹腔后扩散较慢，腹膜炎出现较迟；但细菌多，之后感染可很重，故选结肠破裂。讲义中脾破裂腹膜炎早而轻，肝破裂因血液含胆汁可早而重。",
+          "knowledgeConnections": [
+            "胃酸、胆汁、胰液刺激强；结肠破裂虽症状可能较迟，却可因细菌多而迅速形成严重感染。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1859,7 +1991,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 2 题选项"
+          "optionCategory": "第 2 题选项",
+          "explanation": "既往左下胸外伤后有相对平静期，现突然休克和腹腔积液，应想到延迟性脾破裂。急诊床旁超声可迅速寻找腹腔游离液体；不稳定患者不应为CT、MRI延误复苏和止血。",
+          "knowledgeConnections": [
+            "脾被膜下血肿可延迟破裂；CT更适合循环相对稳定时评估脏器损伤。"
+          ]
         },
         {
           "number": 3,
@@ -1873,7 +2009,11 @@
           "answerRaw": "B",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 3 题选项"
+          "optionCategory": "第 3 题选项",
+          "explanation": "本例最紧迫威胁为腹腔出血，探查时先找肝脾等实质器官及出血来源，再查胃肠等空腔脏器。并非所有腹部外伤均固定先查某一条大血管，应结合伤情优先控制危及生命的出血。",
+          "knowledgeConnections": [
+            "手术探查先止血后查漏，与实质器官出血、空腔脏器腹膜炎的不同主导风险相对应。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1929,7 +2069,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "腹膜炎术后出现发热，同时有直肠刺激（里急后重、黏液便）和膀胱刺激（尿频、尿痛），定位于盆腔积脓。单纯膀胱炎难同时解释直肠刺激与腹部手术后的持续高热。",
+          "knowledgeConnections": [
+            "盆腔脓肿刺激直肠和膀胱；膈下脓肿则常有上腹、下胸及膈肌刺激表现。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -1983,7 +2127,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "阑尾穿孔术后发热合并明显直肠、膀胱刺激，怀疑盆腔脓肿。直肠指诊可在前壁触及压痛或波动，是简便的首选检查；超声、CT可进一步定位，不能以普通腹平片替代。",
+          "knowledgeConnections": [
+            "盆腔脓液受重力汇聚于低位，解释术后下坠感、里急后重及直肠前壁异常。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2038,7 +2186,11 @@
           ],
           "answerRaw": "AB",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "脓肿切开引流或坏疽穿孔伴较多脓液时，存在残余感染风险，可放置引流。单纯因为是儿童或妊娠患者，并不自动构成常规腹腔引流指征。",
+          "knowledgeConnections": [
+            "引流针对感染与漏的风险；不能以特殊人群身份代替局部污染程度判断。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2094,7 +2246,11 @@
           ],
           "answerRaw": "ABD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "肿瘤堵塞、肠扭转、嵌顿疝均存在物理性通道障碍，属机械性梗阻。铅中毒可引起肠动力紊乱、肠绞痛等，不按本题归为机械性阻塞。",
+          "knowledgeConnections": [
+            "机械性梗阻早期可肠鸣音亢进、阵发绞痛；麻痹性梗阻多肠鸣音减弱或消失。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2148,7 +2304,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "疝囊由腹腔壁层腹膜向外突出形成。腹横筋膜、肌腱膜等构成疝被盖或薄弱区，脏层腹膜覆盖脏器表面，都不是疝囊本体。",
+          "knowledgeConnections": [
+            "疝环是缺损口，疝囊是腹膜，疝内容物可为肠管或大网膜，三者需逐层区分。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2202,7 +2362,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "腹股沟管后壁主要为腹横筋膜，内侧有腹股沟镰加强；题给选项中A符合这一加强结构。腹外斜肌腱膜主要构成前壁，腔隙韧带与股环内侧边界有关。",
+          "knowledgeConnections": [
+            "疝修补常加强后壁；直疝由腹股沟三角突出，斜疝经腹股沟深环进入。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2256,7 +2420,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "嵌顿肠管坏死提示绞窄且手术区域有污染，必须先处理坏死肠段，再行疝囊高位结扎等，通常避免同期污染条件下补片修补。B不是说只结扎而不处理坏死肠管，而是题给疝处理方式中最合适。",
+          "knowledgeConnections": [
+            "污染手术与补片感染风险相关；肠活力评估看颜色、蠕动、系膜动脉搏动及切缘出血。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2310,7 +2478,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Ⅰ度不脱出，Ⅱ度脱出可自行回纳，Ⅲ度需手助回纳，Ⅳ度不能回纳或回纳后立即脱出。本例用手难以还纳，按题意属于Ⅳ度，不是一般可手助回纳的Ⅲ度。",
+          "knowledgeConnections": [
+            "内痔位于齿状线上方，分度依据脱垂与回纳；疼痛明显时需考虑嵌顿、血栓或合并肛裂。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2365,7 +2537,11 @@
           ],
           "answerRaw": "AC",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Glisson鞘包裹肝内门静脉、肝动脉及胆管分支。A、C符合，肝静脉走行于肝段间，不在该三联结构；D特意写肝外胆管，不能等同肝内门管区胆管。",
+          "knowledgeConnections": [
+            "门管区三联与肝静脉分布不同，正是肝段解剖和肝切除的重要基础。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2419,7 +2595,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Couinaud功能分段综合肝内门静脉分支和肝静脉界面：门静脉系统供给各段，肝静脉常行于段间。只看肝动脉或胆管单一分布不足以表达其主要分段原则。",
+          "knowledgeConnections": [
+            "Glisson系统在肝段内分布，主要肝静脉标示段间平面；尾状叶血流及静脉引流有相对独立性。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2475,7 +2655,11 @@
           ],
           "answerRaw": "ACD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "棕褐色“巧克力样”脓液、右叶单发更典型于阿米巴肝脓肿，故A、C不能当作细菌性肝脓肿的一般特点。细菌性者可胆源、多发，治疗通常抗菌药结合必要的经皮引流，并非一律首选切开。",
+          "knowledgeConnections": [
+            "阿米巴肝脓肿联系肠阿米巴感染；胆源性细菌感染可沿肝内胆管进入肝实质。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2529,7 +2713,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "糖尿病、胆道手术史、寒战高热和肝内多发小液性病灶提示细菌性肝脓肿。病灶最大仅1.3cm，初始最重要是足量静脉抗感染；是否引流取决于大小、液化、反应等，不能直接按大脓肿处理。",
+          "knowledgeConnections": [
+            "多发小肝脓肿常先药物治疗；较大、液化充分、药物控制差时才突出经皮引流价值。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2585,7 +2773,11 @@
           ],
           "answerRaw": "ABC",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Child-Pugh按胆红素、白蛋白、凝血功能、腹水和肝性脑病评分。选项中A、B、C属于该五项；食管静脉曲张反映门静脉高压，不是此分级的独立评分项。",
+          "knowledgeConnections": [
+            "肝功能分级评估储备能力与手术风险，门静脉压力相关并发症则需另作判断。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2641,7 +2833,11 @@
           ],
           "answerRaw": "BCD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "未出血者通常先内科预防，活动出血可用内镜套扎等止血；Child C级一般不适宜常规门脉高压择期外科手术。TIPS可用于部分经筛选的重症患者，但并非所有Child C都适用，需考虑肝衰、脑病等风险，B为“可以”而非无条件推荐。",
+          "knowledgeConnections": [
+            "TIPS降低门静脉压力却使部分血流绕过肝脏，故止血获益与肝性脑病风险需同时掌握。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2695,7 +2891,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "先天性胆道闭锁会使肝脏持续胆汁淤积并逐渐纤维化，Kasai手术强调尽早进行，传统题目以出生后2个月内为优选窗口。不能因为仍可能手术而把4—8个月当作理想时机。",
+          "knowledgeConnections": [
+            "婴儿持续黄疸、灰白便提示胆汁排出障碍；手术时机影响保留自体肝脏的机会。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2749,7 +2949,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Calot／胆囊三角解剖需警惕胆囊动脉、变异肝右动脉和异常胆管。门静脉不作为该三角内常见需要辨认的游离结构，故选C；不能据此认为肝门部操作无门静脉风险。",
+          "knowledgeConnections": [
+            "胆囊切除的安全关键是辨清胆囊管、胆囊动脉及胆总管，解剖变异可造成误夹或胆管损伤。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2803,7 +3007,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "胆囊癌局限于胆囊而尚无肝侵犯、胆道梗阻时，转氨酶常无明显升高；其他选项更易因炎症或肝实质受累升高。B是一般趋势，晚期胆囊癌并非永远肝酶正常。",
+          "knowledgeConnections": [
+            "ALT／AST偏重肝细胞损伤，ALP／GGT及结合胆红素偏重胆汁淤积；不能只靠正常肝酶排除肿瘤。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2857,7 +3065,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "已有T管通道时，经T管胆道造影可直接观察残余结石、胆道通畅及引流情况，是本题最直接的方法。它常用于拔管前评估；普通超声可能漏掉胆总管小结石。",
+          "knowledgeConnections": [
+            "T管造影既查充盈缺损，也看远端排流；拔管需结合瘘道形成和夹管试验。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -2944,7 +3156,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 5 题选项"
+          "optionCategory": "第 5 题选项",
+          "explanation": "饱餐后持续上腹痛放射腰背、显著淀粉酶升高最支持急性胰腺炎。无寒战高热和明显黄疸，使急性梗阻性化脓性胆管炎相对最不支持，故D为本题相对排除项；单凭没有典型三联征不能临床绝对排除胆管炎。",
+          "knowledgeConnections": [
+            "胆管炎重视腹痛、寒战高热、黄疸；胰腺炎重视持续上腹痛及消化酶／影像证据，胆源性时可相互关联。"
+          ]
         },
         {
           "number": 6,
@@ -2958,7 +3174,11 @@
           "answerRaw": "B",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 6 题选项"
+          "optionCategory": "第 6 题选项",
+          "explanation": "吗啡可加重Oddi括约肌痉挛，故讲义不选择常用吗啡止痛。急性胰腺炎的基础处理包括禁食、补液、必要时胃肠减压及抑制胰液分泌；镇痛可按讲义选择哌替啶。",
+          "knowledgeConnections": [
+            "胰腺炎处理以复苏、镇痛、病因和器官功能支持为核心，胆源性者还要评估胆道梗阻。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3071,7 +3291,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 7 题选项"
+          "optionCategory": "第 7 题选项",
+          "explanation": "腹痛、寒战高热、黄疸加休克和精神异常，符合重症急性胆管炎的Reynolds五联征。抗休克与抗感染需立即进行，同时尽快解除胆道梗阻，不能等待药物治疗“无效”或循环完全恢复再引流。",
+          "knowledgeConnections": [
+            "胆道高压使感染胆汁入血，单用抗菌药不能消除持续梗阻；现代减压方式可为内镜、经皮或手术，取决于病情与条件。"
+          ]
         },
         {
           "number": 8,
@@ -3085,7 +3309,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 8 题选项"
+          "optionCategory": "第 8 题选项",
+          "explanation": "胆总管十二指肠上段较表浅、便于显露，是传统胆总管切开减压及T管引流的常用部位；后段、胰腺段及壁内段位置更深，邻近结构复杂。",
+          "knowledgeConnections": [
+            "胆总管由肝十二指肠韧带向胰头及十二指肠壁内走行，解剖层次决定操作风险。"
+          ]
         },
         {
           "number": 9,
@@ -3099,7 +3327,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 9 题选项"
+          "optionCategory": "第 9 题选项",
+          "explanation": "讲义所列T管正常引流量约200—300ml／日，持续400—600ml／日属于引流偏多，提示胆汁难以向十二指肠排出，应考虑T管远端胆管不畅，故选C。需结合引流趋势及胆道造影判断梗阻。",
+          "knowledgeConnections": [
+            "外引流量受到肝胆汁分泌量、胆道水肿、T管位置及十二指肠通畅影响，量大不等于某一唯一病因。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3155,7 +3387,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Bismuth-CorletteⅠ型未达左右肝管汇合部，Ⅱ型达汇合部，Ⅲ型进一步累及一侧肝管，Ⅳ型累及两侧；右侧为Ⅲa型，左侧为Ⅲb型。选项只列大类，故选Ⅲ型。",
+          "knowledgeConnections": [
+            "该分型描述胆管纵向受累范围，不等同肿瘤全部TNM分期；左右受累影响切除方案。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3242,7 +3478,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 11 题选项"
+          "optionCategory": "第 11 题选项",
+          "explanation": "进行性无痛性黄疸、肝内胆管扩张而胆总管不扩张，且胆囊萎缩，提示梗阻位于肝门部高位。MRCP可无创显示胆管树和阻塞范围，对明确定位最合适。",
+          "knowledgeConnections": [
+            "低位胆管或胰头梗阻可使胆囊增大；高于胆囊管汇入口的梗阻常无胆囊肿大。"
+          ]
         },
         {
           "number": 12,
@@ -3256,7 +3496,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 12 题选项"
+          "optionCategory": "第 12 题选项",
+          "explanation": "本例定位为肝门部胆管癌，切除重点是受累肝外胆管、胆囊及相关肝组织、周围淋巴等结构。胰十二指肠切除主要用于远端胆管、壶腹或胰头病变，故A不属于该病例常规切除范围。",
+          "knowledgeConnections": [
+            "同样是梗阻性黄疸，手术方式随高位／低位定位而变，不能所有胆管癌都套用Whipple术。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3312,7 +3556,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "饱餐后上腹痛向背部放射、腹水和腹膜刺激提示重症胰腺炎。已有腹腔渗出液时，穿刺液淀粉酶显著升高可提供直接依据；题目因此选择B，而非仅问无创首选筛查。",
+          "knowledgeConnections": [
+            "胰酶漏入腹腔可形成高淀粉酶渗出液；血淀粉酶的高低并不与坏死范围成正比。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3366,7 +3614,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "急性胰腺炎后约2个月出现上腹包块、无明显发热及全身感染表现，首先考虑胰腺假性囊肿。假性囊肿有纤维性／肉芽组织壁而无真正上皮衬里；感染坏死积聚需结合影像区分。",
+          "knowledgeConnections": [
+            "时间和感染征象有助区别早期液体积聚、假性囊肿及包裹性坏死，不能把所有胰腺炎后包块都叫脓肿。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3421,7 +3673,11 @@
           ],
           "answerRaw": "AC",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "休克提示严重循环受损，低钙可与脂肪坏死、皂化及全身炎症相关，故A、C提示重症。尿糖并非特异严重度指标，淀粉酶很高也不等于坏死广泛；现行重症判断更重视持续器官衰竭。",
+          "knowledgeConnections": [
+            "脂肪坏死与钙皂形成联系病理；血淀粉酶用于诊断线索，与器官功能严重度分开理解。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3475,7 +3731,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "保守治疗后病情反而加重且再次发热，需要寻找坏死、积液及感染等局部并发症，CT可直接评价胰腺和周围组织。单次复查消化酶或腹平片不能可靠判断有无胰腺坏死。",
+          "knowledgeConnections": [
+            "增强CT用于评价坏死及并发症；是否感染仍需综合气体征、培养和临床，不以发热单独断定。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3529,7 +3789,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "按讲义周围动脉病检查口径，两侧肢体皮温差超过2℃提示一侧动脉供血减少。该比较须在相同环境和对应部位进行，不能将一次皮温读数代替血流动力学检查。",
+          "knowledgeConnections": [
+            "动脉缺血可伴皮温低、颜色苍白及脉搏弱；踝肱指数、超声等能进一步定位和评估程度。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3583,7 +3847,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "雷诺现象是寒冷或情绪刺激下末梢小动脉痉挛，常累及双侧手指。青年女性较常见；大动脉搏动一般仍可触及，不能套用闭塞性动脉病的脉搏消失和杂音；普萘洛尔还可能加重末梢血管痉挛。",
+          "knowledgeConnections": [
+            "手指白→紫→红与缺血、缺氧及再灌注有关；伴溃疡或系统性表现时需考虑继发性结缔组织病。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3637,7 +3905,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "吸烟与血栓闭塞性脉管炎的发生、进展密切相关，完全戒烟是最重要的基础措施。止痛和保暖只能改善症状，不能代替切断促发因素；保暖还应避免烫伤缺血皮肤。",
+          "knowledgeConnections": [
+            "血栓闭塞性脉管炎常见青壮年吸烟者，可合并游走性浅静脉炎；与动脉粥样硬化危险因素组合不同。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3691,7 +3963,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "需要评价的是左肾单侧功能和引流，而非仅看两肾总功能，放射性核素肾显像可给出分肾功能信息。BUN、肌酐可被健侧代偿掩盖，KUB主要观察结石／形态，不能替代分肾功能评价。",
+          "knowledgeConnections": [
+            "梗阻性肾积水的治疗要综合皮质厚度、分肾功能及解除梗阻后的恢复潜力。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3745,7 +4021,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "肾结核常先有膀胱刺激症状，原因是结核病变经尿液播散累及膀胱；可出现终末血尿，故选D。无痛性全程血尿更应优先考虑泌尿系肿瘤等，而非机械套入结核典型过程。",
+          "knowledgeConnections": [
+            "肾是原发泌尿系统结核常见部位，症状却常来自继发膀胱病变，解释“病在肾、症在膀胱”。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3799,7 +4079,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "肿瘤仅3.5cm且对侧肾萎缩，保留肾单位尤为重要。具备解剖和肿瘤学可行性时选择部分肾切除，避免根治性切除后严重肾功能不足；栓塞或放化疗不是该局限肿瘤的优先根治方案。",
+          "knowledgeConnections": [
+            "小肾癌的保肾治疗需结合位置、大小、分肾功能及手术安全；孤立功能肾更强调保留肾单位。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3855,7 +4139,11 @@
           ],
           "answerRaw": "BCD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "3岁患儿已超过新生儿筛查期，Barlow试验主要用于小婴儿髋不稳定筛查，不宜作为此年龄主要检查。Galeazzi征反映下肢长度不等，Trendelenburg征反映髋外展肌功能，打气筒征反映髋脱位的异常活动。",
+          "knowledgeConnections": [
+            "发育性髋脱位的体征随年龄变化：婴儿看稳定性与外展受限，会走路后还要看步态和单足站立。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3909,7 +4197,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "螺旋形股骨干骨折在肌肉牵拉和旋转载荷下易再移位，属不稳定骨折。裂缝骨折和部分无明显移位的横形骨折相对稳定；不能只凭骨折位置判断稳定性。",
+          "knowledgeConnections": [
+            "斜形、螺旋形、粉碎性骨折多不稳定；嵌插、裂缝等相对稳定，影响外固定与复位后维持。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -3963,7 +4255,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "牵引过度使骨折端持续分离，断端接触和骨痂桥接受阻，可形成延迟愈合或不愈合。桡神经损伤是肱骨干骨折的重要伴随损伤，但题目新增线索“断端分离”直接指向愈合障碍。",
+          "knowledgeConnections": [
+            "骨愈合既需血供，也需合适稳定性和断端接触；牵引并非力量越大越好。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4017,7 +4313,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Pauwels角大于50°表示骨折线较陡、剪切力大，属内收型不稳定股骨颈骨折。典型肢体可短缩、屈曲、内收、外旋；髋后脱位则更典型屈曲、内收、内旋。",
+          "knowledgeConnections": [
+            "Pauwels描述骨折线角度与力学稳定性，Garden描述移位程度，两种分型不能互相替代。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4128,7 +4428,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 11 题选项"
+          "optionCategory": "第 11 题选项",
+          "explanation": "外展嵌插型骨折两断端嵌合、剪切力较小，相对稳定。内收型剪切大，不稳定；头下型和基底型是解剖分型，仅凭此名称不能等同于力学稳定分型。",
+          "knowledgeConnections": [
+            "外展嵌插可对应较低Pauwels角；GardenⅡ是完全骨折但无移位，并非所有“无移位”都等同未骨折。"
+          ]
         },
         {
           "number": 12,
@@ -4142,7 +4446,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 12 题选项"
+          "optionCategory": "第 12 题选项",
+          "explanation": "股骨颈骨折可损伤支持带血管，远期出现髋痛、股骨头密度增高及骨小梁不清，应考虑股骨头缺血坏死。普通退变多表现关节间隙和边缘骨赘改变，不能解释该损伤后演变。",
+          "knowledgeConnections": [
+            "头下型／移位骨折更易影响股骨头血供；坏死、骨折不愈合是股骨颈骨折的重要晚期并发症。"
+          ]
         },
         {
           "number": 13,
@@ -4156,7 +4464,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 13 题选项"
+          "optionCategory": "第 13 题选项",
+          "explanation": "题目问髋臼前倾角，按该讲义参考范围为10—15°。40—60°更接近常讨论的髋臼外展／倾斜角范围，而颈干角以大于或小于某度描述，三种角度不可混用。",
+          "knowledgeConnections": [
+            "人工髋臼方向影响稳定性和脱位风险；前倾角与外展角是不同平面的定位参数。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4214,7 +4526,11 @@
           ],
           "answerRaw": "ACD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "幼儿骨愈合及塑形能力强，可接受一定短缩以由后续生长补偿，常用皮牵引等保守方式；旋转畸形一般不能期待可靠自行纠正。骨牵引或切开内固定不是该题3岁以下儿童的常规首选。",
+          "knowledgeConnections": [
+            "儿童可塑形主要改善靠近关节、与关节运动平面一致的成角；旋转误差的矫正能力差。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4270,7 +4586,11 @@
           ],
           "answerRaw": "ABC",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "成角和旋转畸形需矫正，A错误。讲义按污染与受伤时间选择固定：时间短、污染轻者清创后内固定；时间长、污染重者清创后外固定架固定，B、C将对应关系颠倒。D用皮瓣或肌皮瓣覆盖外露骨面正确。",
+          "knowledgeConnections": [
+            "开放骨折处理要同时考虑清创、稳定固定及软组织覆盖；内外固定选择由污染、稳定性和全身状态决定。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4325,7 +4645,11 @@
           ],
           "answerRaw": "BD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "腕部尺神经损伤累及骨间肌和拇收肌，可手指内收外展障碍、Froment征阳性。指深屈肌尺侧部分的运动支在前臂已发出，单纯腕部损伤不应以小指末节屈曲无力为主要表现；典型尺爪偏环、小指而非五指。",
+          "knowledgeConnections": [
+            "Froment征为拇收肌无力后拇长屈肌代偿，表现捏纸时拇指指间关节屈曲。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4380,7 +4704,11 @@
           ],
           "answerRaw": "CD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "桡神经深支／骨间后神经主要支配伸指、伸拇肌，损伤可拇指和2—5指不能背伸；浅支负责的虎口区感觉通常保留，腕伸也可因近端已分支支配的肌肉而部分保留。",
+          "knowledgeConnections": [
+            "桡神经高位损伤可垂腕并感觉异常，深支损伤突出伸指障碍，浅支损伤则主要感觉障碍。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4430,11 +4758,16 @@
           "sourceParagraph": 502,
           "lectureId": "lecture-26",
           "answer": [
-            "C"
+            "B"
           ],
-          "answerRaw": "C",
+          "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "Ⅱ型齿状突骨折位于基底部。按讲义，无移位Ⅱ型可用Halo架固定6—8周，故本题未描述移位时选B；有移位者需手术。12周为Ⅲ型骨折的固定时限，不能直接套用于Ⅱ型。",
+          "knowledgeConnections": [
+            "齿状突Ⅰ型为尖部、Ⅱ型为基底部、Ⅲ型进入椎体；Ⅱ型的不愈合风险较高。"
+          ],
+          "sourceAnswerRaw": "C"
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4446,7 +4779,8 @@
       "hideSource": true,
       "supplementNotice": "已录入文末参考答案",
       "answerSourceLabel": "课后题答案",
-      "answerSourceName": "外科课后巩固_文字大留白笔记版.docx"
+      "answerSourceName": "外科课后巩固_文字大留白笔记版.docx",
+      "answerRevision": "lecture-analysis-20261017-v1"
     },
     {
       "id": "surgery-teacher-06-04",
@@ -4489,7 +4823,11 @@
           ],
           "answerRaw": "AB",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "粘连性肩关节囊炎常为中年后慢性过程，主动与被动活动均受限，尤其外展、外旋，疼痛可与颈椎或其他邻近疾病鉴别。女性较多，常依病史及查体诊断；虽可自限，但长期固定会加重僵硬，D错误。",
+          "knowledgeConnections": [
+            "肩周炎的被动活动也受限；单纯肩袖损伤常主动活动障碍较突出，影像用于排除其他病变。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4576,7 +4914,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 5 题选项"
+          "optionCategory": "第 5 题选项",
+          "explanation": "青春期运动后胫骨结节局限疼痛、隆起，X线骨骺碎裂，符合胫骨结节骨软骨病。缺乏急性高热、全关节受累或骨性肿块，不能优先诊断感染、骨软骨瘤。",
+          "knowledgeConnections": [
+            "髌腱牵拉未闭合的胫骨结节骨骺，解释伸膝和运动时疼痛加重。"
+          ]
         },
         {
           "number": 6,
@@ -4590,7 +4932,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 6 题选项"
+          "optionCategory": "第 6 题选项",
+          "explanation": "该病多为生长发育期牵拉性骨骺病，先限制剧烈活动并短期制动、对症处理。通常不需钻孔植骨、手法复位；局部激素注射也非该骨骺病的常规适宜治疗。",
+          "knowledgeConnections": [
+            "过度运动与骨骺未成熟共同致病，减轻牵拉负荷比单纯消炎封闭更针对病因。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4648,7 +4994,11 @@
           ],
           "answerRaw": "ABC",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "肩关节囊炎、狭窄性腱鞘炎及肱骨外上髁炎可在适当指征下使用局部糖皮质激素。胫骨结节骨软骨病涉及青少年骨骺和髌腱附着，主要限制活动，不应将所有慢性疼痛都作局部激素封闭。",
+          "knowledgeConnections": [
+            "腱鞘、附着点无菌性炎症与生长板牵拉病不同；注射部位、次数及肌腱损伤风险都需考虑。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4703,7 +5053,11 @@
           ],
           "answerRaw": "CD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "L4—5椎间盘突出通常压迫行经其后的L5神经根，可伸拇无力、足背内侧感觉异常。膝反射主要联系L4，踝反射主要联系S1；腰段椎间盘通常压迫神经根或马尾，不按脊髓本体受压描述。",
+          "knowledgeConnections": [
+            "椎间盘节段与受累神经根通常相差一级：L4—5→L5，L5—S1→S1。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4814,7 +5168,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 9 题选项"
+          "optionCategory": "第 9 题选项",
+          "explanation": "外踝及足背外侧感觉减退偏S1分布，结合直腿抬高试验阳性，提示L5—S1突出压迫S1神经根。L5受累更突出足背内侧／拇趾和背伸肌力改变。",
+          "knowledgeConnections": [
+            "L4看膝反射，L5看伸拇，S1看踝反射与足外侧感觉，定位需多体征相互印证。"
+          ]
         },
         {
           "number": 10,
@@ -4828,7 +5186,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 10 题选项"
+          "optionCategory": "第 10 题选项",
+          "explanation": "普通X线可显示腰椎曲度、椎间隙狭窄和倾斜等间接征象，但通常不能直接显示软组织椎间盘向后突出。因此D不是普通平片典型可见表现。",
+          "knowledgeConnections": [
+            "平片看骨与间隙，MRI看椎间盘、神经根、椎管及软组织，检查能力边界不同。"
+          ]
         },
         {
           "number": 11,
@@ -4842,7 +5204,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 11 题选项"
+          "optionCategory": "第 11 题选项",
+          "explanation": "MRI可直接显示椎间盘突出方向、范围和神经根受压，适合进一步确认定位。CT对骨性结构和部分突出也有价值，肌电图偏功能辅助，核素不是该题首选。",
+          "knowledgeConnections": [
+            "影像需与临床节段对应，无症状突出不能自动解释全部腰腿痛。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -4955,7 +5321,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 12 题选项"
+          "optionCategory": "第 12 题选项",
+          "explanation": "急性高热、单关节红肿、活动剧痛和积液，疑化脓性关节炎，关节穿刺可直接观察关节液并作细胞、培养检查。血常规只能提示炎症，不能单独明确关节感染。",
+          "knowledgeConnections": [
+            "关节感染需尽早获得病原学证据和引流，防止软骨快速破坏。"
+          ]
         },
         {
           "number": 13,
@@ -4969,7 +5339,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 13 题选项"
+          "optionCategory": "第 13 题选项",
+          "explanation": "化脓性关节炎关节液常混浊、黄白、以中性粒细胞增多为主。常见病原为金黄色葡萄球菌，不是白色葡萄球菌；单核细胞为主更需考虑其他慢性或非化脓性过程。",
+          "knowledgeConnections": [
+            "外观、白细胞分类、革兰染色和培养需联合；培养阴性也不能在已用抗菌药者中绝对排除感染。"
+          ]
         },
         {
           "number": 14,
@@ -4983,7 +5357,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 14 题选项"
+          "optionCategory": "第 14 题选项",
+          "explanation": "化脓性关节炎早期采用有效抗菌药、关节穿刺抽液及局部处理，配合短期固定，并非一开始就常规切开，故D错误。脓液多、穿刺效果差或病情进展时需切开引流；感染控制后逐步恢复活动，减少关节僵硬。",
+          "knowledgeConnections": [
+            "感染治疗既要有效抗菌药，也要充分感染源控制；短期保护后恢复活动以减少僵硬。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -5039,7 +5417,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "儿童和青少年关节结核以髋关节多见，膝关节亦常见；脊柱属于骨关节结核总体高发部位，但不是该题给定的四个关节选项。",
+          "knowledgeConnections": [
+            "髋关节病变可牵涉到膝部疼痛，儿童长期跛行或膝痛时不能漏查髋。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -5095,7 +5477,11 @@
           ],
           "answerRaw": "ACD",
           "answerMode": "多选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "髋结核多儿童青少年，可因闭孔神经等牵涉痛表现为膝痛；4字试验可阳性，进展可关节间隙变窄。早期常由滑膜病变开始，不能概括为单纯骨结核最常见。",
+          "knowledgeConnections": [
+            "结核慢性滑膜炎→软骨及骨端破坏→关节间隙改变，早期症状常比明显X线破坏更早。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -5182,7 +5568,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 17 题选项"
+          "optionCategory": "第 17 题选项",
+          "explanation": "多年炎性腰痛、晨僵、活动改善，伴骶髂区相关体征、下肢大关节炎及RF阴性，整体支持强直性脊柱炎。单纯膝关节积液和炎症指标升高不能直接认定化脓性关节炎。",
+          "knowledgeConnections": [
+            "轴性脊柱关节炎可合并外周关节炎及附着点炎；与类风湿的对称小关节滑膜炎分布不同。"
+          ]
         },
         {
           "number": 18,
@@ -5196,7 +5586,11 @@
           "answerRaw": "C",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 18 题选项"
+          "optionCategory": "第 18 题选项",
+          "explanation": "骶髂关节MRI可发现早期活动性炎症，较单一HLA-B27阳性更直接反映病变。HLA-B27是相关遗传标志，不是仅凭阳性即可确诊的特异检查；膝MRI不足以解释长期轴性症状。",
+          "knowledgeConnections": [
+            "影像性骶髂关节炎与炎性背痛相互支持，HLA-DR4则更常联系类风湿易感性。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -5252,7 +5646,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "多年无痛、长骨干骺端骨性外突且与母骨皮质连续，典型为骨软骨瘤。骨肉瘤多进展较快、疼痛及破坏明显，骨囊肿为骨内透亮病灶而非向外生长的骨性突起。",
+          "knowledgeConnections": [
+            "骨软骨瘤具有软骨帽，骨皮质及髓腔与母骨相连；成年后突然增长或疼痛要警惕异常变化。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -5306,7 +5704,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "青少年、膝周长骨干骺端快速肿痛、静脉怒张、溶骨性破坏和骨膜反应，支持骨肉瘤；ALP升高也提示成骨活动。骨巨细胞瘤多见骨骺闭合后的骨端，转移瘤多见年龄较大者。",
+          "knowledgeConnections": [
+            "骨肉瘤联系恶性肿瘤细胞直接形成骨样组织，治疗多需化疗与手术联合。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",
@@ -5417,7 +5819,11 @@
           "answerRaw": "D",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 21 题选项"
+          "optionCategory": "第 21 题选项",
+          "explanation": "儿童肱骨局限、边界清晰、骨皮质膨胀变薄的骨内溶骨病变，首先考虑单纯性骨囊肿。年龄和部位不符合典型骨巨细胞瘤；也没有骨肉瘤侵袭性骨膜反应等证据。",
+          "knowledgeConnections": [
+            "良性骨囊肿可因病理骨折就诊；跌落碎片征是典型影像线索之一。"
+          ]
         },
         {
           "number": 22,
@@ -5431,7 +5837,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 22 题选项"
+          "optionCategory": "第 22 题选项",
+          "explanation": "单纯性骨囊肿多见儿童长骨干骺端，常为肱骨近端、股骨近端。骨端更典型见骨巨细胞瘤，骨干病变需另考虑尤因肉瘤等。",
+          "knowledgeConnections": [
+            "骨肿瘤定位要同时记年龄与骨内区域：干骺端、骨骺／骨端、骨干意义不同。"
+          ]
         },
         {
           "number": 23,
@@ -5445,7 +5855,11 @@
           "answerRaw": "A",
           "answerMode": "单选",
           "answerState": "文末参考答案",
-          "optionCategory": "第 23 题选项"
+          "optionCategory": "第 23 题选项",
+          "explanation": "本例诊断为单纯性骨囊肿，按题库可先用囊内糖皮质激素注射等微创治疗。化疗加手术适用于相应恶性骨肿瘤；局部刮除等亦有特定指征，但不是本题所选首要措施。",
+          "knowledgeConnections": [
+            "骨囊肿处理需评估大小、部位和病理骨折风险；不能把所有溶骨性病变都按恶性肿瘤化疗。"
+          ]
         }
       ],
       "sourceName": "外科课后巩固_文字大留白笔记版.docx",

@@ -86,7 +86,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-31"
+          "lectureId": "lecture-31",
+          "explanation": "隔夜宿食伴长期反复上腹痛提示瘢痕性幽门梗阻。持续呕吐丢失H⁺和Cl⁻，故最易低氯性代谢性碱中毒；若同时低容量、低钾，碱中毒更易维持。",
+          "knowledgeConnections": [
+            "呕吐失胃酸→代碱；腹泻失HCO₃⁻→代酸；缺钾还可出现反常性酸性尿。"
+          ]
         }
       ]
     },
@@ -147,7 +151,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-35"
+          "lectureId": "lecture-35",
+          "explanation": "讲义要求氯吡格雷术前10天停用，B写7天，故选B。脑卒中后择期手术至少推迟2周、最好6周；高血压患者继续降压治疗以免戒断；围术期可维持血糖5.6—11.2mmol/L的轻度升高。",
+          "knowledgeConnections": [
+            "抗血小板药停药涉及出血和支架血栓两类风险；择期手术的延后与急诊抢救不是同一决策。"
+          ]
         }
       ]
     },
@@ -208,7 +216,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-34"
+          "lectureId": "lecture-34",
+          "explanation": "开放伤后清创不足、缝合于残留失活组织，继发剧痛、明显肿胀及恶臭血性渗出，提示严重厌氧菌感染风险，最关键基础是初次清创不彻底。抗菌药不能替代去除失活组织和引流。",
+          "knowledgeConnections": [
+            "坏死组织、缺血和低氧促进气性坏疽等厌氧感染；伤口外观小也不代表深部损伤轻。"
+          ]
         }
       ]
     },
@@ -269,7 +281,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-33"
+          "lectureId": "lecture-33",
+          "explanation": "较大水疱是浅Ⅱ度烧伤的典型表现，累及真皮浅层。Ⅰ度主要表皮红痛、一般不形成水疱；深Ⅱ度水疱可较小、基底苍白，Ⅲ度常焦痂和感觉减退。",
+          "knowledgeConnections": [
+            "烧伤深度联系残留皮肤附件及再上皮化能力，决定愈合时间、瘢痕和植皮需求。"
+          ]
         }
       ]
     },
@@ -330,7 +346,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-32"
+          "lectureId": "lecture-32",
+          "explanation": "严重烧伤属于讲义列出的肠外营养适应证，故选B；重点是高分解、需要量增加，且摄入不足或肠内营养无法达标时给予支持。脑外伤昏迷可管饲，幽门梗阻可空肠造口，甲状腺术后饮水呛咳不直接构成肠外营养适应证。",
+          "knowledgeConnections": [
+            "选择营养途径先判断肠道能否使用，再判断能否达到需要量；高营养需求不等于肠内途径禁忌。"
+          ]
         }
       ]
     },
@@ -392,7 +412,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-01"
+          "lectureId": "lecture-01",
+          "explanation": "肿物逐渐增大并出现憋闷，说明有机械压迫症状，这是最直接的手术依据。温结节只描述摄碘程度，题干没有感染、破裂及继发甲亢证据，不能优先用这些解释手术。",
+          "knowledgeConnections": [
+            "甲状腺肿物要分别评估形态恶性风险、功能状态及局部压迫，三个维度不能互相代替。"
+          ]
         }
       ]
     },
@@ -453,7 +477,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-01"
+          "lectureId": "lecture-01",
+          "explanation": "髓样癌来自滤泡旁C细胞，可分泌降钙素和5-HT等活性物质，出现潮红、腹泻、多汗。滤泡来源的乳头状癌和滤泡癌并不以这一分泌综合征为主要特点。",
+          "knowledgeConnections": [
+            "髓样癌联系RET及MEN2，病理可见淀粉样间质；滤泡癌更需看包膜和血管侵犯。"
+          ]
         }
       ]
     },
@@ -514,7 +542,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-04"
+          "lectureId": "lecture-04",
+          "explanation": "张力性气胸的本质是胸腔内气体经单向机制不断积聚形成高压，抽出高压气体最直接说明这一机制。鼓音、呼吸音消失和纵隔偏移虽可支持，但其他气胸也可能出现。",
+          "knowledgeConnections": [
+            "胸腔高压压迫肺及大静脉，可同时引起呼吸衰竭和阻塞性休克。"
+          ]
         }
       ]
     },
@@ -575,7 +607,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "explanation": "乳腺癌术后渐进性腰背痛，应首先排查骨转移，题给选项中核素骨显像ECT可筛查全身骨病灶。BRCA偏遗传易感性，CA15-3不能定位病灶；MRI适于进一步评估局部脊柱病变和神经受压。",
+          "knowledgeConnections": [
+            "乳腺癌可成骨、溶骨或混合性转移，ALP和影像需结合；神经压迫症状出现时需及时定位。"
+          ]
         }
       ]
     },
@@ -636,7 +672,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "med-lecture-16"
+          "lectureId": "med-lecture-16",
+          "explanation": "突发刀割样腹痛、板状腹和膈下游离气体提示消化性溃疡穿孔。按本题急诊方案，先及时修补并控制腹膜污染；高选择性迷走神经切断并不能直接处理穿孔，是否扩大切除还需结合病灶、稳定性和肿瘤风险。",
+          "knowledgeConnections": [
+            "胃穿孔修补时仍需重视胃溃疡病理取材及后续复查，不能仅缝合后忽略恶性鉴别。"
+          ]
         }
       ]
     },
@@ -697,7 +737,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-05"
+          "lectureId": "lecture-05",
+          "explanation": "题给选项按讲义选D，内镜是胃癌诊断的首选，可观察病灶并取活检。判断胃壁各层及浸润深度需联系超声内镜；普通电子胃镜的直视与活检功能不能等同于完整的层次分期。",
+          "knowledgeConnections": [
+            "胃镜活检确认病理，超声内镜评估胃壁层次，CT等评估区域及远处情况，检查目标不同。"
+          ]
         }
       ]
     },
@@ -759,7 +803,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-07"
+          "lectureId": "lecture-07",
+          "explanation": "降结肠损伤多污染重，讲义采用造口或外置，3—4周后再处理，故选C。少数污染轻、尤其右半结肠损伤可一期修补或切除吻合；直肠上段损伤可修补或吻合加乙状结肠双腔造口。",
+          "knowledgeConnections": [
+            "结肠创伤处理受休克、污染、组织血供、合并伤和救治条件影响，不仅由左右部位决定。"
+          ]
         }
       ]
     },
@@ -820,7 +868,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-12"
+          "lectureId": "lecture-12",
+          "explanation": "Richter疝嵌顿的是部分肠壁，A写大网膜，故错误。局部肿块可不明显，多无完整的肠梗阻表现，易误诊；讲义将其列入相对不易绞窄的嵌顿疝，但一旦绞窄坏死仍需处理肠管。",
+          "knowledgeConnections": [
+            "肠腔未完全堵塞不等于肠壁血供正常；Richter疝可在缺乏典型肠梗阻时发生穿孔。"
+          ]
         }
       ]
     },
@@ -881,7 +933,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-09"
+          "lectureId": "lecture-09",
+          "explanation": "屈髋屈膝后旋转下肢诱发右下腹痛，为闭孔内肌试验阳性，提示盆位阑尾邻近闭孔内肌。腰大肌试验更多提示盲肠后位阑尾，两者诱发动作不同。",
+          "knowledgeConnections": [
+            "阑尾位置影响疼痛、压痛点及直肠／膀胱刺激症状，异位阑尾炎可不在典型麦氏点。"
+          ]
         }
       ]
     },
@@ -942,7 +998,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-08"
+          "lectureId": "lecture-08",
+          "explanation": "保守处理数日后加重、局限压痛且反复平片见固定扩张肠袢，需警惕闭袢梗阻或绞窄。应及时探查，不必等到弥漫性腹膜炎才手术，也不能以止痛或继续观察代替病因控制。",
+          "knowledgeConnections": [
+            "持续固定肠袢、持续痛及腹膜刺激征是血运障碍警讯，与单纯粘连性不完全梗阻可先保守的条件不同。"
+          ]
         }
       ]
     },
@@ -1003,7 +1063,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-10"
+          "lectureId": "lecture-10",
+          "explanation": "升结肠腔较宽、内容物较稀，癌症更常表现贫血、乏力、隐性失血及腹部肿块。大便变细带血更符合远端结肠或直肠病变，故C不是右侧结肠癌的典型表现。",
+          "knowledgeConnections": [
+            "右侧结肠癌偏全身消耗和失血，左侧偏梗阻及排便改变，但临床可有交叉。"
+          ]
         }
       ]
     },
@@ -1064,7 +1128,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-11"
+          "lectureId": "lecture-11",
+          "explanation": "肛瘘与内外括约肌的关系决定切开／挂线等术式及术后控便风险。内口定位也很重要，但题问治疗策略最关键因素，选B；单纯外口数量或分泌物培养不能替代解剖分型。",
+          "knowledgeConnections": [
+            "高位肛瘘不能为彻底切除而任意切断括约肌；治愈感染通道与保护肛门功能需兼顾。"
+          ]
         }
       ]
     },
@@ -1125,7 +1193,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "发热、右上腹腹膜刺激、胆囊结石且胆总管扩张至1.2cm，提示急性胆囊炎并可能合并胆总管结石。题给方案需胆囊切除并探查胆总管，而非只切胆囊或对稳定患者单纯造口减压。",
+          "knowledgeConnections": [
+            "胆总管扩张、黄疸、胆管炎线索影响是否评估／处理胆总管结石，不能只看到胆囊内结石。"
+          ]
         }
       ]
     },
@@ -1187,7 +1259,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "泥沙样结石合并远端狭窄及胆总管扩张，单纯取石不能消除排流障碍；题库选择胆总管—空肠Roux-en-Y吻合以建立长期内引流。Whipple针对相应胰头／壶腹等病变，不是此良性狭窄的常规首选。",
+          "knowledgeConnections": [
+            "胆肠吻合处理的是持续胆道梗阻，需与临时T管外引流、内镜乳头切开取石的适应证比较。"
+          ]
         }
       ]
     },
@@ -1248,7 +1324,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "进行性梗阻性黄疸、皮肤瘙痒及白陶土便，同时胆囊不肿大，提示胆囊管汇入口以上高位梗阻，最符合肝门部胆管癌。胰头癌更常为低位梗阻并胆囊增大，AFP正常也不支持典型AFP升高型肝癌。",
+          "knowledgeConnections": [
+            "梗阻部位决定肝内／肝外胆管及胆囊扩张组合；AFP正常不能单独排除全部肝癌。"
+          ]
         }
       ]
     },
@@ -1309,7 +1389,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-13"
+          "lectureId": "lecture-13",
+          "explanation": "Couinaud分段依据门静脉分支支配和肝静脉所处的段间界面，故选A。肝动脉、胆管与门静脉共同走行，但不单独构成题目所问的主要分段原则。",
+          "knowledgeConnections": [
+            "门管系统多在段内，肝静脉多在段间，联系解剖性肝段切除。"
+          ]
         }
       ]
     },
@@ -1370,7 +1454,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "explanation": "门静脉高压择期手术的主要目的，是预防或控制食管胃底静脉曲张破裂所致上消化道出血。它不能从根本上消除肝硬化，也不是专门用来预防肝癌或肝功能衰竭。",
+          "knowledgeConnections": [
+            "分流减压与断流减少曲张静脉血流的机制不同，术式选择需同时考虑肝储备功能。"
+          ]
         }
       ]
     },
@@ -1431,7 +1519,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "med-lecture-23"
+          "lectureId": "med-lecture-23",
+          "explanation": "重症胰腺炎应尽可能采用内科支持和必要的微创治疗，故选D。淀粉酶高低不平行坏死范围；早期血糖升高可由应激引起，不能与提示病情严重的持续或后期高血糖等同。发热和白细胞增多亦可来自无菌性炎症，不能单独证明感染。",
+          "knowledgeConnections": [
+            "诊断胰腺炎看疼痛、消化酶和影像；严重度看器官衰竭及并发症；感染需额外证据。"
+          ]
         }
       ]
     },
@@ -1492,7 +1584,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-15"
+          "lectureId": "lecture-15",
+          "explanation": "空腹／清晨低血糖症状、补糖缓解及胰腺小占位，提示胰岛素瘤。按本讲义部位排序选胰尾、胰体、胰头；这一排序是题库记忆点，临床定位仍需影像，不能凭好发部位直接确定肿物位置。",
+          "knowledgeConnections": [
+            "Whipple三联征为低血糖症状、发作时血糖低、补糖后缓解；与Whipple胰十二指肠切除术同名但概念不同。"
+          ]
         }
       ]
     },
@@ -1553,7 +1649,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-17"
+          "lectureId": "lecture-17",
+          "explanation": "血栓闭塞性脉管炎多青年吸烟者，可间歇跛行、远端脉搏减弱并游走性浅静脉炎。吸烟加高血压、糖尿病的组合更偏动脉粥样硬化危险因素，不能作为该病典型诊断要点。",
+          "knowledgeConnections": [
+            "两类慢性下肢缺血都可跛行和脉弱，年龄、病变血管和危险因素是鉴别关键。"
+          ]
         }
       ]
     },
@@ -1615,7 +1715,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-19"
+          "lectureId": "lecture-19",
+          "explanation": "上段输尿管结石约1cm，题目按讲义选择体外冲击波碎石ESWL。药物排石更适合较小且有自行排出机会者；镜下或手术取石需结合硬度、嵌顿、积水、感染及碎石效果。结石远端梗阻时不能机械选ESWL。",
+          "knowledgeConnections": [
+            "碎石后仍需尿路通畅才能排出；感染合并梗阻应先控制感染、解除梗阻。"
+          ]
         }
       ]
     },
@@ -1676,7 +1780,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-18"
+          "lectureId": "lecture-18",
+          "explanation": "膀胱癌T3已侵入膀胱周围组织，超出单纯非肌层浸润病变范围，题给标准手术选择为膀胱全切除。TURBT主要用于非肌层浸润或分期取材；根治治疗还需结合全身治疗及患者条件。",
+          "knowledgeConnections": [
+            "膀胱癌T2为肌层浸润，T3为膀胱外周组织；分期决定保膀胱与根治方案边界。"
+          ]
         }
       ]
     },
@@ -1737,7 +1845,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-20"
+          "lectureId": "lecture-20",
+          "explanation": "脊柱侧凸通常以站立位影像Cobb角达到10°作为诊断界限。20°、40°、50°更常出现在观察、支具或手术决策区间，不是初始诊断的最低角度。",
+          "knowledgeConnections": [
+            "诊断阈值与治疗阈值不同；治疗还要考虑骨骼成熟度及曲线进展。"
+          ]
         }
       ]
     },
@@ -1798,7 +1910,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-29"
+          "lectureId": "lecture-29",
+          "explanation": "前臂肌群被较坚韧筋膜包围，肿胀或出血时易形成高压闭合腔隙，故题给部位中以前臂最典型。小腿也高发，但不在本组选项中。",
+          "knowledgeConnections": [
+            "腔内压升高→灌注下降→缺血再肿胀的恶性循环；早期重视被动牵伸痛，不等无脉才识别。"
+          ]
         }
       ]
     },
@@ -1859,7 +1975,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-28"
+          "lectureId": "lecture-28",
+          "explanation": "高龄、合并症多、预期寿命短者，半髋置换可满足基本负重与减轻疼痛需要，手术负担通常小于全髋。年轻或生理需求高者的选择不同，内固定还要考虑骨折类型、移位及股骨头血供。",
+          "knowledgeConnections": [
+            "股骨颈骨折治疗综合年龄／生理状态、移位与活动需求，不能只看一张分型表决定所有患者。"
+          ]
         }
       ]
     },
@@ -1920,7 +2040,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-26"
+          "lectureId": "lecture-26",
+          "explanation": "Ⅲ型齿状突骨折延伸至椎体松质骨，讲义采用Halo架固定12周，故选C。需与无移位Ⅱ型的6—8周区别；存在明显移位、复位失败或不稳定时应考虑手术。",
+          "knowledgeConnections": [
+            "Ⅱ型基底部愈合风险较高，Ⅲ型有椎体松质骨参与，需与分型对应的稳定性、血供区别。"
+          ]
         }
       ]
     },
@@ -1981,7 +2105,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-21"
+          "lectureId": "lecture-21",
+          "explanation": "肱骨外上髁炎为伸肌总腱起点慢性损伤，Mills试验牵拉伸肌腱可诱发外上髁痛。Dugas用于肩脱位，Spurling用于神经根型颈椎病，Thomas用于髋屈曲挛缩。",
+          "knowledgeConnections": [
+            "网球肘与高尔夫球肘分别偏外上髁伸肌、内上髁屈肌起点，疼痛诱发方向不同。"
+          ]
         }
       ]
     },
@@ -2043,7 +2171,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-27"
+          "lectureId": "lecture-27",
+          "explanation": "L4—5突出通常影响L5神经根，可足／拇趾背伸无力和小腿外侧、足背内侧感觉改变。踝反射主要联系S1，常见于L5—S1突出，因此A不是典型L5定位体征。",
+          "knowledgeConnections": [
+            "膝反射L4、伸拇L5、踝反射S1是常用定位线索，但需结合感觉和影像交叉验证。"
+          ]
         }
       ]
     },
@@ -2104,7 +2236,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-23"
+          "lectureId": "lecture-23",
+          "explanation": "窦道长期流脓提示局部病灶难自行控制，可在充分抗结核和全身条件允许后作病灶清除。全身中毒严重、其他脏器活动结核及抗结核准备不足，不是立即清除病灶的有利条件。",
+          "knowledgeConnections": [
+            "局部清除不能替代规范抗结核治疗；手术时机兼顾感染负荷、营养与播散风险。"
+          ]
         }
       ]
     },
@@ -2165,7 +2301,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-24"
+          "lectureId": "lecture-24",
+          "explanation": "强直性脊柱炎的代表性病理改变是附着点炎，尤其韧带、肌腱与骨连接处，后续可骨化和强直。滑膜炎可伴随，但不是与其他关节病鉴别时最具代表性的分类基础。",
+          "knowledgeConnections": [
+            "附着点炎联系骶髂炎与脊柱骨桥；骨关节炎偏软骨退变，类风湿偏持续性滑膜炎。"
+          ]
         }
       ]
     },
@@ -2226,7 +2366,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-25"
+          "lectureId": "lecture-25",
+          "explanation": "骨肉瘤一般需新辅助化疗、完整手术切除及术后化疗，即A的顺序。化疗控制微小转移，手术清除局部原发灶；常规骨肉瘤不能把放疗作为替代广泛切除的核心方案。",
+          "knowledgeConnections": [
+            "骨肉瘤早期可肺转移；局部与全身治疗需同时考虑，而非仅切除可见骨病灶。"
+          ]
         }
       ]
     },
@@ -2287,7 +2431,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案序列录入",
-          "lectureId": "lecture-25"
+          "lectureId": "lecture-25",
+          "explanation": "软骨肉瘤常见骨盆等部位，可有软骨样钙化，主要依靠手术达到局部控制；常规类型对放疗相对不敏感，因此D错误。不能与尤因肉瘤等对放化疗反应较好的肿瘤混同。",
+          "knowledgeConnections": [
+            "骨肿瘤的年龄、部位、基质钙化和治疗敏感性可串联鉴别；软骨肿瘤常见环弧样钙化。"
+          ]
         }
       ]
     }

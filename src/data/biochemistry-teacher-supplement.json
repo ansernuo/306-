@@ -60,7 +60,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "β-转角常以四个氨基酸残基使肽链方向改变，第二位常为脯氨酸，其环状侧链限制构象并利于形成转折。甘氨酸常有助于适应转角处空间，但不在本题给出的四项中。",
+          "knowledgeConnections": [
+            "蛋白质二级结构包括α螺旋、β折叠、β转角等，主要联系肽链主链构象及氢键。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -114,7 +118,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "FAD含腺苷酸部分，FMN为黄素单核苷酸，CoA也含腺苷核苷酸结构；四氢叶酸由蝶啶、对氨基苯甲酸及谷氨酸部分构成，不含核苷酸，故选D。",
+          "knowledgeConnections": [
+            "辅酶不等于核苷酸：FH₄传递一碳单位，FAD／FMN传递氧化还原当量，CoA传递酰基。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -168,7 +176,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "磺胺结构类似对氨基苯甲酸PABA，可竞争细菌二氢蝶酸合酶的底物结合，抑制叶酸合成。不能与MTX抑制二氢叶酸还原酶或氮杂丝氨酸模拟谷氨酰胺混淆。",
+          "knowledgeConnections": [
+            "细菌自行合成叶酸而人体主要从食物获得，底物通路差异解释磺胺的选择性；甲氧苄啶可在下游另一个环节阻断。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -222,7 +234,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "乳酸脱氢酶将丙酮酸还原为乳酸，同时把NADH氧化回NAD⁺，使3-磷酸甘油醛脱氢酶的反应能够持续，维持无氧糖酵解供能。主要意义不是避免丙酮酸堆积，也不只是把乳酸运回肝。",
+          "knowledgeConnections": [
+            "成熟红细胞无线粒体，依靠糖酵解供能；乳酸回肝的Cori循环需要肝脏额外消耗能量。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -276,7 +292,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "油酸为偶数碳脂肪酸，β氧化主要生成乙酰CoA，人体不能由其实现净葡萄糖生成。甘油可进入磷酸二羟丙酮，生糖兼生酮的酪氨酸及丙酰CoA所形成的相关中间物可有生糖去路。",
+          "knowledgeConnections": [
+            "奇数碳脂肪酸的丙酰CoA可经琥珀酰CoA生糖；这与偶数碳脂肪酸不能净生糖不同。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -330,7 +350,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "胞质脂肪酸合成时，延长中的酰基由酰基载体蛋白ACP的磷酸泛酰巯基乙胺臂携带。CoA也可携带酰基，但不是脂肪酸合酶延长过程所问的载体；生物素主要参与羧化，TPP参与相关脱羧反应。",
+          "knowledgeConnections": [
+            "脂肪酸合成用ACP和NADPH，β氧化多在线粒体以脂酰CoA为底物并产生NADH、FADH₂。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -384,7 +408,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "脂肪酸β氧化的第一次脱氢需FAD，后续脱氢用NAD⁺，硫解用CoASH；长链脂酰基进入线粒体还联系肉碱穿梭。NADP⁺不是经典β氧化四步反应的辅酶，NADPH更主要用于合成供氢。",
+          "knowledgeConnections": [
+            "合成偏NADPH、氧化偏NAD⁺和FAD；肉碱转运与具体催化反应辅酶属于不同环节。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -438,7 +466,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "精氨酸代琥珀酸裂解释放延胡索酸，后者可经苹果酸、草酰乙酸进入三羧酸循环相关反应；草酰乙酸经转氨可形成天冬氨酸，后者再给尿素循环供氮，故A最完整。",
+          "knowledgeConnections": [
+            "尿素两个氮分别来自游离氨和天冬氨酸；代谢联系不仅是碳骨架，也包括氮转移。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -492,7 +524,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "半胱氨酸可经氧化、脱羧等过程形成牛磺酸，牛磺酸与胆汁酸结合形成结合型胆汁酸。不能把它写成半胱氨酸一步直接脱羧即生成牛磺酸；谷氨酸脱羧则主要得到GABA。",
+          "knowledgeConnections": [
+            "结合型胆汁酸常与甘氨酸或牛磺酸结合；GABA、组胺等则体现其他氨基酸脱羧产物。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -546,7 +582,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "别嘌呤醇及其活性代谢物抑制黄嘌呤氧化酶，减少尿酸生成。6-MP、MTX及氮杂丝氨酸主要干扰核苷酸合成的其他环节，不能因均与嘌呤有关就等同降尿酸靶点。",
+          "knowledgeConnections": [
+            "黄嘌呤氧化酶还影响6-MP代谢，抑制该酶时合用硫嘌呤类要关注药物相互作用。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -600,7 +640,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "原核DNA聚合酶Ⅰ同时具有聚合、3′→5′校对外切和5′→3′外切活性，后者可去除前方引物等。DNA聚合酶Ⅲ是主要复制酶并可校对，但不具有题目所问的两种外切活性组合。",
+          "knowledgeConnections": [
+            "聚合方向均为5′→3′；3′→5′用于纠错，PolⅠ的5′→3′外切联系去引物和缺口平移。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -654,7 +698,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "BRCA1、BRCA2参与DNA双链断裂的同源重组修复，缺陷与遗传性乳腺癌、卵巢癌易感相关。错配修复缺陷典型联系Lynch综合征，核苷酸切除修复缺陷典型联系着色性干皮病。",
+          "knowledgeConnections": [
+            "同源重组缺陷还与PARP抑制的合成致死机制相关；不能将所有DNA修复缺陷都对应同一癌症综合征。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -708,7 +756,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "ρ依赖性终止需要ρ因子结合新生RNA并发挥ATP依赖的解旋／转位作用，使转录复合物解离。释放因子参与翻译终止，AAUAAA参与典型真核mRNA加尾信号，信号肽用于蛋白分选。",
+          "knowledgeConnections": [
+            "原核转录可有ρ依赖与内在终止两种机制；转录终止与核糖体翻译终止的因子不同。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -764,7 +816,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "典型真核mRNA成熟要经历5′加帽及相关甲基化、3′加polyA尾和剪接。polyA主要在3′而不是5′；典型真核mRNA多单顺反子，核内转录与胞质翻译通常不直接耦联。",
+          "knowledgeConnections": [
+            "原核可边转录边翻译并多顺反子；真核帽、尾和剪接共同影响稳定、输出及翻译。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -818,7 +874,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "白喉毒素使真核延长因子eEF2发生ADP-核糖基化失活，阻断核糖体转位及蛋白质延长。eIF2属于起始因子，原核EF-T和RF3也不是该毒素的经典靶点。",
+          "knowledgeConnections": [
+            "蓖麻毒蛋白作用于28S rRNA，白喉毒素作用于eEF2；干扰素相关PKR途径可抑制eIF2，靶层级不同。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -872,7 +932,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "卫星DNA为典型串联高度重复序列。LINE、SINE为散在重复序列；rRNA基因虽可多拷贝重复排列，也不等同本题所问卫星DNA这一高度重复非编码类别。",
+          "knowledgeConnections": [
+            "重复序列的拷贝数、长度和分布方式为不同分类维度；微卫星多态性还可用于遗传标记。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -926,7 +990,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "阻遏蛋白结合操纵序列，影响RNA聚合酶转录结构基因。启动序列是聚合酶及相关因子结合的区域，CAP结合位点用于相应正调控，不能把不同调控蛋白的结合位点混用。",
+          "knowledgeConnections": [
+            "乳糖操纵子由阻遏蛋白负调控，也受cAMP-CAP正调控；乳糖和葡萄糖状态共同决定表达。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -980,7 +1048,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "RAS是GDP／GTP分子开关，GEF促进交换而激活，衔接蛋白可将受体信号连接到该通路；鸟苷酸环化酶生成cGMP，与RAS结合GTP并非同一过程，故C无直接对应。",
+          "knowledgeConnections": [
+            "GEF促GDP释放、GAP促GTP水解；NO—sGC—cGMP与受体酪氨酸激酶—RAS—MAPK是不同信号轴。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -1034,7 +1106,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "胆道阻塞使进入肠腔的结合胆红素减少，肠菌形成的尿胆素原减少，因此尿中尿胆素原排泄常减少。溶血时底物增加，反而常增多；“尿胆红素阳性”与“尿胆素原减少”可同时存在。",
+          "knowledgeConnections": [
+            "胆红素经肝结合后排胆汁，肠内代谢物再经肠肝循环与尿排出，两个尿试验所测不是同一种物质。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -1088,7 +1164,11 @@
           ],
           "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "PCR的序列特异性主要由一对DNA引物与模板两端的互补配对决定；Taq酶提供耐热的延伸能力，并不决定具体扩增哪段序列。普通PCR不用RNA引物或必须RNA模板。",
+          "knowledgeConnections": [
+            "反转录PCR先把RNA转为cDNA，再作DNA扩增；引物序列、退火温度与非特异扩增相关。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -1144,7 +1224,11 @@
           ],
           "answerRaw": "B",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "GST pull-down使用GST融合标签与固定化谷胱甘肽结合，捕获诱饵蛋白及与其相互作用的分子。His标签常用于金属亲和，NusA、SUMO还常用于改善表达／可溶性，不能与GST体系混写。",
+          "knowledgeConnections": [
+            "亲和纯化与相互作用验证相关但目的不同；pull-down需要相应阴性对照以排除非特异吸附。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -1200,7 +1284,11 @@
           ],
           "answerRaw": "A",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "SDS使蛋白质带大量近似与质量成比例的负电荷，并在变性条件下减弱形状及原有电荷差异，分离主要按分子量。非变性电泳才更同时受电荷、大小和形状影响。",
+          "knowledgeConnections": [
+            "有无还原剂决定二硫键是否被切开；SDS-PAGE条带可用于估计亚基大小，不能直接证明完整蛋白四级结构。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",
@@ -1254,7 +1342,11 @@
           ],
           "answerRaw": "C",
           "answerMode": "单选",
-          "answerState": "文末参考答案"
+          "answerState": "文末参考答案",
+          "explanation": "基因矫正针对异常碱基或片段修复，保留其余正常部分，符合题意。基因置换是以正常序列替代相应病变基因，失活是关闭有害基因，自杀基因用于使目标细胞被特定机制杀伤。",
+          "knowledgeConnections": [
+            "补充表达、原位矫正和基因失活的目标不同，基因治疗方法应由致病机制决定。"
+          ]
         }
       ],
       "sourceName": "生化课后巩固_文字大留白笔记版.docx",

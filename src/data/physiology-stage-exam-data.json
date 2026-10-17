@@ -81,7 +81,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-01"
+          "lectureId": "lecture-01",
+          "explanation": "选B。前馈在干扰尚未使输出明显偏离前便启动调节，可提高反应及时性和适应性；A的闭环是反馈系统特征，C说无法避免滞后与前馈意义相反，D又忽略预测可能失误。",
+          "knowledgeConnections": [
+            "赛跑前心率和通气已增快，是前馈",
+            "赛后根据血气变化再调整则体现反馈。"
+          ]
         }
       ]
     },
@@ -142,7 +147,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-02"
+          "lectureId": "lecture-02",
+          "explanation": "选C。小肠顶端膜SGLT1把葡萄糖和Na⁺同向转入细胞，促进溶质及水吸收；基底侧葡萄糖主要经GLUT外运，钠泵间接供能，故A不如C直接。",
+          "knowledgeConnections": [
+            "许多分泌性腹泻中Na⁺-葡萄糖共转运仍能工作，是口服补液盐的生理基础。"
+          ]
         }
       ]
     },
@@ -203,7 +212,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "explanation": "选C。上升支膜电位逐渐接近E_Na，Na⁺向内电化学驱动力减小；同时远离E_K，使K⁺外向驱动力增大。通道开放率与驱动力是不同变量，不能据Na⁺电流大就判驱动力增加。",
+          "knowledgeConnections": [
+            "越接近某离子平衡电位，其净电化学驱动力越小，这是分析动作电位全过程的通则。"
+          ]
         }
       ]
     },
@@ -264,7 +277,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "explanation": "选C。两个动作电位相向传播后，其后方均处于不应期，交会处没有可继续兴奋的前方膜，故相遇后消失；动作电位不叠加成更大波，也不按刺激强弱决定谁通过。",
+          "knowledgeConnections": [
+            "单根轴突的全或无与不应期，和局部电位可时空总和的性质不同。"
+          ]
         }
       ]
     },
@@ -325,7 +342,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-03"
+          "lectureId": "lecture-03",
+          "explanation": "选C。阈电位抬高即变得更不负，在静息电位不变时需要更强去极化才能达到阈值，故兴奋性降低；不必伴动作电位幅度、传导速度或开放通道数增加。",
+          "knowledgeConnections": [
+            "高细胞外Ca²⁺可使阈电位抬高",
+            "高K⁺首先影响静息电位，分析时不可混用。"
+          ]
         }
       ]
     },
@@ -386,7 +408,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-04"
+          "lectureId": "lecture-04",
+          "explanation": "选B。筒箭毒竞争性阻断终板N_M受体，使ACh激活的阳离子电流减少，终板去极化幅度减小；它不是开放抑制性通道，因此并非引起超极化。",
+          "knowledgeConnections": [
+            "终板电位为局部电位，可随受体阻断程度递减，肌膜动作电位则具有全或无性质。"
+          ]
         }
       ]
     },
@@ -447,7 +473,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-04"
+          "lectureId": "lecture-04",
+          "explanation": "选B。在连续刺激的神经-肌标本中，神经肌接头是相对容易疲劳的环节，递质供给和释放效能下降，难以使终板达到阈值；神经冲动本身不会逐次越来越小。",
+          "knowledgeConnections": [
+            "直接刺激肌肉仍可收缩而刺激神经反应弱，有助定位传递障碍在接头。"
+          ]
         }
       ]
     },
@@ -508,7 +538,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-04"
+          "lectureId": "lecture-04",
+          "explanation": "选D。高频刺激间隔短于机械舒张时间，肌质网释放的Ca²⁺来不及充分回收，胞质Ca²⁺持续高，横桥持续工作。叠加的是机械收缩，不是动作电位相互融合。",
+          "knowledgeConnections": [
+            "骨骼肌不应期短而收缩时程长，允许强直",
+            "心肌不应期覆盖收缩期，不能同样强直。"
+          ]
         }
       ]
     },
@@ -569,7 +604,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-05"
+          "lectureId": "lecture-05",
+          "explanation": "选D。GnRH受体主要经Gq-PLC使PIP₂裂解为IP₃和DAG，分别促Ca²⁺释放及PKC激活；催乳素常经JAK-STAT，醛固酮主要经核受体，TSH主要经cAMP。",
+          "knowledgeConnections": [
+            "同为垂体轴激素并不使用同一第二信使，需从具体受体耦联判断。"
+          ]
         }
       ]
     },
@@ -630,7 +669,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-05"
+          "lectureId": "lecture-05",
+          "explanation": "选C。TGF-β受体为Ser/Thr激酶受体，磷酸化SMAD并调节转录；STAT对应JAK相关信号，PKG对应cGMP，NF-κB属另一转录调控系统。",
+          "knowledgeConnections": [
+            "TGF-β促纤维化的效应联系病理学细胞外基质沉积，受体激酶类型不同于胰岛素受体。"
+          ]
         }
       ]
     },
@@ -691,7 +734,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-05"
+          "lectureId": "lecture-05",
+          "explanation": "选B。PKA受cAMP、PKG受cGMP、CaM激酶受Ca²⁺-CaM直接激活；PTK典型由受体配体结合或受体相关蛋白调节，不直接由这类胞内第二信使启动。",
+          "knowledgeConnections": [
+            "第二信使、蛋白激酶及转录因子处于不同信号层级，不能把所有激酶都当成第二信使。"
+          ]
         }
       ]
     },
@@ -752,7 +799,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-05"
+          "lectureId": "lecture-05",
+          "explanation": "选D。RAS是小G蛋白，结合GTP时活化、GDP时失活，GEF促进GDP释放并换上GTP；鸟苷酸环化酶把GTP转为cGMP，不是RAS的直接开关调节器。",
+          "knowledgeConnections": [
+            "RAS-RAF-MEK-ERK调节细胞增殖，RAS水解GTP能力异常可使增殖信号持续。"
+          ]
         }
       ]
     },
@@ -813,7 +864,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-07"
+          "lectureId": "lecture-07",
+          "explanation": "选D。血小板除聚集成栓，还提供维持微血管内皮完整性的支持；数量明显减少可出现自发性瘀点。A/B/C分别描述止血或凝块形成过程，不能最直接解释微血管自发渗血。",
+          "knowledgeConnections": [
+            "血小板性出血偏黏膜和瘀点，凝血因子缺陷更常见深部血肿和关节出血。"
+          ]
         }
       ]
     },
@@ -874,7 +929,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-08"
+          "lectureId": "lecture-08",
+          "explanation": "选C。加入足量组织因子和Ca²⁺启动外源通路，若仍明显延长应考虑共同通路缺陷，FV为共同通路辅因子；FXII、FVIII属内源系统，血浆试验也不以血小板数量为主要限制。",
+          "knowledgeConnections": [
+            "PT检测外源及共同通路，APTT检测内源及共同通路，二者皆延长可见共同通路缺陷。"
+          ]
         }
       ]
     },
@@ -935,7 +994,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-06"
+          "lectureId": "lecture-06",
+          "explanation": "选A。H抗原是A/B抗原修饰的基础，H基因缺陷使红细胞无法形成正常H抗原，A/B表达也随之受阻，形成孟买型；D基因对应Rh系统。",
+          "knowledgeConnections": [
+            "孟买型虽可能在常规ABO初筛似O型，却可有抗H，输普通O型血仍可能不相容。"
+          ]
         }
       ]
     },
@@ -996,7 +1059,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-09"
+          "lectureId": "lecture-09",
+          "explanation": "选D。第三心音与快速充盈后期血流突然减速、心室壁和房室结构振动有关，故为快速充盈期末；不是等容收缩期的瓣膜关闭声。",
+          "knowledgeConnections": [
+            "年轻人可有生理性S3，成人新出现病理性S3常提示容量负荷或心衰；S4与心房收缩相关。"
+          ]
         }
       ]
     },
@@ -1057,7 +1124,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-10"
+          "lectureId": "lecture-10",
+          "explanation": "选C。Ca²⁺回收加快促进心肌舒张，降低舒张期室内压、增强充盈抽吸，有利静脉回流。过快心率缩短充盈期，心肌肥厚不等于回流增加，后负荷骤增可减少初始搏出。",
+          "knowledgeConnections": [
+            "正性舒张效应与正性肌力效应不同，SERCA回收Ca²⁺使心肌更快舒张。"
+          ]
         }
       ]
     },
@@ -1118,7 +1189,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-12"
+          "lectureId": "lecture-12",
+          "explanation": "选C。期前兴奋引起新的长有效不应期，随后按时到达的窦性激动不能使心室再兴奋，出现代偿间歇；房室延搁不能解释这次刺激失效。",
+          "knowledgeConnections": [
+            "室性早搏不重整窦房结时可形成完全代偿，房性早搏常出现不完全代偿。"
+          ]
         }
       ]
     },
@@ -1179,7 +1254,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-11"
+          "lectureId": "lecture-11",
+          "explanation": "选D。平均流速等于体积流量除总横截面积；毛细血管数量多、并联总面积大于微动脉，故流速更慢。单根管径小不代表总截面积小，血压低也不是此比较的主要直接原因。",
+          "knowledgeConnections": [
+            "毛细血管低流速延长交换时间，直小血管慢血流还帮助逆流交换保存髓质梯度。"
+          ]
         }
       ]
     },
@@ -1240,7 +1319,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-13"
+          "lectureId": "lecture-13",
+          "explanation": "选A。心迷走有基础紧张性活动，抑制其活动可使心率上升；迷走神经包含传入纤维，心室分布较少，电刺激其心脏传出通常使心率下降。",
+          "knowledgeConnections": [
+            "阿托品阻断M₂受体可解除迷走性减慢心率，但并非通过直接激动β₁。"
+          ]
         }
       ]
     },
@@ -1301,7 +1384,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-14"
+          "lectureId": "lecture-14",
+          "explanation": "选C。每次吸入首先填充固定的解剖无效腔，浅快呼吸中无效腔气量占潮气量比例增大，肺泡通气量下降；解剖无效腔的绝对容积并非必增加，分钟通气也可不变。",
+          "knowledgeConnections": [
+            "肺泡通气量=(潮气量－无效腔量)×频率，解释同样分钟通气下深慢呼吸通常更有效。"
+          ]
         }
       ]
     },
@@ -1362,7 +1449,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-15"
+          "lectureId": "lecture-15",
+          "explanation": "选A。用力呼气时吸气肌膈肌和肋间外肌舒张，肋间内肌及腹肌等呼气肌收缩，提高胸腹压力；平静呼气才主要靠弹性回缩、不需强烈呼气肌活动。",
+          "knowledgeConnections": [
+            "用力呼气使胸膜腔压可转正，阻塞性疾病可发生气道动态压缩和呼气流量受限。"
+          ]
         }
       ]
     },
@@ -1423,7 +1514,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-15"
+          "lectureId": "lecture-15",
+          "explanation": "选D。内皮素有缩支气管作用，可使半径减小、阻力显著升高；儿茶酚胺经β₂和PGE₂通常有舒张作用，吸入氧含量增加不是此题收缩的主要机制。",
+          "knowledgeConnections": [
+            "哮喘为可变气流受限，β₂激动剂和抗胆碱药可从不同受体途径改善气道张力。"
+          ]
         }
       ]
     },
@@ -1485,7 +1580,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "选D。Hb具有协同变构，氧解离曲线呈S形：肺泡PO₂较高时处于平坦段，较大波动对饱和度影响较小；组织段较陡，PO₂稍降即可释放较多O₂，对组织供氧产生缓冲。",
+          "knowledgeConnections": [
+            "肺端平坦段保留摄氧安全余量，组织端陡段有利随代谢需要增加卸氧。"
+          ]
         }
       ]
     },
@@ -1546,7 +1645,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-16"
+          "lectureId": "lecture-16",
+          "explanation": "选C。储血红细胞2,3-BPG逐渐下降，使Hb对O₂亲和力增加、曲线左移；贫血及组织代谢增加常使2,3-BPG或CO₂/H⁺增多而右移。A把左移时同PO₂下结合增加写反。",
+          "knowledgeConnections": [
+            "保存较久血液的供氧效果不能只看Hb浓度，还涉及2,3-BPG恢复及组织卸氧。"
+          ]
         }
       ]
     },
@@ -1607,7 +1710,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-17"
+          "lectureId": "lecture-17",
+          "explanation": "选A。题设为长期高CO₂潴留的COPD，呼吸中枢对CO₂刺激的敏感性下降，低O₂对外周化学感受器的刺激成为维持通气的重要因素；吸入纯氧骤然消除这一刺激，可使通气明显降低。B/C/D均不对应被氧气直接消除的低氧刺激。",
+          "knowledgeConnections": [
+            "临床是否需控制氧疗取决于血气和高碳酸风险，不能以这道机制题替代个体氧疗判断。"
+          ]
         }
       ]
     },
@@ -1668,7 +1775,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-18"
+          "lectureId": "lecture-18",
+          "explanation": "选A。慢波由Cajal间质细胞产生，部位不同频率和波形不同，故“与平滑肌种类无关”错误；慢波可不引起收缩，叠加达到阈值的动作电位才明显增强Ca²⁺进入和收缩。",
+          "knowledgeConnections": [
+            "胃慢波较慢、小肠较快，慢波限定收缩节律，尖峰频率主要影响强度。"
+          ]
         }
       ]
     },
@@ -1729,7 +1840,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-19"
+          "lectureId": "lecture-19",
+          "explanation": "选C。睡眠时唾液分泌通常减少，不是因中枢兴奋而增加；条件及非条件反射均可促分泌，阿托品阻M受体减少分泌，交感NE可促进较黏稠唾液。",
+          "knowledgeConnections": [
+            "夜间唾液减少降低口腔冲洗保护，口干也可见于抗胆碱药或腺体疾病。"
+          ]
         }
       ]
     },
@@ -1790,7 +1905,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-20"
+          "lectureId": "lecture-20",
+          "explanation": "选D。胃体黏膜萎缩、壁细胞减少使胃酸分泌下降，胃酸对G细胞的负反馈减弱，血胃泌素升高；无需以迷走兴奋或肠-胃反射减弱解释。若题干另明确为胃窦G细胞广泛萎缩，则要按分泌细胞减少另作判断。",
+          "knowledgeConnections": [
+            "自身免疫性胃体炎还可缺内因子，形成B12缺乏和巨幼细胞贫血。"
+          ]
         }
       ]
     },
@@ -1852,7 +1971,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-21"
+          "lectureId": "lecture-21",
+          "explanation": "选A。酸性食糜进入十二指肠，H⁺强烈刺激S细胞释放促胰液素，主要促进胰管HCO₃⁻和水分泌以中和酸；脂肪酸、蛋白分解产物也可刺激但不如盐酸。",
+          "knowledgeConnections": [
+            "CCK更突出响应脂肪和蛋白分解产物并促胰酶、胆囊收缩，二者协同。"
+          ]
         }
       ]
     },
@@ -1913,7 +2036,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-21"
+          "lectureId": "lecture-21",
+          "explanation": "选C。讲义将CCK列为促进胆汁分泌的因素之一，但其最突出作用仍是胆囊收缩和Oddi括约肌舒张。A把腺泡泌酶写成导管泌酶，B/D也不符合其作用；导管HCO₃⁻/水分泌更典型由促胰液素促进。",
+          "knowledgeConnections": [
+            "胆汁生成与胆囊排空必须分开：胆盐、促胰液素偏利胆，CCK偏排胆。"
+          ]
         }
       ]
     },
@@ -1974,7 +2101,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-22"
+          "lectureId": "lecture-22",
+          "explanation": "选B。脂溶性维生素随脂类经胆盐微胶粒帮助吸收，并非普遍依赖Na⁺同向转运体；多数维生素在小肠吸收，B12需先经胃内R蛋白结合、再转内因子并在回肠吸收。",
+          "knowledgeConnections": [
+            "胃萎缩或切除缺内因子、胆汁不足缺脂溶性维生素，两类吸收障碍机制不同。"
+          ]
         }
       ]
     },
@@ -2035,7 +2166,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-22"
+          "lectureId": "lecture-22",
+          "explanation": "选D。长链脂肪酸在肠细胞内再酯化为TAG，与载脂蛋白等装配成乳糜微粒，经出胞进入乳糜管；微胶粒是肠腔运送形式，不是进入淋巴的脂蛋白。",
+          "knowledgeConnections": [
+            "短中链脂肪酸较可直接经门静脉转运，长链脂肪主要先走淋巴再入血。"
+          ]
         }
       ]
     },
@@ -2096,7 +2231,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-23"
+          "lectureId": "lecture-23",
+          "explanation": "选C。以食物混合氧热价约20.2kJ/L计：实测BMR=16.3×20.2÷1.5≈219.5kJ/(m²·h)，与146.3比较，(219.5－146.3)/146.3≈+50%。不能漏除体表面积或把1小时再除60。",
+          "knowledgeConnections": [
+            "氧热价随底物/RQ改变，BMR比较须在基础状态并按同年龄性别标准校正。"
+          ]
         }
       ]
     },
@@ -2157,7 +2296,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-23"
+          "lectureId": "lecture-23",
+          "explanation": "选C。冷习服使非战栗产热和基础代谢增强，钠泵等耗能过程活跃；皮肤血流多减少以保温，并非增加。A/B都把产热适应方向写反。",
+          "knowledgeConnections": [
+            "热习服侧重更早出汗、节盐和皮肤散热，冷习服侧重产热与保温。"
+          ]
         }
       ]
     },
@@ -2218,7 +2361,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-25"
+          "lectureId": "lecture-25",
+          "explanation": "选D。滤液带走水和小溶质，血浆蛋白留在毛细血管内，沿程逐渐浓缩，胶体渗透压上升，使有效滤过压下降到零；因此按题设滤过主要发生在入球端，而非囊内压或晶体渗透压逐渐升高。",
+          "knowledgeConnections": [
+            "肾血浆流量增加时蛋白浓缩变慢，滤过平衡点后移，可使GFR增加。"
+          ]
         }
       ]
     },
@@ -2279,7 +2426,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-25"
+          "lectureId": "lecture-25",
+          "explanation": "选C。屏障异常使更多蛋白进入肾小囊，提高囊内胶体渗透压；这本身是促进滤过的一项力量，不会直接使毛细血管压升高，也不等于致密斑反馈消失。",
+          "knowledgeConnections": [
+            "正常囊内蛋白很少，公式常把囊内胶体渗透压近似忽略",
+            "蛋白尿时该近似条件改变。"
+          ]
         }
       ]
     },
@@ -2340,7 +2492,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-26"
+          "lectureId": "lecture-26",
+          "explanation": "选D。按讲义酸中毒模型，肾小管H⁺分泌增强而K⁺分泌减少，可伴高钾；因此D把二者均写成增加错误。阿米洛利阻ENaC，使管腔负电位减小而减少K⁺分泌，C为保钾机制。",
+          "knowledgeConnections": [
+            "酸碱失衡对钾有细胞分布及肾排泄两层影响，高钾不代表全身钾储量一定增加。"
+          ]
         }
       ]
     },
@@ -2401,7 +2557,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-26"
+          "lectureId": "lecture-26",
+          "explanation": "选C。呋塞米抑NKCC2，破坏外髓盐梯度并间接影响内髓尿素富集；集合管尿素通透性主要由ADH调控，呋塞米不直接关闭尿素转运通道。梯度下降可减少尿素净重吸收，但不等于通透性下降。",
+          "knowledgeConnections": [
+            "利尿剂改变髓质环境与ADH改变上皮通透性，是浓缩功能的两个独立必要环节。"
+          ]
         }
       ]
     },
@@ -2462,7 +2622,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-26"
+          "lectureId": "lecture-26",
+          "explanation": "选D。压力感受器刺激增强提示动脉充盈较足，经中枢抑制ADH；呕吐腹泻、回流减少代表容量丢失，常促ADH，吗啡也可促释放。",
+          "knowledgeConnections": [
+            "低容量刺激可压过低渗对ADH的抑制，故严重脱水时ADH不只取决于血浆渗透压。"
+          ]
         }
       ]
     },
@@ -2523,7 +2687,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-24"
+          "lectureId": "lecture-24",
+          "explanation": "选C。尿流量60/60=1ml/min，PAH清除率=12.6×1/0.02=630ml/min，近似有效肾血浆流量；肾血流量=630/(1－0.45)≈1145ml/min。A遗漏了血细胞比容校正。",
+          "knowledgeConnections": [
+            "GFR与肾血浆流量之比才是滤过分数，不能把PAH清除率直接当肾血流量。"
+          ]
         }
       ]
     },
@@ -2584,7 +2752,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-27"
+          "lectureId": "lecture-27",
+          "explanation": "选D。两眼右半视野缺失为右侧同向偏盲，定位左侧视交叉后通路；伴黄斑回避更支持左枕叶视皮层。左视束虽也致右偏盲，却通常不以黄斑回避为典型。",
+          "knowledgeConnections": [
+            "视交叉病变常双颞偏盲；单侧视神经病变为单眼失明，先辨缺损是单眼还是双眼。"
+          ]
         }
       ]
     },
@@ -2645,7 +2817,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-28"
+          "lectureId": "lecture-28",
+          "explanation": "选A。声波引起的基底膜行波均从蜗底向蜗顶传播，只是高频峰在底、低频峰靠顶。毛细胞机械通道开放时高K⁺内淋巴使细胞去极化；B错在压力位移组合，D混淆以内毛细胞传入与外毛细胞放大为主的分工。",
+          "knowledgeConnections": [
+            "外毛细胞电运动增强基底膜振动和频率选择性，内毛细胞承担绝大多数听觉传入。"
+          ]
         }
       ]
     },
@@ -2706,7 +2882,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-29"
+          "lectureId": "lecture-29",
+          "explanation": "选B。开始向左旋转时，前庭-眼反射使眼球慢相向右以稳定视像，随后快相向左复位；眼震方向按快相命名，所以是左向眼震。",
+          "knowledgeConnections": [
+            "旋转停止后的后眼震方向相反，分析时先区分开始、匀速和停止三个阶段。"
+          ]
         }
       ]
     },
@@ -2767,7 +2947,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-29"
+          "lectureId": "lecture-29",
+          "explanation": "选A。麦斯纳小体是快适应触觉感受器，对刺激出现、消失及变化灵敏，适于探索触物；渗透压和血气感受器需持续报告内环境，更偏慢适应。",
+          "knowledgeConnections": [
+            "帕西尼小体也快适应；适应发生在感受器环节，不能等同中枢学习中的习惯化。"
+          ]
         }
       ]
     },
@@ -2828,7 +3012,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-29"
+          "lectureId": "lecture-29",
+          "explanation": "选C。痛温觉经脊髓丘脑束传导，该束腰骶纤维位于较外侧，髓外压迫可先累及；薄束、楔束传精细触觉和本体觉，锥体束属运动通路。",
+          "knowledgeConnections": [
+            "髓内病变可先伤中央交叉痛温纤维，表现节段性分离性感觉障碍，受累顺序不同。"
+          ]
         }
       ]
     },
@@ -2889,7 +3077,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-31"
+          "lectureId": "lecture-31",
+          "explanation": "选D。新斯的明抑制ACh酯酶，使已释放ACh清除减慢，持续激动受体，过量可出现胆碱能毒性；肉毒毒素减少释放，α银环蛇毒阻受体，破伤风阻抑制性递质释放。",
+          "knowledgeConnections": [
+            "有机磷同样作用于ACh酯酶但结合更持久，治疗需区分M样与N样表现。"
+          ]
         }
       ]
     },
@@ -2950,7 +3142,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-31"
+          "lectureId": "lecture-31",
+          "explanation": "选B。破伤风毒素抑制脊髓抑制性中间神经元释放甘氨酸/GABA，使对α运动神经元的回返抑制减弱，出现痉挛；不是把肌肉N_M受体直接激活。",
+          "knowledgeConnections": [
+            "闰绍细胞参与回返抑制，士的宁则从甘氨酸受体阻断这一抑制通路。"
+          ]
         }
       ]
     },
@@ -3011,7 +3207,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-32"
+          "lectureId": "lecture-32",
+          "explanation": "选C。汗腺效应器为M受体，阿托品可抑制严重出汗；它可使心率加快、尿潴留及眼压风险增加，不适用于题列快速心律失常、前列腺肥大和闭角型青光眼。",
+          "knowledgeConnections": [
+            "交感支配的汗腺使用ACh-M受体，说明药物作用按受体而非简单按交感/副交感命名判断。"
+          ]
         }
       ]
     },
@@ -3072,7 +3272,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-33"
+          "lectureId": "lecture-33",
+          "explanation": "选C。过强张力激活伸肌腱器官，经Ib传入和抑制性中间神经元抑制同名肌α运动神经元，产生反牵张反射、张力骤降；肌梭牵张反射则促进同名肌收缩。",
+          "knowledgeConnections": [
+            "肌梭与肌纤维并联感受长度，腱器官与肌纤维串联感受张力。"
+          ]
         }
       ]
     },
@@ -3133,7 +3337,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-34"
+          "lectureId": "lecture-34",
+          "explanation": "选A。传统下丘脑功能分区中，外侧区参与摄食和动机，破坏可致拒食、消瘦；腹内侧区受损更易出现过食。不能把外侧区损毁与电刺激效应对调。",
+          "knowledgeConnections": [
+            "现代摄食还涉及弓状核NPY/AgRP与POMC神经元，以及瘦素、胰岛素等体液信号。"
+          ]
         }
       ]
     },
@@ -3194,7 +3402,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-34"
+          "lectureId": "lecture-34",
+          "explanation": "选D。成人清醒、安静闭目时α节律在枕叶最明显，睁眼或积极思考后可阻断、转为较快活动；额顶区更常突出β活动。",
+          "knowledgeConnections": [
+            "α阻断反映皮层活动状态变化，不能据低幅快波简单判断一定是清醒，因为REM也可出现。"
+          ]
         }
       ]
     },
@@ -3255,7 +3467,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-35"
+          "lectureId": "lecture-35",
+          "explanation": "选A。降钙素为甲状腺C细胞分泌的肽类激素；甲状腺激素和褪黑素属氨基酸衍生物，前列腺素为花生四烯酸衍生物。",
+          "knowledgeConnections": [
+            "同在甲状腺产生不等于化学类别相同：滤泡TH与C细胞降钙素受体和作用均不同。"
+          ]
         }
       ]
     },
@@ -3316,7 +3532,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-36"
+          "lectureId": "lecture-36",
+          "explanation": "选C。PTH促进肾近端小管1α羟化形成钙三醇；最终活化主要在肾而不是肝，钙三醇通过增加小肠钙吸收升血钙。缺乏活化维D时PTH动员骨钙的完整效应也受限。",
+          "knowledgeConnections": [
+            "肾衰钙三醇生成不足和磷潴留可继发PTH升高，联系肾性矿物骨代谢异常。"
+          ]
         }
       ]
     },
@@ -3378,7 +3598,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-37"
+          "lectureId": "lecture-37",
+          "explanation": "选C。急性低血糖是强烈促GH刺激，帮助动员脂肪、减少外周葡萄糖利用；GH较明显的睡眠相关高峰在慢波睡眠而非REM，IGF-1则对GH负反馈。",
+          "knowledgeConnections": [
+            "胰岛素诱导低血糖可用于特定垂体储备评估，不能把胰岛素降血糖效应误当GH自身作用。"
+          ]
         }
       ]
     },
@@ -3439,7 +3663,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-38"
+          "lectureId": "lecture-38",
+          "explanation": "选B。GH促进蛋白合成和IGF-1相关生长，但需要胰岛素提供合成代谢及营养支持，二者可协同促生长；胰高血糖素偏动员底物，不能替代这一协同。",
+          "knowledgeConnections": [
+            "GH在糖代谢上拮抗胰岛素，在蛋白和生长上却可协同，作用需按代谢类型区分。"
+          ]
         }
       ]
     },
@@ -3500,7 +3728,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-38"
+          "lectureId": "lecture-38",
+          "explanation": "选A。促胰液素抑制胰高血糖素；氨基酸增加、交感兴奋和饥饿通常促进释放，为肝糖输出提供信号。不能将所有肠源激素都记成促α细胞分泌。",
+          "knowledgeConnections": [
+            "蛋白餐同时升胰岛素和胰高血糖素，避免氨基酸摄取时血糖过度下降。"
+          ]
         }
       ]
     },
@@ -3561,7 +3793,12 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-39"
+          "lectureId": "lecture-39",
+          "explanation": "选A。TH加快胆固醇转化、清除和胆汁酸代谢，血胆固醇常降低；糖生成和吸收增强可升血糖，蛋白和骨转换增加可影响氨基酸及钙，均不是最典型降低项。",
+          "knowledgeConnections": [
+            "甲减常见胆固醇升高，与甲亢方向相反",
+            "甲亢消瘦不等于所有血中营养底物都降低。"
+          ]
         }
       ]
     },
@@ -3622,7 +3859,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-40"
+          "lectureId": "lecture-40",
+          "explanation": "选C。GC抗炎、抗免疫，可用于淋巴细胞性白血病和支气管哮喘；促进胎肺表面活性物质生成，联系新生儿呼吸窘迫。GC增加胃酸和胃蛋白酶，可能诱发或加重溃疡，因此不能把应激性溃疡列为其治疗作用。",
+          "knowledgeConnections": [
+            "胎肺成熟涉及Ⅱ型细胞和表面活性物质，消化性溃疡防治则重在抑酸及危险因素处理。"
+          ]
         }
       ]
     },
@@ -3683,7 +3924,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-41"
+          "lectureId": "lecture-41",
+          "explanation": "选A。雄激素有一定保钠保水作用，不是排钠排水；它促进蛋白合成和骨成熟，可经芳香化后的雌激素促进骨骺闭合，并可使血脂谱偏不利。",
+          "knowledgeConnections": [
+            "青春期生长加速与最终骨骺闭合可同时由性激素推动，不能只把雄激素记成延长生长。"
+          ]
         }
       ]
     },
@@ -3745,7 +3990,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-41"
+          "lectureId": "lecture-41",
+          "explanation": "选C。孕激素主要促乳腺腺泡/小叶发育，乳腺导管发育主要由雌激素促进；孕激素还促分泌期内膜、输卵管分泌及妊娠免疫耐受，并可升高基础体温。",
+          "knowledgeConnections": [
+            "产后雌孕激素骤降解除对泌乳的抑制，催乳素才得以明显促进乳汁生成。"
+          ]
         }
       ]
     },
@@ -3806,7 +4055,11 @@
           ],
           "answerMode": "单选",
           "answerState": "按提供的答案图录入",
-          "lectureId": "lecture-41"
+          "lectureId": "lecture-41",
+          "explanation": "选B。hPL名为胎盘催乳素，但主要有GH样代谢作用，促进母体脂解、减少葡萄糖利用供胎儿，并非具有明显实际催乳效应；hCG类LH、孕酮维持子宫安静，尿雌三醇可反映胎儿-胎盘单位功能。",
+          "knowledgeConnections": [
+            "妊娠时高雌孕激素抑制大量泌乳，胎盘激素升高与产后真正乳汁分泌要区分。"
+          ]
         }
       ]
     }
