@@ -147,7 +147,7 @@ const CONTENT_LOADERS = {
     })
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent, biochemistryExamContent] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
       loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
@@ -169,6 +169,7 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/biochemistry-lecture19-data.json')),
       loadJson(() => import('./data/biochemistry-lecture20-data.json')),
       loadJson(() => import('./data/biochemistry-teacher-supplement.json')),
+      loadJson(() => import('./data/biochemistry-stage-exam-data.json')),
     ])
     const allContents = [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content]
     const groups = allContents.flatMap((content) => content.groups).map((group) => ({
@@ -183,13 +184,16 @@ const CONTENT_LOADERS = {
         lectureCount: 20,
         groupCount: groups.length,
         stemCount: groups.reduce((sum, group) => sum + group.stems.length, 0),
-        answerNote: '已收录第01～20讲题组及分章课后巩固；课后巩固答案按所提供文档文末答案表录入。',
+        answerNote: '已收录第01～20讲题组、分章课后巩固及阶段考试；阶段考试原卷未附答案，暂不自动判分。',
       },
       topics: ['糖代谢', '生物氧化', '脂代谢', '氨基酸与蛋白质', '核苷酸代谢', '胆色素代谢与生物转化', '酶', '维生素', '小基因', '核酸'],
       groups,
       pages: allContents.flatMap((content) => content.pages),
       lectures: allContents.flatMap((content) => content.lectures),
-    }, biochemistryTeacherContent)
+    }, {
+      groups: [...biochemistryTeacherContent.groups, ...biochemistryExamContent.groups],
+      pages: [...biochemistryTeacherContent.pages, ...biochemistryExamContent.pages],
+    })
   },
 }
 

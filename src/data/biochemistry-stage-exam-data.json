@@ -1,0 +1,1520 @@
+{
+  "meta": {
+    "title": "生物化学·阶段考试",
+    "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+    "sourcePages": 5,
+    "sourceSha256": "0a7694d979d3710b16cd409abcfa4e1e371322876117fcc15acafb85ea4fb802",
+    "groupCount": 25,
+    "stemCount": 25,
+    "multipleChoiceCount": 9,
+    "missingAnswerQuestions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "answerNote": "所提供PDF只有题目，无参考答案；保留原卷单/多选题型，全部暂不判分，不推测标准答案。"
+  },
+  "groups": [
+    {
+      "id": "biochemistry-stage-exam-2026-10-q001",
+      "page": 1,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "1",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第1题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "B、C、A、D"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "B、A、D、C"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "C、D、B、A"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "C、D、A、B"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "sourceQuestion": 1,
+          "sourcePage": 1,
+          "text": "现有 A、B、C、D 四种蛋白质混合物，其 pI 分别为 6.01、2.77、9.64、7.80，在接近生理 pH 条件的电场中进行电泳分离，自正极开始电泳区带的顺序为",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-08"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q002",
+      "page": 1,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "2",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第2题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "糖代谢",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "磷酸化酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "葡糖-6-磷酸脱氢酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脱支酶"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "葡糖-6-磷酸酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 2,
+          "sourceQuestion": 2,
+          "sourcePage": 1,
+          "text": "肌糖原不能直接补充血糖的原因是缺乏",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q003",
+      "page": 1,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "3",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第3题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "糖代谢",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "糖异生增强时"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "核酸合成增强时"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脂肪合成增强时"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "尿素合成增强时"
+        }
+      ],
+      "stems": [
+        {
+          "number": 3,
+          "sourceQuestion": 3,
+          "sourcePage": 1,
+          "text": "磷酸戊糖途径增强可见于",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q004",
+      "page": 1,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "4",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第4题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "糖代谢",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "糖异生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肌糖原酵解"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肝糖原合成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "磷酸戊糖途径"
+        }
+      ],
+      "stems": [
+        {
+          "number": 4,
+          "sourceQuestion": 4,
+          "sourcePage": 1,
+          "text": "乳酸循环可经过的代谢途径有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q005",
+      "page": 1,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "5",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "title": "阶段考试 · 第5题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "生物素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "辅酶 A"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "TPP"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "ACP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 5,
+          "sourceQuestion": 5,
+          "sourcePage": 1,
+          "text": "合成软脂酸时脂酰基的载体是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-06"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q006",
+      "page": 2,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "6",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第6题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肝"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脑"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾"
+        }
+      ],
+      "stems": [
+        {
+          "number": 6,
+          "sourceQuestion": 6,
+          "sourcePage": 2,
+          "text": "成人主要消耗脂肪酸、而不是葡萄糖的器官组织有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-06"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q007",
+      "page": 2,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "7",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第7题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生物氧化",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "NAD+"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "FMN"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "CoQ"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Cytc"
+        }
+      ],
+      "stems": [
+        {
+          "number": 7,
+          "sourceQuestion": 7,
+          "sourcePage": 2,
+          "text": "在离体线粒体中加入底物、ADP、Pi，测得 P/O 比值为 1.4，推测该底物脱下的还原当量进入呼吸链最可能的部位在",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-02"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q008",
+      "page": 2,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "8",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第8题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "鸟氨酸脱氨酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "鸟氨酸脱羧酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "精氨酸脱氨酶"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "精氨酸脱羧酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 8,
+          "sourceQuestion": 8,
+          "sourcePage": 2,
+          "text": "多胺合成的关键酶是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-07"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q009",
+      "page": 2,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "9",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第9题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "蛋氨酸"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "赖氨酸"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "苏氨酸"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "苯丙氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 9,
+          "sourceQuestion": 9,
+          "sourcePage": 2,
+          "text": "下列氨基酸的缺乏与脂肪肝发生最密切的是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-07"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q010",
+      "page": 2,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "10",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第10题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "催化的底物有细胞质中的谷氨酰胺"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "是细菌中嘧啶核苷酸合成的关键酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "主要受到 UMP 负反馈机制的调节"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "临床常用其反映细胞的分化程度"
+        }
+      ],
+      "stems": [
+        {
+          "number": 10,
+          "sourceQuestion": 10,
+          "sourcePage": 2,
+          "text": "以下关于氨基甲酰磷酸合成酶Ⅱ的叙述，正确的有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-09"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q011",
+      "page": 3,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "11",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第11题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "磺胺"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "水杨酸"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脂肪酸"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胆汁酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 11,
+          "sourceQuestion": 11,
+          "sourcePage": 3,
+          "text": "以下可与胆红素竞争白蛋白，从而加重其毒性的有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-10"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q012",
+      "page": 3,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "12",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第12题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "基本原料是甘氨酸、琥珀酰 CoA 和 Fe²⁺"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "合成的起始和终末阶段均在线粒体进行"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "维生素 B₆ 的缺乏将影响血红素的合成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "睾酮诱导血红素合成酶从而促进其生成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 12,
+          "sourceQuestion": 12,
+          "sourcePage": 3,
+          "text": "以下关于血红素合成的叙述，错误的是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-10"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q013",
+      "page": 3,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "13",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第13题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结构基因在基因组中所占比例较小"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "存在多基因家族和假基因"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "结构基因的转录不连续"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "产物为单顺反子 mRNA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 13,
+          "sourceQuestion": 13,
+          "sourcePage": 3,
+          "text": "下列关于真核生物基因组的描述，正确的有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q014",
+      "page": 3,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "14",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第14题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "SOS 修复系统"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "重组修复系统"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "错配修复系统"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "核苷酸切除修复系统"
+        }
+      ],
+      "stems": [
+        {
+          "number": 14,
+          "sourceQuestion": 14,
+          "sourcePage": 3,
+          "text": "下列修复系统缺陷主要与遗传性乳腺癌有关的是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q015",
+      "page": 3,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "15",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第15题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "3＇末端加入 polyA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "TG 短序列的延长"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "DNA 甲基化修饰"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "重组修复"
+        }
+      ],
+      "stems": [
+        {
+          "number": 15,
+          "sourceQuestion": 15,
+          "sourcePage": 3,
+          "text": "能减少染色体 DNA 末端缩短的方式是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q016",
+      "page": 3,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "16",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "title": "阶段考试 · 第16题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "其 RNA 组分是合成 DNA 片段的模板"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "向 DNA 链的 5-端添加端粒"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "辨认及结合单链 DNA 中（TnGn）"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "协助线性染色体的合成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 16,
+          "sourceQuestion": 16,
+          "sourcePage": 3,
+          "text": "下列关于端粒酶的描述，错误的是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q017",
+      "page": 4,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "17",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第17题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "DNA 合成的起始阶段"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "RNA 合成的起始阶段"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "蛋白质合成的起始阶段"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "cDNA 合成的起始阶段"
+        }
+      ],
+      "stems": [
+        {
+          "number": 17,
+          "sourceQuestion": 17,
+          "sourcePage": 4,
+          "text": "“流产性起始现象”主要发生在",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q018",
+      "page": 4,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "18",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第18题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "由一条 mRNA 与多个核糖体构成"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "在同一时刻合成相同长度的多肽链"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "合成的多肽链结构完全相同"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "缩短了合成每一条肽链所用的时间"
+        }
+      ],
+      "stems": [
+        {
+          "number": 18,
+          "sourceQuestion": 18,
+          "sourcePage": 4,
+          "text": "以下关于多聚核糖体的叙述，正确的有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q019",
+      "page": 4,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "19",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第19题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "在转录后水平调节基因表达"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "双链结构，由 Dicer 切割产生"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "参与形成 RNA 诱导的沉默复合体"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "多数 miRNA 与靶 mRNA 碱基不完全互补"
+        }
+      ],
+      "stems": [
+        {
+          "number": 19,
+          "sourceQuestion": 19,
+          "sourcePage": 4,
+          "text": "与 siRNA 相比，miRNA 的显著特点是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-19"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q020",
+      "page": 4,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "20",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第20题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "反义 RNA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "microRNA"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "调节蛋白结合 mRNA"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "稀有密码子所占比例"
+        }
+      ],
+      "stems": [
+        {
+          "number": 20,
+          "sourceQuestion": 20,
+          "sourcePage": 4,
+          "text": "对原核生物表达调控没有影响的是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-19"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q021",
+      "page": 4,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "21",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第21题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "p21"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "BAX"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "PTEN"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "GADD45"
+        }
+      ],
+      "stems": [
+        {
+          "number": 21,
+          "sourceQuestion": 21,
+          "sourcePage": 4,
+          "text": "野生型 p53 蛋白有着“基因组卫士”之称，p53 的靶基因主要有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q022",
+      "page": 5,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "22",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第22题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "化学合成"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "基因芯片"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "cDNA 文库"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "PCR"
+        }
+      ],
+      "stems": [
+        {
+          "number": 22,
+          "sourceQuestion": 22,
+          "sourcePage": 5,
+          "text": "以下属于获取目的基因的方法有",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "多选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q023",
+      "page": 5,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "23",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第23题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "ATAATA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "CCCTGG"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "GATATC"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "GAGTCT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 23,
+          "sourceQuestion": 23,
+          "sourcePage": 5,
+          "text": "下列序列中可能被 Ⅱ类限制酶识别的是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q024",
+      "page": 5,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "24",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第24题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "6 个连续排列组氨酸（6× His-Tag）"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "谷胱甘肽 S-转移酶（GST-Tag）"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "转录终止/抗终止蛋白（NusA-Tag）"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "泛素样小分子修饰因子（SUMO-Tag）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 24,
+          "sourceQuestion": 24,
+          "sourcePage": 5,
+          "text": "标签蛋白沉淀是研究蛋白质相互作用的技术，目前最常用的标签是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q025",
+      "page": 5,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "sourceName": "【生化】阶段考试 天天师兄27考研 再相逢！.pdf",
+      "sourceSection": "生物化学",
+      "sourceQuestion": "25",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第25题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "原卷未附答案，暂不自动判分",
+      "answerSourceLabel": "阶段考试答案",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "dNTP 底物促进 DNA 合成"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "dNTP 底物终止 DNA 合成"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "ddNTP 底物促进 DNA 合成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "ddNTP 底物终止 DNA 合成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 25,
+          "sourceQuestion": 25,
+          "sourcePage": 5,
+          "text": "桑格-库森 DNA 测序技术的基本原理是",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "单选",
+          "answerState": "暂无参考答案",
+          "lectureId": "lecture-14"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "image": "biochemistry/biochemistry-stage-exam-2026-10/page-01.webp"
+    },
+    {
+      "page": 2,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "image": "biochemistry/biochemistry-stage-exam-2026-10/page-02.webp"
+    },
+    {
+      "page": 3,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "image": "biochemistry/biochemistry-stage-exam-2026-10/page-03.webp"
+    },
+    {
+      "page": 4,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "image": "biochemistry/biochemistry-stage-exam-2026-10/page-04.webp"
+    },
+    {
+      "page": 5,
+      "sourceKey": "biochemistry-stage-exam-2026-10",
+      "image": "biochemistry/biochemistry-stage-exam-2026-10/page-05.webp"
+    }
+  ]
+}

@@ -12,10 +12,11 @@ def banks():
     paths = [ROOT / 'src/data/biochemistry-data.json']
     paths += [ROOT / f'src/data/biochemistry-lecture{i}-data.json' for i in range(2, 21)]
     paths += [ROOT / 'src/data/biochemistry-teacher-supplement.json']
+    paths += [ROOT / 'src/data/biochemistry-stage-exam-data.json']
     return [(p, json.loads(p.read_text())) for p in paths]
 
 def audit():
-    issues, chapter_counts, group_ids = [], [], set()
+    issues, chapter_counts, group_ids, ungraded = [], [], set(), 0
     for path, bank in banks():
         groups = bank['groups']
         chapter_counts.append({'file': path.name, 'groups': len(groups), 'questions': sum(len(g['stems']) for g in groups)})
@@ -46,6 +47,11 @@ def audit():
                     issue('duplicate_stem_text', stem['text'], n)
                 stem_texts.add(identity)
                 answer = stem.get('answer', [])
+                if stem.get('answerState') == '暂无参考答案':
+                    ungraded += 1
+                    if answer or stem.get('answerRaw') or mode not in {'单选', '多选'}:
+                        issue('invalid_ungraded_question', stem, n)
+                    continue
                 if mode == '填空':
                     if 'answerDisplay' in stem and stem['answerDisplay'] != '；'.join(answer):
                         issue('stale_fill_answer_display', stem['answerDisplay'], n)
@@ -74,7 +80,7 @@ def audit():
         for key, actual in [('groupCount', len(groups)), ('stemCount', sum(len(g['stems']) for g in groups))]:
             if key in bank.get('meta', {}) and bank['meta'][key] != actual:
                 issues.append({'file': path.name, 'kind': 'stale_count', 'field': key, 'actual': actual, 'stored': bank['meta'][key]})
-    return {'chapters': chapter_counts, 'groups': len(group_ids), 'questions': sum(c['questions'] for c in chapter_counts), 'issues': issues}
+    return {'chapters': chapter_counts, 'groups': len(group_ids), 'questions': sum(c['questions'] for c in chapter_counts), 'ungradedQuestions': ungraded, 'issues': issues}
 
 def dump(start, end):
     for chapter, (path, bank) in enumerate(banks(), 1):
