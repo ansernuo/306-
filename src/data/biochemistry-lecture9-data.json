@@ -913,150 +913,171 @@
       "options": [
         {
           "key": "A",
-          "label": "次黄嘌呤"
-        },
-        {
-          "key": "B",
-          "label": "APRT"
-        },
-        {
-          "key": "C",
-          "label": "合成嘌呤和嘧啶核苷酸"
-        },
-        {
-          "key": "D",
-          "label": "CPS-Ⅱ"
-        },
-        {
-          "key": "E",
-          "label": "DNA聚合酶"
-        },
-        {
-          "key": "F",
-          "label": "DNA链延长/复制"
-        },
-        {
-          "key": "G",
-          "label": "黄嘌呤氧化酶"
-        },
-        {
-          "key": "H",
-          "label": "分解嘌呤核苷酸"
-        },
-        {
-          "key": "I",
-          "label": "FH₂ 还原酶"
-        },
-        {
-          "key": "J",
-          "label": "尿嘧啶"
-        },
-        {
-          "key": "K",
-          "label": "PRPP 酰胺转移酶"
-        },
-        {
-          "key": "L",
-          "label": "胞苷"
-        },
-        {
-          "key": "M",
-          "label": "合成嘌呤核苷酸"
-        },
-        {
-          "key": "N",
-          "label": "叶酸"
-        },
-        {
-          "key": "O",
-          "label": "合成 dTMP（dUMP → dTMP）"
-        },
-        {
-          "key": "P",
+          "category": "结构类似物",
           "label": "谷氨酰胺"
         },
         {
-          "key": "Q",
-          "label": "合成嘌呤核苷酸的酶"
+          "key": "B",
+          "category": "结构类似物",
+          "label": "尿嘧啶"
         },
         {
-          "key": "R",
+          "key": "C",
+          "category": "结构类似物",
+          "label": "叶酸"
+        },
+        {
+          "key": "D",
+          "category": "结构类似物",
+          "label": "次黄嘌呤"
+        },
+        {
+          "key": "E",
+          "category": "结构类似物",
+          "label": "胞苷"
+        },
+        {
+          "key": "F",
+          "category": "作用酶",
           "label": "胸苷酸合酶"
         },
         {
-          "key": "S",
-          "label": "HGPRT"
+          "key": "G",
+          "category": "作用酶",
+          "label": "DNA聚合酶"
+        },
+        {
+          "key": "H",
+          "category": "作用酶",
+          "label": "CPS-Ⅱ"
+        },
+        {
+          "key": "I",
+          "category": "作用酶",
+          "label": "HGPRT（代谢活化酶）"
+        },
+        {
+          "key": "J",
+          "category": "作用酶",
+          "label": "PRPP酰胺转移酶"
+        },
+        {
+          "key": "K",
+          "category": "作用酶",
+          "label": "二氢叶酸还原酶（DHFR）"
+        },
+        {
+          "key": "L",
+          "category": "作用酶",
+          "label": "黄嘌呤氧化酶"
+        },
+        {
+          "key": "M",
+          "category": "作用酶",
+          "label": "APRT"
+        },
+        {
+          "key": "N",
+          "category": "抑制过程",
+          "label": "嘌呤核苷酸从头合成"
+        },
+        {
+          "key": "O",
+          "category": "抑制过程",
+          "label": "嘌呤分解生成尿酸"
+        },
+        {
+          "key": "P",
+          "category": "抑制过程",
+          "label": "DNA链延长"
+        },
+        {
+          "key": "Q",
+          "category": "抑制过程",
+          "label": "dTMP合成（dUMP → dTMP）"
+        },
+        {
+          "key": "R",
+          "category": "抑制过程",
+          "label": "嘧啶核苷酸从头合成"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "6-巯基嘌呤：结构类似物、代谢活化酶、活性代谢物的靶酶及主要抑制过程",
-          "answerRaw": "A、S、K、M",
+          "text": "6-巯基嘌呤（6-MP；酶项含活化酶和主要靶酶）",
+          "answerRaw": "D、I、J、N",
           "answer": [
-            "A",
-            "S",
-            "K",
-            "M"
+            "D",
+            "I",
+            "J",
+            "N"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "6-MP类似次黄嘌呤，经HGPRT活化为硫代IMP；其代谢物抑制PRPP酰胺转移酶等，使嘌呤核苷酸从头合成减少。HGPRT是活化酶，不是这里的抑制靶酶。"
         },
         {
           "number": 2,
-          "text": "别嘌呤醇降尿酸的主要作用：结构类似物、直接靶酶及受抑制过程",
-          "answerRaw": "A、G、H",
+          "text": "别嘌呤醇（降尿酸的主要作用）",
+          "answerRaw": "D、L、O",
           "answer": [
-            "A",
-            "G",
-            "H"
+            "D",
+            "L",
+            "O"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "别嘌呤醇类似次黄嘌呤，通过抑制黄嘌呤氧化酶，减少嘌呤分解产生尿酸。"
         },
         {
           "number": 3,
-          "text": "阿糖胞苷：结构类似物、活性三磷酸代谢物的主要靶酶及抑制过程",
-          "answerRaw": "L、E、F",
+          "text": "阿糖胞苷（Ara-C；活性三磷酸代谢物的主要作用）",
+          "answerRaw": "E、G、P",
           "answer": [
-            "L",
             "E",
-            "F"
+            "G",
+            "P"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "阿糖胞苷类似胞苷，转化为Ara-CTP后主要抑制DNA聚合酶，并干扰DNA链延长。"
         },
         {
           "number": 4,
-          "text": "5-氟尿嘧啶（5-FU）：①类似物 ②竞争 / 作用酶 ③抑制过程",
-          "answerRaw": "J、O、R",
+          "text": "5-氟尿嘧啶（5-FU；抑制dTMP合成的作用）",
+          "answerRaw": "B、F、Q",
           "answer": [
-            "J",
-            "O",
-            "R"
+            "B",
+            "F",
+            "Q"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "5-FU是尿嘧啶类似物，转化为FdUMP后抑制胸苷酸合酶，阻断dUMP转变为dTMP。"
         },
         {
           "number": 5,
-          "text": "甲氨蝶呤（MTX）：①类似物 ②竞争 / 作用酶 ③抑制过程",
-          "answerRaw": "N、O、I、M",
+          "text": "甲氨蝶呤（MTX）",
+          "answerRaw": "C、K、N、Q",
           "answer": [
+            "C",
+            "K",
             "N",
-            "O",
-            "I",
-            "M"
+            "Q"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "MTX类似叶酸，抑制二氢叶酸还原酶，使四氢叶酸再生受阻，进而抑制依赖一碳单位的嘌呤核苷酸及dTMP合成。嘧啶环的从头合成不依赖一碳单位。"
         },
         {
           "number": 6,
-          "text": "氮杂丝氨酸：①类似物 ②竞争 / 作用酶 ③抑制过程",
-          "answerRaw": "P、K、D、C",
+          "text": "氮杂丝氨酸（从所列选项中选择）",
+          "answerRaw": "A、H、J、N、R",
           "answer": [
-            "P",
-            "K",
-            "D",
-            "C"
+            "A",
+            "H",
+            "J",
+            "N",
+            "R"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "氮杂丝氨酸是谷氨酰胺类似物，可抑制PRPP酰胺转移酶、CPS-Ⅱ等以谷氨酰胺为氮源的酶，抑制嘌呤、嘧啶核苷酸从头合成。"
         }
       ],
       "sourceText": "核苷酸抗代谢物：作用酶与抑制过程",
@@ -1067,19 +1088,25 @@
       "lectureIds": [
         "lecture-09"
       ],
-      "optionShuffleVersion": 1,
+      "optionShuffleVersion": 2,
       "lectureEvidence": {
         "lectureId": "lecture-09",
         "lectureNumber": 9,
         "lectureTitle": "生化 核苷酸代谢",
-        "page": 3,
-        "image": "biochemistry/lecture-pages/lecture-09-page-03.webp",
-        "title": "第 09 讲《生化 核苷酸代谢》· 第 3 页",
-        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
-        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+        "page": 6,
+        "pageLabel": "书内第65页 · 合集PDF第80页",
+        "image": "biochemistry/lecture-pages/lecture-09-page-06.webp",
+        "title": "核苷酸抗代谢物 · 书内第65页",
+        "description": "六种抗代谢物的类似物、作用酶与抑制过程。",
+        "sourcePdfPage": 80,
+        "sourceBookPage": 65,
+        "sourceName": "27生化跟课版合集【带导图】.pdf",
+        "method": "从用户提供的合集PDF第80页提取原页；题目区分代谢活化酶和抑制靶酶，5-FU类似物及阿糖胞苷主要靶点沿用已核对的机制。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-09-antimetabolites-20261017-v2",
+      "reviewedAt": "2026-10-17",
+      "stackedOptionCategories": true,
+      "answerLayout": "rows"
     }
   ],
   "lectures": [
