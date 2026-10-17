@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture10_11.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 10 讲《生化 胆色素代谢》范围内题目；选项已逐组打散，答案按讲义与思维导图复核。"
+    "answerNote": "仅收录第 10 讲《生化 胆色素代谢》范围内题目；选项已逐组打散，答案按讲义与思维导图复核。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -627,17 +629,17 @@
         },
         {
           "key": "P",
-          "label": "ALT、AST、PT 明显升高",
+          "label": "ALT、AST明显升高，PT可延长",
           "category": "ALT、AST、PT"
         },
         {
           "key": "Q",
-          "label": "ALT、AST、PT 可升高",
+          "label": "ALT、AST可升高，PT可延长",
           "category": "ALT、AST、PT"
         },
         {
           "key": "R",
-          "label": "ALT、AST、PT 多正常",
+          "label": "ALT、AST多正常，PT一般正常",
           "category": "ALT、AST、PT"
         },
         {
@@ -659,7 +661,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "溶血性黄疸",
+          "text": "溶血性黄疸（选择典型实验室表现）",
           "answerRaw": "B、F、I、J、O、R、S",
           "answer": [
             "B",
@@ -674,7 +676,7 @@
         },
         {
           "number": 2,
-          "text": "肝细胞性黄疸",
+          "text": "肝细胞性黄疸（选择典型实验室表现）",
           "answerRaw": "A、D、H、L、N、P、U",
           "answer": [
             "A",
@@ -689,7 +691,7 @@
         },
         {
           "number": 3,
-          "text": "梗阻性黄疸",
+          "text": "梗阻性黄疸（选择典型实验室表现）",
           "answerRaw": "C、E、G、K、M、Q、T",
           "answer": [
             "C",
@@ -723,7 +725,9 @@
         "title": "第 10 讲《生化 胆色素代谢》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-10-05",
@@ -746,7 +750,7 @@
         },
         {
           "key": "D",
-          "label": "肝细胞摄取＋排泄障碍"
+          "label": "肝细胞摄取/再摄取及贮存障碍（OATP1B1/OATP1B3缺陷）"
         },
         {
           "key": "E",
@@ -770,7 +774,7 @@
         },
         {
           "key": "J",
-          "label": "UCB↑、CB↑"
+          "label": "CB升高为主，UCB也可升高"
         },
         {
           "key": "K",
@@ -837,7 +841,9 @@
         "title": "第 10 讲《生化 胆色素代谢》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

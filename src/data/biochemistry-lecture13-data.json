@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture13.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 13 讲《维生素》范围内题目；每组选项均已打散，答案按讲义、真题与辅因子表复核。"
+    "answerNote": "仅收录第 13 讲《维生素》范围内题目；每组选项均已打散，答案按讲义、真题与辅因子表复核。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -81,7 +83,7 @@
         },
         {
           "key": "H",
-          "label": "代谢产物可与核受体结合"
+          "label": "部分分子形式或代谢产物可与核受体作用，参与基因表达调节"
         },
         {
           "key": "I",
@@ -162,7 +164,7 @@
         },
         {
           "number": 3,
-          "text": "可结合核受体调节基因表达的维生素 / 代谢产物",
+          "text": "按本讲义归类，可通过部分分子形式/代谢产物与核受体作用的脂溶性维生素类别",
           "answerRaw": "S、E、D、P",
           "answer": [
             "S",
@@ -174,7 +176,7 @@
         },
         {
           "number": 4,
-          "text": "脂溶性维生素的共同特点",
+          "text": "本讲义归纳的脂溶性维生素类别特点（不表示每一种分子形式的全部作用均相同）",
           "answerRaw": "H、O",
           "answer": [
             "H",
@@ -215,7 +217,9 @@
         "title": "第 13 讲《生化 维生素》· 思维导图",
         "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
         "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-13-02",
@@ -623,7 +627,7 @@
         {
           "number": 1,
           "text": "VitB₁：①衍生物 / 辅因子 ②参与",
-          "answerRaw": "F、H、O",
+          "answerRaw": "H、AJ、AN",
           "answer": [
             "F",
             "H",
@@ -634,7 +638,7 @@
         {
           "number": 2,
           "text": "VitB₂ / 核黄素：①衍生物 / 辅因子 ②参与",
-          "answerRaw": "X、AQ、M、P、Z、J、Q、K、R",
+          "answerRaw": "B、A、AF、AA、M、O、AD、L、N",
           "answer": [
             "X",
             "AQ",
@@ -651,7 +655,7 @@
         {
           "number": 3,
           "text": "VitB₃ / VitPP / 烟酸 / 烟酰胺：①衍生物 / 辅因子 ②参与",
-          "answerRaw": "S、AF、D、AL、AJ、AE、C",
+          "answerRaw": "J、K、V、Y、X、P、Z",
           "answer": [
             "S",
             "AF",
@@ -666,7 +670,7 @@
         {
           "number": 4,
           "text": "VitB₅ / 泛酸 / 遍多酸：①衍生物 / 辅因子 ②参与",
-          "answerRaw": "L、AR、AH",
+          "answerRaw": "D、I、AK",
           "answer": [
             "L",
             "AR",
@@ -677,7 +681,7 @@
         {
           "number": 5,
           "text": "含腺嘌呤的辅因子（按考试标准）",
-          "answerRaw": "AQ、S、AF、L",
+          "answerRaw": "A、J、K、D",
           "answer": [
             "AQ",
             "S",
@@ -689,7 +693,7 @@
         {
           "number": 6,
           "text": "VitB₆：①衍生物 / 辅因子 ②参与",
-          "answerRaw": "G、AO、V、B、W",
+          "answerRaw": "C、AB、Q、T、U",
           "answer": [
             "G",
             "AO",
@@ -702,7 +706,7 @@
         {
           "number": 7,
           "text": "VitB₇ / 生物素：①衍生物 / 辅因子 ②参与",
-          "answerRaw": "A、AD、AK",
+          "answerRaw": "F、W、S",
           "answer": [
             "A",
             "AD",
@@ -713,7 +717,7 @@
         {
           "number": 8,
           "text": "叶酸：①衍生物 / 辅因子 ②参与",
-          "answerRaw": "I、Y、T、AI",
+          "answerRaw": "E、AE、AG、AL",
           "answer": [
             "I",
             "Y",
@@ -725,7 +729,7 @@
         {
           "number": 9,
           "text": "VitB₁₂：①衍生物 / 本质 ②参与",
-          "answerRaw": "E、AA",
+          "answerRaw": "G、AO",
           "answer": [
             "E",
             "AA"
@@ -744,7 +748,7 @@
         {
           "number": 11,
           "text": "VitC：参与 / 缺乏后的关键链条",
-          "answerRaw": "AP、U、N、AG",
+          "answerRaw": "R、AM、AH、AI",
           "answer": [
             "AP",
             "U",
@@ -773,7 +777,9 @@
         "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
         "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
       },
-      "stackedOptionCategories": true
+      "stackedOptionCategories": true,
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-13-04",
@@ -840,7 +846,7 @@
         },
         {
           "key": "O",
-          "label": "表中未列缩写"
+          "label": "PLP（磷酸吡哆醛的缩写）"
         },
         {
           "key": "P",
@@ -964,9 +970,8 @@
         {
           "number": 8,
           "text": "生物素",
-          "answerRaw": "O、Q、H",
+          "answerRaw": "Q、H",
           "answer": [
-            "O",
             "Q",
             "H"
           ],
@@ -986,9 +991,8 @@
         {
           "number": 10,
           "text": "甲基钴胺素",
-          "answerRaw": "O、E、N",
+          "answerRaw": "E、N",
           "answer": [
-            "O",
             "E",
             "N"
           ],
@@ -997,9 +1001,8 @@
         {
           "number": 11,
           "text": "5′-脱氧腺苷钴胺素",
-          "answerRaw": "O、K、N",
+          "answerRaw": "K、N",
           "answer": [
-            "O",
             "K",
             "N"
           ],
@@ -1024,7 +1027,9 @@
         "title": "第 13 讲《生化 维生素》· 思维导图",
         "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
         "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

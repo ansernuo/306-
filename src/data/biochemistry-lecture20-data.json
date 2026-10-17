@@ -5,12 +5,14 @@
     "sourcePages": 5,
     "lectureCount": 1,
     "groupCount": 7,
-    "stemCount": 30,
+    "stemCount": 31,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture20.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "完整收录 Word 的 7 组 30 个题干；题干、选项和答案均以 Word 为准，网页选项已重新打散，并逐组关联对应思维导图。"
+    "answerNote": "按讲义和提供的Word复核；2026-10-17修正歧义、错误机制及重复题，题目数量以当前题组为准。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -92,6 +94,10 @@
         {
           "key": "F",
           "label": "被转录，不被翻译"
+        },
+        {
+          "key": "G",
+          "label": "外显子被内含子隔开，初级转录产物通常需剪接"
         }
       ],
       "stems": [
@@ -106,7 +112,7 @@
         },
         {
           "number": 2,
-          "text": "编码序列／外显子",
+          "text": "蛋白质编码区（CDS；不把所有外显子都等同于编码区）",
           "answerRaw": "B",
           "answer": [
             "B"
@@ -115,7 +121,7 @@
         },
         {
           "number": 3,
-          "text": "非编码序列",
+          "text": "结构基因内可转录但不翻译的非编码部分（不是所有基因组非编码序列）",
           "answerRaw": "A、D、F",
           "answer": [
             "A",
@@ -126,11 +132,20 @@
         },
         {
           "number": 4,
-          "text": "结构基因不连续／断裂基因",
-          "answerRaw": "C",
+          "text": "结构基因不连续/断裂基因的直接结构特征",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "真核基因组中编码序列与非编码序列占比的一般特点",
           "answer": [
             "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
         }
       ],
@@ -154,7 +169,9 @@
         "title": "第 20 讲《生化 真核基因组与 DNA 损伤》· 思维导图第 277 页",
         "description": "真核基因组、断裂基因、重复序列、单顺反子及其他真核基因组特点。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-20-02",
@@ -288,11 +305,11 @@
         },
         {
           "key": "I",
-          "label": "每一个结构基因都有自顺式作用元件"
+          "label": "结构基因通常具有相应的顺式调控元件"
         },
         {
           "key": "J",
-          "label": "一个结构基因生成一条mRNA"
+          "label": "同一结构基因可经选择性剪接形成不同成熟mRNA"
         }
       ],
       "stems": [
@@ -343,10 +360,14 @@
         "title": "第 20 讲《生化 真核基因组与 DNA 损伤》· 思维导图第 277 页",
         "description": "真核基因组、断裂基因、重复序列、单顺反子及其他真核基因组特点。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-20-04",
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17",
       "page": 4,
       "title": "DNA损伤类型举例",
       "kind": "B",
@@ -408,7 +429,7 @@
         },
         {
           "number": 3,
-          "text": "碱基错配",
+          "text": "DNA中异常掺入尿嘧啶的例子（不把U与A配对本身等同于碱基错配）",
           "answerRaw": "B",
           "answer": [
             "B"
@@ -534,7 +555,7 @@
         },
         {
           "number": 4,
-          "text": "碱基插入或缺失",
+          "text": "编码区碱基插入或缺失可能产生的改变及相关密码子特性（需区分是否为3的倍数）",
           "answerRaw": "D、I、A",
           "answer": [
             "D",
@@ -564,7 +585,9 @@
         "title": "第 20 讲《生化 真核基因组与 DNA 损伤》· 思维导图第 278 页",
         "description": "DNA 损伤类型、碱基改变、直接修复、切除修复、重组修复及修复缺陷疾病。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-20-06",
@@ -583,7 +606,7 @@
         },
         {
           "key": "C",
-          "label": "特殊的碱基切除修复"
+          "label": "错配修复识别复制后碱基错配，切除含错配的一段新生链后重新合成；不是碱基切除修复的同义词"
         },
         {
           "key": "D",
@@ -627,7 +650,7 @@
         },
         {
           "key": "N",
-          "label": "AP核酸内切酶去除磷酸戊糖"
+          "label": "AP核酸内切酶切开无碱基位点附近DNA骨架，随后去除残余糖磷酸"
         },
         {
           "key": "O",
@@ -758,7 +781,9 @@
         "title": "第 20 讲《生化 真核基因组与 DNA 损伤》· 思维导图第 278 页",
         "description": "DNA 损伤类型、碱基改变、直接修复、切除修复、重组修复及修复缺陷疾病。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-20-07",
@@ -829,7 +854,7 @@
         },
         {
           "number": 4,
-          "text": "跨越损伤DNA合成修复",
+          "text": "DNA链间交联修复缺陷（Fanconi/BRCA通路）",
           "answerRaw": "F",
           "answer": [
             "F"
@@ -857,7 +882,9 @@
         "title": "第 20 讲《生化 真核基因组与 DNA 损伤》· 思维导图第 278 页",
         "description": "DNA 损伤类型、碱基改变、直接修复、切除修复、重组修复及修复缺陷疾病。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

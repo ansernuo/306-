@@ -5,12 +5,14 @@
     "sourcePages": 8,
     "lectureCount": 1,
     "groupCount": 9,
-    "stemCount": 81,
+    "stemCount": 79,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture18.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "完整收录 Word 原 10 组的 81 个题干；按要求合并原第 8、9 组后整理为 9 组，原第 10 组单独保留。题干、选项和答案均以 Word 原文为准，网页选项已重新打散。"
+    "answerNote": "按讲义和提供的Word复核；2026-10-17修正歧义、错误机制及重复题，题目数量以当前题组为准。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -511,10 +513,11 @@
         {
           "number": 6,
           "text": "EF-G",
-          "answerRaw": "M、H",
+          "answerRaw": "M、H、F",
           "answer": [
             "M",
-            "H"
+            "H",
+            "F"
           ],
           "answerMode": "多选"
         },
@@ -569,7 +572,9 @@
         "title": "第 18 讲《生化 翻译》· 思维导图第 275 页",
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-18-04",
@@ -717,7 +722,7 @@
         },
         {
           "number": 8,
-          "text": "每形成一个肽键至少消耗的高能磷酸键数",
+          "text": "忽略起始和终止的额外开销，每延长1个氨基酸残基所需的氨基酸活化及进位/转位能量合计",
           "answerRaw": "C",
           "answer": [
             "C"
@@ -745,7 +750,9 @@
         "title": "第 18 讲《生化 翻译》· 思维导图第 275 页",
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-18-05",
@@ -776,7 +783,7 @@
         },
         {
           "key": "F",
-          "label": "mRNA前体需先在胞核完成加帽、加尾、剪接、编辑等加工"
+          "label": "典型真核前体mRNA需完成加帽、剪接及加尾等加工；部分转录本还发生编辑"
         },
         {
           "key": "G",
@@ -951,7 +958,9 @@
         "title": "第 18 讲《生化 翻译》· 思维导图第 275 页",
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-18-06",
@@ -1188,15 +1197,15 @@
         },
         {
           "key": "C",
-          "label": "识别并结合信号肽"
+          "label": "信号识别颗粒（SRP）可识别并结合新生肽链上的信号肽"
         },
         {
           "key": "D",
-          "label": "翻译后可切除N端信号肽"
+          "label": "进入内质网过程中，可切除N端信号肽"
         },
         {
           "key": "E",
-          "label": "与蛋白质共同组成信号识别颗粒"
+          "label": "scRNA与蛋白质共同组成信号识别颗粒（SRP）"
         },
         {
           "key": "F",
@@ -1214,7 +1223,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "分泌蛋白质／跨膜蛋白质",
+          "text": "具有典型可切除N端信号肽的分泌蛋白质：信号位置及加工特点",
           "answerRaw": "F、D",
           "answer": [
             "F",
@@ -1242,7 +1251,7 @@
         },
         {
           "number": 4,
-          "text": "信号肽",
+          "text": "典型可切除N端信号肽：位置、加工及被识别的特点",
           "answerRaw": "F、D、C",
           "answer": [
             "F",
@@ -1311,7 +1320,9 @@
         "title": "第 18 讲《生化 翻译》· 思维导图第 275 页",
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-18-08",
@@ -1322,7 +1333,7 @@
       "options": [
         {
           "key": "A",
-          "label": "结构类似酪氨酰tRNA，并取代其进位"
+          "label": "结构类似氨酰tRNA的3′端，进入A位后导致肽链提前释放"
         },
         {
           "key": "B",
@@ -1334,7 +1345,7 @@
         },
         {
           "key": "D",
-          "label": "结合原核50S亚基抑制成肽"
+          "label": "结合原核50S亚基，抑制肽链延长"
         },
         {
           "key": "E",
@@ -1354,11 +1365,11 @@
         },
         {
           "key": "I",
-          "label": "使eEF2糖基化失活"
+          "label": "催化eEF2发生ADP-核糖基化而失活"
         },
         {
           "key": "J",
-          "label": "降解28S rRNA，使真核60S亚基失活"
+          "label": "使28S rRNA特定位点脱嘌呤，导致真核60S亚基失活（不是切断rRNA骨架）"
         },
         {
           "key": "K",
@@ -1390,7 +1401,7 @@
         },
         {
           "key": "R",
-          "label": "抑制成肽"
+          "label": "使肽链提前终止/释放"
         },
         {
           "key": "S",
@@ -1422,10 +1433,11 @@
         {
           "number": 3,
           "text": "白喉毒素",
-          "answerRaw": "M、I",
+          "answerRaw": "M、I、K",
           "answer": [
             "M",
-            "I"
+            "I",
+            "K"
           ],
           "answerMode": "多选"
         },
@@ -1508,24 +1520,6 @@
         },
         {
           "number": 12,
-          "text": "白喉毒素",
-          "answerRaw": "K",
-          "answer": [
-            "K"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 13,
-          "text": "伊短菌素",
-          "answerRaw": "H",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 14,
           "text": "干扰素",
           "answerRaw": "Q、L、P",
           "answer": [
@@ -1556,7 +1550,9 @@
         "title": "第 18 讲《生化 翻译》· 思维导图第 275 页",
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-18-09",

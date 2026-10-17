@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture16.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "完整收录第 16 讲《DNA 的合成》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。"
+    "answerNote": "完整收录第 16 讲《DNA 的合成》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -264,14 +266,12 @@
       "stems": [
         {
           "number": 1,
-          "text": "参与维持 DNA 复制高保真性的因素",
-          "answerRaw": "H、I、A、F、D、G",
+          "text": "通过碱基识别、校对和修复直接维持DNA复制保真度的因素（不选复制方式或复制叉形态）",
+          "answerRaw": "H、I、F、G",
           "answer": [
             "H",
             "I",
-            "A",
             "F",
-            "D",
             "G"
           ],
           "answerMode": "多选"
@@ -295,7 +295,9 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 3 页",
         "description": "DNA 复制高保真性及原核 DNA 聚合酶。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-16-03",
@@ -333,7 +335,7 @@
         },
         {
           "number": 2,
-          "text": "应急低保真复制",
+          "text": "除复制主酶外，主要参与损伤修复及复制重启、具有3′→5′校对活性的原核聚合酶",
           "answerRaw": "A",
           "answer": [
             "A"
@@ -377,7 +379,9 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 3 页",
         "description": "原核 DNA 聚合酶 I、II、III 的功能。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-16-04",
@@ -586,11 +590,11 @@
       "options": [
         {
           "key": "A",
-          "label": "后随链"
+          "label": "单个片段的合成方向与复制叉前进方向相反，需反复引发、不连续延长"
         },
         {
           "key": "B",
-          "label": "前导链"
+          "label": "沿复制叉前进方向连续延长"
         },
         {
           "key": "C",
@@ -644,7 +648,9 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 4 页",
         "description": "前导链、后随链与冈崎片段。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-16-07",
@@ -760,7 +766,7 @@
         },
         {
           "number": 2,
-          "text": "应急低保真复制、错配修复",
+          "text": "主要参与碱基切除修复中短片段DNA缺口填补的聚合酶",
           "answerRaw": "C",
           "answer": [
             "C"
@@ -813,7 +819,9 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 8 页",
         "description": "真核 DNA 聚合酶及线粒体 DNA 的 D 环复制。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-16-09",
@@ -1241,7 +1249,7 @@
         {
           "number": 6,
           "text": "DNA 复制需要引物的原因是 DNApol 不具备催化两个游离______形成______键的能力；引物的目的是提供______。",
-          "answerRaw": "dNTP；磷酸二酯；3-OH",
+          "answerRaw": "dNTP、磷酸二酯、3-OH",
           "answerDisplay": "dNTP；磷酸二酯；3-OH",
           "answer": [
             "dNTP",
@@ -1253,7 +1261,7 @@
         {
           "number": 7,
           "text": "原核合成引物的引物酶是______蛋白；引物酶的本质是______，属于 RNA 聚合酶。",
-          "answerRaw": "DnaG；DDRP",
+          "answerRaw": "DnaG、DDRP",
           "answerDisplay": "DnaG；DDRP",
           "answer": [
             "DnaG",
@@ -1264,7 +1272,7 @@
         {
           "number": 8,
           "text": "起始时，______辨认复制起点；______解开超螺旋以松弛 DNA 链；______运送协助______（解旋酶）解开双螺旋；______结合单链 DNA。",
-          "answerRaw": "DnaA；拓扑异构酶；DnaC；DnaB；SSB",
+          "answerRaw": "DnaA、拓扑异构酶、DnaC、DnaB、SSB",
           "answerDisplay": "DnaA；拓扑异构酶；DnaC；DnaB；SSB",
           "answer": [
             "DnaA",
@@ -1278,7 +1286,7 @@
         {
           "number": 9,
           "text": "DnaB、DnaC、DnaG 和复制起点组成起始复合物（______），合成引物（短链 RNA），提供______。",
-          "answerRaw": "引发体；3-OH",
+          "answerRaw": "引发体、3-OH",
           "answerDisplay": "引发体；3-OH",
           "answer": [
             "引发体",
@@ -1289,7 +1297,7 @@
         {
           "number": 10,
           "text": "延长时，同一个 DNApol III 按______方向，以四种______为原料，将 dNMP 加入引物或延长的子链。",
-          "answerRaw": "5→3；dNTP",
+          "answerRaw": "5→3、dNTP",
           "answerDisplay": "5→3；dNTP",
           "answer": [
             "5→3",
@@ -1299,13 +1307,13 @@
         },
         {
           "number": 11,
-          "text": "前导链______进行、______延长；后随链______进行、______延长而形成______。",
-          "answerRaw": "先；连续；后；不连续；冈崎片段",
-          "answerDisplay": "先；连续；后；不连续；冈崎片段",
+          "text": "前导链合成方向与复制叉前进方向______，合成方式为______；后随链各片段合成方向与复制叉前进方向______，合成方式为______，形成______。",
+          "answerRaw": "相同、连续、相反、不连续、冈崎片段",
+          "answerDisplay": "相同；连续；相反；不连续；冈崎片段",
           "answer": [
-            "先",
+            "相同",
             "连续",
-            "后",
+            "相反",
             "不连续",
             "冈崎片段"
           ],
@@ -1330,7 +1338,9 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 4 页",
         "description": "DnaA、DnaB、DnaC、DnaG、SSB 与拓扑异构酶。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-16-fill-03",
@@ -1511,7 +1521,7 @@
         {
           "number": 19,
           "text": "逆转录病毒的核酸变化顺序为：RNA → ______ → ______ → ______。",
-          "answerRaw": "RNA/DNA；单链 DNA；双链 DNA",
+          "answerRaw": "RNA/DNA、单链 DNA、双链 DNA",
           "answerDisplay": "RNA/DNA；单链 DNA；双链 DNA",
           "answer": [
             "RNA/DNA",
@@ -1522,7 +1532,7 @@
         },
         {
           "number": 20,
-          "text": "逆转录病毒的引物为病毒______。",
+          "text": "逆转录病毒合成第一条DNA链时，常利用宿主来源的______作为引物。",
           "answerRaw": "tRNA",
           "answerDisplay": "tRNA",
           "answer": [
@@ -1533,7 +1543,7 @@
         {
           "number": 21,
           "text": "水解核酸末端磷酸二酯键的是核酸______酶；水解内部磷酸二酯键的是核酸______酶。",
-          "answerRaw": "外切；内切",
+          "answerRaw": "外切、内切",
           "answerDisplay": "外切；内切",
           "answer": [
             "外切",
@@ -1544,7 +1554,7 @@
         {
           "number": 22,
           "text": "逆转录酶用于 cDNA 文库法合成 cDNA 的第______链；逆转录病毒中的逆转录酶没有______核酸外切酶活性。",
-          "answerRaw": "一；3→5",
+          "answerRaw": "一、3→5",
           "answerDisplay": "一；3→5",
           "answer": [
             "一",
@@ -1555,7 +1565,7 @@
         {
           "number": 23,
           "text": "DNA 的复制需引物______；转录______引物；PCR______引物。",
-          "answerRaw": "RNA；不需；需",
+          "answerRaw": "RNA、不需、需",
           "answerDisplay": "RNA；不需；需",
           "answer": [
             "RNA",
@@ -1583,7 +1593,9 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 10 页",
         "description": "逆转录酶的三种酶活性。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

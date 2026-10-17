@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture19.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "完整收录修订版 Word 的 10 组 60 个题干；题干、选项和答案均以 Word 为准，网页选项已重新打散，并逐组关联对应思维导图。"
+    "answerNote": "按讲义和提供的Word复核；2026-10-17修正歧义、错误机制及重复题，题目数量以当前题组为准。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -368,6 +370,8 @@
     },
     {
       "id": "bio-19-03",
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17",
       "page": 3,
       "title": "乳糖操纵子的负性调节、正性调节与协同调节",
       "kind": "B",
@@ -443,7 +447,7 @@
         },
         {
           "number": 2,
-          "text": "有乳糖",
+          "text": "乳糖解除阻遏时的分子事件：乳糖进入、诱导物结合及阻遏蛋白变化",
           "answerRaw": "H、D、M、I",
           "answer": [
             "H",
@@ -455,7 +459,7 @@
         },
         {
           "number": 3,
-          "text": "无葡萄糖",
+          "text": "有乳糖而葡萄糖不足时，cAMP-CAP复合物的形成、DNA结合及直接作用",
           "answerRaw": "F、C、G",
           "answer": [
             "F",
@@ -466,7 +470,7 @@
         },
         {
           "number": 4,
-          "text": "有葡萄糖",
+          "text": "仅考虑葡萄糖的分解物阻遏效应：有葡萄糖时，RNApol对乳糖操纵子的转录活性",
           "answerRaw": "A",
           "answer": [
             "A"
@@ -849,11 +853,11 @@
         },
         {
           "key": "F",
-          "label": "与 GC 盒结合"
+          "label": "DNA结合结构域可识别GC盒（如SP1）"
         },
         {
           "key": "G",
-          "label": "与 CAAT 盒结合"
+          "label": "DNA结合结构域可识别CAAT盒（如C/EBP）"
         },
         {
           "key": "H",
@@ -871,26 +875,26 @@
       "stems": [
         {
           "number": 1,
-          "text": "DNA 结合结构域",
-          "answerRaw": "E、A、J",
+          "text": "DNA结合结构域的典型结构及其识别DNA序列的功能",
+          "answerRaw": "E、A、J、F、G",
           "answer": [
             "E",
             "A",
-            "J"
+            "J",
+            "F",
+            "G"
           ],
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "转录激活结构域",
-          "answerRaw": "C、F、H、B、D、G",
+          "text": "转录激活结构域的类型及其与基本转录装置的相互作用",
+          "answerRaw": "C、H、B、D",
           "answer": [
             "C",
-            "F",
             "H",
             "B",
-            "D",
-            "G"
+            "D"
           ],
           "answerMode": "多选"
         },
@@ -924,7 +928,9 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 274 页",
         "description": "转录因子的 DNA 结合、转录激活及蛋白互作结构域。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-19-07",
@@ -1234,7 +1240,7 @@
         },
         {
           "key": "L",
-          "label": "H 的蛋白激酶活性使 RNApol Ⅱ的 CTD 磷酸化→RNApol Ⅱ开始移动至转录起始点转录"
+          "label": "TFⅡH使RNApolⅡ的CTD磷酸化，促进启动子逃逸并进入转录延长"
         }
       ],
       "stems": [
@@ -1328,7 +1334,9 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 274 页",
         "description": "RNApolⅡ转录起始复合体的装配顺序与进入延长阶段。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-19-10",
@@ -1375,7 +1383,7 @@
         },
         {
           "key": "J",
-          "label": "单链"
+          "label": "成熟引导链以单链形式装载于RISC并发挥作用"
         },
         {
           "key": "K",
@@ -1383,7 +1391,7 @@
         },
         {
           "key": "L",
-          "label": "双链"
+          "label": "典型siRNA由长双链RNA经Dicer加工产生，区别于miRNA的发夹前体途径"
         },
         {
           "key": "M",
@@ -1404,7 +1412,7 @@
         },
         {
           "number": 2,
-          "text": "miRNA",
+          "text": "miRNA的典型特征及可能的作用方式",
           "answerRaw": "E、I、G、C、J、B",
           "answer": [
             "E",
@@ -1418,14 +1426,15 @@
         },
         {
           "number": 3,
-          "text": "siRNA",
-          "answerRaw": "K、F、C、L、B",
+          "text": "siRNA的前体来源、成熟引导链状态及作用",
+          "answerRaw": "K、F、C、L、B、J",
           "answer": [
             "K",
             "F",
             "C",
             "L",
-            "B"
+            "B",
+            "J"
           ],
           "answerMode": "多选"
         },
@@ -1459,7 +1468,9 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 274 页",
         "description": "miRNA、siRNA、RISC 与转录后基因沉默。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

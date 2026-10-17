@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture7_8.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 07 讲《生化 氨基酸代谢与氨基酸》范围内题目；选项已逐组打散，答案已按讲义复核。"
+    "answerNote": "仅收录第 07 讲《生化 氨基酸代谢与氨基酸》范围内题目；选项已逐组打散，答案已按讲义复核。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -796,19 +798,20 @@
       "stems": [
         {
           "number": 1,
-          "text": "不构成人体蛋白质",
-          "answerRaw": "H、J、B、K",
+          "text": "选项中的非蛋白质氨基酸/氨基磺酸（不包括谷胱甘肽等肽类）",
+          "answerRaw": "H、J、B、K、I",
           "answer": [
             "H",
             "J",
             "B",
-            "K"
+            "K",
+            "I"
           ],
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "与含硫氨基酸代谢相关",
+          "text": "选项中属于含硫α-氨基酸的有",
           "answerRaw": "C、D、K",
           "answer": [
             "C",
@@ -840,7 +843,7 @@
         },
         {
           "number": 5,
-          "text": "半胱氨酸脱羧产生",
+          "text": "半胱氨酸经氧化、脱羧后可生成",
           "answerRaw": "I",
           "answer": [
             "I"
@@ -875,7 +878,9 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-07-05",
@@ -942,7 +947,7 @@
         },
         {
           "number": 2,
-          "text": "半胱氨酸：①脱羧产物 ②作用",
+          "text": "半胱氨酸：①经氧化、脱羧形成的产物 ②该产物的作用",
           "answerRaw": "H、F",
           "answer": [
             "H",
@@ -972,7 +977,7 @@
         },
         {
           "number": 5,
-          "text": "色氨酸脱羧产物",
+          "text": "色氨酸先羟化、再脱羧形成的生物胺",
           "answerRaw": "D",
           "answer": [
             "D"
@@ -1008,7 +1013,9 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-07-06",
@@ -1424,7 +1431,7 @@
         },
         {
           "key": "D",
-          "label": "N-乙酰谷氨酸（AGA）"
+          "label": "N-乙酰谷氨酸（NAG；部分讲义记作AGA）"
         },
         {
           "key": "E",
@@ -1561,7 +1568,9 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 4 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-07-10",
@@ -1653,13 +1662,12 @@
         },
         {
           "number": 2,
-          "text": "280 nm 吸光度最大的芳香族氨基酸",
-          "answerRaw": "F、P",
+          "text": "相同摩尔浓度下，280nm处吸光度最大的芳香族氨基酸",
+          "answerRaw": "P",
           "answer": [
-            "F",
             "P"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "number": 3,
@@ -1674,7 +1682,7 @@
         },
         {
           "number": 4,
-          "text": "酪氨酸可生成",
+          "text": "除儿茶酚胺外，酪氨酸还可用于合成的色素",
           "answerRaw": "A",
           "answer": [
             "A"
@@ -1723,7 +1731,7 @@
         },
         {
           "number": 9,
-          "text": "帕金森综合征相关缺乏的酶",
+          "text": "帕金森病黑质多巴胺能神经元减少，可伴随多巴胺合成中哪种限速酶的总活性降低？",
           "answerRaw": "G",
           "answer": [
             "G"
@@ -1749,7 +1757,9 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-07-11",

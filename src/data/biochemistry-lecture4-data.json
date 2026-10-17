@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture4.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 04 讲《血浆脂蛋白》范围内题目；选项已逐组打散，答案已按讲义复核。"
+    "answerNote": "仅收录第 04 讲《血浆脂蛋白》范围内题目；选项已逐组打散，答案已按讲义复核。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -63,7 +65,7 @@
         },
         {
           "key": "B",
-          "label": "增多是高脂血症最重要的原因"
+          "label": "升高与动脉粥样硬化风险密切相关，是降胆固醇治疗的重要靶标"
         },
         {
           "key": "C",
@@ -91,7 +93,7 @@
         },
         {
           "key": "I",
-          "label": "减少可致高脂血症"
+          "label": "降低表现为低HDL-C血症，属于血脂异常"
         },
         {
           "key": "J",
@@ -151,12 +153,13 @@
         {
           "number": 3,
           "text": "LDL 的特点",
-          "answerRaw": "D、P、B、N",
+          "answerRaw": "D、P、B、N、H",
           "answer": [
             "D",
             "P",
             "B",
-            "N"
+            "N",
+            "H"
           ],
           "answerMode": "多选"
         },
@@ -193,7 +196,9 @@
         "title": "第 04 讲《生化 血浆脂蛋白》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-04-02",
@@ -634,7 +639,7 @@
         },
         {
           "number": 4,
-          "text": "小肠黏膜细胞合成外源性脂肪和胆固醇酯的途径",
+          "text": "小肠黏膜细胞将吸收的2-甘油一酯重新合成甘油三酯的主要途径",
           "answerRaw": "E",
           "answer": [
             "E"
@@ -660,7 +665,9 @@
         "title": "第 04 讲《生化 血浆脂蛋白》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

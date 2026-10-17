@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture15.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "完整收录第 15 讲《核酸》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。"
+    "answerNote": "完整收录第 15 讲《核酸》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -291,7 +293,7 @@
         },
         {
           "key": "D",
-          "label": "表面的大小沟其中大沟最容易与 DNA 序列相互作用"
+          "label": "调节蛋白识别DNA序列时，通常最容易接触和识别大沟中的碱基化学信息"
         },
         {
           "key": "E",
@@ -377,7 +379,9 @@
         "title": "第 15 讲《生化 核酸》· 第 1 页",
         "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-15-04",
@@ -432,7 +436,7 @@
         },
         {
           "key": "L",
-          "label": "H2A + H2B + H3 + H4"
+          "label": "H2A、H2B、H3、H4各2分子组成核心组蛋白八聚体"
         },
         {
           "key": "M",
@@ -512,7 +516,9 @@
         "title": "第 15 讲《生化 核酸》· 第 1 页",
         "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-15-05",
@@ -585,7 +591,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "编码 RNA：mRNA 的特点",
+          "text": "典型真核成熟mRNA的模板功能及两端结构（不含不加polyA尾的组蛋白mRNA等例外）",
           "answerRaw": "N、O、K",
           "answer": [
             "N",
@@ -658,7 +664,9 @@
         "title": "第 15 讲《生化 核酸》· 第 2 页",
         "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-15-06",
@@ -1057,7 +1065,7 @@
         {
           "number": 8,
           "text": "DNA 双螺旋纵向主要由______维系，横向主要由______维系。",
-          "answerRaw": "碱基堆积力；氢键",
+          "answerRaw": "碱基堆积力、氢键",
           "answerDisplay": "碱基堆积力；氢键",
           "answer": [
             "碱基堆积力",
@@ -1067,7 +1075,7 @@
         },
         {
           "number": 9,
-          "text": "DNA 表面最容易与 DNA 序列相互作用的部位是______。",
+          "text": "调节蛋白识别DNA序列时，DNA表面通常最便于其识别碱基化学信息的部位是______。",
           "answerRaw": "大沟",
           "answerDisplay": "大沟",
           "answer": [
@@ -1078,7 +1086,7 @@
         {
           "number": 10,
           "text": "DNA 双链在核心组蛋白上盘绕______圈，形成核小体核心颗粒；______位于连接区稳定核小体。",
-          "answerRaw": "1.75；H1",
+          "answerRaw": "1.75、H1",
           "answerDisplay": "1.75；H1",
           "answer": [
             "1.75",
@@ -1089,7 +1097,7 @@
         {
           "number": 11,
           "text": "DNA 变性后粘度______、密度______，并出现______效应，即 260 nm 处紫外吸光度______。",
-          "answerRaw": "↓；↑；增色；增加",
+          "answerRaw": "↓、↑、增色、增加",
           "answerDisplay": "↓；↑；增色；增加",
           "answer": [
             "↓",
@@ -1102,7 +1110,7 @@
         {
           "number": 12,
           "text": "Tm 是 ΔA260 达最大变化值______所对应的温度，此时约______% 双链解离成单链。",
-          "answerRaw": "一半；50",
+          "answerRaw": "一半、50",
           "answerDisplay": "一半；50",
           "answer": [
             "一半",
@@ -1113,7 +1121,7 @@
         {
           "number": 13,
           "text": "DNA 加热变性后，______去除变性条件才可能复性；迅速冷却至______℃以下则不能复性。",
-          "answerRaw": "缓慢；4",
+          "answerRaw": "缓慢、4",
           "answerDisplay": "缓慢；4",
           "answer": [
             "缓慢",
@@ -1140,7 +1148,9 @@
         "title": "第 15 讲《生化 核酸》· 第 1 页",
         "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-15-fill-03",
@@ -1153,7 +1163,7 @@
         {
           "number": 14,
           "text": "真核 mRNA 的 5 端具有______帽子，3 端具有______尾巴。",
-          "answerRaw": "m7GTP；polyA",
+          "answerRaw": "m7GTP、polyA",
           "answerDisplay": "m7GTP；polyA",
           "answer": [
             "m7GTP",
@@ -1164,7 +1174,7 @@
         {
           "number": 15,
           "text": "开始密码子是______；终止密码子是______、______、______。",
-          "answerRaw": "AUG；UAA；UAG；UGA",
+          "answerRaw": "AUG、UAA、UAG、UGA",
           "answerDisplay": "AUG；UAA；UAG；UGA",
           "answer": [
             "AUG",
@@ -1172,7 +1182,39 @@
             "UAG",
             "UGA"
           ],
-          "answerMode": "填空"
+          "answerMode": "填空",
+          "acceptedAnswers": [
+            [
+              "AUG",
+              "UAA",
+              "UGA",
+              "UAG"
+            ],
+            [
+              "AUG",
+              "UAG",
+              "UAA",
+              "UGA"
+            ],
+            [
+              "AUG",
+              "UAG",
+              "UGA",
+              "UAA"
+            ],
+            [
+              "AUG",
+              "UGA",
+              "UAA",
+              "UAG"
+            ],
+            [
+              "AUG",
+              "UGA",
+              "UAG",
+              "UAA"
+            ]
+          ]
         },
         {
           "number": 16,
@@ -1197,7 +1239,7 @@
         {
           "number": 18,
           "text": "摆动性中，tRNA 反密码子第______位 I 识别 mRNA 密码子第______位 A / C / U；摆动性与简并性有助于维持生物______稳定。",
-          "answerRaw": "1；3；表型",
+          "answerRaw": "1、3、表型",
           "answerDisplay": "1；3；表型",
           "answer": [
             "1",
@@ -1209,7 +1251,7 @@
         {
           "number": 19,
           "text": "tRNA 的二级结构呈______形，三级结构呈______形。",
-          "answerRaw": "三叶草；L",
+          "answerRaw": "三叶草、L",
           "answerDisplay": "三叶草；L",
           "answer": [
             "三叶草",
@@ -1236,7 +1278,9 @@
         "title": "第 15 讲《生化 核酸》· 第 2 页",
         "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-15-fill-04",
@@ -1249,14 +1293,41 @@
         {
           "number": 20,
           "text": "tRNA 的典型环包括______环、______环和______环。",
-          "answerRaw": "DHU；反密码；TΨC",
+          "answerRaw": "DHU、反密码、TΨC",
           "answerDisplay": "DHU；反密码；TΨC",
           "answer": [
             "DHU",
             "反密码",
             "TΨC"
           ],
-          "answerMode": "填空"
+          "answerMode": "填空",
+          "acceptedAnswers": [
+            [
+              "DHU",
+              "TΨC",
+              "反密码"
+            ],
+            [
+              "反密码",
+              "DHU",
+              "TΨC"
+            ],
+            [
+              "反密码",
+              "TΨC",
+              "DHU"
+            ],
+            [
+              "TΨC",
+              "DHU",
+              "反密码"
+            ],
+            [
+              "TΨC",
+              "反密码",
+              "DHU"
+            ]
+          ]
         },
         {
           "number": 21,
@@ -1271,7 +1342,7 @@
         {
           "number": 22,
           "text": "原核核糖体为______S，由______S 大亚基和______S 小亚基组成。",
-          "answerRaw": "70；50；30",
+          "answerRaw": "70、50、30",
           "answerDisplay": "70；50；30",
           "answer": [
             "70",
@@ -1283,7 +1354,7 @@
         {
           "number": 23,
           "text": "真核核糖体为______S，由______S 大亚基和______S 小亚基组成。",
-          "answerRaw": "80；60；40",
+          "answerRaw": "80、60、40",
           "answerDisplay": "80；60；40",
           "answer": [
             "80",
@@ -1295,19 +1366,26 @@
         {
           "number": 24,
           "text": "原核大亚基含______S 和______S rRNA，其中______S rRNA 具有肽酰转移酶活性。",
-          "answerRaw": "23；5；23",
+          "answerRaw": "23、5、23",
           "answerDisplay": "23；5；23",
           "answer": [
             "23",
             "5",
             "23"
           ],
-          "answerMode": "填空"
+          "answerMode": "填空",
+          "acceptedAnswers": [
+            [
+              "5",
+              "23",
+              "23"
+            ]
+          ]
         },
         {
           "number": 25,
           "text": "真核大亚基含______S、______S、______S rRNA，其中______S rRNA 具有肽酰转移酶活性。",
-          "answerRaw": "28；5.8；5；28",
+          "answerRaw": "28、5.8、5、28",
           "answerDisplay": "28；5.8；5；28",
           "answer": [
             "28",
@@ -1315,7 +1393,39 @@
             "5",
             "28"
           ],
-          "answerMode": "填空"
+          "answerMode": "填空",
+          "acceptedAnswers": [
+            [
+              "28",
+              "5",
+              "5.8",
+              "28"
+            ],
+            [
+              "5.8",
+              "28",
+              "5",
+              "28"
+            ],
+            [
+              "5.8",
+              "5",
+              "28",
+              "28"
+            ],
+            [
+              "5",
+              "28",
+              "5.8",
+              "28"
+            ],
+            [
+              "5",
+              "5.8",
+              "28",
+              "28"
+            ]
+          ]
         }
       ],
       "sourceText": "填空题 F20–F25",
@@ -1336,7 +1446,9 @@
         "title": "第 15 讲《生化 核酸》· 第 2 页",
         "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

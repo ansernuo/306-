@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture17.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "完整收录《转录及调控》8 组 52 题；选项已重新打散，答案以精编版讲义为主完成核对。"
+    "answerNote": "完整收录《转录及调控》8 组 52 题；选项已重新打散，答案以精编版讲义为主完成核对。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -445,7 +447,7 @@
         },
         {
           "key": "K",
-          "label": "ρ因子识别RNA 3′端终止信号"
+          "label": "ρ因子识别新生RNA上富含C、少G且缺少稳定二级结构的rut位点"
         },
         {
           "key": "L",
@@ -581,7 +583,9 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
         "description": "原核转录起始、延长及两类终止机制。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-17-04",
@@ -727,11 +731,11 @@
       "options": [
         {
           "key": "A",
-          "label": "尾巴长度与mRNA寿命正相关"
+          "label": "对同类mRNA而言，polyA尾缩短常与稳定性降低、降解加快有关"
         },
         {
           "key": "B",
-          "label": "真核转录终止与该过程同时进行"
+          "label": "3′端切割、加polyA尾与RNApolⅡ转录终止相耦联"
         },
         {
           "key": "C",
@@ -755,7 +759,7 @@
         },
         {
           "key": "H",
-          "label": "有助于防止脱腺苷酸化酶攻击"
+          "label": "尾部与poly(A)结合蛋白结合，可延缓mRNA降解"
         },
         {
           "key": "I",
@@ -802,12 +806,13 @@
         {
           "number": 1,
           "text": "加帽",
-          "answerRaw": "N、Q、J、R",
+          "answerRaw": "N、Q、J、R、I",
           "answer": [
             "N",
             "Q",
             "J",
-            "R"
+            "R",
+            "I"
           ],
           "answerMode": "多选"
         },
@@ -876,7 +881,9 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
         "description": "前体 mRNA 的加帽、加尾、剪接、编辑及选择性剪接。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-17-06",
@@ -1257,7 +1264,7 @@
         },
         {
           "key": "I",
-          "label": "polyC"
+          "label": "富含C、少G且缺少稳定二级结构的rut位点（不要求连续polyC）"
         },
         {
           "key": "J",
@@ -1299,7 +1306,7 @@
         },
         {
           "number": 4,
-          "text": "ρ因子识别的RNA终止信号",
+          "text": "ρ因子在新生RNA上的典型结合位点",
           "answerRaw": "I",
           "answer": [
             "I"
@@ -1388,7 +1395,9 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 273–274 页",
         "description": "原核启动与终止序列、真核加尾及剪接边界。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

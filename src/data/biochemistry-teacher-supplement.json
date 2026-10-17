@@ -13,7 +13,9 @@
       22,
       24,
       26
-    ]
+    ],
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "pages": [],
   "lectures": [],
@@ -669,7 +671,7 @@
     {
       "id": "biochemistry-teacher-01-16",
       "page": 0,
-      "title": "原核生物的转录终止需要",
+      "title": "原核生物的ρ依赖性转录终止需要",
       "kind": "A",
       "kindLabel": "单项选择",
       "topic": "核酸",
@@ -697,7 +699,7 @@
       "stems": [
         {
           "number": 16,
-          "text": "原核生物的转录终止需要",
+          "text": "原核生物的ρ依赖性转录终止需要",
           "sourceQuestion": 16,
           "sourceParagraph": 76,
           "lectureId": "lecture-17",
@@ -718,7 +720,9 @@
       "hideSource": true,
       "supplementNotice": "已录入文末参考答案",
       "answerSourceLabel": "课后题答案",
-      "answerSourceName": "生化课后巩固_文字大留白笔记版.docx"
+      "answerSourceName": "生化课后巩固_文字大留白笔记版.docx",
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "biochemistry-teacher-01-17",
@@ -1047,7 +1051,7 @@
     {
       "id": "biochemistry-teacher-01-27",
       "page": 0,
-      "title": "利用聚合酶链反应扩增特异DNA序列的重要原因之一是反应体系内存在",
+      "title": "PCR反应体系中，决定所扩增DNA序列特异性的关键因素是",
       "kind": "A",
       "kindLabel": "单项选择",
       "topic": "小基因",
@@ -1075,7 +1079,7 @@
       "stems": [
         {
           "number": 27,
-          "text": "利用聚合酶链反应扩增特异DNA序列的重要原因之一是反应体系内存在",
+          "text": "PCR反应体系中，决定所扩增DNA序列特异性的关键因素是",
           "sourceQuestion": 27,
           "sourceParagraph": 118,
           "lectureId": "lecture-14",
@@ -1096,12 +1100,14 @@
       "hideSource": true,
       "supplementNotice": "已录入文末参考答案",
       "answerSourceLabel": "课后题答案",
-      "answerSourceName": "生化课后巩固_文字大留白笔记版.docx"
+      "answerSourceName": "生化课后巩固_文字大留白笔记版.docx",
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "biochemistry-teacher-01-28",
       "page": 0,
-      "title": "标签蛋白沉淀是研究蛋白质相互作用的技术，目前最常用的标签是",
+      "title": "用于研究蛋白质相互作用的GST pull-down技术，所用的亲和标签是",
       "kind": "A",
       "kindLabel": "单项选择",
       "topic": "小基因",
@@ -1129,7 +1135,7 @@
       "stems": [
         {
           "number": 28,
-          "text": "标签蛋白沉淀是研究蛋白质相互作用的技术，目前最常用的标签是",
+          "text": "用于研究蛋白质相互作用的GST pull-down技术，所用的亲和标签是",
           "sourceQuestion": 28,
           "sourceParagraph": 124,
           "lectureId": "lecture-14",
@@ -1150,7 +1156,9 @@
       "hideSource": true,
       "supplementNotice": "已录入文末参考答案",
       "answerSourceLabel": "课后题答案",
-      "answerSourceName": "生化课后巩固_文字大留白笔记版.docx"
+      "answerSourceName": "生化课后巩固_文字大留白笔记版.docx",
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "biochemistry-teacher-01-29",

@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture9.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 09 讲《核苷酸代谢》范围内题目；选项已重新打散，答案按讲义与思维导图复核。"
+    "answerNote": "仅收录第 09 讲《核苷酸代谢》范围内题目；选项已重新打散，答案按讲义与思维导图复核。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -454,7 +456,7 @@
         },
         {
           "key": "B",
-          "label": "腺嘌呤核苷 + 磷酸 → AMP"
+          "label": "腺苷+ATP→AMP+ADP"
         },
         {
           "key": "C",
@@ -559,7 +561,9 @@
         "title": "第 09 讲《生化 核苷酸代谢》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-09-05",
@@ -598,7 +602,7 @@
         },
         {
           "key": "H",
-          "label": "尿嘧啶/脱氧胸腺嘧啶核苷 + 磷酸"
+          "label": "尿苷/胸苷+ATP→UMP/dTMP+ADP"
         },
         {
           "key": "I",
@@ -694,7 +698,9 @@
         "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-09-06",
@@ -801,7 +807,7 @@
       "options": [
         {
           "key": "A",
-          "label": "胸腺嘧啶"
+          "label": "尿嘧啶"
         },
         {
           "key": "B",
@@ -894,7 +900,9 @@
         "title": "第 09 讲《生化 核苷酸代谢》· 第 3 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-09-08",
@@ -921,11 +929,11 @@
         },
         {
           "key": "E",
-          "label": "CDP 还原酶"
+          "label": "DNA聚合酶"
         },
         {
           "key": "F",
-          "label": "合成 dCDP"
+          "label": "DNA链延长/复制"
         },
         {
           "key": "G",
@@ -941,7 +949,7 @@
         },
         {
           "key": "J",
-          "label": "胸腺嘧啶"
+          "label": "尿嘧啶"
         },
         {
           "key": "K",
@@ -983,33 +991,30 @@
       "stems": [
         {
           "number": 1,
-          "text": "6-巯基嘌呤（6-MP）：①类似物 ②竞争 / 作用酶 ③抑制过程",
-          "answerRaw": "A、B、K、S、M",
+          "text": "6-巯基嘌呤：结构类似物、代谢活化酶、活性代谢物的靶酶及主要抑制过程",
+          "answerRaw": "A、S、K、M",
           "answer": [
             "A",
-            "B",
-            "K",
             "S",
+            "K",
             "M"
           ],
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "别嘌呤醇：①类似物 ②竞争 / 作用酶 ③抑制过程",
-          "answerRaw": "A、Q、G、H、M",
+          "text": "别嘌呤醇降尿酸的主要作用：结构类似物、直接靶酶及受抑制过程",
+          "answerRaw": "A、G、H",
           "answer": [
             "A",
-            "Q",
             "G",
-            "H",
-            "M"
+            "H"
           ],
           "answerMode": "多选"
         },
         {
           "number": 3,
-          "text": "阿糖胞苷：①类似物 ②竞争 / 作用酶 ③抑制过程",
+          "text": "阿糖胞苷：结构类似物、活性三磷酸代谢物的主要靶酶及抑制过程",
           "answerRaw": "L、E、F",
           "answer": [
             "L",
@@ -1072,7 +1077,9 @@
         "title": "第 09 讲《生化 核苷酸代谢》· 第 3 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     }
   ],
   "lectures": [

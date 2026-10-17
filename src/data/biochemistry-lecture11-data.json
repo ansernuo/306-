@@ -10,7 +10,9 @@
     "generatedBy": "scripts/build_biochemistry_lecture10_11.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 11 讲《生化 生物转化》范围内题目；选项已逐组打散，答案按讲义与思维导图复核。"
+    "answerNote": "仅收录第 11 讲《生化 生物转化》范围内题目；选项已逐组打散，答案按讲义与思维导图复核。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -173,12 +175,14 @@
         },
         {
           "number": 6,
-          "text": "“多数非营养物质水溶性降低”对应",
-          "answerRaw": "I",
+          "text": "关于生物转化的叙述，不正确的有",
+          "answerRaw": "I、L、N",
           "answer": [
-            "I"
+            "I",
+            "L",
+            "N"
           ],
-          "answerMode": "单选"
+          "answerMode": "多选"
         }
       ],
       "sourceText": "生物转化概述与Ⅰ相、Ⅱ相反应",
@@ -199,7 +203,9 @@
         "title": "第 11 讲《生化 生物转化》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 11 讲及思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-11-02",
@@ -584,13 +590,13 @@
         },
         {
           "key": "I",
-          "label": "长期应用可产生耐药性"
+          "label": "长期应用可因自身代谢加快而产生代谢性耐受"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "苯巴比妥长期应用产生耐药性的机制及结果",
+          "text": "苯巴比妥长期应用产生代谢性耐受的机制及结果",
           "answerRaw": "I、G",
           "answer": [
             "I",
@@ -629,7 +635,9 @@
         "title": "第 11 讲《生化 生物转化》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 11 讲及思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-11-05",

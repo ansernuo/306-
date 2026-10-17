@@ -5,12 +5,14 @@
     "sourcePages": 1,
     "lectureCount": 1,
     "groupCount": 8,
-    "stemCount": 40,
+    "stemCount": 41,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture7_8.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 08 讲《生化 蛋白质》范围内题目；选项已逐组打散，答案已按讲义复核。"
+    "answerNote": "仅收录第 08 讲《生化 蛋白质》范围内题目；选项已逐组打散，答案已按讲义复核。",
+    "reviewedAt": "2026-10-17",
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
   },
   "topics": [
     "全部",
@@ -298,20 +300,25 @@
         },
         {
           "number": 3,
-          "text": "三级结构常见维系力",
-          "answerRaw": "B、G",
+          "text": "维持蛋白质三级结构的常见相互作用力（选择所有适用项）",
+          "answerRaw": "A、B、D、G、M",
           "answer": [
+            "A",
             "B",
-            "G"
+            "D",
+            "G",
+            "M"
           ],
           "answerMode": "多选"
         },
         {
           "number": 4,
-          "text": "四级结构常见维系键",
-          "answerRaw": "A、M",
+          "text": "维持蛋白质四级结构中亚基间结合的常见非共价作用力",
+          "answerRaw": "A、D、G、M",
           "answer": [
             "A",
+            "D",
+            "G",
             "M"
           ],
           "answerMode": "多选"
@@ -358,7 +365,9 @@
         "title": "第 08 讲《生化 蛋白质》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-08-03",
@@ -514,11 +523,10 @@
       "stems": [
         {
           "number": 1,
-          "text": "蛋白质水解：①破坏的结构层次 ②相关例子",
-          "answerRaw": "D、C、H",
+          "text": "蛋白质水解破坏的结构层次及有限水解的生理实例",
+          "answerRaw": "D、H",
           "answer": [
             "D",
-            "C",
             "H"
           ],
           "answerMode": "多选"
@@ -544,6 +552,15 @@
             "B"
           ],
           "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "用于检测肽键、与蛋白质水解不是同一概念的显色反应",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "蛋白质水解与变性",
@@ -564,7 +581,9 @@
         "title": "第 08 讲《生化 蛋白质》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-08-05",
@@ -693,7 +712,7 @@
         },
         {
           "key": "G",
-          "label": "电中性"
+          "label": "净电荷为零（不是分子中没有带电基团）"
         },
         {
           "key": "H",
@@ -728,7 +747,7 @@
         },
         {
           "number": 2,
-          "text": "离子交换层析中先被分离出的分子特点",
+          "text": "在相同洗脱条件下，离子交换层析中与固定相结合较弱、先洗脱的蛋白质通常具有的特点",
           "answerRaw": "K",
           "answer": [
             "K"
@@ -820,7 +839,9 @@
         "title": "第 08 讲《生化 蛋白质》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-review-20261017",
+      "reviewedAt": "2026-10-17"
     },
     {
       "id": "bio-08-07",
