@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 04 讲学成选择题（血浆脂蛋白）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 5,
-    "stemCount": 24,
+    "groupCount": 7,
+    "stemCount": 27,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture4.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 04 讲《血浆脂蛋白》范围内题目；选项已逐组打散，答案已按讲义复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -24,7 +26,7 @@
       "page": 1,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "四类血浆脂蛋白的来源、转运与电泳"
+      "searchText": "血浆脂蛋白：脂质运输 血浆脂蛋白：来源 血浆脂蛋白：电泳位置"
     },
     {
       "page": 2,
@@ -42,7 +44,7 @@
       "page": 4,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "脂蛋白的代谢去路"
+      "searchText": "LDL摄取：受体识别"
     },
     {
       "page": 5,
@@ -55,138 +57,75 @@
     {
       "id": "bio-04-01",
       "page": 1,
-      "title": "四类血浆脂蛋白的来源、转运与电泳",
+      "title": "血浆脂蛋白：脂质运输",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "特征性载脂蛋白为 ApoB48"
-        },
-        {
-          "key": "B",
-          "label": "升高与动脉粥样硬化风险密切相关，是降胆固醇治疗的重要靶标"
-        },
-        {
-          "key": "C",
           "label": "主要运输内源性脂肪"
         },
         {
-          "key": "D",
+          "key": "B",
           "label": "运输内源性胆固醇"
         },
         {
-          "key": "E",
-          "label": "前β"
-        },
-        {
-          "key": "F",
-          "label": "在血浆中合成"
-        },
-        {
-          "key": "G",
-          "label": "由小肠合成"
-        },
-        {
-          "key": "H",
-          "label": "增多可致高脂血症"
-        },
-        {
-          "key": "I",
-          "label": "降低表现为低HDL-C血症，属于血脂异常"
-        },
-        {
-          "key": "J",
-          "label": "由肝合成"
-        },
-        {
-          "key": "K",
-          "label": "减少可致脂肪肝"
-        },
-        {
-          "key": "L",
+          "key": "C",
           "label": "将胆固醇逆向转运至肝内降解"
         },
         {
-          "key": "M",
-          "label": "α"
-        },
-        {
-          "key": "N",
-          "label": "在血浆中由 VLDL→IDL→LDL 转变"
-        },
-        {
-          "key": "O",
+          "key": "D",
           "label": "运输外源性脂肪和胆固醇"
-        },
-        {
-          "key": "P",
-          "label": "β"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "CM 的特点",
-          "answerRaw": "A、H、O、G",
+          "text": "CM主要运输什么？",
           "answer": [
-            "A",
-            "H",
-            "O",
-            "G"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "VLDL 的特点",
-          "answerRaw": "K、H、E、C、J",
+          "text": "VLDL主要运输什么？",
           "answer": [
-            "K",
-            "H",
-            "E",
-            "C",
-            "J"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "LDL 的特点",
-          "answerRaw": "D、P、B、N、H",
+          "text": "LDL主要运输什么？",
           "answer": [
-            "D",
-            "P",
-            "B",
-            "N",
-            "H"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "HDL 的特点",
-          "answerRaw": "M、I、F、L、J、G",
+          "text": "HDL的主要运输作用是什么？",
           "answer": [
-            "M",
-            "I",
-            "F",
-            "L",
-            "J",
-            "G"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "四类血浆脂蛋白的来源、转运与电泳",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-04"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-04",
         "lectureNumber": 4,
@@ -197,8 +136,170 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-04-01"
+    },
+    {
+      "id": "bio-04-01-focus-2",
+      "page": 1,
+      "title": "血浆脂蛋白：来源",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "在血浆中合成"
+        },
+        {
+          "key": "B",
+          "label": "由小肠合成"
+        },
+        {
+          "key": "C",
+          "label": "由肝合成"
+        },
+        {
+          "key": "D",
+          "label": "在血浆中由 VLDL→IDL→LDL 转变"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "CM的合成来源",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "VLDL的合成来源",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "LDL的形成来源",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "HDL的形成来源",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerRaw": "A、B、C",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "四类血浆脂蛋白的来源、转运与电泳",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生化 血浆脂蛋白",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-04-page-01.webp",
+        "title": "第 04 讲《生化 血浆脂蛋白》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-04-01"
+    },
+    {
+      "id": "bio-04-01-focus-3",
+      "page": 1,
+      "title": "血浆脂蛋白：电泳位置",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "前β"
+        },
+        {
+          "key": "B",
+          "label": "α"
+        },
+        {
+          "key": "C",
+          "label": "β"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "VLDL的电泳位置",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "LDL的电泳位置",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "HDL的电泳位置",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "四类血浆脂蛋白的来源、转运与电泳",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生化 血浆脂蛋白",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-04-page-01.webp",
+        "title": "第 04 讲《生化 血浆脂蛋白》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-04-01"
     },
     {
       "id": "bio-04-02",
@@ -442,7 +543,7 @@
     {
       "id": "bio-04-04",
       "page": 4,
-      "title": "脂蛋白的代谢去路",
+      "title": "LDL摄取：受体识别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -452,103 +553,39 @@
         },
         {
           "key": "B",
-          "label": "胆固醇逆向转运"
-        },
-        {
-          "key": "C",
-          "label": "血管内皮细胞"
-        },
-        {
-          "key": "D",
-          "label": "2/3"
-        },
-        {
-          "key": "E",
-          "label": "多种细胞"
-        },
-        {
-          "key": "F",
-          "label": "1/3"
-        },
-        {
-          "key": "G",
           "label": "清道夫受体"
-        },
-        {
-          "key": "H",
-          "label": "脂蛋白脂肪酶（LPL）"
-        },
-        {
-          "key": "I",
-          "label": "巨噬细胞"
-        },
-        {
-          "key": "J",
-          "label": "主要在肝"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "HDL 的主要代谢作用",
-          "answerRaw": "B",
+          "text": "摄取正常LDL的主要受体",
           "answer": [
-            "B"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "VLDL 的主要水解酶",
-          "answerRaw": "H",
+          "text": "巨噬细胞摄取修饰LDL的主要受体",
           "answer": [
-            "H"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "CM 的主要水解酶",
-          "answerRaw": "H",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 4,
-          "text": "LDL 经清道夫受体摄取的特点",
-          "answerRaw": "G、C、F、I",
-          "answer": [
-            "G",
-            "C",
-            "F",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "LDL 经 LDL 受体摄取的特点",
-          "answerRaw": "D、A、E、J",
-          "answer": [
-            "D",
-            "A",
-            "E",
-            "J"
-          ],
-          "answerMode": "多选"
         }
       ],
       "sourceText": "脂蛋白的代谢去路",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-04"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-04",
         "lectureNumber": 4,
@@ -558,7 +595,10 @@
         "title": "第 04 讲《生化 血浆脂蛋白》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-04-04",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-04-05",
@@ -605,19 +645,6 @@
         }
       ],
       "stems": [
-        {
-          "number": 1,
-          "text": "脂蛋白及脂类的生理作用",
-          "answerRaw": "D、F、I、G、A",
-          "answer": [
-            "D",
-            "F",
-            "I",
-            "G",
-            "A"
-          ],
-          "answerMode": "多选"
-        },
         {
           "number": 2,
           "text": "可作为第二信使的脂质",
@@ -666,8 +693,9 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-04-05"
     }
   ],
   "lectures": [

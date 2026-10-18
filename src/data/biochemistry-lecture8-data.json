@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 08 讲学成选择题（蛋白质）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 8,
-    "stemCount": 41,
+    "groupCount": 14,
+    "stemCount": 33,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture7_8.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 08 讲《生化 蛋白质》范围内题目；选项已逐组打散，答案已按讲义复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -24,25 +26,25 @@
       "page": 1,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "蛋白质结构层次、模体与结构域"
+      "searchText": "蛋白质结构：层次定义 蛋白质结构：二级结构与模体"
     },
     {
       "page": 2,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "维系键与 α-螺旋特点"
+      "searchText": "蛋白质结构：维系作用力 α-螺旋：螺距与每圈残基数 α-螺旋：不利于稳定的氨基酸"
     },
     {
       "page": 3,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "分子病与构象病"
+      "searchText": "蛋白质疾病：分子病与构象病"
     },
     {
       "page": 4,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "蛋白质水解与变性"
+      "searchText": "蛋白质：水解与变性的结构变化 蛋白质变性：理化性质"
     },
     {
       "page": 5,
@@ -54,13 +56,13 @@
       "page": 6,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "层析、电泳与等电点"
+      "searchText": "蛋白质分离：影响分离行为的因素 血清蛋白电泳：迁移速度 蛋白质：pH与电荷"
     },
     {
       "page": 7,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "蛋白质消化、体内降解与营养价值"
+      "searchText": "细胞内蛋白质降解：底物类型"
     },
     {
       "page": 8,
@@ -73,64 +75,24 @@
     {
       "id": "bio-08-01",
       "page": 1,
-      "title": "蛋白质结构层次、模体与结构域",
+      "title": "蛋白质结构：层次定义",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "锌指结构"
-        },
-        {
-          "key": "B",
           "label": "N→C端氨基酸组成和排列顺序"
         },
         {
-          "key": "C",
-          "label": "α-螺旋-β-转角-α-螺旋"
-        },
-        {
-          "key": "D",
-          "label": "Ω环"
-        },
-        {
-          "key": "E",
-          "label": "结构域"
-        },
-        {
-          "key": "F",
-          "label": "纤连蛋白受体结合肽"
-        },
-        {
-          "key": "G",
-          "label": "钙结合蛋白"
-        },
-        {
-          "key": "H",
-          "label": "β-折叠"
-        },
-        {
-          "key": "I",
+          "key": "B",
           "label": "所有原子空间结构"
         },
         {
-          "key": "J",
-          "label": "β-转角"
-        },
-        {
-          "key": "K",
-          "label": "α-螺旋"
-        },
-        {
-          "key": "L",
-          "label": "亮氨酸拉链"
-        },
-        {
-          "key": "M",
+          "key": "C",
           "label": "局部主链空间结构"
         },
         {
-          "key": "N",
+          "key": "D",
           "label": "亚基之间"
         }
       ],
@@ -138,75 +100,50 @@
         {
           "number": 1,
           "text": "一级结构的概念",
-          "answerRaw": "B",
           "answer": [
-            "B"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "二级结构：①概念 ②常见类型",
-          "answerRaw": "D、J、K、H、M",
+          "text": "蛋白质二级结构的定义",
           "answer": [
-            "D",
-            "J",
-            "K",
-            "H",
-            "M"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "三级结构的概念",
-          "answerRaw": "I",
           "answer": [
-            "I"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 4,
           "text": "四级结构的概念",
-          "answerRaw": "N",
           "answer": [
-            "N"
+            "D"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "属于模体 / 超二级结构的例子",
-          "answerRaw": "L、G、A、C、F",
-          "answer": [
-            "L",
-            "G",
-            "A",
-            "C",
-            "F"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "属于三级结构层次的相对独立结构单位",
-          "answerRaw": "E",
-          "answer": [
-            "E"
-          ],
+          "answerRaw": "D",
           "answerMode": "单选"
         }
       ],
       "sourceText": "蛋白质结构层次、模体与结构域",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-08"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "lectureNumber": 8,
@@ -216,12 +153,100 @@
         "title": "第 08 讲《生化 蛋白质》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-08-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-08-01-focus-2",
+      "page": 1,
+      "title": "蛋白质结构：二级结构与模体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "锌指结构"
+        },
+        {
+          "key": "B",
+          "label": "α-螺旋-β-转角-α-螺旋"
+        },
+        {
+          "key": "C",
+          "label": "Ω环"
+        },
+        {
+          "key": "D",
+          "label": "β-折叠"
+        },
+        {
+          "key": "E",
+          "label": "β-转角"
+        },
+        {
+          "key": "F",
+          "label": "α-螺旋"
+        },
+        {
+          "key": "G",
+          "label": "亮氨酸拉链"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "属于常见二级结构的有",
+          "answer": [
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answerRaw": "C、D、E、F",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "属于模体的有",
+          "answer": [
+            "A",
+            "B",
+            "G"
+          ],
+          "answerRaw": "A、B、G",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "蛋白质结构层次、模体与结构域",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生化 蛋白质",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
+        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-08-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-08-02",
       "page": 2,
-      "title": "维系键与 α-螺旋特点",
+      "title": "蛋白质结构：维系作用力",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -243,38 +268,10 @@
         },
         {
           "key": "E",
-          "label": "0.54 nm"
-        },
-        {
-          "key": "F",
-          "label": "右手螺旋"
-        },
-        {
-          "key": "G",
           "label": "疏水键"
         },
         {
-          "key": "H",
-          "label": "甘氨酸"
-        },
-        {
-          "key": "I",
-          "label": "脯氨酸"
-        },
-        {
-          "key": "J",
-          "label": "侧链伸向螺旋外侧"
-        },
-        {
-          "key": "K",
-          "label": "3.6个氨基酸"
-        },
-        {
-          "key": "L",
-          "label": "与螺旋长轴平行"
-        },
-        {
-          "key": "M",
+          "key": "F",
           "label": "氢键"
         }
       ],
@@ -282,80 +279,58 @@
         {
           "number": 1,
           "text": "一级结构的维系键",
-          "answerRaw": "C、B",
           "answer": [
             "C",
             "B"
           ],
+          "answerRaw": "C、B",
           "answerMode": "多选"
         },
         {
           "number": 2,
           "text": "二级结构的主要维系键",
-          "answerRaw": "M",
           "answer": [
-            "M"
+            "F"
           ],
+          "answerRaw": "F",
           "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "维持蛋白质三级结构的常见相互作用力（选择所有适用项）",
-          "answerRaw": "A、B、D、G、M",
           "answer": [
             "A",
             "B",
             "D",
-            "G",
-            "M"
+            "E",
+            "F"
           ],
+          "answerRaw": "A、B、D、E、F",
           "answerMode": "多选"
         },
         {
           "number": 4,
           "text": "维持蛋白质四级结构中亚基间结合的常见非共价作用力",
-          "answerRaw": "A、D、G、M",
           "answer": [
             "A",
             "D",
-            "G",
-            "M"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "α-螺旋特点",
-          "answerRaw": "K、F、E、L、J",
-          "answer": [
-            "K",
-            "F",
             "E",
-            "L",
-            "J"
+            "F"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "过多时使 α-螺旋不稳定的氨基酸",
-          "answerRaw": "I、H",
-          "answer": [
-            "I",
-            "H"
-          ],
+          "answerRaw": "A、D、E、F",
           "answerMode": "多选"
         }
       ],
       "sourceText": "维系键与 α-螺旋特点",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-08"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "lectureNumber": 8,
@@ -366,105 +341,55 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-02"
     },
     {
-      "id": "bio-08-03",
-      "page": 3,
-      "title": "分子病与构象病",
+      "id": "bio-08-02-focus-2",
+      "page": 2,
+      "title": "α-螺旋：螺距与每圈残基数",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "谷氨酸被缬氨酸取代"
+          "label": "0.54 nm；3.6个"
         },
         {
           "key": "B",
-          "label": "亨廷顿舞蹈病"
+          "label": "0.34 nm；3.6个"
         },
         {
           "key": "C",
-          "label": "阿尔兹海默症"
+          "label": "0.54 nm；10.5个"
         },
         {
           "key": "D",
-          "label": "镰形红细胞贫血"
-        },
-        {
-          "key": "E",
-          "label": "人纹状体脊髓变性病"
-        },
-        {
-          "key": "F",
-          "label": "蛋白质构象改变"
-        },
-        {
-          "key": "G",
-          "label": "DNA点突变"
-        },
-        {
-          "key": "H",
-          "label": "疯牛病"
-        },
-        {
-          "key": "I",
-          "label": "肌营养不良症"
+          "label": "3.54 nm；10.5个"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "镰形红细胞贫血：①机制 ②氨基酸改变",
-          "answerRaw": "A、G",
+          "text": "典型α-螺旋的螺距及每圈氨基酸残基数，哪组配对正确？",
           "answer": [
-            "A",
-            "G"
+            "A"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "疯牛病相关机制",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
+          "answerRaw": "A",
           "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "属于分子病",
-          "answerRaw": "D、I",
-          "answer": [
-            "D",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "属于构象病",
-          "answerRaw": "E、C、H、B",
-          "answer": [
-            "E",
-            "C",
-            "H",
-            "B"
-          ],
-          "answerMode": "多选"
         }
       ],
-      "sourceText": "分子病与构象病",
+      "sourceText": "维系键与 α-螺旋特点",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-08"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "lectureNumber": 8,
@@ -474,12 +399,215 @@
         "title": "第 08 讲《生化 蛋白质》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-02"
+    },
+    {
+      "id": "bio-08-02-focus-3",
+      "page": 2,
+      "title": "α-螺旋：不利于稳定的氨基酸",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "甘氨酸"
+        },
+        {
+          "key": "B",
+          "label": "脯氨酸"
+        },
+        {
+          "key": "C",
+          "label": "丙氨酸"
+        },
+        {
+          "key": "D",
+          "label": "亮氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "过多时使 α-螺旋不稳定的氨基酸",
+          "answer": [
+            "B",
+            "A"
+          ],
+          "answerRaw": "B、A",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "维系键与 α-螺旋特点",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生化 蛋白质",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
+        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-02"
+    },
+    {
+      "id": "bio-08-03",
+      "page": 3,
+      "title": "蛋白质疾病：分子病与构象病",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "亨廷顿舞蹈病"
+        },
+        {
+          "key": "B",
+          "label": "阿尔兹海默症"
+        },
+        {
+          "key": "C",
+          "label": "镰形红细胞贫血"
+        },
+        {
+          "key": "D",
+          "label": "人纹状体脊髓变性病"
+        },
+        {
+          "key": "E",
+          "label": "疯牛病"
+        },
+        {
+          "key": "F",
+          "label": "肌营养不良症"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "属于分子病",
+          "answer": [
+            "C",
+            "F"
+          ],
+          "answerRaw": "C、F",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "属于构象病",
+          "answer": [
+            "D",
+            "B",
+            "E",
+            "A"
+          ],
+          "answerRaw": "D、B、E、A",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "分子病与构象病",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生化 蛋白质",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
+        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-08-03",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-08-04",
       "page": 4,
-      "title": "蛋白质水解与变性",
+      "title": "蛋白质：水解与变性的结构变化",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "破坏一级结构"
+        },
+        {
+          "key": "B",
+          "label": "破坏空间结构"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "蛋白质水解破坏的结构",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "蛋白质变性破坏",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "蛋白质水解与变性",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生化 蛋白质",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
+        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-04"
+    },
+    {
+      "id": "bio-08-04-focus-2",
+      "page": 4,
+      "title": "蛋白质变性：理化性质",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -493,85 +621,46 @@
         },
         {
           "key": "C",
-          "label": "双缩脲反应"
-        },
-        {
-          "key": "D",
-          "label": "破坏一级结构"
-        },
-        {
-          "key": "E",
           "label": "溶解度↓"
         },
         {
-          "key": "F",
+          "key": "D",
           "label": "生物活性↓"
         },
         {
-          "key": "G",
+          "key": "E",
           "label": "易被蛋白酶水解"
         },
         {
-          "key": "H",
-          "label": "酶原激活"
-        },
-        {
-          "key": "I",
-          "label": "破坏空间结构"
+          "key": "F",
+          "label": "肽键大量断裂"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "蛋白质水解破坏的结构层次及有限水解的生理实例",
-          "answerRaw": "D、H",
-          "answer": [
-            "D",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "蛋白质变性破坏",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
           "text": "蛋白质变性后的性质改变",
-          "answerRaw": "A、E、F、G、B",
           "answer": [
             "A",
+            "C",
+            "D",
             "E",
-            "F",
-            "G",
             "B"
           ],
+          "answerRaw": "A、C、D、E、B",
           "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "用于检测肽键、与蛋白质水解不是同一概念的显色反应",
-          "answer": [
-            "C"
-          ],
-          "answerRaw": "C",
-          "answerMode": "单选"
         }
       ],
       "sourceText": "蛋白质水解与变性",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-08"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "lectureNumber": 8,
@@ -582,8 +671,9 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-04"
     },
     {
       "id": "bio-08-05",
@@ -682,56 +772,32 @@
     {
       "id": "bio-08-06",
       "page": 6,
-      "title": "层析、电泳与等电点",
+      "title": "蛋白质分离：影响分离行为的因素",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "γ球蛋白"
-        },
-        {
-          "key": "B",
           "label": "分子量小"
         },
         {
-          "key": "C",
+          "key": "B",
           "label": "分子量大"
         },
         {
-          "key": "D",
+          "key": "C",
           "label": "球状"
         },
         {
-          "key": "E",
+          "key": "D",
           "label": "溶液离子强度小"
         },
         {
-          "key": "F",
-          "label": "分子量"
-        },
-        {
-          "key": "G",
-          "label": "净电荷为零（不是分子中没有带电基团）"
-        },
-        {
-          "key": "H",
-          "label": "白蛋白"
-        },
-        {
-          "key": "I",
-          "label": "带正电"
-        },
-        {
-          "key": "J",
-          "label": "带负电"
-        },
-        {
-          "key": "K",
+          "key": "E",
           "label": "电荷量小"
         },
         {
-          "key": "L",
+          "key": "F",
           "label": "电荷量大"
         }
       ],
@@ -739,97 +805,44 @@
         {
           "number": 1,
           "text": "凝胶过滤 / 分子筛层析中先洗脱的分子特点",
-          "answerRaw": "C",
           "answer": [
-            "C"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 2,
           "text": "在相同洗脱条件下，离子交换层析中与固定相结合较弱、先洗脱的蛋白质通常具有的特点",
-          "answerRaw": "K",
           "answer": [
-            "K"
+            "E"
           ],
+          "answerRaw": "E",
           "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "电泳中跑得较快的因素",
-          "answerRaw": "B、D、E、L",
           "answer": [
-            "B",
+            "A",
+            "C",
             "D",
-            "E",
-            "L"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "血清蛋白电泳中跑得最快的蛋白",
-          "answerRaw": "H",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "血清蛋白电泳中跑得最慢的蛋白",
-          "answerRaw": "A",
-          "answer": [
-            "A"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "SDS-PAGE 的主要分离依据",
-          "answerRaw": "F",
-          "answer": [
             "F"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
-          "text": "pH＜pI 时蛋白质所带电荷",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "pH＝pI 时蛋白质所带电荷",
-          "answerRaw": "G",
-          "answer": [
-            "G"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 9,
-          "text": "pH＞pI 时蛋白质所带电荷",
-          "answerRaw": "J",
-          "answer": [
-            "J"
-          ],
-          "answerMode": "单选"
+          "answerRaw": "A、C、D、F",
+          "answerMode": "多选"
         }
       ],
       "sourceText": "层析、电泳与等电点",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-08"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "lectureNumber": 8,
@@ -840,146 +853,56 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-06"
     },
     {
-      "id": "bio-08-07",
-      "page": 7,
-      "title": "蛋白质消化、体内降解与营养价值",
+      "id": "bio-08-06-focus-2",
+      "page": 6,
+      "title": "血清蛋白电泳：迁移速度",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "蛋白酶体"
+          "label": "γ球蛋白"
         },
         {
           "key": "B",
-          "label": "胰蛋白酶"
-        },
-        {
-          "key": "C",
-          "label": "长寿蛋白质"
-        },
-        {
-          "key": "D",
-          "label": "必需氨基酸"
-        },
-        {
-          "key": "E",
-          "label": "ATP"
-        },
-        {
-          "key": "F",
-          "label": "溶酶体"
-        },
-        {
-          "key": "G",
-          "label": "蛋白质在体内的利用率"
-        },
-        {
-          "key": "H",
-          "label": "糜蛋白酶"
-        },
-        {
-          "key": "I",
-          "label": "短寿蛋白质"
-        },
-        {
-          "key": "J",
-          "label": "弹性蛋白酶"
-        },
-        {
-          "key": "K",
-          "label": "外源性蛋白质"
-        },
-        {
-          "key": "L",
-          "label": "泛素"
-        },
-        {
-          "key": "M",
-          "label": "膜蛋白"
-        },
-        {
-          "key": "N",
-          "label": "异常蛋白质"
+          "label": "白蛋白"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "蛋白酶体降解：①需要 ②主要降解",
-          "answerRaw": "I、E、N、L",
+          "text": "血清蛋白电泳中跑得最快的蛋白",
           "answer": [
-            "I",
-            "E",
-            "N",
-            "L"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "溶酶体主要降解",
-          "answerRaw": "M、K、C",
+          "text": "血清蛋白电泳中跑得最慢的蛋白",
           "answer": [
-            "M",
-            "K",
-            "C"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "属于蛋白质体内降解途径",
-          "answerRaw": "F、A",
-          "answer": [
-            "F",
             "A"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "属于内肽酶的胰腺蛋白酶",
-          "answerRaw": "J、B、H",
-          "answer": [
-            "J",
-            "B",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "食物蛋白质营养价值指",
-          "answerRaw": "G",
-          "answer": [
-            "G"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "蛋白质营养价值与其含量密切相关",
-          "answerRaw": "D",
-          "answer": [
-            "D"
-          ],
+          "answerRaw": "A",
           "answerMode": "单选"
         }
       ],
-      "sourceText": "蛋白质消化、体内降解与营养价值",
+      "sourceText": "层析、电泳与等电点",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-08"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "lectureNumber": 8,
@@ -989,7 +912,158 @@
         "title": "第 08 讲《生化 蛋白质》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-06"
+    },
+    {
+      "id": "bio-08-06-focus-3",
+      "page": 6,
+      "title": "蛋白质：pH与电荷",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "净电荷为零（不是分子中没有带电基团）"
+        },
+        {
+          "key": "B",
+          "label": "带正电"
+        },
+        {
+          "key": "C",
+          "label": "带负电"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "pH＜pI 时蛋白质所带电荷",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "pH＝pI 时蛋白质所带电荷",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "pH＞pI 时蛋白质所带电荷",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "层析、电泳与等电点",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生化 蛋白质",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
+        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-08-06"
+    },
+    {
+      "id": "bio-08-07",
+      "page": 7,
+      "title": "细胞内蛋白质降解：底物类型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "长寿蛋白质"
+        },
+        {
+          "key": "B",
+          "label": "短寿蛋白质"
+        },
+        {
+          "key": "C",
+          "label": "外源性蛋白质"
+        },
+        {
+          "key": "D",
+          "label": "膜蛋白"
+        },
+        {
+          "key": "E",
+          "label": "异常蛋白质"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "泛素-蛋白酶体途径主要降解哪些蛋白质？",
+          "answer": [
+            "B",
+            "E"
+          ],
+          "answerRaw": "B、E",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "溶酶体主要降解",
+          "answer": [
+            "D",
+            "C",
+            "A"
+          ],
+          "answerRaw": "D、C、A",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "蛋白质消化、体内降解与营养价值",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生化 蛋白质",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
+        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-08-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-08-08",

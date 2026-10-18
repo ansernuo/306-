@@ -4,15 +4,17 @@
     "sourceLabel": "胆色素代谢与生物转化学成选择题（胆色素代谢）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 5,
-    "stemCount": 25,
+    "groupCount": 6,
+    "stemCount": 28,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture10_11.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 10 讲《生化 胆色素代谢》范围内题目；选项已逐组打散，答案按讲义与思维导图复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -48,7 +50,7 @@
       "page": 5,
       "image": "",
       "topic": "胆色素代谢与生物转化",
-      "searchText": "遗传性胆红素代谢障碍"
+      "searchText": "遗传性胆红素代谢障碍：缺陷环节 遗传性胆红素代谢障碍：血胆红素变化"
     }
   ],
   "groups": [
@@ -348,19 +350,6 @@
             "G"
           ],
           "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "能够生成胆红素的物质",
-          "answerRaw": "E、L、P、B、C",
-          "answer": [
-            "E",
-            "L",
-            "P",
-            "B",
-            "C"
-          ],
-          "answerMode": "多选"
         }
       ],
       "sourceText": "胆色素的来源、组成与尿三胆",
@@ -381,7 +370,10 @@
         "title": "第 10 讲《生化 胆色素代谢》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-10-02"
     },
     {
       "id": "bio-10-03",
@@ -732,7 +724,7 @@
     {
       "id": "bio-10-05",
       "page": 5,
-      "title": "遗传性胆红素代谢障碍",
+      "title": "遗传性胆红素代谢障碍：缺陷环节",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -742,96 +734,65 @@
         },
         {
           "key": "B",
-          "label": "肠肝循环障碍"
-        },
-        {
-          "key": "C",
-          "label": "CB↑"
-        },
-        {
-          "key": "D",
           "label": "肝细胞摄取/再摄取及贮存障碍（OATP1B1/OATP1B3缺陷）"
         },
         {
-          "key": "E",
-          "label": "CB、UCB 均不变"
-        },
-        {
-          "key": "F",
+          "key": "C",
           "label": "胆红素排泄障碍"
         },
         {
-          "key": "G",
-          "label": "胆红素生成障碍"
-        },
-        {
-          "key": "H",
+          "key": "D",
           "label": "胆红素结合障碍"
-        },
-        {
-          "key": "I",
-          "label": "UCB↑"
-        },
-        {
-          "key": "J",
-          "label": "CB升高为主，UCB也可升高"
-        },
-        {
-          "key": "K",
-          "label": "胆红素降低"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "Gilbert 综合征",
-          "answerRaw": "A、I",
+          "text": "Gilbert综合征的主要缺陷环节",
           "answer": [
-            "A",
-            "I"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "Crigler-Najjar 综合征",
-          "answerRaw": "H、I",
+          "text": "Crigler-Najjar综合征的缺陷环节",
           "answer": [
-            "H",
-            "I"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "Rotor 综合征",
-          "answerRaw": "D、J",
+          "text": "Rotor综合征的缺陷环节",
           "answer": [
-            "D",
-            "J"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "Dubin-Johnson 综合征",
-          "answerRaw": "F、C",
+          "text": "Dubin-Johnson综合征的缺陷环节",
           "answer": [
-            "F",
             "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "遗传性胆红素代谢障碍",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "胆色素代谢与生物转化",
       "lectureIds": [
         "lecture-10"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-10",
         "lectureNumber": 10,
@@ -842,8 +803,99 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-10-05"
+    },
+    {
+      "id": "bio-10-05-focus-2",
+      "page": 5,
+      "title": "遗传性胆红素代谢障碍：血胆红素变化",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "CB↑"
+        },
+        {
+          "key": "B",
+          "label": "CB、UCB 均不变"
+        },
+        {
+          "key": "C",
+          "label": "UCB↑"
+        },
+        {
+          "key": "D",
+          "label": "CB升高为主，UCB也可升高"
+        },
+        {
+          "key": "E",
+          "label": "胆红素降低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "Gilbert综合征的血胆红素变化",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "Crigler-Najjar综合征的血胆红素变化",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "Rotor综合征的血胆红素变化",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "Dubin-Johnson综合征的血胆红素变化",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "遗传性胆红素代谢障碍",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生化 胆色素代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-10-page-02.webp",
+        "title": "第 10 讲《生化 胆色素代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-10-05"
     }
   ],
   "lectures": [

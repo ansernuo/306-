@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 09 讲学成选择题（核苷酸代谢）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 8,
-    "stemCount": 43,
+    "groupCount": 15,
+    "stemCount": 54,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture9.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 09 讲《核苷酸代谢》范围内题目；选项已重新打散，答案按讲义与思维导图复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -42,19 +44,19 @@
       "page": 4,
       "image": "",
       "topic": "核苷酸代谢",
-      "searchText": "嘌呤核苷酸：补救合成与分解"
+      "searchText": "嘌呤代谢：反应与催化酶"
     },
     {
       "page": 5,
       "image": "",
       "topic": "核苷酸代谢",
-      "searchText": "嘧啶核苷酸：分解、补救合成与 dTMP"
+      "searchText": "嘧啶分解：产物 嘧啶核苷补救合成：相关酶 dTMP合成：一碳基团供体"
     },
     {
       "page": 6,
       "image": "",
       "topic": "核苷酸代谢",
-      "searchText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ"
+      "searchText": "CPSⅠ与Ⅱ：代谢途径 CPSⅠ与Ⅱ：氮源 CPSⅠ与Ⅱ：亚细胞定位 CPSⅠ与Ⅱ：NAG依赖性"
     },
     {
       "page": 7,
@@ -66,7 +68,7 @@
       "page": 8,
       "image": "",
       "topic": "核苷酸代谢",
-      "searchText": "核苷酸抗代谢物：作用酶与抑制过程"
+      "searchText": "核苷酸抗代谢物：靶酶 核苷酸抗代谢物：受抑制的过程 6-MP：代谢活化酶"
     }
   ],
   "groups": [
@@ -446,7 +448,7 @@
     {
       "id": "bio-09-04",
       "page": 4,
-      "title": "嘌呤核苷酸：补救合成与分解",
+      "title": "嘌呤代谢：反应与催化酶",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -456,102 +458,74 @@
         },
         {
           "key": "B",
-          "label": "腺苷+ATP→AMP+ADP"
-        },
-        {
-          "key": "C",
           "label": "黄嘌呤氧化酶"
         },
         {
-          "key": "D",
-          "label": "尿酸"
-        },
-        {
-          "key": "E",
-          "label": "Lesch-Nyhan 综合征（自毁容貌综合征）"
-        },
-        {
-          "key": "F",
-          "label": "PRPP + A → AMP"
-        },
-        {
-          "key": "G",
-          "label": "主要在脑、骨髓的胞浆"
-        },
-        {
-          "key": "H",
-          "label": "PRPP + I/G → IMP/GMP"
-        },
-        {
-          "key": "I",
+          "key": "C",
           "label": "HGPRT（次黄嘌呤-鸟嘌呤磷酸核糖转移酶）"
         },
         {
-          "key": "J",
+          "key": "D",
           "label": "腺苷激酶"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "嘌呤核苷酸补救合成的主要部位",
-          "answerRaw": "G",
+          "text": "催化腺嘌呤与PRPP生成AMP的酶",
           "answer": [
-            "G"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "腺嘌呤补救合成：①反应 ②所需酶",
-          "answerRaw": "A、F",
+          "text": "催化次黄嘌呤、鸟嘌呤补救合成的酶",
           "answer": [
-            "A",
-            "F"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "次黄嘌呤 / 鸟嘌呤补救合成：①反应 ②所需酶 ③酶缺失导致的疾病",
-          "answerRaw": "E、H、I",
+          "text": "催化腺苷磷酸化为AMP的酶",
           "answer": [
-            "E",
-            "H",
-            "I"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "腺嘌呤核苷补救合成：①反应 ②所需酶",
-          "answerRaw": "J、B",
+          "text": "催化次黄嘌呤、黄嘌呤氧化并生成尿酸的酶",
           "answer": [
-            "J",
             "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 5,
-          "text": "嘌呤核苷酸分解：①产物 ②酶",
-          "answerRaw": "D、C",
+          "text": "Lesch-Nyhan综合征缺陷的酶",
           "answer": [
-            "D",
             "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "嘌呤核苷酸：补救合成与分解",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核苷酸代谢",
       "lectureIds": [
         "lecture-09"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-09",
         "lectureNumber": 9,
@@ -562,13 +536,14 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-09-04"
     },
     {
       "id": "bio-09-05",
       "page": 5,
-      "title": "嘧啶核苷酸：分解、补救合成与 dTMP",
+      "title": "嘧啶分解：产物",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -578,117 +553,51 @@
         },
         {
           "key": "B",
-          "label": "恶性肿瘤的胸苷激酶活性明显升高、并与恶性程度相关"
-        },
-        {
-          "key": "C",
           "label": "β-氨基异丁酸"
         },
         {
-          "key": "D",
-          "label": "嘧啶磷酸核糖转移酶"
-        },
-        {
-          "key": "E",
-          "label": "SAM"
-        },
-        {
-          "key": "F",
-          "label": "N⁵,N¹⁰-CH₂-FH₄"
-        },
-        {
-          "key": "G",
+          "key": "C",
           "label": "NH₃"
         },
         {
-          "key": "H",
-          "label": "尿苷/胸苷+ATP→UMP/dTMP+ADP"
-        },
-        {
-          "key": "I",
+          "key": "D",
           "label": "CO₂"
-        },
-        {
-          "key": "J",
-          "label": "尿苷/胸苷激酶"
-        },
-        {
-          "key": "K",
-          "label": "PRPP + U/T/乳清酸"
         }
       ],
       "stems": [
         {
           "number": 1,
           "text": "胞嘧啶核苷酸的分解产物",
-          "answerRaw": "I、A、G",
           "answer": [
-            "I",
+            "D",
             "A",
-            "G"
+            "C"
           ],
+          "answerRaw": "D、A、C",
           "answerMode": "多选"
         },
         {
           "number": 2,
           "text": "胸腺嘧啶核苷酸的分解产物",
-          "answerRaw": "I、C、G",
           "answer": [
-            "I",
-            "C",
-            "G"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "嘧啶碱基 / 乳清酸补救合成：①反应 ②所需酶",
-          "answerRaw": "K、D",
-          "answer": [
-            "K",
-            "D"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "嘧啶核苷补救合成：①反应 ②所需酶 ③胸苷激酶的肿瘤意义",
-          "answerRaw": "B、H、J",
-          "answer": [
+            "D",
             "B",
-            "H",
-            "J"
+            "C"
           ],
+          "answerRaw": "D、B、C",
           "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "dTMP 所需的甲基来源",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "dTMP 所需的甲基不由其提供",
-          "answerRaw": "E",
-          "answer": [
-            "E"
-          ],
-          "answerMode": "单选"
         }
       ],
       "sourceText": "嘧啶核苷酸：分解、补救合成与 dTMP",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核苷酸代谢",
       "lectureIds": [
         "lecture-09"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-09",
         "lectureNumber": 9,
@@ -699,94 +608,51 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-09-05"
     },
     {
-      "id": "bio-09-06",
-      "page": 6,
-      "title": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "id": "bio-09-05-focus-2",
+      "page": 5,
+      "title": "嘧啶核苷补救合成：相关酶",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "不需要 AGA 激活"
+          "label": "嘧啶磷酸核糖转移酶"
         },
         {
           "key": "B",
-          "label": "嘧啶核苷酸从头合成"
+          "label": "尿苷/胸苷激酶"
         },
         {
           "key": "C",
-          "label": "Gln"
-        },
-        {
-          "key": "D",
-          "label": "所有器官的胞浆（肝活性最高）"
-        },
-        {
-          "key": "E",
-          "label": "NH₃"
-        },
-        {
-          "key": "F",
-          "label": "反应细胞增殖程度"
-        },
-        {
-          "key": "G",
-          "label": "尿素循环"
-        },
-        {
-          "key": "H",
-          "label": "仅肝的线粒体"
-        },
-        {
-          "key": "I",
-          "label": "必须被 AGA 激活"
-        },
-        {
-          "key": "J",
-          "label": "反应肝细胞分化程度"
+          "label": "胸苷酸合酶"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "氨基甲酰磷酸合成酶Ⅰ：①催化 ②分布 ③氮源 ④AGA ⑤意义",
-          "answerRaw": "I、G、E、H、J",
+          "text": "尿苷或胸苷与ATP反应生成核苷酸时所需的酶",
           "answer": [
-            "I",
-            "G",
-            "E",
-            "H",
-            "J"
+            "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "氨基甲酰磷酸合成酶Ⅱ：①催化 ②分布 ③氮源 ④AGA ⑤意义",
-          "answerRaw": "B、F、A、D、C",
-          "answer": [
-            "B",
-            "F",
-            "A",
-            "D",
-            "C"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
-      "sourceText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "sourceText": "嘧啶核苷酸：分解、补救合成与 dTMP",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核苷酸代谢",
       "lectureIds": [
         "lecture-09"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-09",
         "lectureNumber": 9,
@@ -796,7 +662,301 @@
         "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-09-05"
+    },
+    {
+      "id": "bio-09-05-focus-3",
+      "page": 5,
+      "title": "dTMP合成：一碳基团供体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "SAM"
+        },
+        {
+          "key": "B",
+          "label": "N⁵,N¹⁰-CH₂-FH₄"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "dUMP生成dTMP时的直接一碳基团供体",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "嘧啶核苷酸：分解、补救合成与 dTMP",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-09-page-02.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-09-05"
+    },
+    {
+      "id": "bio-09-06",
+      "page": 6,
+      "title": "CPSⅠ与Ⅱ：代谢途径",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "嘧啶核苷酸从头合成"
+        },
+        {
+          "key": "B",
+          "label": "尿素循环"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "CPSⅠ参与的代谢途径",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "CPSⅡ参与的代谢途径",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-09-page-02.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-09-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-09-06-focus-2",
+      "page": 6,
+      "title": "CPSⅠ与Ⅱ：氮源",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Gln"
+        },
+        {
+          "key": "B",
+          "label": "NH₃"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "CPSⅠ使用的氮源",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "CPSⅡ使用的氮源",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-09-page-02.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-09-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-09-06-focus-3",
+      "page": 6,
+      "title": "CPSⅠ与Ⅱ：亚细胞定位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胞质"
+        },
+        {
+          "key": "B",
+          "label": "线粒体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "肝细胞中CPSⅠ的定位",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "肝细胞中CPSⅡ的定位",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-09-page-02.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-09-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-09-06-focus-4",
+      "page": 6,
+      "title": "CPSⅠ与Ⅱ：NAG依赖性",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "不需要NAG激活"
+        },
+        {
+          "key": "B",
+          "label": "需要NAG激活"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "CPSⅠ对N-乙酰谷氨酸的依赖性",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "CPSⅡ对N-乙酰谷氨酸的依赖性",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-09-page-02.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-09-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-09-07",
@@ -907,188 +1067,106 @@
     {
       "id": "bio-09-08",
       "page": 8,
-      "title": "核苷酸抗代谢物：作用酶与抑制过程",
+      "title": "核苷酸抗代谢物：靶酶",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "category": "结构类似物",
-          "label": "谷氨酰胺"
-        },
-        {
-          "key": "B",
-          "category": "结构类似物",
-          "label": "尿嘧啶"
-        },
-        {
-          "key": "C",
-          "category": "结构类似物",
-          "label": "叶酸"
-        },
-        {
-          "key": "D",
-          "category": "结构类似物",
-          "label": "次黄嘌呤"
-        },
-        {
-          "key": "E",
-          "category": "结构类似物",
-          "label": "胞苷"
-        },
-        {
-          "key": "F",
-          "category": "作用酶",
           "label": "胸苷酸合酶"
         },
         {
-          "key": "G",
-          "category": "作用酶",
+          "key": "B",
           "label": "DNA聚合酶"
         },
         {
-          "key": "H",
-          "category": "作用酶",
+          "key": "C",
           "label": "CPS-Ⅱ"
         },
         {
-          "key": "I",
-          "category": "作用酶",
-          "label": "HGPRT（代谢活化酶）"
-        },
-        {
-          "key": "J",
-          "category": "作用酶",
+          "key": "D",
           "label": "PRPP酰胺转移酶"
         },
         {
-          "key": "K",
-          "category": "作用酶",
+          "key": "E",
           "label": "二氢叶酸还原酶（DHFR）"
         },
         {
-          "key": "L",
-          "category": "作用酶",
+          "key": "F",
           "label": "黄嘌呤氧化酶"
         },
         {
-          "key": "M",
-          "category": "作用酶",
+          "key": "G",
           "label": "APRT"
-        },
-        {
-          "key": "N",
-          "category": "抑制过程",
-          "label": "嘌呤核苷酸从头合成"
-        },
-        {
-          "key": "O",
-          "category": "抑制过程",
-          "label": "嘌呤分解生成尿酸"
-        },
-        {
-          "key": "P",
-          "category": "抑制过程",
-          "label": "DNA链延长"
-        },
-        {
-          "key": "Q",
-          "category": "抑制过程",
-          "label": "dTMP合成（dUMP → dTMP）"
-        },
-        {
-          "key": "R",
-          "category": "抑制过程",
-          "label": "嘧啶核苷酸从头合成"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "6-巯基嘌呤（6-MP；酶项含活化酶和主要靶酶）",
-          "answerRaw": "D、I、J、N",
+          "text": "6-MP活性代谢物抑制嘌呤从头合成时的靶酶",
           "answer": [
-            "D",
-            "I",
-            "J",
-            "N"
+            "D"
           ],
-          "answerMode": "多选",
-          "explanation": "6-MP类似次黄嘌呤，经HGPRT活化为硫代IMP；其代谢物抑制PRPP酰胺转移酶等，使嘌呤核苷酸从头合成减少。HGPRT是活化酶，不是这里的抑制靶酶。"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "别嘌呤醇（降尿酸的主要作用）",
-          "answerRaw": "D、L、O",
+          "text": "别嘌呤醇降低尿酸生成的靶酶",
           "answer": [
-            "D",
-            "L",
-            "O"
+            "F"
           ],
-          "answerMode": "多选",
-          "explanation": "别嘌呤醇类似次黄嘌呤，通过抑制黄嘌呤氧化酶，减少嘌呤分解产生尿酸。"
+          "answerRaw": "F",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "阿糖胞苷（Ara-C；活性三磷酸代谢物的主要作用）",
-          "answerRaw": "E、G、P",
+          "text": "阿糖胞苷活性三磷酸代谢物的主要靶酶",
           "answer": [
-            "E",
-            "G",
-            "P"
+            "B"
           ],
-          "answerMode": "多选",
-          "explanation": "阿糖胞苷类似胞苷，转化为Ara-CTP后主要抑制DNA聚合酶，并干扰DNA链延长。"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "5-氟尿嘧啶（5-FU；抑制dTMP合成的作用）",
-          "answerRaw": "B、F、Q",
+          "text": "5-FU活性代谢物抑制dTMP生成的靶酶",
           "answer": [
-            "B",
-            "F",
-            "Q"
+            "A"
           ],
-          "answerMode": "多选",
-          "explanation": "5-FU是尿嘧啶类似物，转化为FdUMP后抑制胸苷酸合酶，阻断dUMP转变为dTMP。"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 5,
-          "text": "甲氨蝶呤（MTX）",
-          "answerRaw": "C、K、N、Q",
+          "text": "甲氨蝶呤的主要靶酶",
           "answer": [
-            "C",
-            "K",
-            "N",
-            "Q"
+            "E"
           ],
-          "answerMode": "多选",
-          "explanation": "MTX类似叶酸，抑制二氢叶酸还原酶，使四氢叶酸再生受阻，进而抑制依赖一碳单位的嘌呤核苷酸及dTMP合成。嘧啶环的从头合成不依赖一碳单位。"
+          "answerRaw": "E",
+          "answerMode": "单选"
         },
         {
           "number": 6,
-          "text": "氮杂丝氨酸（从所列选项中选择）",
-          "answerRaw": "A、H、J、N、R",
+          "text": "氮杂丝氨酸可抑制的酶",
           "answer": [
-            "A",
-            "H",
-            "J",
-            "N",
-            "R"
+            "C",
+            "D"
           ],
-          "answerMode": "多选",
-          "explanation": "氮杂丝氨酸是谷氨酰胺类似物，可抑制PRPP酰胺转移酶、CPS-Ⅱ等以谷氨酰胺为氮源的酶，抑制嘌呤、嘧啶核苷酸从头合成。"
+          "answerRaw": "C、D",
+          "answerMode": "多选"
         }
       ],
       "sourceText": "核苷酸抗代谢物：作用酶与抑制过程",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核苷酸代谢",
       "lectureIds": [
         "lecture-09"
       ],
-      "optionShuffleVersion": 2,
       "lectureEvidence": {
         "lectureId": "lecture-09",
         "lectureNumber": 9,
@@ -1103,10 +1181,182 @@
         "sourceName": "27生化跟课版合集【带导图】.pdf",
         "method": "从用户提供的合集PDF第80页提取原页；题目区分代谢活化酶和抑制靶酶，5-FU类似物及阿糖胞苷主要靶点沿用已核对的机制。"
       },
-      "answerRevision": "bio-09-antimetabolites-20261017-v2",
-      "reviewedAt": "2026-10-17",
-      "stackedOptionCategories": true,
-      "answerLayout": "rows"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-09-08"
+    },
+    {
+      "id": "bio-09-08-focus-2",
+      "page": 8,
+      "title": "核苷酸抗代谢物：受抑制的过程",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "嘌呤核苷酸从头合成"
+        },
+        {
+          "key": "B",
+          "label": "嘌呤分解生成尿酸"
+        },
+        {
+          "key": "C",
+          "label": "DNA链延长"
+        },
+        {
+          "key": "D",
+          "label": "dTMP合成（dUMP → dTMP）"
+        },
+        {
+          "key": "E",
+          "label": "嘧啶核苷酸从头合成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "6-MP主要抑制哪一合成过程？",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "别嘌呤醇降低尿酸时抑制哪一过程？",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "阿糖胞苷主要抑制哪一过程？",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "5-FU通过胸苷酸合酶主要抑制哪一过程？",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "甲氨蝶呤使还原型叶酸不足，可抑制哪些过程？",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerRaw": "A、D",
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "氮杂丝氨酸可抑制哪些核苷酸从头合成过程？",
+          "answer": [
+            "A",
+            "E"
+          ],
+          "answerRaw": "A、E",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "核苷酸抗代谢物：作用酶与抑制过程",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 6,
+        "pageLabel": "书内第65页 · 合集PDF第80页",
+        "image": "biochemistry/lecture-pages/lecture-09-page-06.webp",
+        "title": "核苷酸抗代谢物 · 书内第65页",
+        "description": "六种抗代谢物的类似物、作用酶与抑制过程。",
+        "sourcePdfPage": 80,
+        "sourceBookPage": 65,
+        "sourceName": "27生化跟课版合集【带导图】.pdf",
+        "method": "从用户提供的合集PDF第80页提取原页；题目区分代谢活化酶和抑制靶酶，5-FU类似物及阿糖胞苷主要靶点沿用已核对的机制。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-09-08"
+    },
+    {
+      "id": "bio-09-08-focus-3",
+      "page": 8,
+      "title": "6-MP：代谢活化酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "HGPRT"
+        },
+        {
+          "key": "B",
+          "label": "PRPP酰胺转移酶"
+        },
+        {
+          "key": "C",
+          "label": "APRT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "将6-MP转变为硫代IMP所需的补救合成酶",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "核苷酸抗代谢物：作用酶与抑制过程",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 6,
+        "pageLabel": "书内第65页 · 合集PDF第80页",
+        "image": "biochemistry/lecture-pages/lecture-09-page-06.webp",
+        "title": "核苷酸抗代谢物 · 书内第65页",
+        "description": "六种抗代谢物的类似物、作用酶与抑制过程。",
+        "sourcePdfPage": 80,
+        "sourceBookPage": 65,
+        "sourceName": "27生化跟课版合集【带导图】.pdf",
+        "method": "从用户提供的合集PDF第80页提取原页；题目区分代谢活化酶和抑制靶酶，5-FU类似物及阿糖胞苷主要靶点沿用已核对的机制。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-09-08"
     }
   ],
   "lectures": [

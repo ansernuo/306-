@@ -15,8 +15,8 @@ test('all 25 biochemistry exam questions retain original numbering, four choices
   assert.deepEqual(data.groups.map(g => g.stems[0].number), Array.from({ length: 25 }, (_, i) => i + 1))
   assert.deepEqual(data.groups.filter(g => g.kind === 'X').map(g => g.stems[0].number), multiple)
   const all = [...banks.flatMap(b => b.groups), ...data.groups]
-  assert.equal(new Set(all.map(g => g.id)).size, 232)
-  assert.equal(all.flatMap(g => g.stems).length, 1010)
+  assert.equal(new Set(all.map(g => g.id)).size, 336)
+  assert.equal(all.flatMap(g => g.stems).length, 1005)
   for (const g of data.groups) {
     const s = g.stems[0]
     assert.equal(g.stems.length, 1)

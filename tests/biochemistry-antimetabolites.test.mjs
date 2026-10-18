@@ -4,42 +4,48 @@ import test from 'node:test'
 
 const bank = JSON.parse(readFileSync(new URL('../src/data/biochemistry-lecture9-data.json', import.meta.url)))
 const group = bank.groups.find(g => g.id === 'bio-09-08')
-const labels = n => group.stems[n - 1].answer.map(k => group.options.find(o => o.key === k).label)
+const processes = bank.groups.find(g => g.id === 'bio-09-08-focus-2')
+const activation = bank.groups.find(g => g.id === 'bio-09-08-focus-3')
+const labels = (g, n) => g.stems[n - 1].answer.map(k => g.options.find(o => o.key === k).label)
 
-test('antimetabolites keep six drugs with three clear, fully selectable option sections', () => {
-  assert.equal(bank.groups.length, 8)
-  assert.equal(bank.groups.flatMap(g => g.stems).length, 43)
+test('six antimetabolites have separate target and process questions', () => {
+  assert.equal(bank.groups.length, 15)
+  assert.equal(bank.groups.flatMap(g => g.stems).length, 54)
   assert.equal(group.stems.length, 6)
-  assert.equal(group.stackedOptionCategories, true)
-  assert.equal(group.answerLayout, 'rows')
-  assert.deepEqual([...new Set(group.options.map(o => o.category))], ['结构类似物', '作用酶', '抑制过程'])
-  assert.deepEqual(group.options.map(o => o.key), Array.from({length: 18}, (_, i) => String.fromCharCode(65 + i)))
-  for (const s of group.stems) {
-    assert.ok(s.text.length < 45)
-    assert.equal(s.optionCategory, undefined, 'each drug must allow all three sections')
-    assert.equal(s.answerRaw, s.answer.join('、'))
-    assert.equal(s.answerMode, '多选')
-    assert.deepEqual(new Set(s.answer.map(k => group.options.find(o => o.key === k).category)), new Set(['结构类似物', '作用酶', '抑制过程']))
+  assert.equal(processes.stems.length, 6)
+  assert.equal(activation.stems.length, 1)
+  for (const g of [group, processes, activation]) {
+    assert.equal(g.sourceGroupId, 'bio-09-08')
+    assert.equal(g.answerRevision, 'bio-focused-20261017-v1')
+    assert.ok(g.options.length <= 7)
+    for (const s of g.stems) {
+      assert.equal(s.answerRaw, s.answer.join('、'))
+      assert.equal(s.answerMode, s.answer.length > 1 ? '多选' : '单选')
+    }
   }
-  assert.doesNotMatch(group.options.map(o => o.label).join(' '), /合成嘌呤核苷酸的酶/)
-  assert.equal(group.answerRevision, 'bio-09-antimetabolites-20261017-v2')
+  assert.doesNotMatch(group.options.map(o => o.label).join(' '), /次黄嘌呤|嘌呤核苷酸从头合成|结构类似物/)
 })
 
-test('activation, targets and overlapping synthetic processes are distinguished', () => {
-  assert.deepEqual(labels(1), ['次黄嘌呤', 'HGPRT（代谢活化酶）', 'PRPP酰胺转移酶', '嘌呤核苷酸从头合成'])
-  assert.deepEqual(labels(2), ['次黄嘌呤', '黄嘌呤氧化酶', '嘌呤分解生成尿酸'])
-  assert.deepEqual(labels(3), ['胞苷', 'DNA聚合酶', 'DNA链延长'])
-  assert.deepEqual(labels(4), ['尿嘧啶', '胸苷酸合酶', 'dTMP合成（dUMP → dTMP）'])
-  assert.deepEqual(labels(5), ['叶酸', '二氢叶酸还原酶（DHFR）', '嘌呤核苷酸从头合成', 'dTMP合成（dUMP → dTMP）'])
-  assert.deepEqual(labels(6), ['谷氨酰胺', 'CPS-Ⅱ', 'PRPP酰胺转移酶', '嘌呤核苷酸从头合成', '嘧啶核苷酸从头合成'])
+test('activation, targets and overlapping processes remain correct after relettering', () => {
+  assert.deepEqual(labels(group, 1), ['PRPP酰胺转移酶'])
+  assert.deepEqual(labels(group, 2), ['黄嘌呤氧化酶'])
+  assert.deepEqual(labels(group, 3), ['DNA聚合酶'])
+  assert.deepEqual(labels(group, 4), ['胸苷酸合酶'])
+  assert.deepEqual(labels(group, 5), ['二氢叶酸还原酶（DHFR）'])
+  assert.deepEqual(labels(group, 6), ['CPS-Ⅱ', 'PRPP酰胺转移酶'])
+  assert.deepEqual(labels(activation, 1), ['HGPRT'])
+  assert.deepEqual(labels(processes, 5), ['嘌呤核苷酸从头合成', 'dTMP合成（dUMP → dTMP）'])
+  assert.deepEqual(labels(processes, 6), ['嘌呤核苷酸从头合成', '嘧啶核苷酸从头合成'])
 })
 
-test('antimetabolite reference opens the actual table, not the old page 3', () => {
-  const evidence = group.lectureEvidence
-  assert.equal(evidence.sourcePdfPage, 80)
-  assert.equal(evidence.sourceBookPage, 65)
-  assert.equal(evidence.page, 6)
-  assert.match(evidence.pageLabel, /65.*80/)
-  assert.match(evidence.image, /lecture-09-page-06.webp$/)
-  assert.ok(existsSync(new URL(`../public/${evidence.image}`, import.meta.url)))
+test('all split groups retain the corrected antimetabolite table reference', () => {
+  for (const g of [group, processes, activation]) {
+    const evidence = g.lectureEvidence
+    assert.equal(evidence.sourcePdfPage, 80)
+    assert.equal(evidence.sourceBookPage, 65)
+    assert.equal(evidence.page, 6)
+    assert.match(evidence.pageLabel, /65.*80/)
+    assert.match(evidence.image, /lecture-09-page-06.webp$/)
+    assert.ok(existsSync(new URL(`../public/${evidence.image}`, import.meta.url)))
+  }
 })

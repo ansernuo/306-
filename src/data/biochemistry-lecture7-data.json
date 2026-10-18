@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 07 讲学成选择题（氨基酸代谢与氨基酸）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 11,
-    "stemCount": 85,
+    "groupCount": 19,
+    "stemCount": 81,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture7_8.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 07 讲《生化 氨基酸代谢与氨基酸》范围内题目；选项已逐组打散，答案已按讲义复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -48,25 +50,25 @@
       "page": 5,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "氨基酸脱羧产物与作用"
+      "searchText": "氨基酸脱羧：生成的生物胺 生物胺：生理作用"
     },
     {
       "page": 6,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "脱羧、转氨基的辅因子与谷氨酸转氨反应"
+      "searchText": "脱羧反应：辅因子 转氨反应：ALT与AST 磷酸吡哆醛：依赖酶"
     },
     {
       "page": 7,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "转氨基与联合脱氨基"
+      "searchText": "联合脱氨基：组织差异 谷氨酸脱氢酶：辅酶"
     },
     {
       "page": 8,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "血氨运输与谷氨酰胺"
+      "searchText": "血氨运输：氨基酸载体"
     },
     {
       "page": 9,
@@ -78,13 +80,13 @@
       "page": 10,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "芳香族氨基酸、酪氨酸代谢与相关疾病"
+      "searchText": "芳香族氨基酸：紫外吸收 酪氨酸：代谢产物 氨基酸代谢病：缺陷酶"
     },
     {
       "page": 11,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "S-腺苷甲硫氨酸循环与一碳单位"
+      "searchText": "一碳基团：载体与供体 一碳单位：来源与合成用途 活性甲基：参与合成的物质"
     }
   ],
   "groups": [
@@ -832,30 +834,11 @@
           "answerMode": "多选"
         },
         {
-          "number": 4,
-          "text": "谷胱甘肽：①组成单位数 ②肽键数",
-          "answerRaw": "A、G",
-          "answer": [
-            "A",
-            "G"
-          ],
-          "answerMode": "多选"
-        },
-        {
           "number": 5,
           "text": "半胱氨酸经氧化、脱羧后可生成",
           "answerRaw": "I",
           "answer": [
             "I"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "牛磺酸参与构成",
-          "answerRaw": "L",
-          "answer": [
-            "L"
           ],
           "answerMode": "单选"
         }
@@ -879,131 +862,108 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-07-04"
     },
     {
       "id": "bio-07-05",
       "page": 5,
-      "title": "氨基酸脱羧产物与作用",
+      "title": "氨基酸脱羧：生成的生物胺",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "参与合成脑磷脂、胆碱"
-        },
-        {
-          "key": "B",
           "label": "γ-氨基丁酸（GABA）"
         },
         {
-          "key": "C",
+          "key": "B",
           "label": "组胺"
         },
         {
-          "key": "D",
+          "key": "C",
           "label": "5-羟色胺"
         },
         {
-          "key": "E",
-          "label": "增加血管通透性、收缩支气管平滑肌、促进胃酸分泌"
-        },
-        {
-          "key": "F",
+          "key": "D",
           "label": "牛磺酸"
         },
         {
-          "key": "G",
-          "label": "抑制性神经递质"
-        },
-        {
-          "key": "H",
-          "label": "参与构成结合型胆汁酸"
-        },
-        {
-          "key": "I",
-          "label": "参与调节细胞生长、可辅助诊断肿瘤"
-        },
-        {
-          "key": "J",
+          "key": "E",
           "label": "多胺（腐胺/亚精胺/精胺）"
         },
         {
-          "key": "K",
+          "key": "F",
           "label": "乙醇胺"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "谷氨酸：①脱羧产物 ②作用",
-          "answerRaw": "G、B",
+          "text": "谷氨酸脱羧的产物",
           "answer": [
-            "G",
-            "B"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "半胱氨酸：①经氧化、脱羧形成的产物 ②该产物的作用",
-          "answerRaw": "H、F",
+          "text": "半胱氨酸经氧化、脱羧形成的产物",
           "answer": [
-            "H",
-            "F"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "鸟氨酸：①脱羧产物 ②作用",
-          "answerRaw": "J、I",
+          "text": "鸟氨酸脱羧形成并进一步衍生的多胺",
           "answer": [
-            "J",
-            "I"
+            "E"
           ],
-          "answerMode": "多选"
+          "answerRaw": "E",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "组氨酸：①脱羧产物 ②作用",
-          "answerRaw": "E、C",
+          "text": "组氨酸脱羧的产物",
           "answer": [
-            "E",
-            "C"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 5,
           "text": "色氨酸先羟化、再脱羧形成的生物胺",
-          "answerRaw": "D",
           "answer": [
-            "D"
+            "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
           "number": 6,
-          "text": "丝氨酸：①脱羧产物 ②作用",
-          "answerRaw": "A、K",
+          "text": "丝氨酸脱羧的产物",
           "answer": [
-            "A",
-            "K"
+            "F"
           ],
-          "answerMode": "多选"
+          "answerRaw": "F",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "氨基酸脱羧产物与作用",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-07"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "lectureNumber": 7,
@@ -1014,13 +974,173 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-07-05"
+    },
+    {
+      "id": "bio-07-05-focus-2",
+      "page": 5,
+      "title": "生物胺：生理作用",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "参与合成脑磷脂、胆碱"
+        },
+        {
+          "key": "B",
+          "label": "增加血管通透性、收缩支气管平滑肌、促进胃酸分泌"
+        },
+        {
+          "key": "C",
+          "label": "抑制性神经递质"
+        },
+        {
+          "key": "D",
+          "label": "参与构成结合型胆汁酸"
+        },
+        {
+          "key": "E",
+          "label": "参与调节细胞生长、可辅助诊断肿瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "γ-氨基丁酸的主要作用",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "牛磺酸参与的过程",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "多胺的作用",
+          "answer": [
+            "E"
+          ],
+          "answerRaw": "E",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "组胺的作用",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "乙醇胺参与的过程",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "氨基酸脱羧产物与作用",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-07-page-02.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-07-05"
     },
     {
       "id": "bio-07-06",
       "page": 6,
-      "title": "脱羧、转氨基的辅因子与谷氨酸转氨反应",
+      "title": "脱羧反应：辅因子",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "磷酸吡哆醛（维生素B6）"
+        },
+        {
+          "key": "B",
+          "label": "焦磷酸硫胺素（维生素B1）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "氨基酸脱羧基的辅因子",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "酮酸（如丙酮酸、α-酮戊二酸）脱羧基的辅因子",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "脱羧、转氨基的辅因子与谷氨酸转氨反应",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-07-page-02.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-07-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-07-06-focus-2",
+      "page": 6,
+      "title": "转氨反应：ALT与AST",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -1031,127 +1151,38 @@
         {
           "key": "B",
           "label": "谷氨酸+草酰乙酸→α-酮戊二酸+天冬氨酸"
-        },
-        {
-          "key": "C",
-          "label": "肝损伤等↑"
-        },
-        {
-          "key": "D",
-          "label": "磷酸化酶"
-        },
-        {
-          "key": "E",
-          "label": "磷酸吡哆醛（维生素B6）"
-        },
-        {
-          "key": "F",
-          "label": "焦磷酸硫胺素（维生素B1）"
-        },
-        {
-          "key": "G",
-          "label": "氨基酸脱羧酶"
-        },
-        {
-          "key": "H",
-          "label": "转氨酶"
-        },
-        {
-          "key": "I",
-          "label": "天冬氨酸氨基转移酶 / 谷草转氨酶（AST）"
-        },
-        {
-          "key": "J",
-          "label": "ALA合酶"
-        },
-        {
-          "key": "K",
-          "label": "丙氨酸氨基转移酶 / 谷丙转氨酶（ALT）"
-        },
-        {
-          "key": "L",
-          "label": "心肌、肝损伤等↑"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "氨基酸脱羧基的辅因子",
-          "answerRaw": "E",
+          "text": "ALT催化的反应",
           "answer": [
-            "E"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "酮酸（如丙酮酸、α-酮戊二酸）脱羧基的辅因子",
-          "answerRaw": "F",
+          "text": "AST催化的反应",
           "answer": [
-            "F"
+            "B"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "以磷酸吡哆醛作为辅因子的酶",
-          "answerRaw": "G、D、J、H",
-          "answer": [
-            "G",
-            "D",
-            "J",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "丙氨酸氨基转移酶：①反应 ②临床意义",
-          "answerRaw": "A、C",
-          "answer": [
-            "A",
-            "C"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "天冬氨酸氨基转移酶：①反应 ②临床意义",
-          "answerRaw": "B、L",
-          "answer": [
-            "B",
-            "L"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "谷丙转氨酶对应的酶名",
-          "answerRaw": "K",
-          "answer": [
-            "K"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
-          "text": "谷草转氨酶对应的酶名",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
       "sourceText": "脱羧、转氨基的辅因子与谷氨酸转氨反应",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-07"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "lectureNumber": 7,
@@ -1161,12 +1192,141 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-07-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-07-06-focus-3",
+      "page": 6,
+      "title": "磷酸吡哆醛：依赖酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "磷酸化酶"
+        },
+        {
+          "key": "B",
+          "label": "氨基酸脱羧酶"
+        },
+        {
+          "key": "C",
+          "label": "转氨酶"
+        },
+        {
+          "key": "D",
+          "label": "ALA合酶"
+        },
+        {
+          "key": "E",
+          "label": "丙酮酸脱氢酶复合体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "以磷酸吡哆醛作为辅因子的酶",
+          "answer": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ],
+          "answerRaw": "B、A、D、C",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "脱羧、转氨基的辅因子与谷氨酸转氨反应",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-07-page-02.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-07-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-07-07",
       "page": 7,
-      "title": "转氨基与联合脱氨基",
+      "title": "联合脱氨基：组织差异",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "转氨基+嘌呤核苷酸循环"
+        },
+        {
+          "key": "B",
+          "label": "转氨基+L-谷氨酸脱氢酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "肝、肾、脑常用的联合脱氨基方式",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "心肌、骨骼肌常用的联合脱氨基方式",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "转氨基与联合脱氨基",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-07-page-03.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-07-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-07-07-focus-2",
+      "page": 7,
+      "title": "谷氨酸脱氢酶：辅酶",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -1176,122 +1336,35 @@
         },
         {
           "key": "B",
-          "label": "不能脱去氨基"
-        },
-        {
-          "key": "C",
-          "label": "腺苷酸脱氨酶"
-        },
-        {
-          "key": "D",
-          "label": "转氨基+嘌呤核苷酸循环"
-        },
-        {
-          "key": "E",
-          "label": "脑"
-        },
-        {
-          "key": "F",
-          "label": "调节非必需氨基酸的浓度"
-        },
-        {
-          "key": "G",
-          "label": "转氨基+L-谷氨酸脱氢酶"
-        },
-        {
-          "key": "H",
-          "label": "骨骼肌"
-        },
-        {
-          "key": "I",
-          "label": "肾"
-        },
-        {
-          "key": "J",
-          "label": "腺苷酸代琥珀酸合成酶"
-        },
-        {
-          "key": "K",
-          "label": "肝"
-        },
-        {
-          "key": "L",
-          "label": "心肌"
-        },
-        {
-          "key": "M",
           "label": "NADP"
         },
         {
-          "key": "N",
-          "label": "L-谷氨酸脱氢酶"
+          "key": "C",
+          "label": "FAD"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "转氨基的特点",
-          "answerRaw": "B、F",
+          "text": "L-谷氨酸脱氢酶可使用哪些辅酶？",
           "answer": [
-            "B",
-            "F"
+            "A",
+            "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "肝、肾、脑的联合脱氨基：①部位 ②方式",
-          "answerRaw": "I、K、G、E",
-          "answer": [
-            "I",
-            "K",
-            "G",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "L-谷氨酸脱氢酶：①酶 ②可用的辅因子",
-          "answerRaw": "M、N、A",
-          "answer": [
-            "M",
-            "N",
-            "A"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "心肌、骨骼肌的联合脱氨基：①部位 ②方式",
-          "answerRaw": "H、D、L",
-          "answer": [
-            "H",
-            "D",
-            "L"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "参与心肌、骨骼肌联合脱氨基的酶",
-          "answerRaw": "J、C",
-          "answer": [
-            "J",
-            "C"
-          ],
+          "answerRaw": "A、B",
           "answerMode": "多选"
         }
       ],
       "sourceText": "转氨基与联合脱氨基",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-07"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "lectureNumber": 7,
@@ -1301,104 +1374,61 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 3 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-07-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-07-08",
       "page": 8,
-      "title": "血氨运输与谷氨酰胺",
+      "title": "血氨运输：氨基酸载体",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "使天冬氨酸转变为天冬酰胺"
-        },
-        {
-          "key": "B",
-          "label": "脑或肌肉"
-        },
-        {
-          "key": "C",
           "label": "丙氨酸"
         },
         {
-          "key": "D",
-          "label": "NH3的储存、解毒、运输形式"
-        },
-        {
-          "key": "E",
-          "label": "肌肉"
-        },
-        {
-          "key": "F",
-          "label": "丙氨酸-葡萄糖循环"
-        },
-        {
-          "key": "G",
-          "label": "肠上皮细胞的能源物质"
-        },
-        {
-          "key": "H",
-          "label": "参与肾小管分泌"
-        },
-        {
-          "key": "I",
+          "key": "B",
           "label": "谷氨酰胺"
+        },
+        {
+          "key": "C",
+          "label": "天冬氨酸"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "肌肉运输 NH3：①主要氨基酸 ②循环",
-          "answerRaw": "C、F",
+          "text": "丙氨酸-葡萄糖循环中，从肌肉向肝运输氮的氨基酸",
           "answer": [
-            "C",
-            "F"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "脑或肌肉运输 NH3：①部位 ②主要形式",
-          "answerRaw": "I、B",
+          "text": "由谷氨酸结合氨形成、可用于氨解毒和运输的氨基酸",
           "answer": [
-            "I",
             "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "谷氨酰胺的作用",
-          "answerRaw": "D、G、A、H",
-          "answer": [
-            "D",
-            "G",
-            "A",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "丙氨酸-葡萄糖循环主要与该组织运输 NH3 有关",
-          "answerRaw": "E",
-          "answer": [
-            "E"
-          ],
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
       "sourceText": "血氨运输与谷氨酰胺",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-07"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "lectureNumber": 7,
@@ -1408,7 +1438,10 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 3 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-07-08",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-07-09",
@@ -1575,179 +1608,44 @@
     {
       "id": "bio-07-10",
       "page": 10,
-      "title": "芳香族氨基酸、酪氨酸代谢与相关疾病",
+      "title": "芳香族氨基酸：紫外吸收",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "黑色素"
-        },
-        {
-          "key": "B",
-          "label": "帕金森综合征"
-        },
-        {
-          "key": "C",
           "label": "苯丙氨酸"
         },
         {
-          "key": "D",
-          "label": "白化病"
-        },
-        {
-          "key": "E",
-          "label": "肾上腺素"
-        },
-        {
-          "key": "F",
+          "key": "B",
           "label": "酪氨酸"
         },
         {
-          "key": "G",
-          "label": "酪氨酸羟化酶"
-        },
-        {
-          "key": "H",
-          "label": "去甲肾上腺素"
-        },
-        {
-          "key": "I",
-          "label": "乙酰乙酸"
-        },
-        {
-          "key": "J",
-          "label": "酪氨酸酶"
-        },
-        {
-          "key": "K",
-          "label": "苯丙酮尿症"
-        },
-        {
-          "key": "L",
-          "label": "多巴胺"
-        },
-        {
-          "key": "M",
-          "label": "延胡索酸"
-        },
-        {
-          "key": "N",
-          "label": "尿黑酸氧化酶"
-        },
-        {
-          "key": "O",
-          "label": "尿黑酸尿症"
-        },
-        {
-          "key": "P",
+          "key": "C",
           "label": "色氨酸"
-        },
-        {
-          "key": "Q",
-          "label": "苯丙氨酸羟化酶"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "芳香族氨基酸",
-          "answerRaw": "C、F、P",
-          "answer": [
-            "C",
-            "F",
-            "P"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
           "text": "相同摩尔浓度下，280nm处吸光度最大的芳香族氨基酸",
-          "answerRaw": "P",
           "answer": [
-            "P"
+            "C"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "酪氨酸可生成的儿茶酚胺",
-          "answerRaw": "H、L、E",
-          "answer": [
-            "H",
-            "L",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "除儿茶酚胺外，酪氨酸还可用于合成的色素",
-          "answerRaw": "A",
-          "answer": [
-            "A"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "酪氨酸经尿黑酸最终可生成",
-          "answerRaw": "M、I",
-          "answer": [
-            "M",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "苯丙酮尿症：①疾病 ②缺陷酶",
-          "answerRaw": "Q、K",
-          "answer": [
-            "Q",
-            "K"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 7,
-          "text": "白化病：①疾病 ②缺陷酶",
-          "answerRaw": "J、D",
-          "answer": [
-            "J",
-            "D"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 8,
-          "text": "尿黑酸尿症：①疾病 ②缺陷酶",
-          "answerRaw": "O、N",
-          "answer": [
-            "O",
-            "N"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 9,
-          "text": "帕金森病黑质多巴胺能神经元减少，可伴随多巴胺合成中哪种限速酶的总活性降低？",
-          "answerRaw": "G",
-          "answer": [
-            "G"
-          ],
+          "answerRaw": "C",
           "answerMode": "单选"
         }
       ],
       "sourceText": "芳香族氨基酸、酪氨酸代谢与相关疾病",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-07"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "lectureNumber": 7,
@@ -1758,151 +1656,84 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-07-10"
     },
     {
-      "id": "bio-07-11",
-      "page": 11,
-      "title": "S-腺苷甲硫氨酸循环与一碳单位",
+      "id": "bio-07-10-focus-2",
+      "page": 10,
+      "title": "酪氨酸：代谢产物",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "S-腺苷甲硫氨酸（SAM）"
+          "label": "黑色素"
         },
         {
           "key": "B",
-          "label": "苏氨酸"
-        },
-        {
-          "key": "C",
-          "label": "丝氨酸"
-        },
-        {
-          "key": "D",
-          "label": "活性甲基"
-        },
-        {
-          "key": "E",
-          "label": "嘌呤核苷酸"
-        },
-        {
-          "key": "F",
-          "label": "组氨酸"
-        },
-        {
-          "key": "G",
-          "label": "四氢叶酸（FH4）"
-        },
-        {
-          "key": "H",
-          "label": "肉碱"
-        },
-        {
-          "key": "I",
           "label": "肾上腺素"
         },
         {
-          "key": "J",
-          "label": "色氨酸"
+          "key": "C",
+          "label": "去甲肾上腺素"
         },
         {
-          "key": "K",
-          "label": "肌酸"
+          "key": "D",
+          "label": "乙酰乙酸"
         },
         {
-          "key": "L",
-          "label": "磷脂酰胆碱（卵磷脂）"
+          "key": "E",
+          "label": "多巴胺"
         },
         {
-          "key": "M",
-          "label": "甲基钴胺素（维生素B12）"
-        },
-        {
-          "key": "N",
-          "label": "胸腺嘧啶核苷酸"
-        },
-        {
-          "key": "O",
-          "label": "甘氨酸"
+          "key": "F",
+          "label": "延胡索酸"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "S-腺苷甲硫氨酸循环：①提供 ②需要的辅因子",
-          "answerRaw": "D、M",
+          "text": "酪氨酸可生成的儿茶酚胺",
           "answer": [
-            "D",
-            "M"
+            "C",
+            "E",
+            "B"
           ],
+          "answerRaw": "C、E、B",
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "需要活性甲基参与合成的物质",
-          "answerRaw": "H、K、I、L",
-          "answer": [
-            "H",
-            "K",
-            "I",
-            "L"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "一碳单位的载体",
-          "answerRaw": "G",
-          "answer": [
-            "G"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 4,
-          "text": "一碳单位参与合成",
-          "answerRaw": "N、E",
-          "answer": [
-            "N",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "一碳单位的氨基酸来源",
-          "answerRaw": "B、F、O、J、C",
-          "answer": [
-            "B",
-            "F",
-            "O",
-            "J",
-            "C"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "活性甲基的直接供体",
-          "answerRaw": "A",
+          "text": "除儿茶酚胺外，酪氨酸还可用于合成的色素",
           "answer": [
             "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "酪氨酸经尿黑酸最终可生成",
+          "answer": [
+            "F",
+            "D"
+          ],
+          "answerRaw": "F、D",
+          "answerMode": "多选"
         }
       ],
-      "sourceText": "S-腺苷甲硫氨酸循环与一碳单位",
+      "sourceText": "芳香族氨基酸、酪氨酸代谢与相关疾病",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-07"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "lectureNumber": 7,
@@ -1912,7 +1743,324 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-07-10"
+    },
+    {
+      "id": "bio-07-10-focus-3",
+      "page": 10,
+      "title": "氨基酸代谢病：缺陷酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "酪氨酸羟化酶"
+        },
+        {
+          "key": "B",
+          "label": "酪氨酸酶"
+        },
+        {
+          "key": "C",
+          "label": "尿黑酸氧化酶"
+        },
+        {
+          "key": "D",
+          "label": "苯丙氨酸羟化酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "经典苯丙酮尿症的缺陷酶",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "黑色素合成障碍所致的经典白化病，缺陷酶是",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "尿黑酸尿症的缺陷酶",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "帕金森病黑质多巴胺能神经元减少，可伴随多巴胺合成中哪种限速酶的总活性降低？",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "芳香族氨基酸、酪氨酸代谢与相关疾病",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-07-page-01.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-07-10"
+    },
+    {
+      "id": "bio-07-11",
+      "page": 11,
+      "title": "一碳基团：载体与供体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "S-腺苷甲硫氨酸（SAM）"
+        },
+        {
+          "key": "B",
+          "label": "四氢叶酸（FH4）"
+        },
+        {
+          "key": "C",
+          "label": "甲基钴胺素（维生素B12）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "一碳单位的载体",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "活性甲基的直接供体",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "同型半胱氨酸再甲基化为甲硫氨酸所需的维生素辅酶",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "S-腺苷甲硫氨酸循环与一碳单位",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-07-page-01.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-07-11",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-07-11-focus-2",
+      "page": 11,
+      "title": "一碳单位：来源与合成用途",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "苏氨酸"
+        },
+        {
+          "key": "B",
+          "label": "丝氨酸"
+        },
+        {
+          "key": "C",
+          "label": "嘌呤核苷酸"
+        },
+        {
+          "key": "D",
+          "label": "组氨酸"
+        },
+        {
+          "key": "E",
+          "label": "色氨酸"
+        },
+        {
+          "key": "F",
+          "label": "胸腺嘧啶核苷酸"
+        },
+        {
+          "key": "G",
+          "label": "甘氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "一碳单位参与合成",
+          "answer": [
+            "F",
+            "C"
+          ],
+          "answerRaw": "F、C",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "一碳单位的氨基酸来源",
+          "answer": [
+            "A",
+            "D",
+            "G",
+            "E",
+            "B"
+          ],
+          "answerRaw": "A、D、G、E、B",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "S-腺苷甲硫氨酸循环与一碳单位",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-07-page-01.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-07-11",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-07-11-focus-3",
+      "page": 11,
+      "title": "活性甲基：参与合成的物质",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "嘌呤核苷酸"
+        },
+        {
+          "key": "B",
+          "label": "肉碱"
+        },
+        {
+          "key": "C",
+          "label": "肾上腺素"
+        },
+        {
+          "key": "D",
+          "label": "肌酸"
+        },
+        {
+          "key": "E",
+          "label": "磷脂酰胆碱（卵磷脂）"
+        },
+        {
+          "key": "F",
+          "label": "胸腺嘧啶核苷酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "需要活性甲基参与合成的物质",
+          "answer": [
+            "B",
+            "D",
+            "C",
+            "E"
+          ],
+          "answerRaw": "B、D、C、E",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "S-腺苷甲硫氨酸循环与一碳单位",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生化 氨基酸代谢与氨基酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-07-page-01.webp",
+        "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-07-11",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     }
   ],
   "lectures": [

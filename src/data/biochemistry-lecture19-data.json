@@ -4,15 +4,17 @@
     "sourceLabel": "《生化_基因表达调控_学成选择题_修订版》",
     "sourcePages": 8,
     "lectureCount": 1,
-    "groupCount": 10,
-    "stemCount": 60,
+    "groupCount": 13,
+    "stemCount": 42,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture19.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "按讲义和提供的Word复核；2026-10-17修正歧义、错误机制及重复题，题目数量以当前题组为准。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -24,7 +26,7 @@
       "page": 1,
       "image": "",
       "topic": "核酸",
-      "searchText": "基因表达的特点与调控层次"
+      "searchText": "基因表达：表达模式"
     },
     {
       "page": 2,
@@ -36,31 +38,31 @@
       "page": 3,
       "image": "",
       "topic": "核酸",
-      "searchText": "乳糖操纵子的负性调节、正性调节与协同调节"
+      "searchText": "乳糖操纵子：四种培养条件"
     },
     {
       "page": 4,
       "image": "",
       "topic": "核酸",
-      "searchText": "色氨酸操纵子"
+      "searchText": "色氨酸操纵子：衰减结构 色氨酸操纵子：调节环节"
     },
     {
       "page": 5,
       "image": "",
       "topic": "核酸",
-      "searchText": "真核顺式作用元件"
+      "searchText": "顺式作用元件：功能"
     },
     {
       "page": 6,
       "image": "",
       "topic": "核酸",
-      "searchText": "真核反式作用因子/转录因子的结构"
+      "searchText": "转录因子：结构域类型"
     },
     {
       "page": 7,
       "image": "",
       "topic": "核酸",
-      "searchText": "真核反式作用因子/转录因子的类型"
+      "searchText": "上游转录因子：识别序列 特异转录因子：作用情境"
     },
     {
       "page": 8,
@@ -72,20 +74,20 @@
       "page": 9,
       "image": "",
       "topic": "核酸",
-      "searchText": "RNApol Ⅱ结合启动子——具体步骤"
+      "searchText": "基本转录因子：主要功能"
     },
     {
       "page": 10,
       "image": "",
       "topic": "核酸",
-      "searchText": "转录后水平的基因表达调控"
+      "searchText": "RNA干扰：靶RNA的结局 RNA干扰：前体来源"
     }
   ],
   "groups": [
     {
       "id": "bio-19-01",
       "page": 1,
-      "title": "基因表达的特点与调控层次",
+      "title": "基因表达：表达模式",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -95,122 +97,65 @@
         },
         {
           "key": "B",
-          "label": "H1 降低，H2A-H2B 不稳定，H3、H4 发生乙酰化、磷酸化、泛素化等组蛋白修饰"
-        },
-        {
-          "key": "C",
-          "label": "同一种基因的表达产物在不同组织表达水平不同，在个体的不同空间里出现"
-        },
-        {
-          "key": "D",
-          "label": "常出现对核酸酶高度敏感的超敏位点"
-        },
-        {
-          "key": "E",
           "label": "在几乎所有细胞持续表达（时空特异性差），称为基本/组成性表达（很少受环境影响）"
         },
         {
-          "key": "F",
-          "label": "翻译和翻译后水平"
-        },
-        {
-          "key": "G",
+          "key": "C",
           "label": "如编码胰岛素的基因只在胰岛 β 细胞表达"
         },
         {
-          "key": "H",
-          "label": "特定环境被激活或抑制（很容易受到环境影响）"
-        },
-        {
-          "key": "I",
-          "label": "DNA 和染色质水平（表观遗传学）"
-        },
-        {
-          "key": "J",
-          "label": "上述改变使核小体松弛（组蛋白与 DNA 亲和力降低）"
-        },
-        {
-          "key": "K",
-          "label": "转录和转录后水平：最重要最复杂的调控是转录（基因表达的基本控制点）"
-        },
-        {
-          "key": "L",
+          "key": "D",
           "label": "如编码甲胎蛋白 AFP 的基因在胎儿肝细胞表达活跃，成年后这一基因表达水平很低"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "时间/阶段特异性",
-          "answerRaw": "L",
+          "text": "时间／阶段特异性的例子",
           "answer": [
-            "L"
+            "D"
           ],
+          "answerRaw": "D",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "空间/细胞组织特异性",
-          "answerRaw": "G、C",
+          "text": "空间／组织特异性的例子",
           "answer": [
-            "G",
             "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "管家基因",
-          "answerRaw": "E",
+          "text": "管家基因的表达特点",
           "answer": [
-            "E"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "可诱导或可阻遏基因",
-          "answerRaw": "A、H",
+          "text": "可诱导表达的例子",
           "answer": [
-            "A",
-            "H"
+            "A"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "基因表达的全过程都会受到调控",
-          "answerRaw": "K、F、I",
-          "answer": [
-            "K",
-            "F",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "活性染色质",
-          "answerRaw": "D、B、J",
-          "answer": [
-            "D",
-            "B",
-            "J"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 1 组",
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -220,7 +165,10 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 276 页",
         "description": "基因表达的时空特异性、管家基因、诱导基因及各调控层次。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "sourceGroupId": "bio-19-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-19-02",
@@ -281,15 +229,6 @@
           "answerMode": "单选"
         },
         {
-          "number": 2,
-          "text": "CAP 结合位点",
-          "answerRaw": "D",
-          "answer": [
-            "D"
-          ],
-          "answerMode": "单选"
-        },
-        {
           "number": 3,
           "text": "P（启动子）",
           "answerRaw": "H",
@@ -333,17 +272,6 @@
             "C"
           ],
           "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "乳糖操纵子",
-          "answerRaw": "I、F、B",
-          "answer": [
-            "I",
-            "F",
-            "B"
-          ],
-          "answerMode": "多选"
         }
       ],
       "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 2 组",
@@ -366,169 +294,81 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 273 页",
         "description": "乳糖操纵子的调节基因、调控序列与结构基因。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-19-02"
     },
     {
       "id": "bio-19-03",
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
       "page": 3,
-      "title": "乳糖操纵子的负性调节、正性调节与协同调节",
+      "title": "乳糖操纵子：四种培养条件",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "RNApol 活性很低"
+          "label": "可转录，但活性很低"
         },
         {
           "key": "B",
-          "label": "操纵子大量开放→大量 mRNA→大量分解乳糖的酶"
+          "label": "转录活性很高"
         },
         {
           "key": "C",
-          "label": "提高转录（RNApol）活性"
-        },
-        {
-          "key": "D",
-          "label": "乳糖经过通透酶进入细胞"
-        },
-        {
-          "key": "E",
-          "label": "可以转录，但转录活性很低"
-        },
-        {
-          "key": "F",
-          "label": "cAMP 结合 CAP"
-        },
-        {
-          "key": "G",
-          "label": "cAMP-CAP 结合 CAP 结合位点"
-        },
-        {
-          "key": "H",
-          "label": "阻遏蛋白变构"
-        },
-        {
-          "key": "I",
-          "label": "别乳糖与阻遏蛋白结合"
-        },
-        {
-          "key": "J",
-          "label": "操纵子转录活性很高"
-        },
-        {
-          "key": "K",
-          "label": "操纵子少量开放→少量 mRNA→少量分解乳糖的酶"
-        },
-        {
-          "key": "L",
-          "label": "只要没有乳糖，无论有无葡萄糖操纵子关闭"
-        },
-        {
-          "key": "M",
-          "label": "阻遏蛋白与 O 解离"
-        },
-        {
-          "key": "N",
-          "label": "操纵子关闭（不能转录）"
+          "label": "受阻遏，转录关闭"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "无乳糖",
-          "answerRaw": "L、N",
+          "text": "无乳糖、无葡萄糖时的转录状态",
           "answer": [
-            "L",
-            "N"
+            "C"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "乳糖解除阻遏时的分子事件：乳糖进入、诱导物结合及阻遏蛋白变化",
-          "answerRaw": "H、D、M、I",
-          "answer": [
-            "H",
-            "D",
-            "M",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "有乳糖而葡萄糖不足时，cAMP-CAP复合物的形成、DNA结合及直接作用",
-          "answerRaw": "F、C、G",
-          "answer": [
-            "F",
-            "C",
-            "G"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "仅考虑葡萄糖的分解物阻遏效应：有葡萄糖时，RNApol对乳糖操纵子的转录活性",
-          "answerRaw": "A",
-          "answer": [
-            "A"
-          ],
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
-          "number": 5,
-          "text": "无乳糖、无葡萄糖",
-          "answerRaw": "L、N",
+          "number": 2,
+          "text": "有乳糖、无葡萄糖时的转录状态",
           "answer": [
-            "L",
-            "N"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
-          "number": 6,
-          "text": "有乳糖、无葡萄糖",
-          "answerRaw": "B、J",
+          "number": 3,
+          "text": "无乳糖、有葡萄糖时的转录状态",
           "answer": [
-            "B",
-            "J"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
-          "number": 7,
-          "text": "无乳糖、有葡萄糖",
-          "answerRaw": "L、N",
+          "number": 4,
+          "text": "有乳糖、有葡萄糖时的转录状态",
           "answer": [
-            "L",
-            "N"
+            "A"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 8,
-          "text": "有乳糖、有葡萄糖",
-          "answerRaw": "K、E",
-          "answer": [
-            "K",
-            "E"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 3 组",
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -538,12 +378,13 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 273 页",
         "description": "乳糖操纵子的负性、正性及葡萄糖-乳糖协同调节。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "sourceGroupId": "bio-19-03"
     },
     {
       "id": "bio-19-04",
       "page": 4,
-      "title": "色氨酸操纵子",
+      "title": "色氨酸操纵子：衰减结构",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -553,130 +394,39 @@
         },
         {
           "key": "B",
-          "label": "核糖体停在序列 1（ORF1）→转录继续"
-        },
-        {
-          "key": "C",
-          "label": "完整前导肽→不能得到合成色氨酸的酶"
-        },
-        {
-          "key": "D",
-          "label": "属于阻遏型操纵子"
-        },
-        {
-          "key": "E",
-          "label": "前导序列/衰减子→前导 mRNA→前导肽"
-        },
-        {
-          "key": "F",
-          "label": "操纵子关闭"
-        },
-        {
-          "key": "G",
-          "label": "操纵子开放"
-        },
-        {
-          "key": "H",
-          "label": "色氨酸与阻遏蛋白结合→结合操纵序列→转录无法起始"
-        },
-        {
-          "key": "I",
           "label": "2-3 形成发夹结构"
-        },
-        {
-          "key": "J",
-          "label": "不完整前导肽→能得到合成色氨酸的酶"
-        },
-        {
-          "key": "K",
-          "label": "核糖体通过序列 1（ORF1）"
-        },
-        {
-          "key": "L",
-          "label": "（高 Trp-tRNA^Trp）→已经起始的转录停止"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "色氨酸操纵子",
-          "answerRaw": "D",
+          "text": "色氨酸不足时，前导RNA倾向形成哪种配对结构？",
           "answer": [
-            "D"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "无、低色氨酸",
-          "answerRaw": "G",
+          "text": "色氨酸充足时，前导RNA倾向形成哪种配对结构？",
           "answer": [
-            "G"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "高色氨酸",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 4,
-          "text": "阻遏作用的粗调",
-          "answerRaw": "H",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "衰减作用的精调",
-          "answerRaw": "E、L",
-          "answer": [
-            "E",
-            "L"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "低色氨酸→低 Trp-tRNA^Trp",
-          "answerRaw": "J、I、B",
-          "answer": [
-            "J",
-            "I",
-            "B"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 7,
-          "text": "高色氨酸→高 Trp-tRNA^Trp",
-          "answerRaw": "A、K、C",
-          "answer": [
-            "A",
-            "K",
-            "C"
-          ],
-          "answerMode": "多选"
         }
       ],
       "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 4 组",
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -686,12 +436,75 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 273 页",
         "description": "色氨酸操纵子的阻遏粗调与衰减精调。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "sourceGroupId": "bio-19-04",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-19-04-focus-2",
+      "page": 4,
+      "title": "色氨酸操纵子：调节环节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "阻止转录起始"
+        },
+        {
+          "key": "B",
+          "label": "使已起始的转录提前终止"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "阻遏作用主要阻断哪一转录环节？",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "衰减作用主要阻断哪一转录环节？",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 4 组",
+      "reviewState": "已按修订版 Word 与对应思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "lectureNumber": 19,
+        "lectureTitle": "生化 基因表达调控",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-19-page-01.webp",
+        "title": "第 19 讲《生化 基因表达调控》· 思维导图第 273 页",
+        "description": "色氨酸操纵子的阻遏粗调与衰减精调。 点击可查看对应思维导图。",
+        "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
+      },
+      "sourceGroupId": "bio-19-04",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-19-05",
       "page": 5,
-      "title": "真核顺式作用元件",
+      "title": "顺式作用元件：功能",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -701,118 +514,65 @@
         },
         {
           "key": "B",
-          "label": "属于远端调控元件，但发挥作用距离所调控基因可近可远（与距离无关）"
-        },
-        {
-          "key": "C",
-          "label": "Ⅱ类启动子核心序列：-25~-30 区的 TATAAAA（TATA 盒/Hogness box）"
-        },
-        {
-          "key": "D",
-          "label": "决定基因的时空特异性最重要的顺式作用元件"
-        },
-        {
-          "key": "E",
-          "label": "结合 RNApol"
-        },
-        {
-          "key": "F",
           "label": "增强转录"
         },
         {
-          "key": "G",
-          "label": "对启动子没有严格专一性"
-        },
-        {
-          "key": "H",
-          "label": "真核的三类启动子分别对应三种 RNApol 和相关蛋白质"
-        },
-        {
-          "key": "I",
+          "key": "C",
           "label": "抑制转录"
         },
         {
-          "key": "J",
-          "label": "与序列方向无关"
-        },
-        {
-          "key": "K",
+          "key": "D",
           "label": "提供转录起始信号"
-        },
-        {
-          "key": "L",
-          "label": "Ⅱ类启动子上游元件（TATA 盒的上游）：GC 盒、CAAT 盒"
-        },
-        {
-          "key": "M",
-          "label": "增强真核启动子的效率"
-        },
-        {
-          "key": "N",
-          "label": "能在启动子任何方向和位置发挥作用"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "启动子",
-          "answerRaw": "H、L、E、K、C",
+          "text": "启动子的主要功能",
           "answer": [
-            "H",
-            "L",
-            "E",
-            "K",
-            "C"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "增强子",
-          "answerRaw": "D、N、M、J、G、B、F",
+          "text": "增强子的主要功能",
           "answer": [
-            "D",
-            "N",
-            "M",
-            "J",
-            "G",
-            "B",
-            "F"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "沉默子",
-          "answerRaw": "I、J",
+          "text": "沉默子的主要功能",
           "answer": [
-            "I",
-            "J"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "绝缘子",
-          "answerRaw": "A、J",
+          "text": "绝缘子位于增强子与启动子之间时的作用",
           "answer": [
-            "A",
-            "J"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 5 组",
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -822,12 +582,15 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 274 页",
         "description": "真核启动子、增强子、沉默子与绝缘子。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "sourceGroupId": "bio-19-05",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-19-06",
       "page": 6,
-      "title": "真核反式作用因子/转录因子的结构",
+      "title": "转录因子：结构域类型",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -837,74 +600,59 @@
         },
         {
           "key": "B",
-          "label": "与 TFⅡD 相互作用，协助组装转录起始复合物"
-        },
-        {
-          "key": "C",
           "label": "富含谷氨酰胺结构域"
         },
         {
-          "key": "D",
+          "key": "C",
           "label": "富含脯氨酸结构域"
         },
         {
-          "key": "E",
+          "key": "D",
           "label": "锌指结构"
         },
         {
-          "key": "F",
-          "label": "DNA结合结构域可识别GC盒（如SP1）"
-        },
-        {
-          "key": "G",
-          "label": "DNA结合结构域可识别CAAT盒（如C/EBP）"
-        },
-        {
-          "key": "H",
+          "key": "E",
           "label": "酸性激活结构域"
         },
         {
-          "key": "I",
+          "key": "F",
           "label": "二聚化结构域"
         },
         {
-          "key": "J",
+          "key": "G",
           "label": "亮氨酸拉链"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "DNA结合结构域的典型结构及其识别DNA序列的功能",
-          "answerRaw": "E、A、J、F、G",
+          "text": "DNA结合结构域的典型结构有哪些？",
           "answer": [
-            "E",
+            "D",
             "A",
-            "J",
-            "F",
             "G"
           ],
+          "answerRaw": "D、A、G",
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "转录激活结构域的类型及其与基本转录装置的相互作用",
-          "answerRaw": "C、H、B、D",
+          "text": "转录激活结构域常有哪些类型？",
           "answer": [
-            "C",
-            "H",
             "B",
-            "D"
+            "E",
+            "C"
           ],
+          "answerRaw": "B、E、C",
           "answerMode": "多选"
         },
         {
           "number": 3,
           "text": "介导蛋白质-蛋白质相互作用结构域",
-          "answerRaw": "I",
           "answer": [
-            "I"
+            "F"
           ],
+          "answerRaw": "F",
           "answerMode": "单选"
         }
       ],
@@ -912,13 +660,12 @@
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。 复合选项已拆分为独立知识点，答案同步重映射。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 2,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -929,155 +676,43 @@
         "description": "转录因子的 DNA 结合、转录激活及蛋白互作结构域。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-19-06"
     },
     {
       "id": "bio-19-07",
       "page": 7,
-      "title": "真核反式作用因子/转录因子的类型",
+      "title": "上游转录因子：识别序列",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "只在特定时间、特定组织被诱导"
+          "label": "GC盒"
         },
         {
           "key": "B",
-          "label": "多结合增强子"
-        },
-        {
-          "key": "C",
-          "label": "属于转录激活因子"
-        },
-        {
-          "key": "D",
-          "label": "RNApol Ⅰ、Ⅱ、Ⅲ对应不同类型的启动子"
-        },
-        {
-          "key": "E",
-          "label": "决定基因表达时空特异性最重要的反式作用因子"
-        },
-        {
-          "key": "F",
-          "label": "在缺氧时高表达"
-        },
-        {
-          "key": "G",
-          "label": "结合增强子"
-        },
-        {
-          "key": "H",
-          "label": "SP1 结合 GC 盒"
-        },
-        {
-          "key": "I",
-          "label": "在肌细胞高表达"
-        },
-        {
-          "key": "J",
-          "label": "多结合沉默子"
-        },
-        {
-          "key": "K",
-          "label": "C/EBP 结合 CAAT 盒"
-        },
-        {
-          "key": "L",
-          "label": "帮助 RNApol 结合启动子"
-        },
-        {
-          "key": "M",
-          "label": "对应的通用转录因子为 TFⅠ、TFⅡ、TFⅢ"
+          "label": "CAAT盒"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "通用/基本转录因子",
-          "answerRaw": "L、D、M",
+          "text": "SP1识别的序列",
           "answer": [
-            "L",
-            "D",
-            "M"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "上游因子",
-          "answerRaw": "H、K",
+          "text": "C/EBP识别的序列",
           "answer": [
-            "H",
-            "K"
+            "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "转录激活因子",
-          "answerRaw": "B、E",
-          "answer": [
-            "B",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "转录抑制因子",
-          "answerRaw": "J",
-          "answer": [
-            "J"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "可诱导因子",
-          "answerRaw": "C、G、A",
-          "answer": [
-            "C",
-            "G",
-            "A"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "生肌决定因子 MyoD",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
-          "text": "缺氧诱导因子 HIF",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "SP1",
-          "answerRaw": "H",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 9,
-          "text": "C/EBP",
-          "answerRaw": "K",
-          "answer": [
-            "K"
-          ],
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
@@ -1085,13 +720,12 @@
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。 复合选项已拆分为独立知识点，答案同步重映射。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 2,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -1101,7 +735,70 @@
         "title": "第 19 讲《生化 基因表达调控》· 思维导图第 274 页",
         "description": "通用、上游、激活、抑制及可诱导转录因子。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
-      }
+      },
+      "sourceGroupId": "bio-19-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-19-07-focus-2",
+      "page": 7,
+      "title": "特异转录因子：作用情境",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "在缺氧时高表达"
+        },
+        {
+          "key": "B",
+          "label": "在肌细胞高表达"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "生肌决定因子 MyoD",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "缺氧诱导因子 HIF",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 7 组",
+      "reviewState": "已按修订版 Word 与对应思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "lectureNumber": 19,
+        "lectureTitle": "生化 基因表达调控",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-19-page-02.webp",
+        "title": "第 19 讲《生化 基因表达调控》· 思维导图第 274 页",
+        "description": "通用、上游、激活、抑制及可诱导转录因子。 点击可查看对应思维导图。",
+        "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
+      },
+      "sourceGroupId": "bio-19-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-19-08",
@@ -1190,13 +887,13 @@
     {
       "id": "bio-19-09",
       "page": 9,
-      "title": "RNApol Ⅱ结合启动子——具体步骤",
+      "title": "基本转录因子：主要功能",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "募集 H 与上述结合"
+          "label": "募集TFⅡH"
         },
         {
           "key": "B",
@@ -1204,113 +901,61 @@
         },
         {
           "key": "C",
-          "label": "形成闭合转录起始复合体/转录起始前复合体"
-        },
-        {
-          "key": "D",
-          "label": "TFⅡD→A→B→F-RNApol Ⅱ→E→H"
-        },
-        {
-          "key": "E",
-          "label": "延长阶段 F 仍然结合 RNApol Ⅱ"
-        },
-        {
-          "key": "F",
-          "label": "稳定 TFⅡD（TBP）-DNA"
-        },
-        {
-          "key": "G",
           "label": "募集 RNApol Ⅱ-F"
         },
         {
-          "key": "H",
-          "label": "H 有 ATP 酶、解旋酶、蛋白激酶活性"
+          "key": "D",
+          "label": "稳定TBP与DNA的结合"
         },
         {
-          "key": "I",
-          "label": "使闭合→开放转录起始复合体"
-        },
-        {
-          "key": "J",
-          "label": "加强 TFⅡD（TBP）-DNA"
-        },
-        {
-          "key": "K",
-          "label": "结合单链 DNA 以稳定解链状态"
-        },
-        {
-          "key": "L",
-          "label": "TFⅡH使RNApolⅡ的CTD磷酸化，促进启动子逃逸并进入转录延长"
+          "key": "E",
+          "label": "使RNA聚合酶Ⅱ的CTD磷酸化"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "顺序",
-          "answerRaw": "D",
+          "text": "TFⅡA的主要作用",
           "answer": [
             "D"
           ],
+          "answerRaw": "D",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "TFⅡA",
-          "answerRaw": "J",
+          "text": "TFⅡB募集的复合物",
           "answer": [
-            "J"
+            "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "TFⅡB",
-          "answerRaw": "G、F",
+          "text": "TFⅡF结合的聚合酶",
           "answer": [
-            "G",
-            "F"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "TFⅡF",
-          "answerRaw": "B、E",
+          "text": "TFⅡE募集的转录因子",
           "answer": [
-            "B",
-            "E"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 5,
-          "text": "TFⅡE",
-          "answerRaw": "K、C、A",
-          "answer": [
-            "K",
-            "C",
-            "A"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "TFⅡH",
-          "answerRaw": "H、L、I",
-          "answer": [
-            "H",
-            "L",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 7,
-          "text": "进入延长阶段",
-          "answerRaw": "E",
+          "text": "TFⅡH促进启动子逃逸的机制",
           "answer": [
             "E"
           ],
+          "answerRaw": "E",
           "answerMode": "单选"
         }
       ],
@@ -1318,13 +963,12 @@
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -1335,116 +979,43 @@
         "description": "RNApolⅡ转录起始复合体的装配顺序与进入延长阶段。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-19-09"
     },
     {
       "id": "bio-19-10",
       "page": 10,
-      "title": "转录后水平的基因表达调控",
+      "title": "RNA干扰：靶RNA的结局",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "影响前体 mRNA 的加工修饰"
-        },
-        {
-          "key": "B",
-          "label": "与蛋白质组成 RISC"
-        },
-        {
-          "key": "C",
           "label": "结合靶 mRNA→降解 mRNA（完全互补）"
         },
         {
-          "key": "D",
-          "label": "影响 mRNA 从细胞核转运到细胞质"
-        },
-        {
-          "key": "E",
+          "key": "B",
           "label": "结合靶 mRNA 3′端非翻译区→抑制翻译"
-        },
-        {
-          "key": "F",
-          "label": "内源、外源"
-        },
-        {
-          "key": "G",
-          "label": "调节发育过程"
-        },
-        {
-          "key": "H",
-          "label": "转录后基因沉默/RNA 干扰/RNAi"
-        },
-        {
-          "key": "I",
-          "label": "内源（RNApol Ⅱ催化转录）"
-        },
-        {
-          "key": "J",
-          "label": "成熟引导链以单链形式装载于RISC并发挥作用"
-        },
-        {
-          "key": "K",
-          "label": "抑制转座子活性、病毒感染"
-        },
-        {
-          "key": "L",
-          "label": "典型siRNA由长双链RNA经Dicer加工产生，区别于miRNA的发夹前体途径"
-        },
-        {
-          "key": "M",
-          "label": "RNA 诱导的沉默复合体"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "转录后水平的基因表达调控",
-          "answerRaw": "D、A、H",
+          "text": "引导RNA与靶mRNA完全互补时，可引起什么？",
           "answer": [
-            "D",
-            "A",
-            "H"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "miRNA的典型特征及可能的作用方式",
-          "answerRaw": "E、I、G、C、J、B",
+          "text": "miRNA与靶mRNA 3′UTR不完全互补时，可引起什么？",
           "answer": [
-            "E",
-            "I",
-            "G",
-            "C",
-            "J",
             "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "siRNA的前体来源、成熟引导链状态及作用",
-          "answerRaw": "K、F、C、L、B、J",
-          "answer": [
-            "K",
-            "F",
-            "C",
-            "L",
-            "B",
-            "J"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "RISC",
-          "answerRaw": "M",
-          "answer": [
-            "M"
-          ],
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
@@ -1452,13 +1023,12 @@
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "题干、选项和答案按 Word 原文录入；网页选项顺序重新打散。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-19"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "lectureNumber": 19,
@@ -1469,8 +1039,73 @@
         "description": "miRNA、siRNA、RISC 与转录后基因沉默。 点击可查看对应思维导图。",
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-19-10"
+    },
+    {
+      "id": "bio-19-10-focus-2",
+      "page": 10,
+      "title": "RNA干扰：前体来源",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "成熟tRNA"
+        },
+        {
+          "key": "B",
+          "label": "长双链RNA"
+        },
+        {
+          "key": "C",
+          "label": "发夹状前体RNA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "典型siRNA的前体形式",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "典型miRNA的前体形式",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "《生化_基因表达调控_学成选择题_修订版》原第 10 组",
+      "reviewState": "已按修订版 Word 与对应思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "lectureNumber": 19,
+        "lectureTitle": "生化 基因表达调控",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-19-page-02.webp",
+        "title": "第 19 讲《生化 基因表达调控》· 思维导图第 274 页",
+        "description": "miRNA、siRNA、RISC 与转录后基因沉默。 点击可查看对应思维导图。",
+        "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-19-10"
     }
   ],
   "lectures": [

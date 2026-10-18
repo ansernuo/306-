@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 03 讲学成选择题（辨析修订版）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 9,
-    "stemCount": 47,
+    "groupCount": 11,
+    "stemCount": 52,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture3.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 03 讲《磷酸戊糖途径、糖原、糖异生》范围内题目；选项已逐组打散并按讲义复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -33,19 +35,19 @@
       "page": 2,
       "image": "",
       "topic": "糖原合成与分解",
-      "searchText": "糖原合成与分解：酶的作用"
+      "searchText": "糖原代谢：酶催化的反应"
     },
     {
       "page": 3,
       "image": "",
       "topic": "糖原合成与分解",
-      "searchText": "肝糖原与肌糖原"
+      "searchText": "肝糖原与肌糖原：生理作用 糖原分解：激素调节"
     },
     {
       "page": 4,
       "image": "",
       "topic": "糖异生",
-      "searchText": "糖异生关键酶：作用与特点"
+      "searchText": "糖异生：关键酶催化的反应 糖异生：关键酶的亚细胞定位"
     },
     {
       "page": 5,
@@ -304,172 +306,71 @@
     {
       "id": "bio-03-02",
       "page": 2,
-      "title": "糖原合成与分解：酶的作用",
+      "title": "糖原代谢：酶催化的反应",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "糖原分解的关键酶",
-          "sourceText": "A. 糖原分解的关键酶"
+          "label": "G-1-P+UTP→UDPG+PPi"
         },
         {
           "key": "B",
-          "label": "G-1-P+UTP→UDPG+PPi",
-          "sourceText": "B. G-1-P+UTP→UDPG+PPi"
+          "label": "糖原+Pi→G-1-P"
         },
         {
           "key": "C",
-          "label": "糖原+Pi→G-1-P",
-          "sourceText": "C. 糖原+Pi→G-1-P"
+          "label": "G-1-P⇋G-6-P"
         },
         {
           "key": "D",
-          "label": "糖原合成的关键酶",
-          "sourceText": "D. 糖原合成的关键酶"
-        },
-        {
-          "key": "E",
-          "label": "G-1-P⇋G-6-P",
-          "sourceText": "E. G-1-P⇋G-6-P"
-        },
-        {
-          "key": "F",
-          "label": "UDPG→糖原+UDP",
-          "sourceText": "F. UDPG→糖原+UDP"
+          "label": "UDPG→糖原+UDP"
         }
       ],
       "stems": [
         {
           "number": 1,
           "text": "磷酸葡萄糖变位酶",
-          "sourceText": "1. 磷酸葡萄糖变位酶",
-          "answerRaw": "E",
           "answer": [
-            "E"
+            "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
           "number": 2,
           "text": "UDPG 焦磷酸化酶",
-          "sourceText": "2. UDPG 焦磷酸化酶",
-          "answerRaw": "B",
           "answer": [
-            "B"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "糖原合酶",
-          "sourceText": "3. 糖原合酶",
-          "answerRaw": "DF",
+          "text": "糖原合酶催化的反应",
           "answer": [
-            "D",
-            "F"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "磷酸化酶",
-          "sourceText": "4. 磷酸化酶",
-          "answerRaw": "AC",
+          "text": "糖原磷酸化酶催化的反应",
           "answer": [
-            "A",
-            "C"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "糖原合成与分解：酶的作用",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
-      "topic": "糖原合成与分解",
-      "lectureIds": [
-        "lecture-03"
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
-      "lectureEvidence": {
-        "lectureId": "lecture-03",
-        "lectureNumber": 3,
-        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
-        "page": 2,
-        "image": "biochemistry/lecture-pages/lecture-03-page-02.webp",
-        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 2 页",
-        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
-        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
-      }
-    },
-    {
-      "id": "bio-03-03",
-      "page": 3,
-      "title": "肝糖原与肌糖原",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "肾上腺素（磷酸化）",
-          "sourceText": "A. 肾上腺素（磷酸化）"
-        },
-        {
-          "key": "B",
-          "label": "补充血糖（主要是 16 小时内）",
-          "sourceText": "B. 补充血糖（主要是 16 小时内）"
-        },
-        {
-          "key": "C",
-          "label": "葡萄糖",
-          "sourceText": "C. 葡萄糖"
-        },
-        {
-          "key": "D",
-          "label": "胰高血糖素（磷酸化）",
-          "sourceText": "D. 胰高血糖素（磷酸化）"
-        },
-        {
-          "key": "E",
-          "label": "无氧氧化（缺乏 G-6-P 酶）",
-          "sourceText": "E. 无氧氧化（缺乏 G-6-P 酶）"
-        },
-        {
-          "key": "F",
-          "label": "快速为肌肉收缩供能（净生成 3 个 ATP）",
-          "sourceText": "F. 快速为肌肉收缩供能（净生成 3 个 ATP）"
-        }
-      ],
-      "stems": [
-        {
-          "number": 1,
-          "text": "肝糖原的主要供糖作用、产物及胰高血糖素调节特点",
-          "sourceText": "1. 肝糖原",
-          "answerRaw": "BCD",
-          "answer": [
-            "B",
-            "C",
-            "D"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "肌糖原的主要用途、无氧分解净产能及肾上腺素调节特点",
-          "sourceText": "2. 肌糖原",
-          "answerRaw": "AEF",
-          "answer": [
-            "A",
-            "E",
-            "F"
-          ],
-          "answerMode": "多选"
-        }
-      ],
-      "sourceText": "肝糖原与肌糖原",
-      "reviewState": "已按 2027 考研讲义核对",
-      "reviewIssues": [],
-      "reviewNotes": [],
       "topic": "糖原合成与分解",
       "lectureIds": [
         "lecture-03"
@@ -484,118 +385,198 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "sourceGroupId": "bio-03-02",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
-      "id": "bio-03-04",
-      "page": 4,
-      "title": "糖异生关键酶：作用与特点",
+      "id": "bio-03-03",
+      "page": 3,
+      "title": "肝糖原与肌糖原：生理作用",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "胞浆",
-          "sourceText": "A. 胞浆"
+          "label": "补充血糖"
         },
         {
           "key": "B",
-          "label": "丙酮酸→草酰乙酸",
-          "sourceText": "B. 丙酮酸→草酰乙酸"
-        },
-        {
-          "key": "C",
-          "label": "肌肉没有",
-          "sourceText": "C. 肌肉没有"
-        },
-        {
-          "key": "D",
-          "label": "线粒体、胞浆",
-          "sourceText": "D. 线粒体、胞浆"
-        },
-        {
-          "key": "E",
-          "label": "生物素（VitB₇）",
-          "sourceText": "E. 生物素（VitB₇）"
-        },
-        {
-          "key": "F",
-          "label": "G-6-P→G",
-          "sourceText": "F. G-6-P→G"
-        },
-        {
-          "key": "G",
-          "label": "草酰乙酸→磷酸烯醇式丙酮酸",
-          "sourceText": "G. 草酰乙酸→磷酸烯醇式丙酮酸"
-        },
-        {
-          "key": "H",
-          "label": "线粒体",
-          "sourceText": "H. 线粒体"
-        },
-        {
-          "key": "I",
-          "label": "果糖-1,6-二磷酸→果糖-6-磷酸",
-          "sourceText": "I. 果糖-1,6-二磷酸→果糖-6-磷酸"
-        },
-        {
-          "key": "J",
-          "label": "内质网膜相关酶，催化位点朝向内质网腔"
+          "label": "为肌肉收缩供能"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "丙酮酸羧化酶",
-          "sourceText": "1. 丙酮酸羧化酶",
-          "answerRaw": "BEH",
+          "text": "肝糖原分解的主要生理作用",
           "answer": [
-            "B",
-            "E",
-            "H"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "磷酸烯醇式丙酮酸羧激酶",
-          "sourceText": "2. 磷酸烯醇式丙酮酸羧激酶",
-          "answerRaw": "DG",
+          "text": "肌糖原分解的主要生理作用",
           "answer": [
-            "D",
-            "G"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "肝糖原与肌糖原",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "糖原合成与分解",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-03-page-02.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-03-03"
+    },
+    {
+      "id": "bio-03-03-focus-2",
+      "page": 3,
+      "title": "糖原分解：激素调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "肾上腺素"
+        },
+        {
+          "key": "B",
+          "label": "胰高血糖素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "促进肝糖原分解、但不直接促进骨骼肌糖原分解的激素",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "可直接促进骨骼肌糖原分解的激素",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "肝糖原与肌糖原",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "糖原合成与分解",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-03-page-02.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-03-03"
+    },
+    {
+      "id": "bio-03-04",
+      "page": 4,
+      "title": "糖异生：关键酶催化的反应",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "丙酮酸→草酰乙酸"
+        },
+        {
+          "key": "B",
+          "label": "G-6-P→G"
+        },
+        {
+          "key": "C",
+          "label": "草酰乙酸→磷酸烯醇式丙酮酸"
+        },
+        {
+          "key": "D",
+          "label": "果糖-1,6-二磷酸→果糖-6-磷酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "丙酮酸羧化酶催化的反应",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "磷酸烯醇式丙酮酸羧激酶催化的反应",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "果糖双磷酸酶-1",
-          "sourceText": "3. 果糖双磷酸酶-1",
-          "answerRaw": "AI",
+          "text": "果糖双磷酸酶-1催化的反应",
           "answer": [
-            "A",
-            "I"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "葡萄糖-6-磷酸酶：催化反应、组织特点与准确亚细胞定位",
-          "sourceText": "4. G-6-P 酶",
-          "answerRaw": "C、F、J",
+          "text": "葡萄糖-6-磷酸酶催化的反应",
           "answer": [
-            "C",
-            "F",
-            "J"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "糖异生关键酶：作用与特点",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "糖异生",
       "lectureIds": [
         "lecture-03"
@@ -610,8 +591,95 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-03-04"
+    },
+    {
+      "id": "bio-03-04-focus-2",
+      "page": 4,
+      "title": "糖异生：关键酶的亚细胞定位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胞浆"
+        },
+        {
+          "key": "B",
+          "label": "线粒体、胞浆"
+        },
+        {
+          "key": "C",
+          "label": "线粒体"
+        },
+        {
+          "key": "D",
+          "label": "内质网膜相关酶，催化位点朝向内质网腔"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "丙酮酸羧化酶的定位",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "磷酸烯醇式丙酮酸羧激酶的定位",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "果糖双磷酸酶-1的定位",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "葡萄糖-6-磷酸酶的定位",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "糖异生关键酶：作用与特点",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-03-04"
     },
     {
       "id": "bio-03-05",
@@ -844,7 +912,7 @@
         },
         {
           "number": 3,
-          "text": "氨基酸（除开生酮氨基酸）",
+          "text": "下列可作为糖异生原料的氨基酸有哪些？",
           "sourceText": "3. 氨基酸（除开生酮氨基酸）",
           "answerRaw": "ACDEGH",
           "answer": [
@@ -875,7 +943,10 @@
         "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-03-06"
     },
     {
       "id": "bio-03-07",
@@ -944,17 +1015,6 @@
           "answerMode": "多选"
         },
         {
-          "number": 2,
-          "text": "由2分子甘油合成1分子葡萄糖：所用步骤及高能磷酸键消耗",
-          "sourceText": "2. 甘油",
-          "answerRaw": "BI",
-          "answer": [
-            "B",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
           "number": 3,
           "text": "乳酸/Cori 循环",
           "sourceText": "3. 乳酸/Cori 循环",
@@ -995,8 +1055,9 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-03-07"
     },
     {
       "id": "bio-03-08",

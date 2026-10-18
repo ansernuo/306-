@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 17 讲学成题（转录及调控）",
     "sourcePages": 8,
     "lectureCount": 1,
-    "groupCount": 8,
-    "stemCount": 52,
+    "groupCount": 19,
+    "stemCount": 57,
     "correctionGroupCount": 1,
     "generatedBy": "scripts/build_biochemistry_lecture17.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "完整收录《转录及调控》8 组 52 题；选项已重新打散，答案以精编版讲义为主完成核对。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -24,43 +26,43 @@
       "page": 1,
       "image": "",
       "topic": "核酸",
-      "searchText": "DNA复制与转录"
+      "searchText": "复制与转录：合成原料 复制与转录：遗传信息传递 复制与转录：碱基配对 转录：模板链与编码链"
     },
     {
       "page": 2,
       "image": "",
       "topic": "核酸",
-      "searchText": "原核RNA聚合酶"
+      "searchText": "原核RNA聚合酶：亚基功能 原核RNA聚合酶：组成"
     },
     {
       "page": 3,
       "image": "",
       "topic": "核酸",
-      "searchText": "原核转录过程"
+      "searchText": "原核转录：起始事件 原核转录：终止信号 原核转录与翻译：两种多聚现象"
     },
     {
       "page": 4,
       "image": "",
       "topic": "核酸",
-      "searchText": "真核RNA聚合酶"
+      "searchText": "真核RNA聚合酶：转录产物 真核RNA聚合酶：鹅膏蕈碱敏感性"
     },
     {
       "page": 5,
       "image": "",
       "topic": "核酸",
-      "searchText": "前体mRNA加工修饰"
+      "searchText": "前体mRNA加工：结构变化 mRNA加工：生理作用 前体mRNA加工：相关酶或复合物"
     },
     {
       "page": 6,
       "image": "",
       "topic": "核酸",
-      "searchText": "前体tRNA、rRNA及自身剪接"
+      "searchText": "前体tRNA加工：末端切除 45S前体rRNA：加工产物 自身剪接：内含子形状"
     },
     {
       "page": 7,
       "image": "",
       "topic": "核酸",
-      "searchText": "真核mRNA降解与RNA干扰"
+      "searchText": "mRNA质量监控：识别的异常"
     },
     {
       "page": 8,
@@ -73,161 +75,49 @@
     {
       "id": "bio-17-01",
       "page": 1,
-      "title": "DNA复制与转录",
+      "title": "复制与转录：合成原料",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "转录不对称"
-        },
-        {
-          "key": "B",
-          "label": "两个双链DNA"
-        },
-        {
-          "key": "C",
           "label": "dNTP（A、G、C、T）"
         },
         {
-          "key": "D",
-          "label": "DNA→DNA"
-        },
-        {
-          "key": "E",
-          "label": "半保留"
-        },
-        {
-          "key": "F",
-          "label": "指导RNA合成的DNA单链"
-        },
-        {
-          "key": "G",
-          "label": "模板链与编码链可交替"
-        },
-        {
-          "key": "H",
-          "label": "合成方向为5′→3′"
-        },
-        {
-          "key": "I",
-          "label": "与mRNA碱基序列除T/U差异外基本一致"
-        },
-        {
-          "key": "J",
-          "label": "边解旋边复制"
-        },
-        {
-          "key": "K",
-          "label": "与模板链相对应的另一条DNA单链"
-        },
-        {
-          "key": "L",
-          "label": "A-U、T-A、G-C、C-G"
-        },
-        {
-          "key": "M",
+          "key": "B",
           "label": "NTP（A、G、C、U）"
-        },
-        {
-          "key": "N",
-          "label": "羽毛状现象"
-        },
-        {
-          "key": "O",
-          "label": "边解旋边转录"
-        },
-        {
-          "key": "P",
-          "label": "半不连续"
-        },
-        {
-          "key": "Q",
-          "label": "所有DNA两条链全长均作为模板"
-        },
-        {
-          "key": "R",
-          "label": "某些DNA的一条链的部分区域作为模板"
-        },
-        {
-          "key": "S",
-          "label": "DNA→RNA"
-        },
-        {
-          "key": "T",
-          "label": "A-T、T-A、G-C、C-G"
-        },
-        {
-          "key": "U",
-          "label": "mRNA、tRNA、rRNA等"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "DNA复制",
-          "answerRaw": "C、D、Q、H、T、B、E、P、J",
+          "text": "DNA复制的原料",
           "answer": [
-            "C",
-            "D",
-            "Q",
-            "H",
-            "T",
-            "B",
-            "E",
-            "P",
-            "J"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "DNA转录",
-          "answerRaw": "M、S、H、R、G、L、N、A、U、O",
+          "text": "RNA转录的原料",
           "answer": [
-            "M",
-            "S",
-            "H",
-            "R",
-            "G",
-            "L",
-            "N",
-            "A",
-            "U",
-            "O"
+            "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "模板链",
-          "answerRaw": "R、F",
-          "answer": [
-            "R",
-            "F"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "编码链",
-          "answerRaw": "K、I",
-          "answer": [
-            "K",
-            "I"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "DNA复制与转录",
       "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-17"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-17",
         "lectureNumber": 17,
@@ -237,156 +127,276 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
         "description": "模板链、编码链、原料、方向及转录不对称性。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-17-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
-      "id": "bio-17-02",
-      "page": 2,
-      "title": "原核RNA聚合酶",
+      "id": "bio-17-01-focus-2",
+      "page": 1,
+      "title": "复制与转录：遗传信息传递",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "α₂ββ′ω"
+          "label": "DNA→DNA"
         },
         {
           "key": "B",
+          "label": "DNA→RNA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "DNA复制的信息传递方向",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "转录的信息传递方向",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNA复制与转录",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-17-page-01.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
+        "description": "模板链、编码链、原料、方向及转录不对称性。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "sourceGroupId": "bio-17-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-17-01-focus-3",
+      "page": 1,
+      "title": "复制与转录：碱基配对",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "A-U、T-A、G-C、C-G"
+        },
+        {
+          "key": "B",
+          "label": "A-T、T-A、G-C、C-G"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "DNA复制的碱基配对关系",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "以DNA为模板转录RNA时的碱基配对关系",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNA复制与转录",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-17-page-01.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
+        "description": "模板链、编码链、原料、方向及转录不对称性。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "sourceGroupId": "bio-17-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-17-01-focus-4",
+      "page": 1,
+      "title": "转录：模板链与编码链",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "指导RNA合成的DNA单链"
+        },
+        {
+          "key": "B",
+          "label": "与mRNA碱基序列除T/U差异外基本一致"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "转录模板链的定义",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "编码链与mRNA的序列关系",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNA复制与转录",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-17-page-01.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
+        "description": "模板链、编码链、原料、方向及转录不对称性。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "sourceGroupId": "bio-17-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-17-02",
+      "page": 2,
+      "title": "原核RNA聚合酶：亚基功能",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
           "label": "催化磷酸二酯键形成"
         },
         {
-          "key": "C",
+          "key": "B",
           "label": "促进β′亚基折叠和稳定，并募集σ亚基"
         },
         {
-          "key": "D",
-          "label": "α₂ββ′ωσ"
-        },
-        {
-          "key": "E",
-          "label": "转录延长阶段主要发挥作用"
-        },
-        {
-          "key": "F",
+          "key": "C",
           "label": "结合DNA并解开局部双链"
         },
         {
-          "key": "G",
-          "label": "转录起始阶段需要"
-        },
-        {
-          "key": "H",
+          "key": "D",
           "label": "决定哪些基因被转录"
         },
         {
-          "key": "I",
-          "label": "起始后脱离转录复合物"
-        },
-        {
-          "key": "J",
-          "label": "无3′→5′核酸外切酶活性"
-        },
-        {
-          "key": "K",
-          "label": "不需要引物"
-        },
-        {
-          "key": "L",
+          "key": "E",
           "label": "辨认启动子或转录起始点"
-        },
-        {
-          "key": "M",
-          "label": "利福平的作用靶点"
         }
       ],
       "stems": [
         {
           "number": 1,
           "text": "α亚基",
-          "answerRaw": "H",
           "answer": [
-            "H"
+            "D"
           ],
+          "answerRaw": "D",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "β亚基",
-          "answerRaw": "B、M",
+          "text": "β亚基的主要催化功能",
           "answer": [
-            "B",
-            "M"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "β′亚基",
-          "answerRaw": "F",
           "answer": [
-            "F"
+            "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
           "number": 4,
           "text": "ω亚基",
-          "answerRaw": "C",
           "answer": [
-            "C"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 5,
-          "text": "σ亚基",
-          "answerRaw": "L、I",
+          "text": "σ亚基的识别功能",
           "answer": [
-            "L",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "核心酶",
-          "answerRaw": "A、E",
-          "answer": [
-            "A",
             "E"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 7,
-          "text": "全酶",
-          "answerRaw": "D、G",
-          "answer": [
-            "D",
-            "G"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 8,
-          "text": "RNA聚合酶的共同特点",
-          "answerRaw": "J、K",
-          "answer": [
-            "J",
-            "K"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "E",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "原核RNA聚合酶",
       "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-17"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-17",
         "lectureNumber": 17,
@@ -396,12 +406,75 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
         "description": "原核 RNA 聚合酶各亚基、核心酶与全酶。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-17-02",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-17-02-focus-2",
+      "page": 2,
+      "title": "原核RNA聚合酶：组成",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "α₂ββ′ω"
+        },
+        {
+          "key": "B",
+          "label": "α₂ββ′ωσ"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "RNA聚合酶核心酶的组成",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "RNA聚合酶全酶的组成",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "原核RNA聚合酶",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-17-page-01.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
+        "description": "原核 RNA 聚合酶各亚基、核心酶与全酶。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "sourceGroupId": "bio-17-02",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-17-03",
       "page": 3,
-      "title": "原核转录过程",
+      "title": "原核转录：起始事件",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -411,169 +484,65 @@
         },
         {
           "key": "B",
-          "label": "RNA从转录复合物中释放"
-        },
-        {
-          "key": "C",
-          "label": "RNA聚合酶与DNA结合较松弛"
-        },
-        {
-          "key": "D",
-          "label": "DNA终止区富含GC和AT"
-        },
-        {
-          "key": "E",
           "label": "RNA长度不足约10个核苷酸时可停止转录"
         },
         {
-          "key": "F",
-          "label": "RNA聚合酶与DNA结合较稳定"
-        },
-        {
-          "key": "G",
-          "label": "σ亚基脱离"
-        },
-        {
-          "key": "H",
-          "label": "DNA-RNA杂化双链解离"
-        },
-        {
-          "key": "I",
-          "label": "形成茎环／发夹样二级结构"
-        },
-        {
-          "key": "J",
-          "label": "ρ因子具有解旋酶相关活性"
-        },
-        {
-          "key": "K",
-          "label": "ρ因子识别新生RNA上富含C、少G且缺少稳定二级结构的rut位点"
-        },
-        {
-          "key": "L",
+          "key": "C",
           "label": "完成最初核苷酸之间的磷酸二酯键形成"
         },
         {
-          "key": "M",
-          "label": "mRNA尚未转录完成即可开始翻译"
-        },
-        {
-          "key": "N",
+          "key": "D",
           "label": "σ亚基辨认并结合启动子"
-        },
-        {
-          "key": "O",
-          "label": "同一DNA上可有多个转录复合物同时工作"
-        },
-        {
-          "key": "P",
-          "label": "可观察到多聚核糖体"
-        },
-        {
-          "key": "Q",
-          "label": "产生多聚U尾"
-        },
-        {
-          "key": "R",
-          "label": "形成转录泡"
-        },
-        {
-          "key": "S",
-          "label": "按5′→3′方向继续合成RNA"
-        },
-        {
-          "key": "T",
-          "label": "核心酶参与"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "起始阶段的闭合转录复合物",
-          "answerRaw": "N、C",
+          "text": "形成闭合转录复合物时的启动子识别事件",
           "answer": [
-            "N",
-            "C"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "起始阶段的开放转录复合物",
-          "answerRaw": "F、A",
+          "text": "形成开放转录复合物时的DNA结构变化",
           "answer": [
-            "F",
             "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "转录起始复合物",
-          "answerRaw": "L",
           "answer": [
-            "L"
+            "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
           "number": 4,
           "text": "流产式起始",
-          "answerRaw": "E",
           "answer": [
-            "E"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "延长",
-          "answerRaw": "G、T、R、S、O、M、P",
-          "answer": [
-            "G",
-            "T",
-            "R",
-            "S",
-            "O",
-            "M",
-            "P"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "依赖ρ因子的终止",
-          "answerRaw": "K、H、B、J",
-          "answer": [
-            "K",
-            "H",
-            "B",
-            "J"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 7,
-          "text": "不依赖ρ因子的终止",
-          "answerRaw": "I、Q、D、B",
-          "answer": [
-            "I",
-            "Q",
-            "D",
             "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "原核转录过程",
       "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-17"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-17",
         "lectureNumber": 17,
@@ -584,133 +553,204 @@
         "description": "原核转录起始、延长及两类终止机制。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-17-03"
     },
     {
-      "id": "bio-17-04",
-      "page": 4,
-      "title": "真核RNA聚合酶",
+      "id": "bio-17-03-focus-2",
+      "page": 3,
+      "title": "原核转录：终止信号",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "核仁"
+          "label": "形成茎环／发夹样二级结构"
         },
         {
           "key": "B",
-          "label": "Ⅰ类启动子"
+          "label": "ρ因子识别新生RNA上富含C、少G且缺少稳定二级结构的rut位点"
         },
         {
           "key": "C",
-          "label": "hnRNA／前体mRNA等"
-        },
-        {
-          "key": "D",
-          "label": "Ⅱ类启动子"
-        },
-        {
-          "key": "E",
-          "label": "极敏感"
-        },
-        {
-          "key": "F",
-          "label": "U6 snRNA"
-        },
-        {
-          "key": "G",
-          "label": "核基质"
-        },
-        {
-          "key": "H",
-          "label": "TFⅢ"
-        },
-        {
-          "key": "I",
-          "label": "前体tRNA"
-        },
-        {
-          "key": "J",
-          "label": "45S rRNA"
-        },
-        {
-          "key": "K",
-          "label": "中度敏感"
-        },
-        {
-          "key": "L",
-          "label": "不敏感"
-        },
-        {
-          "key": "M",
-          "label": "TFⅡ"
-        },
-        {
-          "key": "N",
-          "label": "Ⅲ类启动子"
-        },
-        {
-          "key": "O",
-          "label": "5S rRNA"
-        },
-        {
-          "key": "P",
-          "label": "TFⅠ"
+          "label": "产生多聚U尾"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "RNApol Ⅰ",
-          "answerRaw": "A、L、J、B、P",
+          "text": "ρ依赖性终止中，ρ因子识别什么？",
           "answer": [
-            "A",
-            "L",
-            "J",
-            "B",
-            "P"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "RNApol Ⅱ",
-          "answerRaw": "G、E、C、D、M",
+          "text": "内在终止时，新生RNA形成哪些结构？",
           "answer": [
-            "G",
-            "E",
-            "C",
-            "D",
-            "M"
+            "A",
+            "C"
           ],
+          "answerRaw": "A、C",
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "原核转录过程",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-17-page-01.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
+        "description": "原核转录起始、延长及两类终止机制。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-17-03"
+    },
+    {
+      "id": "bio-17-03-focus-3",
+      "page": 3,
+      "title": "原核转录与翻译：两种多聚现象",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "同一DNA上可有多个转录复合物同时工作"
+        },
+        {
+          "key": "B",
+          "label": "可观察到多聚核糖体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "转录过程中“羽毛状现象”对应什么？",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "多个核糖体同时翻译一条mRNA，对应什么？",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "原核转录过程",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-17-page-01.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 273 页",
+        "description": "原核转录起始、延长及两类终止机制。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-17-03"
+    },
+    {
+      "id": "bio-17-04",
+      "page": 4,
+      "title": "真核RNA聚合酶：转录产物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "hnRNA／前体mRNA等"
+        },
+        {
+          "key": "B",
+          "label": "U6 snRNA"
+        },
+        {
+          "key": "C",
+          "label": "前体tRNA"
+        },
+        {
+          "key": "D",
+          "label": "45S rRNA"
+        },
+        {
+          "key": "E",
+          "label": "5S rRNA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "RNA聚合酶Ⅰ的主要转录产物",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "RNA聚合酶Ⅱ的主要转录产物",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "RNApol Ⅲ",
-          "answerRaw": "G、K、O、I、F、N、H",
+          "text": "RNA聚合酶Ⅲ的转录产物",
           "answer": [
-            "G",
-            "K",
-            "O",
-            "I",
-            "F",
-            "N",
-            "H"
+            "B",
+            "C",
+            "E"
           ],
+          "answerRaw": "B、C、E",
           "answerMode": "多选"
         }
       ],
       "sourceText": "真核RNA聚合酶",
       "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-17"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-17",
         "lectureNumber": 17,
@@ -720,158 +760,156 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
         "description": "真核 RNA 聚合酶 I、II、III 的敏感性与产物。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-17-04",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
-      "id": "bio-17-05",
-      "page": 5,
-      "title": "前体mRNA加工修饰",
+      "id": "bio-17-04-focus-2",
+      "page": 4,
+      "title": "真核RNA聚合酶：鹅膏蕈碱敏感性",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "对同类mRNA而言，polyA尾缩短常与稳定性降低、降解加快有关"
+          "label": "极敏感"
         },
         {
           "key": "B",
-          "label": "3′端切割、加polyA尾与RNApolⅡ转录终止相耦联"
+          "label": "中度敏感"
         },
         {
           "key": "C",
-          "label": "增加蛋白质多样性"
-        },
-        {
-          "key": "D",
-          "label": "提高基因利用率"
-        },
-        {
-          "key": "E",
-          "label": "可导致蛋白质氨基酸序列与hnRNA编码序列不完全对应"
-        },
-        {
-          "key": "F",
-          "label": "剪接异常与地中海贫血有关"
-        },
-        {
-          "key": "G",
-          "label": "3′端形成polyA"
-        },
-        {
-          "key": "H",
-          "label": "尾部与poly(A)结合蛋白结合，可延缓mRNA降解"
-        },
-        {
-          "key": "I",
-          "label": "参与翻译的起始过程"
-        },
-        {
-          "key": "J",
-          "label": "甲基转移酶"
-        },
-        {
-          "key": "K",
-          "label": "经两次转酯反应"
-        },
-        {
-          "key": "L",
-          "label": "snRNP／剪接体"
-        },
-        {
-          "key": "M",
-          "label": "改变RNA编码信息"
-        },
-        {
-          "key": "N",
-          "label": "5′端形成m⁷GTP帽结构"
-        },
-        {
-          "key": "O",
-          "label": "apoB可作为典型例子"
-        },
-        {
-          "key": "P",
-          "label": "内含子形成套索状结构"
-        },
-        {
-          "key": "Q",
-          "label": "5′端核苷酸与7-甲基鸟嘌呤核苷形成特殊连接"
-        },
-        {
-          "key": "R",
-          "label": "加帽酶"
+          "label": "不敏感"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "加帽",
-          "answerRaw": "N、Q、J、R、I",
+          "text": "RNA聚合酶Ⅰ对鹅膏蕈碱的敏感性",
           "answer": [
-            "N",
-            "Q",
-            "J",
-            "R",
-            "I"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "加尾",
-          "answerRaw": "G、B、A、H、I",
+          "text": "RNA聚合酶Ⅱ对鹅膏蕈碱的敏感性",
           "answer": [
-            "G",
-            "B",
-            "A",
-            "H",
-            "I"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "剪接",
-          "answerRaw": "P、L、K、F",
+          "text": "RNA聚合酶Ⅲ对鹅膏蕈碱的敏感性",
           "answer": [
-            "P",
-            "L",
-            "K",
-            "F"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "真核RNA聚合酶",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-17-page-02.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
+        "description": "真核 RNA 聚合酶 I、II、III 的敏感性与产物。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "sourceGroupId": "bio-17-04",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-17-05",
+      "page": 5,
+      "title": "前体mRNA加工：结构变化",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "3′端形成polyA"
+        },
+        {
+          "key": "B",
+          "label": "改变RNA编码信息"
+        },
+        {
+          "key": "C",
+          "label": "5′端形成m⁷GTP帽结构"
+        },
+        {
+          "key": "D",
+          "label": "内含子形成套索状结构"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "加帽形成的结构",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "加尾形成的结构",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "剪接时内含子形成的结构",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "RNA编辑",
-          "answerRaw": "M、E、O",
+          "text": "RNA编辑对编码信息的影响",
           "answer": [
-            "M",
-            "E",
-            "O"
+            "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "选择性剪接",
-          "answerRaw": "D、C",
-          "answer": [
-            "D",
-            "C"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "前体mRNA加工修饰",
       "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-17"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-17",
         "lectureNumber": 17,
@@ -882,167 +920,200 @@
         "description": "前体 mRNA 的加帽、加尾、剪接、编辑及选择性剪接。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-17-05"
     },
     {
-      "id": "bio-17-06",
-      "page": 6,
-      "title": "前体tRNA、rRNA及自身剪接",
+      "id": "bio-17-05-focus-2",
+      "page": 5,
+      "title": "mRNA加工：生理作用",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "剪接内含子"
+          "label": "增加蛋白质多样性"
         },
         {
           "key": "B",
-          "label": "不需要蛋白质参与"
+          "label": "提高基因利用率"
         },
         {
           "key": "C",
-          "label": "形成5.8S rRNA"
+          "label": "尾部与poly(A)结合蛋白结合，可延缓mRNA降解"
         },
         {
           "key": "D",
-          "label": "切除3′端多余核苷酸"
-        },
-        {
-          "key": "E",
-          "label": "形成18S rRNA"
-        },
-        {
-          "key": "F",
-          "label": "3′端加CCA-OH"
-        },
-        {
-          "key": "G",
-          "label": "45S rRNA"
-        },
-        {
-          "key": "H",
-          "label": "切除5′端多余核苷酸"
-        },
-        {
-          "key": "I",
-          "label": "切除的内含子呈套索状"
-        },
-        {
-          "key": "J",
-          "label": "切除的内含子呈线状"
-        },
-        {
-          "key": "K",
-          "label": "依靠内含子自身RNA完成催化"
-        },
-        {
-          "key": "L",
-          "label": "末端可与氨基酸形成酯键"
-        },
-        {
-          "key": "M",
-          "label": "形成稀有碱基"
-        },
-        {
-          "key": "N",
-          "label": "RNase Z、RNase D"
-        },
-        {
-          "key": "O",
-          "label": "形成28S rRNA"
-        },
-        {
-          "key": "P",
-          "label": "属于核酶"
-        },
-        {
-          "key": "Q",
-          "label": "核仁小核糖核蛋白"
+          "label": "参与翻译的起始过程"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "前体tRNA加工",
-          "answerRaw": "N、H、F、A、M、D、L",
+          "text": "5′帽结构可参与哪一翻译过程？",
           "answer": [
-            "N",
-            "H",
-            "F",
-            "A",
-            "M",
-            "D",
-            "L"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "前体rRNA加工",
-          "answerRaw": "Q、G、E、O、C",
+          "text": "poly(A)尾可发挥哪些作用？",
           "answer": [
-            "Q",
-            "G",
-            "E",
-            "O",
-            "C"
+            "C",
+            "D"
           ],
+          "answerRaw": "C、D",
           "answerMode": "多选"
         },
         {
           "number": 3,
-          "text": "RNase P",
-          "answerRaw": "P、H",
+          "text": "选择性剪接的主要意义",
           "answer": [
-            "P",
-            "H"
+            "A",
+            "B"
           ],
+          "answerRaw": "A、B",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "前体mRNA加工修饰",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-17-page-02.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
+        "description": "前体 mRNA 的加帽、加尾、剪接、编辑及选择性剪接。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-17-05"
+    },
+    {
+      "id": "bio-17-05-focus-3",
+      "page": 5,
+      "title": "前体mRNA加工：相关酶或复合物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "甲基转移酶"
+        },
+        {
+          "key": "B",
+          "label": "snRNP／剪接体"
+        },
+        {
+          "key": "C",
+          "label": "加帽酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "加帽过程中参与的酶",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerRaw": "A、C",
           "answerMode": "多选"
         },
         {
-          "number": 4,
-          "text": "snoRNP",
-          "answerRaw": "Q",
+          "number": 2,
+          "text": "催化前体mRNA剪接的复合物",
           "answer": [
-            "Q"
+            "B"
           ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "前体mRNA加工修饰",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-17-page-02.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
+        "description": "前体 mRNA 的加帽、加尾、剪接、编辑及选择性剪接。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-17-05"
+    },
+    {
+      "id": "bio-17-06",
+      "page": 6,
+      "title": "前体tRNA加工：末端切除",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "切除3′端多余核苷酸"
+        },
+        {
+          "key": "B",
+          "label": "切除5′端多余核苷酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "RNase P切除前体tRNA哪一端的多余核苷酸？",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
-          "number": 5,
-          "text": "Ⅰ组型自身剪接内含子",
-          "answerRaw": "B、J、K",
+          "number": 2,
+          "text": "RNase Z等参与切除前体tRNA哪一端的多余核苷酸？",
           "answer": [
-            "B",
-            "J",
-            "K"
+            "A"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "Ⅱ组型自身剪接内含子",
-          "answerRaw": "B、I、K",
-          "answer": [
-            "B",
-            "I",
-            "K"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "前体tRNA、rRNA及自身剪接",
       "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "第 1 题补入前体 tRNA 加工中的 5′端多余核苷酸切除。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
       ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-17"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-17",
         "lectureNumber": 17,
@@ -1052,166 +1123,204 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
         "description": "前体 tRNA、rRNA 加工及自身剪接内含子。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-17-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
-      "id": "bio-17-07",
-      "page": 7,
-      "title": "真核mRNA降解与RNA干扰",
+      "id": "bio-17-06-focus-2",
+      "page": 6,
+      "title": "45S前体rRNA：加工产物",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "脱腺苷酸化酶→3′→5′核酸外切酶"
+          "label": "形成5.8S rRNA"
         },
         {
           "key": "B",
-          "label": "siRNA与RISC有关"
+          "label": "形成18S rRNA"
         },
         {
           "key": "C",
-          "label": "非正常停滞"
+          "label": "形成28S rRNA"
         },
         {
           "key": "D",
-          "label": "miRNA以单链形式发挥作用"
+          "label": "5S rRNA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "45S前体rRNA加工生成哪些rRNA？",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerRaw": "A、B、C",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "前体tRNA、rRNA及自身剪接",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 6,
+        "image": "biochemistry/lecture-pages/lecture-17-page-02.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
+        "description": "前体 tRNA、rRNA 加工及自身剪接内含子。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "sourceGroupId": "bio-17-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-17-06-focus-3",
+      "page": 6,
+      "title": "自身剪接：内含子形状",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "切除的内含子呈套索状"
         },
         {
-          "key": "E",
-          "label": "脱帽酶→5′→3′核酸外切酶"
+          "key": "B",
+          "label": "切除的内含子呈线状"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "Ⅰ组型内含子切除后的形状",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
-          "key": "F",
+          "number": 2,
+          "text": "Ⅱ组型内含子切除后的形状",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "前体tRNA、rRNA及自身剪接",
+      "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生化 转录及调控",
+        "page": 6,
+        "image": "biochemistry/lecture-pages/lecture-17-page-02.webp",
+        "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
+        "description": "前体 tRNA、rRNA 加工及自身剪接内含子。 点击可查看对应思维导图。",
+        "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
+      },
+      "sourceGroupId": "bio-17-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-17-07",
+      "page": 7,
+      "title": "mRNA质量监控：识别的异常",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "非正常停滞"
+        },
+        {
+          "key": "B",
           "label": "核糖体延伸异常相关"
         },
         {
-          "key": "G",
-          "label": "主要mRNA质量监控机制"
-        },
-        {
-          "key": "H",
-          "label": "防止产生具有潜在毒性的截短蛋白"
-        },
-        {
-          "key": "I",
-          "label": "可促进靶mRNA降解"
-        },
-        {
-          "key": "J",
-          "label": "内切后再由核酸外切酶继续降解"
-        },
-        {
-          "key": "K",
-          "label": "脱腺苷酸化酶→脱帽酶→5′→3′核酸外切酶"
-        },
-        {
-          "key": "L",
-          "label": "参与基因表达调控"
-        },
-        {
-          "key": "M",
+          "key": "C",
           "label": "提前终止密码子PTC"
         },
         {
-          "key": "N",
-          "label": "核酸内切酶识别mRNA内部特异序列后切割"
-        },
-        {
-          "key": "O",
+          "key": "D",
           "label": "无终止密码子"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "依赖脱腺苷酸化的正常mRNA降解",
-          "answerRaw": "A、K",
+          "text": "NMD主要识别的异常",
           "answer": [
-            "A",
-            "K"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "不依赖脱腺苷酸化的正常mRNA降解",
-          "answerRaw": "E",
+          "text": "NSD主要识别的异常",
           "answer": [
-            "E"
+            "D"
           ],
+          "answerRaw": "D",
           "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "核酸内切酶介导的mRNA降解",
-          "answerRaw": "N、J",
+          "text": "NGD主要识别的异常",
           "answer": [
-            "N",
-            "J"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "miRNA／RNAi",
-          "answerRaw": "D、B、L、I",
+          "text": "REMD对应的异常",
           "answer": [
-            "D",
-            "B",
-            "L",
-            "I"
+            "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "NMD",
-          "answerRaw": "M、G、H",
-          "answer": [
-            "M",
-            "G",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "NSD",
-          "answerRaw": "O",
-          "answer": [
-            "O"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
-          "text": "NGD",
-          "answerRaw": "C",
-          "answer": [
-            "C"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "REMD",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
       "sourceText": "真核mRNA降解与RNA干扰",
       "reviewState": "已按精编版生化合集、转录讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-17"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-17",
         "lectureNumber": 17,
@@ -1221,7 +1330,10 @@
         "title": "第 17 讲《生化 转录及调控》· 思维导图第 274 页",
         "description": "RNA 干扰与真核 mRNA 质量监控。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-17-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-17-08",
@@ -1293,16 +1405,6 @@
             "C"
           ],
           "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "Pribnow box",
-          "answerRaw": "C、A",
-          "answer": [
-            "C",
-            "A"
-          ],
-          "answerMode": "多选"
         },
         {
           "number": 4,
@@ -1396,8 +1498,9 @@
         "description": "原核启动与终止序列、真核加尾及剪接边界。 点击可查看对应思维导图。",
         "method": "以《精编版》生化合集第 139–148 页为主，结合转录讲义与思维导图逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-17-08"
     }
   ],
   "lectures": [

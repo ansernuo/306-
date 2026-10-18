@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 05 讲学成选择题（磷脂、胆固醇、胆汁酸）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 9,
-    "stemCount": 49,
+    "groupCount": 13,
+    "stemCount": 50,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture5.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 05 讲《磷脂代谢、胆固醇代谢和胆汁酸》范围内题目；选项已逐组打散，答案已按讲义复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -24,7 +26,7 @@
       "page": 1,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "胆固醇酯化：LCAT 与 ACAT"
+      "searchText": "胆固醇酯化：脂酰基供体 胆固醇酯化：作用部位"
     },
     {
       "page": 2,
@@ -54,7 +56,7 @@
       "page": 6,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "胆固醇合成的原料与细胞定位"
+      "searchText": "胆固醇合成：原料 胆固醇合成：亚细胞部位 胆固醇合成：NADPH来源"
     },
     {
       "page": 7,
@@ -66,7 +68,7 @@
       "page": 8,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "胆固醇的去路与维生素 D₃ 活化"
+      "searchText": "胆固醇：代谢去路 维生素D₃：前体与羟化产物"
     },
     {
       "page": 9,
@@ -79,7 +81,7 @@
     {
       "id": "bio-05-01",
       "page": 1,
-      "title": "胆固醇酯化：LCAT 与 ACAT",
+      "title": "胆固醇酯化：脂酰基供体",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -89,64 +91,39 @@
         },
         {
           "key": "B",
-          "label": "由相应组织细胞合成"
-        },
-        {
-          "key": "C",
-          "label": "催化血浆中胆固醇酯化"
-        },
-        {
-          "key": "D",
-          "label": "催化细胞内胆固醇酯化"
-        },
-        {
-          "key": "E",
-          "label": "催化胆固醇第 3 位羟基酯化"
-        },
-        {
-          "key": "F",
           "label": "卵磷脂提供脂酰基"
-        },
-        {
-          "key": "G",
-          "label": "在肝合成"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "LCAT 的特点",
-          "answerRaw": "G、E、C、F",
+          "text": "LCAT催化酯化时的脂酰基供体",
           "answer": [
-            "G",
-            "E",
-            "C",
-            "F"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "ACAT 的特点",
-          "answerRaw": "A、E、D、B",
+          "text": "ACAT催化酯化时的脂酰基供体",
           "answer": [
-            "A",
-            "E",
-            "D",
-            "B"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "胆固醇酯化：LCAT 与 ACAT",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-05"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-05",
         "lectureNumber": 5,
@@ -156,7 +133,70 @@
         "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-05-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-05-01-focus-2",
+      "page": 1,
+      "title": "胆固醇酯化：作用部位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "催化血浆中胆固醇酯化"
+        },
+        {
+          "key": "B",
+          "label": "催化细胞内胆固醇酯化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "LCAT催化的胆固醇酯化发生于何处？",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "ACAT催化的胆固醇酯化发生于何处？",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "胆固醇酯化：LCAT 与 ACAT",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-05-page-01.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-05-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-05-02",
@@ -583,7 +623,7 @@
     {
       "id": "bio-05-06",
       "page": 6,
-      "title": "胆固醇合成的原料与细胞定位",
+      "title": "胆固醇合成：原料",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -597,113 +637,55 @@
         },
         {
           "key": "C",
-          "label": "胞浆"
-        },
-        {
-          "key": "D",
           "label": "氨基酸"
         },
         {
-          "key": "E",
+          "key": "D",
           "label": "ATP"
         },
         {
-          "key": "F",
-          "label": "柠檬酸-丙酮酸循环"
-        },
-        {
-          "key": "G",
-          "label": "小肠"
-        },
-        {
-          "key": "H",
-          "label": "肝"
-        },
-        {
-          "key": "I",
+          "key": "E",
           "label": "NADPH"
         },
         {
-          "key": "J",
-          "label": "磷酸戊糖途径"
-        },
-        {
-          "key": "K",
-          "label": "滑面内质网"
-        },
-        {
-          "key": "L",
-          "label": "将乙酰 CoA 从线粒体转运至胞浆"
-        },
-        {
-          "key": "M",
+          "key": "F",
           "label": "脂肪酸"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "胆固醇合成的主要部位",
-          "answerRaw": "C、G、K、H",
+          "text": "胆固醇合成的直接原料",
           "answer": [
-            "C",
-            "G",
-            "K",
-            "H"
+            "E",
+            "B",
+            "D"
           ],
+          "answerRaw": "E、B、D",
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "胆固醇合成的直接原料",
-          "answerRaw": "I、B、E",
-          "answer": [
-            "I",
-            "B",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
           "text": "合成胆固醇的乙酰 CoA 来源",
-          "answerRaw": "A、D、M",
           "answer": [
             "A",
-            "D",
-            "M"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "合成胆固醇的 NADPH 来源",
-          "answerRaw": "J、F",
-          "answer": [
-            "J",
+            "C",
             "F"
           ],
+          "answerRaw": "A、C、F",
           "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "柠檬酸-丙酮酸循环的作用",
-          "answerRaw": "L",
-          "answer": [
-            "L"
-          ],
-          "answerMode": "单选"
         }
       ],
       "sourceText": "胆固醇合成的原料与细胞定位",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-05"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-05",
         "lectureNumber": 5,
@@ -713,7 +695,122 @@
         "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-05-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-05-06-focus-2",
+      "page": 6,
+      "title": "胆固醇合成：亚细胞部位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胞浆"
+        },
+        {
+          "key": "B",
+          "label": "滑面内质网"
+        },
+        {
+          "key": "C",
+          "label": "线粒体基质"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "胆固醇合成主要涉及哪些亚细胞部位？",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerRaw": "A、B",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胆固醇合成的原料与细胞定位",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-05-page-01.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-05-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-05-06-focus-3",
+      "page": 6,
+      "title": "胆固醇合成：NADPH来源",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "柠檬酸-丙酮酸循环"
+        },
+        {
+          "key": "B",
+          "label": "磷酸戊糖途径"
+        },
+        {
+          "key": "C",
+          "label": "三羧酸循环"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "合成胆固醇的 NADPH 来源",
+          "answer": [
+            "B",
+            "A"
+          ],
+          "answerRaw": "B、A",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胆固醇合成的原料与细胞定位",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-05-page-01.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-05-06",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-05-07",
@@ -896,7 +993,7 @@
     {
       "id": "bio-05-08",
       "page": 8,
-      "title": "胆固醇的去路与维生素 D₃ 活化",
+      "title": "胆固醇：代谢去路",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -906,146 +1003,75 @@
         },
         {
           "key": "B",
-          "label": "维生素 D₃"
-        },
-        {
-          "key": "C",
-          "label": "25-羟维生素 D₃"
-        },
-        {
-          "key": "D",
-          "label": "7-脱氢胆固醇"
-        },
-        {
-          "key": "E",
-          "label": "活性维生素 D₃"
-        },
-        {
-          "key": "F",
           "label": "胆色素"
         },
         {
-          "key": "G",
-          "label": "骨化三醇"
-        },
-        {
-          "key": "H",
+          "key": "C",
           "label": "性激素"
         },
         {
-          "key": "I",
-          "label": "血红素"
-        },
-        {
-          "key": "J",
+          "key": "D",
           "label": "糖皮质激素"
         },
         {
-          "key": "K",
+          "key": "E",
           "label": "醛固酮"
         },
         {
-          "key": "L",
+          "key": "F",
           "label": "胆汁酸"
-        },
-        {
-          "key": "M",
-          "label": "1,25-二羟维生素 D₃"
-        },
-        {
-          "key": "N",
-          "label": "紫外线"
         }
       ],
       "stems": [
         {
           "number": 1,
           "text": "胆固醇最主要的去路",
-          "answerRaw": "L",
           "answer": [
-            "L"
+            "F"
           ],
+          "answerRaw": "F",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "皮肤合成维生素D₃的前体、所需条件及生成物",
-          "answerRaw": "B、N、D",
+          "text": "除活性维生素D外，由胆固醇衍生的经典类固醇激素",
           "answer": [
-            "B",
-            "N",
-            "D"
+            "C",
+            "D",
+            "E"
           ],
+          "answerRaw": "C、D、E",
           "answerMode": "多选"
         },
         {
           "number": 3,
-          "text": "维生素 D₃ 在肝内的产物",
-          "answerRaw": "C",
+          "text": "胆固醇不能彻底氧化为",
           "answer": [
-            "C"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "维生素 D₃ 在肾内的活性产物",
-          "answerRaw": "G、M、E",
-          "answer": [
-            "G",
-            "M",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "除活性维生素D外，由胆固醇衍生的经典类固醇激素",
-          "answerRaw": "H、J、K",
-          "answer": [
-            "H",
-            "J",
-            "K"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "胆固醇不能彻底氧化为",
-          "answerRaw": "A",
-          "answer": [
-            "A"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
           "text": "胆固醇不能转变为",
-          "answerRaw": "F",
           "answer": [
-            "F"
+            "B"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "胆色素的前体",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
       "sourceText": "胆固醇的去路与维生素 D₃ 活化",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-05"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-05",
         "lectureNumber": 5,
@@ -1056,8 +1082,95 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-05-08"
+    },
+    {
+      "id": "bio-05-08-focus-2",
+      "page": 8,
+      "title": "维生素D₃：前体与羟化产物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "维生素 D₃"
+        },
+        {
+          "key": "B",
+          "label": "25-羟维生素 D₃"
+        },
+        {
+          "key": "C",
+          "label": "7-脱氢胆固醇"
+        },
+        {
+          "key": "D",
+          "label": "1,25-二羟维生素D₃（骨化三醇）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "皮肤合成维生素D₃的前体",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "7-脱氢胆固醇经紫外线照射形成的物质",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "维生素 D₃ 在肝内的产物",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "经肾1α-羟化形成的活性维生素D₃",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "胆固醇的去路与维生素 D₃ 活化",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-05-page-02.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-05-08"
     },
     {
       "id": "bio-05-09",

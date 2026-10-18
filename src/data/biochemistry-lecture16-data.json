@@ -12,7 +12,9 @@
     "lectureLinked": true,
     "answerNote": "完整收录第 16 讲《DNA 的合成》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -590,11 +592,11 @@
       "options": [
         {
           "key": "A",
-          "label": "单个片段的合成方向与复制叉前进方向相反，需反复引发、不连续延长"
+          "label": "后随链"
         },
         {
           "key": "B",
-          "label": "沿复制叉前进方向连续延长"
+          "label": "前导链"
         },
         {
           "key": "C",
@@ -604,7 +606,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "先进行、连续延长",
+          "text": "沿复制叉前进方向连续合成的子链",
           "answerRaw": "B",
           "answer": [
             "B"
@@ -613,7 +615,7 @@
         },
         {
           "number": 2,
-          "text": "后进行、不连续延长",
+          "text": "分段合成、各片段延长方向与复制叉前进方向相反的子链",
           "answerRaw": "A",
           "answer": [
             "A"
@@ -649,8 +651,9 @@
         "description": "前导链、后随链与冈崎片段。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-16-06"
     },
     {
       "id": "bio-16-07",

@@ -5,14 +5,16 @@
     "sourcePages": 4,
     "lectureCount": 1,
     "groupCount": 21,
-    "stemCount": 85,
+    "stemCount": 81,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture14.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "完整收录第 14 讲《小基因》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -720,25 +722,14 @@
         },
         {
           "key": "B",
-          "label": "杂合性丢失（如 RB）"
+          "label": "杂合性丢失"
         },
         {
           "key": "C",
-          "label": "基因突变（如 P53）"
+          "label": "基因突变"
         }
       ],
       "stems": [
-        {
-          "number": 1,
-          "text": "抑癌基因失活机制",
-          "answerRaw": "B、A、C",
-          "answer": [
-            "B",
-            "A",
-            "C"
-          ],
-          "answerMode": "多选"
-        },
         {
           "number": 2,
           "text": "本讲义以RB为例说明的失活遗传学事件",
@@ -777,8 +768,9 @@
         "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-14-06"
     },
     {
       "id": "bio-14-07",
@@ -813,7 +805,7 @@
         },
         {
           "key": "G",
-          "label": "聚合酶链反应 PCR 法（最常用）"
+          "label": "聚合酶链反应（PCR）"
         },
         {
           "key": "H",
@@ -871,7 +863,10 @@
         "title": "第 14 讲《生化 小基因》· 第 2 页",
         "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-14-07"
     },
     {
       "id": "bio-14-08",
@@ -1345,21 +1340,6 @@
             "A"
           ],
           "answerMode": "单选"
-        },
-        {
-          "number": 9,
-          "text": "能够作为重组 DNA 技术的工具酶",
-          "answerRaw": "C、A、B、E、F、H、G",
-          "answer": [
-            "C",
-            "A",
-            "B",
-            "E",
-            "F",
-            "H",
-            "G"
-          ],
-          "answerMode": "多选"
         }
       ],
       "sourceText": "工具酶",
@@ -1380,7 +1360,10 @@
         "title": "第 14 讲《生化 小基因》· 第 2 页",
         "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-14-12"
     },
     {
       "id": "bio-14-13",
@@ -1638,15 +1621,15 @@
       "options": [
         {
           "key": "A",
-          "label": "PCR（特异、快速）"
+          "label": "PCR"
         },
         {
           "key": "B",
-          "label": "DNA 序列分析 / 测序（最直接和确切）"
+          "label": "DNA测序"
         },
         {
           "key": "C",
-          "label": "基因芯片（大规模）"
+          "label": "基因芯片"
         },
         {
           "key": "D",
@@ -1656,7 +1639,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "最基本",
+          "text": "基因诊断中最基本的核酸检测方法",
           "answerRaw": "D",
           "answer": [
             "D"
@@ -1665,7 +1648,7 @@
         },
         {
           "number": 2,
-          "text": "特异、快速",
+          "text": "可特异、快速扩增目的DNA的方法",
           "answerRaw": "A",
           "answer": [
             "A"
@@ -1674,7 +1657,7 @@
         },
         {
           "number": 3,
-          "text": "大规模",
+          "text": "可进行大规模并行核酸检测的方法",
           "answerRaw": "C",
           "answer": [
             "C"
@@ -1683,24 +1666,12 @@
         },
         {
           "number": 4,
-          "text": "最直接和确切",
+          "text": "可直接确定DNA碱基排列顺序的方法",
           "answerRaw": "B",
           "answer": [
             "B"
           ],
           "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "基因诊断方法",
-          "answerRaw": "B、D、A、C",
-          "answer": [
-            "B",
-            "D",
-            "A",
-            "C"
-          ],
-          "answerMode": "多选"
         }
       ],
       "sourceText": "基因诊断",
@@ -1721,7 +1692,10 @@
         "title": "第 14 讲《生化 小基因》· 第 3 页",
         "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-14-16"
     },
     {
       "id": "bio-14-17",
@@ -1732,23 +1706,23 @@
       "options": [
         {
           "key": "A",
-          "label": "致病基因精确的原位修复（最理想）：基因修 / 矫正"
+          "label": "基因修正"
         },
         {
           "key": "B",
-          "label": "基因干扰 / 沉默：降低特定 RNA、抑制癌基因过度表达"
+          "label": "基因干扰／沉默"
         },
         {
           "key": "C",
-          "label": "自杀基因：诱发肿瘤细胞死亡"
+          "label": "自杀基因治疗"
         },
         {
           "key": "D",
-          "label": "基因增强 / 补（最主要）"
+          "label": "基因增强／补充"
         },
         {
           "key": "E",
-          "label": "基因置换（用正常基因替换）"
+          "label": "基因置换"
         },
         {
           "key": "F",
@@ -1761,21 +1735,8 @@
       ],
       "stems": [
         {
-          "number": 1,
-          "text": "基因治疗策略",
-          "answerRaw": "B、E、A、D、C",
-          "answer": [
-            "B",
-            "E",
-            "A",
-            "D",
-            "C"
-          ],
-          "answerMode": "多选"
-        },
-        {
           "number": 2,
-          "text": "最主要",
+          "text": "通过导入功能基因补偿缺陷，是传统基因治疗最常用的哪种策略？",
           "answerRaw": "D",
           "answer": [
             "D"
@@ -1837,7 +1798,10 @@
         "title": "第 14 讲《生化 小基因》· 第 4 页",
         "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
-      }
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-14-17"
     },
     {
       "id": "bio-14-18",

@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 02 讲学成选择题（辨析版）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 8,
-    "stemCount": 43,
+    "groupCount": 17,
+    "stemCount": 53,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture2.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 02 讲《氧化磷酸化》范围内题目；选项与答案已按讲义复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -26,13 +28,13 @@
       "page": 1,
       "image": "",
       "topic": "胞浆还原当量穿梭与 ATP",
-      "searchText": "胞浆 H 穿梭进入线粒体"
+      "searchText": "穿梭系统：组织分布 穿梭系统：中间产物"
     },
     {
       "page": 2,
       "image": "",
       "topic": "胞浆还原当量穿梭与 ATP",
-      "searchText": "ATP 与产生 ATP 的方式"
+      "searchText": "核苷三磷酸：代谢用途 ATP生成：磷酸化方式"
     },
     {
       "page": 3,
@@ -44,19 +46,19 @@
       "page": 4,
       "image": "",
       "topic": "呼吸链组成与 P/O 比值",
-      "searchText": "呼吸链复合体Ⅰ～Ⅳ对比"
+      "searchText": "呼吸链复合体：酶的名称 呼吸链复合体：电子传递组分 呼吸链复合体：质子泵"
     },
     {
       "page": 5,
       "image": "",
       "topic": "呼吸链组成与 P/O 比值",
-      "searchText": "CoQ、Cyt c、ATP 合酶与化学渗透假说"
+      "searchText": "流动电子载体：溶解性 流动电子载体：传递电子数 ATP合酶：亚部功能 化学渗透：质子的流动"
     },
     {
       "page": 6,
       "image": "",
       "topic": "呼吸链组成与 P/O 比值",
-      "searchText": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值"
+      "searchText": "呼吸链：P/O比值 呼吸链：各复合体泵出的H⁺数 呼吸链：每对电子泵出的H⁺总数"
     },
     {
       "page": 7,
@@ -75,7 +77,7 @@
     {
       "id": "bio-02-01",
       "page": 1,
-      "title": "胞浆 H 穿梭进入线粒体",
+      "title": "穿梭系统：组织分布",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -85,42 +87,18 @@
         },
         {
           "key": "B",
-          "label": "α-磷酸甘油"
-        },
-        {
-          "key": "C",
           "label": "骨骼肌"
         },
         {
-          "key": "D",
-          "label": "丙酮酸"
-        },
-        {
-          "key": "E",
-          "label": "草酰乙酸"
-        },
-        {
-          "key": "F",
-          "label": "磷酸二羟丙酮"
-        },
-        {
-          "key": "G",
-          "label": "苹果酸"
-        },
-        {
-          "key": "H",
+          "key": "C",
           "label": "肝"
         },
         {
-          "key": "I",
+          "key": "D",
           "label": "脑"
         },
         {
-          "key": "J",
-          "label": "天冬氨酸"
-        },
-        {
-          "key": "K",
+          "key": "E",
           "label": "心"
         }
       ],
@@ -128,165 +106,35 @@
         {
           "number": 1,
           "text": "α-磷酸甘油-磷酸二羟丙酮穿梭：组织",
-          "answerRaw": "I、C",
           "answer": [
-            "I",
-            "C"
+            "D",
+            "B"
           ],
+          "answerRaw": "D、B",
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "α-磷酸甘油-磷酸二羟丙酮穿梭：直接参与的重要中间产物",
-          "answerRaw": "F、B",
-          "answer": [
-            "F",
-            "B"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
           "text": "苹果酸-天冬氨酸穿梭：组织",
-          "answerRaw": "H、K、A",
           "answer": [
-            "H",
-            "K",
+            "C",
+            "E",
             "A"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "苹果酸-天冬氨酸穿梭：直接参与的重要中间产物",
-          "answerRaw": "E、J、G",
-          "answer": [
-            "E",
-            "J",
-            "G"
-          ],
+          "answerRaw": "C、E、A",
           "answerMode": "多选"
         }
       ],
       "sourceText": "胞浆 H 穿梭进入线粒体",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "胞浆还原当量穿梭与 ATP",
       "lectureIds": [
         "lecture-02"
       ],
-      "optionShuffleVersion": 1,
-      "lectureEvidence": {
-        "lectureId": "lecture-02",
-        "lectureNumber": 2,
-        "lectureTitle": "生化 氧化磷酸化",
-        "page": 1,
-        "image": "biochemistry/lecture-pages/lecture-02-page-01.webp",
-        "title": "第 02 讲《生化 氧化磷酸化》· 第 1 页",
-        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
-        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
-      }
-    },
-    {
-      "id": "bio-02-02",
-      "page": 2,
-      "title": "ATP 与产生 ATP 的方式",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "1,3-二磷酸甘油酸→3-磷酸甘油酸+ATP"
-        },
-        {
-          "key": "B",
-          "label": "CTP"
-        },
-        {
-          "key": "C",
-          "label": "UTP"
-        },
-        {
-          "key": "D",
-          "label": "磷酸烯醇式丙酮酸→丙酮酸+ATP"
-        },
-        {
-          "key": "E",
-          "label": "底物水平磷酸化"
-        },
-        {
-          "key": "F",
-          "label": "GTP"
-        },
-        {
-          "key": "G",
-          "label": "琥珀酰 CoA→琥珀酸+ATP/GTP"
-        },
-        {
-          "key": "H",
-          "label": "氧化磷酸化/生物氧化（最主要）"
-        }
-      ],
-      "stems": [
-        {
-          "number": 1,
-          "text": "在ATP以外，翻译起始、进位及转位等过程还直接消耗哪种核苷三磷酸？",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 2,
-          "text": "合成糖原需要",
-          "answerRaw": "C",
-          "answer": [
-            "C"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "合成磷脂需要",
-          "answerRaw": "B",
-          "answer": [
-            "B"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 4,
-          "text": "产生 ATP 的方式",
-          "answerRaw": "E、H",
-          "answer": [
-            "E",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "底物水平磷酸化",
-          "answerRaw": "A、D、G",
-          "answer": [
-            "A",
-            "D",
-            "G"
-          ],
-          "answerMode": "多选"
-        }
-      ],
-      "sourceText": "ATP 与产生 ATP 的方式",
-      "reviewState": "已按 2027 考研讲义核对",
-      "reviewIssues": [],
-      "reviewNotes": [],
-      "topic": "胞浆还原当量穿梭与 ATP",
-      "lectureIds": [
-        "lecture-02"
-      ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-02",
         "lectureNumber": 2,
@@ -297,8 +145,221 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "sourceGroupId": "bio-02-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-02-01-focus-2",
+      "page": 1,
+      "title": "穿梭系统：中间产物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "α-磷酸甘油"
+        },
+        {
+          "key": "B",
+          "label": "丙酮酸"
+        },
+        {
+          "key": "C",
+          "label": "草酰乙酸"
+        },
+        {
+          "key": "D",
+          "label": "磷酸二羟丙酮"
+        },
+        {
+          "key": "E",
+          "label": "苹果酸"
+        },
+        {
+          "key": "F",
+          "label": "天冬氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "α-磷酸甘油-磷酸二羟丙酮穿梭：直接参与的重要中间产物",
+          "answer": [
+            "D",
+            "A"
+          ],
+          "answerRaw": "D、A",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "苹果酸-天冬氨酸穿梭：直接参与的重要中间产物",
+          "answer": [
+            "C",
+            "F",
+            "E"
+          ],
+          "answerRaw": "C、F、E",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胞浆 H 穿梭进入线粒体",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "胞浆还原当量穿梭与 ATP",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-02-page-01.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-02-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-02-02",
+      "page": 2,
+      "title": "核苷三磷酸：代谢用途",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "CTP"
+        },
+        {
+          "key": "B",
+          "label": "UTP"
+        },
+        {
+          "key": "C",
+          "label": "GTP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "在ATP以外，翻译起始、进位及转位等过程还直接消耗哪种核苷三磷酸？",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "合成糖原需要",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "合成磷脂需要",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "ATP 与产生 ATP 的方式",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "胞浆还原当量穿梭与 ATP",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-02-page-01.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-02"
+    },
+    {
+      "id": "bio-02-02-focus-2",
+      "page": 2,
+      "title": "ATP生成：磷酸化方式",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "底物水平磷酸化"
+        },
+        {
+          "key": "B",
+          "label": "氧化磷酸化/生物氧化（最主要）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "呼吸链电子传递与ATP合成相耦联的方式",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "高能底物直接将磷酸基转移给ADP或GDP的方式",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "ATP 与产生 ATP 的方式",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "胞浆还原当量穿梭与 ATP",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-02-page-01.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-02"
     },
     {
       "id": "bio-02-03",
@@ -391,7 +452,7 @@
     {
       "id": "bio-02-04",
       "page": 4,
-      "title": "呼吸链复合体Ⅰ～Ⅳ对比",
+      "title": "呼吸链复合体：酶的名称",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -405,110 +466,61 @@
         },
         {
           "key": "C",
-          "label": "Fe-S"
-        },
-        {
-          "key": "D",
-          "label": "血红素"
-        },
-        {
-          "key": "E",
           "label": "泛醌-细胞色素 c 还原酶"
         },
         {
-          "key": "F",
-          "label": "Q 循环"
-        },
-        {
-          "key": "G",
-          "label": "FMN"
-        },
-        {
-          "key": "H",
-          "label": "CuB"
-        },
-        {
-          "key": "I",
-          "label": "CuA"
-        },
-        {
-          "key": "J",
-          "label": "FAD"
-        },
-        {
-          "key": "K",
-          "label": "本复合体本身无质子泵功能；电子仍可经下游复合体与ATP合成耦联"
-        },
-        {
-          "key": "L",
-          "label": "有质子泵功能"
-        },
-        {
-          "key": "M",
+          "key": "D",
           "label": "NADH-泛醌还原酶"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "复合体Ⅰ：酶、辅基、质子泵功能",
-          "answerRaw": "M、G、C、L",
+          "text": "复合体Ⅰ的名称",
           "answer": [
-            "M",
-            "G",
-            "C",
-            "L"
+            "D"
           ],
-          "answerMode": "多选"
+          "answerRaw": "D",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "复合体Ⅱ：酶、辅基、质子泵功能",
-          "answerRaw": "A、J、C、K",
+          "text": "复合体Ⅱ的名称",
           "answer": [
-            "A",
-            "J",
-            "C",
-            "K"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "复合体Ⅲ：酶、辅基、质子泵功能、特点",
-          "answerRaw": "E、C、D、L、F",
+          "text": "复合体Ⅲ的名称",
           "answer": [
-            "E",
-            "C",
-            "D",
-            "L",
-            "F"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
           "number": 4,
-          "text": "复合体Ⅳ：酶、辅基、质子泵功能",
-          "answerRaw": "B、D、I、H、L",
+          "text": "复合体Ⅳ的名称",
           "answer": [
-            "B",
-            "D",
-            "I",
-            "H",
-            "L"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "呼吸链复合体Ⅰ～Ⅳ对比",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "呼吸链组成与 P/O 比值",
       "lectureIds": [
         "lecture-02"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-02",
         "lectureNumber": 2,
@@ -519,13 +531,363 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-04"
+    },
+    {
+      "id": "bio-02-04-focus-2",
+      "page": 4,
+      "title": "呼吸链复合体：电子传递组分",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Fe-S"
+        },
+        {
+          "key": "B",
+          "label": "血红素"
+        },
+        {
+          "key": "C",
+          "label": "FMN"
+        },
+        {
+          "key": "D",
+          "label": "CuB"
+        },
+        {
+          "key": "E",
+          "label": "CuA"
+        },
+        {
+          "key": "F",
+          "label": "FAD"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "复合体Ⅰ含有哪些电子传递组分？",
+          "answer": [
+            "C",
+            "A"
+          ],
+          "answerRaw": "C、A",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "复合体Ⅱ含有哪些电子传递组分？",
+          "answer": [
+            "F",
+            "A"
+          ],
+          "answerRaw": "F、A",
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "复合体Ⅲ含有哪些电子传递组分？",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerRaw": "A、B",
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "复合体Ⅳ含有哪些电子传递组分？",
+          "answer": [
+            "B",
+            "D",
+            "E"
+          ],
+          "answerRaw": "B、D、E",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "呼吸链复合体Ⅰ～Ⅳ对比",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-04"
+    },
+    {
+      "id": "bio-02-04-focus-3",
+      "page": 4,
+      "title": "呼吸链复合体：质子泵",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "琥珀酸-泛醌还原酶"
+        },
+        {
+          "key": "B",
+          "label": "细胞色素 c 氧化酶"
+        },
+        {
+          "key": "C",
+          "label": "泛醌-细胞色素 c 还原酶"
+        },
+        {
+          "key": "D",
+          "label": "NADH-泛醌还原酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "具有质子泵功能的复合体对应哪些酶？",
+          "answer": [
+            "D",
+            "C",
+            "B"
+          ],
+          "answerRaw": "D、C、B",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "不具有质子泵功能的复合体对应哪种酶？",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "呼吸链复合体Ⅰ～Ⅳ对比",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-04"
     },
     {
       "id": "bio-02-05",
       "page": 5,
-      "title": "CoQ、Cyt c、ATP 合酶与化学渗透假说",
+      "title": "流动电子载体：溶解性",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "水溶性（与线粒体内膜结合疏松）"
+        },
+        {
+          "key": "B",
+          "label": "脂溶性强（在线粒体内膜自由扩散）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "细胞色素c的溶解性",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "辅酶Q的溶解性",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "CoQ、Cyt c、ATP 合酶与化学渗透假说",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-05"
+    },
+    {
+      "id": "bio-02-05-focus-2",
+      "page": 5,
+      "title": "流动电子载体：传递电子数",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "单电子载体"
+        },
+        {
+          "key": "B",
+          "label": "双电子传递体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "细胞色素c属于哪类电子载体？",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "辅酶Q属于哪类电子载体？",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "CoQ、Cyt c、ATP 合酶与化学渗透假说",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-05"
+    },
+    {
+      "id": "bio-02-05-focus-3",
+      "page": 5,
+      "title": "ATP合酶：亚部功能",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "F₁"
+        },
+        {
+          "key": "B",
+          "label": "F₀"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "ATP合酶中催化ATP生成的部分",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "ATP合酶中形成质子通道的部分",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "CoQ、Cyt c、ATP 合酶与化学渗透假说",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-05"
+    },
+    {
+      "id": "bio-02-05-focus-4",
+      "page": 5,
+      "title": "化学渗透：质子的流动",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -535,95 +897,39 @@
         },
         {
           "key": "B",
-          "label": "水溶性（与线粒体内膜结合疏松）"
-        },
-        {
-          "key": "C",
-          "label": "亲水的 F₁（生成 ATP）"
-        },
-        {
-          "key": "D",
-          "label": "脂溶性强（在线粒体内膜自由扩散）"
-        },
-        {
-          "key": "E",
           "label": "H⁺顺浓度回流时释放能量并耦联生成 ATP"
-        },
-        {
-          "key": "F",
-          "label": "单电子载体"
-        },
-        {
-          "key": "G",
-          "label": "按本讲能量核算，每合成并向胞质供应1个ATP约需4个H⁺的质子驱动力当量（含相关转运消耗）"
-        },
-        {
-          "key": "H",
-          "label": "不属于任何复合体"
-        },
-        {
-          "key": "I",
-          "label": "疏水的 F₀（离子通道）"
-        },
-        {
-          "key": "J",
-          "label": "双电子传递体"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "Cyt c",
-          "answerRaw": "B、F、H",
+          "text": "呼吸链释放的能量驱动哪种质子流动？",
           "answer": [
-            "B",
-            "F",
-            "H"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "辅酶 Q/CoQ/泛醌",
-          "answerRaw": "D、J、H",
+          "text": "ATP合成由哪种质子流动驱动？",
           "answer": [
-            "D",
-            "J",
-            "H"
+            "B"
           ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "ATP 合酶（复合体Ⅴ）",
-          "answerRaw": "C、I",
-          "answer": [
-            "C",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "化学渗透假说",
-          "answerRaw": "A、E、G",
-          "answer": [
-            "A",
-            "E",
-            "G"
-          ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "CoQ、Cyt c、ATP 合酶与化学渗透假说",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "呼吸链组成与 P/O 比值",
       "lectureIds": [
         "lecture-02"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-02",
         "lectureNumber": 2,
@@ -634,169 +940,69 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-05"
     },
     {
       "id": "bio-02-06",
       "page": 6,
-      "title": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值",
+      "title": "呼吸链：P/O比值",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "复合体Ⅱ（0H⁺）"
-        },
-        {
-          "key": "B",
           "label": "2.5"
         },
         {
-          "key": "C",
-          "label": "复合体Ⅰ（4H⁺）"
-        },
-        {
-          "key": "D",
-          "label": "琥珀酸"
-        },
-        {
-          "key": "E",
-          "label": "胆碱"
-        },
-        {
-          "key": "F",
+          "key": "B",
           "label": "1.5"
         },
         {
-          "key": "G",
-          "label": "多数"
-        },
-        {
-          "key": "H",
+          "key": "C",
           "label": "1"
-        },
-        {
-          "key": "I",
-          "label": "脂酰 CoA"
-        },
-        {
-          "key": "J",
-          "label": "生成 ATP 数与消耗 1/2 O₂ 的比值"
-        },
-        {
-          "key": "K",
-          "label": "线粒体中的 α-磷酸甘油"
-        },
-        {
-          "key": "L",
-          "label": "复合体Ⅳ（2H⁺）"
-        },
-        {
-          "key": "M",
-          "label": "复合体Ⅲ（4H⁺）"
-        },
-        {
-          "key": "N",
-          "label": "10H⁺"
-        },
-        {
-          "key": "O",
-          "label": "6H⁺"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "NADH+H⁺ 呼吸链：来源",
-          "answerRaw": "G",
+          "text": "NADH+H⁺ 呼吸链：P/O",
           "answer": [
-            "G"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "NADH+H⁺ 呼吸链：各复合体泵 H⁺数及总数",
-          "answerRaw": "C、M、L、N",
-          "answer": [
-            "C",
-            "M",
-            "L",
-            "N"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "NADH+H⁺ 呼吸链：P/O",
-          "answerRaw": "B",
+          "text": "FADH₂ 呼吸链：P/O",
           "answer": [
             "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
-          "number": 4,
-          "text": "FADH₂ 呼吸链：来源",
-          "answerRaw": "D、I、K、E",
-          "answer": [
-            "D",
-            "I",
-            "K",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "以琥珀酸经复合体Ⅱ进入呼吸链为例：各复合体泵H⁺数及总数",
-          "answerRaw": "A、M、L、O",
-          "answer": [
-            "A",
-            "M",
-            "L",
-            "O"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "FADH₂ 呼吸链：P/O",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
+          "number": 3,
           "text": "抗坏血酸的 P/O",
-          "answerRaw": "H",
           "answer": [
-            "H"
+            "C"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "P/O 比值",
-          "answerRaw": "J",
-          "answer": [
-            "J"
-          ],
+          "answerRaw": "C",
           "answerMode": "单选"
         }
       ],
       "sourceText": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "呼吸链组成与 P/O 比值",
       "lectureIds": [
         "lecture-02"
       ],
-      "optionShuffleVersion": 1,
       "lectureEvidence": {
         "lectureId": "lecture-02",
         "lectureNumber": 2,
@@ -807,8 +1013,155 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-06"
+    },
+    {
+      "id": "bio-02-06-focus-2",
+      "page": 6,
+      "title": "呼吸链：各复合体泵出的H⁺数",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "0"
+        },
+        {
+          "key": "B",
+          "label": "2"
+        },
+        {
+          "key": "C",
+          "label": "4"
+        },
+        {
+          "key": "D",
+          "label": "6"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "每传递一对电子，复合体Ⅰ泵出的H⁺数",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "每传递一对电子，复合体Ⅱ泵出的H⁺数",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "每传递一对电子，复合体Ⅲ泵出的H⁺数",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "每传递一对电子，复合体Ⅳ泵出的H⁺数",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-02-page-03.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-06"
+    },
+    {
+      "id": "bio-02-06-focus-3",
+      "page": 6,
+      "title": "呼吸链：每对电子泵出的H⁺总数",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "10H⁺"
+        },
+        {
+          "key": "B",
+          "label": "6H⁺"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "NADH经复合体Ⅰ、Ⅲ、Ⅳ传递一对电子，泵出的H⁺总数",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "琥珀酸经复合体Ⅱ进入呼吸链，每对电子泵出的H⁺总数",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-02-page-03.webp",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-06"
     },
     {
       "id": "bio-02-07",
@@ -1026,18 +1379,6 @@
       ],
       "stems": [
         {
-          "number": 1,
-          "text": "氧化磷酸化的调节因素（选择本组列出的各项）",
-          "answerRaw": "K、D、J、I",
-          "answer": [
-            "K",
-            "D",
-            "J",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
           "number": 2,
           "text": "甲状腺激素",
           "answerRaw": "L、G",
@@ -1121,8 +1462,9 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-02-08"
     }
   ],
   "lectures": [

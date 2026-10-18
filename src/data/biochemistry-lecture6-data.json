@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 06 讲学成选择题（脂肪代谢）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 10,
-    "stemCount": 53,
+    "groupCount": 17,
+    "stemCount": 45,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture6.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 06 讲《脂肪代谢》范围内题目；选项已逐组打散，答案已按讲义复核。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -24,7 +26,7 @@
       "page": 1,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "脂肪合成途径与甘油来源"
+      "searchText": "甘油三酯合成：甘油骨架来源"
     },
     {
       "page": 2,
@@ -36,13 +38,13 @@
       "page": 3,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "脂酰基的载体"
+      "searchText": "脂肪酸合成：脂酰基载体 脂肪酸合成：亚细胞部位"
     },
     {
       "page": 4,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "脂肪动员的酶与调节"
+      "searchText": "脂肪动员：水解反应 脂肪动员：激素调节"
     },
     {
       "page": 5,
@@ -54,25 +56,25 @@
       "page": 6,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "脂肪酸 β 氧化：活化、转运与组织特点"
+      "searchText": "脂肪酸活化与转运：相关酶 脂肪酸β氧化：调节物"
     },
     {
       "page": 7,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "脂肪酸 β 氧化的四步反应"
+      "searchText": "β氧化：还原当量 β氧化：催化酶 β氧化：反应类型"
     },
     {
       "page": 8,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "偶数碳与奇数碳脂肪酸"
+      "searchText": "脂肪酸β氧化：终产物"
     },
     {
       "page": 9,
       "image": "",
       "topic": "脂代谢",
-      "searchText": "酮体的合成、分解与意义"
+      "searchText": "酮体：组成与合成原料 酮体代谢：亚细胞部位 酮体代谢：相关酶"
     },
     {
       "page": 10,
@@ -85,131 +87,45 @@
     {
       "id": "bio-06-01",
       "page": 1,
-      "title": "脂肪合成途径与甘油来源",
+      "title": "甘油三酯合成：甘油骨架来源",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "小肠胞浆"
-        },
-        {
-          "key": "B",
           "label": "既可来自糖酵解的 3-磷酸甘油，也可来自脂肪动员的甘油"
         },
         {
-          "key": "C",
-          "label": "甘油激酶在脂肪和骨骼肌细胞活性很低或缺乏"
-        },
-        {
-          "key": "D",
-          "label": "葡萄糖"
-        },
-        {
-          "key": "E",
-          "label": "需乳糜微粒（CM）"
-        },
-        {
-          "key": "F",
-          "label": "肝"
-        },
-        {
-          "key": "G",
-          "label": "3-磷酸甘油"
-        },
-        {
-          "key": "H",
-          "label": "甘油激酶"
-        },
-        {
-          "key": "I",
+          "key": "B",
           "label": "合成脂肪的甘油只能来自糖酵解的 3-磷酸甘油"
-        },
-        {
-          "key": "J",
-          "label": "磷酸二羟丙酮"
-        },
-        {
-          "key": "K",
-          "label": "甘油"
-        },
-        {
-          "key": "L",
-          "label": "脂肪细胞等胞浆"
-        },
-        {
-          "key": "M",
-          "label": "脂肪动员"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "甘油一酯途径的特点",
-          "answerRaw": "E、A",
-          "answer": [
-            "E",
-            "A"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "甘油二酯途径的部位",
-          "answerRaw": "L、F",
-          "answer": [
-            "L",
-            "F"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "葡萄糖来源的 3-磷酸甘油相关物",
-          "answerRaw": "D、J、G",
-          "answer": [
-            "D",
-            "J",
-            "G"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "脂肪动员来源的 3-磷酸甘油相关物",
-          "answerRaw": "M、K、H、G",
-          "answer": [
-            "M",
-            "K",
-            "H",
-            "G"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "脂肪和骨骼肌细胞合成脂肪的甘油来源",
-          "answerRaw": "C、I",
-          "answer": [
-            "C",
-            "I"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "肝脏合成脂肪的甘油来源",
-          "answerRaw": "B",
+          "text": "脂肪细胞合成甘油三酯时，甘油骨架的主要来源",
           "answer": [
             "B"
           ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "肝细胞合成甘油三酯时，甘油骨架的来源",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
           "answerMode": "单选"
         }
       ],
       "sourceText": "脂肪合成途径与甘油来源",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-06"
@@ -223,7 +139,10 @@
         "title": "第 06 讲《生化 脂肪代谢》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-06-01",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-06-02",
@@ -377,67 +296,48 @@
     },
     {
       "id": "bio-06-03",
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
       "page": 3,
-      "title": "脂酰基的载体",
+      "title": "脂肪酸合成：脂酰基载体",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "线粒体"
-        },
-        {
-          "key": "B",
           "label": "辅酶 A/HSCoA"
         },
         {
-          "key": "C",
-          "label": "内质网"
-        },
-        {
-          "key": "D",
+          "key": "B",
           "label": "酰基载体蛋白/ACP"
-        },
-        {
-          "key": "E",
-          "label": "维生素 B5"
-        },
-        {
-          "key": "F",
-          "label": "胞浆"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "合成脂肪酸所需的脂酰基载体、所含维生素来源及进行部位",
-          "answerRaw": "E、F、D",
+          "text": "胞质脂肪酸从头合成时的脂酰基载体",
           "answer": [
-            "E",
-            "F",
-            "D"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "脂肪酸合成后延长碳链所需的载体、所含维生素来源及进行部位",
-          "answerRaw": "B、E、A、C",
+          "text": "脂肪酸碳链延长时的脂酰基载体",
           "answer": [
-            "B",
-            "E",
-            "A",
-            "C"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "脂酰基的载体",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-06"
@@ -451,61 +351,91 @@
         "title": "第 06 讲《生化 脂肪代谢》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-06-03"
     },
     {
-      "id": "bio-06-04",
-      "page": 4,
-      "title": "脂肪动员的酶与调节",
+      "id": "bio-06-03-focus-2",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "page": 3,
+      "title": "脂肪酸合成：亚细胞部位",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "儿茶酚胺"
+          "label": "线粒体"
         },
         {
           "key": "B",
-          "label": "甘油一酯→甘油+脂肪酸"
+          "label": "内质网"
         },
         {
           "key": "C",
-          "label": "甘油一酯脂肪酶"
+          "label": "胞浆"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "脂肪酸从头合成的部位",
+          "answer": [
+            "C"
+          ],
+          "answerRaw": "C",
+          "answerMode": "单选"
         },
         {
-          "key": "D",
+          "number": 2,
+          "text": "脂肪酸碳链延长的部位",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerRaw": "A、B",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "脂酰基的载体",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生化 脂肪代谢",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-06-page-01.webp",
+        "title": "第 06 讲《生化 脂肪代谢》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-06-03"
+    },
+    {
+      "id": "bio-06-04",
+      "page": 4,
+      "title": "脂肪动员：水解反应",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "甘油一酯→甘油+脂肪酸"
+        },
+        {
+          "key": "B",
           "label": "甘油三酯→甘油二酯+脂肪酸"
         },
         {
-          "key": "E",
-          "label": "前列腺素"
-        },
-        {
-          "key": "F",
-          "label": "胰高血糖素"
-        },
-        {
-          "key": "G",
-          "label": "胰岛素"
-        },
-        {
-          "key": "H",
-          "label": "脂解激素"
-        },
-        {
-          "key": "I",
-          "label": "ATGL"
-        },
-        {
-          "key": "J",
-          "label": "抗脂解激素"
-        },
-        {
-          "key": "K",
-          "label": "激素敏感性脂肪酶（HSL，主要水解甘油二酯）"
-        },
-        {
-          "key": "L",
+          "key": "C",
           "label": "甘油二酯→甘油一酯+脂肪酸"
         }
       ],
@@ -513,57 +443,37 @@
         {
           "number": 1,
           "text": "ATGL 催化",
-          "answerRaw": "D",
           "answer": [
-            "D"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 2,
           "text": "HSL 催化",
-          "answerRaw": "L",
           "answer": [
-            "L"
+            "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "HSL 的激活剂",
-          "answerRaw": "A、F、H",
-          "answer": [
-            "A",
-            "F",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "HSL 的抑制剂",
-          "answerRaw": "J、G、E",
-          "answer": [
-            "J",
-            "G",
-            "E"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
           "text": "甘油一酯脂肪酶催化",
-          "answerRaw": "B",
           "answer": [
-            "B"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         }
       ],
       "sourceText": "脂肪动员的酶与调节",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-06"
@@ -578,8 +488,79 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-04"
+    },
+    {
+      "id": "bio-06-04-focus-2",
+      "page": 4,
+      "title": "脂肪动员：激素调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "儿茶酚胺"
+        },
+        {
+          "key": "B",
+          "label": "前列腺素"
+        },
+        {
+          "key": "C",
+          "label": "胰高血糖素"
+        },
+        {
+          "key": "D",
+          "label": "胰岛素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "促进脂解的激素",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerRaw": "A、C",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "抑制脂解的激素",
+          "answer": [
+            "D",
+            "B"
+          ],
+          "answerRaw": "D、B",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "脂肪动员的酶与调节",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生化 脂肪代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-06-page-02.webp",
+        "title": "第 06 讲《生化 脂肪代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-04"
     },
     {
       "id": "bio-06-05",
@@ -688,155 +669,64 @@
     {
       "id": "bio-06-06",
       "page": 6,
-      "title": "脂肪酸 β 氧化：活化、转运与组织特点",
+      "title": "脂肪酸活化与转运：相关酶",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "丙二酰 CoA"
-        },
-        {
-          "key": "B",
           "label": "肉碱脂酰转移酶Ⅱ"
         },
         {
-          "key": "C",
+          "key": "B",
           "label": "脂酰 CoA 合成酶"
         },
         {
-          "key": "D",
-          "label": "其他器官主要通过氧化葡萄糖获得能量"
-        },
-        {
-          "key": "E",
+          "key": "C",
           "label": "肉碱脂酰转移酶Ⅰ"
         },
         {
-          "key": "F",
-          "label": "肝的脂肪酸 β 氧化非常活跃"
-        },
-        {
-          "key": "G",
-          "label": "脂酰 CoA"
-        },
-        {
-          "key": "H",
+          "key": "D",
           "label": "肉碱-脂酰肉碱转位酶"
-        },
-        {
-          "key": "I",
-          "label": "成人心肌也主要消耗脂肪酸"
-        },
-        {
-          "key": "J",
-          "label": "脑不能进行脂肪酸 β 氧化"
-        },
-        {
-          "key": "K",
-          "label": "肉碱"
-        },
-        {
-          "key": "L",
-          "label": "肝主要通过氧化脂肪酸获得能量"
-        },
-        {
-          "key": "M",
-          "label": "肝将多余葡萄糖变为糖原、脂肪储存"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "脂肪酸活化所需酶和产物",
-          "answerRaw": "C、G",
+          "text": "催化脂肪酸活化的酶",
           "answer": [
-            "C",
-            "G"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 2,
           "text": "长链脂酰基经肉碱穿梭进入线粒体基质所需的酶/转位酶",
-          "answerRaw": "H、E、B",
           "answer": [
-            "H",
-            "E",
-            "B"
+            "D",
+            "C",
+            "A"
           ],
+          "answerRaw": "D、C、A",
           "answerMode": "多选"
         },
         {
           "number": 3,
           "text": "脂肪酸 β 氧化的关键酶",
-          "answerRaw": "E",
           "answer": [
-            "E"
+            "C"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 4,
-          "text": "抑制肉碱脂酰转移酶Ⅰ",
-          "answerRaw": "A",
-          "answer": [
-            "A"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "促进脂肪酸 β 氧化",
-          "answerRaw": "K",
-          "answer": [
-            "K"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "肝的脂肪酸 β 氧化相关特点",
-          "answerRaw": "L、F、M",
-          "answer": [
-            "L",
-            "F",
-            "M"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 7,
-          "text": "脑的脂肪酸 β 氧化特点",
-          "answerRaw": "J",
-          "answer": [
-            "J"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "成人心肌的主要供能特点",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 9,
-          "text": "相对成人心肌，下列哪项描述多数其他组织对葡萄糖的利用？（不表示各种营养状态均只氧化糖）",
-          "answerRaw": "D",
-          "answer": [
-            "D"
-          ],
+          "answerRaw": "C",
           "answerMode": "单选"
         }
       ],
       "sourceText": "脂肪酸 β 氧化：活化、转运与组织特点",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-06"
@@ -851,13 +741,194 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-06"
+    },
+    {
+      "id": "bio-06-06-focus-2",
+      "page": 6,
+      "title": "脂肪酸β氧化：调节物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "丙二酰 CoA"
+        },
+        {
+          "key": "B",
+          "label": "肉碱"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "抑制肉碱脂酰转移酶Ⅰ的物质",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "长链脂酰基进入线粒体所需的载体",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "脂肪酸 β 氧化：活化、转运与组织特点",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生化 脂肪代谢",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-06-page-03.webp",
+        "title": "第 06 讲《生化 脂肪代谢》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-06"
     },
     {
       "id": "bio-06-07",
       "page": 7,
-      "title": "脂肪酸 β 氧化的四步反应",
+      "title": "β氧化：还原当量",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "FADH₂"
+        },
+        {
+          "key": "B",
+          "label": "NADH"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "第一次脱氢生成的还原当量",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "脂肪酸 β 氧化第二次脱氢产物",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "脂肪酸 β 氧化的四步反应",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生化 脂肪代谢",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-06-page-03.webp",
+        "title": "第 06 讲《生化 脂肪代谢》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-06-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-06-07-focus-2",
+      "page": 7,
+      "title": "β氧化：催化酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "β-酮脂酰 CoA 硫解酶"
+        },
+        {
+          "key": "B",
+          "label": "脂酰 CoA 脱氢酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "催化第一次脱氢的酶",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "催化硫解反应的酶",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "脂肪酸 β 氧化的四步反应",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生化 脂肪代谢",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-06-page-03.webp",
+        "title": "第 06 讲《生化 脂肪代谢》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
+      },
+      "sourceGroupId": "bio-06-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
+    },
+    {
+      "id": "bio-06-07-focus-3",
+      "page": 7,
+      "title": "β氧化：反应类型",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -867,69 +938,39 @@
         },
         {
           "key": "B",
-          "label": "FADH₂"
-        },
-        {
-          "key": "C",
-          "label": "β-酮脂酰 CoA 硫解酶"
-        },
-        {
-          "key": "D",
           "label": "加水"
         },
         {
-          "key": "E",
-          "label": "脂酰 CoA 脱氢酶"
-        },
-        {
-          "key": "F",
-          "label": "NADH"
+          "key": "C",
+          "label": "脱羧"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "脂肪酸 β 氧化第一次脱氢相关物",
-          "answerRaw": "B、E",
+          "text": "β氧化第二步的反应类型",
           "answer": [
-            "B",
-            "E"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "脂肪酸 β 氧化第二步反应",
-          "answerRaw": "D",
+          "text": "β氧化第四步的反应类型",
           "answer": [
-            "D"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "脂肪酸 β 氧化第二次脱氢产物",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 4,
-          "text": "脂肪酸 β 氧化第四步反应及酶",
-          "answerRaw": "C、A",
-          "answer": [
-            "C",
             "A"
           ],
-          "answerMode": "多选"
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "脂肪酸 β 氧化的四步反应",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-06"
@@ -943,71 +984,67 @@
         "title": "第 06 讲《生化 脂肪代谢》· 第 3 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-06-07",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-06-08",
       "page": 8,
-      "title": "偶数碳与奇数碳脂肪酸",
+      "title": "脂肪酸β氧化：终产物",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "生物氧化"
-        },
-        {
-          "key": "B",
           "label": "琥珀酰 CoA"
         },
         {
-          "key": "C",
+          "key": "B",
           "label": "乙酰 CoA"
         },
         {
-          "key": "D",
-          "label": "三羧酸循环"
-        },
-        {
-          "key": "E",
+          "key": "C",
           "label": "丙酰 CoA"
-        },
-        {
-          "key": "F",
-          "label": "糖异生"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "偶数碳脂肪酸 β 氧化的去路",
-          "answerRaw": "D、A、C",
+          "text": "偶数碳脂肪酸β氧化生成的二碳产物",
           "answer": [
-            "D",
-            "A",
-            "C"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerRaw": "B",
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "奇数碳脂肪酸 β 氧化的去路",
-          "answerRaw": "D、A、E、F、C、B",
+          "text": "奇数碳脂肪酸β氧化最后一次硫解生成的产物",
           "answer": [
-            "D",
-            "A",
-            "E",
-            "F",
-            "C",
-            "B"
+            "B",
+            "C"
           ],
+          "answerRaw": "B、C",
           "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "丙酰CoA经羧化、异构等反应形成的三羧酸循环中间物",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
         }
       ],
       "sourceText": "偶数碳与奇数碳脂肪酸",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-06"
@@ -1021,12 +1058,15 @@
         "title": "第 06 讲《生化 脂肪代谢》· 第 3 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
-      }
+      },
+      "sourceGroupId": "bio-06-08",
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18"
     },
     {
       "id": "bio-06-09",
       "page": 9,
-      "title": "酮体的合成、分解与意义",
+      "title": "酮体：组成与合成原料",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -1036,168 +1076,45 @@
         },
         {
           "key": "B",
-          "label": "长期饥饿"
-        },
-        {
-          "key": "C",
-          "label": "脑组织的主要能量来源"
-        },
-        {
-          "key": "D",
-          "label": "HMG CoA 裂解酶"
-        },
-        {
-          "key": "E",
-          "label": "易透过血脑屏障"
-        },
-        {
-          "key": "F",
-          "label": "肝输出能源的一种形式"
-        },
-        {
-          "key": "G",
           "label": "β-羟丁酸"
         },
         {
-          "key": "H",
-          "label": "琥珀酰 CoA 转硫酶"
-        },
-        {
-          "key": "I",
-          "label": "肝外线粒体"
-        },
-        {
-          "key": "J",
-          "label": "乙酰乙酰 CoA 硫解酶"
-        },
-        {
-          "key": "K",
-          "label": "肝线粒体"
-        },
-        {
-          "key": "L",
-          "label": "HMG CoA 合酶"
-        },
-        {
-          "key": "M",
+          "key": "C",
           "label": "乙酰 CoA"
         },
         {
-          "key": "N",
+          "key": "D",
           "label": "丙酮"
-        },
-        {
-          "key": "O",
-          "label": "乙酰乙酸硫激酶"
-        },
-        {
-          "key": "P",
-          "label": "未控制的严重糖尿病，尤其胰岛素严重不足时"
         }
       ],
       "stems": [
         {
           "number": 1,
           "text": "酮体包括",
-          "answerRaw": "G、A、N",
           "answer": [
-            "G",
+            "B",
             "A",
-            "N"
+            "D"
           ],
+          "answerRaw": "B、A、D",
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "酮体合成部位",
-          "answerRaw": "K",
-          "answer": [
-            "K"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
           "text": "酮体合成原料",
-          "answerRaw": "M",
-          "answer": [
-            "M"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 4,
-          "text": "参与酮体合成的酶",
-          "answerRaw": "D、L、J",
-          "answer": [
-            "D",
-            "L",
-            "J"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "参与酮体分解的酶",
-          "answerRaw": "J、H、O",
-          "answer": [
-            "J",
-            "H",
-            "O"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 6,
-          "text": "酮体分解部位",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
-          "text": "酮体的生理意义",
-          "answerRaw": "F",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "酮体产生增多的情况",
-          "answerRaw": "P、B",
-          "answer": [
-            "P",
-            "B"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 9,
-          "text": "长期饥饿适应后，酮体可成为何种组织的重要/主要能量来源？",
-          "answerRaw": "C",
           "answer": [
             "C"
           ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 10,
-          "text": "酮体的特点",
-          "answerRaw": "E",
-          "answer": [
-            "E"
-          ],
+          "answerRaw": "C",
           "answerMode": "单选"
         }
       ],
       "sourceText": "酮体的合成、分解与意义",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-06"
@@ -1212,8 +1129,145 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-09"
+    },
+    {
+      "id": "bio-06-09-focus-2",
+      "page": 9,
+      "title": "酮体代谢：亚细胞部位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "肝外线粒体"
+        },
+        {
+          "key": "B",
+          "label": "肝线粒体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "酮体合成部位",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "酮体分解部位",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "酮体的合成、分解与意义",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生化 脂肪代谢",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-06-page-05.webp",
+        "title": "第 06 讲《生化 脂肪代谢》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-09"
+    },
+    {
+      "id": "bio-06-09-focus-3",
+      "page": 9,
+      "title": "酮体代谢：相关酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "HMG CoA 裂解酶"
+        },
+        {
+          "key": "B",
+          "label": "琥珀酰 CoA 转硫酶"
+        },
+        {
+          "key": "C",
+          "label": "乙酰乙酰 CoA 硫解酶"
+        },
+        {
+          "key": "D",
+          "label": "HMG CoA 合酶"
+        },
+        {
+          "key": "E",
+          "label": "乙酰乙酸硫激酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "参与酮体合成的酶",
+          "answer": [
+            "A",
+            "D",
+            "C"
+          ],
+          "answerRaw": "A、D、C",
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "参与酮体分解的酶",
+          "answer": [
+            "C",
+            "B",
+            "E"
+          ],
+          "answerRaw": "C、B、E",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "酮体的合成、分解与意义",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生化 脂肪代谢",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-06-page-05.webp",
+        "title": "第 06 讲《生化 脂肪代谢》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-09"
     },
     {
       "id": "bio-06-10",
@@ -1261,17 +1315,6 @@
       ],
       "stems": [
         {
-          "number": 1,
-          "text": "必需脂肪酸的特点",
-          "answerRaw": "D、A、C",
-          "answer": [
-            "D",
-            "A",
-            "C"
-          ],
-          "answerMode": "多选"
-        },
-        {
           "number": 2,
           "text": "人体不能从头合成、正常情况下需由膳食直接提供的两种必需脂肪酸",
           "answerRaw": "F、E",
@@ -1311,8 +1354,9 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-06-10"
     }
   ],
   "lectures": [

@@ -4,15 +4,17 @@
     "sourceLabel": "生化第 1 讲学成选择题（修订扩充版）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 8,
-    "stemCount": 27,
+    "groupCount": 9,
+    "stemCount": 26,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_chapter1.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "仅收录第 01 讲《糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》范围内题目；每题组均已关联对应讲义页。",
     "reviewedAt": "2026-10-17",
-    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。"
+    "reviewNote": "逐题审查题干范围、选项及判分；保留原讲义/Word来源，个别错误、简化或歧义表述已作学理澄清，不能视为与原文逐字一致。",
+    "structureReviewedAt": "2026-10-18",
+    "structureReviewVersion": "bio-focused-20261017-v1"
   },
   "topics": [
     "全部",
@@ -25,7 +27,7 @@
       "page": 1,
       "image": "",
       "topic": "糖无氧氧化与糖有氧氧化",
-      "searchText": "糖酵解关键酶"
+      "searchText": "糖酵解：关键酶催化的反应 糖酵解：关键酶的调节"
     },
     {
       "page": 2,
@@ -74,177 +76,58 @@
     {
       "id": "bio-01-01",
       "page": 1,
-      "title": "糖酵解关键酶",
+      "title": "糖酵解：关键酶催化的反应",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "长链脂酰 CoA",
-          "sourceText": "A. 长链脂酰 CoA"
+          "label": "PEP→丙酮酸、ATP"
         },
         {
           "key": "B",
-          "label": "PEP→丙酮酸、ATP",
-          "sourceText": "B. PEP→丙酮酸、ATP"
+          "label": "G→G-6-P"
         },
         {
           "key": "C",
-          "label": "AMP",
-          "sourceText": "C. AMP"
-        },
-        {
-          "key": "D",
-          "label": "G→G-6-P",
-          "sourceText": "D. G→G-6-P"
-        },
-        {
-          "key": "E",
-          "label": "ATP",
-          "sourceText": "E. ATP"
-        },
-        {
-          "key": "F",
-          "label": "果糖-2,6-二磷酸（最强激活剂）",
-          "sourceText": "F. 果糖-2,6-二磷酸（最强激活剂）"
-        },
-        {
-          "key": "G",
-          "label": "丙氨酸",
-          "sourceText": "G. 丙氨酸"
-        },
-        {
-          "key": "H",
-          "label": "F-6-P→F-1,6-DP",
-          "sourceText": "H. F-6-P→F-1,6-DP"
-        },
-        {
-          "key": "I",
-          "label": "葡萄糖",
-          "sourceText": "I. 葡萄糖"
-        },
-        {
-          "key": "J",
-          "label": "G-6-P",
-          "sourceText": "J. G-6-P"
-        },
-        {
-          "key": "K",
-          "label": "ADP",
-          "sourceText": "K. ADP"
-        },
-        {
-          "key": "L",
-          "label": "柠檬酸",
-          "sourceText": "L. 柠檬酸"
-        },
-        {
-          "key": "M",
-          "label": "果糖-1,6-二磷酸",
-          "sourceText": "M. 果糖-1,6-二磷酸"
+          "label": "F-6-P→F-1,6-DP"
         }
       ],
       "stems": [
         {
           "number": 1,
           "text": "丙酮酸激酶催化：",
-          "sourceText": "1. 丙酮酸激酶催化：",
-          "answerRaw": "B",
           "answer": [
-            "B"
+            "A"
           ],
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "丙酮酸激酶激活剂：",
-          "sourceText": "2. 丙酮酸激酶激活剂：",
-          "answerRaw": "M",
+          "text": "己糖激酶催化：",
           "answer": [
-            "M"
+            "B"
           ],
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "丙酮酸激酶抑制剂：",
-          "sourceText": "3. 丙酮酸激酶抑制剂：",
-          "answerRaw": "EG",
-          "answer": [
-            "E",
-            "G"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "己糖激酶催化：",
-          "sourceText": "4. 己糖激酶催化：",
-          "answerRaw": "D",
-          "answer": [
-            "D"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 5,
-          "text": "己糖激酶反应中被磷酸化的底物：",
-          "sourceText": "5. 己糖激酶激活剂：",
-          "answerRaw": "I",
-          "answer": [
-            "I"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "己糖激酶抑制剂：",
-          "sourceText": "6. 己糖激酶抑制剂：",
-          "answerRaw": "AJ",
-          "answer": [
-            "A",
-            "J"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 7,
           "text": "磷酸果糖激酶-1催化：",
-          "sourceText": "7. 磷酸果糖激酶-1催化：",
-          "answerRaw": "H",
           "answer": [
-            "H"
+            "C"
           ],
+          "answerRaw": "C",
           "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "磷酸果糖激酶-1激活剂：",
-          "sourceText": "8. 磷酸果糖激酶-1激活剂：",
-          "answerRaw": "CFK",
-          "answer": [
-            "C",
-            "F",
-            "K"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 9,
-          "text": "磷酸果糖激酶-1抑制剂：",
-          "sourceText": "9. 磷酸果糖激酶-1抑制剂：",
-          "answerRaw": "EL",
-          "answer": [
-            "E",
-            "L"
-          ],
-          "answerMode": "多选"
         }
       ],
       "sourceText": "糖酵解关键酶",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
       "topic": "糖无氧氧化与糖有氧氧化",
       "lectureIds": [
         "lecture-01"
@@ -259,8 +142,129 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-01-01"
+    },
+    {
+      "id": "bio-01-01-focus-2",
+      "page": 1,
+      "title": "糖酵解：关键酶的调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "长链脂酰 CoA"
+        },
+        {
+          "key": "B",
+          "label": "AMP"
+        },
+        {
+          "key": "C",
+          "label": "ATP"
+        },
+        {
+          "key": "D",
+          "label": "果糖-2,6-二磷酸"
+        },
+        {
+          "key": "E",
+          "label": "丙氨酸"
+        },
+        {
+          "key": "F",
+          "label": "G-6-P"
+        },
+        {
+          "key": "G",
+          "label": "ADP"
+        },
+        {
+          "key": "H",
+          "label": "柠檬酸"
+        },
+        {
+          "key": "I",
+          "label": "果糖-1,6-二磷酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "丙酮酸激酶激活剂：",
+          "answer": [
+            "I"
+          ],
+          "answerRaw": "I",
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "丙酮酸激酶抑制剂：",
+          "answer": [
+            "C",
+            "E"
+          ],
+          "answerRaw": "C、E",
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "己糖激酶抑制剂：",
+          "answer": [
+            "A",
+            "F"
+          ],
+          "answerRaw": "A、F",
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "磷酸果糖激酶-1激活剂：",
+          "answer": [
+            "B",
+            "D",
+            "G"
+          ],
+          "answerRaw": "B、D、G",
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "磷酸果糖激酶-1抑制剂：",
+          "answer": [
+            "C",
+            "H"
+          ],
+          "answerRaw": "C、H",
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖酵解关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+      ],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-01-page-04.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      },
+      "answerRevision": "bio-focused-20261017-v1",
+      "reviewedAt": "2026-10-18",
+      "sourceGroupId": "bio-01-01"
     },
     {
       "id": "bio-01-02",
