@@ -9,6 +9,8 @@ const approved = load('../physiology/endocrine-summary-reviewed.json')
 const base = load('../src/data/physiology-data.json')
 const homework = load('../src/data/physiology-teacher-supplement.json')
 const exam = load('../src/data/physiology-stage-exam-data.json')
+const originalAnswers = group => group.stems.map(s => s.answer.map(key =>
+  group.options.find(o => o.key === key).originalKey).sort().join(''))
 
 test('11 merged groups and all 70 approved questions are preserved exactly', () => {
   assert.equal(data.groups.length, 11)
@@ -19,9 +21,21 @@ test('11 merged groups and all 70 approved questions are preserved exactly', () 
   data.groups.forEach((g, index) => {
     const original = approved.groups[index]
     assert.equal(g.id, original.id)
-    assert.deepEqual(g.options, original.options)
-    assert.deepEqual(g.stems.map(s => [s.text, s.answer, s.answerRaw, s.answerMode]),
-      original.stems.map(s => [s.text, s.answer, s.answerRaw, s.answerMode]))
+    assert.equal(g.optionShuffleVersion, 1)
+    assert.equal(g.answerRevision, 'options-shuffle-v1')
+    assert.deepEqual(g.options.map(o => o.key), original.options.map(o => o.key))
+    assert.deepEqual(g.options.map(o => o.label).sort(), original.options.map(o => o.label).sort())
+    g.options.forEach((option, i) => {
+      assert.notEqual(option.label, original.options[i].label, `${g.id}: position ${i} was not shuffled`)
+      assert.equal(option.label, original.options.find(o => o.key === option.originalKey).label)
+    })
+    assert.deepEqual(g.stems.map(s => [s.text, s.answerMode]), original.stems.map(s => [s.text, s.answerMode]))
+    assert.deepEqual(originalAnswers(g), original.stems.map(s => s.answerRaw))
+    g.stems.forEach((stem, i) => {
+      const selectedLabels = stem.answer.map(k => g.options.find(o => o.key === k).label).sort()
+      const approvedLabels = original.stems[i].answer.map(k => original.options.find(o => o.key === k).label).sort()
+      assert.deepEqual(selectedLabels, approvedLabels, `${g.id}: question ${i + 1} changed meaning`)
+    })
     for (const s of g.stems) {
       assert.doesNotMatch(s.text, /本讲义|本组|归入此类/)
       assert.deepEqual(s.answer, Array.from(s.answerRaw))
@@ -50,7 +64,7 @@ test('the new groups join only lecture 40 and link real source pages', () => {
 })
 
 test('merge remapping retains easily missed and dose-dependent answers', () => {
-  const answers = number => data.groups[number - 1].stems.map(s => s.answerRaw)
+  const answers = number => originalAnswers(data.groups[number - 1])
   assert.deepEqual(answers(1), ['AB', 'CDEFGHI', 'JKLM', 'NOP'])
   assert.deepEqual(answers(2), ['A', 'B', 'C', 'D', 'E', 'F', 'GHI', 'IJK'])
   assert.deepEqual(answers(6), ['ACDEF', 'ABCDE'])

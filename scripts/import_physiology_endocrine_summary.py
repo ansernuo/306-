@@ -8,6 +8,7 @@ from copy import deepcopy
 import hashlib
 import json
 from pathlib import Path
+import string
 import subprocess
 import tempfile
 
@@ -19,6 +20,33 @@ REVIEW = ROOT / "physiology/endocrine-summary-reviewed.json"
 OUTPUT = ROOT / "src/data/physiology-endocrine-summary-data.json"
 IMAGE_DIR = ROOT / "public/physiology/lecture-pages"
 SOURCE_KEY = "physiology-endocrine-summary-2026-10"
+SHUFFLE_VERSION = 1
+
+
+def shuffle_options(group: dict) -> None:
+    """Stable Sattolo shuffle: move every option, then remap answers by identity."""
+    options = group["options"]
+    assert 1 < len(options) <= len(string.ascii_uppercase)
+    original = deepcopy(options)
+    # One deterministic cycle has no fixed positions. Never reshuffle on reload.
+    for index in range(len(options) - 1, 0, -1):
+        digest = hashlib.sha256(f"endocrine-options-v{SHUFFLE_VERSION}:{group['id']}:{index}".encode()).digest()
+        other = int.from_bytes(digest, "big") % index
+        options[index], options[other] = options[other], options[index]
+    key_map = {}
+    for index, option in enumerate(options):
+        old_key = option["key"]
+        new_key = string.ascii_uppercase[index]
+        key_map[old_key] = new_key
+        option["originalKey"] = old_key
+        option["key"] = new_key
+        assert option["label"] != original[index]["label"]
+    for stem in group["stems"]:
+        stem["answer"] = sorted(key_map[key] for key in stem["answer"])
+        stem["answerRaw"] = "".join(stem["answer"])
+    group["optionShuffleVersion"] = SHUFFLE_VERSION
+    # Existing UI versions only answers; bookmarks and notes continue using group.id.
+    group["answerRevision"] = f"options-shuffle-v{SHUFFLE_VERSION}"
 
 
 def main() -> None:
@@ -60,6 +88,7 @@ def main() -> None:
 
     groups = deepcopy(reviewed["groups"])
     for group in groups:
+        shuffle_options(group)
         number = group["groupNumber"]
         primary_page = group["sourcePages"][-1]
         group.update({
@@ -72,7 +101,7 @@ def main() -> None:
             "hideSource": True,
             "answerLayout": "rows",
             "answerSourceLabel": "参考答案",
-            "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+            "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
             "reviewState": "用户审阅后确认导入",
             "lectureEvidence": {
                 "lectureId": "lecture-40",
@@ -105,6 +134,8 @@ def main() -> None:
             "stemCount": 70,
             "siteIntegrated": True,
             "reviewedRevision": 2,
+            "optionShuffleVersion": SHUFFLE_VERSION,
+            "shuffleMode": "按题组固定打乱，选项重新编号，答案同步重映射",
             "answerNote": "依据2027讲义自编；用户确认的11组70问精简合并版，非原学成资料或阶段考试原题。",
             "generatedBy": "scripts/import_physiology_endocrine_summary.py",
         },

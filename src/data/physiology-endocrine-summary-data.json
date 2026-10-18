@@ -13,6 +13,8 @@
     "stemCount": 70,
     "siteIntegrated": true,
     "reviewedRevision": 2,
+    "optionShuffleVersion": 1,
+    "shuffleMode": "按题组固定打乱，选项重新编号，答案同步重映射",
     "answerNote": "依据2027讲义自编；用户确认的11组70问精简合并版，非原学成资料或阶段考试原题。",
     "generatedBy": "scripts/import_physiology_endocrine_summary.py"
   },
@@ -22,67 +24,83 @@
       "options": [
         {
           "key": "A",
-          "label": "抗利尿激素 ADH / 血管升压素 VP"
+          "label": "缩宫素 / 催产素 OT",
+          "originalKey": "B"
         },
         {
           "key": "B",
-          "label": "缩宫素 / 催产素 OT"
+          "label": "催乳素释放因子 PRF",
+          "originalKey": "H"
         },
         {
           "key": "C",
-          "label": "促甲状腺激素释放激素 TRH"
+          "label": "黄体生成素 LH",
+          "originalKey": "M"
         },
         {
           "key": "D",
-          "label": "促肾上腺皮质激素释放激素 CRH"
+          "label": "促甲状腺激素 TSH",
+          "originalKey": "J"
         },
         {
           "key": "E",
-          "label": "促性腺激素释放激素 GnRH"
+          "label": "催乳素 PRL",
+          "originalKey": "O"
         },
         {
           "key": "F",
-          "label": "生长激素释放激素 GHRH"
+          "label": "促甲状腺激素释放激素 TRH",
+          "originalKey": "C"
         },
         {
           "key": "G",
-          "label": "生长抑素 SST"
+          "label": "抗利尿激素 ADH / 血管升压素 VP",
+          "originalKey": "A"
         },
         {
           "key": "H",
-          "label": "催乳素释放因子 PRF"
+          "label": "促性腺激素释放激素 GnRH",
+          "originalKey": "E"
         },
         {
           "key": "I",
-          "label": "催乳素抑制因子 PIF"
+          "label": "卵泡刺激素 FSH",
+          "originalKey": "L"
         },
         {
           "key": "J",
-          "label": "促甲状腺激素 TSH"
+          "label": "催乳素抑制因子 PIF",
+          "originalKey": "I"
         },
         {
           "key": "K",
-          "label": "促肾上腺皮质激素 ACTH"
+          "label": "促肾上腺皮质激素释放激素 CRH",
+          "originalKey": "D"
         },
         {
           "key": "L",
-          "label": "卵泡刺激素 FSH"
+          "label": "生长激素 GH",
+          "originalKey": "N"
         },
         {
           "key": "M",
-          "label": "黄体生成素 LH"
+          "label": "促肾上腺皮质激素 ACTH",
+          "originalKey": "K"
         },
         {
           "key": "N",
-          "label": "生长激素 GH"
+          "label": "促黑激素",
+          "originalKey": "P"
         },
         {
           "key": "O",
-          "label": "催乳素 PRL"
+          "label": "生长激素释放激素 GHRH",
+          "originalKey": "F"
         },
         {
           "key": "P",
-          "label": "促黑激素"
+          "label": "生长抑素 SST",
+          "originalKey": "G"
         }
       ],
       "stems": [
@@ -91,9 +109,9 @@
           "text": "下丘脑大细胞神经元合成",
           "answer": [
             "A",
-            "B"
+            "G"
           ],
-          "answerRaw": "AB",
+          "answerRaw": "AG",
           "answerMode": "多选",
           "explanation": "下丘脑大细胞对应 ADH、OT；小细胞对应 TRH、CRH、GnRH、GHRH、SST、PRF、PIF。腺垂体促激素为 TSH、ACTH、FSH、LH；无靶腺激素为 GH、PRL、促黑激素。ADH 与 VP 为同一激素。",
           "lectureId": "lecture-40"
@@ -102,38 +120,38 @@
           "number": 2,
           "text": "下丘脑小细胞神经元合成",
           "answer": [
-            "C",
-            "D",
-            "E",
+            "B",
             "F",
-            "G",
             "H",
-            "I"
+            "J",
+            "K",
+            "O",
+            "P"
           ],
-          "answerRaw": "CDEFGHI",
+          "answerRaw": "BFHJKOP",
           "answerMode": "多选"
         },
         {
           "number": 3,
           "text": "腺垂体促激素",
           "answer": [
-            "J",
-            "K",
-            "L",
+            "C",
+            "D",
+            "I",
             "M"
           ],
-          "answerRaw": "JKLM",
+          "answerRaw": "CDIM",
           "answerMode": "多选"
         },
         {
           "number": 4,
           "text": "腺垂体无靶腺激素",
           "answer": [
-            "N",
-            "O",
-            "P"
+            "E",
+            "L",
+            "N"
           ],
-          "answerRaw": "NOP",
+          "answerRaw": "ELN",
           "answerMode": "多选"
         }
       ],
@@ -150,6 +168,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 4,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -157,7 +177,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -174,47 +194,58 @@
       "options": [
         {
           "key": "A",
-          "label": "甲状腺激素 TH（包括 T₄、T₃）"
+          "label": "性激素",
+          "originalKey": "F"
         },
         {
           "key": "B",
-          "label": "降钙素 CT"
+          "label": "去甲肾上腺素 NA / NE",
+          "originalKey": "H"
         },
         {
           "key": "C",
-          "label": "甲状旁腺激素 PTH"
+          "label": "肾上腺素 Adr",
+          "originalKey": "G"
         },
         {
           "key": "D",
-          "label": "盐皮质激素（如醛固酮）"
+          "label": "C 型钠尿肽 CNP",
+          "originalKey": "K"
         },
         {
           "key": "E",
-          "label": "糖皮质激素 GC（如皮质醇）"
+          "label": "甲状腺激素 TH（包括 T₄、T₃）",
+          "originalKey": "A"
         },
         {
           "key": "F",
-          "label": "性激素"
+          "label": "内皮素 ET",
+          "originalKey": "J"
         },
         {
           "key": "G",
-          "label": "肾上腺素 Adr"
+          "label": "糖皮质激素 GC（如皮质醇）",
+          "originalKey": "E"
         },
         {
           "key": "H",
-          "label": "去甲肾上腺素 NA / NE"
+          "label": "甲状旁腺激素 PTH",
+          "originalKey": "C"
         },
         {
           "key": "I",
-          "label": "肾上腺髓质素 ADM"
+          "label": "降钙素 CT",
+          "originalKey": "B"
         },
         {
           "key": "J",
-          "label": "内皮素 ET"
+          "label": "盐皮质激素（如醛固酮）",
+          "originalKey": "D"
         },
         {
           "key": "K",
-          "label": "C 型钠尿肽 CNP"
+          "label": "肾上腺髓质素 ADM",
+          "originalKey": "I"
         }
       ],
       "stems": [
@@ -222,9 +253,9 @@
           "number": 1,
           "text": "甲状腺滤泡上皮细胞分泌",
           "answer": [
-            "A"
+            "E"
           ],
-          "answerRaw": "A",
+          "answerRaw": "E",
           "answerMode": "单选",
           "explanation": "球、束、网分别对应盐皮质激素、糖皮质激素、性激素。ADM 同时见于肾上腺髓质和血管内皮，两个小问均应选；血管内皮还列有 ET、CNP。",
           "lectureId": "lecture-40"
@@ -233,67 +264,67 @@
           "number": 2,
           "text": "甲状腺 C 细胞分泌",
           "answer": [
-            "B"
+            "I"
           ],
-          "answerRaw": "B",
+          "answerRaw": "I",
           "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "甲状旁腺分泌",
           "answer": [
-            "C"
+            "H"
           ],
-          "answerRaw": "C",
+          "answerRaw": "H",
           "answerMode": "单选"
         },
         {
           "number": 4,
           "text": "肾上腺皮质球状带主要分泌",
           "answer": [
-            "D"
+            "J"
           ],
-          "answerRaw": "D",
+          "answerRaw": "J",
           "answerMode": "单选"
         },
         {
           "number": 5,
           "text": "肾上腺皮质束状带主要分泌",
           "answer": [
-            "E"
+            "G"
           ],
-          "answerRaw": "E",
+          "answerRaw": "G",
           "answerMode": "单选"
         },
         {
           "number": 6,
           "text": "肾上腺皮质网状带主要分泌",
           "answer": [
-            "F"
+            "A"
           ],
-          "answerRaw": "F",
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 7,
           "text": "肾上腺髓质嗜铬细胞分泌",
           "answer": [
-            "G",
-            "H",
-            "I"
+            "B",
+            "C",
+            "K"
           ],
-          "answerRaw": "GHI",
+          "answerRaw": "BCK",
           "answerMode": "多选"
         },
         {
           "number": 8,
           "text": "血管内皮分泌",
           "answer": [
-            "I",
-            "J",
+            "D",
+            "F",
             "K"
           ],
-          "answerRaw": "IJK",
+          "answerRaw": "DFK",
           "answerMode": "多选"
         }
       ],
@@ -311,6 +342,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 4,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -318,7 +351,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -335,19 +368,23 @@
       "options": [
         {
           "key": "A",
-          "label": "雄激素（如睾酮）"
+          "label": "雌激素",
+          "originalKey": "B"
         },
         {
           "key": "B",
-          "label": "雌激素"
+          "label": "抑制素",
+          "originalKey": "C"
         },
         {
           "key": "C",
-          "label": "抑制素"
+          "label": "孕激素（如孕酮）",
+          "originalKey": "D"
         },
         {
           "key": "D",
-          "label": "孕激素（如孕酮）"
+          "label": "雄激素（如睾酮）",
+          "originalKey": "A"
         }
       ],
       "stems": [
@@ -355,9 +392,9 @@
           "number": 1,
           "text": "睾丸间质细胞分泌",
           "answer": [
-            "A"
+            "D"
           ],
-          "answerRaw": "A",
+          "answerRaw": "D",
           "answerMode": "单选",
           "explanation": "支持细胞与颗粒细胞均列有抑制素、雌激素；黄体列有雌激素和孕激素；间质细胞和内泡膜细胞对应雄激素。",
           "lectureId": "lecture-40"
@@ -366,39 +403,39 @@
           "number": 2,
           "text": "睾丸支持细胞分泌",
           "answer": [
-            "B",
-            "C"
+            "A",
+            "B"
           ],
-          "answerRaw": "BC",
+          "answerRaw": "AB",
           "answerMode": "多选"
         },
         {
           "number": 3,
           "text": "卵巢颗粒细胞分泌",
           "answer": [
-            "B",
-            "C"
+            "A",
+            "B"
           ],
-          "answerRaw": "BC",
+          "answerRaw": "AB",
           "answerMode": "多选"
         },
         {
           "number": 4,
           "text": "卵巢黄体分泌",
           "answer": [
-            "B",
-            "D"
+            "A",
+            "C"
           ],
-          "answerRaw": "BD",
+          "answerRaw": "AC",
           "answerMode": "多选"
         },
         {
           "number": 5,
           "text": "卵巢内泡膜细胞分泌",
           "answer": [
-            "A"
+            "D"
           ],
-          "answerRaw": "A",
+          "answerRaw": "D",
           "answerMode": "单选"
         }
       ],
@@ -415,6 +452,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 5,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -422,7 +461,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -439,23 +478,28 @@
       "options": [
         {
           "key": "A",
-          "label": "人绒毛膜促性腺激素 hCG"
+          "label": "孕激素",
+          "originalKey": "D"
         },
         {
           "key": "B",
-          "label": "人绒毛膜促生长激素 / 人胎盘催乳素"
+          "label": "人绒毛膜促性腺激素 hCG",
+          "originalKey": "A"
         },
         {
           "key": "C",
-          "label": "雌三醇 E₃"
+          "label": "人绒毛膜促生长激素 / 人胎盘催乳素",
+          "originalKey": "B"
         },
         {
           "key": "D",
-          "label": "孕激素"
+          "label": "促甲状腺激素 TSH",
+          "originalKey": "E"
         },
         {
           "key": "E",
-          "label": "促甲状腺激素 TSH"
+          "label": "雌三醇 E₃",
+          "originalKey": "C"
         }
       ],
       "stems": [
@@ -466,9 +510,9 @@
             "A",
             "B",
             "C",
-            "D"
+            "E"
           ],
-          "answerRaw": "ABCD",
+          "answerRaw": "ABCE",
           "answerMode": "多选",
           "explanation": "胎盘相关激素包括 hCG、人胎盘催乳素、雌三醇、孕激素。雌三醇由胎儿与胎盘共同参与合成，不能写成由胎盘独立完成合成。",
           "lectureId": "lecture-40"
@@ -477,9 +521,9 @@
           "number": 2,
           "text": "胎儿-胎盘共同合成",
           "answer": [
-            "C"
+            "E"
           ],
-          "answerRaw": "C",
+          "answerRaw": "E",
           "answerMode": "单选"
         }
       ],
@@ -496,6 +540,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 5,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -503,7 +549,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -520,51 +566,63 @@
       "options": [
         {
           "key": "A",
-          "label": "胰岛素"
+          "label": "缩胆囊素 CCK",
+          "originalKey": "G"
         },
         {
           "key": "B",
-          "label": "胰高血糖素"
+          "label": "神经降压素",
+          "originalKey": "L"
         },
         {
           "key": "C",
-          "label": "生长抑素 SST"
+          "label": "血管活性肠肽 VIP",
+          "originalKey": "D"
         },
         {
           "key": "D",
-          "label": "血管活性肠肽 VIP"
+          "label": "胃动素",
+          "originalKey": "K"
         },
         {
           "key": "E",
-          "label": "胰多肽 PP"
+          "label": "抑胃肽 GIP",
+          "originalKey": "I"
         },
         {
           "key": "F",
-          "label": "促胃液素"
+          "label": "胰高血糖素样肽 GLP",
+          "originalKey": "J"
         },
         {
           "key": "G",
-          "label": "缩胆囊素 CCK"
+          "label": "促胰液素",
+          "originalKey": "H"
         },
         {
           "key": "H",
-          "label": "促胰液素"
+          "label": "促胃液素",
+          "originalKey": "F"
         },
         {
           "key": "I",
-          "label": "抑胃肽 GIP"
+          "label": "胰岛素",
+          "originalKey": "A"
         },
         {
           "key": "J",
-          "label": "胰高血糖素样肽 GLP"
+          "label": "胰高血糖素",
+          "originalKey": "B"
         },
         {
           "key": "K",
-          "label": "胃动素"
+          "label": "胰多肽 PP",
+          "originalKey": "E"
         },
         {
           "key": "L",
-          "label": "神经降压素"
+          "label": "生长抑素 SST",
+          "originalKey": "C"
         }
       ],
       "stems": [
@@ -572,9 +630,9 @@
           "number": 1,
           "text": "胰岛 β 细胞分泌",
           "answer": [
-            "A"
+            "I"
           ],
-          "answerRaw": "A",
+          "answerRaw": "I",
           "answerMode": "单选",
           "explanation": "胰岛细胞依次对应胰岛素、胰高血糖素、SST、VIP、PP；D₁ / H 命名依原表保留。胃窦和小肠 G 细胞合并为一问，均对应促胃液素。",
           "lectureId": "lecture-40"
@@ -583,14 +641,23 @@
           "number": 2,
           "text": "胰岛 α 细胞分泌",
           "answer": [
-            "B"
+            "J"
           ],
-          "answerRaw": "B",
+          "answerRaw": "J",
           "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "胰岛 δ 细胞分泌",
+          "answer": [
+            "L"
+          ],
+          "answerRaw": "L",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "胰岛 D₁ / H 细胞分泌",
           "answer": [
             "C"
           ],
@@ -598,71 +665,8 @@
           "answerMode": "单选"
         },
         {
-          "number": 4,
-          "text": "胰岛 D₁ / H 细胞分泌",
-          "answer": [
-            "D"
-          ],
-          "answerRaw": "D",
-          "answerMode": "单选"
-        },
-        {
           "number": 5,
           "text": "胰岛 F 细胞分泌",
-          "answer": [
-            "E"
-          ],
-          "answerRaw": "E",
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "胃窦、小肠 G 细胞分泌",
-          "answer": [
-            "F"
-          ],
-          "answerRaw": "F",
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
-          "text": "小肠 I 细胞分泌",
-          "answer": [
-            "G"
-          ],
-          "answerRaw": "G",
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "小肠 S 细胞分泌",
-          "answer": [
-            "H"
-          ],
-          "answerRaw": "H",
-          "answerMode": "单选"
-        },
-        {
-          "number": 9,
-          "text": "小肠 K 细胞分泌",
-          "answer": [
-            "I"
-          ],
-          "answerRaw": "I",
-          "answerMode": "单选"
-        },
-        {
-          "number": 10,
-          "text": "小肠 L 细胞分泌",
-          "answer": [
-            "J"
-          ],
-          "answerRaw": "J",
-          "answerMode": "单选"
-        },
-        {
-          "number": 11,
-          "text": "小肠 Mo 细胞分泌",
           "answer": [
             "K"
           ],
@@ -670,12 +674,66 @@
           "answerMode": "单选"
         },
         {
+          "number": 6,
+          "text": "胃窦、小肠 G 细胞分泌",
+          "answer": [
+            "H"
+          ],
+          "answerRaw": "H",
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "小肠 I 细胞分泌",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "小肠 S 细胞分泌",
+          "answer": [
+            "G"
+          ],
+          "answerRaw": "G",
+          "answerMode": "单选"
+        },
+        {
+          "number": 9,
+          "text": "小肠 K 细胞分泌",
+          "answer": [
+            "E"
+          ],
+          "answerRaw": "E",
+          "answerMode": "单选"
+        },
+        {
+          "number": 10,
+          "text": "小肠 L 细胞分泌",
+          "answer": [
+            "F"
+          ],
+          "answerRaw": "F",
+          "answerMode": "单选"
+        },
+        {
+          "number": 11,
+          "text": "小肠 Mo 细胞分泌",
+          "answer": [
+            "D"
+          ],
+          "answerRaw": "D",
+          "answerMode": "单选"
+        },
+        {
           "number": 12,
           "text": "小肠 N 细胞分泌",
           "answer": [
-            "L"
+            "B"
           ],
-          "answerRaw": "L",
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
@@ -692,6 +750,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 5,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -699,7 +759,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -716,27 +776,33 @@
       "options": [
         {
           "key": "A",
-          "label": "胰岛"
+          "label": "小肠",
+          "originalKey": "D"
         },
         {
           "key": "B",
-          "label": "胰腺外分泌部"
+          "label": "下丘脑",
+          "originalKey": "F"
         },
         {
           "key": "C",
-          "label": "胃"
+          "label": "胰岛",
+          "originalKey": "A"
         },
         {
           "key": "D",
-          "label": "小肠"
+          "label": "胰腺外分泌部",
+          "originalKey": "B"
         },
         {
           "key": "E",
-          "label": "大肠"
+          "label": "胃",
+          "originalKey": "C"
         },
         {
           "key": "F",
-          "label": "下丘脑"
+          "label": "大肠",
+          "originalKey": "E"
         }
       ],
       "stems": [
@@ -745,12 +811,12 @@
           "text": "生长抑素 SST 的来源",
           "answer": [
             "A",
+            "B",
             "C",
-            "D",
             "E",
             "F"
           ],
-          "answerRaw": "ACDEF",
+          "answerRaw": "ABCEF",
           "answerMode": "多选",
           "explanation": "两者均列有胰岛、胃、小肠、大肠；SST 另列下丘脑，PP 另列胰腺外分泌部。",
           "lectureId": "lecture-40"
@@ -760,12 +826,12 @@
           "text": "胰多肽 PP 的来源",
           "answer": [
             "A",
-            "B",
             "C",
             "D",
-            "E"
+            "E",
+            "F"
           ],
-          "answerRaw": "ABCDE",
+          "answerRaw": "ACDEF",
           "answerMode": "多选"
         }
       ],
@@ -782,6 +848,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 5,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -789,7 +857,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -806,39 +874,48 @@
       "options": [
         {
           "key": "A",
-          "label": "褪黑素"
+          "label": "血管紧张素 Ang",
+          "originalKey": "H"
         },
         {
           "key": "B",
-          "label": "心房钠尿肽 ANP"
+          "label": "脑钠尿肽 BNP",
+          "originalKey": "C"
         },
         {
           "key": "C",
-          "label": "脑钠尿肽 BNP"
+          "label": "胰岛素样生长因子 IGF",
+          "originalKey": "D"
         },
         {
           "key": "D",
-          "label": "胰岛素样生长因子 IGF"
+          "label": "褪黑素",
+          "originalKey": "A"
         },
         {
           "key": "E",
-          "label": "钙三醇［1,25-(OH)₂D₃］"
+          "label": "心房钠尿肽 ANP",
+          "originalKey": "B"
         },
         {
           "key": "F",
-          "label": "促红细胞生成素 EPO"
+          "label": "瘦素",
+          "originalKey": "G"
         },
         {
           "key": "G",
-          "label": "瘦素"
+          "label": "前列腺素 PG",
+          "originalKey": "I"
         },
         {
           "key": "H",
-          "label": "血管紧张素 Ang"
+          "label": "促红细胞生成素 EPO",
+          "originalKey": "F"
         },
         {
           "key": "I",
-          "label": "前列腺素 PG"
+          "label": "钙三醇［1,25-(OH)₂D₃］",
+          "originalKey": "E"
         }
       ],
       "stems": [
@@ -846,9 +923,9 @@
           "number": 1,
           "text": "松果体分泌",
           "answer": [
-            "A"
+            "D"
           ],
-          "answerRaw": "A",
+          "answerRaw": "D",
           "answerMode": "单选",
           "explanation": "BNP 的名称不代表本表所列主要来源为脑，其对应心室肌细胞。钙三醇涉及皮肤、肝脏、肾脏的转化，肾脏完成最后活化；Ang 在血浆中形成。",
           "lectureId": "lecture-40"
@@ -858,14 +935,23 @@
           "text": "心脏分泌",
           "answer": [
             "B",
-            "C"
+            "E"
           ],
-          "answerRaw": "BC",
+          "answerRaw": "BE",
           "answerMode": "多选"
         },
         {
           "number": 3,
           "text": "心室肌细胞分泌",
+          "answer": [
+            "B"
+          ],
+          "answerRaw": "B",
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "肝脏产生",
           "answer": [
             "C"
           ],
@@ -873,45 +959,18 @@
           "answerMode": "单选"
         },
         {
-          "number": 4,
-          "text": "肝脏产生",
-          "answer": [
-            "D"
-          ],
-          "answerRaw": "D",
-          "answerMode": "单选"
-        },
-        {
           "number": 5,
           "text": "肾脏产生或完成活化",
           "answer": [
-            "E",
-            "F"
+            "H",
+            "I"
           ],
-          "answerRaw": "EF",
+          "answerRaw": "HI",
           "answerMode": "多选"
         },
         {
           "number": 6,
           "text": "肾皮质肾小管周围间质细胞产生",
-          "answer": [
-            "F"
-          ],
-          "answerRaw": "F",
-          "answerMode": "单选"
-        },
-        {
-          "number": 7,
-          "text": "脂肪组织分泌",
-          "answer": [
-            "G"
-          ],
-          "answerRaw": "G",
-          "answerMode": "单选"
-        },
-        {
-          "number": 8,
-          "text": "在血浆中形成",
           "answer": [
             "H"
           ],
@@ -919,21 +978,39 @@
           "answerMode": "单选"
         },
         {
+          "number": 7,
+          "text": "脂肪组织分泌",
+          "answer": [
+            "F"
+          ],
+          "answerRaw": "F",
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "在血浆中形成",
+          "answer": [
+            "A"
+          ],
+          "answerRaw": "A",
+          "answerMode": "单选"
+        },
+        {
           "number": 9,
           "text": "各种组织均可产生",
           "answer": [
-            "I"
+            "G"
           ],
-          "answerRaw": "I",
+          "answerRaw": "G",
           "answerMode": "单选"
         },
         {
           "number": 10,
           "text": "形成涉及皮肤 → 肝脏 → 肾脏",
           "answer": [
-            "E"
+            "I"
           ],
-          "answerRaw": "E",
+          "answerRaw": "I",
           "answerMode": "单选"
         }
       ],
@@ -950,6 +1027,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 5,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -957,7 +1036,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -974,35 +1053,43 @@
       "options": [
         {
           "key": "A",
-          "label": "儿茶酚胺"
+          "label": "雌激素",
+          "originalKey": "H"
         },
         {
           "key": "B",
-          "label": "胰高血糖素"
+          "label": "儿茶酚胺",
+          "originalKey": "A"
         },
         {
           "key": "C",
-          "label": "糖皮质激素"
+          "label": "生长激素 GH",
+          "originalKey": "E"
         },
         {
           "key": "D",
-          "label": "甲状腺激素（剂量见题干）"
+          "label": "糖皮质激素",
+          "originalKey": "C"
         },
         {
           "key": "E",
-          "label": "生长激素 GH"
+          "label": "雄激素",
+          "originalKey": "G"
         },
         {
           "key": "F",
-          "label": "胰岛素"
+          "label": "甲状腺激素（剂量见题干）",
+          "originalKey": "D"
         },
         {
           "key": "G",
-          "label": "雄激素"
+          "label": "胰高血糖素",
+          "originalKey": "B"
         },
         {
           "key": "H",
-          "label": "雌激素"
+          "label": "胰岛素",
+          "originalKey": "F"
         }
       ],
       "stems": [
@@ -1010,13 +1097,13 @@
           "number": 1,
           "text": "促进脂肪分解",
           "answer": [
-            "A",
             "B",
             "C",
             "D",
-            "E"
+            "F",
+            "G"
           ],
-          "answerRaw": "ABCDE",
+          "answerRaw": "BCDFG",
           "answerMode": "多选",
           "explanation": "糖皮质激素的脂解作用限定四肢，促蛋白分解限定肝外。甲状腺激素在生理量下促进生长发育、大剂量下促进蛋白分解。雄激素、雌激素分别列项，生殖器官发育须同时选择。",
           "lectureId": "lecture-40"
@@ -1025,80 +1112,80 @@
           "number": 2,
           "text": "促进蛋白质分解（甲状腺激素按大剂量判断）",
           "answer": [
-            "A",
             "B",
-            "C",
-            "D"
+            "D",
+            "F",
+            "G"
           ],
-          "answerRaw": "ABCD",
+          "answerRaw": "BDFG",
           "answerMode": "多选"
         },
         {
           "number": 3,
           "text": "促进四肢脂肪分解",
           "answer": [
-            "C"
+            "D"
           ],
-          "answerRaw": "C",
+          "answerRaw": "D",
           "answerMode": "单选"
         },
         {
           "number": 4,
           "text": "促进肝外蛋白质分解",
           "answer": [
-            "C"
+            "D"
           ],
-          "answerRaw": "C",
+          "answerRaw": "D",
           "answerMode": "单选"
         },
         {
           "number": 5,
           "text": "使脂肪分解增加超过合成增加",
           "answer": [
-            "D"
+            "F"
           ],
-          "answerRaw": "D",
+          "answerRaw": "F",
           "answerMode": "单选"
         },
         {
           "number": 6,
           "text": "促进生长发育、蛋白质合成（甲状腺激素按生理量判断）",
           "answer": [
-            "D",
+            "A",
+            "C",
             "E",
             "F",
-            "G",
             "H"
           ],
-          "answerRaw": "DEFGH",
+          "answerRaw": "ACEFH",
           "answerMode": "多选"
         },
         {
           "number": 7,
           "text": "尤其促进骨、肌肉、内脏生长",
           "answer": [
-            "E"
+            "C"
           ],
-          "answerRaw": "E",
+          "answerRaw": "C",
           "answerMode": "单选"
         },
         {
           "number": 8,
           "text": "尤其促进神经系统发育（生理量）",
           "answer": [
-            "D"
+            "F"
           ],
-          "answerRaw": "D",
+          "answerRaw": "F",
           "answerMode": "单选"
         },
         {
           "number": 9,
           "text": "尤其促进生殖器官发育",
           "answer": [
-            "G",
-            "H"
+            "A",
+            "E"
           ],
-          "answerRaw": "GH",
+          "answerRaw": "AE",
           "answerMode": "多选"
         }
       ],
@@ -1116,6 +1203,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 5,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -1123,7 +1212,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -1140,39 +1229,48 @@
       "options": [
         {
           "key": "A",
-          "label": "醛固酮"
+          "label": "糖皮质激素",
+          "originalKey": "I"
         },
         {
           "key": "B",
-          "label": "雄激素"
+          "label": "甲状腺激素",
+          "originalKey": "H"
         },
         {
           "key": "C",
-          "label": "雌激素"
+          "label": "孕激素",
+          "originalKey": "F"
         },
         {
           "key": "D",
-          "label": "儿茶酚胺"
+          "label": "雌激素",
+          "originalKey": "C"
         },
         {
           "key": "E",
-          "label": "抗利尿激素 ADH / 血管升压素 VP"
+          "label": "醛固酮",
+          "originalKey": "A"
         },
         {
           "key": "F",
-          "label": "孕激素"
+          "label": "抗利尿激素 ADH / 血管升压素 VP",
+          "originalKey": "E"
         },
         {
           "key": "G",
-          "label": "钠尿肽"
+          "label": "雄激素",
+          "originalKey": "B"
         },
         {
           "key": "H",
-          "label": "甲状腺激素"
+          "label": "儿茶酚胺",
+          "originalKey": "D"
         },
         {
           "key": "I",
-          "label": "糖皮质激素"
+          "label": "钠尿肽",
+          "originalKey": "G"
         }
       ],
       "stems": [
@@ -1180,12 +1278,12 @@
           "number": 1,
           "text": "保钠、保水",
           "answer": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "D",
+            "E",
+            "G",
+            "H"
           ],
-          "answerRaw": "ABCD",
+          "answerRaw": "DEGH",
           "answerMode": "多选",
           "explanation": "水钠按原表的明确作用分别判断：ADH 仅列保水，不计入同时保钠保水；甲状腺激素仅明确促进排水，不计入同时排钠排水。糖皮质激素为保钠、排水。",
           "lectureId": "lecture-40"
@@ -1194,46 +1292,46 @@
           "number": 2,
           "text": "主要保水，不以保钠为主要作用",
           "answer": [
-            "E"
+            "F"
           ],
-          "answerRaw": "E",
+          "answerRaw": "F",
           "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "排钠、排水",
           "answer": [
-            "F",
-            "G"
+            "C",
+            "I"
           ],
-          "answerRaw": "FG",
+          "answerRaw": "CI",
           "answerMode": "多选"
         },
         {
           "number": 4,
           "text": "促进排水，钠作用未注明",
           "answer": [
-            "H"
+            "B"
           ],
-          "answerRaw": "H",
+          "answerRaw": "B",
           "answerMode": "单选"
         },
         {
           "number": 5,
           "text": "保钠、排水",
           "answer": [
-            "I"
+            "A"
           ],
-          "answerRaw": "I",
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 6,
           "text": "竞争盐皮质激素受体",
           "answer": [
-            "F"
+            "C"
           ],
-          "answerRaw": "F",
+          "answerRaw": "C",
           "answerMode": "单选"
         }
       ],
@@ -1250,6 +1348,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 6,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -1257,7 +1357,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -1274,51 +1374,63 @@
       "options": [
         {
           "key": "A",
-          "label": "促肾上腺皮质激素 ACTH"
+          "label": "儿茶酚胺 CA（肾上腺素、去甲肾上腺素）",
+          "originalKey": "C"
         },
         {
           "key": "B",
-          "label": "糖皮质激素 GC"
+          "label": "内啡肽",
+          "originalKey": "G"
         },
         {
           "key": "C",
-          "label": "儿茶酚胺 CA（肾上腺素、去甲肾上腺素）"
+          "label": "卵泡刺激素 FSH",
+          "originalKey": "K"
         },
         {
           "key": "D",
-          "label": "生长激素 GH"
+          "label": "催乳素 PRL",
+          "originalKey": "E"
         },
         {
           "key": "E",
-          "label": "催乳素 PRL"
+          "label": "胰高血糖素",
+          "originalKey": "I"
         },
         {
           "key": "F",
-          "label": "血管升压素 VP / 抗利尿激素 ADH"
+          "label": "醛固酮",
+          "originalKey": "H"
         },
         {
           "key": "G",
-          "label": "内啡肽"
+          "label": "血管升压素 VP / 抗利尿激素 ADH",
+          "originalKey": "F"
         },
         {
           "key": "H",
-          "label": "醛固酮"
+          "label": "促肾上腺皮质激素 ACTH",
+          "originalKey": "A"
         },
         {
           "key": "I",
-          "label": "胰高血糖素"
+          "label": "促甲状腺激素 TSH",
+          "originalKey": "J"
         },
         {
           "key": "J",
-          "label": "促甲状腺激素 TSH"
+          "label": "糖皮质激素 GC",
+          "originalKey": "B"
         },
         {
           "key": "K",
-          "label": "卵泡刺激素 FSH"
+          "label": "黄体生成素 LH",
+          "originalKey": "L"
         },
         {
           "key": "L",
-          "label": "黄体生成素 LH"
+          "label": "生长激素 GH",
+          "originalKey": "D"
         }
       ],
       "stems": [
@@ -1328,15 +1440,15 @@
           "answer": [
             "A",
             "B",
-            "C",
             "D",
             "E",
             "F",
             "G",
             "H",
-            "I"
+            "J",
+            "L"
           ],
-          "answerRaw": "ABCDEFGHI",
+          "answerRaw": "ABDEFGHJL",
           "answerMode": "多选",
           "explanation": "应激激素中 ACTH、GC 最重要。参与应激且由腺垂体分泌者为 ACTH、GH、PRL、内啡肽；TSH、FSH、LH 不因同属腺垂体激素而计入。",
           "lectureId": "lecture-40"
@@ -1345,31 +1457,31 @@
           "number": 2,
           "text": "应激中最重要的激素",
           "answer": [
-            "A",
-            "B"
+            "H",
+            "J"
           ],
-          "answerRaw": "AB",
+          "answerRaw": "HJ",
           "answerMode": "多选"
         },
         {
           "number": 3,
           "text": "由腺垂体分泌的应激相关激素",
           "answer": [
-            "A",
+            "B",
             "D",
-            "E",
-            "G"
+            "H",
+            "L"
           ],
-          "answerRaw": "ADEG",
+          "answerRaw": "BDHL",
           "answerMode": "多选"
         },
         {
           "number": 4,
           "text": "减轻创伤应激引起的疼痛",
           "answer": [
-            "G"
+            "B"
           ],
-          "answerRaw": "G",
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
@@ -1386,6 +1498,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 6,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -1393,7 +1507,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
@@ -1410,47 +1524,58 @@
       "options": [
         {
           "key": "A",
-          "label": "甲状腺功能亢进"
+          "label": "老年、绝经",
+          "originalKey": "D"
         },
         {
           "key": "B",
-          "label": "甲状旁腺功能亢进"
+          "label": "急性骨萎缩（手足骨折、交感神经性骨营养不良）",
+          "originalKey": "I"
         },
         {
           "key": "C",
-          "label": "库欣综合征"
+          "label": "骨髓瘤",
+          "originalKey": "H"
         },
         {
           "key": "D",
-          "label": "老年、绝经"
+          "label": "生理量甲状腺激素的正常作用",
+          "originalKey": "J"
         },
         {
           "key": "E",
-          "label": "肠外营养相关的代谢性骨病"
+          "label": "库欣综合征",
+          "originalKey": "C"
         },
         {
           "key": "F",
-          "label": "类风湿关节炎"
+          "label": "化脓性关节炎",
+          "originalKey": "G"
         },
         {
           "key": "G",
-          "label": "化脓性关节炎"
+          "label": "肠外营养相关的代谢性骨病",
+          "originalKey": "E"
         },
         {
           "key": "H",
-          "label": "骨髓瘤"
+          "label": "甲状腺功能亢进",
+          "originalKey": "A"
         },
         {
           "key": "I",
-          "label": "急性骨萎缩（手足骨折、交感神经性骨营养不良）"
+          "label": "类风湿关节炎",
+          "originalKey": "F"
         },
         {
           "key": "J",
-          "label": "生理量甲状腺激素的正常作用"
+          "label": "雌激素抑制骨吸收的正常作用",
+          "originalKey": "K"
         },
         {
           "key": "K",
-          "label": "雌激素抑制骨吸收的正常作用"
+          "label": "甲状旁腺功能亢进",
+          "originalKey": "B"
         }
       ],
       "stems": [
@@ -1461,14 +1586,14 @@
             "A",
             "B",
             "C",
-            "D",
             "E",
             "F",
             "G",
             "H",
-            "I"
+            "I",
+            "K"
           ],
-          "answerRaw": "ABCDEFGHI",
+          "answerRaw": "ABCEFGHIK",
           "answerMode": "多选",
           "explanation": "激素变化、疾病与机制改为共用同一组选项，避免同一考点重复拆组。甲状腺激素、PTH 按过多条件判断；慢性肾衰对应继发性甲旁亢及高转化性骨病。原表还列有肠外营养、关节病、骨髓瘤、急性骨萎缩，均保留。肠道称吸收，肾脏称重吸收。",
           "lectureId": "lecture-40"
@@ -1477,45 +1602,45 @@
           "number": 2,
           "text": "甲状腺激素过多 → 骨基质蛋白分解↑ → 骨质脱钙",
           "answer": [
-            "A"
+            "H"
           ],
-          "answerRaw": "A",
+          "answerRaw": "H",
           "answerMode": "单选"
         },
         {
           "number": 3,
           "text": "PTH 过高 → 破骨细胞活动↑ → 骨吸收↑",
           "answer": [
-            "B"
+            "K"
           ],
-          "answerRaw": "B",
+          "answerRaw": "K",
           "answerMode": "单选"
         },
         {
           "number": 4,
           "text": "糖皮质激素过多 → 肠钙磷吸收↓、肾钙磷重吸收↓、骨吸收↑",
           "answer": [
-            "C"
+            "E"
           ],
-          "answerRaw": "C",
+          "answerRaw": "E",
           "answerMode": "单选"
         },
         {
           "number": 5,
           "text": "雌激素减少 → 抑制骨吸收的作用减弱",
           "answer": [
-            "D"
+            "A"
           ],
-          "answerRaw": "D",
+          "answerRaw": "A",
           "answerMode": "单选"
         },
         {
           "number": 6,
           "text": "慢性肾衰：钙三醇↓ → 低钙 → PTH↑，对应的继发性内分泌异常",
           "answer": [
-            "B"
+            "K"
           ],
-          "answerRaw": "B",
+          "answerRaw": "K",
           "answerMode": "单选"
         },
         {
@@ -1523,18 +1648,18 @@
           "text": "可伴骨质疏松的关节疾病",
           "answer": [
             "F",
-            "G"
+            "I"
           ],
-          "answerRaw": "FG",
+          "answerRaw": "FI",
           "answerMode": "多选"
         },
         {
           "number": 8,
           "text": "属于骨折晚期并发症",
           "answer": [
-            "I"
+            "B"
           ],
-          "answerRaw": "I",
+          "answerRaw": "B",
           "answerMode": "单选"
         }
       ],
@@ -1551,6 +1676,8 @@
         "lecture-40"
       ],
       "reviewState": "用户审阅后确认导入",
+      "optionShuffleVersion": 1,
+      "answerRevision": "options-shuffle-v1",
       "page": 6,
       "sourceKey": "physiology-endocrine-summary-2026-10",
       "sourceName": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
@@ -1558,7 +1685,7 @@
       "hideSource": true,
       "answerLayout": "rows",
       "answerSourceLabel": "参考答案",
-      "studyNotice": "第40讲第4–6页改编 · 共用选项，每个小问独立作答。",
+      "studyNotice": "第40讲第4–6页改编 · 选项已固定打乱，每个小问独立作答。",
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "lectureNumber": 40,
