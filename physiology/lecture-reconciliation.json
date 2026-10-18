@@ -7,7 +7,7 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 22,
+    "correctionGroupCount": 23,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
@@ -18,8 +18,8 @@
     "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0"
   },
   "statusSummary": {
-    "与今年讲义一致": 138,
-    "已校正": 22
+    "与今年讲义一致": 137,
+    "已校正": 23
   },
   "corrections": [
     {
@@ -1962,6 +1962,145 @@
             "answers": [
               "ACEF",
               "BD"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-145",
+      "topic": "中枢神经系统",
+      "sourcePage": 114,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 14,
+        "score": 0.4188,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-33-page-14.webp",
+        "title": "第33讲第14页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第14页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "硬瘫肌力减弱答案漏项校正",
+          "body": "硬瘫/痉挛性麻痹答案由 ADEHKL 补全为 ADEGHKL，补选 G“肌力减弱”；软瘫答案 BCFGIJ 不变。 依据：27 年第 33 讲第 14 页“上 VS 下运动神经元病变”表中，硬瘫与软瘫的肌力均为减弱，因此两题都应选 G。硬瘫的牵张反射增强不代表肌力增强；麻痹范围广泛（L）仍应选。",
+          "lectureId": "lecture-33",
+          "lecturePages": [
+            14
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "上运动神经元病变"
+              },
+              {
+                "key": "B",
+                "label": "下运动神经元"
+              },
+              {
+                "key": "C",
+                "label": "脊髓灰质炎引起"
+              },
+              {
+                "key": "D",
+                "label": "内囊出血引起"
+              },
+              {
+                "key": "E",
+                "label": "Babinski 等病理征+"
+              },
+              {
+                "key": "F",
+                "label": "Babinski 等病理征-"
+              },
+              {
+                "key": "G",
+                "label": "肌力减弱"
+              },
+              {
+                "key": "H",
+                "label": "牵张反射增强"
+              },
+              {
+                "key": "I",
+                "label": "牵张反射减弱"
+              },
+              {
+                "key": "J",
+                "label": "肌萎缩明显"
+              },
+              {
+                "key": "K",
+                "label": "肌萎缩不明显"
+              },
+              {
+                "key": "L",
+                "label": "麻痹范围广泛"
+              }
+            ],
+            "answers": [
+              "ADEHKL",
+              "BCFGIJ"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "上运动神经元病变"
+              },
+              {
+                "key": "B",
+                "label": "下运动神经元"
+              },
+              {
+                "key": "C",
+                "label": "脊髓灰质炎引起"
+              },
+              {
+                "key": "D",
+                "label": "内囊出血引起"
+              },
+              {
+                "key": "E",
+                "label": "Babinski 等病理征+"
+              },
+              {
+                "key": "F",
+                "label": "Babinski 等病理征-"
+              },
+              {
+                "key": "G",
+                "label": "肌力减弱"
+              },
+              {
+                "key": "H",
+                "label": "牵张反射增强"
+              },
+              {
+                "key": "I",
+                "label": "牵张反射减弱"
+              },
+              {
+                "key": "J",
+                "label": "肌萎缩明显"
+              },
+              {
+                "key": "K",
+                "label": "肌萎缩不明显"
+              },
+              {
+                "key": "L",
+                "label": "麻痹范围广泛"
+              }
+            ],
+            "answers": [
+              "ADEGHKL",
+              "BCFGIJ"
             ]
           }
         }
@@ -6192,7 +6331,7 @@
         "lectureNumber": 31,
         "lectureTitle": "生理 突触传递、中枢抑制和易化",
         "page": 5,
-        "score": 0.3152,
+        "score": 0.3228,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
         "image": "physiology/lecture-pages/lecture-31-page-05.webp",
         "title": "第31讲第5页：生理 突触传递、中枢抑制和易化",
@@ -6572,13 +6711,134 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 14,
         "score": 0.4188,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "method": "按今年讲义原文人工复核并定位",
         "image": "physiology/lecture-pages/lecture-33-page-14.webp",
         "title": "第33讲第14页：生理 神经系统调控躯体运动",
         "description": "本题组已按第33讲第14页逐项核对题目、选项与答案。"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "硬瘫肌力减弱答案漏项校正",
+          "body": "硬瘫/痉挛性麻痹答案由 ADEHKL 补全为 ADEGHKL，补选 G“肌力减弱”；软瘫答案 BCFGIJ 不变。 依据：27 年第 33 讲第 14 页“上 VS 下运动神经元病变”表中，硬瘫与软瘫的肌力均为减弱，因此两题都应选 G。硬瘫的牵张反射增强不代表肌力增强；麻痹范围广泛（L）仍应选。",
+          "lectureId": "lecture-33",
+          "lecturePages": [
+            14
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "上运动神经元病变"
+              },
+              {
+                "key": "B",
+                "label": "下运动神经元"
+              },
+              {
+                "key": "C",
+                "label": "脊髓灰质炎引起"
+              },
+              {
+                "key": "D",
+                "label": "内囊出血引起"
+              },
+              {
+                "key": "E",
+                "label": "Babinski 等病理征+"
+              },
+              {
+                "key": "F",
+                "label": "Babinski 等病理征-"
+              },
+              {
+                "key": "G",
+                "label": "肌力减弱"
+              },
+              {
+                "key": "H",
+                "label": "牵张反射增强"
+              },
+              {
+                "key": "I",
+                "label": "牵张反射减弱"
+              },
+              {
+                "key": "J",
+                "label": "肌萎缩明显"
+              },
+              {
+                "key": "K",
+                "label": "肌萎缩不明显"
+              },
+              {
+                "key": "L",
+                "label": "麻痹范围广泛"
+              }
+            ],
+            "answers": [
+              "ADEHKL",
+              "BCFGIJ"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "上运动神经元病变"
+              },
+              {
+                "key": "B",
+                "label": "下运动神经元"
+              },
+              {
+                "key": "C",
+                "label": "脊髓灰质炎引起"
+              },
+              {
+                "key": "D",
+                "label": "内囊出血引起"
+              },
+              {
+                "key": "E",
+                "label": "Babinski 等病理征+"
+              },
+              {
+                "key": "F",
+                "label": "Babinski 等病理征-"
+              },
+              {
+                "key": "G",
+                "label": "肌力减弱"
+              },
+              {
+                "key": "H",
+                "label": "牵张反射增强"
+              },
+              {
+                "key": "I",
+                "label": "牵张反射减弱"
+              },
+              {
+                "key": "J",
+                "label": "肌萎缩明显"
+              },
+              {
+                "key": "K",
+                "label": "肌萎缩不明显"
+              },
+              {
+                "key": "L",
+                "label": "麻痹范围广泛"
+              }
+            ],
+            "answers": [
+              "ADEGHKL",
+              "BCFGIJ"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-146",

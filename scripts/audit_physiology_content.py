@@ -12,7 +12,7 @@ from pathlib import Path
 EXPECTED_CORRECTIONS = {
     "phys-002", "phys-006", "phys-024", "phys-049", "phys-070", "phys-085", "phys-087", "phys-089",
     "phys-090", "phys-093", "phys-100", "phys-110", "phys-111", "phys-112", "phys-118", "phys-136",
-    "phys-037", "phys-038", "phys-052", "phys-149", "phys-153", "phys-154",
+    "phys-037", "phys-038", "phys-052", "phys-145", "phys-149", "phys-153", "phys-154",
 }
 
 
@@ -37,7 +37,7 @@ def main() -> None:
 
     corrected_ids = {record["id"] for record in reconciliation["corrections"]}
     assert corrected_ids == EXPECTED_CORRECTIONS, (corrected_ids, EXPECTED_CORRECTIONS)
-    assert reconciliation["statusSummary"] == {"与今年讲义一致": 138, "已校正": 22}
+    assert reconciliation["statusSummary"] == {"与今年讲义一致": 137, "已校正": 23}
 
     platelet_group = next(group for group in payload["groups"] if group["id"] == "phys-024")
     assert platelet_group["stems"][3]["answer"] == list("ACDEFGHI")
@@ -72,6 +72,12 @@ def main() -> None:
     inhibition_group = next(group for group in payload["groups"] if group["id"] == "phys-128")
     assert next(option for option in inhibition_group["options"] if option["key"] == "D")["label"] == "传入侧支抑制"
     assert [stem["answerRaw"] for stem in inhibition_group["stems"]] == ["ACDEGH", "BFI"]
+
+    paralysis_group = next(group for group in payload["groups"] if group["id"] == "phys-145")
+    assert [stem["answerRaw"] for stem in paralysis_group["stems"]] == ["ADEGHKL", "BCFGIJ"]
+    assert all("G" in stem["answer"] for stem in paralysis_group["stems"])
+    assert paralysis_group["lectureEvidence"]["lectureNumber"] == 33
+    assert paralysis_group["lectureEvidence"]["page"] == 14
 
     hormone_group = next(group for group in payload["groups"] if group["id"] == "phys-149")
     assert hormone_group["stems"][2]["answer"] == list("ADEGJL")

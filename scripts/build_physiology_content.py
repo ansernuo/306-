@@ -220,6 +220,15 @@ CORRECTIONS = {
         "pages": [11],
         "answers": {0: list("ACEF"), 1: list("BD")},
     },
+    "phys-145": {
+        "title": "硬瘫肌力减弱答案漏项校正",
+        "summary": "硬瘫/痉挛性麻痹答案由 ADEHKL 补全为 ADEGHKL，补选 G“肌力减弱”；软瘫答案 BCFGIJ 不变。",
+        "basis": "27 年第 33 讲第 14 页“上 VS 下运动神经元病变”表中，硬瘫与软瘫的肌力均为减弱，因此两题都应选 G。硬瘫的牵张反射增强不代表肌力增强；麻痹范围广泛（L）仍应选。",
+        "lecture": 33,
+        "pages": [14],
+        "evidence_page": 14,
+        "answers": {0: list("ADEGHKL")},
+    },
     "phys-149": {
         "title": "类固醇激素答案漏项校正",
         "summary": "类固醇激素答案由 ADEGL 校正为 ADEGJL。",
