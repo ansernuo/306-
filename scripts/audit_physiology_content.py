@@ -69,6 +69,10 @@ def main() -> None:
     assert conduction_group["lectureEvidence"]["page"] == 8
     assert conduction_group["reviewNotes"][0]["lecturePages"] == [7, 8]
 
+    inhibition_group = next(group for group in payload["groups"] if group["id"] == "phys-128")
+    assert next(option for option in inhibition_group["options"] if option["key"] == "D")["label"] == "传入侧支抑制"
+    assert [stem["answerRaw"] for stem in inhibition_group["stems"]] == ["ACDEGH", "BFI"]
+
     hormone_group = next(group for group in payload["groups"] if group["id"] == "phys-149")
     assert hormone_group["stems"][2]["answer"] == list("ADEGJL")
     assert hormone_group["lectureEvidence"]["page"] == 4
