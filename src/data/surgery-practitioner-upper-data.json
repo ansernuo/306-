@@ -1,0 +1,6609 @@
+{
+  "meta": {
+    "title": "精选执业医师内、外科真题（上）",
+    "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+    "sourcePages": 39,
+    "sourceKey": "practitioner-upper-20261019",
+    "sourceSha256": "231a432df0d696749566b99e14af6ce21b120da56160196afdc9fecfc5b5cf26",
+    "numberingNote": "原PDF未印题号，按原卷阅读顺序对应答案图第1～197题。",
+    "groupCount": 74,
+    "stemCount": 82,
+    "answerRows": [
+      "CACDC",
+      "CCCBA",
+      "CABCA",
+      "BEDAD",
+      "CCACD",
+      "BCDDE",
+      "CABEB",
+      "EDEEE",
+      "ADDCE",
+      "AABED",
+      "ACCED",
+      "ADBDE",
+      "DBACE",
+      "BCCCC",
+      "EEADB",
+      "ABADD",
+      "DBEEE",
+      "DEDCC",
+      "ABAEE",
+      "BDDEC",
+      "BDECD",
+      "EBDAE",
+      "AAEBC",
+      "EBACA",
+      "BDAAE",
+      "EDBBC",
+      "DEBBE",
+      "BBDAA",
+      "BCACE",
+      "DDBEA",
+      "DCEDA",
+      "EDCAC",
+      "CBEDB",
+      "ECBBD",
+      "ECDCC",
+      "ECDCE",
+      "CCBDA",
+      "EDADC",
+      "ECBDB",
+      "AA"
+    ],
+    "pendingQuestions": [
+      162,
+      172
+    ],
+    "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。"
+  },
+  "groups": [
+    {
+      "id": "practitioner-upper-20261019-q116",
+      "page": 24,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "116",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        24
+      ],
+      "title": "精选执医（上） · 第116题 · 甲型血友病的成分输血",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-30"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "甲型血友病的成分输血"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "全血"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "浓缩红细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血小板"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "洗涤红细胞"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "冷沉淀"
+        }
+      ],
+      "stems": [
+        {
+          "number": 116,
+          "sourceQuestion": 116,
+          "sourcePage": 24,
+          "text": "第116题：甲型血友病患者，牙龈出血，应输注",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-30",
+          "knowledgePoint": "甲型血友病的成分输血",
+          "explanation": "甲型血友病缺乏凝血因子Ⅷ，冷沉淀含Ⅷ因子，可用于本题补充，故选E。红细胞和血小板不能针对性纠正Ⅷ因子缺乏；临床可优先采用适宜的凝血因子制剂。",
+          "knowledgeConnections": [
+            "甲型—Ⅷ因子；乙型—Ⅸ因子；成分输血按缺什么补什么。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q117",
+      "page": 24,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "117",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        24
+      ],
+      "title": "精选执医（上） · 第117题 · 迟发性溶血性输血反应",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-30"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "迟发性溶血性输血反应"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "非溶血性发热反应"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "迟发性溶血反应"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "输血性肝炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "过敏反应"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "细菌污染反应"
+        }
+      ],
+      "stems": [
+        {
+          "number": 117,
+          "sourceQuestion": 117,
+          "sourcePage": 24,
+          "text": "第117题：女，30 岁，因输卵管妊娠破裂出血 1 小时急诊入院。怀孕 4 次，自然流产 3 次，顺产 1 胎。术前 Hb 75g/L，术中输注悬浮红细胞 5 单位。术后第 1 天复查 Hb 100g/L。术后第 7 天出现皮肤、巩膜黄染，发热，T 38.5℃，Hb 70g/L。该患者最可能发生的输血不良反应是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-30",
+          "knowledgePoint": "迟发性溶血性输血反应",
+          "explanation": "输血后第7天出现发热、黄疸及Hb再次下降，符合迟发性溶血反应。多次妊娠可造成红细胞抗原致敏，输血后再次免疫反应导致红细胞破坏。",
+          "knowledgeConnections": [
+            "非溶血性发热多在输血中或短期发生；延迟数日的贫血加黄疸应查溶血。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q118",
+      "page": 24,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "118",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        24
+      ],
+      "title": "精选执医（上） · 第118题 · 手术时限分类",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "手术时限分类"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "直肠癌根治术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "完全性肠梗阻造瘘术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "慢性阑尾炎切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "可复性股疝修补术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "急性上消化道穿孔修补术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 118,
+          "sourceQuestion": 118,
+          "sourcePage": 24,
+          "text": "第118题：按手术期限，下列属于限期手术的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-35",
+          "knowledgePoint": "手术时限分类",
+          "explanation": "恶性肿瘤手术通常属于限期手术，应在一定时间内完成，故直肠癌根治术选A。穿孔、完全性梗阻等常需急诊，可复性疝和慢性阑尾炎多为择期。",
+          "knowledgeConnections": [
+            "急诊立即救治；限期不能长期拖延；择期可充分准备后安排。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q119",
+      "page": 24,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "119",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        24
+      ],
+      "title": "精选执医（上） · 第119题 · 中心静脉压与低血压的组合",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-37"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "中心静脉压与低血压的组合"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肝性脑病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血容量不足"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心功能不全"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "容量血管过度扩张"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "容量血管过度收缩"
+        }
+      ],
+      "stems": [
+        {
+          "number": 119,
+          "sourceQuestion": 119,
+          "sourcePage": 24,
+          "text": "第119题：男，52 岁，门静脉高压症食管胃底静脉曲张破裂出血，给予三腔二囊管压迫止血及快速输血输液治疗，出血停止。查体：心率 150 次/分，BP 90/70mmHg，中心静脉压 20cmH2O，该患者目前最可能是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-37",
+          "knowledgePoint": "中心静脉压与低血压的组合",
+          "explanation": "快速输血输液后CVP20cmH₂O明显升高，却仍低血压和心动过速，应考虑心功能不全、泵衰竭，选C。单纯血容量不足通常CVP低。",
+          "knowledgeConnections": [
+            "低血压＋CVP低偏向容量不足；低血压＋CVP高需警惕心衰、心包压塞等。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q120",
+      "page": 24,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "120",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        24
+      ],
+      "title": "精选执医（上） · 第120题 · 肠瘘的肠内营养制剂",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肠瘘的肠内营养制剂"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "以肽类为主"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "以脂类为主"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "增加维生素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "增加纤维素"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "减少糖类"
+        }
+      ],
+      "stems": [
+        {
+          "number": 120,
+          "sourceQuestion": 120,
+          "sourcePage": 24,
+          "text": "第120题：回肠肠瘘患者所用的肠内营养制剂应是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-32",
+          "knowledgePoint": "肠瘘的肠内营养制剂",
+          "explanation": "肠瘘患者可根据肠道功能使用短肽等易吸收制剂，以减少消化负担，所列选A。实际能否肠内营养取决于瘘的位置、流量及远端通路，并非所有肠瘘均同一方案。",
+          "knowledgeConnections": [
+            "肠内营养需有可用肠段；整蛋白、短肽和氨基酸制剂应按消化吸收能力选择。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q121",
+      "page": 25,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "121",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        25
+      ],
+      "title": "精选执医（上） · 第121题 · 脓毒症与血培养",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "脓毒症与血培养"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "代谢性碱中毒"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "脓毒症"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肺部感染"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "菌血症"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "二重感染"
+        }
+      ],
+      "stems": [
+        {
+          "number": 121,
+          "sourceQuestion": 121,
+          "sourcePage": 25,
+          "text": "第121题：男，56 岁，左臀部注射青霉素后红肿、剧痛伴发热 10 天。曾作切开排脓，但引流欠畅，改用红霉素，仍发热不适。近 2 天伴有寒战、弛张型高热、头痛、肩部肿痛。查体：BP 110/70mmHg，神志淡漠，唇色苍白。呼吸深快，肺部呼吸音清，未闻及啰音，心率快。左臀切口渗液。血 WBC 21×10⁹/L。细菌血培养阴性。该患者的主要诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-34",
+          "knowledgePoint": "脓毒症与血培养",
+          "explanation": "局部脓肿引流不畅后寒战、高热、白细胞升高及全身状态恶化，所列最符合脓毒症，选B。血培养阴性不能排除；现代定义强调感染引起的危及生命的器官功能障碍。",
+          "knowledgeConnections": [
+            "菌血症是血中有菌，脓毒症是感染导致严重全身损害，二者不等同。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q122",
+      "page": 25,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "122",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        25
+      ],
+      "title": "精选执医（上） · 第122题 · 感染源控制与糖皮质激素",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "感染源控制与糖皮质激素"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "补充血容量"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "急诊切开排脓"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "联合应用抗生素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "应用小剂量糖皮质激素"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "纠正酸碱平衡失调"
+        }
+      ],
+      "stems": [
+        {
+          "number": 122,
+          "sourceQuestion": 122,
+          "sourcePage": 25,
+          "text": "第122题：男，56 岁，左臀部注射青霉素后红肿、剧痛伴发热 10 天。曾作切开排脓，但引流欠畅，改用红霉素，仍发热不适。近 2 天伴有寒战、弛张型高热、头痛、肩部肿痛。查体：BP 110/70mmHg，神志淡漠，唇色苍白。呼吸深快，肺部呼吸音清，未闻及啰音，心率快。左臀切口渗液。血 WBC 21×10⁹/L。细菌血培养阴性。 该患者不宜采用的治疗措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-34",
+          "knowledgePoint": "感染源控制与糖皮质激素",
+          "explanation": "本例需充分引流、抗感染及纠正生理紊乱，不能因血培养阴性而忽略感染源控制。没有难治性脓毒性休克等适应证时，不常规使用糖皮质激素，故不宜选D所述措施。",
+          "knowledgeConnections": [
+            "脓毒症激素有特定适应证，不是所有发热感染的常规治疗。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q123",
+      "page": 25,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "123",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        25
+      ],
+      "title": "精选执医（上） · 第123题 · 烧伤深度与面积分度",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-33"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "烧伤深度与面积分度"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "浅Ⅱ°中度烧伤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "深Ⅱ°轻度烧伤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "深Ⅱ°重度烧伤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "浅Ⅱ°轻度烧伤"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "深Ⅱ°中度烧伤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 123,
+          "sourceQuestion": 123,
+          "sourcePage": 25,
+          "text": "第123题：男，32 岁，后背及上臂沸水烫伤 4 小时。查体：T 37.4℃，P 100 次/分，R 20 次/分，BP 130/90mmHg。意识清楚，后背及双上臂背侧红肿明显，大量水疱，基底发红，疼痛明显。该患者皮肤烧伤的深度和分度",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-33",
+          "knowledgePoint": "烧伤深度与面积分度",
+          "explanation": "大量水疱、基底红且疼痛明显为浅Ⅱ度。成人后躯干约13%，双上臂后侧合计约3.5%，面积约16.5%，按常见成人分度为中度烧伤，选A。",
+          "knowledgeConnections": [
+            "浅Ⅱ度红、痛、水疱；深Ⅱ度可红白相间、感觉迟钝，面积须结合部位计算。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q124",
+      "page": 25,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "124",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        25
+      ],
+      "title": "精选执医（上） · 第124题 · 可切除食管癌的治疗",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "可切除食管癌的治疗"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "根治手术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "化疗"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "放疗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃造瘘肠内营养"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "静脉营养支持治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 124,
+          "sourceQuestion": 124,
+          "sourcePage": 25,
+          "text": "第124题：女，64 岁，进食梗噎 2 个月。胃镜检查：距门齿 30-32cm 处食管后壁肿物，黏膜表面破溃，距门齿 38-40cm 处黏膜粗糙、隆起，两处活检均为高分化鳞癌。患者心肺及肝功能正常，未见其他部位转移征象。最佳治疗方案是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-02",
+          "knowledgePoint": "可切除食管癌的治疗",
+          "explanation": "两处活检均为鳞癌，且心肺肝功能允许、无其他转移，所列以根治手术为最佳选项。多发病灶本身不等于不能手术，实际治疗还需完整分期和多学科评估。",
+          "knowledgeConnections": [
+            "距门齿距离用于定位，治疗选择更依赖可切除性、分期及耐受性。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q125",
+      "page": 25,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "125",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        25,
+        26
+      ],
+      "title": "精选执医（上） · 第125题 · 甲状腺恶性结节的识别",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "甲状腺恶性结节的识别"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "单纯性甲状腺肿"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "甲状腺炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "结节性甲状腺肿"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "甲亢"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "甲状腺髓样癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 125,
+          "sourceQuestion": 125,
+          "sourcePage": 25,
+          "text": "第125题：女，55 岁。体检发现颈部包块 3 个月。查体：气管右侧可扪及一质硬结节，表面不光滑，随吞咽上下移动，同侧胸锁乳头肌前缘可扪及 2 个肿大淋巴结。放射性核素扫描为“冷结节”。该患者最可能的诊断是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-01",
+          "knowledgePoint": "甲状腺恶性结节的识别",
+          "explanation": "质硬、表面不光滑并同侧淋巴结肿大提示甲状腺癌，冷结节可增加警惕。选项中仅E为恶性肿瘤，故按本题选髓样癌；这些临床信息本身不能区分所有甲状腺癌病理亚型。",
+          "knowledgeConnections": [
+            "冷结节不等于癌；髓样癌来自C细胞，可关联降钙素升高。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q126",
+      "page": 25,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "126",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        25,
+        26
+      ],
+      "title": "精选执医（上） · 第126题 · 甲状腺结节的细胞学检查",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "甲状腺结节的细胞学检查"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "颈部增强 CT"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "颈部增强 MRI"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "颈部彩色多普勒超声"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "T3，T4，TSH"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "细针穿刺细胞学检查"
+        }
+      ],
+      "stems": [
+        {
+          "number": 126,
+          "sourceQuestion": 126,
+          "sourcePage": 25,
+          "text": "第126题：女，55 岁。体检发现颈部包块 3 个月。查体：气管右侧可扪及一质硬结节，表面不光滑，随吞咽上下移动，同侧胸锁乳头肌前缘可扪及 2 个肿大淋巴结。放射性核素扫描为“冷结节”。 为进一步明确诊断，最佳的检查是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-01",
+          "knowledgePoint": "甲状腺结节的细胞学检查",
+          "explanation": "前题疑似恶性甲状腺结节，细针穿刺可获取细胞学材料，最有助于明确性质，选E。超声是基础评估工具，但仅凭影像不等于细胞学定性。",
+          "knowledgeConnections": [
+            "评估甲状腺结节常结合超声风险分层和穿刺指征。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q127",
+      "page": 26,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "127",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        26
+      ],
+      "title": "精选执医（上） · 第127题 · 后纵隔肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "后纵隔肿瘤"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胸腺瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心包囊肿"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "畸胎瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "神经源性肿瘤"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "淋巴瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 127,
+          "sourceQuestion": 127,
+          "sourcePage": 26,
+          "text": "第127题：位于后纵隔脊柱旁最常见的肿瘤是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-04",
+          "knowledgePoint": "后纵隔肿瘤",
+          "explanation": "后纵隔脊柱旁最常见为神经源性肿瘤，故选D。胸腺瘤和常见畸胎瘤多在前纵隔，心包囊肿多在心膈角区域。",
+          "knowledgeConnections": [
+            "纵隔肿瘤先定位再定性：前纵隔想胸腺、生殖细胞等，后纵隔想神经源性。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q128",
+      "page": 26,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "128",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        26
+      ],
+      "title": "精选执医（上） · 第128题 · 急性乳腺炎的病因",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳房疾病",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "急性乳腺炎的病因"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "全身和局部抵抗力下降"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "乳汁淤积和细菌入侵"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "乳腺组织发育不良"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "哺乳次数增多"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "乳腺分泌障碍"
+        }
+      ],
+      "stems": [
+        {
+          "number": 128,
+          "sourceQuestion": 128,
+          "sourcePage": 26,
+          "text": "第128题：急性乳腺炎的重要病因是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-03",
+          "knowledgePoint": "急性乳腺炎的病因",
+          "explanation": "乳汁淤积为细菌繁殖创造条件，乳头破损等可使细菌侵入，二者共同构成急性哺乳期乳腺炎的重要原因，选B。",
+          "knowledgeConnections": [
+            "治疗需处理乳汁排出不畅，形成脓肿时还要引流。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q129",
+      "page": 26,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "129",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        26
+      ],
+      "title": "精选执医（上） · 第129题 · 乳房囊性增生症",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳房疾病",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "乳房囊性增生症"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "乳腺癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "乳房囊性增生症"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "导管内乳头状瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "乳腺结核"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "乳腺纤维腺瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 129,
+          "sourceQuestion": 129,
+          "sourcePage": 26,
+          "text": "第129题：女，38 岁，因双乳胀痛伴肿块数年而就诊。查体：双乳可扪及多个大小不等的结节，质韧，同侧腋窝淋巴结无明显肿大，挤压乳头时有乳白色液体溢出。最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-03",
+          "knowledgePoint": "乳房囊性增生症",
+          "explanation": "双乳反复胀痛、多发质韧结节、无明显腋窝淋巴结肿大，最符合乳房囊性增生症。纤维腺瘤常为单个、边界较清楚肿块，乳头状瘤可有血性溢液。",
+          "knowledgeConnections": [
+            "周期性疼痛和双侧多发结节支持良性增生，但持续局灶异常仍需影像评估。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q130",
+      "page": 26,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "130",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        26
+      ],
+      "title": "精选执医（上） · 第130题 · 炎性乳腺癌的预后线索",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳房疾病",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "炎性乳腺癌的预后线索"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "乳头凹陷，偏向一侧"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "乳头湿疹样变"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "皮肤红肿炎症样变"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "局部皮肤凹陷呈“酒窝征”"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "皮肤呈橘皮样变"
+        }
+      ],
+      "stems": [
+        {
+          "number": 130,
+          "sourceQuestion": 130,
+          "sourcePage": 26,
+          "text": "第130题：乳腺癌局部表现中提示预后最差的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-03",
+          "knowledgePoint": "炎性乳腺癌的预后线索",
+          "explanation": "皮肤红肿呈炎症样改变提示炎性乳腺癌，常有广泛真皮淋巴管受累、进展快，所列预后最差，选C。酒窝征来自Cooper韧带受牵拉，单独出现不代表同等严重度。",
+          "knowledgeConnections": [
+            "橘皮样变提示淋巴回流受阻；炎症样广泛红肿需警惕侵袭性病变。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q131",
+      "page": 27,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "131",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        27
+      ],
+      "title": "精选执医（上） · 第131题 · 局部晚期乳腺癌的初始治疗",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳房疾病",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "局部晚期乳腺癌的初始治疗"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "保乳手术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "改良根治术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "放疗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "化疗"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "靶向治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 131,
+          "sourceQuestion": 131,
+          "sourcePage": 27,
+          "text": "第131题：女，55 岁，右乳房肿块 6 个月，不伴疼痛，无乳头溢液。查体：右乳外上象限可触及 6cm×5cm 肿块，质硬，边界不清。右腋窝可触及数个肿大淋巴结，部分融合。该患者最终确诊为乳腺癌。首选的治疗方法是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-03",
+          "knowledgePoint": "局部晚期乳腺癌的初始治疗",
+          "explanation": "肿瘤超过5cm且腋窝淋巴结部分融合，提示局部晚期，通常先进行新辅助全身治疗，再评估手术。所列选化疗D，不能直接按早期乳腺癌常规首选保乳。",
+          "knowledgeConnections": [
+            "术前治疗既可缩小病灶，也可评估疗效；方案依赖激素受体和HER2等。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q132",
+      "page": 27,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "132",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        27
+      ],
+      "title": "精选执医（上） · 第132题 · 乳腺癌内分泌治疗指征",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳房疾病",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "乳腺癌内分泌治疗指征"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肿瘤大小"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "是否伴淋巴结转移"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "是否伴全身转移"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "HER2 表达情况"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "ER 表达情况"
+        }
+      ],
+      "stems": [
+        {
+          "number": 132,
+          "sourceQuestion": 132,
+          "sourcePage": 27,
+          "text": "第132题：女，55 岁，右乳房肿块 6 个月，不伴疼痛，无乳头溢液。查体：右乳外上象限可触及 6cm×5cm 肿块，质硬，边界不清。右腋窝可触及数个肿大淋巴结，部分融合。该患者最终确诊为乳腺癌。 确定该患者是否需要进行内分泌治疗的指征是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-03",
+          "knowledgePoint": "乳腺癌内分泌治疗指征",
+          "explanation": "ER表达是判断是否受益于内分泌治疗的重要依据，故选E，实际也结合PR。HER2主要指导相应抗HER2治疗，不能替代激素受体结果。",
+          "knowledgeConnections": [
+            "乳腺癌分子标志分别指导治疗：ER/PR—内分泌，HER2—抗HER2。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q133",
+      "page": 27,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "133",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        27
+      ],
+      "title": "精选执医（上） · 第133题 · 小细胞肺癌与SIADH",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "小细胞肺癌与SIADH"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "大细胞癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "小细胞癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腺癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "类癌"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "鳞癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 133,
+          "sourceQuestion": 133,
+          "sourcePage": 27,
+          "text": "第133题：男，40 岁。痰中带血 1 个月，乏力、头晕 1 周。实验室检查：血钠 114mmol/L，补钠治疗效果欠佳。胸部 X 线检查发现右肺门团块状影 4cm×4cm，余未见明显异常。纤维支气管镜检查示右主支气管黏膜粗糙水肿，管腔狭窄，黏膜活检可见肿瘤细胞。最可能的病理类型是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-04",
+          "knowledgePoint": "小细胞肺癌与SIADH",
+          "explanation": "肺门肿块、病理证实癌细胞且严重低钠，补钠反应欠佳，提示肿瘤相关抗利尿激素分泌异常，经典联系小细胞肺癌，选B。",
+          "knowledgeConnections": [
+            "小细胞肺癌可有SIADH、异位ACTH及神经肌肉副肿瘤综合征。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q134",
+      "page": 27,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "134",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        27
+      ],
+      "title": "精选执医（上） · 第134题 · 胃癌TNM分期的版本差异",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胃十二指肠疾病",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "胃癌TNM分期的版本差异"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "T1N1M0"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "T2N1M0"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "T2N2M0"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "T2N3M0"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "T3N2M0"
+        }
+      ],
+      "stems": [
+        {
+          "number": 134,
+          "sourceQuestion": 134,
+          "sourcePage": 27,
+          "text": "第134题：男，75 岁，间断上腹痛 20 年，加重伴黑便 1 个月。胃镜：胃窦部 4cm×3cm 溃疡型胃癌。超声内镜提示肿瘤浸润至固有肌层。腹部 CT 提示幽门上、下淋巴结肿大。该患者的 TNM 分期为",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-05",
+          "knowledgePoint": "胃癌TNM分期的版本差异",
+          "explanation": "浸润至固有肌层应为T2；本卷给B（T2N1M0）。但题干仅写幽门上、下淋巴结肿大，没有给病理阳性结数，现代按转移结数分N时不足以独立确定N1，需注意原题旧口径与现行分期的差异。",
+          "knowledgeConnections": [
+            "T看浸润深度，N看对应版本的淋巴结定义；不能用肿块直径代替T分期。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q135",
+      "page": 27,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "135",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        27,
+        28
+      ],
+      "title": "精选执医（上） · 第135题 · 消化性溃疡穿孔的穿刺液",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部损伤与感染",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "消化性溃疡穿孔的穿刺液"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "草绿色、透明"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血性、淀粉酶含量高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血性恶臭"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "稀脓性略带臭气"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "黄色、浑浊、含胆汁或食物残渣"
+        }
+      ],
+      "stems": [
+        {
+          "number": 135,
+          "sourceQuestion": 135,
+          "sourcePage": 27,
+          "text": "第135题：女，27 岁，因上腹部突发刀割样剧痛 1 小时急诊入院。查体：强迫体位，板状腹，全腹压痛、反跳痛、肌紧张，右上腹为著，肝浊音界缩小，肠鸣音减弱。若行诊断性腹腔穿刺，穿刺液性质最可能是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-06",
+          "knowledgePoint": "消化性溃疡穿孔的穿刺液",
+          "explanation": "突发刀割样痛、板状腹及肝浊音界缩小提示胃十二指肠穿孔，穿刺可得黄色浑浊液并含胆汁、食物残渣，选E。",
+          "knowledgeConnections": [
+            "血性高淀粉酶液联想胰腺炎；血性恶臭液应警惕肠坏死。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q136",
+      "page": 28,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "136",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        28
+      ],
+      "title": "精选执医（上） · 第136题 · 十二指肠腹膜后破裂",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部损伤与感染",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "十二指肠腹膜后破裂"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脾破裂"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "十二指肠破裂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胃破裂"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "空肠破裂"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "肝破裂"
+        }
+      ],
+      "stems": [
+        {
+          "number": 136,
+          "sourceQuestion": 136,
+          "sourcePage": 28,
+          "text": "第136题：男，30 岁，上腹部钝器伤 3 小时来院，曾呕吐少量鲜血，上腹及腰部疼痛。查体：上腹压痛，轻度肌紧张，肠鸣音弱，腹部平片见右肾及腰大肌轮廓模糊。该患者最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-07",
+          "knowledgePoint": "十二指肠腹膜后破裂",
+          "explanation": "上腹钝伤后上腹及腰痛、轻度腹膜刺激，X线右肾和腰大肌轮廓模糊提示腹膜后病变，应考虑十二指肠破裂。腹膜后破裂早期腹膜体征可不明显。",
+          "knowledgeConnections": [
+            "十二指肠大部分位于腹膜后，损伤不能只凭是否板状腹排除。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q137",
+      "page": 28,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "137",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        28
+      ],
+      "title": "精选执医（上） · 第137题 · 腹股沟管深环体表定位",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹外疝",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "腹股沟管深环体表定位"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "上方 1cm"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "上方 2cm"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "上方 3cm"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "下方 2cm"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "下方 3cm"
+        }
+      ],
+      "stems": [
+        {
+          "number": 137,
+          "sourceQuestion": 137,
+          "sourcePage": 28,
+          "text": "第137题：腹股沟管深环的体表投影位于腹股沟韧带中点",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-12",
+          "knowledgePoint": "腹股沟管深环体表定位",
+          "explanation": "腹股沟管深环投影在腹股沟韧带中点上方约2cm，故选B。注意腹股沟韧带中点与腹股沟中点不是完全相同概念。",
+          "knowledgeConnections": [
+            "深环位于腹壁下动脉外侧，与腹股沟斜疝的通道有关。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q138",
+      "page": 28,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "138",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        28
+      ],
+      "title": "精选执医（上） · 第138题 · 斜疝与直疝的血管关系",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹外疝",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "斜疝与直疝的血管关系"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "多见于儿童及青壮年"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "较多发生嵌顿"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "经腹股沟管突出，可进入阴囊"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "疝囊颈在腹壁下动脉内侧"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "疝块呈椭圆或梨形，上部呈蒂柄形"
+        }
+      ],
+      "stems": [
+        {
+          "number": 138,
+          "sourceQuestion": 138,
+          "sourcePage": 28,
+          "text": "第138题：下列哪项不是腹股沟斜疝的特点",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-12",
+          "knowledgePoint": "斜疝与直疝的血管关系",
+          "explanation": "腹股沟斜疝疝囊颈位于腹壁下动脉外侧，可经深环入腹股沟管并进入阴囊。D写成内侧，属于直疝的关系，故“不属于”选D。",
+          "knowledgeConnections": [
+            "腹壁下动脉：外斜内直；直疝经直疝三角突出。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q139",
+      "page": 28,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "139",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        28
+      ],
+      "title": "精选执医（上） · 第139题 · 肠套叠检查与截图更正",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肠套叠检查与截图更正"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腹部 B 超"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "气钡灌肠"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹部 CT"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹部 MRI"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "腹腔穿刺"
+        }
+      ],
+      "stems": [
+        {
+          "number": 139,
+          "sourceQuestion": 139,
+          "sourcePage": 28,
+          "text": "第139题：男，2 岁，因突发阵发性腹痛，哭闹，伴呕吐和果酱样血便 6 小时来诊。查体：腹肌软，脐右下方扪及肿块，有压痛，右下腹触诊有空虚感。首选的检查方法是",
+          "answerRaw": "A",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "肠套叠检查与截图更正",
+          "explanation": "截图评论明确将139题更正为B，故本题答案由表中A改为B（原选项为“气钡灌肠”），保留更正记录。阵发腹痛、果酱便、腹块和右下腹空虚支持肠套叠；灌肠可诊断并复位，但现代通常先用超声A确认，需区分题库更正与临床首选检查。",
+          "knowledgeConnections": [
+            "灌肠复位应排除腹膜炎、穿孔和不稳定状态，并在具备儿外科支持的条件下实施。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "answerCorrection": {
+            "from": "A",
+            "to": "B",
+            "source": "用户截图中的作者评论：139选B，气钡灌肠"
+          },
+          "explanationReferences": [
+            {
+              "title": "RCH肠套叠指南：超声与灌肠",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q140",
+      "page": 28,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "140",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        28,
+        29
+      ],
+      "title": "精选执医（上） · 第140题 · 绞窄性肠梗阻的手术指征",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "绞窄性肠梗阻的手术指征"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "是否为绞窄性肠梗阻"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "近端肠管扩张程度"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "梗阻部位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "是否为完全性梗阻"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "梗阻持续时间"
+        }
+      ],
+      "stems": [
+        {
+          "number": 140,
+          "sourceQuestion": 140,
+          "sourcePage": 28,
+          "text": "第140题：决定急性肠梗阻手术探查的最主要依据是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "绞窄性肠梗阻的手术指征",
+          "explanation": "决定是否急诊探查最关键是有无肠管缺血、绞窄，因延误可导致坏死、穿孔及休克。梗阻部位、扩张程度和持续时间有参考价值，但不如绞窄直接。",
+          "knowledgeConnections": [
+            "持续剧痛、腹膜刺激、血性液体及休克均应警惕绞窄。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q141",
+      "page": 29,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "141–143",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        29
+      ],
+      "title": "精选执医（上） · 第141–143题 · 小肠扭转的典型诱因",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "小肠扭转的典型诱因",
+        "小肠扭转的呕吐表现",
+        "肠梗阻的体液丢失"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "q141-A",
+          "displayKey": "A",
+          "label": "肠套叠",
+          "category": "第141题选项"
+        },
+        {
+          "key": "q141-B",
+          "displayKey": "B",
+          "label": "小肠扭转",
+          "category": "第141题选项"
+        },
+        {
+          "key": "q141-C",
+          "displayKey": "C",
+          "label": "乙状结肠扭转",
+          "category": "第141题选项"
+        },
+        {
+          "key": "q141-D",
+          "displayKey": "D",
+          "label": "结肠癌",
+          "category": "第141题选项"
+        },
+        {
+          "key": "q141-E",
+          "displayKey": "E",
+          "label": "先天性小肠畸形",
+          "category": "第141题选项"
+        },
+        {
+          "key": "q142-A",
+          "displayKey": "A",
+          "label": "肠鸣音活跃",
+          "category": "第142题选项"
+        },
+        {
+          "key": "q142-B",
+          "displayKey": "B",
+          "label": "腹部柔韧感",
+          "category": "第142题选项"
+        },
+        {
+          "key": "q142-C",
+          "displayKey": "C",
+          "label": "频繁呕吐",
+          "category": "第142题选项"
+        },
+        {
+          "key": "q142-D",
+          "displayKey": "D",
+          "label": "脉率正常",
+          "category": "第142题选项"
+        },
+        {
+          "key": "q142-E",
+          "displayKey": "E",
+          "label": "腹部隐痛、钝痛",
+          "category": "第142题选项"
+        },
+        {
+          "key": "q143-A",
+          "displayKey": "A",
+          "label": "细胞外液容量迅速减少",
+          "category": "第143题选项"
+        },
+        {
+          "key": "q143-B",
+          "displayKey": "B",
+          "label": "心输出量低，外周阻力高",
+          "category": "第143题选项"
+        },
+        {
+          "key": "q143-C",
+          "displayKey": "C",
+          "label": "左心功能不全",
+          "category": "第143题选项"
+        },
+        {
+          "key": "q143-D",
+          "displayKey": "D",
+          "label": "短时间大量出血",
+          "category": "第143题选项"
+        },
+        {
+          "key": "q143-E",
+          "displayKey": "E",
+          "label": "下腔静脉回流障碍",
+          "category": "第143题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 141,
+          "sourceQuestion": 141,
+          "sourcePage": 29,
+          "text": "第141题：首先考虑的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "q141-B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "小肠扭转的典型诱因",
+          "explanation": "青年饱餐后剧烈活动，突然腹痛、停止排气并休克，穿刺血性液体提示绞窄性小肠扭转，选B。乙状结肠扭转更常见于老年、便秘及腹胀明显者。",
+          "knowledgeConnections": [
+            "小肠扭转可迅速发生肠系膜血流障碍，是绞窄性梗阻。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第141题选项"
+        },
+        {
+          "number": 142,
+          "sourceQuestion": 142,
+          "sourcePage": 29,
+          "text": "第142题：最可能出现的临床表现是",
+          "answerRaw": "C",
+          "answer": [
+            "q142-C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "小肠扭转的呕吐表现",
+          "explanation": "沿用小肠扭转病例，急性梗阻可出现频繁呕吐，选C。腹部柔韧感更联系结核性腹膜炎，休克患者不应有正常脉率或仅轻微隐痛的典型表现。",
+          "knowledgeConnections": [
+            "高位梗阻呕吐早且频繁，低位梗阻腹胀更明显。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第142题选项"
+        },
+        {
+          "number": 143,
+          "sourceQuestion": 143,
+          "sourcePage": 29,
+          "text": "第143题：该疾病最主要的病理生理改变是",
+          "answerRaw": "A",
+          "answer": [
+            "q143-A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "肠梗阻的体液丢失",
+          "explanation": "大量液体潴留在肠腔和肠壁、腹腔，合并呕吐造成有效细胞外液迅速减少，是本题主要病理生理改变，选A。并非主要由短时间外出血导致。",
+          "knowledgeConnections": [
+            "“第三间隙”潴留虽未流出体外，仍可使循环血容量不足。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第143题选项"
+        }
+      ],
+      "sharedStem": "女，20 岁。1 天前饱餐后参加剧烈运动时突发腹痛，腹胀，无肛门排气。查体：T 35.5 度，BP 80/50mmHg。腹腔穿刺抽出血性液体。",
+      "sharedQuestionCount": 3
+    },
+    {
+      "id": "practitioner-upper-20261019-q144",
+      "page": 29,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "144–146",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        29,
+        30
+      ],
+      "title": "精选执医（上） · 第144–146题 · 肠系膜上动脉栓塞",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肠系膜上动脉栓塞",
+        "急性肠系膜缺血的经典三联征",
+        "肠系膜动脉栓塞的影像"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "q144-A",
+          "displayKey": "A",
+          "label": "胃肠道穿孔",
+          "category": "第144题选项"
+        },
+        {
+          "key": "q144-B",
+          "displayKey": "B",
+          "label": "乙状结肠扭转",
+          "category": "第144题选项"
+        },
+        {
+          "key": "q144-C",
+          "displayKey": "C",
+          "label": "肠系膜上动脉栓塞",
+          "category": "第144题选项"
+        },
+        {
+          "key": "q144-D",
+          "displayKey": "D",
+          "label": "急性重症胰腺炎",
+          "category": "第144题选项"
+        },
+        {
+          "key": "q144-E",
+          "displayKey": "E",
+          "label": "急性心肌梗死",
+          "category": "第144题选项"
+        },
+        {
+          "key": "q145-A",
+          "displayKey": "A",
+          "label": "剧烈急腹痛、器质性心脏病、继发性腹膜炎三联征",
+          "category": "第145题选项"
+        },
+        {
+          "key": "q145-B",
+          "displayKey": "B",
+          "label": "剧烈急腹痛、症状与体征不相称、周围循环衰竭三联征",
+          "category": "第145题选项"
+        },
+        {
+          "key": "q145-C",
+          "displayKey": "C",
+          "label": "剧烈急腹痛、明显全身中毒症状、周围循环衰竭三联征",
+          "category": "第145题选项"
+        },
+        {
+          "key": "q145-D",
+          "displayKey": "D",
+          "label": "剧烈而无相应体征的脐周痛、继发性腹膜炎、明显全身中毒症状三联征",
+          "category": "第145题选项"
+        },
+        {
+          "key": "q145-E",
+          "displayKey": "E",
+          "label": "剧烈而无相应体征的脐周痛、器质性心脏病、强烈胃肠道排空三联征",
+          "category": "第145题选项"
+        },
+        {
+          "key": "q146-A",
+          "displayKey": "A",
+          "label": "立卧位腹部平片",
+          "category": "第146题选项"
+        },
+        {
+          "key": "q146-B",
+          "displayKey": "B",
+          "label": "腹部 B 超",
+          "category": "第146题选项"
+        },
+        {
+          "key": "q146-C",
+          "displayKey": "C",
+          "label": "腹部增强 CT",
+          "category": "第146题选项"
+        },
+        {
+          "key": "q146-D",
+          "displayKey": "D",
+          "label": "选择性腹腔动脉造影",
+          "category": "第146题选项"
+        },
+        {
+          "key": "q146-E",
+          "displayKey": "E",
+          "label": "钡灌肠",
+          "category": "第146题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 144,
+          "sourceQuestion": 144,
+          "sourcePage": 29,
+          "text": "第144题：该患者最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "q144-C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "肠系膜上动脉栓塞",
+          "explanation": "房颤是动脉栓塞危险因素，突发剧烈腹痛、休克及早期体征相对不足，强烈提示肠系膜上动脉栓塞，选C。白细胞和D-二聚体可升高但不能单独确诊。",
+          "knowledgeConnections": [
+            "急性肠缺血要联系房颤、栓塞背景及疼痛与体征不相称。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第144题选项"
+        },
+        {
+          "number": 145,
+          "sourceQuestion": 145,
+          "sourcePage": 29,
+          "text": "第145题：本病最有特征的临床表现是",
+          "answerRaw": "E",
+          "answer": [
+            "q145-E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "急性肠系膜缺血的经典三联征",
+          "explanation": "典型组合为剧烈而与体征不相称的脐周痛、器质性心脏病及强烈胃肠排空，选E。继发腹膜炎提示病情进展和可能肠坏死，不是早期特征的必要组成。",
+          "knowledgeConnections": [
+            "早期体征轻不能排除致命性肠缺血。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第145题选项"
+        },
+        {
+          "number": 146,
+          "sourceQuestion": 146,
+          "sourcePage": 29,
+          "text": "第146题：本病最有诊断价值的检查是",
+          "answerRaw": "D",
+          "answer": [
+            "q146-D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-08",
+          "knowledgePoint": "肠系膜动脉栓塞的影像",
+          "explanation": "本卷给D，对应传统选择性动脉造影可直接显示栓塞并提供介入通道。现代急性肠系膜缺血常先行快速CTA；题中“腹部增强CT”未明确是否包含动脉期血管成像，复习时需区分。",
+          "knowledgeConnections": [
+            "传统“金标准”不总等于当下急诊首选检查。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第146题选项"
+        }
+      ],
+      "sharedStem": "男，78 岁。突发腹部持续性剧烈绞痛，伴频繁呕吐 2 小时住院。既往有冠心病、房颤病史。查体：T 37 度，P 96 次/分，R 20 次/分，BP 85/60mmHg，急性痛苦病容，被迫体位，面色苍白，心率 120 次/分，节律不整。腹部膨隆，全腹均有压痛，脐周和右侧更明显，轻度反跳痛，肌紧张，肠鸣音弱。实验室检查：白细胞 25×10⁹/L，N 90%，血浆 D-二聚体 600μg/L。",
+      "sharedQuestionCount": 3
+    },
+    {
+      "id": "practitioner-upper-20261019-q147",
+      "page": 30,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "147",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        30
+      ],
+      "title": "精选执医（上） · 第147题 · 阑尾切除术常见并发症",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "阑尾切除术常见并发症"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "出血"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阑尾残株炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "粘连性肠梗阻"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "切口感染"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "粪瘘"
+        }
+      ],
+      "stems": [
+        {
+          "number": 147,
+          "sourceQuestion": 147,
+          "sourcePage": 30,
+          "text": "第147题：急性阑尾炎手术治疗后最常见的并发症是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-09",
+          "knowledgePoint": "阑尾切除术常见并发症",
+          "explanation": "急性阑尾炎手术后最常见并发症为切口感染，尤其穿孔、污染较重时，故选D。残株炎、粪瘘和出血较少见。",
+          "knowledgeConnections": [
+            "术后并发症题要同时看发生频率和时间线。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q148",
+      "page": 30,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "148",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        30
+      ],
+      "title": "精选执医（上） · 第148题 · 盆腔脓肿的检查",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "盆腔脓肿的检查"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "粪常规"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "直肠指检"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹部 B 超"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹部 X 线"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "腹部 CT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 148,
+          "sourceQuestion": 148,
+          "sourcePage": 30,
+          "text": "第148题：男，55 岁，因急性阑尾炎穿孔入院。行阑尾切除术后第 6 天出现发热，体温上升至 39 度，伴腹泻及里急后重。首选的检查是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-09",
+          "knowledgePoint": "盆腔脓肿的检查",
+          "explanation": "穿孔性阑尾炎术后数日发热、腹泻和里急后重，提示盆腔脓肿刺激直肠。直肠指检可发现直肠前壁饱满、触痛，是本题首选检查B。",
+          "knowledgeConnections": [
+            "盆腔脓肿可有直肠及膀胱刺激症状，超声或CT用于进一步定位。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q149",
+      "page": 30,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "149",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        30
+      ],
+      "title": "精选执医（上） · 第149题 · 直肠癌局部浸润评估",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "结直肠与肛管疾病",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "直肠癌局部浸润评估"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "直肠指检"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "结肠镜"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "全消化道 X 线钡剂造影"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹部 B 超"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "腹盆部增强 MRI"
+        }
+      ],
+      "stems": [
+        {
+          "number": 149,
+          "sourceQuestion": 149,
+          "sourcePage": 30,
+          "text": "第149题：对明确直肠癌局部浸润状况最有意义的检查是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-10",
+          "knowledgePoint": "直肠癌局部浸润评估",
+          "explanation": "盆部增强MRI能显示肿瘤与直肠壁、直肠系膜筋膜及邻近器官关系，最有助于评价局部浸润，选E。内镜活检用于定性，不能替代局部分期。",
+          "knowledgeConnections": [
+            "直肠癌MRI重点关注浸润深度、系膜筋膜和局部淋巴结等。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q150",
+      "page": 30,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "150",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        30
+      ],
+      "title": "精选执医（上） · 第150题 · Caroli病的分型",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "Caroli病的分型"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肝内胆管囊状扩张"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝内外胆管囊状扩张"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆总管囊状扩张"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胆总管壁憩室样突出"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "胆总管十二指肠壁内段呈囊状膨出"
+        }
+      ],
+      "stems": [
+        {
+          "number": 150,
+          "sourceQuestion": 150,
+          "sourcePage": 30,
+          "text": "第150题：先天性胆管扩张症Ⅴ型（Caroli 病）是指",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-16",
+          "knowledgePoint": "Caroli病的分型",
+          "explanation": "TodaniⅤ型为肝内胆管囊状或节段性扩张，即Caroli病，选A。Ⅰ型主要为肝外胆管扩张，Ⅳ型可累及肝内外。",
+          "knowledgeConnections": [
+            "胆管囊肿分型按部位和形态区分，Ⅴ型只在肝内。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q151",
+      "page": 30,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "151",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        30,
+        31
+      ],
+      "title": "精选执医（上） · 第151题 · 急性重症胆管炎的引流",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "急性重症胆管炎的引流"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胆肠吻合术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胆囊造瘘术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆囊切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胆总管切开引流术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "经内镜 Oddi 括约肌切开术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 151,
+          "sourceQuestion": 151,
+          "sourcePage": 30,
+          "text": "第151题：女，73 岁，突发上腹痛 13 小时，寒战，发热。既往因十二指肠溃疡行胃大部切除毕Ⅱ式吻合术。查体：T 39.7 度，P 110 次/分，BP 80/50mmHg，皮肤、巩膜黄染，右上腹及剑突下肌紧张，压痛、反跳痛，WBC 17×10⁹/L。腹部 B 超：胆总管扩张，下段观察不清。该患者首选的手术方式是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-16",
+          "knowledgePoint": "急性重症胆管炎的引流",
+          "explanation": "发热、腹痛、黄疸伴休克提示急性重症胆管炎，需尽快胆道减压。既往毕Ⅱ式术后使常规内镜操作较困难，所列选胆总管切开引流D；不能仅做胆囊切除替代总胆管减压。",
+          "knowledgeConnections": [
+            "控制感染源的核心是解除胆道梗阻并引流，方式依解剖及条件选择。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q152",
+      "page": 31,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "152",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        31
+      ],
+      "title": "精选执医（上） · 第152题 · 壶腹周围肿瘤与胰头癌鉴别",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "壶腹周围肿瘤与胰头癌鉴别"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "尿胆红素是否阳性"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝功能是否异常"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "黄疸有无波动"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血淀粉酶有无升高"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "皮肤有无瘙痒"
+        }
+      ],
+      "stems": [
+        {
+          "number": 152,
+          "sourceQuestion": 152,
+          "sourcePage": 31,
+          "text": "第152题：女，50 岁。2 周前无明显诱因出现中上腹隐痛，皮肤巩膜黄染，小便呈浓茶样，1 周前腹痛缓解，皮肤黄染减退。该患者最可能的疾病与胰头癌的鉴别诊断要点是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-15",
+          "knowledgePoint": "壶腹周围肿瘤与胰头癌鉴别",
+          "explanation": "本题突出黄疸随病程波动，传统考点指向壶腹部癌等壶腹周围病变，可因肿瘤坏死暂缓梗阻。与胰头癌常进行性加重的黄疸比较，所问鉴别点选C。",
+          "knowledgeConnections": [
+            "有无黄疸不能鉴别所有梗阻病因，病程、影像和病理更重要。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q153",
+      "page": 31,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "153",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        31
+      ],
+      "title": "精选执医（上） · 第153题 · 肝门部胆管癌",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肝门部胆管癌"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "慢性胆囊炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胆囊癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆管结石"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胰头癌"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "肝门部胆管癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 153,
+          "sourceQuestion": 153,
+          "sourcePage": 31,
+          "text": "第153题：男，65 岁，皮肤巩膜黄染进行性加重 1 个月。查体：胆囊缩小，Murphy 征(-)，腹部未扪及肿块。该患者首先考虑的诊断是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-16",
+          "knowledgePoint": "肝门部胆管癌",
+          "explanation": "进行性梗阻性黄疸而胆囊缩小，提示梗阻位于胆囊管汇入处以上，首先考虑肝门部胆管癌E。胰头癌阻塞位置较低，常见胆囊增大。",
+          "knowledgeConnections": [
+            "梗阻部位影响胆囊是否增大；Courvoisier征需放在解剖关系中理解。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q154",
+      "page": 31,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "154",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        31
+      ],
+      "title": "精选执医（上） · 第154题 · 胰腺肿瘤术前评估",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "胰腺肿瘤术前评估"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腹部 B 超"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腹部 MRI"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "上消化道钡剂造影"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹部增强 CT"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "ERCP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 154,
+          "sourceQuestion": 154,
+          "sourcePage": 31,
+          "text": "第154题：女，55 岁，上腹隐痛、皮肤巩膜黄染 1 个月，呈进行性加重，伴乏力、食欲不振。查体：T 36.5℃，P 80 次/分，R 18 次/分，BP 120/80mmHg。腹膨隆，腹软，未触及包块。血 CA199 和 CEA 增高。为明确诊断和设计手术方案，最有意义的检查方法是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-15",
+          "knowledgePoint": "胰腺肿瘤术前评估",
+          "explanation": "进行性黄疸及CA19-9等升高提示胰胆肿瘤，腹部多期增强CT可评价原发病灶、血管关系与转移，帮助判断可切除性，所列选D。",
+          "knowledgeConnections": [
+            "肿瘤标志物不能单独确诊，梗阻性黄疸本身也可影响CA19-9。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q155",
+      "page": 31,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "155",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        31
+      ],
+      "title": "精选执医（上） · 第155题 · 胰腺术后胰瘘",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "胰腺术后胰瘘"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胰瘘"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肠瘘"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆瘘"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性胰腺炎"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "肠系膜血栓形成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 155,
+          "sourceQuestion": 155,
+          "sourcePage": 31,
+          "text": "第155题：女，48 岁，皮肤黄染进行性加重 1 个月，8 天前发现小便呈浓茶样，近几天大便呈灰白色。查体：T 36.9℃，皮肤巩膜黄染，腹软，右上腹可触及肿大的胆囊，无压痛，无反跳痛。该患者手术治疗后第 3 天发生上腹剧烈疼痛，腹腔引流量明显增加，引流液淀粉酶 15000U/L。该患者最可能发生的并发症是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-15",
+          "knowledgePoint": "胰腺术后胰瘘",
+          "explanation": "疑似胰头癌术后引流量增加且引流液淀粉酶显著升高，最支持胰液外漏，选A。术后胰瘘的正式定义还需结合术后时间、参考上限及临床影响。",
+          "knowledgeConnections": [
+            "胆瘘以胆汁样引流为线索，胰瘘重在引流液高淀粉酶。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q156",
+      "page": 32,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "156",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        32
+      ],
+      "title": "精选执医（上） · 第156题 · 急腹症的腹膜刺激征",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "急腹症的腹膜刺激征"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胃十二指肠溃疡穿孔"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "急性胆囊炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "急性肠梗阻"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性胰腺炎"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "急性胃肠炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 156,
+          "sourceQuestion": 156,
+          "sourcePage": 32,
+          "text": "第156题：女，32 岁，餐后突发右上腹及剑突下痛，放射至右肩及后背部，2 小时后疼痛剧烈，伴恶心呕吐，仍不缓解，急诊就医。数年“胃病”史及胆石症病史，间有胆绞痛发作。查体：痛苦病容，T 37.2℃，R 28 次/分，浅快，心律齐。全腹胀，上腹肌紧张，压痛及反跳痛。移动性浊音(±)。实验室检查：WBC 12×10⁹/L，Hb 125g/L，尿淀粉酶 400U。下列初步诊断中不可能是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-15",
+          "knowledgePoint": "急腹症的腹膜刺激征",
+          "explanation": "突发剧痛且上腹肌紧张、反跳痛，提示急腹症伴腹膜刺激。所列中普通急性胃肠炎最难解释这一组体征，因此按题意选E；“不可能”属于考试排除语气，并非仅凭这些资料绝对排除一切情况。",
+          "knowledgeConnections": [
+            "明显腹膜刺激征须优先排查穿孔、胰腺炎及胆道等外科急症。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q157",
+      "page": 32,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "157",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        32
+      ],
+      "title": "精选执医（上） · 第157题 · 下肢慢性缺血的Fontaine分期",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "周围血管疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "下肢慢性缺血的Fontaine分期"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Ⅰ期"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Ⅱa 期"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Ⅱb 期"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Ⅲ期"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "Ⅳ期"
+        }
+      ],
+      "stems": [
+        {
+          "number": 157,
+          "sourceQuestion": 157,
+          "sourcePage": 32,
+          "text": "第157题：男，45 岁，1 年前出现双下肢疼痛，行走 300 米左右时明显，休息后好转，1 个月来症状加重，双下肢疼痛剧烈且持续，以夜间更著，休息时仍有疼痛。既往体健，吸烟20 年。Buerger 试验(+)。该患者诊断为血栓闭塞性脉管炎，其分期为",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-17",
+          "knowledgePoint": "下肢慢性缺血的Fontaine分期",
+          "explanation": "从间歇性跛行发展为静息痛，尤其夜间明显，符合FontaineⅢ期，选D。Ⅱa或Ⅱb按跛行距离区分，Ⅳ期则出现溃疡、坏疽等组织缺损。",
+          "knowledgeConnections": [
+            "Ⅰ期轻症；Ⅱ期跛行；Ⅲ期静息痛；Ⅳ期组织缺损。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q158",
+      "page": 32,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "158",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        32
+      ],
+      "title": "精选执医（上） · 第158题 · 肾损伤与腹膜后血肿",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肾损伤与腹膜后血肿"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脾损伤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝损伤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾损伤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "十二指肠损伤"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "空回肠损伤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 158,
+          "sourceQuestion": 158,
+          "sourcePage": 32,
+          "text": "第158题：男，26 岁，腰背及腹部挤压伤后 1 小时。查体：P 96 次/分，BP 140/80mmHg。腹部膨隆，轻压痛，无反跳痛，肠鸣音弱，腰肋部可见瘀斑。急症剖腹探查见腹膜后 9×9×2cm 血肿，观察其大小无变化。该患者最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "肾损伤与腹膜后血肿",
+          "explanation": "腰腹挤压伤、腰肋部瘀斑及稳定腹膜后血肿，最符合肾损伤，选C。腹膜内实质脏器破裂更易形成腹腔内出血，十二指肠损伤还需看气体及肠液污染等。",
+          "knowledgeConnections": [
+            "血肿位置、机制和循环状态共同决定探查与否，稳定肾周血肿不能随意打开。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q159",
+      "page": 32,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "159",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        32
+      ],
+      "title": "精选执医（上） · 第159题 · 肾损伤后的感染预防",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肾损伤后的感染预防"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "防治感染"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "防治肝肾功能障碍"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "纠正水电解质平衡紊乱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "纠正贫血"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "纠正低蛋白血症"
+        }
+      ],
+      "stems": [
+        {
+          "number": 159,
+          "sourceQuestion": 159,
+          "sourcePage": 32,
+          "text": "第159题：男，26 岁，腰背及腹部挤压伤后 1 小时。查体：P 96 次/分，BP 140/80mmHg。腹部膨隆，轻压痛，无反跳痛，肠鸣音弱，腰肋部可见瘀斑。急症剖腹探查见腹膜后 9×9×2cm 血肿，观察其大小无变化。 该患者的术后治疗最重要的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "肾损伤后的感染预防",
+          "explanation": "肾损伤血肿或尿外渗可继发感染，按本卷术后重点选A防治感染。还应持续观察出血、尿量、肾功能及外渗，不能把其他监测完全省略。",
+          "knowledgeConnections": [
+            "肾外伤需警惕早期出血、尿外渗及后期感染、继发性高血压。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q160",
+      "page": 32,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "160–162",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        32,
+        33
+      ],
+      "title": "精选执医（上） · 第160–162题 · 穿透性肾损伤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "穿透性肾损伤",
+        "肾外伤的影像评估",
+        "开放性肾损伤的治疗争议"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "q160-A",
+          "displayKey": "A",
+          "label": "肝破裂",
+          "category": "第160题选项"
+        },
+        {
+          "key": "q160-B",
+          "displayKey": "B",
+          "label": "脾破裂",
+          "category": "第160题选项"
+        },
+        {
+          "key": "q160-C",
+          "displayKey": "C",
+          "label": "肾损伤",
+          "category": "第160题选项"
+        },
+        {
+          "key": "q160-D",
+          "displayKey": "D",
+          "label": "胰腺损伤",
+          "category": "第160题选项"
+        },
+        {
+          "key": "q160-E",
+          "displayKey": "E",
+          "label": "空肠损伤",
+          "category": "第160题选项"
+        },
+        {
+          "key": "q161-A",
+          "displayKey": "A",
+          "label": "X 线",
+          "category": "第161题选项"
+        },
+        {
+          "key": "q161-B",
+          "displayKey": "B",
+          "label": "B 超",
+          "category": "第161题选项"
+        },
+        {
+          "key": "q161-C",
+          "displayKey": "C",
+          "label": "CT",
+          "category": "第161题选项"
+        },
+        {
+          "key": "q161-D",
+          "displayKey": "D",
+          "label": "MRI",
+          "category": "第161题选项"
+        },
+        {
+          "key": "q161-E",
+          "displayKey": "E",
+          "label": "DSA",
+          "category": "第161题选项"
+        },
+        {
+          "key": "q162-A",
+          "displayKey": "A",
+          "label": "补液，抗休克",
+          "category": "第162题选项"
+        },
+        {
+          "key": "q162-B",
+          "displayKey": "B",
+          "label": "手术探查",
+          "category": "第162题选项"
+        },
+        {
+          "key": "q162-C",
+          "displayKey": "C",
+          "label": "绝对卧床 2 周以上",
+          "category": "第162题选项"
+        },
+        {
+          "key": "q162-D",
+          "displayKey": "D",
+          "label": "持续导尿，观察尿量及颜色变化",
+          "category": "第162题选项"
+        },
+        {
+          "key": "q162-E",
+          "displayKey": "E",
+          "label": "清创",
+          "category": "第162题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 160,
+          "sourceQuestion": 160,
+          "sourcePage": 32,
+          "text": "第160题：该患者诊断应首先考虑",
+          "answerRaw": "C",
+          "answer": [
+            "q160-C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "穿透性肾损伤",
+          "explanation": "腰部刺伤后伤口持续流出淡红色液体，考虑尿液混血，最提示开放性肾损伤，选C。没有明显腹膜刺激征不排除腹膜后脏器损伤。",
+          "knowledgeConnections": [
+            "腰部创口＋尿样渗液应检查泌尿系统，注意合并肠道和血管伤。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第160题选项"
+        },
+        {
+          "number": 161,
+          "sourceQuestion": 161,
+          "sourcePage": 33,
+          "text": "第161题：为明确诊断，应首选的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "q161-C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "肾外伤的影像评估",
+          "explanation": "血流动力学允许时，增强CT及延迟排泄期有助评估肾实质、血管和集合系统损伤，所列选C。超声可快速查液体，但分级与尿外渗评估不如CT全面。",
+          "knowledgeConnections": [
+            "肾损伤CT要看增强期与延迟期，检查安排不能延误不稳定患者的抢救。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第161题选项",
+          "explanationReferences": [
+            {
+              "title": "EAU泌尿创伤指南：按稳定性选择治疗",
+              "url": "https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines"
+            }
+          ]
+        },
+        {
+          "number": 162,
+          "sourceQuestion": 162,
+          "sourcePage": 33,
+          "text": "第162题：该患者最重要的治疗措施是",
+          "answerRaw": "B",
+          "answer": [
+            "q162-B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "待原题页核对",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "开放性肾损伤的治疗争议",
+          "explanation": "截图答案B且评论列为争议。传统题常把开放性肾损伤指向手术探查，但现代根据循环稳定性、伤道、出血及尿外渗选择，部分稳定的穿透伤可非手术治疗。本例仍应先评估并支持循环，单凭题干难确定一律探查，保留B待复核。",
+          "knowledgeConnections": [
+            "不稳定、进行性出血及合并需要手术的腹内损伤等更支持手术处理。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第162题选项",
+          "reviewReason": "截图评论列为争议题",
+          "explanationReferences": [
+            {
+              "title": "EAU泌尿创伤指南：按稳定性选择治疗",
+              "url": "https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines"
+            }
+          ]
+        }
+      ],
+      "sharedStem": "男，20 岁。左腰部被刺后伤口持续溢出淡红色液体 2 小时。查体：BP 95/70mmHg，P 110 次/分，左上腹压痛，无肌紧张及反跳痛。",
+      "sharedQuestionCount": 3
+    },
+    {
+      "id": "practitioner-upper-20261019-q163",
+      "page": 33,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "163",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        33
+      ],
+      "title": "精选执医（上） · 第163题 · 骨盆骨折合并后尿道损伤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "骨盆骨折合并后尿道损伤"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "输尿管损伤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腹膜内型膀胱破裂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹膜外型膀胱破裂"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "前尿道损伤"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "后尿道损伤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 163,
+          "sourceQuestion": 163,
+          "sourcePage": 33,
+          "text": "第163题：男，35 岁，因车祸 3 小时急诊入院，经抢救后生命体征平稳。现出现下腹部疼痛，不能排尿 4 小时。查体：下腹部叩诊浊音，直肠指检可触及直肠前方饱满，前列腺尖端浮动感。X 线示骨盆骨折。该患者最可能的诊断是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "骨盆骨折合并后尿道损伤",
+          "explanation": "骨盆骨折后不能排尿、直肠前方饱满及前列腺浮动感，提示后尿道损伤，选E。前尿道损伤多与骑跨伤有关。",
+          "knowledgeConnections": [
+            "骨盆骨折—后尿道；骑跨伤—球部前尿道。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q164",
+      "page": 33,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "164",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        33
+      ],
+      "title": "精选执医（上） · 第164题 · 尿道损伤的造影",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "尿道损伤的造影"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "B 超"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "CT"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "静脉尿路造影"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "尿道造影"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "膀胱造影"
+        }
+      ],
+      "stems": [
+        {
+          "number": 164,
+          "sourceQuestion": 164,
+          "sourcePage": 33,
+          "text": "第164题：男，35 岁，因车祸 3 小时急诊入院，经抢救后生命体征平稳。现出现下腹部疼痛，不能排尿 4 小时。查体：下腹部叩诊浊音，直肠指检可触及直肠前方饱满，前列腺尖端浮动感。X 线示骨盆骨折。 后期需要补充的最重要检查是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "尿道损伤的造影",
+          "explanation": "疑似后尿道损伤时，尿道造影可显示断裂或造影剂外渗位置，选D。膀胱造影主要评估膀胱破裂，不能替代尿道造影。",
+          "knowledgeConnections": [
+            "怀疑尿道断裂时避免盲目、反复强行导尿。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q165",
+      "page": 33,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "165",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        33
+      ],
+      "title": "精选执医（上） · 第165题 · 输尿管上段结石治疗",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "输尿管上段结石治疗"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "继续非手术治疗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "体外冲击波碎石"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾镜取石"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "输尿管镜取石"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "腹腔镜输尿管切开取石"
+        }
+      ],
+      "stems": [
+        {
+          "number": 165,
+          "sourceQuestion": 165,
+          "sourcePage": 33,
+          "text": "第165题：男，40 岁。左肾绞痛 3 天，应用解痉药物后好转。排泄性尿路造影：双肾显示好，左肾轻度积水，左输尿管上段结石 1.0×0.8cm。非手术治疗 2 周，结石下移 1cm。该患者最适宜的治疗方法是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "输尿管上段结石治疗",
+          "explanation": "上段约1cm结石、肾功能尚好且保守两周下移有限，所列体外冲击波碎石是合适选择，选B。实际还需结合密度、梗阻感染、结石位置和解剖决定ESWL或输尿管镜。",
+          "knowledgeConnections": [
+            "结石处理不能只看直径；发热梗阻首先考虑紧急引流。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q166",
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "166",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        34
+      ],
+      "title": "精选执医（上） · 第166题 · 良性前列腺增生的药物治疗",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "良性前列腺增生的药物治疗"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "膀胱造瘘"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "TURBT"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "经尿道前列腺切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "根治性前列腺切除术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "α 受体拮抗剂+5α 还原酶抑制剂"
+        }
+      ],
+      "stems": [
+        {
+          "number": 166,
+          "sourceQuestion": 166,
+          "sourcePage": 34,
+          "text": "第166题：男，70 岁，尿频、尿急、尿痛，直肠指检前列腺增大，中央沟消失，B 超大小约 5.4×4.3cm，PSA 2.4ng/ml，尿液流速 9ml/s，残尿量 40ml。该患者首选的治疗方案是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-19",
+          "knowledgePoint": "良性前列腺增生的药物治疗",
+          "explanation": "前列腺增大、尿流率降低，但残余尿量不大且未给出反复潴留等强手术指征，可先用α阻滞剂联合5α还原酶抑制剂，选E。PSA值须综合判断，不能单独排除所有恶性病变。",
+          "knowledgeConnections": [
+            "α阻滞剂改善动力性梗阻，5α还原酶抑制剂逐步缩小增生腺体。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q167",
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "167",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        34
+      ],
+      "title": "精选执医（上） · 第167题 · 浅表膀胱肿瘤的切除",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "浅表膀胱肿瘤的切除"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "放疗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "根治性膀胱切除术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "经尿道膀胱肿瘤切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "开放保留膀胱手术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "膀胱内药物灌注治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 167,
+          "sourceQuestion": 167,
+          "sourcePage": 34,
+          "text": "第167题：女，62 岁，膀胱炎病史多年，近期反复出现肉眼血尿。膀胱镜检查：膀胱乳头状肿物，1.5cm×1cm，有蒂，活组织病理检查为尿路上皮癌Ⅰ级。最适宜的治疗措施是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-18",
+          "knowledgePoint": "浅表膀胱肿瘤的切除",
+          "explanation": "小的有蒂乳头状尿路上皮肿瘤，所列首先行经尿道膀胱肿瘤切除术TURBT，既治疗又提供分期病理，选C。是否加灌注及后续治疗需看肌层、分级和复发风险。",
+          "knowledgeConnections": [
+            "TURBT用于膀胱肿瘤；TURP用于前列腺增生，别混缩写。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q168",
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "168",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        34
+      ],
+      "title": "精选执医（上） · 第168题 · 肾盂肿瘤的影像线索",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肾盂肿瘤的影像线索"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾盂癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾母细胞瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾结核"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "肾盏结石"
+        }
+      ],
+      "stems": [
+        {
+          "number": 168,
+          "sourceQuestion": 168,
+          "sourcePage": 34,
+          "text": "第168题：男，60 岁，左侧腰部胀痛伴间歇性无痛性肉眼血尿 1 月余。IVU：左肾中盏充盈缺损。该患者首先考虑的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-18",
+          "knowledgePoint": "肾盂肿瘤的影像线索",
+          "explanation": "无痛性间歇血尿，排泄性尿路造影显示肾盏内充盈缺损，支持肾盂尿路上皮癌，选B。肾实质癌常表现为肾实质占位并使集合系统受压变形。",
+          "knowledgeConnections": [
+            "上尿路尿路上皮肿瘤可形成集合系统内充盈缺损。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q169",
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "169",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        34
+      ],
+      "title": "精选执医（上） · 第169题 · 隐睾手术的时间口径",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "隐睾手术的时间口径"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "1 岁以前"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "2 岁以前"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "3-6 岁"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "青春期"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "婚后影响生育时"
+        }
+      ],
+      "stems": [
+        {
+          "number": 169,
+          "sourceQuestion": 169,
+          "sourcePage": 34,
+          "text": "第169题：单侧隐睾行手术治疗应在",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-20",
+          "knowledgePoint": "隐睾手术的时间口径",
+          "explanation": "截图答案B，即“2岁以前”，是传统题库常见口径。当前儿科泌尿指南强调更早完成睾丸固定，通常6～12个月开始并不晚于18个月，不能理解为可常规等到接近2岁。",
+          "knowledgeConnections": [
+            "自发下降多在出生后最初数月；持续隐睾需尽早专科评估。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "explanationReferences": [
+            {
+              "title": "EAU隐睾指南：手术完成时间",
+              "url": "https://uroweb.org/guidelines/paediatric-urology/chapter/management-of-undescended-testes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q170",
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "170",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        34
+      ],
+      "title": "精选执医（上） · 第170题 · 无功能结核肾的处理",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "无功能结核肾的处理"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "抗结核治疗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "病灶清除术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾部分切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾切除术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "肾造瘘术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 170,
+          "sourceQuestion": 170,
+          "sourcePage": 34,
+          "text": "第170题：一侧肾结核无功能，对侧肾正常，应选择",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-18",
+          "knowledgePoint": "无功能结核肾的处理",
+          "explanation": "一侧结核肾已无功能、对侧肾正常，通常在抗结核治疗基础上切除病肾，故选D。术前必须评估对侧功能，不能只看患侧影像。",
+          "knowledgeConnections": [
+            "肾结核治疗以规范抗结核为基础，手术针对无功能破坏肾及部分并发症。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "explanationReferences": [
+            {
+              "title": "EAU泌尿感染指南：泌尿生殖结核",
+              "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q171",
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "171",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        34
+      ],
+      "title": "精选执医（上） · 第171题 · 双侧受累背景下的肾结核处理",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "双侧受累背景下的肾结核处理"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "抗结核治疗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "病灶清除术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾部分切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾切除术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "肾造瘘术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 171,
+          "sourceQuestion": 171,
+          "sourcePage": 34,
+          "text": "第171题：一侧肾结核无功能，对侧肾重度积水伴尿毒症，应选择",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-18",
+          "knowledgePoint": "双侧受累背景下的肾结核处理",
+          "explanation": "一侧无功能，对侧重度积水并尿毒症，应优先解除有功能侧梗阻，肾造瘘可引流并挽救肾功能，选E。贸然先切除病肾不能解决对侧梗阻。",
+          "knowledgeConnections": [
+            "处理顺序先保障可保留肾的引流及全身状态，再考虑其他手术。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "explanationReferences": [
+            {
+              "title": "EAU泌尿感染指南：泌尿生殖结核",
+              "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q172",
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "172",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        34
+      ],
+      "title": "精选执医（上） · 第172题 · 早期局限肾结核的答案疑点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "早期局限肾结核的答案疑点"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "抗结核治疗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "病灶清除术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾部分切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾切除术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "肾造瘘术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 172,
+          "sourceQuestion": 172,
+          "sourcePage": 34,
+          "text": "第172题：一侧肾结核，上肾盏有虫蚀样改变，应选择",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "待原题页核对",
+          "lectureId": "lecture-18",
+          "knowledgePoint": "早期局限肾结核的答案疑点",
+          "explanation": "截图给C（肾部分切除），但题干仅“上肾盏有虫蚀样改变”，通常首先考虑规范抗结核A；局限性破坏且药物治疗不佳等才评估保肾手术。缺少这些限定，C依据不足。本题额外列为待复核，原始答案仍保留。",
+          "knowledgeConnections": [
+            "早期肾结核不能仅凭局部影像异常就直接背成肾切除或部分切除。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "reviewReason": "整理时发现答案与题干适应证不符，额外待复核",
+          "explanationReferences": [
+            {
+              "title": "EAU泌尿感染指南：泌尿生殖结核",
+              "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q173",
+      "page": 35,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "173",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        35
+      ],
+      "title": "精选执医（上） · 第173题 · 桡骨远端骨折的保守治疗",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "桡骨远端骨折的保守治疗"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "中药活血化瘀"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "皮牵引"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "骨牵引"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "手法复位外固定"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "切开复位内固定"
+        }
+      ],
+      "stems": [
+        {
+          "number": 173,
+          "sourceQuestion": 173,
+          "sourcePage": 35,
+          "text": "第173题：男，62 岁，外伤致右腕部疼痛、肿胀 1 小时。X 线示桡骨下端骨皮质不连续，嵌插，最恰当的治疗措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-28",
+          "knowledgePoint": "桡骨远端骨折的保守治疗",
+          "explanation": "桡骨远端嵌插骨折，未提示无法复位、明显关节面破坏等情况，所列选手法复位后外固定D。是否需切开固定取决于移位、稳定性和患者情况。",
+          "knowledgeConnections": [
+            "骨折处理先评估稳定性、关节面和神经血管，再决定保守或手术。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q174",
+      "page": 35,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "174",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        35
+      ],
+      "title": "精选执医（上） · 第174题 · 骨折血供与愈合",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "骨折血供与愈合"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "术中可能发生意外"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "术后可能发生感染导致骨髓炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "可能影响骨折血运导致延迟愈合或不愈合"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "可能损伤大血管引起肢体坏死"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "可能损伤神经引起肢体瘫痪"
+        }
+      ],
+      "stems": [
+        {
+          "number": 174,
+          "sourceQuestion": 174,
+          "sourcePage": 35,
+          "text": "第174题：治疗骨折时不可轻易进行切开复位内固定，最主要的原因是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-29",
+          "knowledgePoint": "骨折血供与愈合",
+          "explanation": "切开复位可剥离软组织和骨膜、破坏骨折端血运，导致延迟愈合或不愈合，是不可轻率手术的重要原因，选C。并非所有骨折都应为了绝对对位而增加生物学损伤。",
+          "knowledgeConnections": [
+            "骨折愈合既需力学稳定，也需保存血供和软组织环境。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q175",
+      "page": 35,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "175",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        35
+      ],
+      "title": "精选执医（上） · 第175题 · 幼儿股骨干骨折的塑形能力",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "幼儿股骨干骨折的塑形能力"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "与成人骨折的治疗原则一致"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "可以接受轻度的旋转移位"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "可以接受骨折断端有 2cm 以内的缩短"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "常采用骨牵引治疗"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "常采用切开复位内固定治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 175,
+          "sourceQuestion": 175,
+          "sourcePage": 35,
+          "text": "第175题：下列关于 3 岁以下儿童股骨干骨折的治疗，正确的描述是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-29",
+          "knowledgePoint": "幼儿股骨干骨折的塑形能力",
+          "explanation": "幼儿生长旺盛，股骨干骨折可接受一定缩短并有后续过度生长，按本题常用口径2cm以内缩短可接受，选C。旋转畸形纠正能力较差，不能同样放宽。",
+          "knowledgeConnections": [
+            "儿童成角或短缩可有代偿，旋转移位一般不能靠生长可靠纠正。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q176",
+      "page": 35,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "176",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        35
+      ],
+      "title": "精选执医（上） · 第176题 · 幼儿股骨干骨折的牵引",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "幼儿股骨干骨折的牵引"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "闭合复位内固定"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "切开复位内固定"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "小夹板外固定"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "石膏外固定"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "垂直悬吊牵引"
+        }
+      ],
+      "stems": [
+        {
+          "number": 176,
+          "sourceQuestion": 176,
+          "sourcePage": 35,
+          "text": "第176题：男，2 岁，车祸伤致左大腿疼痛，活动受限 2 小时。查体：左大腿中段肿胀，异常活动。X 线：左股骨中段骨皮质不连续，重叠 1.8cm，无明显旋转。该患者最适宜的治疗方法是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-28",
+          "knowledgePoint": "幼儿股骨干骨折的牵引",
+          "explanation": "2岁儿童股骨干骨折，重叠1.8cm、无明显旋转，所列最佳为垂直悬吊牵引E，属传统教材对幼儿的处理。实际可按体重、骨折型和条件选牵引或合适石膏固定。",
+          "knowledgeConnections": [
+            "幼儿与成人股骨干骨折治疗方式不同，不能直接套成人内固定方案。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q177",
+      "page": 35,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "177",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        35
+      ],
+      "title": "精选执医（上） · 第177题 · 开放性胫骨骨折的感染风险",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "开放性胫骨骨折的感染风险"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "坠积性肺炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "骨筋膜室综合征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "感染"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性骨萎缩"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "脂肪栓塞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 177,
+          "sourceQuestion": 177,
+          "sourcePage": 35,
+          "text": "第177题：男，31 岁。右小腿被撞伤，伤口出血，骨外露 24 小时。X 线示右胫骨下段粉碎性骨折。该患者最容易出现的并发症是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-29",
+          "knowledgePoint": "开放性胫骨骨折的感染风险",
+          "explanation": "胫骨下段开放粉碎骨折且已暴露24小时，污染、软组织覆盖差和延迟处理使感染风险突出，选C。骨筋膜室综合征也需监测，但题干主要强调开放和延误。",
+          "knowledgeConnections": [
+            "开放骨折早期要抗菌、破伤风评估、清创及稳定骨折，并保护软组织。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q178",
+      "page": 36,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "178",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        36
+      ],
+      "title": "精选执医（上） · 第178题 · 高位颈髓损伤的呼吸处理",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "高位颈髓损伤的呼吸处理"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "颈部制动"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "颔枕带牵引"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "手术复位，内固定"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "气管切开"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "Halo 架固定"
+        }
+      ],
+      "stems": [
+        {
+          "number": 178,
+          "sourceQuestion": 178,
+          "sourcePage": 36,
+          "text": "第178题：男，56 岁。4 小时前从高空坠落。查体：颈部压痛，呼吸困难，双肺闻及啰音，四肢瘫痪。X 线示 C3-C4 骨折，脱位。首先采取的治疗措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-26",
+          "knowledgePoint": "高位颈髓损伤的呼吸处理",
+          "explanation": "C3～C4骨折脱位、四肢瘫痪并呼吸困难，提示高位颈髓伤影响呼吸。按本卷选D气管切开，核心是优先建立可靠气道和通气；实际急救按条件采用合适人工气道并同时保护颈椎。",
+          "knowledgeConnections": [
+            "膈神经来自C3～C5，高位颈髓损伤可迅速危及呼吸。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q179",
+      "page": 36,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "179",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        36
+      ],
+      "title": "精选执医（上） · 第179题 · 耻骨骨折的相关损伤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "耻骨骨折的相关损伤"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血尿"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "会阴部瘀斑"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "坐骨神经损伤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "骨盆挤压试验阳性"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "骨盆分离试验阳性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 179,
+          "sourceQuestion": 179,
+          "sourcePage": 36,
+          "text": "第179题：耻骨骨折不易出现",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-26",
+          "knowledgePoint": "耻骨骨折的相关损伤",
+          "explanation": "前方耻骨骨折常伴泌尿生殖道损伤和会阴瘀斑，也可有骨盆挤压或分离试验阳性。坐骨神经更邻近后方结构，单纯耻骨骨折不易损伤，选C。",
+          "knowledgeConnections": [
+            "骨盆前环关注尿道膀胱，后环还需警惕骶丛及神经损伤。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q180",
+      "page": 36,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "180",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        36
+      ],
+      "title": "精选执医（上） · 第180题 · 创伤休克的优先处理",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "创伤休克的优先处理"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "临时固定骨盆"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "立即留置导尿"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "立即完善相关检查，明确诊断"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "立即清创，防止创面感染"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "立即开通静脉补液通路"
+        }
+      ],
+      "stems": [
+        {
+          "number": 180,
+          "sourceQuestion": 180,
+          "sourcePage": 36,
+          "text": "第180题：男，48 岁，高处坠落伤 7 小时，伤后未排尿。查体：BP 80/55mmHg，心率 122 次/分，血氧饱和度 90%，髋关节活动受限，大腿见多处皮肤擦伤并有沙粒污染，下肢感觉、运动正常。入院后首先进行的处理是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-26",
+          "knowledgePoint": "创伤休克的优先处理",
+          "explanation": "低血压、心动过速提示创伤性休克，需立即建立静脉通路并复苏、止血，所列选E。固定、检查和清创虽重要，但不能延误循环支持。",
+          "knowledgeConnections": [
+            "创伤抢救按气道、呼吸、循环优先级同步推进，疑骨盆出血还需及时稳定骨盆。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q181",
+      "page": 36,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "181",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        36
+      ],
+      "title": "精选执医（上） · 第181题 · 锁骨中段骨折的传统保守方案",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "锁骨中段骨折的传统保守方案"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "手法复位+Halo 架"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "手法复位+三角巾悬吊"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "手法复位+8 字绷带"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "切开复位+外固定"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "切开复位+内固定"
+        }
+      ],
+      "stems": [
+        {
+          "number": 181,
+          "sourceQuestion": 181,
+          "sourcePage": 36,
+          "text": "第181题：有移位的锁骨中段骨折首选的治疗是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-28",
+          "knowledgePoint": "锁骨中段骨折的传统保守方案",
+          "explanation": "本卷选C，即手法复位加8字绷带，属于常见传统考试口径。现代常结合短缩、移位、皮肤威胁、患者需求等选悬吊或手术，8字绷带并非所有移位锁骨骨折的统一首选。",
+          "knowledgeConnections": [
+            "开放骨折、皮肤受压或神经血管受累等情况需另外评估手术。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q182",
+      "page": 36,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "182",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        36
+      ],
+      "title": "精选执医（上） · 第182题 · 髋关节前脱位的体位",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "髋关节前脱位的体位"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "股骨颈骨折"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "股骨转子间骨折"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "髋关节前脱位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "髋关节后脱位"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "髋关节中心脱位"
+        }
+      ],
+      "stems": [
+        {
+          "number": 182,
+          "sourceQuestion": 182,
+          "sourcePage": 36,
+          "text": "第182题：男，21 岁，车祸致左髋关节受伤。查体：左髋部疼痛，外展、外旋、屈曲畸形，弹性固定。诊断为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-28",
+          "knowledgePoint": "髋关节前脱位的体位",
+          "explanation": "髋部疼痛、弹性固定并外展外旋屈曲，提示前脱位，选C。后脱位典型为屈曲、内收、内旋，两者体位相反。",
+          "knowledgeConnections": [
+            "髋脱位先辨方向，并检查坐骨神经及合并骨折。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q183",
+      "page": 37,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "183",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        37
+      ],
+      "title": "精选执医（上） · 第183题 · Allis法复位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "Allis法复位"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "膝关节脱位"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "髋关节脱位"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肘关节脱位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肩关节脱位"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "腕关节脱位"
+        }
+      ],
+      "stems": [
+        {
+          "number": 183,
+          "sourceQuestion": 183,
+          "sourcePage": 37,
+          "text": "第183题：Allis 法治疗",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-28",
+          "knowledgePoint": "Allis法复位",
+          "explanation": "Allis法为髋关节后脱位的经典闭合复位方法，本题共用选项选B。复位需适当镇痛或麻醉并评估骨折和神经血管。",
+          "knowledgeConnections": [
+            "Allis—髋关节；Hippocrates—肩关节，勿混淆。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q184",
+      "page": 37,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "184",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        37
+      ],
+      "title": "精选执医（上） · 第184题 · Hippocrates法复位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "Hippocrates法复位"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "膝关节脱位"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "髋关节脱位"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肘关节脱位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肩关节脱位"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "腕关节脱位"
+        }
+      ],
+      "stems": [
+        {
+          "number": 184,
+          "sourceQuestion": 184,
+          "sourcePage": 37,
+          "text": "第184题：Hippocrates 法治疗",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-28",
+          "knowledgePoint": "Hippocrates法复位",
+          "explanation": "Hippocrates法又称足蹬法，是肩关节脱位的传统复位方式，所列选D。操作可能损伤神经血管，临床采用何种技术取决于具体条件和操作者经验。",
+          "knowledgeConnections": [
+            "肩前脱位可有方肩畸形和Dugas征阳性。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q185",
+      "page": 37,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "185",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        37
+      ],
+      "title": "精选执医（上） · 第185题 · 离断指体的保存",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "离断指体的保存"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "干燥冷藏容器"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "生理盐水"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "酒精"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "福尔马林溶液"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "冰箱冷冻室"
+        }
+      ],
+      "stems": [
+        {
+          "number": 185,
+          "sourceQuestion": 185,
+          "sourcePage": 37,
+          "text": "第185题：男，26 岁，在工厂流水线工作时电锯切割致左手示指离断。对断指的正确保存方法是用无菌纱布包好放置在",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-22",
+          "knowledgePoint": "离断指体的保存",
+          "explanation": "断指用无菌纱布包裹后置于密封干燥容器，再间接冷藏，所列选A。不能直接泡生理盐水、酒精或福尔马林，也不能直接接触冰块或冷冻。",
+          "knowledgeConnections": [
+            "断肢保存关键词：清洁、干燥、密封、间接低温，尽快转运。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q186",
+      "page": 37,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "186",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        37
+      ],
+      "title": "精选执医（上） · 第186题 · 腰椎间盘突出与S1神经根",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "腰椎间盘突出与S1神经根"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "L1-2"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "L2-3"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "L3-4"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "L4-5"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "L5-S1"
+        }
+      ],
+      "stems": [
+        {
+          "number": 186,
+          "sourceQuestion": 186,
+          "sourcePage": 37,
+          "text": "第186题：男，36 岁。间断发作腰痛伴右下肢麻木 3 年，2 小时前搬重物时症状加重，伴右下肢放射痛。查体：下腰部压痛，右下肢直腿抬高试验(+)，右足背外侧感觉减弱，右足趾跖屈肌力减弱，Babinski 征(-)。该患者最可能累及的节段是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-27",
+          "knowledgePoint": "腰椎间盘突出与S1神经根",
+          "explanation": "足外侧感觉异常及足趾跖屈无力偏向S1神经根受压，常对应L5～S1椎间盘突出，选E。L4～L5突出多累及L5根，常影响足背伸或拇趾背伸。",
+          "knowledgeConnections": [
+            "椎间盘节段与受压神经根要区分：L4～L5常压L5，L5～S1常压S1。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q187",
+      "page": 37,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "187",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        37
+      ],
+      "title": "精选执医（上） · 第187题 · 腰椎间盘突出合并马尾综合征",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "腰椎间盘突出合并马尾综合征"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "绝对卧床休息"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "持续牵引"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "糖皮质激素硬膜外注射"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "髓核摘除术"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "理疗按摩"
+        }
+      ],
+      "stems": [
+        {
+          "number": 187,
+          "sourceQuestion": 187,
+          "sourcePage": 37,
+          "text": "第187题：男，36 岁。间断发作腰痛伴右下肢麻木 3 年，2 小时前搬重物时症状加重，伴右下肢放射痛。查体：下腰部压痛，右下肢直腿抬高试验(+)，右足背外侧感觉减弱，右足趾跖屈肌力减弱，Babinski 征(-)。 患者近 1 个月症状逐渐加重，2 小时前出现大小便障碍。该患者首选的治疗方法是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-27",
+          "knowledgePoint": "腰椎间盘突出合并马尾综合征",
+          "explanation": "出现大小便障碍提示马尾受压，是紧急减压的重要指征，所列选髓核摘除D。不能继续单纯牵引、按摩等而延误神经减压。",
+          "knowledgeConnections": [
+            "腰痛腿痛若新增鞍区感觉障碍、尿潴留或括约肌异常，应立即评估马尾综合征。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q188",
+      "page": 37,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "188",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        37
+      ],
+      "title": "精选执医（上） · 第188题 · 梨状肌综合征的疼痛定位",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "梨状肌综合征的疼痛定位"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "常无腰痛，以臀部和下肢痛为主"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "常无下肢痛，以臀部和腰痛为主"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "常无坐骨神经受压，直腿抬高试验阴性"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "常有坐骨神经受压，直腿抬高试验阳性"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "常有坐骨神经受压，神经定位体征明确"
+        }
+      ],
+      "stems": [
+        {
+          "number": 188,
+          "sourceQuestion": 188,
+          "sourcePage": 37,
+          "text": "第188题：梨状肌综合征与腰椎间盘突出症的不同点是前者",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-21",
+          "knowledgePoint": "梨状肌综合征的疼痛定位",
+          "explanation": "梨状肌综合征主要在臀部压迫坐骨神经，常以臀部和下肢痛为主而腰痛不明显，选A。它仍可出现坐骨神经刺激和直腿抬高异常，不能据此简单排除。",
+          "knowledgeConnections": [
+            "鉴别应结合臀部压痛、诱发动作、腰部体征及必要影像。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q189",
+      "page": 38,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "189",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        38
+      ],
+      "title": "精选执医（上） · 第189题 · 肱骨外上髁炎的休息部位",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "肱骨外上髁炎的休息部位"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "局部注射透明质酸钠"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "局部注射抗生素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "限制肘关节活动"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "限制腕关节活动"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "早期手术治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 189,
+          "sourceQuestion": 189,
+          "sourcePage": 38,
+          "text": "第189题：男，37 岁，肘关节外侧疼痛，Mills 征(+)，正确的治疗是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-21",
+          "knowledgePoint": "肱骨外上髁炎的休息部位",
+          "explanation": "外上髁疼痛、Mills征阳性提示伸肌腱起点病变。限制腕部反复伸展与用力可减少牵拉，因此选限制腕关节活动D；病灶在肘不代表只需限制肘。",
+          "knowledgeConnections": [
+            "网球肘多与腕伸肌群起点过度负荷有关。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q190",
+      "page": 38,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "190",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        38
+      ],
+      "title": "精选执医（上） · 第190题 · 强直性脊柱炎的关节分布",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "强直性脊柱炎的关节分布"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腰椎间盘突出症"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "类风湿关节炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "强直性脊柱炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "痛风关节炎"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "腰肌劳损"
+        }
+      ],
+      "stems": [
+        {
+          "number": 190,
+          "sourceQuestion": 190,
+          "sourcePage": 38,
+          "text": "第190题：以慢性腰痛和下肢大关节关节炎为特征临床表现的疾病是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-24",
+          "knowledgePoint": "强直性脊柱炎的关节分布",
+          "explanation": "慢性炎性腰痛合并下肢大关节炎，提示强直性脊柱炎，选C。类风湿更常累及对称性小关节，痛风多为急性发作性单关节炎。",
+          "knowledgeConnections": [
+            "脊柱关节炎重点看炎性腰痛、骶髂炎、附着点炎及下肢关节受累。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q191",
+      "page": 38,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "191",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        38
+      ],
+      "title": "精选执医（上） · 第191题 · 炎性腰背痛与强直性脊柱炎",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "炎性腰背痛与强直性脊柱炎"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "双侧股骨头坏死"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "类风湿关节炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "骨关节炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "髋关节结核"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "强直性脊柱炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 191,
+          "sourceQuestion": 191,
+          "sourcePage": 38,
+          "text": "第191题：男，25 岁，腰背部疼痛 8 年，晨起明显，活动后减轻。近 1 个月腰痛加重，活动受限。查体：腰椎前屈、后伸受限，Schober 试验(+)，双侧 4 字试验(+)。该患者最可能的诊断是",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerDisplay": "E",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-24",
+          "knowledgePoint": "炎性腰背痛与强直性脊柱炎",
+          "explanation": "青年男性多年晨起腰背痛、活动后减轻、脊柱活动受限及Schober阳性，符合强直性脊柱炎，选E。机械性腰痛一般活动加重、休息减轻。",
+          "knowledgeConnections": [
+            "炎性腰痛常年轻起病、晨僵、休息不改善而运动改善。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q192",
+      "page": 38,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "192",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        38
+      ],
+      "title": "精选执医（上） · 第192题 · 骶髂关节影像检查",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "骶髂关节影像检查"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "全身核素骨显像"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "双髋关节 MRI"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "骶髂关节 CT"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "HLA-B27"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "类风湿因子"
+        }
+      ],
+      "stems": [
+        {
+          "number": 192,
+          "sourceQuestion": 192,
+          "sourcePage": 38,
+          "text": "第192题：男，25 岁，腰背部疼痛 8 年，晨起明显，活动后减轻。近 1 个月腰痛加重，活动受限。查体：腰椎前屈、后伸受限，Schober 试验(+)，双侧 4 字试验(+)。 对确诊最有价值的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerDisplay": "C",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-24",
+          "knowledgePoint": "骶髂关节影像检查",
+          "explanation": "本题需寻找骶髂关节炎证据，选项中骶髂关节CT最有价值，选C。HLA-B27可支持但非独立确诊依据；临床早期活动性炎症常需MRI，题中未列骶髂MRI。",
+          "knowledgeConnections": [
+            "影像部位比“CT或MRI”字样更重要，双髋MRI并不等于专门骶髂关节检查。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q193",
+      "page": 38,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "193",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        38
+      ],
+      "title": "精选执医（上） · 第193题 · 膝骨关节炎",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "膝骨关节炎"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "类风湿关节炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "骨关节炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "骨质疏松症"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "强直性脊柱炎"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "痛风"
+        }
+      ],
+      "stems": [
+        {
+          "number": 193,
+          "sourceQuestion": 193,
+          "sourcePage": 38,
+          "text": "第193题：女，72 岁，双膝关节疼痛，活动弹响 10 余年，查体：双膝关节无肿胀，有骨擦音。X 线：双膝关节间隙窄，间嵴增生，骨赘形成。最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-24",
+          "knowledgePoint": "膝骨关节炎",
+          "explanation": "老年慢性膝痛、骨擦音，X线关节间隙变窄和骨赘，是骨关节炎的典型组合，选B。骨质疏松本身不能解释这一完整关节退变表现。",
+          "knowledgeConnections": [
+            "骨关节炎：软骨退变、骨赘、软骨下骨硬化及囊变。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q194",
+      "page": 38,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "194",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        38,
+        39
+      ],
+      "title": "精选执医（上） · 第194题 · 恶性肿瘤骨转移的全身筛查",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "恶性肿瘤骨转移的全身筛查"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "右髋关节 B 超"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "右髋关节 CT"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "右髋关节 MRI"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "全身骨骼核素扫描"
+        },
+        {
+          "key": "E",
+          "displayKey": "E",
+          "label": "胸部 CT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 194,
+          "sourceQuestion": 194,
+          "sourcePage": 38,
+          "text": "第194题：男，63 岁。右股骨上端疼痛 20 天。1 年前曾行肺癌根治术。查体：右股骨上端肿胀、压痛，右髋关节活动受限。X 线示右股骨颈及转子下溶骨性破坏。为明确诊断，最有意义的影像学检查是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerDisplay": "D",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-25",
+          "knowledgePoint": "恶性肿瘤骨转移的全身筛查",
+          "explanation": "肺癌术后出现局部骨痛和溶骨性破坏应怀疑骨转移，所列全身骨骼核素扫描用于寻找多发骨病灶，选D。某些纯溶骨病灶核素显像可漏诊，仍需结合局部MRI、CT或其他检查。",
+          "knowledgeConnections": [
+            "局部影像看范围和结构风险，全身检查评估有无其他骨转移，最终按需取病理。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析"
+        }
+      ]
+    },
+    {
+      "id": "practitioner-upper-20261019-q195",
+      "page": 39,
+      "sourceKey": "practitioner-upper-20261019",
+      "sourceName": "精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "195–197",
+      "sourceLabel": "精选执医（上）",
+      "sourcePages": [
+        39
+      ],
+      "title": "精选执医（上） · 第195–197题 · 骨巨细胞瘤的影像",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "diseaseTags": [
+        "精选执医",
+        "执业医师真题（上）",
+        "骨巨细胞瘤的影像",
+        "骨肿瘤的病理确诊",
+        "良性局限骨肿瘤的处理"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
+      "answerSourceLabel": "截图参考答案",
+      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "answerRevision": "20261019-v2",
+      "options": [
+        {
+          "key": "q195-A",
+          "displayKey": "A",
+          "label": "动脉瘤性骨囊肿",
+          "category": "第195题选项"
+        },
+        {
+          "key": "q195-B",
+          "displayKey": "B",
+          "label": "骨巨细胞瘤",
+          "category": "第195题选项"
+        },
+        {
+          "key": "q195-C",
+          "displayKey": "C",
+          "label": "骨肉瘤",
+          "category": "第195题选项"
+        },
+        {
+          "key": "q195-D",
+          "displayKey": "D",
+          "label": "骨样骨瘤",
+          "category": "第195题选项"
+        },
+        {
+          "key": "q195-E",
+          "displayKey": "E",
+          "label": "骨纤维异常增殖症",
+          "category": "第195题选项"
+        },
+        {
+          "key": "q196-A",
+          "displayKey": "A",
+          "label": "穿刺活检",
+          "category": "第196题选项"
+        },
+        {
+          "key": "q196-B",
+          "displayKey": "B",
+          "label": "MRI",
+          "category": "第196题选项"
+        },
+        {
+          "key": "q196-C",
+          "displayKey": "C",
+          "label": "ECT",
+          "category": "第196题选项"
+        },
+        {
+          "key": "q196-D",
+          "displayKey": "D",
+          "label": "血清碱性磷酸酶",
+          "category": "第196题选项"
+        },
+        {
+          "key": "q196-E",
+          "displayKey": "E",
+          "label": "染色体检查",
+          "category": "第196题选项"
+        },
+        {
+          "key": "q197-A",
+          "displayKey": "A",
+          "label": "刮除后灭活，自体骨充填术",
+          "category": "第197题选项"
+        },
+        {
+          "key": "q197-B",
+          "displayKey": "B",
+          "label": "刮除后假体植入术",
+          "category": "第197题选项"
+        },
+        {
+          "key": "q197-C",
+          "displayKey": "C",
+          "label": "广泛根治术",
+          "category": "第197题选项"
+        },
+        {
+          "key": "q197-D",
+          "displayKey": "D",
+          "label": "下肢截肢术",
+          "category": "第197题选项"
+        },
+        {
+          "key": "q197-E",
+          "displayKey": "E",
+          "label": "放疗，化疗",
+          "category": "第197题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 195,
+          "sourceQuestion": 195,
+          "sourcePage": 39,
+          "text": "第195题：该患者最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "q195-B"
+          ],
+          "answerDisplay": "B",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-25",
+          "knowledgePoint": "骨巨细胞瘤的影像",
+          "explanation": "骨骺或骨端病变、骨皮质变薄、乒乓球感及肥皂泡样透亮区，典型提示骨巨细胞瘤，选B。骨肉瘤更常见干骺端侵袭性骨破坏和骨膜反应。",
+          "knowledgeConnections": [
+            "骨巨细胞瘤多发生于骨骺闭合后的长骨骨端，膝周常见。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第195题选项"
+        },
+        {
+          "number": 196,
+          "sourceQuestion": 196,
+          "sourcePage": 39,
+          "text": "第196题：为指导治疗，该患者的最佳检查是",
+          "answerRaw": "A",
+          "answer": [
+            "q196-A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-25",
+          "knowledgePoint": "骨肿瘤的病理确诊",
+          "explanation": "疑似骨巨细胞瘤，为指导治疗需病理定性、分级，所列选穿刺活检A。活检通道须由后续治疗团队规划，避免污染未来切除范围。",
+          "knowledgeConnections": [
+            "影像提供诊断方向和范围，病理决定性质，活检不能随意选路径。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第196题选项"
+        },
+        {
+          "number": 197,
+          "sourceQuestion": 197,
+          "sourcePage": 39,
+          "text": "第197题：经检查后诊断为 G0T0M0，目前最佳的治疗是",
+          "answerRaw": "A",
+          "answer": [
+            "q197-A"
+          ],
+          "answerDisplay": "A",
+          "answerMode": "单选",
+          "answerState": "按截图及明确更正录入",
+          "lectureId": "lecture-25",
+          "knowledgePoint": "良性局限骨肿瘤的处理",
+          "explanation": "按题中G0T0M0所表达的良性局限、无转移状态，本卷选择刮除、局部灭活后自体骨充填A。实际骨巨细胞瘤术式还需看局部侵袭、关节面、病理及复发风险。",
+          "knowledgeConnections": [
+            "骨肿瘤手术范围与生物学行为和局部范围对应，不因“骨肿瘤”三字就截肢。"
+          ],
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "optionCategory": "第197题选项"
+        }
+      ],
+      "sharedStem": "女，37 岁，左股骨下端肿痛和活动受限 1 年。查体：左股骨下端局部肿胀与压痛显著，触诊有乒乓球样感觉。X 线检查：骨端无骨膜反应，左股骨下端骨皮质变薄，呈肥皂泡样改变。",
+      "sharedQuestionCount": 3
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-01.webp"
+    },
+    {
+      "page": 2,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-02.webp"
+    },
+    {
+      "page": 3,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-03.webp"
+    },
+    {
+      "page": 4,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-04.webp"
+    },
+    {
+      "page": 5,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-05.webp"
+    },
+    {
+      "page": 6,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-06.webp"
+    },
+    {
+      "page": 7,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-07.webp"
+    },
+    {
+      "page": 8,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-08.webp"
+    },
+    {
+      "page": 9,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-09.webp"
+    },
+    {
+      "page": 10,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-10.webp"
+    },
+    {
+      "page": 11,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-11.webp"
+    },
+    {
+      "page": 12,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-12.webp"
+    },
+    {
+      "page": 13,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-13.webp"
+    },
+    {
+      "page": 14,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-14.webp"
+    },
+    {
+      "page": 15,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-15.webp"
+    },
+    {
+      "page": 16,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-16.webp"
+    },
+    {
+      "page": 17,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-17.webp"
+    },
+    {
+      "page": 18,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-18.webp"
+    },
+    {
+      "page": 19,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-19.webp"
+    },
+    {
+      "page": 20,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-20.webp"
+    },
+    {
+      "page": 21,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-21.webp"
+    },
+    {
+      "page": 22,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-22.webp"
+    },
+    {
+      "page": 23,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-23.webp"
+    },
+    {
+      "page": 24,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-24.webp"
+    },
+    {
+      "page": 25,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-25.webp"
+    },
+    {
+      "page": 26,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-26.webp"
+    },
+    {
+      "page": 27,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-27.webp"
+    },
+    {
+      "page": 28,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-28.webp"
+    },
+    {
+      "page": 29,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-29.webp"
+    },
+    {
+      "page": 30,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-30.webp"
+    },
+    {
+      "page": 31,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-31.webp"
+    },
+    {
+      "page": 32,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-32.webp"
+    },
+    {
+      "page": 33,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-33.webp"
+    },
+    {
+      "page": 34,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-34.webp"
+    },
+    {
+      "page": 35,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-35.webp"
+    },
+    {
+      "page": 36,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-36.webp"
+    },
+    {
+      "page": 37,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-37.webp"
+    },
+    {
+      "page": 38,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-38.webp"
+    },
+    {
+      "page": 39,
+      "sourceKey": "practitioner-upper-20261019",
+      "image": "shared/practitioner-upper-20261019/page-39.webp"
+    }
+  ]
+}

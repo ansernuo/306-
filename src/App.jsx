@@ -80,14 +80,15 @@ const CONTENT_LOADERS = {
     groups: data.groups.map((group) => ({ ...group, lectureEvidence: { ...group.lectureEvidence, image: data.referenceImages[group.lectureEvidence.image] } })),
   })),
   med: async () => {
-    const [content, homework, exam] = await Promise.all([
+    const [content, homework, exam, practitioner] = await Promise.all([
       loadJson(() => import('./data/med-data.json')),
       loadJson(() => import('./data/med-teacher-supplement.json')),
       loadJson(() => import('./data/med-stage-exam-data.json')),
+      loadJson(() => import('./data/med-practitioner-upper-data.json')),
     ])
     return appendSupplement(content, {
-      groups: [...homework.groups, ...exam.groups],
-      pages: [...homework.pages, ...exam.pages],
+      groups: [...homework.groups, ...exam.groups, ...practitioner.groups],
+      pages: [...homework.pages, ...exam.pages, ...practitioner.pages],
     })
   },
   pathology: async () => {
@@ -117,7 +118,7 @@ const CONTENT_LOADERS = {
     })
   },
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
@@ -134,6 +135,7 @@ const CONTENT_LOADERS = {
       import('./data/surgery-general-late-data.js'),
       loadJson(() => import('./data/surgery-teacher-supplement.json')),
       loadJson(() => import('./data/surgery-stage-exam-data.json')),
+      loadJson(() => import('./data/surgery-practitioner-upper-data.json')),
     ])
     return appendSupplement({
       ...surgeryContent,
@@ -142,8 +144,8 @@ const CONTENT_LOADERS = {
       topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
       groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryChronicInjuryContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
     }, {
-      groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups],
-      pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages],
+      groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups],
+      pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages],
     })
   },
   biochemistry: async () => {
@@ -1356,10 +1358,12 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
 
 function QuestionStudyNotes({ stem }) {
   const connections = stem.knowledgeConnections || []
+  const references = stem.explanationReferences || []
   if (!stem.explanation && !connections.length) return null
   return <section className="question-study-notes" aria-label="解析与知识点串联">
     {stem.explanation ? <div className="question-explanation"><h3>解析</h3><p>{stem.explanation}</p></div> : null}
     {connections.length ? <div className="question-connections"><h3>知识点串联</h3><ul>{connections.map((connection, index) => <li key={index}>{connection}</li>)}</ul></div> : null}
+    {references.length ? <div className="question-connections"><h3>核对依据</h3><ul>{references.map((reference) => <li key={reference.url}><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.title}</a></li>)}</ul></div> : null}
   </section>
 }
 
