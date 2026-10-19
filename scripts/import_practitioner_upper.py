@@ -27,7 +27,7 @@ ANSWER_ROWS = [
     'ECDCE', 'CCBDA', 'EDADC', 'ECBDB', 'AA',
 ]
 ANSWERS = ''.join(ANSWER_ROWS)
-PENDING = {24, 72, 74, 89, 90, 106, 162, 172}
+PENDING = {72, 74, 89, 90, 106, 162, 172}
 # First subquestion -> (last, beginning of the first actual question).
 SHARED = {
     5: (6, '该患者此时'), 11: (12, '该患者呼吸困难'),
@@ -215,6 +215,10 @@ def build():
                 'supplementNotice':'答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。',
                 'answerSourceLabel':'截图参考答案', 'answerSourceName':'2026-10-19用户提供的答案及更正截图',
                 'answerRevision':'20261019-v2', 'options':[], 'stems':[]}
+            if n == 24:
+                g.update(answerRevision='20261019-q24-A-v3',
+                    answerSourceLabel='用户确认答案',
+                    supplementNotice='第24题按用户确认更正为A；解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -232,7 +236,7 @@ def build():
                             o['category'] = category
                         g['options'].append(o)
                 raw = ANSWERS[num-1]
-                adopted = 'B' if num==139 else raw
+                adopted = {24:'A',139:'B'}.get(num,raw)
                 s = {'number':num,'sourceQuestion':num,'sourcePage':q['pages'][0],
                     'text':f'第{num}题：{q["text"]}', 'answerRaw':raw,
                     'answer':[key_for(adopted)], 'answerDisplay':adopted,
@@ -247,6 +251,8 @@ def build():
                     s['reviewReason'] = '截图评论列为争议题' if num!=172 else '整理时发现答案与题干适应证不符，额外待复核'
                 if num==139:
                     s['answerCorrection'] = {'from':'A','to':'B','source':'用户截图中的作者评论：139选B，气钡灌肠'}
+                if num==24:
+                    s['answerCorrection'] = {'from':'C','to':'A','source':'用户于2026-10-19明确确认：这道题选A'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)

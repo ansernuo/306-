@@ -51,7 +51,6 @@
       "AA"
     ],
     "pendingQuestions": [
-      24,
       72,
       74,
       89,
@@ -1905,10 +1904,10 @@
         "ARDS与心源性肺水肿的鉴别"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
+      "supplementNotice": "第24题按用户确认更正为A；解析为复习整理。",
+      "answerSourceLabel": "用户确认答案",
       "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "answerRevision": "20261019-q24-A-v3",
       "options": [
         {
           "key": "A",
@@ -1944,19 +1943,23 @@
           "text": "第24题：首选用于 ARDS 与心源性肺水肿鉴别的检查是",
           "answerRaw": "C",
           "answer": [
-            "C"
+            "A"
           ],
-          "answerDisplay": "C",
+          "answerDisplay": "A",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-10",
           "knowledgePoint": "ARDS与心源性肺水肿的鉴别",
-          "explanation": "截图答案C且评论列为争议。Swan-Ganz导管测肺动脉楔压可帮助判断静水压性肺水肿，但“首选检查”更倾向无创心脏超声A；不能把有创测压的鉴别价值等同于常规首选。本题保留C并待复核，不自动判分。",
+          "explanation": "本题选A（心脏超声），已按用户确认更正。心脏超声无创、便捷，可评估心功能及心源性肺水肿的相关病因，是所列首选鉴别检查。Swan-Ganz导管可测肺动脉楔压帮助判断静水压因素，但属于有创检查，不能把其鉴别价值等同于常规首选。",
           "knowledgeConnections": [
             "考题需区分“有助鉴别的血流动力学指标”和“首先采用的检查”。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "reviewReason": "截图评论列为争议题",
+          "answerCorrection": {
+            "from": "C",
+            "to": "A",
+            "source": "用户于2026-10-19明确确认：这道题选A"
+          },
           "explanationReferences": [
             {
               "title": "ARDS全球定义原文：排除心源性肺水肿",

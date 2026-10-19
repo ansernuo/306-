@@ -26,9 +26,14 @@ test('all 197 questions occur once and match every supplied five-answer row', ()
     const options = group(s.number).options.filter(o => !s.optionCategory || o.category === s.optionCategory)
     assert.deepEqual(options.map(o => o.displayKey), [...'ABCDE'], String(s.number))
     assert.ok(options.every(o => o.label.trim().length))
-    assert.equal(options.find(o => o.key === s.answer[0])?.displayKey, s.number === 139 ? 'B' : s.answerRaw)
+    assert.equal(options.find(o => o.key === s.answer[0])?.displayKey, ({24:'A',139:'B'})[s.number] || s.answerRaw)
   }
   assert.deepEqual(stem(139).answerCorrection, { from: 'A', to: 'B', source: '用户截图中的作者评论：139选B，气钡灌肠' })
+  assert.equal(stem(24).answerRaw, 'C')
+  assert.equal(stem(24).answerDisplay, 'A')
+  assert.equal(stem(24).answerState, '按截图及明确更正录入')
+  assert.equal(group(24).answerRevision, '20261019-q24-A-v3')
+  assert.deepEqual(stem(24).answerCorrection, { from:'C', to:'A', source:'用户于2026-10-19明确确认：这道题选A' })
 })
 
 test('shared cases retain context, independent options, updates, and source pages', () => {
@@ -99,7 +104,7 @@ test('knowledge chapters exist, and all original page references are usable', ()
 })
 
 test('all questions have authored explanations; uncertain supplied answers are not silently replaced', () => {
-  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [24,72,74,89,90,106,162,172])
+  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90,106,162,172])
   for (const s of stems) {
     assert.ok(s.explanation.length > 25, String(s.number))
     assert.ok(s.knowledgePoint.length > 3)
