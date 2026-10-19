@@ -54,7 +54,8 @@
       162,
       172
     ],
-    "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。"
+    "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。",
+    "lectureEvidenceStemCount": 82
   },
   "groups": [
     {
@@ -132,9 +133,61 @@
           "knowledgeConnections": [
             "甲型—Ⅷ因子；乙型—Ⅸ因子；成分输血按缺什么补什么。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-30",
+              "sourceSubject": "surgery",
+              "lectureNumber": 30,
+              "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第30讲 · 外科 输血 · 第2页",
+              "image": "surgery/lecture-pages/lecture-30-page-02.webp",
+              "questionNumbers": [
+                116
+              ],
+              "knowledgePoints": [
+                "甲型血友病的成分输血"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-30",
+          "sourceSubject": "surgery",
+          "lectureNumber": 30,
+          "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第30讲 · 外科 输血 · 第2页",
+          "image": "surgery/lecture-pages/lecture-30-page-02.webp",
+          "questionNumbers": [
+            116
+          ],
+          "knowledgePoints": [
+            "甲型血友病的成分输血"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-30",
+        "sourceSubject": "surgery",
+        "lectureNumber": 30,
+        "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第30讲 · 外科 输血 · 第2页",
+        "image": "surgery/lecture-pages/lecture-30-page-02.webp",
+        "questionNumbers": [
+          116
+        ],
+        "knowledgePoints": [
+          "甲型血友病的成分输血"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q117",
@@ -211,9 +264,61 @@
           "knowledgeConnections": [
             "非溶血性发热多在输血中或短期发生；延迟数日的贫血加黄疸应查溶血。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-30",
+              "sourceSubject": "surgery",
+              "lectureNumber": 30,
+              "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第30讲 · 外科 输血 · 第1页",
+              "image": "surgery/lecture-pages/lecture-30-page-01.webp",
+              "questionNumbers": [
+                117
+              ],
+              "knowledgePoints": [
+                "迟发性溶血性输血反应"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-30",
+          "sourceSubject": "surgery",
+          "lectureNumber": 30,
+          "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第30讲 · 外科 输血 · 第1页",
+          "image": "surgery/lecture-pages/lecture-30-page-01.webp",
+          "questionNumbers": [
+            117
+          ],
+          "knowledgePoints": [
+            "迟发性溶血性输血反应"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-30",
+        "sourceSubject": "surgery",
+        "lectureNumber": 30,
+        "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第30讲 · 外科 输血 · 第1页",
+        "image": "surgery/lecture-pages/lecture-30-page-01.webp",
+        "questionNumbers": [
+          117
+        ],
+        "knowledgePoints": [
+          "迟发性溶血性输血反应"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q118",
@@ -290,9 +395,61 @@
           "knowledgeConnections": [
             "急诊立即救治；限期不能长期拖延；择期可充分准备后安排。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-35",
+              "sourceSubject": "surgery",
+              "lectureNumber": 35,
+              "sourceFile": "35 27考研：外科 围术期 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第35讲 · 外科 围术期 · 第1页",
+              "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+              "questionNumbers": [
+                118
+              ],
+              "knowledgePoints": [
+                "手术时限分类"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-35",
+          "sourceSubject": "surgery",
+          "lectureNumber": 35,
+          "sourceFile": "35 27考研：外科 围术期 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第35讲 · 外科 围术期 · 第1页",
+          "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+          "questionNumbers": [
+            118
+          ],
+          "knowledgePoints": [
+            "手术时限分类"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "sourceSubject": "surgery",
+        "lectureNumber": 35,
+        "sourceFile": "35 27考研：外科 围术期 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第35讲 · 外科 围术期 · 第1页",
+        "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+        "questionNumbers": [
+          118
+        ],
+        "knowledgePoints": [
+          "手术时限分类"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q119",
@@ -369,9 +526,61 @@
           "knowledgeConnections": [
             "低血压＋CVP低偏向容量不足；低血压＋CVP高需警惕心衰、心包压塞等。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-37",
+              "sourceSubject": "surgery",
+              "lectureNumber": 37,
+              "sourceFile": "37 27考研：外科 休克（含常考休克小结） 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第37讲 · 外科 休克（含常考休克小结） · 第3页",
+              "image": "surgery/lecture-pages/lecture-37-page-03.webp",
+              "questionNumbers": [
+                119
+              ],
+              "knowledgePoints": [
+                "中心静脉压与低血压的组合"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-37",
+          "sourceSubject": "surgery",
+          "lectureNumber": 37,
+          "sourceFile": "37 27考研：外科 休克（含常考休克小结） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第37讲 · 外科 休克（含常考休克小结） · 第3页",
+          "image": "surgery/lecture-pages/lecture-37-page-03.webp",
+          "questionNumbers": [
+            119
+          ],
+          "knowledgePoints": [
+            "中心静脉压与低血压的组合"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-37",
+        "sourceSubject": "surgery",
+        "lectureNumber": 37,
+        "sourceFile": "37 27考研：外科 休克（含常考休克小结） 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第37讲 · 外科 休克（含常考休克小结） · 第3页",
+        "image": "surgery/lecture-pages/lecture-37-page-03.webp",
+        "questionNumbers": [
+          119
+        ],
+        "knowledgePoints": [
+          "中心静脉压与低血压的组合"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q120",
@@ -448,9 +657,61 @@
           "knowledgeConnections": [
             "肠内营养需有可用肠段；整蛋白、短肽和氨基酸制剂应按消化吸收能力选择。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-32",
+              "sourceSubject": "surgery",
+              "lectureNumber": 32,
+              "sourceFile": "32 27考研：外科 营养代谢 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第32讲 · 外科 营养代谢 · 第1页",
+              "image": "surgery/lecture-pages/lecture-32-page-01.webp",
+              "questionNumbers": [
+                120
+              ],
+              "knowledgePoints": [
+                "肠瘘的肠内营养制剂"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-32",
+          "sourceSubject": "surgery",
+          "lectureNumber": 32,
+          "sourceFile": "32 27考研：外科 营养代谢 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第32讲 · 外科 营养代谢 · 第1页",
+          "image": "surgery/lecture-pages/lecture-32-page-01.webp",
+          "questionNumbers": [
+            120
+          ],
+          "knowledgePoints": [
+            "肠瘘的肠内营养制剂"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "sourceSubject": "surgery",
+        "lectureNumber": 32,
+        "sourceFile": "32 27考研：外科 营养代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第32讲 · 外科 营养代谢 · 第1页",
+        "image": "surgery/lecture-pages/lecture-32-page-01.webp",
+        "questionNumbers": [
+          120
+        ],
+        "knowledgePoints": [
+          "肠瘘的肠内营养制剂"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q121",
@@ -527,9 +788,61 @@
           "knowledgeConnections": [
             "菌血症是血中有菌，脓毒症是感染导致严重全身损害，二者不等同。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-34",
+              "sourceSubject": "surgery",
+              "lectureNumber": 34,
+              "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第34讲 · 外科 感染 · 第4页",
+              "image": "surgery/lecture-pages/lecture-34-page-04.webp",
+              "questionNumbers": [
+                121
+              ],
+              "knowledgePoints": [
+                "脓毒症与血培养"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-34",
+          "sourceSubject": "surgery",
+          "lectureNumber": 34,
+          "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第34讲 · 外科 感染 · 第4页",
+          "image": "surgery/lecture-pages/lecture-34-page-04.webp",
+          "questionNumbers": [
+            121
+          ],
+          "knowledgePoints": [
+            "脓毒症与血培养"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "sourceSubject": "surgery",
+        "lectureNumber": 34,
+        "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第34讲 · 外科 感染 · 第4页",
+        "image": "surgery/lecture-pages/lecture-34-page-04.webp",
+        "questionNumbers": [
+          121
+        ],
+        "knowledgePoints": [
+          "脓毒症与血培养"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q122",
@@ -606,9 +919,61 @@
           "knowledgeConnections": [
             "脓毒症激素有特定适应证，不是所有发热感染的常规治疗。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-34",
+              "sourceSubject": "surgery",
+              "lectureNumber": 34,
+              "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第34讲 · 外科 感染 · 第4页",
+              "image": "surgery/lecture-pages/lecture-34-page-04.webp",
+              "questionNumbers": [
+                122
+              ],
+              "knowledgePoints": [
+                "感染源控制与糖皮质激素"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-34",
+          "sourceSubject": "surgery",
+          "lectureNumber": 34,
+          "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第34讲 · 外科 感染 · 第4页",
+          "image": "surgery/lecture-pages/lecture-34-page-04.webp",
+          "questionNumbers": [
+            122
+          ],
+          "knowledgePoints": [
+            "感染源控制与糖皮质激素"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "sourceSubject": "surgery",
+        "lectureNumber": 34,
+        "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第34讲 · 外科 感染 · 第4页",
+        "image": "surgery/lecture-pages/lecture-34-page-04.webp",
+        "questionNumbers": [
+          122
+        ],
+        "knowledgePoints": [
+          "感染源控制与糖皮质激素"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q123",
@@ -685,9 +1050,61 @@
           "knowledgeConnections": [
             "浅Ⅱ度红、痛、水疱；深Ⅱ度可红白相间、感觉迟钝，面积须结合部位计算。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-33",
+              "sourceSubject": "surgery",
+              "lectureNumber": 33,
+              "sourceFile": "33 27考研：外科 烧伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第33讲 · 外科 烧伤 · 第2页",
+              "image": "surgery/lecture-pages/lecture-33-page-02.webp",
+              "questionNumbers": [
+                123
+              ],
+              "knowledgePoints": [
+                "烧伤深度与面积分度"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-33",
+          "sourceSubject": "surgery",
+          "lectureNumber": 33,
+          "sourceFile": "33 27考研：外科 烧伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第33讲 · 外科 烧伤 · 第2页",
+          "image": "surgery/lecture-pages/lecture-33-page-02.webp",
+          "questionNumbers": [
+            123
+          ],
+          "knowledgePoints": [
+            "烧伤深度与面积分度"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "sourceSubject": "surgery",
+        "lectureNumber": 33,
+        "sourceFile": "33 27考研：外科 烧伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第33讲 · 外科 烧伤 · 第2页",
+        "image": "surgery/lecture-pages/lecture-33-page-02.webp",
+        "questionNumbers": [
+          123
+        ],
+        "knowledgePoints": [
+          "烧伤深度与面积分度"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q124",
@@ -764,9 +1181,61 @@
           "knowledgeConnections": [
             "距门齿距离用于定位，治疗选择更依赖可切除性、分期及耐受性。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-02",
+              "sourceSubject": "surgery",
+              "lectureNumber": 2,
+              "sourceFile": "2 27考研：外科 食管疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第2讲 · 外科 食管疾病 · 第2页",
+              "image": "surgery/lecture-pages/lecture-02-page-02.webp",
+              "questionNumbers": [
+                124
+              ],
+              "knowledgePoints": [
+                "可切除食管癌的治疗"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-02",
+          "sourceSubject": "surgery",
+          "lectureNumber": 2,
+          "sourceFile": "2 27考研：外科 食管疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第2讲 · 外科 食管疾病 · 第2页",
+          "image": "surgery/lecture-pages/lecture-02-page-02.webp",
+          "questionNumbers": [
+            124
+          ],
+          "knowledgePoints": [
+            "可切除食管癌的治疗"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "sourceSubject": "surgery",
+        "lectureNumber": 2,
+        "sourceFile": "2 27考研：外科 食管疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第2讲 · 外科 食管疾病 · 第2页",
+        "image": "surgery/lecture-pages/lecture-02-page-02.webp",
+        "questionNumbers": [
+          124
+        ],
+        "knowledgePoints": [
+          "可切除食管癌的治疗"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q125",
@@ -844,9 +1313,61 @@
           "knowledgeConnections": [
             "冷结节不等于癌；髓样癌来自C细胞，可关联降钙素升高。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "surgery",
+              "lectureNumber": 1,
+              "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第1讲 · 外科 颈部疾病 · 第2页",
+              "image": "surgery/lecture-pages/lecture-01-page-02.webp",
+              "questionNumbers": [
+                125
+              ],
+              "knowledgePoints": [
+                "甲状腺恶性结节的识别"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "sourceSubject": "surgery",
+          "lectureNumber": 1,
+          "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第1讲 · 外科 颈部疾病 · 第2页",
+          "image": "surgery/lecture-pages/lecture-01-page-02.webp",
+          "questionNumbers": [
+            125
+          ],
+          "knowledgePoints": [
+            "甲状腺恶性结节的识别"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "sourceSubject": "surgery",
+        "lectureNumber": 1,
+        "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第1讲 · 外科 颈部疾病 · 第2页",
+        "image": "surgery/lecture-pages/lecture-01-page-02.webp",
+        "questionNumbers": [
+          125
+        ],
+        "knowledgePoints": [
+          "甲状腺恶性结节的识别"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q126",
@@ -924,9 +1445,61 @@
           "knowledgeConnections": [
             "评估甲状腺结节常结合超声风险分层和穿刺指征。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "surgery",
+              "lectureNumber": 1,
+              "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第1讲 · 外科 颈部疾病 · 第2页",
+              "image": "surgery/lecture-pages/lecture-01-page-02.webp",
+              "questionNumbers": [
+                126
+              ],
+              "knowledgePoints": [
+                "甲状腺结节的细胞学检查"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "sourceSubject": "surgery",
+          "lectureNumber": 1,
+          "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第1讲 · 外科 颈部疾病 · 第2页",
+          "image": "surgery/lecture-pages/lecture-01-page-02.webp",
+          "questionNumbers": [
+            126
+          ],
+          "knowledgePoints": [
+            "甲状腺结节的细胞学检查"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "sourceSubject": "surgery",
+        "lectureNumber": 1,
+        "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第1讲 · 外科 颈部疾病 · 第2页",
+        "image": "surgery/lecture-pages/lecture-01-page-02.webp",
+        "questionNumbers": [
+          126
+        ],
+        "knowledgePoints": [
+          "甲状腺结节的细胞学检查"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q127",
@@ -1003,9 +1576,61 @@
           "knowledgeConnections": [
             "纵隔肿瘤先定位再定性：前纵隔想胸腺、生殖细胞等，后纵隔想神经源性。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-04",
+              "sourceSubject": "surgery",
+              "lectureNumber": 4,
+              "sourceFile": "4 27考研：外科 其它颈胸部疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第4讲 · 外科 其它颈胸部疾病 · 第2页",
+              "image": "surgery/lecture-pages/lecture-04-page-02.webp",
+              "questionNumbers": [
+                127
+              ],
+              "knowledgePoints": [
+                "后纵隔肿瘤"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "sourceSubject": "surgery",
+          "lectureNumber": 4,
+          "sourceFile": "4 27考研：外科 其它颈胸部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第4讲 · 外科 其它颈胸部疾病 · 第2页",
+          "image": "surgery/lecture-pages/lecture-04-page-02.webp",
+          "questionNumbers": [
+            127
+          ],
+          "knowledgePoints": [
+            "后纵隔肿瘤"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "sourceSubject": "surgery",
+        "lectureNumber": 4,
+        "sourceFile": "4 27考研：外科 其它颈胸部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第4讲 · 外科 其它颈胸部疾病 · 第2页",
+        "image": "surgery/lecture-pages/lecture-04-page-02.webp",
+        "questionNumbers": [
+          127
+        ],
+        "knowledgePoints": [
+          "后纵隔肿瘤"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q128",
@@ -1082,9 +1707,61 @@
           "knowledgeConnections": [
             "治疗需处理乳汁排出不畅，形成脓肿时还要引流。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "surgery",
+              "lectureNumber": 3,
+              "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+              "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+              "questionNumbers": [
+                128
+              ],
+              "knowledgePoints": [
+                "急性乳腺炎的病因"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "surgery",
+          "lectureNumber": 3,
+          "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+          "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+          "questionNumbers": [
+            128
+          ],
+          "knowledgePoints": [
+            "急性乳腺炎的病因"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "sourceSubject": "surgery",
+        "lectureNumber": 3,
+        "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+        "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+        "questionNumbers": [
+          128
+        ],
+        "knowledgePoints": [
+          "急性乳腺炎的病因"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q129",
@@ -1161,9 +1838,61 @@
           "knowledgeConnections": [
             "周期性疼痛和双侧多发结节支持良性增生，但持续局灶异常仍需影像评估。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "surgery",
+              "lectureNumber": 3,
+              "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+              "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+              "questionNumbers": [
+                129
+              ],
+              "knowledgePoints": [
+                "乳房囊性增生症"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "surgery",
+          "lectureNumber": 3,
+          "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+          "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+          "questionNumbers": [
+            129
+          ],
+          "knowledgePoints": [
+            "乳房囊性增生症"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "sourceSubject": "surgery",
+        "lectureNumber": 3,
+        "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+        "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+        "questionNumbers": [
+          129
+        ],
+        "knowledgePoints": [
+          "乳房囊性增生症"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q130",
@@ -1240,9 +1969,61 @@
           "knowledgeConnections": [
             "橘皮样变提示淋巴回流受阻；炎症样广泛红肿需警惕侵袭性病变。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "surgery",
+              "lectureNumber": 3,
+              "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第3讲 · 外科 乳房疾病 · 第1页",
+              "image": "surgery/lecture-pages/lecture-03-page-01.webp",
+              "questionNumbers": [
+                130
+              ],
+              "knowledgePoints": [
+                "炎性乳腺癌的预后线索"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "surgery",
+          "lectureNumber": 3,
+          "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第3讲 · 外科 乳房疾病 · 第1页",
+          "image": "surgery/lecture-pages/lecture-03-page-01.webp",
+          "questionNumbers": [
+            130
+          ],
+          "knowledgePoints": [
+            "炎性乳腺癌的预后线索"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "sourceSubject": "surgery",
+        "lectureNumber": 3,
+        "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第3讲 · 外科 乳房疾病 · 第1页",
+        "image": "surgery/lecture-pages/lecture-03-page-01.webp",
+        "questionNumbers": [
+          130
+        ],
+        "knowledgePoints": [
+          "炎性乳腺癌的预后线索"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q131",
@@ -1319,9 +2100,61 @@
           "knowledgeConnections": [
             "术前治疗既可缩小病灶，也可评估疗效；方案依赖激素受体和HER2等。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "surgery",
+              "lectureNumber": 3,
+              "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+              "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+              "questionNumbers": [
+                131
+              ],
+              "knowledgePoints": [
+                "局部晚期乳腺癌的初始治疗"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "surgery",
+          "lectureNumber": 3,
+          "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+          "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+          "questionNumbers": [
+            131
+          ],
+          "knowledgePoints": [
+            "局部晚期乳腺癌的初始治疗"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "sourceSubject": "surgery",
+        "lectureNumber": 3,
+        "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+        "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+        "questionNumbers": [
+          131
+        ],
+        "knowledgePoints": [
+          "局部晚期乳腺癌的初始治疗"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q132",
@@ -1398,9 +2231,61 @@
           "knowledgeConnections": [
             "乳腺癌分子标志分别指导治疗：ER/PR—内分泌，HER2—抗HER2。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "surgery",
+              "lectureNumber": 3,
+              "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+              "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+              "questionNumbers": [
+                132
+              ],
+              "knowledgePoints": [
+                "乳腺癌内分泌治疗指征"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "surgery",
+          "lectureNumber": 3,
+          "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+          "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+          "questionNumbers": [
+            132
+          ],
+          "knowledgePoints": [
+            "乳腺癌内分泌治疗指征"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "sourceSubject": "surgery",
+        "lectureNumber": 3,
+        "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第3讲 · 外科 乳房疾病 · 第4页",
+        "image": "surgery/lecture-pages/lecture-03-page-04.webp",
+        "questionNumbers": [
+          132
+        ],
+        "knowledgePoints": [
+          "乳腺癌内分泌治疗指征"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q133",
@@ -1419,7 +2304,7 @@
       "answerLayout": "rows",
       "topic": "胸部疾病",
       "lectureIds": [
-        "lecture-04"
+        "med-lecture-12"
       ],
       "diseaseTags": [
         "精选执医",
@@ -1471,15 +2356,99 @@
           "answerDisplay": "B",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
-          "lectureId": "lecture-04",
+          "lectureId": "med-lecture-12",
           "knowledgePoint": "小细胞肺癌与SIADH",
           "explanation": "肺门肿块、病理证实癌细胞且严重低钠，补钠反应欠佳，提示肿瘤相关抗利尿激素分泌异常，经典联系小细胞肺癌，选B。",
           "knowledgeConnections": [
             "小细胞肺癌可有SIADH、异位ACTH及神经肌肉副肿瘤综合征。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "med-lecture-12",
+              "sourceSubject": "med",
+              "lectureNumber": 12,
+              "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "内科第12讲 · 内科+外科 肺癌 · 第2页",
+              "image": "med/lecture-pages/lecture-12-page-02.webp",
+              "questionNumbers": [
+                133
+              ],
+              "knowledgePoints": [
+                "小细胞肺癌与SIADH"
+              ]
+            },
+            {
+              "lectureId": "med-lecture-12",
+              "sourceSubject": "med",
+              "lectureNumber": 12,
+              "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "内科第12讲 · 内科+外科 肺癌 · 第1页",
+              "image": "med/lecture-pages/lecture-12-page-01.webp",
+              "questionNumbers": [
+                133
+              ],
+              "knowledgePoints": [
+                "小细胞肺癌与SIADH"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "med-lecture-12",
+          "sourceSubject": "med",
+          "lectureNumber": 12,
+          "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "内科第12讲 · 内科+外科 肺癌 · 第2页",
+          "image": "med/lecture-pages/lecture-12-page-02.webp",
+          "questionNumbers": [
+            133
+          ],
+          "knowledgePoints": [
+            "小细胞肺癌与SIADH"
+          ]
+        },
+        {
+          "lectureId": "med-lecture-12",
+          "sourceSubject": "med",
+          "lectureNumber": 12,
+          "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "内科第12讲 · 内科+外科 肺癌 · 第1页",
+          "image": "med/lecture-pages/lecture-12-page-01.webp",
+          "questionNumbers": [
+            133
+          ],
+          "knowledgePoints": [
+            "小细胞肺癌与SIADH"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "med-lecture-12",
+        "sourceSubject": "med",
+        "lectureNumber": 12,
+        "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "内科第12讲 · 内科+外科 肺癌 · 第2页",
+        "image": "med/lecture-pages/lecture-12-page-02.webp",
+        "questionNumbers": [
+          133
+        ],
+        "knowledgePoints": [
+          "小细胞肺癌与SIADH"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q134",
@@ -1556,9 +2525,61 @@
           "knowledgeConnections": [
             "T看浸润深度，N看对应版本的淋巴结定义；不能用肿块直径代替T分期。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-05",
+              "sourceSubject": "surgery",
+              "lectureNumber": 5,
+              "sourceFile": "5 27考研：外科 胃肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第5讲 · 外科 胃肿瘤 · 第4页",
+              "image": "surgery/lecture-pages/lecture-05-page-04.webp",
+              "questionNumbers": [
+                134
+              ],
+              "knowledgePoints": [
+                "胃癌TNM分期的版本差异"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-05",
+          "sourceSubject": "surgery",
+          "lectureNumber": 5,
+          "sourceFile": "5 27考研：外科 胃肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第5讲 · 外科 胃肿瘤 · 第4页",
+          "image": "surgery/lecture-pages/lecture-05-page-04.webp",
+          "questionNumbers": [
+            134
+          ],
+          "knowledgePoints": [
+            "胃癌TNM分期的版本差异"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "sourceSubject": "surgery",
+        "lectureNumber": 5,
+        "sourceFile": "5 27考研：外科 胃肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第5讲 · 外科 胃肿瘤 · 第4页",
+        "image": "surgery/lecture-pages/lecture-05-page-04.webp",
+        "questionNumbers": [
+          134
+        ],
+        "knowledgePoints": [
+          "胃癌TNM分期的版本差异"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q135",
@@ -1636,9 +2657,61 @@
           "knowledgeConnections": [
             "血性高淀粉酶液联想胰腺炎；血性恶臭液应警惕肠坏死。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-06",
+              "sourceSubject": "surgery",
+              "lectureNumber": 6,
+              "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第6讲 · 外科 腹腔感染 · 第1页",
+              "image": "surgery/lecture-pages/lecture-06-page-01.webp",
+              "questionNumbers": [
+                135
+              ],
+              "knowledgePoints": [
+                "消化性溃疡穿孔的穿刺液"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "sourceSubject": "surgery",
+          "lectureNumber": 6,
+          "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第6讲 · 外科 腹腔感染 · 第1页",
+          "image": "surgery/lecture-pages/lecture-06-page-01.webp",
+          "questionNumbers": [
+            135
+          ],
+          "knowledgePoints": [
+            "消化性溃疡穿孔的穿刺液"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "sourceSubject": "surgery",
+        "lectureNumber": 6,
+        "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第6讲 · 外科 腹腔感染 · 第1页",
+        "image": "surgery/lecture-pages/lecture-06-page-01.webp",
+        "questionNumbers": [
+          135
+        ],
+        "knowledgePoints": [
+          "消化性溃疡穿孔的穿刺液"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q136",
@@ -1715,9 +2788,61 @@
           "knowledgeConnections": [
             "十二指肠大部分位于腹膜后，损伤不能只凭是否板状腹排除。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-07",
+              "sourceSubject": "surgery",
+              "lectureNumber": 7,
+              "sourceFile": "7 27考研：外科 腹部损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第7讲 · 外科 腹部损伤 · 第3页",
+              "image": "surgery/lecture-pages/lecture-07-page-03.webp",
+              "questionNumbers": [
+                136
+              ],
+              "knowledgePoints": [
+                "十二指肠腹膜后破裂"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "sourceSubject": "surgery",
+          "lectureNumber": 7,
+          "sourceFile": "7 27考研：外科 腹部损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第7讲 · 外科 腹部损伤 · 第3页",
+          "image": "surgery/lecture-pages/lecture-07-page-03.webp",
+          "questionNumbers": [
+            136
+          ],
+          "knowledgePoints": [
+            "十二指肠腹膜后破裂"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "sourceSubject": "surgery",
+        "lectureNumber": 7,
+        "sourceFile": "7 27考研：外科 腹部损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第7讲 · 外科 腹部损伤 · 第3页",
+        "image": "surgery/lecture-pages/lecture-07-page-03.webp",
+        "questionNumbers": [
+          136
+        ],
+        "knowledgePoints": [
+          "十二指肠腹膜后破裂"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q137",
@@ -1794,9 +2919,61 @@
           "knowledgeConnections": [
             "深环位于腹壁下动脉外侧，与腹股沟斜疝的通道有关。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-12",
+              "sourceSubject": "surgery",
+              "lectureNumber": 12,
+              "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第12讲 · 外科 腹外疝 · 第1页",
+              "image": "surgery/lecture-pages/lecture-12-page-01.webp",
+              "questionNumbers": [
+                137
+              ],
+              "knowledgePoints": [
+                "腹股沟管深环体表定位"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "sourceSubject": "surgery",
+          "lectureNumber": 12,
+          "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第12讲 · 外科 腹外疝 · 第1页",
+          "image": "surgery/lecture-pages/lecture-12-page-01.webp",
+          "questionNumbers": [
+            137
+          ],
+          "knowledgePoints": [
+            "腹股沟管深环体表定位"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "sourceSubject": "surgery",
+        "lectureNumber": 12,
+        "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第12讲 · 外科 腹外疝 · 第1页",
+        "image": "surgery/lecture-pages/lecture-12-page-01.webp",
+        "questionNumbers": [
+          137
+        ],
+        "knowledgePoints": [
+          "腹股沟管深环体表定位"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q138",
@@ -1873,9 +3050,61 @@
           "knowledgeConnections": [
             "腹壁下动脉：外斜内直；直疝经直疝三角突出。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-12",
+              "sourceSubject": "surgery",
+              "lectureNumber": 12,
+              "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "讲义第 5 页",
+              "title": "外科第12讲 · 外科 腹外疝 · 第5页",
+              "image": "surgery/lecture-pages/lecture-12-page-05.webp",
+              "questionNumbers": [
+                138
+              ],
+              "knowledgePoints": [
+                "斜疝与直疝的血管关系"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "sourceSubject": "surgery",
+          "lectureNumber": 12,
+          "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "讲义第 5 页",
+          "title": "外科第12讲 · 外科 腹外疝 · 第5页",
+          "image": "surgery/lecture-pages/lecture-12-page-05.webp",
+          "questionNumbers": [
+            138
+          ],
+          "knowledgePoints": [
+            "斜疝与直疝的血管关系"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "sourceSubject": "surgery",
+        "lectureNumber": 12,
+        "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "讲义第 5 页",
+        "title": "外科第12讲 · 外科 腹外疝 · 第5页",
+        "image": "surgery/lecture-pages/lecture-12-page-05.webp",
+        "questionNumbers": [
+          138
+        ],
+        "knowledgePoints": [
+          "斜疝与直疝的血管关系"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q139",
@@ -1963,9 +3192,61 @@
               "title": "RCH肠套叠指南：超声与灌肠",
               "url": "https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/"
             }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第1页",
+              "image": "surgery/lecture-pages/lecture-08-page-01.webp",
+              "questionNumbers": [
+                139
+              ],
+              "knowledgePoints": [
+                "肠套叠检查与截图更正"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "sourceSubject": "surgery",
+          "lectureNumber": 8,
+          "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第8讲 · 外科 肠梗阻 · 第1页",
+          "image": "surgery/lecture-pages/lecture-08-page-01.webp",
+          "questionNumbers": [
+            139
+          ],
+          "knowledgePoints": [
+            "肠套叠检查与截图更正"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "sourceSubject": "surgery",
+        "lectureNumber": 8,
+        "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第8讲 · 外科 肠梗阻 · 第1页",
+        "image": "surgery/lecture-pages/lecture-08-page-01.webp",
+        "questionNumbers": [
+          139
+        ],
+        "knowledgePoints": [
+          "肠套叠检查与截图更正"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q140",
@@ -2043,9 +3324,61 @@
           "knowledgeConnections": [
             "持续剧痛、腹膜刺激、血性液体及休克均应警惕绞窄。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+              "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+              "questionNumbers": [
+                140
+              ],
+              "knowledgePoints": [
+                "绞窄性肠梗阻的手术指征"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "sourceSubject": "surgery",
+          "lectureNumber": 8,
+          "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+          "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+          "questionNumbers": [
+            140
+          ],
+          "knowledgePoints": [
+            "绞窄性肠梗阻的手术指征"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "sourceSubject": "surgery",
+        "lectureNumber": 8,
+        "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+        "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+        "questionNumbers": [
+          140
+        ],
+        "knowledgePoints": [
+          "绞窄性肠梗阻的手术指征"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q141",
@@ -2190,7 +3523,25 @@
             "小肠扭转可迅速发生肠系膜血流障碍，是绞窄性梗阻。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第141题选项"
+          "optionCategory": "第141题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+              "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+              "questionNumbers": [
+                141
+              ],
+              "knowledgePoints": [
+                "小肠扭转的典型诱因"
+              ]
+            }
+          ]
         },
         {
           "number": 142,
@@ -2211,7 +3562,25 @@
             "高位梗阻呕吐早且频繁，低位梗阻腹胀更明显。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第142题选项"
+          "optionCategory": "第142题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第2页",
+              "image": "surgery/lecture-pages/lecture-08-page-02.webp",
+              "questionNumbers": [
+                142
+              ],
+              "knowledgePoints": [
+                "小肠扭转的呕吐表现"
+              ]
+            }
+          ]
         },
         {
           "number": 143,
@@ -2232,11 +3601,81 @@
             "“第三间隙”潴留虽未流出体外，仍可使循环血容量不足。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第143题选项"
+          "optionCategory": "第143题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第2页",
+              "image": "surgery/lecture-pages/lecture-08-page-02.webp",
+              "questionNumbers": [
+                143
+              ],
+              "knowledgePoints": [
+                "肠梗阻的体液丢失"
+              ]
+            }
+          ]
         }
       ],
       "sharedStem": "女，20 岁。1 天前饱餐后参加剧烈运动时突发腹痛，腹胀，无肛门排气。查体：T 35.5 度，BP 80/50mmHg。腹腔穿刺抽出血性液体。",
-      "sharedQuestionCount": 3
+      "sharedQuestionCount": 3,
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "sourceSubject": "surgery",
+          "lectureNumber": 8,
+          "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+          "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+          "questionNumbers": [
+            141
+          ],
+          "knowledgePoints": [
+            "小肠扭转的典型诱因"
+          ]
+        },
+        {
+          "lectureId": "lecture-08",
+          "sourceSubject": "surgery",
+          "lectureNumber": 8,
+          "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第8讲 · 外科 肠梗阻 · 第2页",
+          "image": "surgery/lecture-pages/lecture-08-page-02.webp",
+          "questionNumbers": [
+            142,
+            143
+          ],
+          "knowledgePoints": [
+            "小肠扭转的呕吐表现",
+            "肠梗阻的体液丢失"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "sourceSubject": "surgery",
+        "lectureNumber": 8,
+        "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+        "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+        "questionNumbers": [
+          141
+        ],
+        "knowledgePoints": [
+          "小肠扭转的典型诱因"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q144",
@@ -2382,7 +3821,25 @@
             "急性肠缺血要联系房颤、栓塞背景及疼痛与体征不相称。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第144题选项"
+          "optionCategory": "第144题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+              "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+              "questionNumbers": [
+                144
+              ],
+              "knowledgePoints": [
+                "肠系膜上动脉栓塞"
+              ]
+            }
+          ]
         },
         {
           "number": 145,
@@ -2403,7 +3860,25 @@
             "早期体征轻不能排除致命性肠缺血。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第145题选项"
+          "optionCategory": "第145题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+              "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+              "questionNumbers": [
+                145
+              ],
+              "knowledgePoints": [
+                "急性肠系膜缺血的经典三联征"
+              ]
+            }
+          ]
         },
         {
           "number": 146,
@@ -2424,11 +3899,71 @@
             "传统“金标准”不总等于当下急诊首选检查。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第146题选项"
+          "optionCategory": "第146题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "surgery",
+              "lectureNumber": 8,
+              "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+              "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+              "questionNumbers": [
+                146
+              ],
+              "knowledgePoints": [
+                "肠系膜动脉栓塞的影像"
+              ]
+            }
+          ]
         }
       ],
       "sharedStem": "男，78 岁。突发腹部持续性剧烈绞痛，伴频繁呕吐 2 小时住院。既往有冠心病、房颤病史。查体：T 37 度，P 96 次/分，R 20 次/分，BP 85/60mmHg，急性痛苦病容，被迫体位，面色苍白，心率 120 次/分，节律不整。腹部膨隆，全腹均有压痛，脐周和右侧更明显，轻度反跳痛，肌紧张，肠鸣音弱。实验室检查：白细胞 25×10⁹/L，N 90%，血浆 D-二聚体 600μg/L。",
-      "sharedQuestionCount": 3
+      "sharedQuestionCount": 3,
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "sourceSubject": "surgery",
+          "lectureNumber": 8,
+          "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+          "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+          "questionNumbers": [
+            144,
+            145,
+            146
+          ],
+          "knowledgePoints": [
+            "肠系膜上动脉栓塞",
+            "急性肠系膜缺血的经典三联征",
+            "肠系膜动脉栓塞的影像"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "sourceSubject": "surgery",
+        "lectureNumber": 8,
+        "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第8讲 · 外科 肠梗阻 · 第3页",
+        "image": "surgery/lecture-pages/lecture-08-page-03.webp",
+        "questionNumbers": [
+          144,
+          145,
+          146
+        ],
+        "knowledgePoints": [
+          "肠系膜上动脉栓塞",
+          "急性肠系膜缺血的经典三联征",
+          "肠系膜动脉栓塞的影像"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q147",
@@ -2505,9 +4040,61 @@
           "knowledgeConnections": [
             "术后并发症题要同时看发生频率和时间线。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "surgery",
+              "lectureNumber": 9,
+              "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第9讲 · 外科 阑尾炎 · 第3页",
+              "image": "surgery/lecture-pages/lecture-09-page-03.webp",
+              "questionNumbers": [
+                147
+              ],
+              "knowledgePoints": [
+                "阑尾切除术常见并发症"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "sourceSubject": "surgery",
+          "lectureNumber": 9,
+          "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第9讲 · 外科 阑尾炎 · 第3页",
+          "image": "surgery/lecture-pages/lecture-09-page-03.webp",
+          "questionNumbers": [
+            147
+          ],
+          "knowledgePoints": [
+            "阑尾切除术常见并发症"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "sourceSubject": "surgery",
+        "lectureNumber": 9,
+        "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第9讲 · 外科 阑尾炎 · 第3页",
+        "image": "surgery/lecture-pages/lecture-09-page-03.webp",
+        "questionNumbers": [
+          147
+        ],
+        "knowledgePoints": [
+          "阑尾切除术常见并发症"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q148",
@@ -2584,9 +4171,61 @@
           "knowledgeConnections": [
             "盆腔脓肿可有直肠及膀胱刺激症状，超声或CT用于进一步定位。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "surgery",
+              "lectureNumber": 9,
+              "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第9讲 · 外科 阑尾炎 · 第2页",
+              "image": "surgery/lecture-pages/lecture-09-page-02.webp",
+              "questionNumbers": [
+                148
+              ],
+              "knowledgePoints": [
+                "盆腔脓肿的检查"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "sourceSubject": "surgery",
+          "lectureNumber": 9,
+          "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第9讲 · 外科 阑尾炎 · 第2页",
+          "image": "surgery/lecture-pages/lecture-09-page-02.webp",
+          "questionNumbers": [
+            148
+          ],
+          "knowledgePoints": [
+            "盆腔脓肿的检查"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "sourceSubject": "surgery",
+        "lectureNumber": 9,
+        "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第9讲 · 外科 阑尾炎 · 第2页",
+        "image": "surgery/lecture-pages/lecture-09-page-02.webp",
+        "questionNumbers": [
+          148
+        ],
+        "knowledgePoints": [
+          "盆腔脓肿的检查"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q149",
@@ -2663,9 +4302,61 @@
           "knowledgeConnections": [
             "直肠癌MRI重点关注浸润深度、系膜筋膜和局部淋巴结等。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-10",
+              "sourceSubject": "surgery",
+              "lectureNumber": 10,
+              "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第10讲 · 外科 大肠癌 · 第1页",
+              "image": "surgery/lecture-pages/lecture-10-page-01.webp",
+              "questionNumbers": [
+                149
+              ],
+              "knowledgePoints": [
+                "直肠癌局部浸润评估"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-10",
+          "sourceSubject": "surgery",
+          "lectureNumber": 10,
+          "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第10讲 · 外科 大肠癌 · 第1页",
+          "image": "surgery/lecture-pages/lecture-10-page-01.webp",
+          "questionNumbers": [
+            149
+          ],
+          "knowledgePoints": [
+            "直肠癌局部浸润评估"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "sourceSubject": "surgery",
+        "lectureNumber": 10,
+        "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第10讲 · 外科 大肠癌 · 第1页",
+        "image": "surgery/lecture-pages/lecture-10-page-01.webp",
+        "questionNumbers": [
+          149
+        ],
+        "knowledgePoints": [
+          "直肠癌局部浸润评估"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q150",
@@ -2742,9 +4433,61 @@
           "knowledgeConnections": [
             "胆管囊肿分型按部位和形态区分，Ⅴ型只在肝内。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "surgery",
+              "lectureNumber": 16,
+              "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 10,
+              "pageLabel": "讲义第 10 页",
+              "title": "外科第16讲 · 外科 胆系疾病 · 第10页",
+              "image": "surgery/lecture-pages/lecture-16-page-10.webp",
+              "questionNumbers": [
+                150
+              ],
+              "knowledgePoints": [
+                "Caroli病的分型"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "surgery",
+          "lectureNumber": 16,
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "讲义第 10 页",
+          "title": "外科第16讲 · 外科 胆系疾病 · 第10页",
+          "image": "surgery/lecture-pages/lecture-16-page-10.webp",
+          "questionNumbers": [
+            150
+          ],
+          "knowledgePoints": [
+            "Caroli病的分型"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "sourceSubject": "surgery",
+        "lectureNumber": 16,
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "讲义第 10 页",
+        "title": "外科第16讲 · 外科 胆系疾病 · 第10页",
+        "image": "surgery/lecture-pages/lecture-16-page-10.webp",
+        "questionNumbers": [
+          150
+        ],
+        "knowledgePoints": [
+          "Caroli病的分型"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q151",
@@ -2822,9 +4565,61 @@
           "knowledgeConnections": [
             "控制感染源的核心是解除胆道梗阻并引流，方式依解剖及条件选择。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "surgery",
+              "lectureNumber": 16,
+              "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "讲义第 8 页",
+              "title": "外科第16讲 · 外科 胆系疾病 · 第8页",
+              "image": "surgery/lecture-pages/lecture-16-page-08.webp",
+              "questionNumbers": [
+                151
+              ],
+              "knowledgePoints": [
+                "急性重症胆管炎的引流"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "surgery",
+          "lectureNumber": 16,
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "讲义第 8 页",
+          "title": "外科第16讲 · 外科 胆系疾病 · 第8页",
+          "image": "surgery/lecture-pages/lecture-16-page-08.webp",
+          "questionNumbers": [
+            151
+          ],
+          "knowledgePoints": [
+            "急性重症胆管炎的引流"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "sourceSubject": "surgery",
+        "lectureNumber": 16,
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "讲义第 8 页",
+        "title": "外科第16讲 · 外科 胆系疾病 · 第8页",
+        "image": "surgery/lecture-pages/lecture-16-page-08.webp",
+        "questionNumbers": [
+          151
+        ],
+        "knowledgePoints": [
+          "急性重症胆管炎的引流"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q152",
@@ -2901,9 +4696,61 @@
           "knowledgeConnections": [
             "有无黄疸不能鉴别所有梗阻病因，病程、影像和病理更重要。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-15",
+              "sourceSubject": "surgery",
+              "lectureNumber": 15,
+              "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第15讲 · 外科 胰腺肿瘤 · 第2页",
+              "image": "surgery/lecture-pages/lecture-15-page-02.webp",
+              "questionNumbers": [
+                152
+              ],
+              "knowledgePoints": [
+                "壶腹周围肿瘤与胰头癌鉴别"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-15",
+          "sourceSubject": "surgery",
+          "lectureNumber": 15,
+          "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第15讲 · 外科 胰腺肿瘤 · 第2页",
+          "image": "surgery/lecture-pages/lecture-15-page-02.webp",
+          "questionNumbers": [
+            152
+          ],
+          "knowledgePoints": [
+            "壶腹周围肿瘤与胰头癌鉴别"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "sourceSubject": "surgery",
+        "lectureNumber": 15,
+        "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第15讲 · 外科 胰腺肿瘤 · 第2页",
+        "image": "surgery/lecture-pages/lecture-15-page-02.webp",
+        "questionNumbers": [
+          152
+        ],
+        "knowledgePoints": [
+          "壶腹周围肿瘤与胰头癌鉴别"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q153",
@@ -2980,9 +4827,61 @@
           "knowledgeConnections": [
             "梗阻部位影响胆囊是否增大；Courvoisier征需放在解剖关系中理解。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "surgery",
+              "lectureNumber": 16,
+              "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "讲义第 9 页",
+              "title": "外科第16讲 · 外科 胆系疾病 · 第9页",
+              "image": "surgery/lecture-pages/lecture-16-page-09.webp",
+              "questionNumbers": [
+                153
+              ],
+              "knowledgePoints": [
+                "肝门部胆管癌"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "surgery",
+          "lectureNumber": 16,
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 9,
+          "pageLabel": "讲义第 9 页",
+          "title": "外科第16讲 · 外科 胆系疾病 · 第9页",
+          "image": "surgery/lecture-pages/lecture-16-page-09.webp",
+          "questionNumbers": [
+            153
+          ],
+          "knowledgePoints": [
+            "肝门部胆管癌"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "sourceSubject": "surgery",
+        "lectureNumber": 16,
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 9,
+        "pageLabel": "讲义第 9 页",
+        "title": "外科第16讲 · 外科 胆系疾病 · 第9页",
+        "image": "surgery/lecture-pages/lecture-16-page-09.webp",
+        "questionNumbers": [
+          153
+        ],
+        "knowledgePoints": [
+          "肝门部胆管癌"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q154",
@@ -3059,9 +4958,61 @@
           "knowledgeConnections": [
             "肿瘤标志物不能单独确诊，梗阻性黄疸本身也可影响CA19-9。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-15",
+              "sourceSubject": "surgery",
+              "lectureNumber": 15,
+              "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第15讲 · 外科 胰腺肿瘤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-15-page-01.webp",
+              "questionNumbers": [
+                154
+              ],
+              "knowledgePoints": [
+                "胰腺肿瘤术前评估"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-15",
+          "sourceSubject": "surgery",
+          "lectureNumber": 15,
+          "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第15讲 · 外科 胰腺肿瘤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-15-page-01.webp",
+          "questionNumbers": [
+            154
+          ],
+          "knowledgePoints": [
+            "胰腺肿瘤术前评估"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "sourceSubject": "surgery",
+        "lectureNumber": 15,
+        "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第15讲 · 外科 胰腺肿瘤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-15-page-01.webp",
+        "questionNumbers": [
+          154
+        ],
+        "knowledgePoints": [
+          "胰腺肿瘤术前评估"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q155",
@@ -3138,9 +5089,61 @@
           "knowledgeConnections": [
             "胆瘘以胆汁样引流为线索，胰瘘重在引流液高淀粉酶。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-15",
+              "sourceSubject": "surgery",
+              "lectureNumber": 15,
+              "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第15讲 · 外科 胰腺肿瘤 · 第2页",
+              "image": "surgery/lecture-pages/lecture-15-page-02.webp",
+              "questionNumbers": [
+                155
+              ],
+              "knowledgePoints": [
+                "胰腺术后胰瘘"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-15",
+          "sourceSubject": "surgery",
+          "lectureNumber": 15,
+          "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第15讲 · 外科 胰腺肿瘤 · 第2页",
+          "image": "surgery/lecture-pages/lecture-15-page-02.webp",
+          "questionNumbers": [
+            155
+          ],
+          "knowledgePoints": [
+            "胰腺术后胰瘘"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "sourceSubject": "surgery",
+        "lectureNumber": 15,
+        "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第15讲 · 外科 胰腺肿瘤 · 第2页",
+        "image": "surgery/lecture-pages/lecture-15-page-02.webp",
+        "questionNumbers": [
+          155
+        ],
+        "knowledgePoints": [
+          "胰腺术后胰瘘"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q156",
@@ -3157,9 +5160,9 @@
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
-      "topic": "肝胆胰疾病",
+      "topic": "腹部损伤与感染",
       "lectureIds": [
-        "lecture-15"
+        "lecture-06"
       ],
       "diseaseTags": [
         "精选执医",
@@ -3211,15 +5214,67 @@
           "answerDisplay": "E",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
-          "lectureId": "lecture-15",
+          "lectureId": "lecture-06",
           "knowledgePoint": "急腹症的腹膜刺激征",
           "explanation": "突发剧痛且上腹肌紧张、反跳痛，提示急腹症伴腹膜刺激。所列中普通急性胃肠炎最难解释这一组体征，因此按题意选E；“不可能”属于考试排除语气，并非仅凭这些资料绝对排除一切情况。",
           "knowledgeConnections": [
             "明显腹膜刺激征须优先排查穿孔、胰腺炎及胆道等外科急症。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-06",
+              "sourceSubject": "surgery",
+              "lectureNumber": 6,
+              "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第6讲 · 外科 腹腔感染 · 第1页",
+              "image": "surgery/lecture-pages/lecture-06-page-01.webp",
+              "questionNumbers": [
+                156
+              ],
+              "knowledgePoints": [
+                "急腹症的腹膜刺激征"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "sourceSubject": "surgery",
+          "lectureNumber": 6,
+          "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第6讲 · 外科 腹腔感染 · 第1页",
+          "image": "surgery/lecture-pages/lecture-06-page-01.webp",
+          "questionNumbers": [
+            156
+          ],
+          "knowledgePoints": [
+            "急腹症的腹膜刺激征"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "sourceSubject": "surgery",
+        "lectureNumber": 6,
+        "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第6讲 · 外科 腹腔感染 · 第1页",
+        "image": "surgery/lecture-pages/lecture-06-page-01.webp",
+        "questionNumbers": [
+          156
+        ],
+        "knowledgePoints": [
+          "急腹症的腹膜刺激征"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q157",
@@ -3296,9 +5351,61 @@
           "knowledgeConnections": [
             "Ⅰ期轻症；Ⅱ期跛行；Ⅲ期静息痛；Ⅳ期组织缺损。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-17",
+              "sourceSubject": "surgery",
+              "lectureNumber": 17,
+              "sourceFile": "17 27考研：外科 周围血管疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第17讲 · 外科 周围血管疾病 · 第1页",
+              "image": "surgery/lecture-pages/lecture-17-page-01.webp",
+              "questionNumbers": [
+                157
+              ],
+              "knowledgePoints": [
+                "下肢慢性缺血的Fontaine分期"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "sourceSubject": "surgery",
+          "lectureNumber": 17,
+          "sourceFile": "17 27考研：外科 周围血管疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第17讲 · 外科 周围血管疾病 · 第1页",
+          "image": "surgery/lecture-pages/lecture-17-page-01.webp",
+          "questionNumbers": [
+            157
+          ],
+          "knowledgePoints": [
+            "下肢慢性缺血的Fontaine分期"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "sourceSubject": "surgery",
+        "lectureNumber": 17,
+        "sourceFile": "17 27考研：外科 周围血管疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第17讲 · 外科 周围血管疾病 · 第1页",
+        "image": "surgery/lecture-pages/lecture-17-page-01.webp",
+        "questionNumbers": [
+          157
+        ],
+        "knowledgePoints": [
+          "下肢慢性缺血的Fontaine分期"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q158",
@@ -3375,9 +5482,61 @@
           "knowledgeConnections": [
             "血肿位置、机制和循环状态共同决定探查与否，稳定肾周血肿不能随意打开。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+              "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+              "questionNumbers": [
+                158
+              ],
+              "knowledgePoints": [
+                "肾损伤与腹膜后血肿"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "lectureNumber": 19,
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+          "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+          "questionNumbers": [
+            158
+          ],
+          "knowledgePoints": [
+            "肾损伤与腹膜后血肿"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "lectureNumber": 19,
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+        "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+        "questionNumbers": [
+          158
+        ],
+        "knowledgePoints": [
+          "肾损伤与腹膜后血肿"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q159",
@@ -3454,9 +5613,61 @@
           "knowledgeConnections": [
             "肾外伤需警惕早期出血、尿外渗及后期感染、继发性高血压。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+              "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+              "questionNumbers": [
+                159
+              ],
+              "knowledgePoints": [
+                "肾损伤后的感染预防"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "lectureNumber": 19,
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+          "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+          "questionNumbers": [
+            159
+          ],
+          "knowledgePoints": [
+            "肾损伤后的感染预防"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "lectureNumber": 19,
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+        "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+        "questionNumbers": [
+          159
+        ],
+        "knowledgePoints": [
+          "肾损伤后的感染预防"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q160",
@@ -3602,7 +5813,25 @@
             "腰部创口＋尿样渗液应检查泌尿系统，注意合并肠道和血管伤。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第160题选项"
+          "optionCategory": "第160题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+              "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+              "questionNumbers": [
+                160
+              ],
+              "knowledgePoints": [
+                "穿透性肾损伤"
+              ]
+            }
+          ]
         },
         {
           "number": 161,
@@ -3628,6 +5857,24 @@
             {
               "title": "EAU泌尿创伤指南：按稳定性选择治疗",
               "url": "https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines"
+            }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+              "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+              "questionNumbers": [
+                161
+              ],
+              "knowledgePoints": [
+                "肾外伤的影像评估"
+              ]
             }
           ]
         },
@@ -3657,11 +5904,71 @@
               "title": "EAU泌尿创伤指南：按稳定性选择治疗",
               "url": "https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines"
             }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+              "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+              "questionNumbers": [
+                162
+              ],
+              "knowledgePoints": [
+                "开放性肾损伤的治疗争议"
+              ]
+            }
           ]
         }
       ],
       "sharedStem": "男，20 岁。左腰部被刺后伤口持续溢出淡红色液体 2 小时。查体：BP 95/70mmHg，P 110 次/分，左上腹压痛，无肌紧张及反跳痛。",
-      "sharedQuestionCount": 3
+      "sharedQuestionCount": 3,
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "lectureNumber": 19,
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+          "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+          "questionNumbers": [
+            160,
+            161,
+            162
+          ],
+          "knowledgePoints": [
+            "穿透性肾损伤",
+            "肾外伤的影像评估",
+            "开放性肾损伤的治疗争议"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "lectureNumber": 19,
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第4页",
+        "image": "surgery/lecture-pages/lecture-19-page-04.webp",
+        "questionNumbers": [
+          160,
+          161,
+          162
+        ],
+        "knowledgePoints": [
+          "穿透性肾损伤",
+          "肾外伤的影像评估",
+          "开放性肾损伤的治疗争议"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q163",
@@ -3738,9 +6045,61 @@
           "knowledgeConnections": [
             "骨盆骨折—后尿道；骑跨伤—球部前尿道。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第3页",
+              "image": "surgery/lecture-pages/lecture-19-page-03.webp",
+              "questionNumbers": [
+                163
+              ],
+              "knowledgePoints": [
+                "骨盆骨折合并后尿道损伤"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "lectureNumber": 19,
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第3页",
+          "image": "surgery/lecture-pages/lecture-19-page-03.webp",
+          "questionNumbers": [
+            163
+          ],
+          "knowledgePoints": [
+            "骨盆骨折合并后尿道损伤"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "lectureNumber": 19,
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第3页",
+        "image": "surgery/lecture-pages/lecture-19-page-03.webp",
+        "questionNumbers": [
+          163
+        ],
+        "knowledgePoints": [
+          "骨盆骨折合并后尿道损伤"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q164",
@@ -3817,9 +6176,61 @@
           "knowledgeConnections": [
             "怀疑尿道断裂时避免盲目、反复强行导尿。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第3页",
+              "image": "surgery/lecture-pages/lecture-19-page-03.webp",
+              "questionNumbers": [
+                164
+              ],
+              "knowledgePoints": [
+                "尿道损伤的造影"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "lectureNumber": 19,
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第3页",
+          "image": "surgery/lecture-pages/lecture-19-page-03.webp",
+          "questionNumbers": [
+            164
+          ],
+          "knowledgePoints": [
+            "尿道损伤的造影"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "lectureNumber": 19,
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第3页",
+        "image": "surgery/lecture-pages/lecture-19-page-03.webp",
+        "questionNumbers": [
+          164
+        ],
+        "knowledgePoints": [
+          "尿道损伤的造影"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q165",
@@ -3896,9 +6307,61 @@
           "knowledgeConnections": [
             "结石处理不能只看直径；发热梗阻首先考虑紧急引流。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第2页",
+              "image": "surgery/lecture-pages/lecture-19-page-02.webp",
+              "questionNumbers": [
+                165
+              ],
+              "knowledgePoints": [
+                "输尿管上段结石治疗"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "lectureNumber": 19,
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第2页",
+          "image": "surgery/lecture-pages/lecture-19-page-02.webp",
+          "questionNumbers": [
+            165
+          ],
+          "knowledgePoints": [
+            "输尿管上段结石治疗"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "lectureNumber": 19,
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第2页",
+        "image": "surgery/lecture-pages/lecture-19-page-02.webp",
+        "questionNumbers": [
+          165
+        ],
+        "knowledgePoints": [
+          "输尿管上段结石治疗"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q166",
@@ -3975,9 +6438,61 @@
           "knowledgeConnections": [
             "α阻滞剂改善动力性梗阻，5α还原酶抑制剂逐步缩小增生腺体。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "surgery",
+              "lectureNumber": 19,
+              "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-19-page-01.webp",
+              "questionNumbers": [
+                166
+              ],
+              "knowledgePoints": [
+                "良性前列腺增生的药物治疗"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "lectureNumber": 19,
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-19-page-01.webp",
+          "questionNumbers": [
+            166
+          ],
+          "knowledgePoints": [
+            "良性前列腺增生的药物治疗"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "lectureNumber": 19,
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第19讲 · 外科 泌外梗阻和外伤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-19-page-01.webp",
+        "questionNumbers": [
+          166
+        ],
+        "knowledgePoints": [
+          "良性前列腺增生的药物治疗"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q167",
@@ -4054,9 +6569,61 @@
           "knowledgeConnections": [
             "TURBT用于膀胱肿瘤；TURP用于前列腺增生，别混缩写。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "surgery",
+              "lectureNumber": 18,
+              "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第2页",
+              "image": "surgery/lecture-pages/lecture-18-page-02.webp",
+              "questionNumbers": [
+                167
+              ],
+              "knowledgePoints": [
+                "浅表膀胱肿瘤的切除"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "sourceSubject": "surgery",
+          "lectureNumber": 18,
+          "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第2页",
+          "image": "surgery/lecture-pages/lecture-18-page-02.webp",
+          "questionNumbers": [
+            167
+          ],
+          "knowledgePoints": [
+            "浅表膀胱肿瘤的切除"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "sourceSubject": "surgery",
+        "lectureNumber": 18,
+        "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第2页",
+        "image": "surgery/lecture-pages/lecture-18-page-02.webp",
+        "questionNumbers": [
+          167
+        ],
+        "knowledgePoints": [
+          "浅表膀胱肿瘤的切除"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q168",
@@ -4133,9 +6700,61 @@
           "knowledgeConnections": [
             "上尿路尿路上皮肿瘤可形成集合系统内充盈缺损。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "surgery",
+              "lectureNumber": 18,
+              "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第3页",
+              "image": "surgery/lecture-pages/lecture-18-page-03.webp",
+              "questionNumbers": [
+                168
+              ],
+              "knowledgePoints": [
+                "肾盂肿瘤的影像线索"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "sourceSubject": "surgery",
+          "lectureNumber": 18,
+          "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第3页",
+          "image": "surgery/lecture-pages/lecture-18-page-03.webp",
+          "questionNumbers": [
+            168
+          ],
+          "knowledgePoints": [
+            "肾盂肿瘤的影像线索"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "sourceSubject": "surgery",
+        "lectureNumber": 18,
+        "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第3页",
+        "image": "surgery/lecture-pages/lecture-18-page-03.webp",
+        "questionNumbers": [
+          168
+        ],
+        "knowledgePoints": [
+          "肾盂肿瘤的影像线索"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q169",
@@ -4152,9 +6771,9 @@
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
-      "topic": "骨科",
+      "topic": "腹外疝",
       "lectureIds": [
-        "lecture-20"
+        "lecture-12"
       ],
       "diseaseTags": [
         "精选执医",
@@ -4206,7 +6825,7 @@
           "answerDisplay": "B",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
-          "lectureId": "lecture-20",
+          "lectureId": "lecture-12",
           "knowledgePoint": "隐睾手术的时间口径",
           "explanation": "截图答案B，即“2岁以前”，是传统题库常见口径。当前儿科泌尿指南强调更早完成睾丸固定，通常6～12个月开始并不晚于18个月，不能理解为可常规等到接近2岁。",
           "knowledgeConnections": [
@@ -4218,9 +6837,61 @@
               "title": "EAU隐睾指南：手术完成时间",
               "url": "https://uroweb.org/guidelines/paediatric-urology/chapter/management-of-undescended-testes"
             }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-12",
+              "sourceSubject": "surgery",
+              "lectureNumber": 12,
+              "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "讲义第 5 页",
+              "title": "外科第12讲 · 外科 腹外疝 · 第5页",
+              "image": "surgery/lecture-pages/lecture-12-page-05.webp",
+              "questionNumbers": [
+                169
+              ],
+              "knowledgePoints": [
+                "隐睾手术的时间口径"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "sourceSubject": "surgery",
+          "lectureNumber": 12,
+          "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "讲义第 5 页",
+          "title": "外科第12讲 · 外科 腹外疝 · 第5页",
+          "image": "surgery/lecture-pages/lecture-12-page-05.webp",
+          "questionNumbers": [
+            169
+          ],
+          "knowledgePoints": [
+            "隐睾手术的时间口径"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "sourceSubject": "surgery",
+        "lectureNumber": 12,
+        "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "讲义第 5 页",
+        "title": "外科第12讲 · 外科 腹外疝 · 第5页",
+        "image": "surgery/lecture-pages/lecture-12-page-05.webp",
+        "questionNumbers": [
+          169
+        ],
+        "knowledgePoints": [
+          "隐睾手术的时间口径"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q170",
@@ -4303,9 +6974,61 @@
               "title": "EAU泌尿感染指南：泌尿生殖结核",
               "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"
             }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "surgery",
+              "lectureNumber": 18,
+              "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+              "questionNumbers": [
+                170
+              ],
+              "knowledgePoints": [
+                "无功能结核肾的处理"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "sourceSubject": "surgery",
+          "lectureNumber": 18,
+          "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+          "questionNumbers": [
+            170
+          ],
+          "knowledgePoints": [
+            "无功能结核肾的处理"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "sourceSubject": "surgery",
+        "lectureNumber": 18,
+        "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+        "questionNumbers": [
+          170
+        ],
+        "knowledgePoints": [
+          "无功能结核肾的处理"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q171",
@@ -4388,9 +7111,61 @@
               "title": "EAU泌尿感染指南：泌尿生殖结核",
               "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"
             }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "surgery",
+              "lectureNumber": 18,
+              "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+              "questionNumbers": [
+                171
+              ],
+              "knowledgePoints": [
+                "双侧受累背景下的肾结核处理"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "sourceSubject": "surgery",
+          "lectureNumber": 18,
+          "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+          "questionNumbers": [
+            171
+          ],
+          "knowledgePoints": [
+            "双侧受累背景下的肾结核处理"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "sourceSubject": "surgery",
+        "lectureNumber": 18,
+        "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+        "questionNumbers": [
+          171
+        ],
+        "knowledgePoints": [
+          "双侧受累背景下的肾结核处理"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q172",
@@ -4474,9 +7249,61 @@
               "title": "EAU泌尿感染指南：泌尿生殖结核",
               "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"
             }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "surgery",
+              "lectureNumber": 18,
+              "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+              "questionNumbers": [
+                172
+              ],
+              "knowledgePoints": [
+                "早期局限肾结核的答案疑点"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "sourceSubject": "surgery",
+          "lectureNumber": 18,
+          "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+          "questionNumbers": [
+            172
+          ],
+          "knowledgePoints": [
+            "早期局限肾结核的答案疑点"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "sourceSubject": "surgery",
+        "lectureNumber": 18,
+        "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第18讲 · 外科 泌外感染和肿瘤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-18-page-01.webp",
+        "questionNumbers": [
+          172
+        ],
+        "knowledgePoints": [
+          "早期局限肾结核的答案疑点"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q173",
@@ -4553,9 +7380,93 @@
           "knowledgeConnections": [
             "骨折处理先评估稳定性、关节面和神经血管，再决定保守或手术。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "surgery",
+              "lectureNumber": 28,
+              "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "讲义第 6 页",
+              "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第6页",
+              "image": "surgery/lecture-pages/lecture-28-page-06.webp",
+              "questionNumbers": [
+                173
+              ],
+              "knowledgePoints": [
+                "桡骨远端骨折的保守治疗"
+              ]
+            },
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "surgery",
+              "lectureNumber": 28,
+              "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "讲义第 7 页",
+              "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第7页",
+              "image": "surgery/lecture-pages/lecture-28-page-07.webp",
+              "questionNumbers": [
+                173
+              ],
+              "knowledgePoints": [
+                "桡骨远端骨折的保守治疗"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "lectureNumber": 28,
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "讲义第 6 页",
+          "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第6页",
+          "image": "surgery/lecture-pages/lecture-28-page-06.webp",
+          "questionNumbers": [
+            173
+          ],
+          "knowledgePoints": [
+            "桡骨远端骨折的保守治疗"
+          ]
+        },
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "lectureNumber": 28,
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "讲义第 7 页",
+          "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第7页",
+          "image": "surgery/lecture-pages/lecture-28-page-07.webp",
+          "questionNumbers": [
+            173
+          ],
+          "knowledgePoints": [
+            "桡骨远端骨折的保守治疗"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "surgery",
+        "lectureNumber": 28,
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "讲义第 6 页",
+        "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第6页",
+        "image": "surgery/lecture-pages/lecture-28-page-06.webp",
+        "questionNumbers": [
+          173
+        ],
+        "knowledgePoints": [
+          "桡骨远端骨折的保守治疗"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q174",
@@ -4632,9 +7543,61 @@
           "knowledgeConnections": [
             "骨折愈合既需力学稳定，也需保存血供和软组织环境。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-29",
+              "sourceSubject": "surgery",
+              "lectureNumber": 29,
+              "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第29讲 · 外科 骨折概论 · 第2页",
+              "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+              "questionNumbers": [
+                174
+              ],
+              "knowledgePoints": [
+                "骨折血供与愈合"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-29",
+          "sourceSubject": "surgery",
+          "lectureNumber": 29,
+          "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第29讲 · 外科 骨折概论 · 第2页",
+          "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+          "questionNumbers": [
+            174
+          ],
+          "knowledgePoints": [
+            "骨折血供与愈合"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "sourceSubject": "surgery",
+        "lectureNumber": 29,
+        "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第29讲 · 外科 骨折概论 · 第2页",
+        "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+        "questionNumbers": [
+          174
+        ],
+        "knowledgePoints": [
+          "骨折血供与愈合"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q175",
@@ -4711,9 +7674,61 @@
           "knowledgeConnections": [
             "儿童成角或短缩可有代偿，旋转移位一般不能靠生长可靠纠正。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-29",
+              "sourceSubject": "surgery",
+              "lectureNumber": 29,
+              "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第29讲 · 外科 骨折概论 · 第3页",
+              "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+              "questionNumbers": [
+                175
+              ],
+              "knowledgePoints": [
+                "幼儿股骨干骨折的塑形能力"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-29",
+          "sourceSubject": "surgery",
+          "lectureNumber": 29,
+          "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第29讲 · 外科 骨折概论 · 第3页",
+          "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+          "questionNumbers": [
+            175
+          ],
+          "knowledgePoints": [
+            "幼儿股骨干骨折的塑形能力"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "sourceSubject": "surgery",
+        "lectureNumber": 29,
+        "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第29讲 · 外科 骨折概论 · 第3页",
+        "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+        "questionNumbers": [
+          175
+        ],
+        "knowledgePoints": [
+          "幼儿股骨干骨折的塑形能力"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q176",
@@ -4790,9 +7805,61 @@
           "knowledgeConnections": [
             "幼儿与成人股骨干骨折治疗方式不同，不能直接套成人内固定方案。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "surgery",
+              "lectureNumber": 28,
+              "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 11,
+              "pageLabel": "讲义第 11 页",
+              "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第11页",
+              "image": "surgery/lecture-pages/lecture-28-page-11.webp",
+              "questionNumbers": [
+                176
+              ],
+              "knowledgePoints": [
+                "幼儿股骨干骨折的牵引"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "lectureNumber": 28,
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 11,
+          "pageLabel": "讲义第 11 页",
+          "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第11页",
+          "image": "surgery/lecture-pages/lecture-28-page-11.webp",
+          "questionNumbers": [
+            176
+          ],
+          "knowledgePoints": [
+            "幼儿股骨干骨折的牵引"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "surgery",
+        "lectureNumber": 28,
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 11,
+        "pageLabel": "讲义第 11 页",
+        "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第11页",
+        "image": "surgery/lecture-pages/lecture-28-page-11.webp",
+        "questionNumbers": [
+          176
+        ],
+        "knowledgePoints": [
+          "幼儿股骨干骨折的牵引"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q177",
@@ -4869,9 +7936,61 @@
           "knowledgeConnections": [
             "开放骨折早期要抗菌、破伤风评估、清创及稳定骨折，并保护软组织。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-29",
+              "sourceSubject": "surgery",
+              "lectureNumber": 29,
+              "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第29讲 · 外科 骨折概论 · 第3页",
+              "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+              "questionNumbers": [
+                177
+              ],
+              "knowledgePoints": [
+                "开放性胫骨骨折的感染风险"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-29",
+          "sourceSubject": "surgery",
+          "lectureNumber": 29,
+          "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第29讲 · 外科 骨折概论 · 第3页",
+          "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+          "questionNumbers": [
+            177
+          ],
+          "knowledgePoints": [
+            "开放性胫骨骨折的感染风险"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "sourceSubject": "surgery",
+        "lectureNumber": 29,
+        "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第29讲 · 外科 骨折概论 · 第3页",
+        "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+        "questionNumbers": [
+          177
+        ],
+        "knowledgePoints": [
+          "开放性胫骨骨折的感染风险"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q178",
@@ -4948,9 +8067,61 @@
           "knowledgeConnections": [
             "膈神经来自C3～C5，高位颈髓损伤可迅速危及呼吸。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-26",
+              "sourceSubject": "surgery",
+              "lectureNumber": 26,
+              "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "讲义第 5 页",
+              "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第5页",
+              "image": "surgery/lecture-pages/lecture-26-page-05.webp",
+              "questionNumbers": [
+                178
+              ],
+              "knowledgePoints": [
+                "高位颈髓损伤的呼吸处理"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "sourceSubject": "surgery",
+          "lectureNumber": 26,
+          "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "讲义第 5 页",
+          "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第5页",
+          "image": "surgery/lecture-pages/lecture-26-page-05.webp",
+          "questionNumbers": [
+            178
+          ],
+          "knowledgePoints": [
+            "高位颈髓损伤的呼吸处理"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "sourceSubject": "surgery",
+        "lectureNumber": 26,
+        "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "讲义第 5 页",
+        "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第5页",
+        "image": "surgery/lecture-pages/lecture-26-page-05.webp",
+        "questionNumbers": [
+          178
+        ],
+        "knowledgePoints": [
+          "高位颈髓损伤的呼吸处理"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q179",
@@ -5027,9 +8198,61 @@
           "knowledgeConnections": [
             "骨盆前环关注尿道膀胱，后环还需警惕骶丛及神经损伤。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-26",
+              "sourceSubject": "surgery",
+              "lectureNumber": 26,
+              "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第3页",
+              "image": "surgery/lecture-pages/lecture-26-page-03.webp",
+              "questionNumbers": [
+                179
+              ],
+              "knowledgePoints": [
+                "耻骨骨折的相关损伤"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "sourceSubject": "surgery",
+          "lectureNumber": 26,
+          "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第3页",
+          "image": "surgery/lecture-pages/lecture-26-page-03.webp",
+          "questionNumbers": [
+            179
+          ],
+          "knowledgePoints": [
+            "耻骨骨折的相关损伤"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "sourceSubject": "surgery",
+        "lectureNumber": 26,
+        "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第3页",
+        "image": "surgery/lecture-pages/lecture-26-page-03.webp",
+        "questionNumbers": [
+          179
+        ],
+        "knowledgePoints": [
+          "耻骨骨折的相关损伤"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q180",
@@ -5106,9 +8329,61 @@
           "knowledgeConnections": [
             "创伤抢救按气道、呼吸、循环优先级同步推进，疑骨盆出血还需及时稳定骨盆。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-26",
+              "sourceSubject": "surgery",
+              "lectureNumber": 26,
+              "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第3页",
+              "image": "surgery/lecture-pages/lecture-26-page-03.webp",
+              "questionNumbers": [
+                180
+              ],
+              "knowledgePoints": [
+                "创伤休克的优先处理"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "sourceSubject": "surgery",
+          "lectureNumber": 26,
+          "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第3页",
+          "image": "surgery/lecture-pages/lecture-26-page-03.webp",
+          "questionNumbers": [
+            180
+          ],
+          "knowledgePoints": [
+            "创伤休克的优先处理"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "sourceSubject": "surgery",
+        "lectureNumber": 26,
+        "sourceFile": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第26讲 · 外科 躯干骨骨折 & 脊髓损伤 · 第3页",
+        "image": "surgery/lecture-pages/lecture-26-page-03.webp",
+        "questionNumbers": [
+          180
+        ],
+        "knowledgePoints": [
+          "创伤休克的优先处理"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q181",
@@ -5185,9 +8460,61 @@
           "knowledgeConnections": [
             "开放骨折、皮肤受压或神经血管受累等情况需另外评估手术。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "surgery",
+              "lectureNumber": 28,
+              "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第2页",
+              "image": "surgery/lecture-pages/lecture-28-page-02.webp",
+              "questionNumbers": [
+                181
+              ],
+              "knowledgePoints": [
+                "锁骨中段骨折的传统保守方案"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "lectureNumber": 28,
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第2页",
+          "image": "surgery/lecture-pages/lecture-28-page-02.webp",
+          "questionNumbers": [
+            181
+          ],
+          "knowledgePoints": [
+            "锁骨中段骨折的传统保守方案"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "surgery",
+        "lectureNumber": 28,
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第2页",
+        "image": "surgery/lecture-pages/lecture-28-page-02.webp",
+        "questionNumbers": [
+          181
+        ],
+        "knowledgePoints": [
+          "锁骨中段骨折的传统保守方案"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q182",
@@ -5264,9 +8591,61 @@
           "knowledgeConnections": [
             "髋脱位先辨方向，并检查坐骨神经及合并骨折。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "surgery",
+              "lectureNumber": 28,
+              "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "讲义第 8 页",
+              "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第8页",
+              "image": "surgery/lecture-pages/lecture-28-page-08.webp",
+              "questionNumbers": [
+                182
+              ],
+              "knowledgePoints": [
+                "髋关节前脱位的体位"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "lectureNumber": 28,
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "讲义第 8 页",
+          "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第8页",
+          "image": "surgery/lecture-pages/lecture-28-page-08.webp",
+          "questionNumbers": [
+            182
+          ],
+          "knowledgePoints": [
+            "髋关节前脱位的体位"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "surgery",
+        "lectureNumber": 28,
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "讲义第 8 页",
+        "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第8页",
+        "image": "surgery/lecture-pages/lecture-28-page-08.webp",
+        "questionNumbers": [
+          182
+        ],
+        "knowledgePoints": [
+          "髋关节前脱位的体位"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q183",
@@ -5343,9 +8722,61 @@
           "knowledgeConnections": [
             "Allis—髋关节；Hippocrates—肩关节，勿混淆。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "surgery",
+              "lectureNumber": 28,
+              "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "讲义第 8 页",
+              "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第8页",
+              "image": "surgery/lecture-pages/lecture-28-page-08.webp",
+              "questionNumbers": [
+                183
+              ],
+              "knowledgePoints": [
+                "Allis法复位"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "lectureNumber": 28,
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "讲义第 8 页",
+          "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第8页",
+          "image": "surgery/lecture-pages/lecture-28-page-08.webp",
+          "questionNumbers": [
+            183
+          ],
+          "knowledgePoints": [
+            "Allis法复位"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "surgery",
+        "lectureNumber": 28,
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "讲义第 8 页",
+        "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第8页",
+        "image": "surgery/lecture-pages/lecture-28-page-08.webp",
+        "questionNumbers": [
+          183
+        ],
+        "knowledgePoints": [
+          "Allis法复位"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q184",
@@ -5422,9 +8853,61 @@
           "knowledgeConnections": [
             "肩前脱位可有方肩畸形和Dugas征阳性。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "surgery",
+              "lectureNumber": 28,
+              "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第2页",
+              "image": "surgery/lecture-pages/lecture-28-page-02.webp",
+              "questionNumbers": [
+                184
+              ],
+              "knowledgePoints": [
+                "Hippocrates法复位"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "lectureNumber": 28,
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第2页",
+          "image": "surgery/lecture-pages/lecture-28-page-02.webp",
+          "questionNumbers": [
+            184
+          ],
+          "knowledgePoints": [
+            "Hippocrates法复位"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "surgery",
+        "lectureNumber": 28,
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第28讲 · 外科 四肢骨折和脱位 · 第2页",
+        "image": "surgery/lecture-pages/lecture-28-page-02.webp",
+        "questionNumbers": [
+          184
+        ],
+        "knowledgePoints": [
+          "Hippocrates法复位"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q185",
@@ -5501,9 +8984,61 @@
           "knowledgeConnections": [
             "断肢保存关键词：清洁、干燥、密封、间接低温，尽快转运。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-22",
+              "sourceSubject": "surgery",
+              "lectureNumber": 22,
+              "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第22讲 · 外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+              "questionNumbers": [
+                185
+              ],
+              "knowledgePoints": [
+                "离断指体的保存"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-22",
+          "sourceSubject": "surgery",
+          "lectureNumber": 22,
+          "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第22讲 · 外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+          "questionNumbers": [
+            185
+          ],
+          "knowledgePoints": [
+            "离断指体的保存"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "sourceSubject": "surgery",
+        "lectureNumber": 22,
+        "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第22讲 · 外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+        "questionNumbers": [
+          185
+        ],
+        "knowledgePoints": [
+          "离断指体的保存"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q186",
@@ -5580,9 +9115,93 @@
           "knowledgeConnections": [
             "椎间盘节段与受压神经根要区分：L4～L5常压L5，L5～S1常压S1。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "surgery",
+              "lectureNumber": 27,
+              "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "讲义第 3 页",
+              "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第3页",
+              "image": "surgery/lecture-pages/lecture-27-page-03.webp",
+              "questionNumbers": [
+                186
+              ],
+              "knowledgePoints": [
+                "腰椎间盘突出与S1神经根"
+              ]
+            },
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "surgery",
+              "lectureNumber": 27,
+              "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+              "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+              "questionNumbers": [
+                186
+              ],
+              "knowledgePoints": [
+                "腰椎间盘突出与S1神经根"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-27",
+          "sourceSubject": "surgery",
+          "lectureNumber": 27,
+          "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "讲义第 3 页",
+          "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第3页",
+          "image": "surgery/lecture-pages/lecture-27-page-03.webp",
+          "questionNumbers": [
+            186
+          ],
+          "knowledgePoints": [
+            "腰椎间盘突出与S1神经根"
+          ]
+        },
+        {
+          "lectureId": "lecture-27",
+          "sourceSubject": "surgery",
+          "lectureNumber": 27,
+          "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+          "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+          "questionNumbers": [
+            186
+          ],
+          "knowledgePoints": [
+            "腰椎间盘突出与S1神经根"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "sourceSubject": "surgery",
+        "lectureNumber": 27,
+        "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "讲义第 3 页",
+        "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第3页",
+        "image": "surgery/lecture-pages/lecture-27-page-03.webp",
+        "questionNumbers": [
+          186
+        ],
+        "knowledgePoints": [
+          "腰椎间盘突出与S1神经根"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q187",
@@ -5659,9 +9278,61 @@
           "knowledgeConnections": [
             "腰痛腿痛若新增鞍区感觉障碍、尿潴留或括约肌异常，应立即评估马尾综合征。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "surgery",
+              "lectureNumber": 27,
+              "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+              "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+              "questionNumbers": [
+                187
+              ],
+              "knowledgePoints": [
+                "腰椎间盘突出合并马尾综合征"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-27",
+          "sourceSubject": "surgery",
+          "lectureNumber": 27,
+          "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+          "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+          "questionNumbers": [
+            187
+          ],
+          "knowledgePoints": [
+            "腰椎间盘突出合并马尾综合征"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "sourceSubject": "surgery",
+        "lectureNumber": 27,
+        "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+        "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+        "questionNumbers": [
+          187
+        ],
+        "knowledgePoints": [
+          "腰椎间盘突出合并马尾综合征"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q188",
@@ -5680,7 +9351,7 @@
       "answerLayout": "rows",
       "topic": "骨科",
       "lectureIds": [
-        "lecture-21"
+        "lecture-27"
       ],
       "diseaseTags": [
         "精选执医",
@@ -5732,15 +9403,99 @@
           "answerDisplay": "A",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
-          "lectureId": "lecture-21",
+          "lectureId": "lecture-27",
           "knowledgePoint": "梨状肌综合征的疼痛定位",
           "explanation": "梨状肌综合征主要在臀部压迫坐骨神经，常以臀部和下肢痛为主而腰痛不明显，选A。它仍可出现坐骨神经刺激和直腿抬高异常，不能据此简单排除。",
           "knowledgeConnections": [
             "鉴别应结合臀部压痛、诱发动作、腰部体征及必要影像。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "surgery",
+              "lectureNumber": 27,
+              "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "讲义第 4 页",
+              "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+              "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+              "questionNumbers": [
+                188
+              ],
+              "knowledgePoints": [
+                "梨状肌综合征的疼痛定位"
+              ]
+            },
+            {
+              "lectureId": "lecture-22",
+              "sourceSubject": "surgery",
+              "lectureNumber": 22,
+              "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "讲义第 6 页",
+              "title": "外科第22讲 · 外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 第6页",
+              "image": "surgery/lecture-pages/lecture-22-page-06.webp",
+              "questionNumbers": [
+                188
+              ],
+              "knowledgePoints": [
+                "梨状肌综合征的疼痛定位"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-27",
+          "sourceSubject": "surgery",
+          "lectureNumber": 27,
+          "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "讲义第 4 页",
+          "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+          "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+          "questionNumbers": [
+            188
+          ],
+          "knowledgePoints": [
+            "梨状肌综合征的疼痛定位"
+          ]
+        },
+        {
+          "lectureId": "lecture-22",
+          "sourceSubject": "surgery",
+          "lectureNumber": 22,
+          "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "讲义第 6 页",
+          "title": "外科第22讲 · 外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 第6页",
+          "image": "surgery/lecture-pages/lecture-22-page-06.webp",
+          "questionNumbers": [
+            188
+          ],
+          "knowledgePoints": [
+            "梨状肌综合征的疼痛定位"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "sourceSubject": "surgery",
+        "lectureNumber": 27,
+        "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "讲义第 4 页",
+        "title": "外科第27讲 · 外科 颈腰椎退行性病（含损伤平面判断） · 第4页",
+        "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+        "questionNumbers": [
+          188
+        ],
+        "knowledgePoints": [
+          "梨状肌综合征的疼痛定位"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q189",
@@ -5817,9 +9572,61 @@
           "knowledgeConnections": [
             "网球肘多与腕伸肌群起点过度负荷有关。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-21",
+              "sourceSubject": "surgery",
+              "lectureNumber": 21,
+              "sourceFile": "21 27考研：外科 运动系统慢性损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第21讲 · 外科 运动系统慢性损伤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-21-page-01.webp",
+              "questionNumbers": [
+                189
+              ],
+              "knowledgePoints": [
+                "肱骨外上髁炎的休息部位"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-21",
+          "sourceSubject": "surgery",
+          "lectureNumber": 21,
+          "sourceFile": "21 27考研：外科 运动系统慢性损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第21讲 · 外科 运动系统慢性损伤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-21-page-01.webp",
+          "questionNumbers": [
+            189
+          ],
+          "knowledgePoints": [
+            "肱骨外上髁炎的休息部位"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "sourceSubject": "surgery",
+        "lectureNumber": 21,
+        "sourceFile": "21 27考研：外科 运动系统慢性损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第21讲 · 外科 运动系统慢性损伤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-21-page-01.webp",
+        "questionNumbers": [
+          189
+        ],
+        "knowledgePoints": [
+          "肱骨外上髁炎的休息部位"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q190",
@@ -5896,9 +9703,61 @@
           "knowledgeConnections": [
             "脊柱关节炎重点看炎性腰痛、骶髂炎、附着点炎及下肢关节受累。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-24",
+              "sourceSubject": "surgery",
+              "lectureNumber": 24,
+              "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+              "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+              "questionNumbers": [
+                190
+              ],
+              "knowledgePoints": [
+                "强直性脊柱炎的关节分布"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "sourceSubject": "surgery",
+          "lectureNumber": 24,
+          "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+          "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+          "questionNumbers": [
+            190
+          ],
+          "knowledgePoints": [
+            "强直性脊柱炎的关节分布"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "sourceSubject": "surgery",
+        "lectureNumber": 24,
+        "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+        "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+        "questionNumbers": [
+          190
+        ],
+        "knowledgePoints": [
+          "强直性脊柱炎的关节分布"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q191",
@@ -5975,9 +9834,61 @@
           "knowledgeConnections": [
             "炎性腰痛常年轻起病、晨僵、休息不改善而运动改善。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-24",
+              "sourceSubject": "surgery",
+              "lectureNumber": 24,
+              "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+              "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+              "questionNumbers": [
+                191
+              ],
+              "knowledgePoints": [
+                "炎性腰背痛与强直性脊柱炎"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "sourceSubject": "surgery",
+          "lectureNumber": 24,
+          "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+          "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+          "questionNumbers": [
+            191
+          ],
+          "knowledgePoints": [
+            "炎性腰背痛与强直性脊柱炎"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "sourceSubject": "surgery",
+        "lectureNumber": 24,
+        "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+        "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+        "questionNumbers": [
+          191
+        ],
+        "knowledgePoints": [
+          "炎性腰背痛与强直性脊柱炎"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q192",
@@ -6054,9 +9965,61 @@
           "knowledgeConnections": [
             "影像部位比“CT或MRI”字样更重要，双髋MRI并不等于专门骶髂关节检查。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-24",
+              "sourceSubject": "surgery",
+              "lectureNumber": 24,
+              "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+              "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+              "questionNumbers": [
+                192
+              ],
+              "knowledgePoints": [
+                "骶髂关节影像检查"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "sourceSubject": "surgery",
+          "lectureNumber": 24,
+          "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+          "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+          "questionNumbers": [
+            192
+          ],
+          "knowledgePoints": [
+            "骶髂关节影像检查"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "sourceSubject": "surgery",
+        "lectureNumber": 24,
+        "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第24讲 · 外科 非化脓性关节炎 · 第2页",
+        "image": "surgery/lecture-pages/lecture-24-page-02.webp",
+        "questionNumbers": [
+          192
+        ],
+        "knowledgePoints": [
+          "骶髂关节影像检查"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q193",
@@ -6133,9 +10096,61 @@
           "knowledgeConnections": [
             "骨关节炎：软骨退变、骨赘、软骨下骨硬化及囊变。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-24",
+              "sourceSubject": "surgery",
+              "lectureNumber": 24,
+              "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第24讲 · 外科 非化脓性关节炎 · 第1页",
+              "image": "surgery/lecture-pages/lecture-24-page-01.webp",
+              "questionNumbers": [
+                193
+              ],
+              "knowledgePoints": [
+                "膝骨关节炎"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "sourceSubject": "surgery",
+          "lectureNumber": 24,
+          "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第24讲 · 外科 非化脓性关节炎 · 第1页",
+          "image": "surgery/lecture-pages/lecture-24-page-01.webp",
+          "questionNumbers": [
+            193
+          ],
+          "knowledgePoints": [
+            "膝骨关节炎"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "sourceSubject": "surgery",
+        "lectureNumber": 24,
+        "sourceFile": "24 27考研：外科 非化脓性关节炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第24讲 · 外科 非化脓性关节炎 · 第1页",
+        "image": "surgery/lecture-pages/lecture-24-page-01.webp",
+        "questionNumbers": [
+          193
+        ],
+        "knowledgePoints": [
+          "膝骨关节炎"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q194",
@@ -6213,9 +10228,61 @@
           "knowledgeConnections": [
             "局部影像看范围和结构风险，全身检查评估有无其他骨转移，最终按需取病理。"
           ],
-          "explanationOrigin": "复习整理，非出版方官方解析"
+          "explanationOrigin": "复习整理，非出版方官方解析",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "surgery",
+              "lectureNumber": 25,
+              "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第25讲 · 外科 骨肿瘤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-25-page-01.webp",
+              "questionNumbers": [
+                194
+              ],
+              "knowledgePoints": [
+                "恶性肿瘤骨转移的全身筛查"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "surgery",
+          "lectureNumber": 25,
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第25讲 · 外科 骨肿瘤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-25-page-01.webp",
+          "questionNumbers": [
+            194
+          ],
+          "knowledgePoints": [
+            "恶性肿瘤骨转移的全身筛查"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "sourceSubject": "surgery",
+        "lectureNumber": 25,
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "讲义第 1 页",
+        "title": "外科第25讲 · 外科 骨肿瘤 · 第1页",
+        "image": "surgery/lecture-pages/lecture-25-page-01.webp",
+        "questionNumbers": [
+          194
+        ],
+        "knowledgePoints": [
+          "恶性肿瘤骨转移的全身筛查"
+        ]
+      }
     },
     {
       "id": "practitioner-upper-20261019-q195",
@@ -6360,7 +10427,25 @@
             "骨巨细胞瘤多发生于骨骺闭合后的长骨骨端，膝周常见。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第195题选项"
+          "optionCategory": "第195题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "surgery",
+              "lectureNumber": 25,
+              "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第25讲 · 外科 骨肿瘤 · 第2页",
+              "image": "surgery/lecture-pages/lecture-25-page-02.webp",
+              "questionNumbers": [
+                195
+              ],
+              "knowledgePoints": [
+                "骨巨细胞瘤的影像"
+              ]
+            }
+          ]
         },
         {
           "number": 196,
@@ -6381,7 +10466,25 @@
             "影像提供诊断方向和范围，病理决定性质，活检不能随意选路径。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第196题选项"
+          "optionCategory": "第196题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "surgery",
+              "lectureNumber": 25,
+              "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "讲义第 1 页",
+              "title": "外科第25讲 · 外科 骨肿瘤 · 第1页",
+              "image": "surgery/lecture-pages/lecture-25-page-01.webp",
+              "questionNumbers": [
+                196
+              ],
+              "knowledgePoints": [
+                "骨肿瘤的病理确诊"
+              ]
+            }
+          ]
         },
         {
           "number": 197,
@@ -6402,11 +10505,83 @@
             "骨肿瘤手术范围与生物学行为和局部范围对应，不因“骨肿瘤”三字就截肢。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "optionCategory": "第197题选项"
+          "optionCategory": "第197题选项",
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "surgery",
+              "lectureNumber": 25,
+              "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "讲义第 2 页",
+              "title": "外科第25讲 · 外科 骨肿瘤 · 第2页",
+              "image": "surgery/lecture-pages/lecture-25-page-02.webp",
+              "questionNumbers": [
+                197
+              ],
+              "knowledgePoints": [
+                "良性局限骨肿瘤的处理"
+              ]
+            }
+          ]
         }
       ],
       "sharedStem": "女，37 岁，左股骨下端肿痛和活动受限 1 年。查体：左股骨下端局部肿胀与压痛显著，触诊有乒乓球样感觉。X 线检查：骨端无骨膜反应，左股骨下端骨皮质变薄，呈肥皂泡样改变。",
-      "sharedQuestionCount": 3
+      "sharedQuestionCount": 3,
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "surgery",
+          "lectureNumber": 25,
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "讲义第 2 页",
+          "title": "外科第25讲 · 外科 骨肿瘤 · 第2页",
+          "image": "surgery/lecture-pages/lecture-25-page-02.webp",
+          "questionNumbers": [
+            195,
+            197
+          ],
+          "knowledgePoints": [
+            "骨巨细胞瘤的影像",
+            "良性局限骨肿瘤的处理"
+          ]
+        },
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "surgery",
+          "lectureNumber": 25,
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "讲义第 1 页",
+          "title": "外科第25讲 · 外科 骨肿瘤 · 第1页",
+          "image": "surgery/lecture-pages/lecture-25-page-01.webp",
+          "questionNumbers": [
+            196
+          ],
+          "knowledgePoints": [
+            "骨肿瘤的病理确诊"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "sourceSubject": "surgery",
+        "lectureNumber": 25,
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "讲义第 2 页",
+        "title": "外科第25讲 · 外科 骨肿瘤 · 第2页",
+        "image": "surgery/lecture-pages/lecture-25-page-02.webp",
+        "questionNumbers": [
+          195,
+          197
+        ],
+        "knowledgePoints": [
+          "骨巨细胞瘤的影像",
+          "良性局限骨肿瘤的处理"
+        ]
+      }
     }
   ],
   "pages": [
@@ -6604,6 +10779,16 @@
       "page": 39,
       "sourceKey": "practitioner-upper-20261019",
       "image": "shared/practitioner-upper-20261019/page-39.webp"
+    }
+  ],
+  "lectures": [
+    {
+      "number": 12,
+      "title": "内科+外科 肺癌",
+      "file": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+      "pageCount": 6,
+      "id": "med-lecture-12",
+      "sourceSubject": "med"
     }
   ]
 }

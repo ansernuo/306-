@@ -11,6 +11,7 @@ import hashlib
 import json
 import re
 from pypdf import PdfReader
+from practitioner_upper_lectures import attach_lectures
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_NAME = '精选执业医师内、外科真题（上） 天天师兄27考研 个性化复习！.pdf'
@@ -64,11 +65,11 @@ SURGERY_RANGES = [
     (121,122,34),(123,123,33),(124,124,2),(125,126,1),(127,127,4),
     (128,132,3),(133,133,4),(134,134,5),(135,135,6),(136,136,7),
     (137,138,12),(139,146,8),(147,148,9),(149,149,10),
-    (150,151,16),(152,152,15),(153,153,16),(154,156,15),
-    (157,157,17),(158,166,19),(167,168,18),(169,169,20),
+    (150,151,16),(152,152,15),(153,153,16),(154,155,15),(156,156,6),
+    (157,157,17),(158,166,19),(167,168,18),(169,169,12),
     (170,172,18),(173,173,28),(174,175,29),(176,176,28),
     (177,177,29),(178,180,26),(181,184,28),(185,185,22),
-    (186,187,27),(188,189,21),(190,193,24),(194,197,25),
+    (186,188,27),(189,189,21),(190,193,24),(194,197,25),
 ]
 SURGERY_TOPICS = {
     1:'颈部疾病',2:'胸部疾病',3:'乳房疾病',4:'胸部疾病',
@@ -200,7 +201,9 @@ def build():
                 assert shared_stem
             common = bool(qq[0].get('commonOptions'))
             label = str(n) if n == end else f'{n}–{end}'
-            lectures = list(dict.fromkeys(f'lecture-{assignment[q["number"]]:02d}' for q in qq))
+            def chapter_id(number):
+                return 'med-lecture-12' if number == 133 else f'lecture-{assignment[number]:02d}'
+            lectures = list(dict.fromkeys(chapter_id(q['number']) for q in qq))
             topics = {topic(subject,assignment[q['number']]) for q in qq}
             assert len(topics) == 1
             g = {'id':f'{KEY}-q{n:03d}', 'page':qq[0]['pages'][0],
@@ -242,7 +245,7 @@ def build():
                     'answer':[key_for(adopted)], 'answerDisplay':adopted,
                     'answerMode':'单选',
                     'answerState':'待原题页核对' if num in PENDING else '按截图及明确更正录入',
-                    'lectureId':f'lecture-{assignment[num]:02d}', 'knowledgePoint':notes[num][0],
+                    'lectureId':chapter_id(num), 'knowledgePoint':notes[num][0],
                     'explanation':notes[num][1], 'knowledgeConnections':[notes[num][2]],
                     'explanationOrigin':'复习整理，非出版方官方解析'}
                 if separate:
@@ -268,6 +271,7 @@ def build():
             'explanationNote':'逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。'},
             'groups':groups,'pages':[{'page':p,'sourceKey':KEY,
                 'image':f'shared/{KEY}/page-{p:02d}.webp'} for p in range(1,40)]}
+    attach_lectures(result)
     return result
 
 

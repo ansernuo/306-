@@ -139,8 +139,8 @@ const CONTENT_LOADERS = {
     ])
     return appendSupplement({
       ...surgeryContent,
-      meta: { ...surgeryContent.meta, lectureCount: surgeryContent.meta.lectureCount + surgeryTeacherContent.lectures.length + surgeryExamContent.lectures.length },
-      lectures: [...surgeryContent.lectures, ...surgeryTeacherContent.lectures, ...surgeryExamContent.lectures],
+      meta: { ...surgeryContent.meta, lectureCount: surgeryContent.meta.lectureCount + surgeryTeacherContent.lectures.length + surgeryExamContent.lectures.length + surgeryPractitionerContent.lectures.length },
+      lectures: [...surgeryContent.lectures, ...surgeryTeacherContent.lectures, ...surgeryExamContent.lectures, ...surgeryPractitionerContent.lectures],
       topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
       groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryChronicInjuryContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
     }, {
@@ -1195,7 +1195,7 @@ function App() {
       </div>
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
-      {showLectureEvidence && group.lectureEvidence && <LectureEvidenceModal evidence={group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
+      {showLectureEvidence && group.lectureEvidence && <LectureEvidenceModal evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
         {showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
@@ -1385,6 +1385,7 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   const supplementDescription = ['按考点归入讲义', group.supplementNotice ?? '答案尚未逐项复核'].filter(Boolean).join('；')
   const currentEvidence = group.lectureEvidence
+  const evidencePages = group.lectureEvidencePages?.length ? group.lectureEvidencePages : (currentEvidence ? [currentEvidence] : [])
   const currentEvidenceLocation = currentEvidence?.pageLabel || (typeof currentEvidence?.page === 'number' ? `对应第 ${currentEvidence.page} 页` : (currentEvidence?.page ? `对应${currentEvidence.page}` : '已关联讲义'))
   return (
     <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
@@ -1394,11 +1395,11 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
         <span className="evidence-rail-label">讲义</span>
       </div>
       <div className="evidence-panel-content">
-      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name={group.supplement ? 'file' : 'check'} size={18} /></span><div><h2>{group.supplement ? '章节定位' : '讲义依据'}</h2><p>{group.supplement ? supplementDescription : (lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义')}</p></div>{group.supplement ? null : <span className="verified-dot"><Icon name="check" size={13} /></span>}<button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
+      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name={group.supplement ? 'file' : 'check'} size={18} /></span><div><h2>{group.supplement && !currentEvidence ? '章节定位' : '讲义依据'}</h2><p>{group.supplement ? supplementDescription : (lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义')}</p></div>{group.supplement ? null : <span className="verified-dot"><Icon name="check" size={13} /></span>}<button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? currentEvidenceLocation : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">对应</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
-      {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>对应讲义页</span><strong>{currentEvidence.title}</strong><p>本题组对应的讲义原页，可点击图片放大查看。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
+      {evidencePages.map((evidence) => <div className="evidence-section lecture-proof" key={evidence.image}><div className="lecture-proof-heading"><span>{evidence.questionNumbers?.length ? `第 ${evidence.questionNumbers.join('、')} 题对应讲义` : '对应讲义页'}</span><strong>{evidence.title}</strong><p>{evidence.knowledgePoints?.length ? `${evidence.knowledgePoints.join('；')}。点击图片放大查看。` : '本题组对应的讲义原页，可点击图片放大查看。'}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(evidence)} aria-label={`放大查看${evidence.title}`}><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} loading="lazy" /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>)}
       {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
       </div>
     </aside>

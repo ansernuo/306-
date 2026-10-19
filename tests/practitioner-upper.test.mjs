@@ -86,7 +86,7 @@ test('knowledge chapters exist, and all original page references are usable', ()
   for (const [subject, data] of [['med', med], ['surgery', surgery]]) {
     const base = read(`${subject}-data`)
     for (const g of data.groups) {
-      for (const lid of g.lectureIds) assert.ok(base.lectures.some(l => l.id === lid), `${g.id}: ${lid}`)
+      for (const lid of g.lectureIds) assert.ok([...base.lectures, ...(data.lectures || [])].some(l => l.id === lid), `${g.id}: ${lid}`)
       assert.ok(g.stems.every(s => g.lectureIds.includes(s.lectureId)))
       for (const p of g.sourcePages) {
         const page = data.pages.find(x => x.sourceKey === g.sourceKey && x.page === p)
@@ -101,6 +101,34 @@ test('knowledge chapters exist, and all original page references are usable', ()
   assert.equal(group(116).topic, '外科总论')
   assert.equal(group(139).topic, '小肠与阑尾疾病')
   assert.equal(group(197).topic, '骨科')
+})
+
+test('every question links to existing exact lecture pages, and large cases retain all references', () => {
+  for (const g of groups) {
+    assert.deepEqual(g.lectureEvidence, g.lectureEvidencePages[0])
+    assert.equal(new Set(g.lectureEvidencePages.map(e => e.image)).size, g.lectureEvidencePages.length)
+    for (const s of g.stems) {
+      assert.ok(s.lectureEvidencePages.length, String(s.number))
+      for (const ref of s.lectureEvidencePages) {
+        const lecture = read(`${ref.sourceSubject}-data`).lectures.find(l => l.number === ref.lectureNumber)
+        assert.ok(lecture, `${s.number}: ${ref.title}`)
+        assert.equal(ref.sourceFile, lecture.file)
+        assert.ok(ref.page > 0 && ref.page <= lecture.pageCount)
+        assert.ok(existsSync(resolve('public', ref.image)), `${s.number}: ${ref.image}`)
+        const combined = g.lectureEvidencePages.find(e => e.image === ref.image)
+        assert.ok(combined.questionNumbers.includes(s.number))
+        assert.ok(combined.knowledgePoints.includes(s.knowledgePoint))
+      }
+    }
+  }
+  assert.equal(group(30).lectureEvidencePages.length, 3)
+  assert.match(group(24).lectureEvidence.image, /med\/lecture-pages\/lecture-10-page-02/)
+  assert.match(group(68).lectureEvidence.image, /surgery\/lecture-pages\/lecture-14-page-02/)
+  assert.equal(stem(133).lectureId, 'med-lecture-12')
+  assert.equal(group(133).lectureEvidence.sourceSubject, 'med')
+  assert.equal(stem(156).lectureId, 'lecture-06')
+  assert.equal(stem(169).lectureId, 'lecture-12')
+  assert.equal(stem(188).lectureId, 'lecture-27')
 })
 
 test('all questions have authored explanations; uncertain supplied answers are not silently replaced', () => {
