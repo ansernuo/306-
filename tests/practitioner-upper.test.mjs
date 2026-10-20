@@ -132,7 +132,7 @@ test('every question links to existing exact lecture pages, and large cases reta
 })
 
 test('all questions have authored explanations; uncertain supplied answers are not silently replaced', () => {
-  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90,106,162,172])
+  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90,162,172])
   for (const s of stems) {
     assert.ok(s.explanation.length > 25, String(s.number))
     assert.ok(s.knowledgePoint.length > 3)
@@ -153,4 +153,20 @@ test('all questions have authored explanations; uncertain supplied answers are n
   assert.deepEqual(stem(103).answerCorrection, { from:'E', to:'A', source:'用户于2026-10-20明确确认：第102～104题题组的第二小题选A' })
   assert.match(stem(103).explanation, /本题选A.*0.9%生理盐水.*不需常规补碳酸氢钠.*不能.*选择E/)
   assert.equal(stem(103).explanationReferences[0].url, 'https://doi.org/10.2337/dci24-0032')
+})
+
+test('confirmed question106 E is graded normally and invalidates the old pending attempt', () => {
+  assert.equal(stem(106).answerRaw, 'E')
+  assert.deepEqual(stem(106).answer, ['q106-E'])
+  assert.equal(stem(106).answerDisplay, 'E')
+  assert.equal(stem(106).answerState, '按截图及明确更正录入')
+  assert.ok(!stem(106).reviewReason)
+  assert.deepEqual(stem(106).answerConfirmation, { answer:'E', source:'用户于2026-10-20明确确认：第105～107题题组的第二小题选E' })
+  assert.equal(group(106).answerRevision, '20261020-q106-E-confirmed-v3')
+  assert.equal(group(106).answerSourceLabel, '截图及用户确认')
+  assert.deepEqual(group(106).stems.map(s => s.answerDisplay), ['D', 'E', 'B'])
+  assert.ok(group(106).stems.every(s => s.answerState !== '待原题页核对'))
+  assert.ok(!med.meta.pendingQuestions.includes(106))
+  assert.match(stem(106).explanation, /本题选E（玻璃体切割术）/)
+  assert.doesNotMatch(stem(106).explanation, /待复核|难认定|争议/)
 })

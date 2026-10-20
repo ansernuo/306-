@@ -54,8 +54,7 @@
       72,
       74,
       89,
-      90,
-      106
+      90
     ],
     "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。",
     "lectureEvidenceStemCount": 115
@@ -13627,10 +13626,10 @@
         "糖尿病肾病的早期筛查"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第106题已由用户确认答案E，恢复正常判分；其余答案依所给截图，解析为复习整理。",
+      "answerSourceLabel": "截图及用户确认",
+      "answerSourceName": "2026-10-19答案截图及2026-10-20用户明确确认",
+      "answerRevision": "20261020-q106-E-confirmed-v3",
       "options": [
         {
           "key": "q105-A",
@@ -13774,16 +13773,19 @@
           ],
           "answerDisplay": "E",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-38",
           "knowledgePoint": "增殖性糖尿病视网膜病变的治疗",
-          "explanation": "截图答案E且评论列为争议。玻璃体切割可用于不吸收的积血、牵拉或视网膜脱离；全视网膜光凝也是增殖性病变的重要治疗。本题未交代积血持续时间、程度和脱离情况，难认定E为唯一方案，保留E待复核。",
+          "explanation": "本题选E（玻璃体切割术），已由用户明确确认。题干已有玻璃体积血、纤维血管增殖并明显影响视力，考查增殖性糖尿病视网膜病变的眼科处理。玻璃体切割术用于处理不吸收的积血及相关牵拉等眼底并发症；单纯调整降糖药不能替代眼底病变治疗。",
           "knowledgeConnections": [
-            "激光、抗VEGF及玻璃体手术需根据眼底具体表现选择，不能仅按“Ⅴ期”一刀切。"
+            "区分全身血糖管理与眼底并发症处理；玻璃体手术、光凝及抗VEGF需结合积血、牵拉和视网膜脱离等具体表现选择。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
           "optionCategory": "第106题选项",
-          "reviewReason": "截图评论列为争议题",
+          "answerConfirmation": {
+            "answer": "E",
+            "source": "用户于2026-10-20明确确认：第105～107题题组的第二小题选E"
+          },
           "explanationReferences": [
             {
               "title": "NICE NG242：增殖性视网膜病变治疗",

@@ -28,7 +28,7 @@ ANSWER_ROWS = [
     'ECDCE', 'CCBDA', 'EDADC', 'ECBDB', 'AA',
 ]
 ANSWERS = ''.join(ANSWER_ROWS)
-PENDING = {72, 74, 89, 90, 106, 162, 172}
+PENDING = {72, 74, 89, 90, 162, 172}
 # First subquestion -> (last, beginning of the first actual question).
 SHARED = {
     5: (6, '该患者此时'), 11: (12, '该患者呼吸困难'),
@@ -228,6 +228,11 @@ def build():
                     answerSourceLabel='截图及用户更正',
                     answerSourceName='2026-10-19答案截图及2026-10-20用户明确更正',
                     supplementNotice='第103题按用户确认更正为A，其余答案依所给截图；解析为复习整理。')
+            if n == 105:
+                g.update(answerRevision='20261020-q106-E-confirmed-v3',
+                    answerSourceLabel='截图及用户确认',
+                    answerSourceName='2026-10-19答案截图及2026-10-20用户明确确认',
+                    supplementNotice='第106题已由用户确认答案E，恢复正常判分；其余答案依所给截图，解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -264,6 +269,8 @@ def build():
                     s['answerCorrection'] = {'from':'C','to':'A','source':'用户于2026-10-19明确确认：这道题选A'}
                 if num==103:
                     s['answerCorrection'] = {'from':'E','to':'A','source':'用户于2026-10-20明确确认：第102～104题题组的第二小题选A'}
+                if num==106:
+                    s['answerConfirmation'] = {'answer':'E','source':'用户于2026-10-20明确确认：第105～107题题组的第二小题选E'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)
