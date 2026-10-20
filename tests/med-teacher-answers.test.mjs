@@ -12,7 +12,7 @@ const expected = {
   5: ['D','D','B','A','D','ABCD','C','AB','C','B','D','A'],
   6: ['D','B','B','C','A','A','C','B','A','A','ABD','AD','D','D','B'],
   7: ['ACD','AC','C','A','D','C','B','A','C','C','A','A','D','A','ABC'],
-  8: ['D','C','','CD','ACD','B','C','B','C','B','A','D','D','B','B','A','D','A','D'],
+  8: ['D','C','A','CD','ACD','B','C','B','C','B','A','D','D','B','B','A','D','A','D'],
 }
 
 test('all 126 source questions retain scoped answers including reviewed PNH exceptions', () => {
@@ -25,7 +25,7 @@ test('all 126 source questions retain scoped answers including reviewed PNH exce
       assert.ok(!seen.has(identity), identity)
       seen.add(identity)
       const choices = g.options.filter(o => !s.optionCategory || o.category === s.optionCategory)
-      assert.equal(choices.length, identity === '8:3' ? 3 : 4, identity)
+      assert.equal(choices.length, 4, identity)
       assert.ok(s.answer.every(k => choices.some(o => o.key === k)), identity)
       const letters = s.answer.map(k => {
         const o = choices.find(o => o.key === k)
@@ -38,15 +38,22 @@ test('all 126 source questions retain scoped answers including reviewed PNH exce
     }
   }
   assert.equal(seen.size, 126)
-  assert.equal(answered, 125)
+  assert.equal(answered, 126)
   assert.equal(data.meta.answeredStemCount, answered)
 })
 
-test('missing source answer is explicit and not fabricated', () => {
+test('diabetic peripheral neuropathy restores A electromyography and normal grading', () => {
   const g = data.groups.find(g => g.id === 'med-teacher-08-01-03')
+  const choices = g.options.filter(o => o.category === '第 3 题选项')
   assert.ok(g.sharedStem)
-  assert.deepEqual(g.stems[2].answer, [])
-  assert.match(g.supplementNotice, /缺A选项.*未标红答案/)
+  assert.deepEqual(choices.map(o => o.displayKey), ['A', 'B', 'C', 'D'])
+  assert.equal(choices[0].label, '肌电图')
+  assert.deepEqual(g.stems[2].answer, ['q3-A'])
+  assert.equal(g.stems[2].answerRaw, 'A')
+  assert.equal(g.stems[2].sourceAnswerRaw, '')
+  assert.ok(g.answerRevision)
+  assert.doesNotMatch(g.stems[2].answerState + g.supplementNotice, /缺失|待核对|暂不判分/)
+  assert.match(g.stems[2].explanation, /肌电图.*神经传导/)
 })
 
 test('cardiac table stems contain no verbose instructions or answer-revealing hints', () => {
