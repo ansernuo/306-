@@ -13328,10 +13328,10 @@
         "DKA治疗中的补钾"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第103题按用户确认更正为A，其余答案依所给截图；解析为复习整理。",
+      "answerSourceLabel": "截图及用户更正",
+      "answerSourceName": "2026-10-19答案截图及2026-10-20用户明确更正",
+      "answerRevision": "20261020-q103-A-v3",
       "options": [
         {
           "key": "q102-A",
@@ -13471,19 +13471,30 @@
           "text": "第103题：针对该患者的 pH 值降低，合理的治疗是",
           "answerRaw": "E",
           "answer": [
-            "q103-E"
+            "q103-A"
           ],
-          "answerDisplay": "E",
+          "answerDisplay": "A",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-38",
           "knowledgePoint": "DKA的酸中毒处理",
-          "explanation": "pH7.25时不需常规补碳酸氢钠，本卷选E。“不予处理”应理解为不额外针对酸中毒补碱，整体DKA仍必须补液及应用胰岛素，改善灌注并停止酮体生成，不能理解为放任不治。",
+          "explanation": "本题选A（静脉滴注0.9%生理盐水），已按用户确认更正。患者为DKA，伴脱水及血压偏低，pH7.25时不需常规补碳酸氢钠。应补充等渗液体改善循环灌注，并配合胰岛素抑制酮体生成，使酸中毒逐渐纠正；不能因无需常规补碱而选择E“不予处理”。",
           "knowledgeConnections": [
-            "不直接补碱不等于不治疗；补碱仅限特定严重酸血症情境。"
+            "不直接补碱不等于不治疗；DKA仍需补液、胰岛素及电解质监测。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
           "optionCategory": "第103题选项",
+          "answerCorrection": {
+            "from": "E",
+            "to": "A",
+            "source": "用户于2026-10-20明确确认：第102～104题题组的第二小题选A"
+          },
+          "explanationReferences": [
+            {
+              "title": "ADA/EASD高血糖危象共识：补液与酸中毒处理",
+              "url": "https://doi.org/10.2337/dci24-0032"
+            }
+          ],
           "lectureEvidencePages": [
             {
               "lectureId": "lecture-38",

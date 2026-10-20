@@ -89,11 +89,12 @@ REFERENCES = {
     'testis': ('EAU隐睾指南：手术完成时间', 'https://uroweb.org/guidelines/paediatric-urology/chapter/management-of-undescended-testes'),
     'infection': ('EAU泌尿感染指南：泌尿生殖结核', 'https://uroweb.org/guidelines/urological-infections/chapter/the-guideline'),
     'dapt': ('AHA/ACC慢性冠脉病指南：抗血小板疗程', 'https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168'),
+    'dka': ('ADA/EASD高血糖危象共识：补液与酸中毒处理', 'https://doi.org/10.2337/dci24-0032'),
 }
 QUESTION_REFS = {24:['ards'],46:['dapt'],72:['hcc'],74:['pancreatitis'],
     89:['mds'],90:['mds'],106:['retina'],139:['intussusception'],
     161:['trauma'],162:['trauma'],169:['testis'],170:['infection'],
-    171:['infection'],172:['infection']}
+    171:['infection'],172:['infection'],103:['dka']}
 
 
 def clean(text):
@@ -222,6 +223,11 @@ def build():
                 g.update(answerRevision='20261019-q24-A-v3',
                     answerSourceLabel='用户确认答案',
                     supplementNotice='第24题按用户确认更正为A；解析为复习整理。')
+            if n == 102:
+                g.update(answerRevision='20261020-q103-A-v3',
+                    answerSourceLabel='截图及用户更正',
+                    answerSourceName='2026-10-19答案截图及2026-10-20用户明确更正',
+                    supplementNotice='第103题按用户确认更正为A，其余答案依所给截图；解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -239,7 +245,7 @@ def build():
                             o['category'] = category
                         g['options'].append(o)
                 raw = ANSWERS[num-1]
-                adopted = {24:'A',139:'B'}.get(num,raw)
+                adopted = {24:'A',103:'A',139:'B'}.get(num,raw)
                 s = {'number':num,'sourceQuestion':num,'sourcePage':q['pages'][0],
                     'text':f'第{num}题：{q["text"]}', 'answerRaw':raw,
                     'answer':[key_for(adopted)], 'answerDisplay':adopted,
@@ -256,6 +262,8 @@ def build():
                     s['answerCorrection'] = {'from':'A','to':'B','source':'用户截图中的作者评论：139选B，气钡灌肠'}
                 if num==24:
                     s['answerCorrection'] = {'from':'C','to':'A','source':'用户于2026-10-19明确确认：这道题选A'}
+                if num==103:
+                    s['answerCorrection'] = {'from':'E','to':'A','source':'用户于2026-10-20明确确认：第102～104题题组的第二小题选A'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)
