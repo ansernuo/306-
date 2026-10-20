@@ -10164,7 +10164,7 @@
         38,
         39
       ],
-      "title": "精选执医（上） · 第194题 · 恶性肿瘤骨转移的全身筛查",
+      "title": "精选执医（上） · 第194题 · 骨转移病灶的局部MRI评估",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -10175,13 +10175,13 @@
       "diseaseTags": [
         "精选执医",
         "执业医师真题（上）",
-        "恶性肿瘤骨转移的全身筛查"
+        "骨转移病灶的局部MRI评估"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第194题按用户确认更正为C（右髋关节MRI）；解析为复习整理。",
+      "answerSourceLabel": "用户确认答案",
+      "answerSourceName": "2026-10-20用户明确更正：第194题选C",
+      "answerRevision": "20261020-q194-C-v3",
       "options": [
         {
           "key": "A",
@@ -10217,18 +10217,23 @@
           "text": "第194题：男，63 岁。右股骨上端疼痛 20 天。1 年前曾行肺癌根治术。查体：右股骨上端肿胀、压痛，右髋关节活动受限。X 线示右股骨颈及转子下溶骨性破坏。为明确诊断，最有意义的影像学检查是",
           "answerRaw": "D",
           "answer": [
-            "D"
+            "C"
           ],
-          "answerDisplay": "D",
+          "answerDisplay": "C",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-25",
-          "knowledgePoint": "恶性肿瘤骨转移的全身筛查",
-          "explanation": "肺癌术后出现局部骨痛和溶骨性破坏应怀疑骨转移，所列全身骨骼核素扫描用于寻找多发骨病灶，选D。某些纯溶骨病灶核素显像可漏诊，仍需结合局部MRI、CT或其他检查。",
+          "knowledgePoint": "骨转移病灶的局部MRI评估",
+          "explanation": "本题选C（右髋关节MRI），已按用户确认更正。患者有肺癌手术史，X线已显示右股骨颈及转子下溶骨性破坏，病灶位置已经明确。题目要求进一步明确该处病变，局部MRI有助于评估骨髓病变范围及周围软组织受累。全身骨骼核素扫描主要用于寻找其他骨病灶、评估全身骨转移分布，不能把本题改理解成全身筛查。",
           "knowledgeConnections": [
-            "局部影像看范围和结构风险，全身检查评估有无其他骨转移，最终按需取病理。"
+            "先区分已知病灶的局部进一步评估与全身转移筛查；MRI提供局部影像信息，病理定性仍需按诊疗需要取材。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
+          "answerCorrection": {
+            "from": "D",
+            "to": "C",
+            "source": "用户于2026-10-20明确确认：X线已定位右股骨颈及转子区域病灶，第194题选C"
+          },
           "lectureEvidencePages": [
             {
               "lectureId": "lecture-25",
@@ -10243,7 +10248,7 @@
                 194
               ],
               "knowledgePoints": [
-                "恶性肿瘤骨转移的全身筛查"
+                "骨转移病灶的局部MRI评估"
               ]
             }
           ]
@@ -10263,7 +10268,7 @@
             194
           ],
           "knowledgePoints": [
-            "恶性肿瘤骨转移的全身筛查"
+            "骨转移病灶的局部MRI评估"
           ]
         }
       ],
@@ -10280,7 +10285,7 @@
           194
         ],
         "knowledgePoints": [
-          "恶性肿瘤骨转移的全身筛查"
+          "骨转移病灶的局部MRI评估"
         ]
       }
     },

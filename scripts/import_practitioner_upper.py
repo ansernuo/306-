@@ -233,6 +233,11 @@ def build():
                     answerSourceLabel='截图及用户确认',
                     answerSourceName='2026-10-19答案截图及2026-10-20用户明确确认',
                     supplementNotice='第106题已由用户确认答案E，恢复正常判分；其余答案依所给截图，解析为复习整理。')
+            if n == 194:
+                g.update(answerRevision='20261020-q194-C-v3',
+                    answerSourceLabel='用户确认答案',
+                    answerSourceName='2026-10-20用户明确更正：第194题选C',
+                    supplementNotice='第194题按用户确认更正为C（右髋关节MRI）；解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -250,7 +255,7 @@ def build():
                             o['category'] = category
                         g['options'].append(o)
                 raw = ANSWERS[num-1]
-                adopted = {24:'A',103:'A',139:'B'}.get(num,raw)
+                adopted = {24:'A',103:'A',139:'B',194:'C'}.get(num,raw)
                 s = {'number':num,'sourceQuestion':num,'sourcePage':q['pages'][0],
                     'text':f'第{num}题：{q["text"]}', 'answerRaw':raw,
                     'answer':[key_for(adopted)], 'answerDisplay':adopted,
@@ -271,6 +276,8 @@ def build():
                     s['answerCorrection'] = {'from':'E','to':'A','source':'用户于2026-10-20明确确认：第102～104题题组的第二小题选A'}
                 if num==106:
                     s['answerConfirmation'] = {'answer':'E','source':'用户于2026-10-20明确确认：第105～107题题组的第二小题选E'}
+                if num==194:
+                    s['answerCorrection'] = {'from':'D','to':'C','source':'用户于2026-10-20明确确认：X线已定位右股骨颈及转子区域病灶，第194题选C'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)
