@@ -419,3 +419,11 @@ button:disabled { cursor: default; }
 }
 
 .submit-summary.pending-answer-summary { color: #8a6500; }
+
+/* Keep the source prompt readable beside larger shared matching option banks. */
+.original-matching .stem-row { grid-template-columns: minmax(0, 1fr); row-gap: 10px; }
+.original-matching .answer-choices { justify-content: flex-start; max-width: none; padding-left: 30px; }
+.original-matching .stem-copy { min-width: 0; }
+@media (min-width: 1031px) and (max-width: 1400px) {
+  .topbar .progress-strip { display: none; }
+}

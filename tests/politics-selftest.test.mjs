@@ -17,17 +17,28 @@ test('all 17 original matching exercises retain their source pages, item counts 
     assert.ok(data.referenceImages[g.lectureEvidence.image]?.startsWith('data:image/webp;base64,'))
   }
 })
-test('unprovided answers cannot be scored or displayed as solutions', () => {
+test('all 136 answers agree with the independently reviewed PDF key and retain storage IDs', () => {
+  const expected = new Map([
+    [11,'BACDFEGIHJ'],[34,'BAECDF'],[45,'BACEDFIHGJ'],[49,'BAEDC'],
+    [78,'DABCFEGHIJ'],[90,'DBAEC'],[95,'FDCBAE'],[111,'EFCGABDIH'],
+    [123,'BCAHGFED'],[135,'DCHBFEGA'],[149,'AHDCGFEB'],[173,'BADCFEHIGJ'],
+    [186,'CDBEAF'],[200,'DEGABFC'],[213,'BDCJEFHGIA'],[226,'CDABEGFIHJ'],[236,'BCADFEHG'],
+  ])
+  const answerPages = [1,3,4,5,6,7,7,8,9,10,11,12,13,14,15,16,17]
+  assert.deepEqual(data.groups.map(g=>g.answerPdfPage),answerPages)
   for(const g of data.groups) {
-    assert.equal(g.pendingAnswers,true)
-    for(const s of g.stems) {
-      assert.deepEqual(s.answer,[])
-      assert.equal(s.answerState,'待补答案')
-      assert.equal(s.answerMode,'单选')
-      assert.ok(s.text.trim())
-      assert.ok(!s.explanation && !s.answerDisplay && !s.acceptedAnswers)
+    assert.equal(g.pendingAnswers,false)
+    assert.ok(!g.answerRevision, 'Adding the first answer key must retain saved selections')
+    assert.equal(g.stems.map(s=>s.answer[0]).join(''),expected.get(g.page),g.id)
+    for(const [i,s] of g.stems.entries()) {
+      assert.equal(s.id,`${g.id}-s${String(i+1).padStart(2,'0')}`)
+      assert.equal(s.answer.length,1)
+      const option=g.options.find(o=>o.key===s.answer[0])
+      assert.equal(s.answerOriginalNumber,option.sourceNumber)
+      assert.equal(s.answerState,'已按自测答案核对')
+      assert.equal(s.answerPdfPage,g.answerPdfPage)
+      assert.equal(s.answerDisplay,`${option.key} · ${option.label}`)
     }
-    assert.ok(g.options.every(o=>o.label.trim().length))
   }
 })
 test('column continuations and OCR confusions preserve the visually reviewed source text', () => {

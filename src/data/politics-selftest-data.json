@@ -1,12 +1,13 @@
 {
   "meta": {
-    "title": "手册背诵自测 · 原书连线题",
+    "title": "手册背诵自测 · 原书连线题（附参考答案）",
     "groupCount": 17,
     "stemCount": 136,
     "lectureCount": 17,
     "sourcePages": 17,
-    "sourceLabel": "27腿姐《冲刺背诵手册》背诵自测连线题（待补答案）",
-    "answerNote": "仅录入题干选项，未推断或填写参考答案。"
+    "sourceLabel": "27腿姐《冲刺背诵手册》背诵自测连线题（已配答案）",
+    "answerNote": "17组、136个小题的答案已逐项对照所提供的自测答案PDF，题号和选项保持不变。",
+    "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf"
   },
   "topics": [
     "背诵自测 · 马原",
@@ -22,7 +23,7 @@
       "title": "马原 · 专题一～专题五 · 原书第11页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "马原",
       "sourceRange": "专题一～专题五",
@@ -35,7 +36,7 @@
         "politics-selftest-p015"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 11 页 / PDF 第 15 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 11 页 / PDF 第 15 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 1 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -93,81 +94,141 @@
           "id": "politics-selftest-p015-q2-s01",
           "number": 1,
           "text": "发展的实质",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 新事物的产生和旧事物的灭亡",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 1,
+          "explanation": "发展的实质 → 新事物的产生和旧事物的灭亡。原答案（1）→②；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s02",
           "number": 2,
           "text": "语言",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 思维的物质外壳和现实形式",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 1,
+          "explanation": "语言 → 思维的物质外壳和现实形式。原答案（2）→①；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s03",
           "number": 3,
           "text": "直观反映的错误之处",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 只对事物做直接、直观反映",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 1,
+          "explanation": "直观反映的错误之处 → 只对事物做直接、直观反映。原答案（3）→③；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s04",
           "number": 4,
           "text": "意识的能动性",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 目的、计划、创造、改造",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 1,
+          "explanation": "意识的能动性 → 目的、计划、创造、改造。原答案（4）→④；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s05",
           "number": 5,
           "text": "整个时空",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 无限的",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 1,
+          "explanation": "整个时空 → 无限的。原答案（5）→⑥；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s06",
           "number": 6,
           "text": "具体时空",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 有限的",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 1,
+          "explanation": "具体时空 → 有限的。原答案（6）→⑤；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s07",
           "number": 7,
           "text": "人工智能",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 人类智能的物化",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 1,
+          "explanation": "人工智能 → 人类智能的物化。原答案（7）→⑦；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s08",
           "number": 8,
           "text": "运动的衡量尺度",
-          "answer": [],
+          "answer": [
+            "I"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "I · 相对静止",
+          "answerOriginalNumber": 9,
+          "answerPdfPage": 1,
+          "explanation": "运动的衡量尺度 → 相对静止。原答案（8）→⑨；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s09",
           "number": 9,
           "text": "物质运动的基本存在形式",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 时间和空间",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 1,
+          "explanation": "物质运动的基本存在形式 → 时间和空间。原答案（9）→⑧；见《自测答案》第 1 页。"
         },
         {
           "id": "politics-selftest-p015-q2-s10",
           "number": 10,
           "text": "客观唯心主义",
-          "answer": [],
+          "answer": [
+            "J"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "J · 客观理念、绝对理念",
+          "answerOriginalNumber": 10,
+          "answerPdfPage": 1,
+          "explanation": "客观唯心主义 → 客观理念、绝对理念。原答案（10）→⑩；见《自测答案》第 1 页。"
         }
       ],
       "lectureEvidence": {
@@ -178,7 +239,10 @@
         "image": "selftest-015"
       },
       "sourceText": "发展的实质 语言 直观反映的错误之处 意识的能动性 整个时空 具体时空 人工智能 运动的衡量尺度 物质运动的基本存在形式 客观唯心主义 思维的物质外壳和现实形式 新事物的产生和旧事物的灭亡 只对事物做直接、直观反映 目的、计划、创造、改造 有限的 无限的 人类智能的物化 时间和空间 相对静止 客观理念、绝对理念",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 1
     },
     {
       "id": "politics-selftest-p038-q2",
@@ -186,7 +250,7 @@
       "title": "马原 · 专题十三～专题十五 · 原书第34页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "马原",
       "sourceRange": "专题十三～专题十五",
@@ -199,7 +263,7 @@
         "politics-selftest-p038"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 34 页 / PDF 第 38 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 34 页 / PDF 第 38 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 3 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -237,49 +301,85 @@
           "id": "politics-selftest-p038-q2-s01",
           "number": 1,
           "text": "阶级斗争",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 阶级社会发展的直接动力",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 3,
+          "explanation": "阶级斗争 → 阶级社会发展的直接动力。原答案（1）→②；见《自测答案》第 3 页。"
         },
         {
           "id": "politics-selftest-p038-q2-s02",
           "number": 2,
           "text": "革命",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 实现社会形态更替的重要手段和决定性环节",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 3,
+          "explanation": "革命 → 实现社会形态更替的重要手段和决定性环节。原答案（2）→①；见《自测答案》第 3 页。"
         },
         {
           "id": "politics-selftest-p038-q2-s03",
           "number": 3,
           "text": "历史发展的根本动力",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 社会基本矛盾运动",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 3,
+          "explanation": "历史发展的根本动力 → 社会基本矛盾运动。原答案（3）→⑤；见《自测答案》第 3 页。"
         },
         {
           "id": "politics-selftest-p038-q2-s04",
           "number": 4,
           "text": "社会意识",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 具有相对独立性",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 3,
+          "explanation": "社会意识 → 具有相对独立性。原答案（4）→③；见《自测答案》第 3 页。"
         },
         {
           "id": "politics-selftest-p038-q2-s05",
           "number": 5,
           "text": "任何历史人物的出现",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 都是必然性与偶然性的统一",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 3,
+          "explanation": "任何历史人物的出现 → 都是必然性与偶然性的统一。原答案（5）→④；见《自测答案》第 3 页。"
         },
         {
           "id": "politics-selftest-p038-q2-s06",
           "number": 6,
           "text": "意识形态中核心地位和主导作用",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 政治法律思想",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 3,
+          "explanation": "意识形态中核心地位和主导作用 → 政治法律思想。原答案（6）→⑥；见《自测答案》第 3 页。"
         }
       ],
       "lectureEvidence": {
@@ -290,7 +390,10 @@
         "image": "selftest-038"
       },
       "sourceText": "阶级斗争 革命 历史发展的根本动力 社会意识 任何历史人物的出现 意识形态中核心地位和主导作用 实现社会形态更替的重要手段和决定性环节 阶级社会发展的直接动力 具有相对独立性 都是必然性与偶然性的统一 社会基本矛盾运动 政治法律思想",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 3
     },
     {
       "id": "politics-selftest-p049-q2",
@@ -298,7 +401,7 @@
       "title": "马原 · 专题十六～专题十八 · 原书第45页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "马原",
       "sourceRange": "专题十六～专题十八",
@@ -311,7 +414,7 @@
         "politics-selftest-p049"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 45 页 / PDF 第 49 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 45 页 / PDF 第 49 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 4 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -369,81 +472,141 @@
           "id": "politics-selftest-p049-q2-s01",
           "number": 1,
           "text": "货币的本质",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 固定充当一般等价物的商品",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 4,
+          "explanation": "货币的本质 → 固定充当一般等价物的商品。原答案（1）→②；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s02",
           "number": 2,
           "text": "绝对剩余价值",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 延长工作日的长度或提高劳动强度",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 4,
+          "explanation": "绝对剩余价值 → 延长工作日的长度或提高劳动强度。原答案（2）→①；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s03",
           "number": 3,
           "text": "相对剩余价值",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 缩短必要劳动时间、降低劳动力价值",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 4,
+          "explanation": "相对剩余价值 → 缩短必要劳动时间、降低劳动力价值。原答案（3）→③；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s04",
           "number": 4,
           "text": "抽象劳动",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 价值的实体",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 4,
+          "explanation": "抽象劳动 → 价值的实体。原答案（4）→⑤；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s05",
           "number": 5,
           "text": "具体劳动",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 自然属性、有差别、特殊",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 4,
+          "explanation": "具体劳动 → 自然属性、有差别、特殊。原答案（5）→④；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s06",
           "number": 6,
           "text": "使用价值",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 价值的物质承担者",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 4,
+          "explanation": "使用价值 → 价值的物质承担者。原答案（6）→⑥；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s07",
           "number": 7,
           "text": "剩余价值的源泉",
-          "answer": [],
+          "answer": [
+            "I"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "I · 剩余劳动",
+          "answerOriginalNumber": 9,
+          "answerPdfPage": 4,
+          "explanation": "剩余价值的源泉 → 剩余劳动。原答案（7）→⑨；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s08",
           "number": 8,
           "text": "资本积累的源泉",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 剩余价值",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 4,
+          "explanation": "资本积累的源泉 → 剩余价值。原答案（8）→⑧；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s09",
           "number": 9,
           "text": "利润平均化",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 不同生产部门资本家竞争的结果",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 4,
+          "explanation": "利润平均化 → 不同生产部门资本家竞争的结果。原答案（9）→⑦；见《自测答案》第 4 页。"
         },
         {
           "id": "politics-selftest-p049-q2-s10",
           "number": 10,
           "text": "货币的流通手段",
-          "answer": [],
+          "answer": [
+            "J"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "J · 一手交钱一手交货",
+          "answerOriginalNumber": 10,
+          "answerPdfPage": 4,
+          "explanation": "货币的流通手段 → 一手交钱一手交货。原答案（10）→⑩；见《自测答案》第 4 页。"
         }
       ],
       "lectureEvidence": {
@@ -454,7 +617,10 @@
         "image": "selftest-049"
       },
       "sourceText": "货币的本质 绝对剩余价值 相对剩余价值 抽象劳动 具体劳动 使用价值 剩余价值的源泉 资本积累的源泉 利润平均化 货币的流通手段 延长工作日的长度或提高劳动强度 固定充当一般等价物的商品 缩短必要劳动时间、降低劳动力价值 自然属性、有差别、特殊 价值的实体 价值的物质承担者 不同生产部门资本家竞争的结果 剩余价值 剩余劳动 一手交钱一手交货",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 4
     },
     {
       "id": "politics-selftest-p053-q1",
@@ -462,7 +628,7 @@
       "title": "马原 · 专题十九～专题二十 · 原书第49页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "马原",
       "sourceRange": "专题十九～专题二十",
@@ -475,7 +641,7 @@
         "politics-selftest-p053"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 49 页 / PDF 第 53 页 · 原第 1 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 49 页 / PDF 第 53 页 · 原第 1 大题。A、B…依次对应原①、②…；已按自测答案第 5 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -508,41 +674,71 @@
           "id": "politics-selftest-p053-q1-s01",
           "number": 1,
           "text": "经济危机的本质特征",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 生产相对过剩",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 5,
+          "explanation": "经济危机的本质特征 → 生产相对过剩。原答案（1）→②；见《自测答案》第 5 页。"
         },
         {
           "id": "politics-selftest-p053-q1-s02",
           "number": 2,
           "text": "经济危机爆发的根本原因",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 资本主义基本矛盾",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 5,
+          "explanation": "经济危机爆发的根本原因 → 资本主义基本矛盾。原答案（2）→①；见《自测答案》第 5 页。"
         },
         {
           "id": "politics-selftest-p053-q1-s03",
           "number": 3,
           "text": "不变资本",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 以生产资料形态存在的资本",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 5,
+          "explanation": "不变资本 → 以生产资料形态存在的资本。原答案（3）→⑤；见《自测答案》第 5 页。"
         },
         {
           "id": "politics-selftest-p053-q1-s04",
           "number": 4,
           "text": "可变资本",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 用来购买劳动力的资本",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 5,
+          "explanation": "可变资本 → 用来购买劳动力的资本。原答案（4）→④；见《自测答案》第 5 页。"
         },
         {
           "id": "politics-selftest-p053-q1-s05",
           "number": 5,
           "text": "相对过剩人口",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 不为资本价值增殖所需要",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 5,
+          "explanation": "相对过剩人口 → 不为资本价值增殖所需要。原答案（5）→③；见《自测答案》第 5 页。"
         }
       ],
       "lectureEvidence": {
@@ -553,7 +749,10 @@
         "image": "selftest-053"
       },
       "sourceText": "经济危机的本质特征 经济危机爆发的根本原因 不变资本 可变资本 相对过剩人口 资本主义基本矛盾 生产相对过剩 不为资本价值增殖所需要 用来购买劳动力的资本 以生产资料形态存在的资本",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 5
     },
     {
       "id": "politics-selftest-p081-q2",
@@ -561,7 +760,7 @@
       "title": "毛中特 · 专题一～专题三 · 原书第78页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "毛中特",
       "sourceRange": "专题一～专题三",
@@ -574,7 +773,7 @@
         "politics-selftest-p081"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 78 页 / PDF 第 81 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 78 页 / PDF 第 81 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 6 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -632,81 +831,141 @@
           "id": "politics-selftest-p081-q2-s01",
           "number": 1,
           "text": "中国革命的中心问题",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 无产阶级的领导权",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 6,
+          "explanation": "中国革命的中心问题 → 无产阶级的领导权。原答案（1）→④；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s02",
           "number": 2,
           "text": "中国革命的基本问题",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 农民问题",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 6,
+          "explanation": "中国革命的基本问题 → 农民问题。原答案（2）→①；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s03",
           "number": 3,
           "text": "中国革命的首要问题",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 分清敌友",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 6,
+          "explanation": "中国革命的首要问题 → 分清敌友。原答案（3）→②；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s04",
           "number": 4,
           "text": "中国革命的基本内容",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 土地革命",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 6,
+          "explanation": "中国革命的基本内容 → 土地革命。原答案（4）→③；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s05",
           "number": 5,
           "text": "建设新型人民军队的根本原则",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 党对军队的绝对领导",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 6,
+          "explanation": "建设新型人民军队的根本原则 → 党对军队的绝对领导。原答案（5）→⑥；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s06",
           "number": 6,
           "text": "建设新型人民军队的基本前提",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 全心全意为人民服务",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 6,
+          "explanation": "建设新型人民军队的基本前提 → 全心全意为人民服务。原答案（6）→⑤；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s07",
           "number": 7,
           "text": "自我革命",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 党区别于其他一切政党的显著标志",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 6,
+          "explanation": "自我革命 → 党区别于其他一切政党的显著标志。原答案（7）→⑦；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s08",
           "number": 8,
           "text": "实事求是",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 党的思想路线",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 6,
+          "explanation": "实事求是 → 党的思想路线。原答案（8）→⑧；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s09",
           "number": 9,
           "text": "群众路线",
-          "answer": [],
+          "answer": [
+            "I"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "I · 党的生命线和根本工作路线",
+          "answerOriginalNumber": 9,
+          "answerPdfPage": 6,
+          "explanation": "群众路线 → 党的生命线和根本工作路线。原答案（9）→⑨；见《自测答案》第 6 页。"
         },
         {
           "id": "politics-selftest-p081-q2-s10",
           "number": 10,
           "text": "新民主主义革命题中应有之义",
-          "answer": [],
+          "answer": [
+            "J"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "J · 没收官僚资本归新民主主义国家所有",
+          "answerOriginalNumber": 10,
+          "answerPdfPage": 6,
+          "explanation": "新民主主义革命题中应有之义 → 没收官僚资本归新民主主义国家所有。原答案（10）→⑩；见《自测答案》第 6 页。"
         }
       ],
       "lectureEvidence": {
@@ -717,7 +976,10 @@
         "image": "selftest-081"
       },
       "sourceText": "中国革命的中心问题 中国革命的基本问题 中国革命的首要问题 中国革命的基本内容 建设新型人民军队的根本原则 建设新型人民军队的基本前提 自我革命 实事求是 群众路线 新民主主义革命题中应有之义 农民问题 分清敌友 土地革命 无产阶级的领导权 全心全意为人民服务 党对军队的绝对领导 党区别于其他一切政党的显著标志 党的思想路线 党的生命线和根本工作路线 没收官僚资本归新民主主义国家所有",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 6
     },
     {
       "id": "politics-selftest-p093-q2",
@@ -725,7 +987,7 @@
       "title": "毛中特 · 专题四～专题九 · 原书第90页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "毛中特",
       "sourceRange": "专题四～专题九",
@@ -738,7 +1000,7 @@
         "politics-selftest-p093"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 90 页 / PDF 第 93 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 90 页 / PDF 第 93 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 7 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -771,41 +1033,71 @@
           "id": "politics-selftest-p093-q2-s01",
           "number": 1,
           "text": "“十字路口”“绝对优势”的经济成分",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 个体经济",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 7,
+          "explanation": "“十字路口”“绝对优势”的经济成分 → 个体经济。原答案（1）→④；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p093-q2-s02",
           "number": 2,
           "text": "“领导地位”的经济成分",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 国营经济",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 7,
+          "explanation": "“领导地位”的经济成分 → 国营经济。原答案（2）→②；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p093-q2-s03",
           "number": 3,
           "text": "发展国民经济的总方针",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 农业为基础，工业为主导，农轻重为序",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 7,
+          "explanation": "发展国民经济的总方针 → 农业为基础，工业为主导，农轻重为序。原答案（3）→①；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p093-q2-s04",
           "number": 4,
           "text": "社会主义萌芽性质",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 互助组",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 7,
+          "explanation": "社会主义萌芽性质 → 互助组。原答案（4）→⑤；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p093-q2-s05",
           "number": 5,
           "text": "农业改造遵循的原则",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 自愿互利、典型示范和国家帮助",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 7,
+          "explanation": "农业改造遵循的原则 → 自愿互利、典型示范和国家帮助。原答案（5）→③；见《自测答案》第 7 页。"
         }
       ],
       "lectureEvidence": {
@@ -816,7 +1108,10 @@
         "image": "selftest-093"
       },
       "sourceText": "“十字路口”“绝对优势”的经济成分 “领导地位”的经济成分 发展国民经济的总方针 社会主义萌芽性质 农业改造遵循的原则 农业为基础，工业为主导，农轻重为序 国营经济 自愿互利、典型示范和国家帮助 个体经济 互助组",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 7
     },
     {
       "id": "politics-selftest-p098-q1",
@@ -824,7 +1119,7 @@
       "title": "毛中特 · 专题十、专题十一 · 原书第95页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "毛中特",
       "sourceRange": "专题十、专题十一",
@@ -837,7 +1132,7 @@
         "politics-selftest-p098"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 95 页 / PDF 第 98 页 · 原第 1 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 95 页 / PDF 第 98 页 · 原第 1 大题。A、B…依次对应原①、②…；已按自测答案第 7 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -875,49 +1170,85 @@
           "id": "politics-selftest-p098-q1-s01",
           "number": 1,
           "text": "解放思想、实事求是",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 邓小平理论的精髓",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 7,
+          "explanation": "解放思想、实事求是 → 邓小平理论的精髓。原答案（1）→⑥；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p098-q1-s02",
           "number": 2,
           "text": "党的基本路线",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 国家的生命线、人民的幸福线",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 7,
+          "explanation": "党的基本路线 → 国家的生命线、人民的幸福线。原答案（2）→④；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p098-q1-s03",
           "number": 3,
           "text": "以经济建设为中心",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 兴国之要、最根本的拨乱反正",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 7,
+          "explanation": "以经济建设为中心 → 兴国之要、最根本的拨乱反正。原答案（3）→③；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p098-q1-s04",
           "number": 4,
           "text": "坚持四项基本原则",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 立国之本",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 7,
+          "explanation": "坚持四项基本原则 → 立国之本。原答案（4）→②；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p098-q1-s05",
           "number": 5,
           "text": "邓小平理论轮廓的形成",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 党的十三大",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 7,
+          "explanation": "邓小平理论轮廓的形成 → 党的十三大。原答案（5）→①；见《自测答案》第 7 页。"
         },
         {
           "id": "politics-selftest-p098-q1-s06",
           "number": 6,
           "text": "把改革开放和现代化建设推向新阶段",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 南方谈话",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 7,
+          "explanation": "把改革开放和现代化建设推向新阶段 → 南方谈话。原答案（6）→⑤；见《自测答案》第 7 页。"
         }
       ],
       "lectureEvidence": {
@@ -928,7 +1259,10 @@
         "image": "selftest-098"
       },
       "sourceText": "解放思想、实事求是 党的基本路线 以经济建设为中心 坚持四项基本原则 邓小平理论轮廓的形成 把改革开放和现代化建设推向新阶段 党的十三大 立国之本 兴国之要、最根本的拨乱反正 国家的生命线、人民的幸福线 南方谈话 邓小平理论的精髓",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 7
     },
     {
       "id": "politics-selftest-p112-q2",
@@ -936,7 +1270,7 @@
       "title": "习思想 · 专题一～专题三 · 原书第111页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "习思想",
       "sourceRange": "专题一～专题三",
@@ -949,7 +1283,7 @@
         "politics-selftest-p112"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 111 页 / PDF 第 112 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 111 页 / PDF 第 112 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 8 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1002,73 +1336,127 @@
           "id": "politics-selftest-p112-q2-s01",
           "number": 1,
           "text": "“十个明确”",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 四梁八柱、统摄作用",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 8,
+          "explanation": "“十个明确” → 四梁八柱、统摄作用。原答案（1）→⑤；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s02",
           "number": 2,
           "text": "“十四个坚持”",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 基本方略",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 8,
+          "explanation": "“十四个坚持” → 基本方略。原答案（2）→⑥；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s03",
           "number": 3,
           "text": "坚持人民至上",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 根本价值立场",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 8,
+          "explanation": "坚持人民至上 → 根本价值立场。原答案（3）→③；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s04",
           "number": 4,
           "text": "坚持守正创新",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 鲜明理论品格",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 8,
+          "explanation": "坚持守正创新 → 鲜明理论品格。原答案（4）→⑦；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s05",
           "number": 5,
           "text": "国家的生命线、人民的幸福线",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 党的基本路线",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 8,
+          "explanation": "国家的生命线、人民的幸福线 → 党的基本路线。原答案（5）→①；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s06",
           "number": 6,
           "text": "中国特色社会主义进入新时代的基本依据",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 我国社会主要矛盾的变化",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 8,
+          "explanation": "中国特色社会主义进入新时代的基本依据 → 我国社会主要矛盾的变化。原答案（6）→②；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s07",
           "number": 7,
           "text": "满足人民美好生活需要的主要制约因素",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 发展不平衡不充分",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 8,
+          "explanation": "满足人民美好生活需要的主要制约因素 → 发展不平衡不充分。原答案（7）→④；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s08",
           "number": 8,
           "text": "中国式现代化的显著特征",
-          "answer": [],
+          "answer": [
+            "I"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "I · 人口规模巨大的现代化",
+          "answerOriginalNumber": 9,
+          "answerPdfPage": 8,
+          "explanation": "中国式现代化的显著特征 → 人口规模巨大的现代化。原答案（8）→⑨；见《自测答案》第 8 页。"
         },
         {
           "id": "politics-selftest-p112-q2-s09",
           "number": 9,
           "text": "中国式现代化的本质特征",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 全体人民共同富裕的现代化",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 8,
+          "explanation": "中国式现代化的本质特征 → 全体人民共同富裕的现代化。原答案（9）→⑧；见《自测答案》第 8 页。"
         }
       ],
       "lectureEvidence": {
@@ -1079,7 +1467,10 @@
         "image": "selftest-112"
       },
       "sourceText": "“十个明确” “十四个坚持” 坚持人民至上 坚持守正创新 国家的生命线、人民的幸福线 中国特色社会主义进入新时代的基本依据 满足人民美好生活需要的主要制约因素 中国式现代化的显著特征 中国式现代化的本质特征 党的基本路线 我国社会主要矛盾的变化 根本价值立场 发展不平衡不充分 四梁八柱、统摄作用 基本方略 鲜明理论品格 全体人民共同富裕的现代化 人口规模巨大的现代化",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 8
     },
     {
       "id": "politics-selftest-p124-q2",
@@ -1087,7 +1478,7 @@
       "title": "习思想 · 专题四～专题六 · 原书第123页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "习思想",
       "sourceRange": "专题四～专题六",
@@ -1100,7 +1491,7 @@
         "politics-selftest-p124"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 123 页 / PDF 第 124 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 123 页 / PDF 第 124 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 9 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1148,65 +1539,113 @@
           "id": "politics-selftest-p124-q2-s01",
           "number": 1,
           "text": "全面建成小康社会",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 实现了从大幅落后于时代到大踏步赶上时代的新跨越",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 9,
+          "explanation": "全面建成小康社会 → 实现了从大幅落后于时代到大踏步赶上时代的新跨越。原答案（1）→②；见《自测答案》第 9 页。"
         },
         {
           "id": "politics-selftest-p124-q2-s02",
           "number": 2,
           "text": "新民主主义革命时期",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 为实现现代化创造了根本社会条件",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 9,
+          "explanation": "新民主主义革命时期 → 为实现现代化创造了根本社会条件。原答案（2）→③；见《自测答案》第 9 页。"
         },
         {
           "id": "politics-selftest-p124-q2-s03",
           "number": 3,
           "text": "社会主义现代化的根本要求",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 物质富足、精神富有",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 9,
+          "explanation": "社会主义现代化的根本要求 → 物质富足、精神富有。原答案（3）→①；见《自测答案》第 9 页。"
         },
         {
           "id": "politics-selftest-p124-q2-s04",
           "number": 4,
           "text": "进一步全面深化改革的重点和牵引",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 深化经济体制改革",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 9,
+          "explanation": "进一步全面深化改革的重点和牵引 → 深化经济体制改革。原答案（4）→⑧；见《自测答案》第 9 页。"
         },
         {
           "id": "politics-selftest-p124-q2-s05",
           "number": 5,
           "text": "进一步全面深化改革的主题",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 牢牢把握推进中国式现代化",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 9,
+          "explanation": "进一步全面深化改革的主题 → 牢牢把握推进中国式现代化。原答案（5）→⑦；见《自测答案》第 9 页。"
         },
         {
           "id": "politics-selftest-p124-q2-s06",
           "number": 6,
           "text": "进一步全面深化改革的主线",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 制度建设",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 9,
+          "explanation": "进一步全面深化改革的主线 → 制度建设。原答案（6）→⑥；见《自测答案》第 9 页。"
         },
         {
           "id": "politics-selftest-p124-q2-s07",
           "number": 7,
           "text": "新时代全面深化改革开放的思想前提",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 解放思想",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 9,
+          "explanation": "新时代全面深化改革开放的思想前提 → 解放思想。原答案（7）→⑤；见《自测答案》第 9 页。"
         },
         {
           "id": "politics-selftest-p124-q2-s08",
           "number": 8,
           "text": "新时代全面深化改革的关键所在",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 解放和增强社会活力",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 9,
+          "explanation": "新时代全面深化改革的关键所在 → 解放和增强社会活力。原答案（8）→④；见《自测答案》第 9 页。"
         }
       ],
       "lectureEvidence": {
@@ -1217,7 +1656,10 @@
         "image": "selftest-124"
       },
       "sourceText": "全面建成小康社会 新民主主义革命时期 社会主义现代化的根本要求 进一步全面深化改革的重点和牵引 进一步全面深化改革的主题 进一步全面深化改革的主线 新时代全面深化改革开放的思想前提 新时代全面深化改革的关键所在 物质富足、精神富有 实现了从大幅落后于时代到大踏步赶上时代的新跨越 为实现现代化创造了根本社会条件 解放和增强社会活力 解放思想 制度建设 牢牢把握推进中国式现代化 深化经济体制改革",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 9
     },
     {
       "id": "politics-selftest-p136-q2",
@@ -1225,7 +1667,7 @@
       "title": "习思想 · 专题七～专题十 · 原书第135页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "习思想",
       "sourceRange": "专题七～专题十",
@@ -1238,7 +1680,7 @@
         "politics-selftest-p136"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 135 页 / PDF 第 136 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 135 页 / PDF 第 136 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 10 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1286,65 +1728,113 @@
           "id": "politics-selftest-p136-q2-s01",
           "number": 1,
           "text": "混合所有制经济",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 基本经济制度的重要实现形式",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 10,
+          "explanation": "混合所有制经济 → 基本经济制度的重要实现形式。原答案（1）→④；见《自测答案》第 10 页。"
         },
         {
           "id": "politics-selftest-p136-q2-s02",
           "number": 2,
           "text": "国有经济",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 国民经济的主导作用",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 10,
+          "explanation": "国有经济 → 国民经济的主导作用。原答案（2）→③；见《自测答案》第 10 页。"
         },
         {
           "id": "politics-selftest-p136-q2-s03",
           "number": 3,
           "text": "推动高质量发展的战略基点",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 构建新发展格局",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 10,
+          "explanation": "推动高质量发展的战略基点 → 构建新发展格局。原答案（3）→⑧；见《自测答案》第 10 页。"
         },
         {
           "id": "politics-selftest-p136-q2-s04",
           "number": 4,
           "text": "构建新发展格局的战略基点",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 坚持扩大内需",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 10,
+          "explanation": "构建新发展格局的战略基点 → 坚持扩大内需。原答案（4）→②；见《自测答案》第 10 页。"
         },
         {
           "id": "politics-selftest-p136-q2-s05",
           "number": 5,
           "text": "发展新质生产力的核心要素",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 科技创新",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 10,
+          "explanation": "发展新质生产力的核心要素 → 科技创新。原答案（5）→⑥；见《自测答案》第 10 页。"
         },
         {
           "id": "politics-selftest-p136-q2-s06",
           "number": 6,
           "text": "新质生产力的本质",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 先进生产力",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 10,
+          "explanation": "新质生产力的本质 → 先进生产力。原答案（6）→⑤；见《自测答案》第 10 页。"
         },
         {
           "id": "politics-selftest-p136-q2-s07",
           "number": 7,
           "text": "推进高质量发展的主线",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 深化供给侧结构性改革",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 10,
+          "explanation": "推进高质量发展的主线 → 深化供给侧结构性改革。原答案（7）→⑦；见《自测答案》第 10 页。"
         },
         {
           "id": "politics-selftest-p136-q2-s08",
           "number": 8,
           "text": "实现高质量发展的关键环节",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 推动经济社会发展绿色化、低碳化",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 10,
+          "explanation": "实现高质量发展的关键环节 → 推动经济社会发展绿色化、低碳化。原答案（8）→①；见《自测答案》第 10 页。"
         }
       ],
       "lectureEvidence": {
@@ -1355,7 +1845,10 @@
         "image": "selftest-136"
       },
       "sourceText": "混合所有制经济 国有经济 推动高质量发展的战略基点 构建新发展格局的战略基点 发展新质生产力的核心要素 新质生产力的本质 推进高质量发展的主线 实现高质量发展的关键环节 推动经济社会发展绿色化、低碳化 坚持扩大内需 国民经济的主导作用 基本经济制度的重要实现形式 先进生产力 科技创新 深化供给侧结构性改革 构建新发展格局",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 10
     },
     {
       "id": "politics-selftest-p150-q2",
@@ -1363,7 +1856,7 @@
       "title": "习思想 · 专题十一～专题十五 · 原书第149页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "习思想",
       "sourceRange": "专题十一～专题十五",
@@ -1376,7 +1869,7 @@
         "politics-selftest-p150"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 149 页 / PDF 第 150 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 149 页 / PDF 第 150 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 11 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1424,65 +1917,113 @@
           "id": "politics-selftest-p150-q2-s01",
           "number": 1,
           "text": "保障和改善民生的重要前提",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 正确把握民生和发展的关系",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 11,
+          "explanation": "保障和改善民生的重要前提 → 正确把握民生和发展的关系。原答案（1）→①；见《自测答案》第 11 页。"
         },
         {
           "id": "politics-selftest-p150-q2-s02",
           "number": 2,
           "text": "保障和改善民生的重要方针",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 坚持尽力而为、量力而行",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 11,
+          "explanation": "保障和改善民生的重要方针 → 坚持尽力而为、量力而行。原答案（2）→⑧；见《自测答案》第 11 页。"
         },
         {
           "id": "politics-selftest-p150-q2-s03",
           "number": 3,
           "text": "民生改善的“温度计”",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 解决好就业问题",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 11,
+          "explanation": "民生改善的“温度计” → 解决好就业问题。原答案（3）→④；见《自测答案》第 11 页。"
         },
         {
           "id": "politics-selftest-p150-q2-s04",
           "number": 4,
           "text": "民生保障安全网、经济运行减震器",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 社会保障",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 11,
+          "explanation": "民生保障安全网、经济运行减震器 → 社会保障。原答案（4）→③；见《自测答案》第 11 页。"
         },
         {
           "id": "politics-selftest-p150-q2-s05",
           "number": 5,
           "text": "初次分配",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 劳动报酬、要素收入",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 11,
+          "explanation": "初次分配 → 劳动报酬、要素收入。原答案（5）→⑦；见《自测答案》第 11 页。"
         },
         {
           "id": "politics-selftest-p150-q2-s06",
           "number": 6,
           "text": "再分配",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 税收、社保、转移支付",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 11,
+          "explanation": "再分配 → 税收、社保、转移支付。原答案（6）→⑥；见《自测答案》第 11 页。"
         },
         {
           "id": "politics-selftest-p150-q2-s07",
           "number": 7,
           "text": "社会主义民主政治的本质属性",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 全过程人民民主",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 11,
+          "explanation": "社会主义民主政治的本质属性 → 全过程人民民主。原答案（7）→⑤；见《自测答案》第 11 页。"
         },
         {
           "id": "politics-selftest-p150-q2-s08",
           "number": 8,
           "text": "统战工作的本质要求",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 大团结大联合",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 11,
+          "explanation": "统战工作的本质要求 → 大团结大联合。原答案（8）→②；见《自测答案》第 11 页。"
         }
       ],
       "lectureEvidence": {
@@ -1493,7 +2034,10 @@
         "image": "selftest-150"
       },
       "sourceText": "保障和改善民生的重要前提 保障和改善民生的重要方针 民生改善的“温度计” 民生保障安全网、经济运行减震器 初次分配 再分配 社会主义民主政治的本质属性 统战工作的本质要求 正确把握民生和发展的关系 大团结大联合 社会保障 解决好就业问题 全过程人民民主 税收、社保、转移支付 劳动报酬、要素收入 坚持尽力而为、量力而行",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 11
     },
     {
       "id": "politics-selftest-p172-q2",
@@ -1501,7 +2045,7 @@
       "title": "史纲 · 专题一～专题四 · 原书第173页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "史纲",
       "sourceRange": "专题一～专题四",
@@ -1514,7 +2058,7 @@
         "politics-selftest-p172"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 173 页 / PDF 第 172 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 173 页 / PDF 第 172 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 12 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1572,81 +2116,141 @@
           "id": "politics-selftest-p172-q2-s01",
           "number": 1,
           "text": "民族意识开始普遍觉醒",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 甲午战争后",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 12,
+          "explanation": "民族意识开始普遍觉醒 → 甲午战争后。原答案（1）→②；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s02",
           "number": 2,
           "text": "自鸦片战争以来第一次全面觉醒",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 五四运动",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 12,
+          "explanation": "自鸦片战争以来第一次全面觉醒 → 五四运动。原答案（2）→①；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s03",
           "number": 3,
           "text": "开创了中国近代向西方学习的新风",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 魏源",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 12,
+          "explanation": "开创了中国近代向西方学习的新风 → 魏源。原答案（3）→④；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s04",
           "number": 4,
           "text": "睁眼看世界的第一人",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 林则徐",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 12,
+          "explanation": "睁眼看世界的第一人 → 林则徐。原答案（4）→③；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s05",
           "number": 5,
           "text": "近代中国反侵略战争屡遭失败的根本原因",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 社会制度的腐败",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 12,
+          "explanation": "近代中国反侵略战争屡遭失败的根本原因 → 社会制度的腐败。原答案（5）→⑥；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s06",
           "number": 6,
           "text": "帝国主义列强瓜分中国图谋的破产的根本原因",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 中华民族不屈不挠的反侵略斗争",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 12,
+          "explanation": "帝国主义列强瓜分中国图谋的破产的根本原因 → 中华民族不屈不挠的反侵略斗争。原答案（6）→⑤；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s07",
           "number": 7,
           "text": "资产阶级革命派",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 民主共和",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 12,
+          "explanation": "资产阶级革命派 → 民主共和。原答案（7）→⑧；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s08",
           "number": 8,
           "text": "中国近代教育的开始",
-          "answer": [],
+          "answer": [
+            "I"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "I · 洋务运动",
+          "answerOriginalNumber": 9,
+          "answerPdfPage": 12,
+          "explanation": "中国近代教育的开始 → 洋务运动。原答案（8）→⑨；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s09",
           "number": 9,
           "text": "资产阶级维新派",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 君主立宪、兴民权",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 12,
+          "explanation": "资产阶级维新派 → 君主立宪、兴民权。原答案（9）→⑦；见《自测答案》第 12 页。"
         },
         {
           "id": "politics-selftest-p172-q2-s10",
           "number": 10,
           "text": "民族资产阶级第一次登上政治历史舞台",
-          "answer": [],
+          "answer": [
+            "J"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "J · 维新运动",
+          "answerOriginalNumber": 10,
+          "answerPdfPage": 12,
+          "explanation": "民族资产阶级第一次登上政治历史舞台 → 维新运动。原答案（10）→⑩；见《自测答案》第 12 页。"
         }
       ],
       "lectureEvidence": {
@@ -1657,7 +2261,10 @@
         "image": "selftest-172"
       },
       "sourceText": "民族意识开始普遍觉醒 自鸦片战争以来第一次全面觉醒 开创了中国近代向西方学习的新风 睁眼看世界的第一人 近代中国反侵略战争屡遭失败的根本原因 帝国主义列强瓜分中国图谋的破产的根本原因 资产阶级革命派 中国近代教育的开始 资产阶级维新派 民族资产阶级第一次登上政治历史舞台 五四运动 甲午战争后 林则徐 魏源 中华民族不屈不挠的反侵略斗争 社会制度的腐败 君主立宪、兴民权 民主共和 洋务运动 维新运动",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 12
     },
     {
       "id": "politics-selftest-p185-q2",
@@ -1665,7 +2272,7 @@
       "title": "史纲 · 专题五～专题八 · 原书第186页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "史纲",
       "sourceRange": "专题五～专题八",
@@ -1678,7 +2285,7 @@
         "politics-selftest-p185"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 186 页 / PDF 第 185 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 186 页 / PDF 第 185 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 13 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1716,49 +2323,85 @@
           "id": "politics-selftest-p185-q2-s01",
           "number": 1,
           "text": "标志着马克思主义在中国进入比较系统的传播阶段",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 《我的马克思主义观》",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 13,
+          "explanation": "标志着马克思主义在中国进入比较系统的传播阶段 → 《我的马克思主义观》。原答案（1）→③；见《自测答案》第 13 页。"
         },
         {
           "id": "politics-selftest-p185-q2-s02",
           "number": 2,
           "text": "中国工人阶级开始以独立的姿态登上政治舞台",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 五四运动",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 13,
+          "explanation": "中国工人阶级开始以独立的姿态登上政治舞台 → 五四运动。原答案（2）→④；见《自测答案》第 13 页。"
         },
         {
           "id": "politics-selftest-p185-q2-s03",
           "number": 3,
           "text": "资产阶级新文化开始打破封建文化独占文化阵地的局面",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 维新运动后",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 13,
+          "explanation": "资产阶级新文化开始打破封建文化独占文化阵地的局面 → 维新运动后。原答案（3）→②；见《自测答案》第 13 页。"
         },
         {
           "id": "politics-selftest-p185-q2-s04",
           "number": 4,
           "text": "提倡民主科学、前所未有空前深刻的思想解放",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 新文化运动",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 13,
+          "explanation": "提倡民主科学、前所未有空前深刻的思想解放 → 新文化运动。原答案（4）→⑤；见《自测答案》第 13 页。"
         },
         {
           "id": "politics-selftest-p185-q2-s05",
           "number": 5,
           "text": "公开打出了“工农革命军”的旗帜",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 秋收起义",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 13,
+          "explanation": "公开打出了“工农革命军”的旗帜 → 秋收起义。原答案（5）→①；见《自测答案》第 13 页。"
         },
         {
           "id": "politics-selftest-p185-q2-s06",
           "number": 6,
           "text": "掀起了全国范围的大革命高潮的起点",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 五卅运动",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 13,
+          "explanation": "掀起了全国范围的大革命高潮的起点 → 五卅运动。原答案（6）→⑥；见《自测答案》第 13 页。"
         }
       ],
       "lectureEvidence": {
@@ -1771,7 +2414,10 @@
       "sourceText": "标志着马克思主义在中国进入比较系统的传播阶段 中国工人阶级开始以独立的姿态登上政治舞台 资产阶级新文化开始打破封建文化独占文化阵地的局面 提倡民主科学、前所未有空前深刻的思想解放 公开打出了“工农革命军”的旗帜 掀起了全国范围的大革命高潮的起点 秋收起义 维新运动后 《我的马克思主义观》 五四运动 新文化运动 五卅运动",
       "extractionNotes": [
         "原自测总标题为“专题五～专题八”，本页提示写“专题五至专题七”；按总标题归档，题干和选项保留原文。"
-      ]
+      ],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 13
     },
     {
       "id": "politics-selftest-p199-q2",
@@ -1779,7 +2425,7 @@
       "title": "史纲 · 专题九～专题十一 · 原书第200页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "史纲",
       "sourceRange": "专题九～专题十一",
@@ -1792,7 +2438,7 @@
         "politics-selftest-p199"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 200 页 / PDF 第 199 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 200 页 / PDF 第 199 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 14 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1835,57 +2481,99 @@
           "id": "politics-selftest-p199-q2-s01",
           "number": 1,
           "text": "抗日民族统一战线的提出",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 瓦窑堡会议",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 14,
+          "explanation": "抗日民族统一战线的提出 → 瓦窑堡会议。原答案（1）→④；见《自测答案》第 14 页。"
         },
         {
           "id": "politics-selftest-p199-q2-s02",
           "number": 2,
           "text": "抗日民族统一战线的原则",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 独立自主原则",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 14,
+          "explanation": "抗日民族统一战线的原则 → 独立自主原则。原答案（2）→⑤；见《自测答案》第 14 页。"
         },
         {
           "id": "politics-selftest-p199-q2-s03",
           "number": 3,
           "text": "抗日战争的主要依靠力量",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 进步势力",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 14,
+          "explanation": "抗日战争的主要依靠力量 → 进步势力。原答案（3）→⑦；见《自测答案》第 14 页。"
         },
         {
           "id": "politics-selftest-p199-q2-s04",
           "number": 4,
           "text": "同顽固派作斗争的原则",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 有理、有利、有节",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 14,
+          "explanation": "同顽固派作斗争的原则 → 有理、有利、有节。原答案（4）→①；见《自测答案》第 14 页。"
         },
         {
           "id": "politics-selftest-p199-q2-s05",
           "number": 5,
           "text": "九一八事变",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 中国抗日战争的起点",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 14,
+          "explanation": "九一八事变 → 中国抗日战争的起点。原答案（5）→②；见《自测答案》第 14 页。"
         },
         {
           "id": "politics-selftest-p199-q2-s06",
           "number": 6,
           "text": "卢沟桥事变",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 开辟了世界反法西斯战争的东方主战场",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 14,
+          "explanation": "卢沟桥事变 → 开辟了世界反法西斯战争的东方主战场。原答案（6）→⑥；见《自测答案》第 14 页。"
         },
         {
           "id": "politics-selftest-p199-q2-s07",
           "number": 7,
           "text": "中间路线的实质",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 资产阶级共和国的方案",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 14,
+          "explanation": "中间路线的实质 → 资产阶级共和国的方案。原答案（7）→③；见《自测答案》第 14 页。"
         }
       ],
       "lectureEvidence": {
@@ -1898,7 +2586,10 @@
       "sourceText": "抗日民族统一战线的提出 抗日民族统一战线的原则 抗日战争的主要依靠力量 同顽固派作斗争的原则 九一八事变 卢沟桥事变 中间路线的实质 有理、有利、有节 中国抗日战争的起点 资产阶级共和国的方案 瓦窑堡会议 独立自主原则 开辟了世界反法西斯战争的东方主战场 进步势力",
       "extractionNotes": [
         "原自测总标题为“专题九～专题十一”，本页提示写“专题八至专题十一”；按总标题归档，题干和选项保留原文。"
-      ]
+      ],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 14
     },
     {
       "id": "politics-selftest-p211-q2",
@@ -1906,7 +2597,7 @@
       "title": "思法 · 专题一～专题五 · 原书第213页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "思法",
       "sourceRange": "专题一～专题五",
@@ -1919,7 +2610,7 @@
         "politics-selftest-p211"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 213 页 / PDF 第 211 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 213 页 / PDF 第 211 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 15 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -1977,81 +2668,141 @@
           "id": "politics-selftest-p211-q2-s01",
           "number": 1,
           "text": "爱国主义的本质",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 坚持爱国和爱党、爱社会主义高度统一",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 15,
+          "explanation": "爱国主义的本质 → 坚持爱国和爱党、爱社会主义高度统一。原答案（1）→②；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s02",
           "number": 2,
           "text": "爱祖国的灿烂文化",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 摇篮、胎记、精神基因",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 15,
+          "explanation": "爱祖国的灿烂文化 → 摇篮、胎记、精神基因。原答案（2）→④；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s03",
           "number": 3,
           "text": "爱自己的骨肉同胞",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 祖国忠诚程度的试金石",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 15,
+          "explanation": "爱自己的骨肉同胞 → 祖国忠诚程度的试金石。原答案（3）→③；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s04",
           "number": 4,
           "text": "人类社会进步的标尺",
-          "answer": [],
+          "answer": [
+            "J"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "J · 公正",
+          "answerOriginalNumber": 10,
+          "answerPdfPage": 15,
+          "explanation": "人类社会进步的标尺 → 公正。原答案（4）→⑩；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s05",
           "number": 5,
           "text": "个人立身处世的基本价值规范",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 诚信",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 15,
+          "explanation": "个人立身处世的基本价值规范 → 诚信。原答案（5）→⑤；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s06",
           "number": 6,
           "text": "衡量一个人精神境界高下的重要标尺",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 理想信念",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 15,
+          "explanation": "衡量一个人精神境界高下的重要标尺 → 理想信念。原答案（6）→⑥；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s07",
           "number": 7,
           "text": "拜金主义",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 钱权交易、行贿受贿",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 15,
+          "explanation": "拜金主义 → 钱权交易、行贿受贿。原答案（7）→⑧；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s08",
           "number": 8,
           "text": "享乐主义",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 比阔气、讲排场",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 15,
+          "explanation": "享乐主义 → 比阔气、讲排场。原答案（8）→⑦；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s09",
           "number": 9,
           "text": "社会主义核心价值观历史底蕴",
-          "answer": [],
+          "answer": [
+            "I"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "I · 中华优秀传统文化",
+          "answerOriginalNumber": 9,
+          "answerPdfPage": 15,
+          "explanation": "社会主义核心价值观历史底蕴 → 中华优秀传统文化。原答案（9）→⑨；见《自测答案》第 15 页。"
         },
         {
           "id": "politics-selftest-p211-q2-s10",
           "number": 10,
           "text": "社会主义核心价值观根本特性/鲜明价值立场",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 人民性/人民至上",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 15,
+          "explanation": "社会主义核心价值观根本特性/鲜明价值立场 → 人民性/人民至上。原答案（10）→①；见《自测答案》第 15 页。"
         }
       ],
       "lectureEvidence": {
@@ -2062,7 +2813,10 @@
         "image": "selftest-211"
       },
       "sourceText": "爱国主义的本质 爱祖国的灿烂文化 爱自己的骨肉同胞 人类社会进步的标尺 个人立身处世的基本价值规范 衡量一个人精神境界高下的重要标尺 拜金主义 享乐主义 社会主义核心价值观历史底蕴 社会主义核心价值观根本特性/鲜明价值立场 人民性/人民至上 坚持爱国和爱党、爱社会主义高度统一 祖国忠诚程度的试金石 摇篮、胎记、精神基因 诚信 理想信念 比阔气、讲排场 钱权交易、行贿受贿 中华优秀传统文化 公正",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 15
     },
     {
       "id": "politics-selftest-p224-q2",
@@ -2070,7 +2824,7 @@
       "title": "思法 · 专题六～专题十一 · 原书第226页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "思法",
       "sourceRange": "专题六～专题十一",
@@ -2083,7 +2837,7 @@
         "politics-selftest-p224"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 226 页 / PDF 第 224 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 226 页 / PDF 第 224 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 16 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -2141,81 +2895,141 @@
           "id": "politics-selftest-p224-q2-s01",
           "number": 1,
           "text": "革命道德的灵魂",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 共产主义理想信念",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 16,
+          "explanation": "革命道德的灵魂 → 共产主义理想信念。原答案（1）→③；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s02",
           "number": 2,
           "text": "社会主义道德的原则",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 集体主义",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 16,
+          "explanation": "社会主义道德的原则 → 集体主义。原答案（2）→④；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s03",
           "number": 3,
           "text": "道德养成的起点",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 家庭",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 16,
+          "explanation": "道德养成的起点 → 家庭。原答案（3）→①；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s04",
           "number": 4,
           "text": "集体主义最高层次的要求",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 无私奉献、一心为公",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 16,
+          "explanation": "集体主义最高层次的要求 → 无私奉献、一心为公。原答案（4）→②；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s05",
           "number": 5,
           "text": "是社会存续发展的重要价值基石",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 诚信",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 16,
+          "explanation": "是社会存续发展的重要价值基石 → 诚信。原答案（5）→⑤；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s06",
           "number": 6,
           "text": "中华传统美德的根本要求",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 公义胜私欲",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 16,
+          "explanation": "中华传统美德的根本要求 → 公义胜私欲。原答案（6）→⑦；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s07",
           "number": 7,
           "text": "义利之辨的核心和本质",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 公私之辨",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 16,
+          "explanation": "义利之辨的核心和本质 → 公私之辨。原答案（7）→⑥；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s08",
           "number": 8,
           "text": "国家对权利和义务进行权威性分配",
-          "answer": [],
+          "answer": [
+            "I"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "I · 法律制定",
+          "answerOriginalNumber": 9,
+          "answerPdfPage": 16,
+          "explanation": "国家对权利和义务进行权威性分配 → 法律制定。原答案（8）→⑨；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s09",
           "number": 9,
           "text": "法律实施和实现的基本途径",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 法律遵守",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 16,
+          "explanation": "法律实施和实现的基本途径 → 法律遵守。原答案（9）→⑧；见《自测答案》第 16 页。"
         },
         {
           "id": "politics-selftest-p224-q2-s10",
           "number": 10,
           "text": "守法的主体",
-          "answer": [],
+          "answer": [
+            "J"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "J · 一切组织和个人",
+          "answerOriginalNumber": 10,
+          "answerPdfPage": 16,
+          "explanation": "守法的主体 → 一切组织和个人。原答案（10）→⑩；见《自测答案》第 16 页。"
         }
       ],
       "lectureEvidence": {
@@ -2226,7 +3040,10 @@
         "image": "selftest-224"
       },
       "sourceText": "革命道德的灵魂 社会主义道德的原则 道德养成的起点 集体主义最高层次的要求 是社会存续发展的重要价值基石 中华传统美德的根本要求 义利之辨的核心和本质 国家对权利和义务进行权威性分配 法律实施和实现的基本途径 守法的主体 家庭 无私奉献、一心为公 共产主义理想信念 集体主义 诚信 公私之辨 公义胜私欲 法律遵守 法律制定 一切组织和个人",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 16
     },
     {
       "id": "politics-selftest-p234-q2",
@@ -2234,7 +3051,7 @@
       "title": "思法 · 专题十二～专题十五 · 原书第236页",
       "kindLabel": "匹配 / 归类",
       "answerLayout": "rows",
-      "pendingAnswers": true,
+      "pendingAnswers": false,
       "originalMatching": true,
       "unit": "思法",
       "sourceRange": "专题十二～专题十五",
@@ -2247,7 +3064,7 @@
         "politics-selftest-p234"
       ],
       "hideSource": true,
-      "studyNotice": "原书连线题转为匹配选择题 · 书内第 236 页 / PDF 第 234 页 · 原第 2 大题。选项 A、B…依次对应原①、②…；答案待补，仅保存选择，暂不判分。",
+      "studyNotice": "原书连线题转为匹配选择题 · 书内第 236 页 / PDF 第 234 页 · 原第 2 大题。A、B…依次对应原①、②…；已按自测答案第 17 页核对，提交后逐题判分。",
       "options": [
         {
           "key": "A",
@@ -2295,65 +3112,113 @@
           "id": "politics-selftest-p234-q2-s01",
           "number": 1,
           "text": "中国特色社会主义法治体系的前提",
-          "answer": [],
+          "answer": [
+            "B"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "B · 完备的法律规范体系",
+          "answerOriginalNumber": 2,
+          "answerPdfPage": 17,
+          "explanation": "中国特色社会主义法治体系的前提 → 完备的法律规范体系。原答案（1）→②；见《自测答案》第 17 页。"
         },
         {
           "id": "politics-selftest-p234-q2-s02",
           "number": 2,
           "text": "建设中国特色社会主义法治体系的重点",
-          "answer": [],
+          "answer": [
+            "C"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "C · 高效的法治实施体系",
+          "answerOriginalNumber": 3,
+          "answerPdfPage": 17,
+          "explanation": "建设中国特色社会主义法治体系的重点 → 高效的法治实施体系。原答案（2）→③；见《自测答案》第 17 页。"
         },
         {
           "id": "politics-selftest-p234-q2-s03",
           "number": 3,
           "text": "法治社会的基础工程",
-          "answer": [],
+          "answer": [
+            "A"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "A · 全民守法",
+          "answerOriginalNumber": 1,
+          "answerPdfPage": 17,
+          "explanation": "法治社会的基础工程 → 全民守法。原答案（3）→①；见《自测答案》第 17 页。"
         },
         {
           "id": "politics-selftest-p234-q2-s04",
           "number": 4,
           "text": "全面依法治国的基础工程",
-          "answer": [],
+          "answer": [
+            "D"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "D · 法治社会建设",
+          "answerOriginalNumber": 4,
+          "answerPdfPage": 17,
+          "explanation": "全面依法治国的基础工程 → 法治社会建设。原答案（4）→④；见《自测答案》第 17 页。"
         },
         {
           "id": "politics-selftest-p234-q2-s05",
           "number": 5,
           "text": "权利保障的关键环节",
-          "answer": [],
+          "answer": [
+            "F"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "F · 行政保障",
+          "answerOriginalNumber": 6,
+          "answerPdfPage": 17,
+          "explanation": "权利保障的关键环节 → 行政保障。原答案（5）→⑥；见《自测答案》第 17 页。"
         },
         {
           "id": "politics-selftest-p234-q2-s06",
           "number": 6,
           "text": "公民权利保障的最后防线",
-          "answer": [],
+          "answer": [
+            "E"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "E · 司法保障",
+          "answerOriginalNumber": 5,
+          "answerPdfPage": 17,
+          "explanation": "公民权利保障的最后防线 → 司法保障。原答案（6）→⑤；见《自测答案》第 17 页。"
         },
         {
           "id": "politics-selftest-p234-q2-s07",
           "number": 7,
           "text": "中国特色社会主义法治之魂",
-          "answer": [],
+          "answer": [
+            "H"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "H · 党的领导",
+          "answerOriginalNumber": 8,
+          "answerPdfPage": 17,
+          "explanation": "中国特色社会主义法治之魂 → 党的领导。原答案（7）→⑧；见《自测答案》第 17 页。"
         },
         {
           "id": "politics-selftest-p234-q2-s08",
           "number": 8,
           "text": "全面依法治国的宏伟目标",
-          "answer": [],
+          "answer": [
+            "G"
+          ],
           "answerMode": "单选",
-          "answerState": "待补答案"
+          "answerState": "已按自测答案核对",
+          "answerDisplay": "G · 建设法治中国",
+          "answerOriginalNumber": 7,
+          "answerPdfPage": 17,
+          "explanation": "全面依法治国的宏伟目标 → 建设法治中国。原答案（8）→⑦；见《自测答案》第 17 页。"
         }
       ],
       "lectureEvidence": {
@@ -2364,7 +3229,10 @@
         "image": "selftest-234"
       },
       "sourceText": "中国特色社会主义法治体系的前提 建设中国特色社会主义法治体系的重点 法治社会的基础工程 全面依法治国的基础工程 权利保障的关键环节 公民权利保障的最后防线 中国特色社会主义法治之魂 全面依法治国的宏伟目标 全民守法 完备的法律规范体系 高效的法治实施体系 法治社会建设 司法保障 行政保障 建设法治中国 党的领导",
-      "extractionNotes": []
+      "extractionNotes": [],
+      "answerSourceLabel": "自测答案",
+      "answerSourceName": "《冲刺背诵手册（上册）》自测答案.pdf",
+      "answerPdfPage": 17
     }
   ],
   "pages": [],
