@@ -417,3 +417,5 @@ button:disabled { cursor: default; }
   .sidebar { top: 152px; }
   .brand-copy strong { max-width: calc(100vw - 90px); }
 }
+
+.submit-summary.pending-answer-summary { color: #8a6500; }

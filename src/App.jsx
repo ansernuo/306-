@@ -5,9 +5,9 @@ const SUBJECTS = {
   politics: {
     label: '政治',
     title: '政治 · 冲刺背诵匹配自测',
-    subtitle: '专题一试用 · 按手册考点改编',
+    subtitle: '手册背诵自测与专题练习',
     sectionLabel: '政治专题',
-    defaultTopic: '专题一 · 马、恩、列经典著作和标志理论',
+    defaultTopic: '背诵自测 · 马原',
     sourceName: '27腿姐《冲刺背诵手册》完整版.pdf',
   },
   med: {
@@ -75,10 +75,32 @@ const appendSupplement = (content, supplement) => ({
 })
 
 const CONTENT_LOADERS = {
-  politics: () => loadJson(() => import('./data/politics-data.json')).then((data) => ({
-    ...data,
-    groups: data.groups.map((group) => ({ ...group, lectureEvidence: { ...group.lectureEvidence, image: data.referenceImages[group.lectureEvidence.image] } })),
-  })),
+  politics: async () => {
+    const [practice, matching] = await Promise.all([
+      loadJson(() => import('./data/politics-data.json')),
+      loadJson(() => import('./data/politics-selftest-data.json')),
+    ])
+    const referenceImages = { ...practice.referenceImages, ...matching.referenceImages }
+    const groups = [...matching.groups, ...practice.groups].map((group) => ({
+      ...group,
+      lectureEvidence: group.lectureEvidence ? { ...group.lectureEvidence, image: referenceImages[group.lectureEvidence.image] } : null,
+    }))
+    return {
+      ...practice,
+      meta: {
+        ...practice.meta,
+        sourceLabel: '冲刺背诵手册 · 原书连线自测与专题一练习',
+        lectureCount: matching.lectures.length + practice.lectures.length,
+        sourcePages: matching.meta.sourcePages + practice.meta.sourcePages,
+        groupCount: groups.length,
+        stemCount: groups.reduce((sum, group) => sum + group.stems.length, 0),
+      },
+      topics: [...matching.topics, ...practice.topics],
+      groups,
+      pages: [...matching.pages, ...practice.pages],
+      lectures: [...matching.lectures, ...practice.lectures],
+    }
+  },
   med: async () => {
     const [content, homework, exam, practitioner] = await Promise.all([
       loadJson(() => import('./data/med-data.json')),
@@ -805,6 +827,7 @@ function App() {
   const answerStorageId = groupAnswerStorageKey(subject, group)
   const currentSelections = selections[answerStorageId] || {}
   const isSubmitted = Boolean(submitted[answerStorageId])
+  const waitingForAnswers = Boolean(group.pendingAnswers && group.stems.every(isUnresolvedStem))
   const activeStemIndex = keyboardStem?.groupId === answerStorageId
     ? Math.min(keyboardStem.index, Math.max(0, group.stems.length - 1)) : 0
   const currentPage = content.pages.find((item) => item.page === group.page && item.sourceKey === group.sourceKey)
@@ -861,6 +884,7 @@ function App() {
       delete next[answerStorageId]
       return next
     })
+    if (waitingForAnswers) return
     setSelections((previous) => {
       const next = { ...previous }
       delete next[answerStorageId]
@@ -869,7 +893,7 @@ function App() {
     setShowSource(false)
     setShowLectureEvidence(false)
     setShowNote(false)
-  }, [answerStorageId])
+  }, [answerStorageId, waitingForAnswers])
 
   function redoSystem() {
     if (!activeSystem || activeSystem === '全部' || !systemStorageIds.size) return
@@ -1135,7 +1159,7 @@ function App() {
           </nav>
           <div className="sidebar-footer">
             <div className="source-stat"><span>题库来源</span><strong>{content.meta.sourceLabel || '学成选择题（题目数据版）'}</strong><small>{content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
-            <div className="lecture-stat"><span>讲义依据</span><strong>{subject === 'politics' ? '手册专题一 · 书内第 3—4 页' : `${subjectConfig.label}讲义 PDF 共 ${content.meta.lectureCount} 份`}</strong><Icon name="file" size={18} /></div>
+            <div className="lecture-stat"><span>讲义依据</span><strong>{subject === 'politics' ? '17 组原书连线题 · 另有专题一练习' : `${subjectConfig.label}讲义 PDF 共 ${content.meta.lectureCount} 份`}</strong><Icon name="file" size={18} /></div>
           </div>
         </aside>
 
@@ -1172,7 +1196,7 @@ function App() {
           <div className="question-side">
           <section className="question-card" ref={questionCardRef} onClickCapture={lockStem} onFocusCapture={lockStem}>
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
-            <div className="keyboard-help"><strong aria-live="polite">锁定小题 {activeStemIndex + 1} / {group.stems.length}{pendingShortcut ? ` · 输入 ${pendingShortcut}…` : ''}</strong><span>↑↓ 锁定小题 · ←→ 切换题组 · Enter {isSubmitted ? '重新作答' : '提交'}</span><span>字母／数字选择，再按取消；⌘＋字母选小写；多位编号连续输入。</span></div>
+            <div className="keyboard-help"><strong aria-live="polite">锁定小题 {activeStemIndex + 1} / {group.stems.length}{pendingShortcut ? ` · 输入 ${pendingShortcut}…` : ''}</strong><span>↑↓ 锁定小题 · ←→ 切换题组 · Enter {waitingForAnswers ? (isSubmitted ? '修改选择' : '保存') : (isSubmitted ? '重新作答' : '提交')}</span><span>字母／数字选择，再按取消；⌘＋字母选小写；多位编号连续输入。</span></div>
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
             {group.answerLayout !== 'rows' && group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
               ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} activeStemIndex={activeStemIndex} />
@@ -1180,8 +1204,8 @@ function App() {
                 {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} active={activeStemIndex === index} />)}
               </div>}
             <div className="question-card-bottom">
-              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>{group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
-              <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{isSubmitted ? '重新作答' : '提交本题组'}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
+              {isSubmitted ? <div className={`submit-summary ${waitingForAnswers ? 'pending-answer-summary' : ''}`}><Icon name={waitingForAnswers ? 'file' : 'check'} size={18} /><span>{waitingForAnswers ? '已保存选择 · 待补答案，暂不计分' : group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">{waitingForAnswers ? '答案待补；可先完成匹配并保存选择，之后继续修改。' : '完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。'}</span>}
+              <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{waitingForAnswers ? (isSubmitted ? '修改本组选择' : '保存本组选择') : (isSubmitted ? '重新作答' : '提交本题组')}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
             </div>
           </section>
 
@@ -1289,8 +1313,8 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
   const correct = submitted && !unresolved && stemIsCorrect(selection, stem)
   const missed = submitted && !unresolved && answer.some((item) => !selection.includes(item))
   const answerDisplay = stem.answerDisplay || answer.map((item) => group.options.find((option) => option.key === item)?.displayKey || item).join('、')
-  const unresolvedLabel = stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对'
-  const unresolvedResult = stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分'
+  const unresolvedLabel = stem.answerState === '待补答案' ? '待补答案' : (stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对')
+  const unresolvedResult = stem.answerState === '待补答案' ? '已保存选择 · 待补答案，不计对错' : (stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分')
 
   return (
     <>
@@ -1329,8 +1353,8 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
   const choiceCategories = unique(choiceOptions.map((option) => option.category).filter(Boolean))
   const keys = choiceOptions.map((option) => option.key)
   const answerDisplay = stem.answerDisplay || answer.map((item) => group.options.find((option) => option.key === item)?.displayKey || item).join('、')
-  const unresolvedLabel = stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对'
-  const unresolvedResult = stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分'
+  const unresolvedLabel = stem.answerState === '待补答案' ? '待补答案' : (stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对')
+  const unresolvedResult = stem.answerState === '待补答案' ? '已保存选择 · 待补答案，不计对错' : (stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分')
   const renderChoiceButton = (option) => {
     const item = option.key
     const label = option.displayKey || item
@@ -1373,9 +1397,9 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
   return <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
     <div className="evidence-rail"><button className="evidence-toggle" onClick={() => setEvidenceCollapsed(false)} aria-label="展开讲义栏"><Icon name="left" size={17} /></button><span className="evidence-rail-label">手册依据</span></div>
     <div className="evidence-panel-content">
-      <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>手册依据</h2><p>书内第 3—4 页 · PDF 第 7—8 页</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
-      <div className="politics-source-note"><strong>专题一 · 13 项考点</strong><p>题目由手册表格改编。先独立匹配，提交后核对；每题选项独立，可以重复使用。</p><p>正向匹配 → 反向匹配 → 易混辨析</p><button className="ghost-button" onClick={() => setReveal((value) => !value)}>{reveal ? '收起原文' : submitted ? '查看原文依据' : '提前查看原文（含答案）'}</button></div></div>
-      {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>仅显示专题一对应内容，点击放大。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={group.lectureEvidence.image} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
+      <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>手册依据</h2><p>{group.originalMatching ? group.lectureEvidence.pageLabel : '书内第 3—4 页 · PDF 第 7—8 页'}</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
+      <div className="politics-source-note"><strong>{group.originalMatching ? `${group.unit} · ${group.sourceRange}` : '专题一 · 13 项考点'}</strong><p>{group.originalMatching ? '原书连线题的题干与选项已按原顺序录入。A、B…依次对应原①、②…；未填写参考答案，当前只保存选择。' : '题目由手册表格改编。先独立匹配，提交后核对；每题选项独立，可以重复使用。'}</p><p>{group.originalMatching ? `原第 ${group.sourceQuestion} 大题 · ${group.stems.length} 个小题 · 待补答案` : '正向匹配 → 反向匹配 → 易混辨析'}</p><button className="ghost-button" onClick={() => setReveal((value) => !value)}>{reveal ? '收起原文' : group.originalMatching ? '查看连线原题' : submitted ? '查看原文依据' : '提前查看原文（含答案）'}</button></div></div>
+      {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>{group.originalMatching ? '仅显示本组连线原题，点击放大核对。' : '仅显示专题一对应内容，点击放大。'}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={group.lectureEvidence.image} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
     </div>
   </aside>
 }
