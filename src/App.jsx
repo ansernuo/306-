@@ -912,6 +912,35 @@ function App() {
   }
 
   useEffect(() => {
+    function handleLectureKey(event) {
+      if (event.defaultPrevented || event.isComposing || event.keyCode === 229
+        || event.altKey || event.ctrlKey || event.metaKey) return
+      const target = event.target instanceof Element ? event.target : null
+      if (target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')) return
+
+      const lectureKey = event.key.toLowerCase() === 'q'
+      if (!lectureKey && !(event.key === 'Escape' && showLectureEvidence)) return
+      if (isLoadingContent || !filteredGroups.length || showSource) return
+      event.preventDefault()
+      event.stopPropagation()
+      if (event.repeat) return
+      if (showLectureEvidence) {
+        setShowLectureEvidence(false)
+        return
+      }
+      const number = group.stems[activeStemIndex]?.sourceQuestion ?? group.stems[activeStemIndex]?.number
+      const pages = group.lectureEvidencePages || []
+      const evidence = pages.find(page => page.questionNumbers?.some(item => String(item) === String(number)))
+        || group.lectureEvidence || pages[0]
+      setShowLectureEvidence(evidence || { title: '暂无对应讲义原页' })
+    }
+
+    // Capture Q before the option-letter handler; opening a lecture never selects Q.
+    window.addEventListener('keydown', handleLectureKey, true)
+    return () => window.removeEventListener('keydown', handleLectureKey, true)
+  }, [activeStemIndex, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource])
+
+  useEffect(() => {
     if (isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence) return undefined
     let sequence = ''
     let timer
@@ -1205,7 +1234,7 @@ function App() {
       </div>
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
-      {showLectureEvidence && group.lectureEvidence && <LectureEvidenceModal evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
+      {showLectureEvidence && <LectureEvidenceModal evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
         {showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
@@ -1439,7 +1468,30 @@ function SourceModal({ group, page, pages = [], sourceName, onClose }) {
 }
 
 function LectureEvidenceModal({ evidence, onClose, contextLabel = '本题组对应的讲义原页' }) {
-  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>对应讲义页</span><h2>{evidence.title}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image"><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /></div><div className="modal-footer"><span>{contextLabel}</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+  const dialogRef = useRef(null)
+  useEffect(() => {
+    const previousFocus = document.activeElement
+    dialogRef.current?.focus({ preventScroll: true })
+    return () => {
+      if (previousFocus?.isConnected) previousFocus.focus({ preventScroll: true })
+    }
+  }, [])
+
+  function keepFocusInDialog(event) {
+    if (event.key !== 'Tab') return
+    const buttons = [...dialogRef.current.querySelectorAll('button:not(:disabled)')]
+    const first = buttons[0]
+    const last = buttons[buttons.length - 1]
+    if (event.shiftKey && [first, dialogRef.current].includes(document.activeElement)) {
+      event.preventDefault()
+      last?.focus()
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault()
+      first?.focus()
+    }
+  }
+
+  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>对应讲义页</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Q 开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App

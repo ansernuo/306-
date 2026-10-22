@@ -299,6 +299,8 @@ button:disabled { cursor: default; }
 .modal-image-wrap { flex: 1; overflow: auto; padding: 22px; background: #f2f5f8; text-align: center; }
 .modal-image-wrap img { max-width: 100%; width: auto; height: auto; border: 1px solid #dfe4ea; box-shadow: 0 10px 30px rgba(28,48,77,.1); }
 .lecture-modal-image img { width: min(100%, 1489px); }
+.lecture-modal-backdrop, .lecture-modal-image { overscroll-behavior: contain; }
+.lecture-modal-backdrop { overflow: auto; }
 .modal-footer { border-top: 1px solid var(--line); color: #8b98a8; font-size: 11px; }
 
 @media (max-width: 1500px) {
