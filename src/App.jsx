@@ -916,18 +916,19 @@ function App() {
   }
 
   useEffect(() => {
-    function handleLectureKey(event) {
-      if (event.defaultPrevented || event.isComposing || event.keyCode === 229
-        || event.altKey || event.ctrlKey || event.metaKey) return
-      const target = event.target instanceof Element ? event.target : null
-      if (!showLectureEvidence && target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')) return
+    let shiftTap = null
 
-      const lectureKey = event.key.toLowerCase() === 'q'
-      if (!lectureKey && !(event.key === 'Escape' && showLectureEvidence)) return
-      if (isLoadingContent || !filteredGroups.length || showSource) return
+    function canUseLectureShortcut(event) {
+      if (event.defaultPrevented || event.isComposing || event.keyCode === 229
+        || event.altKey || event.ctrlKey || event.metaKey) return false
+      const target = event.target instanceof Element ? event.target : null
+      if (!showLectureEvidence && target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')) return false
+      return !isLoadingContent && filteredGroups.length > 0 && !showSource
+    }
+
+    function toggleLecture(event) {
       event.preventDefault()
       event.stopPropagation()
-      if (event.repeat) return
       if (showLectureEvidence) {
         setShowLectureEvidence(false)
         return
@@ -936,9 +937,40 @@ function App() {
       setShowLectureEvidence(evidence || { title: '暂无对应讲义原页' })
     }
 
-    // Capture Q before the option-letter handler; opening a lecture never selects Q.
-    window.addEventListener('keydown', handleLectureKey, true)
-    return () => window.removeEventListener('keydown', handleLectureKey, true)
+    function cancelShiftTap() {
+      shiftTap = null
+    }
+
+    function handleLectureKeyDown(event) {
+      if (event.key === 'Shift') {
+        if (event.repeat) return
+        // Wait for release so Shift+letter, Shift+Tab and other combinations remain normal.
+        shiftTap = !shiftTap && canUseLectureShortcut(event) ? (event.code || 'Shift') : null
+        return
+      }
+      cancelShiftTap()
+      if (event.key === 'Escape' && showLectureEvidence && canUseLectureShortcut(event)) {
+        if (!event.repeat) toggleLecture(event)
+      }
+    }
+
+    function handleLectureKeyUp(event) {
+      const singleShift = event.key === 'Shift' && shiftTap
+        && (shiftTap === 'Shift' || event.code === shiftTap)
+      cancelShiftTap()
+      if (singleShift && canUseLectureShortcut(event)) toggleLecture(event)
+    }
+
+    window.addEventListener('keydown', handleLectureKeyDown, true)
+    window.addEventListener('keyup', handleLectureKeyUp, true)
+    window.addEventListener('blur', cancelShiftTap)
+    window.addEventListener('pointerdown', cancelShiftTap, true)
+    return () => {
+      window.removeEventListener('keydown', handleLectureKeyDown, true)
+      window.removeEventListener('keyup', handleLectureKeyUp, true)
+      window.removeEventListener('blur', cancelShiftTap)
+      window.removeEventListener('pointerdown', cancelShiftTap, true)
+    }
   }, [activeStemIndex, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource])
 
   useEffect(() => {
@@ -1497,7 +1529,7 @@ function LectureEvidenceModal({ evidence: initialEvidence, pages = [], onClose, 
     }
   }
 
-  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>{evidence?.sourceFile || '对应讲义页'}</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2>{evidencePages.length > 1 ? <label className="lecture-page-picker">相关讲义（{evidencePages.length}页）：<select aria-label="切换相关讲义页" value={pageIndex} onChange={event => setPageIndex(Number(event.target.value))}>{evidencePages.map((page, index) => <option key={page.image} value={index}>{page.title}</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div ref={imageWrapRef} className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Q 开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>{evidence?.sourceFile || '对应讲义页'}</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2>{evidencePages.length > 1 ? <label className="lecture-page-picker">相关讲义（{evidencePages.length}页）：<select aria-label="切换相关讲义页" value={pageIndex} onChange={event => setPageIndex(Number(event.target.value))}>{evidencePages.map((page, index) => <option key={page.image} value={index}>{page.title}</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div ref={imageWrapRef} className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Shift（⇧）开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App
