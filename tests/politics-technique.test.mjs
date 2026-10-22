@@ -39,3 +39,24 @@ test('all existing practice IDs are preserved without collisions',()=>{
  assert.equal(old.flatMap(g=>g.stems).length,166)
  assert.equal(new Set([...old,...data.groups].map(g=>g.id)).size,45)
 })
+
+test('politics has five subject directories with homework and self-tests inside each',async()=>{
+ const {organizePoliticsContent}=await import('../src/politics-navigation.js')
+ const old=[...read('politics-data').groups,...read('politics-selftest-data').groups,...data.groups]
+ const content=organizePoliticsContent(read('politics-data'),read('politics-selftest-data'),data)
+ assert.deepEqual(content.topics,['马原','毛中特','习思想','史纲','思法'])
+ assert.deepEqual(content.topics.map(topic=>content.groups.filter(g=>g.topic===topic).flatMap(g=>g.stems).length),[128,39,54,65,47])
+ const titles=content.lectures.filter(l=>l.topic==='马原').map(l=>l.title)
+ assert.deepEqual(titles.slice(0,3),['技巧班作业1 · 唯物论与辩证法','技巧班作业2 · 认识论与唯物史观','技巧班作业3 · 政治经济学'])
+ assert.ok(titles.includes('自测1 · 专题一～专题五'))
+ for(const topic of content.topics){
+  assert.ok(content.lectures.some(l=>l.topic===topic&&l.title.startsWith('技巧班作业1')))
+  assert.ok(content.lectures.some(l=>l.topic===topic&&l.title.startsWith('自测1')))
+ }
+ assert.equal(content.meta.stemCount,333)
+ assert.deepEqual(new Set(content.groups.map(g=>g.id)),new Set(old.map(g=>g.id)))
+ for(const group of content.groups){
+  assert.deepEqual(group.stems,old.find(g=>g.id===group.id).stems)
+  assert.ok(content.lectures.some(l=>l.id===group.lectureIds[0]&&l.topic===group.topic))
+ }
+})

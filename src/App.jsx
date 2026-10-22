@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 
 const SUBJECTS = {
@@ -7,7 +8,7 @@ const SUBJECTS = {
     title: '政治 · 匹配与判断自测',
     subtitle: '技巧班作业、手册自测与专题练习',
     sectionLabel: '政治专题',
-    defaultTopic: '背诵自测 · 马原',
+    defaultTopic: '马原',
     sourceName: '27腿姐《冲刺背诵手册》完整版.pdf',
   },
   med: {
@@ -81,26 +82,7 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/politics-selftest-data.json')),
       loadJson(() => import('./data/politics-technique-data.json')),
     ])
-    const referenceImages = { ...practice.referenceImages, ...matching.referenceImages, ...technique.referenceImages }
-    const groups = [...technique.groups, ...matching.groups, ...practice.groups].map((group) => ({
-      ...group,
-      lectureEvidence: group.lectureEvidence ? { ...group.lectureEvidence, image: referenceImages[group.lectureEvidence.image] } : null,
-    }))
-    return {
-      ...practice,
-      meta: {
-        ...practice.meta,
-        sourceLabel: '技巧班作业与冲刺背诵手册自测',
-        lectureCount: technique.lectures.length + matching.lectures.length + practice.lectures.length,
-        sourcePages: technique.meta.sourcePages + matching.meta.sourcePages + practice.meta.sourcePages,
-        groupCount: groups.length,
-        stemCount: groups.reduce((sum, group) => sum + group.stems.length, 0),
-      },
-      topics: [...technique.topics, ...matching.topics, ...practice.topics],
-      groups,
-      pages: [...technique.pages, ...matching.pages, ...practice.pages],
-      lectures: [...technique.lectures, ...matching.lectures, ...practice.lectures],
-    }
+    return organizePoliticsContent(practice, matching, technique)
   },
   med: async () => {
     const [content, homework, exam, practitioner] = await Promise.all([
@@ -739,7 +721,7 @@ function App() {
     const storedSubject = SUBJECTS[requestedSubject] ? requestedSubject : readLocalStorage('study-subject', 'med')
     const nextSubject = SUBJECTS[storedSubject] ? storedSubject : 'med'
     setSubject(nextSubject)
-    setTopic(nextSubject === 'politics' && new URLSearchParams(window.location.search).get('collection') === 'technique' ? '技巧班作业 · 马原' : SUBJECTS[nextSubject].defaultTopic)
+    setTopic(SUBJECTS[nextSubject].defaultTopic)
     setSelections(readLocalStorage('med-selections', {}))
     setSubmitted(readLocalStorage('med-submitted', {}))
     setFavorites(readFavorites())
