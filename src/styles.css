@@ -427,3 +427,9 @@ button:disabled { cursor: default; }
 @media (min-width: 1031px) and (max-width: 1400px) {
   .topbar .progress-strip { display: none; }
 }
+
+/* Politics judgements use readable labels; long conceptual blanks need room. */
+.answer-chip.judgement-chip { width: auto; min-width: 94px; height: 38px; padding: 0 13px; }
+.original-matching .fill-answers { justify-content: flex-start; max-width: none; padding-left: 30px; }
+.original-matching .fill-answers label { flex: 1 1 160px; max-width: 100%; }
+.original-matching .fill-answers input { width: 100%; min-width: 0; }
