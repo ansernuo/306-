@@ -435,3 +435,9 @@ button:disabled { cursor: default; }
 .original-matching .fill-answers { justify-content: flex-start; max-width: none; padding-left: 30px; }
 .original-matching .fill-answers label { flex: 1 1 160px; max-width: 100%; }
 .original-matching .fill-answers input { width: 100%; min-width: 0; }
+
+.lecture-page-picker { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 10px; color: #607089; font-size: 13px; }
+.lecture-page-picker select { max-width: min(650px, 100%); min-width: 0; padding: 7px 9px; border: 1px solid #dbe5f3; border-radius: 6px; background: white; color: #334766; font: inherit; }
+.lecture-modal-backdrop .modal-header > div { min-width: 0; }
+.lecture-modal-backdrop .modal-header h2 { overflow-wrap: anywhere; }
+.lecture-modal-backdrop .modal-header .icon-button { flex-shrink: 0; }

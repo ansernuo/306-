@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { applyReviewedMedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 
@@ -85,16 +86,17 @@ const CONTENT_LOADERS = {
     return organizePoliticsContent(practice, matching, technique)
   },
   med: async () => {
-    const [content, homework, exam, practitioner] = await Promise.all([
+    const [content, homework, exam, practitioner, reviewedEvidence] = await Promise.all([
       loadJson(() => import('./data/med-data.json')),
       loadJson(() => import('./data/med-teacher-supplement.json')),
       loadJson(() => import('./data/med-stage-exam-data.json')),
       loadJson(() => import('./data/med-practitioner-upper-data.json')),
+      loadJson(() => import('./data/med-reviewed-lecture-evidence.json')),
     ])
-    return appendSupplement(content, {
+    return applyReviewedMedEvidence(appendSupplement(content, {
       groups: [...homework.groups, ...exam.groups, ...practitioner.groups],
       pages: [...homework.pages, ...exam.pages, ...practitioner.pages],
-    })
+    }), reviewedEvidence)
   },
   pathology: async () => {
     const [content, homework, exam] = await Promise.all([
@@ -524,7 +526,9 @@ function unique(values) {
 function assetPath(path) {
   if (!path) return path
   if (/^(data:|https?:)/.test(String(path))) return path
-  const base = import.meta.env.VITE_ASSET_BASE || import.meta.env.BASE_URL || '/'
+  const base = String(path).replace(/^\/+/, '').startsWith('site-assets/')
+    ? (import.meta.env.BASE_URL || '/')
+    : (import.meta.env.VITE_ASSET_BASE || import.meta.env.BASE_URL || '/')
   return `${base.replace(/\/?$/, '/')}${String(path).replace(/^\/+/, '')}`
 }
 
@@ -916,7 +920,7 @@ function App() {
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return
       const target = event.target instanceof Element ? event.target : null
-      if (target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')) return
+      if (!showLectureEvidence && target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')) return
 
       const lectureKey = event.key.toLowerCase() === 'q'
       if (!lectureKey && !(event.key === 'Escape' && showLectureEvidence)) return
@@ -928,10 +932,7 @@ function App() {
         setShowLectureEvidence(false)
         return
       }
-      const number = group.stems[activeStemIndex]?.sourceQuestion ?? group.stems[activeStemIndex]?.number
-      const pages = group.lectureEvidencePages || []
-      const evidence = pages.find(page => page.questionNumbers?.some(item => String(item) === String(number)))
-        || group.lectureEvidence || pages[0]
+      const evidence = lectureForStem(group, activeStemIndex)
       setShowLectureEvidence(evidence || { title: '暂无对应讲义原页' })
     }
 
@@ -1234,7 +1235,7 @@ function App() {
       </div>
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
-      {showLectureEvidence && <LectureEvidenceModal evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
+      {showLectureEvidence && <LectureEvidenceModal pages={group.lectureEvidencePages} evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
         {showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
@@ -1467,8 +1468,13 @@ function SourceModal({ group, page, pages = [], sourceName, onClose }) {
   return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-label="原题页" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {current.page} 页</h2>{sourcePages.length > 1 ? <label>本题跨页：<select aria-label="切换本题原文页" value={pageIndex} onChange={(event) => setPageIndex(Number(event.target.value))}>{sourcePages.map((item, index) => <option key={item.page} value={index}>第 {item.page} 页</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(current.image)} alt={`原题页 ${current.page}`} /></div><div className="modal-footer"><span>图片来自“{sourceName}”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
-function LectureEvidenceModal({ evidence, onClose, contextLabel = '本题组对应的讲义原页' }) {
+function LectureEvidenceModal({ evidence: initialEvidence, pages = [], onClose, contextLabel = '本题组对应的讲义原页' }) {
+  const evidencePages = pages.length ? pages : (initialEvidence ? [initialEvidence] : [])
+  const [pageIndex, setPageIndex] = useState(() => Math.max(0, evidencePages.findIndex(page => page.image === initialEvidence?.image)))
+  const evidence = evidencePages[pageIndex] || initialEvidence
   const dialogRef = useRef(null)
+  const imageWrapRef = useRef(null)
+  useEffect(() => { imageWrapRef.current?.scrollTo(0, 0) }, [pageIndex])
   useEffect(() => {
     const previousFocus = document.activeElement
     dialogRef.current?.focus({ preventScroll: true })
@@ -1479,7 +1485,7 @@ function LectureEvidenceModal({ evidence, onClose, contextLabel = '本题组对�
 
   function keepFocusInDialog(event) {
     if (event.key !== 'Tab') return
-    const buttons = [...dialogRef.current.querySelectorAll('button:not(:disabled)')]
+    const buttons = [...dialogRef.current.querySelectorAll('button:not(:disabled), select:not(:disabled)')]
     const first = buttons[0]
     const last = buttons[buttons.length - 1]
     if (event.shiftKey && [first, dialogRef.current].includes(document.activeElement)) {
@@ -1491,7 +1497,7 @@ function LectureEvidenceModal({ evidence, onClose, contextLabel = '本题组对�
     }
   }
 
-  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>对应讲义页</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Q 开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>{evidence?.sourceFile || '对应讲义页'}</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2>{evidencePages.length > 1 ? <label className="lecture-page-picker">相关讲义（{evidencePages.length}页）：<select aria-label="切换相关讲义页" value={pageIndex} onChange={event => setPageIndex(Number(event.target.value))}>{evidencePages.map((page, index) => <option key={page.image} value={index}>{page.title}</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div ref={imageWrapRef} className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Q 开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App

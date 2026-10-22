@@ -23,6 +23,9 @@ export function sites(): Plugin {
     async closeBundle() {
       const outputDirectory = resolve(root, "dist", ".openai");
       const hostingConfig = resolve(root, ".openai", "hosting.json");
+      // Reviewed lecture pages ship with the Site; legacy teaching assets remain on their existing CDN.
+      const reviewedAssets = resolve(root, "public", "site-assets");
+      if (await exists(reviewedAssets)) await cp(reviewedAssets, resolve(root, "dist", "client", "site-assets"), { recursive: true });
       const drizzleSource = resolve(root, "drizzle");
       await rm(outputDirectory, { recursive: true, force: true });
       await mkdir(outputDirectory, { recursive: true });
