@@ -6374,7 +6374,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第166题 · 良性前列腺增生的药物治疗",
+      "title": "精选执医（上） · 第166题 · 良性前列腺增生的手术治疗",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6385,13 +6385,13 @@
       "diseaseTags": [
         "精选执医",
         "执业医师真题（上）",
-        "良性前列腺增生的药物治疗"
+        "良性前列腺增生的手术治疗"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第166题按用户转述的老师讲解更正为C（经尿道前列腺切除术）；解析为复习整理。",
+      "answerSourceLabel": "用户转述教师答案",
+      "answerSourceName": "2026-10-23用户转述老师确认：第166题选C",
+      "answerRevision": "20261023-q166-C-v3",
       "options": [
         {
           "key": "A",
@@ -6427,18 +6427,29 @@
           "text": "第166题：男，70 岁，尿频、尿急、尿痛，直肠指检前列腺增大，中央沟消失，B 超大小约 5.4×4.3cm，PSA 2.4ng/ml，尿液流速 9ml/s，残尿量 40ml。该患者首选的治疗方案是",
           "answerRaw": "E",
           "answer": [
-            "E"
+            "C"
           ],
-          "answerDisplay": "E",
+          "answerDisplay": "C",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-19",
-          "knowledgePoint": "良性前列腺增生的药物治疗",
-          "explanation": "前列腺增大、尿流率降低，但残余尿量不大且未给出反复潴留等强手术指征，可先用α阻滞剂联合5α还原酶抑制剂，选E。PSA值须综合判断，不能单独排除所有恶性病变。",
+          "knowledgePoint": "良性前列腺增生的手术治疗",
+          "explanation": "本题按老师讲解选C（经尿道前列腺切除术，TURP），由用户转述确认。老年男性前列腺增大、中央沟消失，尿流率降至9ml/s，考查良性前列腺增生所致排尿梗阻的处理。TURP通过切除增生组织解除梗阻；B项TURBT针对膀胱肿瘤，D项根治性前列腺切除术针对前列腺癌，须与本题区分。",
           "knowledgeConnections": [
-            "α阻滞剂改善动力性梗阻，5α还原酶抑制剂逐步缩小增生腺体。"
+            "本题按C判分；临床是否手术还需结合症状程度、并发症、药物疗效和患者意愿，不能仅凭尿流率或残余尿量一项决定。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
+          "answerCorrection": {
+            "from": "E",
+            "to": "C",
+            "source": "用户于2026-10-23转述老师确认：第166题选C（经尿道前列腺切除术）"
+          },
+          "explanationReferences": [
+            {
+              "title": "EAU男性下尿路症状指南：TURP手术治疗",
+              "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management"
+            }
+          ],
           "lectureEvidencePages": [
             {
               "lectureId": "lecture-19",
@@ -6453,7 +6464,7 @@
                 166
               ],
               "knowledgePoints": [
-                "良性前列腺增生的药物治疗"
+                "良性前列腺增生的手术治疗"
               ]
             }
           ]
@@ -6473,7 +6484,7 @@
             166
           ],
           "knowledgePoints": [
-            "良性前列腺增生的药物治疗"
+            "良性前列腺增生的手术治疗"
           ]
         }
       ],
@@ -6490,7 +6501,7 @@
           166
         ],
         "knowledgePoints": [
-          "良性前列腺增生的药物治疗"
+          "良性前列腺增生的手术治疗"
         ]
       }
     },

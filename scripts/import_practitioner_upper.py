@@ -90,11 +90,12 @@ REFERENCES = {
     'infection': ('EAU泌尿感染指南：泌尿生殖结核', 'https://uroweb.org/guidelines/urological-infections/chapter/the-guideline'),
     'dapt': ('AHA/ACC慢性冠脉病指南：抗血小板疗程', 'https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168'),
     'dka': ('ADA/EASD高血糖危象共识：补液与酸中毒处理', 'https://doi.org/10.2337/dci24-0032'),
+    'bph': ('EAU男性下尿路症状指南：TURP手术治疗', 'https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management'),
 }
 QUESTION_REFS = {24:['ards'],46:['dapt'],72:['hcc'],74:['pancreatitis'],
     89:['mds'],90:['mds'],106:['retina'],139:['intussusception'],
     161:['trauma'],162:['trauma'],169:['testis'],170:['infection'],
-    171:['infection'],172:['infection'],103:['dka']}
+    171:['infection'],172:['infection'],103:['dka'],166:['bph']}
 
 
 def clean(text):
@@ -248,6 +249,11 @@ def build():
                     answerSourceLabel='截图及用户确认',
                     answerSourceName='2026-10-19答案截图及2026-10-23用户明确确认',
                     supplementNotice='第162题已由用户确认答案B（手术探查），恢复正常判分；其余答案依所给截图，解析为复习整理。')
+            if n == 166:
+                g.update(answerRevision='20261023-q166-C-v3',
+                    answerSourceLabel='用户转述教师答案',
+                    answerSourceName='2026-10-23用户转述老师确认：第166题选C',
+                    supplementNotice='第166题按用户转述的老师讲解更正为C（经尿道前列腺切除术）；解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -265,7 +271,7 @@ def build():
                             o['category'] = category
                         g['options'].append(o)
                 raw = ANSWERS[num-1]
-                adopted = {24:'A',103:'A',139:'B',172:'A',194:'C'}.get(num,raw)
+                adopted = {24:'A',103:'A',139:'B',166:'C',172:'A',194:'C'}.get(num,raw)
                 s = {'number':num,'sourceQuestion':num,'sourcePage':q['pages'][0],
                     'text':f'第{num}题：{q["text"]}', 'answerRaw':raw,
                     'answer':[key_for(adopted)], 'answerDisplay':adopted,
@@ -292,6 +298,8 @@ def build():
                     s['answerCorrection'] = {'from':'C','to':'A','source':'用户于2026-10-23明确确认：第172题选A（抗结核治疗）'}
                 if num==162:
                     s['answerConfirmation'] = {'answer':'B','source':'用户于2026-10-23明确确认：第162题选B（手术探查）'}
+                if num==166:
+                    s['answerCorrection'] = {'from':'E','to':'C','source':'用户于2026-10-23转述老师确认：第166题选C（经尿道前列腺切除术）'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)
