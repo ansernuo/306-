@@ -1,3 +1,4 @@
+import { AdaptiveStudyGrid, optionColumnStyle } from './AdaptiveStudyGrid.jsx'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
@@ -1247,7 +1248,7 @@ function App() {
 
           {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[groupStorageId] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [groupStorageId]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
 
-          <div className={`study-grid ${group.options.length && !group.judgement ? '' : 'no-options'} ${group.options.length >= 12 && !group.sharedStem && !group.stems.some(stem => stem.image || String(stem.text || '').length > 100) ? 'option-heavy' : ''} ${group.stems.some(stem => stem.image) ? 'image-questions' : ''}`}>
+          <AdaptiveStudyGrid group={group}>
           {group.options.length > 0 && !group.judgement && <OptionBank group={group} />}
           <div className="question-side">
           <section className="question-card" ref={questionCardRef} onClickCapture={lockStem} onFocusCapture={lockStem}>
@@ -1267,7 +1268,7 @@ function App() {
 
           <div className="bottom-nav"><button className="pager-button" onClick={() => goTo(-1)} title="上一组（←）"><Icon name="left" size={18} />上一组</button><GroupJump key={`${subject}-${groupIndex}-${filteredGroups.length}`} current={groupIndex + 1} total={filteredGroups.length} onJump={jumpTo} /><button className="pager-button" onClick={() => goTo(1)} title="下一组（→）">下一组<Icon name="right" size={18} /></button></div>
           </div>
-          </div>
+          </AdaptiveStudyGrid>
           </div>}
         </main>
 
@@ -1293,7 +1294,7 @@ function OptionBank({ group }) {
   return (
     <aside className={`option-bank option-rail ${categorized ? 'categorized-option-bank' : ''}`}>
       <div className="section-label"><span>{group.sharedStem ? '各题选项' : '共用选项'}</span><em>{group.kindLabel}</em></div>
-      {categorized ? <div className="option-category-list">{sections.map((section) => <section className="option-category" key={section.title}><h3>{section.title}</h3><div className="option-grid">{section.options.map((option) => <div className="shared-option" key={option.key}><b>{option.displayKey || option.key}</b><span>{option.label}</span></div>)}</div></section>)}</div> : <div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.displayKey || option.key}</b><span>{option.label}</span></div>)}</div>}
+      {categorized ? <div className="option-category-list">{sections.map((section) => <section className="option-category" key={section.title}><h3>{section.title}</h3><div className="option-grid" style={optionColumnStyle(section.options)}>{section.options.map((option) => <div className="shared-option" key={option.key}><b>{option.displayKey || option.key}</b><span>{option.label}</span></div>)}</div></section>)}</div> : <div className="option-grid" style={optionColumnStyle(group.options)}>{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.displayKey || option.key}</b><span>{option.label}</span></div>)}</div>}
       <p className="option-rail-hint">{group.sharedStem ? '各小题选项按原题分区；字母与右侧答题区对应。' : (group.optionBankSections?.length ? '选项按类别分区；字母与右侧答题区对应。' : (categorized ? '选项已按考点分区，区内固定打乱；右侧题干逐题作答。' : '选项固定在左侧，右侧题干逐题作答。'))}</p>
     </aside>
   )
