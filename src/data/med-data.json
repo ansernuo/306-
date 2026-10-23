@@ -27146,11 +27146,16 @@
           "text": "缓解外周M样症状",
           "answer": [
             "A",
-            "B"
+            "B",
+            "D"
           ],
           "sourceText": "缓解外周M样症状 AB",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "sourceAnswerRaw": "AB",
+          "answerState": "药品说明书核对答案",
+          "explanation": "D盐酸戊乙奎醚具有外周抗M作用，可拮抗支气管痉挛、分泌物增多、出汗、流涎等毒蕈碱样症状，因此本题补入D，答案为A、B、D。原题页标注AB予以保留备查。",
+          "answerSourceUrl": "https://www.avancpharma.com/?post_type=products&page_id=58452/"
         },
         {
           "text": "较阿托品强、持续时间长、不增加心率和心肌耗氧",
@@ -27163,7 +27168,7 @@
         }
       ],
       "sourceText": "阿托品与胆碱酯酶复能剂（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "第3小题按用户反馈及药品说明书补入D；原题标注AB保留备查",
       "topic": "中毒",
       "lectureIds": [
         "lecture-48"
@@ -27174,7 +27179,8 @@
         "image": "med/lecture-pages/lecture-48-page-04.webp",
         "title": "第48讲第4页：内科 中毒",
         "description": "本题组对应第48讲第4页讲义。"
-      }
+      },
+      "answerRevision": "penehyclidine-20261023"
     },
     {
       "id": "p74-g3",

@@ -1,5 +1,5 @@
-import { access, cp, mkdir, rm } from "node:fs/promises";
-import { resolve } from "node:path";
+import { access, cp, mkdir, readFile, rm } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
 import type { Plugin } from "vite";
 
 async function exists(path: string): Promise<boolean> {
@@ -24,8 +24,16 @@ export function sites(): Plugin {
       const outputDirectory = resolve(root, "dist", ".openai");
       const hostingConfig = resolve(root, ".openai", "hosting.json");
       // Reviewed lecture pages ship with the Site; legacy teaching assets remain on their existing CDN.
-      const reviewedAssets = resolve(root, "public", "site-assets");
-      if (await exists(reviewedAssets)) await cp(reviewedAssets, resolve(root, "dist", "client", "site-assets"), { recursive: true });
+      const manifests = ["med-reviewed-lecture-evidence", "med-remaining-reviewed-lecture-evidence", "surgery-ortho-reviewed-lecture-evidence"];
+      await rm(resolve(root, "dist", "client", "site-assets"), { recursive: true, force: true });
+      for (const manifest of manifests) {
+        const review = JSON.parse(await readFile(resolve(root, "src", "data", `${manifest}.json`), "utf8"));
+        for (const page of Object.values(review.pages) as { image: string }[]) {
+          const target = resolve(root, "dist", "client", page.image);
+          await mkdir(dirname(target), { recursive: true });
+          await cp(resolve(root, "public", page.image), target);
+        }
+      }
       const drizzleSource = resolve(root, "drizzle");
       await rm(outputDirectory, { recursive: true, force: true });
       await mkdir(outputDirectory, { recursive: true });

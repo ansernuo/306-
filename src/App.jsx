@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { applyReviewedMedEvidence, lectureForStem } from './med-lecture-evidence.js'
+import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 
@@ -90,17 +90,18 @@ const CONTENT_LOADERS = {
     return organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion)
   },
   med: async () => {
-    const [content, homework, exam, practitioner, reviewedEvidence] = await Promise.all([
+    const [content, homework, exam, practitioner, reviewedEvidence, remainingEvidence] = await Promise.all([
       loadJson(() => import('./data/med-data.json')),
       loadJson(() => import('./data/med-teacher-supplement.json')),
       loadJson(() => import('./data/med-stage-exam-data.json')),
       loadJson(() => import('./data/med-practitioner-upper-data.json')),
       loadJson(() => import('./data/med-reviewed-lecture-evidence.json')),
+      loadJson(() => import('./data/med-remaining-reviewed-lecture-evidence.json')),
     ])
-    return applyReviewedMedEvidence(appendSupplement(content, {
+    return applyReviewedEvidence(appendSupplement(content, {
       groups: [...homework.groups, ...exam.groups, ...practitioner.groups],
       pages: [...homework.pages, ...exam.pages, ...practitioner.pages],
-    }), reviewedEvidence)
+    }), reviewedEvidence, remainingEvidence)
   },
   pathology: async () => {
     const [content, homework, exam] = await Promise.all([
@@ -129,7 +130,7 @@ const CONTENT_LOADERS = {
     })
   },
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, orthoEvidence] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
@@ -147,8 +148,9 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/surgery-teacher-supplement.json')),
       loadJson(() => import('./data/surgery-stage-exam-data.json')),
       loadJson(() => import('./data/surgery-practitioner-upper-data.json')),
+      loadJson(() => import('./data/surgery-ortho-reviewed-lecture-evidence.json')),
     ])
-    return appendSupplement({
+    return applyReviewedEvidence(appendSupplement({
       ...surgeryContent,
       meta: { ...surgeryContent.meta, lectureCount: surgeryContent.meta.lectureCount + surgeryTeacherContent.lectures.length + surgeryExamContent.lectures.length + surgeryPractitionerContent.lectures.length },
       lectures: [...surgeryContent.lectures, ...surgeryTeacherContent.lectures, ...surgeryExamContent.lectures, ...surgeryPractitionerContent.lectures],
@@ -157,7 +159,7 @@ const CONTENT_LOADERS = {
     }, {
       groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups],
       pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages],
-    })
+    }), orthoEvidence)
   },
   biochemistry: async () => {
     const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent, biochemistryExamContent] = await Promise.all([
@@ -1271,7 +1273,7 @@ function App() {
       </div>
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
-      {showLectureEvidence && <LectureEvidenceModal pages={group.lectureEvidencePages} evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
+      {showLectureEvidence && <LectureEvidenceModal notice={group.lectureEvidenceNotice} pages={group.lectureEvidencePages} evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
         {showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
@@ -1505,7 +1507,7 @@ function SourceModal({ group, page, pages = [], sourceName, onClose }) {
   return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-label="原题页" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {current.page} 页</h2>{sourcePages.length > 1 ? <label>本题跨页：<select aria-label="切换本题原文页" value={pageIndex} onChange={(event) => setPageIndex(Number(event.target.value))}>{sourcePages.map((item, index) => <option key={item.page} value={index}>第 {item.page} 页</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(current.image)} alt={`原题页 ${current.page}`} /></div><div className="modal-footer"><span>图片来自“{sourceName}”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
-function LectureEvidenceModal({ evidence: initialEvidence, pages = [], onClose, contextLabel = '本题组对应的讲义原页' }) {
+function LectureEvidenceModal({ evidence: initialEvidence, pages = [], notice, onClose, contextLabel = '本题组对应的讲义原页' }) {
   const evidencePages = pages.length ? pages : (initialEvidence ? [initialEvidence] : [])
   const [pageIndex, setPageIndex] = useState(() => Math.max(0, evidencePages.findIndex(page => page.image === initialEvidence?.image)))
   const evidence = evidencePages[pageIndex] || initialEvidence
@@ -1534,7 +1536,7 @@ function LectureEvidenceModal({ evidence: initialEvidence, pages = [], onClose, 
     }
   }
 
-  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>{evidence?.sourceFile || '对应讲义页'}</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2>{evidencePages.length > 1 ? <label className="lecture-page-picker">相关讲义（{evidencePages.length}页）：<select aria-label="切换相关讲义页" value={pageIndex} onChange={event => setPageIndex(Number(event.target.value))}>{evidencePages.map((page, index) => <option key={page.image} value={index}>{page.title}</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div ref={imageWrapRef} className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Shift（⇧）开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>{evidence?.sourceFile || '对应讲义页'}</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2>{notice ? <p className="lecture-evidence-notice">{notice}</p> : null}{evidencePages.length > 1 ? <label className="lecture-page-picker">相关讲义（{evidencePages.length}页）：<select aria-label="切换相关讲义页" value={pageIndex} onChange={event => setPageIndex(Number(event.target.value))}>{evidencePages.map((page, index) => <option key={page.image} value={index}>{page.title}</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div ref={imageWrapRef} className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Shift（⇧）开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App

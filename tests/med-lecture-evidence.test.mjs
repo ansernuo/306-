@@ -32,18 +32,18 @@ test('all three systems receive reviewed pages without changing questions, answe
   }
 })
 
-test('assets are genuine WebP pages with accurate, bounded source references', () => {
+test('assets are genuine AVIF pages with accurate, bounded source references', () => {
   assert.equal(Object.keys(review.pages).length, 167)
   for (const page of Object.values(review.pages)) {
     const file = new URL(`../public/${page.image}`, import.meta.url)
     assert.ok(existsSync(file), page.image)
     const bytes = readFileSync(file)
-    assert.equal(bytes.toString('ascii', 0, 4), 'RIFF', page.image)
-    assert.equal(bytes.toString('ascii', 8, 12), 'WEBP', page.image)
+    assert.equal(bytes.toString('ascii', 4, 8), 'ftyp', page.image)
+    assert.equal(bytes.toString('ascii', 8, 12), 'avif', page.image)
     if (page.sourceSubject === 'med') {
       assert.equal(page.sourceFile, '27跟课版内科合集【带导图】.pdf')
       assert.ok(page.page >= 1 && page.page <= 482)
-      assert.ok(page.image.endsWith(`page-${String(page.page).padStart(3, '0')}.webp`))
+      assert.ok(page.image.endsWith(`page-${String(page.page).padStart(3, '0')}.avif`))
     }
   }
 })
