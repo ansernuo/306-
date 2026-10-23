@@ -61,7 +61,7 @@ button:disabled { cursor: default; }
 .workspace.sidebar-collapsed { grid-template-columns: 64px minmax(500px, 1fr) 360px; }
 .workspace.evidence-collapsed { grid-template-columns: 250px minmax(500px, 1fr) 64px; }
 .workspace.sidebar-collapsed.evidence-collapsed { grid-template-columns: 64px minmax(500px, 1fr) 64px; }
-.evidence-collapsed .main-content { max-width: 1280px; }
+.evidence-collapsed .main-content { max-width: 1600px; }
 .sidebar-collapsed .sidebar { padding-inline: 10px; }
 .sidebar-collapsed .sidebar-heading { justify-content: center; }
 .sidebar-collapsed .sidebar-title, .sidebar-collapsed .topic-link span:nth-child(2), .sidebar-collapsed .topic-counts, .sidebar-collapsed .favorite-notebook-link span:nth-child(2), .sidebar-collapsed .favorite-notebook-link em, .sidebar-collapsed .topic-nav-label, .sidebar-collapsed .chapter-nav, .sidebar-collapsed .sidebar-footer { display: none; }
@@ -96,7 +96,7 @@ button:disabled { cursor: default; }
 .source-stat strong, .lecture-stat strong { display: block; color: #40506a; font-size: 13px; line-height: 1.55; font-weight: 600; }
 .source-stat small { display: block; margin-top: 6px; color: #96a2b2; font-size: 12px; }
 .lecture-stat svg { position: absolute; top: 19px; right: 3px; color: var(--green); }
-.main-content { min-width: 0; padding: 33px clamp(24px, 2.7vw, 42px) 44px; max-width: 1200px; width: 100%; margin: 0 auto; }
+.main-content { min-width: 0; padding: 33px clamp(24px, 2.7vw, 42px) 44px; max-width: 1600px; width: 100%; margin: 0 auto; container-type: inline-size; container-name: study; }
 .mobile-topic-row { display: none; }
 .desktop-chapter-jump { display: flex; align-items: center; gap: 10px; margin: 0 0 17px; padding: 9px 11px; border: 1px solid #dfe8f4; border-radius: 9px; color: #718096; background: #f8fbff; font-size: 12px; }
 .desktop-chapter-jump span { flex: 0 0 auto; font-weight: 700; color: #526b8e; }
@@ -131,19 +131,23 @@ button:disabled { cursor: default; }
 .note-strip input { border: 0; outline: 0; background: transparent; width: 100%; color: var(--ink); font-size: 13px; }
 .section-label { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; color: #64738b; font-size: 12px; font-weight: 700; }
 .section-label em { color: var(--blue); font-style: normal; font-weight: 600; }
-.study-grid { display: grid; grid-template-columns: minmax(205px, .46fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+.study-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.study-grid.image-questions { grid-template-columns: minmax(0, .72fr) minmax(0, 1fr); }
+.study-grid.option-heavy { grid-template-columns: minmax(0, 1.45fr) minmax(260px, 1fr); }
+.option-heavy .option-grid { row-gap: 6px; }
+.option-heavy .option-rail-hint { margin-top: 10px; padding-top: 8px; }
 .study-grid.no-options { grid-template-columns: minmax(0, 1fr); }
 .question-side { min-width: 0; }
 .option-bank { padding: 16px 15px 13px; border: 1px solid var(--line); border-radius: 10px; background: rgba(255,255,255,.82); box-shadow: 0 7px 20px rgba(35,62,97,.025); margin-bottom: 15px; }
 .option-rail { position: sticky; top: 82px; max-height: calc(100vh - 98px); overflow: auto; scrollbar-gutter: stable; }
-.option-grid { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.option-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px 16px; }
 .option-category-list { display: grid; gap: 15px; }
 .option-category { display: grid; gap: 9px; }
 .option-category + .option-category { padding-top: 14px; border-top: 1px solid #e7edf5; }
 .option-category h3 { margin: 0; color: #3566a8; font-size: 11px; font-weight: 800; letter-spacing: .05em; }
 .shared-option { display: flex; align-items: flex-start; gap: 8px; min-width: 0; color: #4c5b71; font-size: 13px; line-height: 1.45; }
 .shared-option b { flex: 0 0 auto; width: 22px; height: 22px; display: grid; place-items: center; border-radius: 6px; color: var(--blue); background: var(--blue-soft); font-size: 12px; }
-.shared-option span { padding-top: 2px; }
+.shared-option span { min-width: 0; padding-top: 2px; overflow-wrap: anywhere; }
 .option-rail-hint { margin: 14px 0 0; padding-top: 11px; border-top: 1px solid #edf0f4; color: #9aa6b5; font-size: 11px; line-height: 1.6; }
 .question-card { border: 1px solid #dfe6ef; border-radius: 10px; background: white; box-shadow: var(--shadow); overflow: hidden; }
 .question-card-top { display: flex; align-items: center; gap: 15px; padding: 14px 20px; border-bottom: 1px solid #edf0f4; color: #8a98ab; font-size: 12px; }
@@ -203,6 +207,9 @@ button:disabled { cursor: default; }
 .answer-mode.is-multi { border-color: #b8d2fa; color: var(--blue); background: var(--blue-soft); }
 .stem-copy small { display: block; color: #9aa6b5; font-size: 11px; margin-top: 4px; }
 .answer-choices { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 5px; max-width: 230px; }
+/* Long letter banks use the full row instead of a narrow right-hand strip. */
+.stem-row.many-choices:not(.has-choice-categories) { grid-template-columns: minmax(0, 1fr); align-items: start; row-gap: 8px; }
+.stem-row.many-choices .answer-choices { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fill, 29px); justify-content: start; gap: 4px; width: 100%; max-width: none; padding-left: 30px; }
 .stem-row.has-choice-categories { grid-template-columns: minmax(0, 1fr); align-items: start; }
 .answer-choice-category-list { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 12px; padding-left: 30px; }
 .answer-choice-category { display: grid; grid-template-columns: minmax(88px, auto) 1fr; align-items: center; gap: 8px; padding: 7px 9px; border: 1px solid #e5ebf3; border-radius: 7px; background: #fafcff; }
@@ -308,9 +315,10 @@ button:disabled { cursor: default; }
   .brand-copy span { display: none; }
   .search-box { width: 190px; }
 }
-@media (min-width: 1241px) {
-  .workspace.evidence-collapsed .study-grid:not(.no-options) { grid-template-columns: minmax(330px, .72fr) minmax(0, 1fr); gap: 20px; }
-  .workspace.evidence-collapsed .option-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 14px; }
+/* Size the split by the available study area, including when side panels are open. */
+@container study (max-width: 640px) {
+  .study-grid:not(.no-options) { grid-template-columns: minmax(0, 1fr); }
+  .option-rail { position: static; max-height: min(50vh, 440px); }
 }
 @media (max-width: 1240px) {
   .workspace { grid-template-columns: 220px minmax(460px, 1fr) 320px; }
@@ -324,7 +332,11 @@ button:disabled { cursor: default; }
 }
 @media (max-width: 1030px) {
   .topbar { gap: 14px; padding: 0 16px; }
-  .progress-strip { justify-content: flex-start; }
+  .progress-strip { display: none; }
+  .brand-lockup { min-width: 0; flex: 1; }
+  .brand-copy { min-width: 0; }
+  .brand-copy strong { min-width: 0; }
+  .brand-mark { flex-shrink: 0; }
   .progress-strip .progress-bar { width: 100px; }
   .filter-box { width: 42px; padding: 0; justify-content: center; }
   .filter-box select, .filter-box > svg:last-child { display: none; }
@@ -339,7 +351,7 @@ button:disabled { cursor: default; }
   .evidence-panel.mobile-visible .evidence-panel-content { display: block; }
   .desktop-evidence-toggle { display: none; }
   .mobile-panel-close { display: grid; }
-  .mobile-topic-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 15px; }
+  .mobile-topic-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 15px; }
   .desktop-chapter-jump { display: none; }
   .mobile-topic-row select { min-width: 150px; height: 36px; border: 1px solid var(--line); border-radius: 7px; color: var(--ink); background: white; padding: 0 9px; }
   .text-button { padding: 8px 10px; }
@@ -383,6 +395,8 @@ button:disabled { cursor: default; }
   .answer-table { min-width: 550px; }
   .stem-row { grid-template-columns: 1fr; gap: 10px; padding: 14px 0; }
   .answer-choices { justify-content: flex-start; max-width: none; padding-left: 30px; }
+  .stem-row.many-choices .answer-choices { grid-template-columns: repeat(auto-fill, 34px); gap: 6px; }
+  .stem-row.many-choices .answer-chip { width: 34px; height: 34px; }
   .answer-choice-category-list { grid-template-columns: 1fr; padding-left: 30px; }
   .answer-choice-category { grid-template-columns: minmax(92px, auto) 1fr; }
   .fill-answers { justify-content: flex-start; max-width: none; padding-left: 30px; }
