@@ -51,8 +51,7 @@
       "AA"
     ],
     "pendingQuestions": [
-      162,
-      172
+      162
     ],
     "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。",
     "lectureEvidenceStemCount": 82
@@ -7178,7 +7177,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第172题 · 早期局限肾结核的答案疑点",
+      "title": "精选执医（上） · 第172题 · 早期局限肾结核的抗结核治疗",
       "kind": "B",
       "kindLabel": "B型题",
       "answerLayout": "rows",
@@ -7189,13 +7188,13 @@
       "diseaseTags": [
         "精选执医",
         "执业医师真题（上）",
-        "早期局限肾结核的答案疑点"
+        "早期局限肾结核的抗结核治疗"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第172题按用户确认更正为A（抗结核治疗），恢复正常判分；解析为复习整理。",
+      "answerSourceLabel": "用户确认答案",
+      "answerSourceName": "2026-10-23用户明确更正：第172题选A",
+      "answerRevision": "20261023-q172-A-v3",
       "options": [
         {
           "key": "A",
@@ -7231,19 +7230,23 @@
           "text": "第172题：一侧肾结核，上肾盏有虫蚀样改变，应选择",
           "answerRaw": "C",
           "answer": [
-            "C"
+            "A"
           ],
-          "answerDisplay": "C",
+          "answerDisplay": "A",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-18",
-          "knowledgePoint": "早期局限肾结核的答案疑点",
-          "explanation": "截图给C（肾部分切除），但题干仅“上肾盏有虫蚀样改变”，通常首先考虑规范抗结核A；局限性破坏且药物治疗不佳等才评估保肾手术。缺少这些限定，C依据不足。本题额外列为待复核，原始答案仍保留。",
+          "knowledgePoint": "早期局限肾结核的抗结核治疗",
+          "explanation": "本题选A（抗结核治疗），已按用户确认更正。题干仅描述一侧上肾盏虫蚀样改变，属于早期、局限病变的考点，应先行规范抗结核药物治疗。题干未提供药物治疗失败、广泛破坏或其他需手术处理的情况，不能仅凭局部影像改变选择肾部分切除术。",
           "knowledgeConnections": [
-            "早期肾结核不能仅凭局部影像异常就直接背成肾切除或部分切除。"
+            "肾结核以规范联合抗结核药物治疗为基础；是否手术需结合病变范围、肾功能、梗阻及药物疗效判断。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "reviewReason": "整理时发现答案与题干适应证不符，额外待复核",
+          "answerCorrection": {
+            "from": "C",
+            "to": "A",
+            "source": "用户于2026-10-23明确确认：第172题选A（抗结核治疗）"
+          },
           "explanationReferences": [
             {
               "title": "EAU泌尿感染指南：泌尿生殖结核",
@@ -7264,7 +7267,7 @@
                 172
               ],
               "knowledgePoints": [
-                "早期局限肾结核的答案疑点"
+                "早期局限肾结核的抗结核治疗"
               ]
             }
           ]
@@ -7284,7 +7287,7 @@
             172
           ],
           "knowledgePoints": [
-            "早期局限肾结核的答案疑点"
+            "早期局限肾结核的抗结核治疗"
           ]
         }
       ],
@@ -7301,7 +7304,7 @@
           172
         ],
         "knowledgePoints": [
-          "早期局限肾结核的答案疑点"
+          "早期局限肾结核的抗结核治疗"
         ]
       }
     },

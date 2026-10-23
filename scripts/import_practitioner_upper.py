@@ -28,7 +28,7 @@ ANSWER_ROWS = [
     'ECDCE', 'CCBDA', 'EDADC', 'ECBDB', 'AA',
 ]
 ANSWERS = ''.join(ANSWER_ROWS)
-PENDING = {72, 74, 89, 90, 162, 172}
+PENDING = {72, 74, 89, 90, 162}
 # First subquestion -> (last, beginning of the first actual question).
 SHARED = {
     5: (6, '该患者此时'), 11: (12, '该患者呼吸困难'),
@@ -238,6 +238,11 @@ def build():
                     answerSourceLabel='用户确认答案',
                     answerSourceName='2026-10-20用户明确更正：第194题选C',
                     supplementNotice='第194题按用户确认更正为C（右髋关节MRI）；解析为复习整理。')
+            if n == 172:
+                g.update(answerRevision='20261023-q172-A-v3',
+                    answerSourceLabel='用户确认答案',
+                    answerSourceName='2026-10-23用户明确更正：第172题选A',
+                    supplementNotice='第172题按用户确认更正为A（抗结核治疗），恢复正常判分；解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -255,7 +260,7 @@ def build():
                             o['category'] = category
                         g['options'].append(o)
                 raw = ANSWERS[num-1]
-                adopted = {24:'A',103:'A',139:'B',194:'C'}.get(num,raw)
+                adopted = {24:'A',103:'A',139:'B',172:'A',194:'C'}.get(num,raw)
                 s = {'number':num,'sourceQuestion':num,'sourcePage':q['pages'][0],
                     'text':f'第{num}题：{q["text"]}', 'answerRaw':raw,
                     'answer':[key_for(adopted)], 'answerDisplay':adopted,
@@ -267,7 +272,7 @@ def build():
                 if separate:
                     s['optionCategory'] = category
                 if num in PENDING:
-                    s['reviewReason'] = '截图评论列为争议题' if num!=172 else '整理时发现答案与题干适应证不符，额外待复核'
+                    s['reviewReason'] = '截图评论列为争议题'
                 if num==139:
                     s['answerCorrection'] = {'from':'A','to':'B','source':'用户截图中的作者评论：139选B，气钡灌肠'}
                 if num==24:
@@ -278,6 +283,8 @@ def build():
                     s['answerConfirmation'] = {'answer':'E','source':'用户于2026-10-20明确确认：第105～107题题组的第二小题选E'}
                 if num==194:
                     s['answerCorrection'] = {'from':'D','to':'C','source':'用户于2026-10-20明确确认：X线已定位右股骨颈及转子区域病灶，第194题选C'}
+                if num==172:
+                    s['answerCorrection'] = {'from':'C','to':'A','source':'用户于2026-10-23明确确认：第172题选A（抗结核治疗）'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)

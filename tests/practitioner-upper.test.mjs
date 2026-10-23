@@ -26,7 +26,7 @@ test('all 197 questions occur once and match every supplied five-answer row', ()
     const options = group(s.number).options.filter(o => !s.optionCategory || o.category === s.optionCategory)
     assert.deepEqual(options.map(o => o.displayKey), [...'ABCDE'], String(s.number))
     assert.ok(options.every(o => o.label.trim().length))
-    assert.equal(options.find(o => o.key === s.answer[0])?.displayKey, ({24:'A',103:'A',139:'B',194:'C'})[s.number] || s.answerRaw)
+    assert.equal(options.find(o => o.key === s.answer[0])?.displayKey, ({24:'A',103:'A',139:'B',172:'A',194:'C'})[s.number] || s.answerRaw)
   }
   assert.deepEqual(stem(139).answerCorrection, { from: 'A', to: 'B', source: '用户截图中的作者评论：139选B，气钡灌肠' })
   assert.equal(stem(24).answerRaw, 'C')
@@ -132,7 +132,7 @@ test('every question links to existing exact lecture pages, and large cases reta
 })
 
 test('all questions have authored explanations; uncertain supplied answers are not silently replaced', () => {
-  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90,162,172])
+  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90,162])
   for (const s of stems) {
     assert.ok(s.explanation.length > 25, String(s.number))
     assert.ok(s.knowledgePoint.length > 3)
@@ -183,4 +183,23 @@ test('question194 uses local MRI C after X-ray localisation, with a fresh gradin
   assert.match(stem(194).explanation, /本题选C.*位置已经明确.*局部MRI/)
   assert.match(group(194).title, /局部MRI评估/)
   assert.ok(group(194).lectureEvidence.knowledgePoints.includes(stem(194).knowledgePoint))
+})
+
+test('question172 is corrected to anti-TB A and restored to normal grading', () => {
+  assert.equal(stem(172).answerRaw, 'C')
+  assert.deepEqual(stem(172).answer, ['A'])
+  assert.equal(stem(172).answerDisplay, 'A')
+  assert.equal(group(172).options.find(o => o.key === 'A').label, '抗结核治疗')
+  assert.equal(stem(172).answerState, '按截图及明确更正录入')
+  assert.ok(!stem(172).reviewReason)
+  assert.ok(!surgery.meta.pendingQuestions.includes(172))
+  assert.equal(group(172).answerRevision, '20261023-q172-A-v3')
+  assert.equal(group(172).answerSourceLabel, '用户确认答案')
+  assert.deepEqual(stem(172).answerCorrection, { from:'C', to:'A', source:'用户于2026-10-23明确确认：第172题选A（抗结核治疗）' })
+  assert.match(stem(172).explanation, /本题选A（抗结核治疗）/)
+  assert.doesNotMatch(stem(172).explanation, /待复核|待核对|答案疑点/)
+  assert.match(group(172).title, /抗结核治疗/)
+  assert.ok(group(172).lectureEvidence.knowledgePoints.includes(stem(172).knowledgePoint))
+  assert.equal(stem(170).answerDisplay, 'D')
+  assert.equal(stem(171).answerDisplay, 'E')
 })
