@@ -28,7 +28,7 @@ ANSWER_ROWS = [
     'ECDCE', 'CCBDA', 'EDADC', 'ECBDB', 'AA',
 ]
 ANSWERS = ''.join(ANSWER_ROWS)
-PENDING = {72, 74, 89, 90, 162}
+PENDING = {72, 74, 89, 90}
 # First subquestion -> (last, beginning of the first actual question).
 SHARED = {
     5: (6, '该患者此时'), 11: (12, '该患者呼吸困难'),
@@ -243,6 +243,11 @@ def build():
                     answerSourceLabel='用户确认答案',
                     answerSourceName='2026-10-23用户明确更正：第172题选A',
                     supplementNotice='第172题按用户确认更正为A（抗结核治疗），恢复正常判分；解析为复习整理。')
+            if n == 160:
+                g.update(answerRevision='20261023-q162-B-confirmed-v3',
+                    answerSourceLabel='截图及用户确认',
+                    answerSourceName='2026-10-19答案截图及2026-10-23用户明确确认',
+                    supplementNotice='第162题已由用户确认答案B（手术探查），恢复正常判分；其余答案依所给截图，解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -285,6 +290,8 @@ def build():
                     s['answerCorrection'] = {'from':'D','to':'C','source':'用户于2026-10-20明确确认：X线已定位右股骨颈及转子区域病灶，第194题选C'}
                 if num==172:
                     s['answerCorrection'] = {'from':'C','to':'A','source':'用户于2026-10-23明确确认：第172题选A（抗结核治疗）'}
+                if num==162:
+                    s['answerConfirmation'] = {'answer':'B','source':'用户于2026-10-23明确确认：第162题选B（手术探查）'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)

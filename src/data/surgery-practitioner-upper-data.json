@@ -50,9 +50,7 @@
       "ECBDB",
       "AA"
     ],
-    "pendingQuestions": [
-      162
-    ],
+    "pendingQuestions": [],
     "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。",
     "lectureEvidenceStemCount": 82
   },
@@ -5693,13 +5691,13 @@
         "执业医师真题（上）",
         "穿透性肾损伤",
         "肾外伤的影像评估",
-        "开放性肾损伤的治疗争议"
+        "开放性肾损伤的手术探查"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第162题已由用户确认答案B（手术探查），恢复正常判分；其余答案依所给截图，解析为复习整理。",
+      "answerSourceLabel": "截图及用户确认",
+      "answerSourceName": "2026-10-19答案截图及2026-10-23用户明确确认",
+      "answerRevision": "20261023-q162-B-confirmed-v3",
       "options": [
         {
           "key": "q160-A",
@@ -5888,16 +5886,19 @@
           ],
           "answerDisplay": "B",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-19",
-          "knowledgePoint": "开放性肾损伤的治疗争议",
-          "explanation": "截图答案B且评论列为争议。传统题常把开放性肾损伤指向手术探查，但现代根据循环稳定性、伤道、出血及尿外渗选择，部分稳定的穿透伤可非手术治疗。本例仍应先评估并支持循环，单凭题干难确定一律探查，保留B待复核。",
+          "knowledgePoint": "开放性肾损伤的手术探查",
+          "explanation": "本题选B（手术探查），已由用户明确确认。病例为左腰部刺伤，伤口持续流出淡红色液体，结合前两问考查开放性肾损伤。本卷在所列措施中选择手术探查，以评估并处理出血、尿外渗及相关损伤；补液、抗休克等支持治疗仍应同时重视。",
           "knowledgeConnections": [
-            "不稳定、进行性出血及合并需要手术的腹内损伤等更支持手术处理。"
+            "本题按手术探查判分；临床处理还需综合循环稳定性、影像分级、伤道及合并损伤，部分稳定的穿透性肾损伤可采用非手术治疗。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
           "optionCategory": "第162题选项",
-          "reviewReason": "截图评论列为争议题",
+          "answerConfirmation": {
+            "answer": "B",
+            "source": "用户于2026-10-23明确确认：第162题选B（手术探查）"
+          },
           "explanationReferences": [
             {
               "title": "EAU泌尿创伤指南：按稳定性选择治疗",
@@ -5918,7 +5919,7 @@
                 162
               ],
               "knowledgePoints": [
-                "开放性肾损伤的治疗争议"
+                "开放性肾损伤的手术探查"
               ]
             }
           ]
@@ -5944,7 +5945,7 @@
           "knowledgePoints": [
             "穿透性肾损伤",
             "肾外伤的影像评估",
-            "开放性肾损伤的治疗争议"
+            "开放性肾损伤的手术探查"
           ]
         }
       ],
@@ -5965,7 +5966,7 @@
         "knowledgePoints": [
           "穿透性肾损伤",
           "肾外伤的影像评估",
-          "开放性肾损伤的治疗争议"
+          "开放性肾损伤的手术探查"
         ]
       }
     },

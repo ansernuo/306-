@@ -132,7 +132,7 @@ test('every question links to existing exact lecture pages, and large cases reta
 })
 
 test('all questions have authored explanations; uncertain supplied answers are not silently replaced', () => {
-  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90,162])
+  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90])
   for (const s of stems) {
     assert.ok(s.explanation.length > 25, String(s.number))
     assert.ok(s.knowledgePoint.length > 3)
@@ -202,4 +202,21 @@ test('question172 is corrected to anti-TB A and restored to normal grading', () 
   assert.ok(group(172).lectureEvidence.knowledgePoints.includes(stem(172).knowledgePoint))
   assert.equal(stem(170).answerDisplay, 'D')
   assert.equal(stem(171).answerDisplay, 'E')
+})
+
+test('confirmed question162 B is included in case grading, with the other two answers preserved', () => {
+  assert.equal(stem(162).answerRaw, 'B')
+  assert.deepEqual(stem(162).answer, ['q162-B'])
+  assert.equal(stem(162).answerDisplay, 'B')
+  assert.equal(group(162).options.find(o => o.key === 'q162-B').label, '手术探查')
+  assert.equal(stem(162).answerState, '按截图及明确更正录入')
+  assert.ok(!stem(162).reviewReason)
+  assert.ok(!surgery.meta.pendingQuestions.includes(162))
+  assert.equal(group(162).answerRevision, '20261023-q162-B-confirmed-v3')
+  assert.equal(group(162).answerSourceLabel, '截图及用户确认')
+  assert.deepEqual(stem(162).answerConfirmation, { answer:'B', source:'用户于2026-10-23明确确认：第162题选B（手术探查）' })
+  assert.deepEqual(group(162).stems.map(s => s.answerDisplay), ['C', 'C', 'B'])
+  assert.ok(group(162).stems.every(s => s.answerState !== '待原题页核对'))
+  assert.match(stem(162).explanation, /本题选B（手术探查）/)
+  assert.doesNotMatch(stem(162).explanation, /待复核|争议/)
 })
