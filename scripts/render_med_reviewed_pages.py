@@ -1,6 +1,6 @@
-"""Render the reviewed references from the user-selected local PDF.
+"""Render reviewed references from a selected local source PDF.
 Usage: python scripts/render_med_reviewed_pages.py /path/to/27跟课版内科合集【带导图】.pdf [--png-dir /path/to/existing-renders]
-Use --review med-remaining-reviewed-lecture-evidence or surgery-ortho-reviewed-lecture-evidence with the matching PDF.
+Use --review <manifest-name> for another reviewed manifest. For a manifest with several sources, run once per PDF.
 macOS uses PDFKit to preserve the collection's annotations/fonts. Other hosts use Poppler.
 """
 import argparse
@@ -24,7 +24,9 @@ review = json.loads((ROOT / 'src/data' / f'{args.review}.json').read_text())
 pdf = args.pdf.resolve()
 if not pdf.is_file():
     raise SystemExit(f'PDF not found: {pdf}')
-pages = list(review['pages'].values())
+pages = [page for page in review['pages'].values() if page['sourceFile'] == pdf.name or (args.review == 'med-reviewed-lecture-evidence' and page['sourceSubject'] == 'surgery' and page['lectureNumber'] == 14 and page['page'] == 2)]
+if not pages:
+    raise SystemExit(f'No pages in {args.review} refer to {pdf.name}')
 with tempfile.TemporaryDirectory() as directory:
     temp = Path(directory)
     rendered = args.png_dir

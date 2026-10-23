@@ -450,3 +450,8 @@ button:disabled { cursor: default; }
 .question-explanation p { white-space: pre-line; }
 
 .lecture-evidence-notice { max-width: 58em; margin: 8px 0 0; font-size: 13px; line-height: 1.6; color: #916119; }
+
+.lecture-image-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 10px; font-size: 12px; color: var(--muted); }
+.lecture-image-controls .ghost-button { padding: 5px 10px; font-size: 12px; }
+.lecture-image-controls button:disabled { opacity: .4; cursor: default; }
+.lecture-modal-image img { display: block; margin-inline: auto; }

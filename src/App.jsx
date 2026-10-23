@@ -130,7 +130,7 @@ const CONTENT_LOADERS = {
     })
   },
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, orthoEvidence] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, orthoEvidence, remainingEvidence] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
@@ -149,6 +149,7 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/surgery-stage-exam-data.json')),
       loadJson(() => import('./data/surgery-practitioner-upper-data.json')),
       loadJson(() => import('./data/surgery-ortho-reviewed-lecture-evidence.json')),
+      loadJson(() => import('./data/surgery-remaining-reviewed-lecture-evidence.json')),
     ])
     return applyReviewedEvidence(appendSupplement({
       ...surgeryContent,
@@ -159,10 +160,10 @@ const CONTENT_LOADERS = {
     }, {
       groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups],
       pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages],
-    }), orthoEvidence)
+    }), orthoEvidence, remainingEvidence)
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent, biochemistryExamContent] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent, biochemistryExamContent, reviewedEvidence] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
       loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
@@ -185,13 +186,14 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/biochemistry-lecture20-data.json')),
       loadJson(() => import('./data/biochemistry-teacher-supplement.json')),
       loadJson(() => import('./data/biochemistry-stage-exam-data.json')),
+      loadJson(() => import('./data/biochemistry-reviewed-lecture-evidence.json')),
     ])
     const allContents = [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content]
     const groups = allContents.flatMap((content) => content.groups).map((group) => ({
       ...group,
       topic: biochemistryParentForTopic(group.topic) || group.topic,
     }))
-    return appendSupplement({
+    return applyReviewedEvidence(appendSupplement({
       ...biochemistryContent,
       meta: {
         ...biochemistryContent.meta,
@@ -208,7 +210,7 @@ const CONTENT_LOADERS = {
     }, {
       groups: [...biochemistryTeacherContent.groups, ...biochemistryExamContent.groups],
       pages: [...biochemistryTeacherContent.pages, ...biochemistryExamContent.pages],
-    })
+    }), reviewedEvidence)
   },
 }
 
@@ -1510,10 +1512,14 @@ function SourceModal({ group, page, pages = [], sourceName, onClose }) {
 function LectureEvidenceModal({ evidence: initialEvidence, pages = [], notice, onClose, contextLabel = '本题组对应的讲义原页' }) {
   const evidencePages = pages.length ? pages : (initialEvidence ? [initialEvidence] : [])
   const [pageIndex, setPageIndex] = useState(() => Math.max(0, evidencePages.findIndex(page => page.image === initialEvidence?.image)))
+  const [zoom, setZoom] = useState(1)
   const evidence = evidencePages[pageIndex] || initialEvidence
   const dialogRef = useRef(null)
   const imageWrapRef = useRef(null)
-  useEffect(() => { imageWrapRef.current?.scrollTo(0, 0) }, [pageIndex])
+  useEffect(() => {
+    setZoom(1)
+    imageWrapRef.current?.scrollTo(0, 0)
+  }, [pageIndex])
   useEffect(() => {
     const previousFocus = document.activeElement
     dialogRef.current?.focus({ preventScroll: true })
@@ -1536,7 +1542,7 @@ function LectureEvidenceModal({ evidence: initialEvidence, pages = [], notice, o
     }
   }
 
-  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>{evidence?.sourceFile || '对应讲义页'}</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2>{notice ? <p className="lecture-evidence-notice">{notice}</p> : null}{evidencePages.length > 1 ? <label className="lecture-page-picker">相关讲义（{evidencePages.length}页）：<select aria-label="切换相关讲义页" value={pageIndex} onChange={event => setPageIndex(Number(event.target.value))}>{evidencePages.map((page, index) => <option key={page.image} value={index}>{page.title}</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div ref={imageWrapRef} className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Shift（⇧）开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+  return <div className="modal-backdrop lecture-modal-backdrop" onClick={onClose}><div ref={dialogRef} tabIndex={-1} className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onKeyDown={keepFocusInDialog} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>{evidence?.sourceFile || '对应讲义页'}</span><h2>{evidence?.title || '暂无对应讲义原页'}</h2>{notice ? <p className="lecture-evidence-notice">{notice}</p> : null}{evidencePages.length > 1 ? <label className="lecture-page-picker">相关讲义（{evidencePages.length}页）：<select aria-label="切换相关讲义页" value={pageIndex} onChange={event => setPageIndex(Number(event.target.value))}>{evidencePages.map((page, index) => <option key={page.image} value={index}>{page.title}</option>)}</select></label> : null}{evidence?.image ? <div className="lecture-image-controls"><button type="button" className="ghost-button" aria-label="缩小讲义图片" disabled={zoom === 1} onClick={() => setZoom(value => Math.max(1, value - 0.5))}>缩小</button><span aria-live="polite">{zoom === 1 ? '适合宽度' : `${Math.round(zoom * 100)}%`}</span><button type="button" className="ghost-button" aria-label="放大讲义图片" disabled={zoom === 5} onClick={() => setZoom(value => Math.min(5, value + 0.5))}>放大</button>{zoom > 1 ? <span className="lecture-zoom-hint">可左右、上下滑动</span> : null}</div> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div ref={imageWrapRef} className="modal-image-wrap lecture-modal-image">{evidence?.image ? <img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} style={zoom > 1 ? { width: `${zoom * 100}%`, maxWidth: 'none' } : undefined} /> : <p>本题暂未关联讲义原页。</p>}</div><div className="modal-footer"><span>{contextLabel} · Shift（⇧）开关讲义 / Esc 关闭</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App

@@ -6,8 +6,10 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 
-const WARN_MIB = 30
-const HARD_LIMIT_MIB = 40
+// Project budget for the reviewed medicine, surgery and biochemistry collections.
+// Only the pages referenced by their manifests are included in the artifact.
+const WARN_MIB = 60
+const HARD_LIMIT_MIB = 70
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const requiredFiles = [
   join(root, 'dist/server/index.js'),
@@ -47,7 +49,7 @@ try {
   console.log(JSON.stringify(result))
 
   if (sizeMib > HARD_LIMIT_MIB) {
-    console.error(`Sites archive exceeds the ${HARD_LIMIT_MIB} MiB hard limit; do not upload it.`)
+    console.error(`Sites archive exceeds the ${HARD_LIMIT_MIB} MiB project size budget; do not upload it.`)
     process.exit(1)
   }
   if (sizeMib > WARN_MIB) {
