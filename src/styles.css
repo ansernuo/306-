@@ -441,3 +441,10 @@ button:disabled { cursor: default; }
 .lecture-modal-backdrop .modal-header > div { min-width: 0; }
 .lecture-modal-backdrop .modal-header h2 { overflow-wrap: anywhere; }
 .lecture-modal-backdrop .modal-header .icon-button { flex-shrink: 0; }
+
+.review-draft { padding-left: 30px; min-width: 0; }
+.review-draft label { display: grid; gap: 8px; font-size: 13px; color: var(--muted); }
+.review-draft textarea { width: 100%; min-width: 0; resize: vertical; min-height: 130px; padding: 12px; border: 1px solid #cbd7e6; border-radius: 8px; background: var(--surface, #fff); color: var(--text); font: inherit; line-height: 1.8; }
+.review-draft textarea:focus { outline: 3px solid rgba(34,101,214,.12); border-color: #76a4ec; }
+.review-draft small { display: block; margin-top: 7px; color: var(--muted); font-size: 11px; }
+.question-explanation p { white-space: pre-line; }

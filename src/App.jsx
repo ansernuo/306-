@@ -78,12 +78,16 @@ const appendSupplement = (content, supplement) => ({
 
 const CONTENT_LOADERS = {
   politics: async () => {
-    const [practice, matching, technique] = await Promise.all([
+    // This loader runs in useEffect. Keep its PDF proof images out of the unused SSR bundle.
+    if (import.meta.env.SSR) return EMPTY_CONTENT
+    const [practice, matching, technique, bookCompletion, techniqueCompletion] = await Promise.all([
       loadJson(() => import('./data/politics-data.json')),
       loadJson(() => import('./data/politics-selftest-data.json')),
       loadJson(() => import('./data/politics-technique-data.json')),
+      loadJson(() => import('./data/politics-selftest-completion.json')),
+      loadJson(() => import('./data/politics-technique-completion.json')),
     ])
-    return organizePoliticsContent(practice, matching, technique)
+    return organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion)
   },
   med: async () => {
     const [content, homework, exam, practitioner, reviewedEvidence] = await Promise.all([
@@ -874,7 +878,7 @@ function App() {
       delete next[answerStorageId]
       return next
     })
-    if (waitingForAnswers) return
+    if (waitingForAnswers || group.selfReview) return
     setSelections((previous) => {
       const next = { ...previous }
       delete next[answerStorageId]
@@ -883,7 +887,7 @@ function App() {
     setShowSource(false)
     setShowLectureEvidence(false)
     setShowNote(false)
-  }, [answerStorageId, waitingForAnswers])
+  }, [answerStorageId, waitingForAnswers, group.selfReview])
 
   function redoSystem() {
     if (!activeSystem || activeSystem === '全部' || !systemStorageIds.size) return
@@ -1181,7 +1185,7 @@ function App() {
         </div>
         <div className="top-actions">
           <label className="search-box"><Icon name="search" size={18} /><input value={search} onChange={(event) => { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) }} placeholder="搜索题目 / 关键词" /><kbd>⌘ K</kbd></label>
-          <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
+          <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
           <button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button>
         </div>
       </header>
@@ -1252,8 +1256,8 @@ function App() {
                 {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} active={activeStemIndex === index} />)}
               </div>}
             <div className="question-card-bottom">
-              {isSubmitted ? <div className={`submit-summary ${waitingForAnswers ? 'pending-answer-summary' : ''}`}><Icon name={waitingForAnswers ? 'file' : 'check'} size={18} /><span>{waitingForAnswers ? '已保存选择 · 待补答案，暂不计分' : group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">{waitingForAnswers ? '答案待补；可先完成匹配并保存选择，之后继续修改。' : '完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。'}</span>}
-              <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{waitingForAnswers ? (isSubmitted ? '修改本组选择' : '保存本组选择') : (isSubmitted ? '重新作答' : '提交本题组')}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
+              {isSubmitted ? <div className={`submit-summary ${waitingForAnswers ? 'pending-answer-summary' : ''}`}><Icon name={waitingForAnswers ? 'file' : 'check'} size={18} /><span>{group.selfReview ? '草稿已保存 · 请对照参考要点自评' : waitingForAnswers ? '已保存选择 · 待补答案，暂不计分' : group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">{group.selfReview ? '先写下思路，保存后展开参考要点；可随时继续修改草稿。' : waitingForAnswers ? '答案待补；可先完成匹配并保存选择，之后继续修改。' : '完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。'}</span>}
+              <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{group.selfReview ? (isSubmitted ? '继续修改草稿' : '保存并查看参考') : waitingForAnswers ? (isSubmitted ? '修改本组选择' : '保存本组选择') : (isSubmitted ? '重新作答' : '提交本题组')}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
             </div>
           </section>
 
@@ -1391,6 +1395,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
   const multi = isMultiStem(group, stem)
   const ordered = isRankingStem(stem)
   const fill = isFillStem(stem)
+  const selfReview = stem.answerMode === '自评'
   const unresolved = isUnresolvedStem(stem)
   const correct = submitted && !unresolved && stemIsCorrect(selection, stem)
   const wrong = submitted && !unresolved && !correct
@@ -1416,13 +1421,13 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
   }
   return (
     <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
-      {fill
+      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
+      {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div>
         : (choiceCategories.length
           ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => <div className="answer-choice-category" key={category}><span>{category}</span><div>{choiceOptions.filter((option) => option.category === category).map(renderChoiceButton)}</div></div>)}</div>
           : <div className="answer-choices">{choiceOptions.map(renderChoiceButton)}</div>)}
-      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
+      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{selfReview ? '草稿已保存 · 对照下方参考要点自评' : unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
       {submitted ? <QuestionStudyNotes stem={stem} /> : null}
     </div>
   )
@@ -1442,11 +1447,11 @@ function QuestionStudyNotes({ stem }) {
 function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }) {
   const [reveal, setReveal] = useState(false)
   useEffect(() => setReveal(false), [group.id])
-  if (group.techniqueHomework) return <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
+  if (group.techniqueHomework || group.bookSelftest) return <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
     <div className="evidence-rail"><button className="evidence-toggle" onClick={() => setEvidenceCollapsed(false)} aria-label="展开讲义栏"><Icon name="left" size={17} /></button><span className="evidence-rail-label">作业依据</span></div>
     <div className="evidence-panel-content">
-      <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>作业依据</h2><p>{group.lectureEvidence.pageLabel}</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
-        <div className="politics-source-note"><strong>{group.unit} · {group.kindLabel}</strong><p>{group.studyNotice}</p><p>已按《技巧班课后作业答案》PDF 第 {group.answerPageRange || group.answerPdfPage} 页核对 · 本组 {group.stems.length} 个小题</p><button className="ghost-button" onClick={() => setReveal(value => !value)}>{reveal ? '收起原题' : '查看本组作业原题'}</button></div>
+      <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>{group.bookSelftest ? '自测依据' : '作业依据'}</h2><p>{group.lectureEvidence.pageLabel}</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
+        <div className="politics-source-note"><strong>{group.unit} · {group.kindLabel}</strong><p>{group.studyNotice}</p><p>参考《{group.answerDocumentLabel || '技巧班课后作业答案'}》PDF 第 {group.answerPageRange || group.answerPdfPage} 页 · 本组 {group.stems.length} 个小题</p><button className="ghost-button" onClick={() => setReveal(value => !value)}>{reveal ? '收起原题' : group.bookSelftest ? '查看本组自测原题' : '查看本组作业原题'}</button></div>
       </div>
       {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>原页题号保留在图片中，点击放大核对。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={group.lectureEvidence.image} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
     </div>

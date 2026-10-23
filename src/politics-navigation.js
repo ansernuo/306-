@@ -1,7 +1,21 @@
 const POLITICS_SUBJECTS = ['马原', '毛中特', '习思想', '史纲', '思法']
 
 // Source identity belongs to evidence; the study directory belongs to the subject.
-export function organizePoliticsContent(practice, matching, technique) {
+export function organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion) {
+  const mergeCompletion = (original, completion) => {
+    if (!completion) return original
+    const lectures = [...original.lectures, ...completion.lectures]
+      .sort((a, b) => (a.sourcePdfPage || Number(a.id.match(/(\d+)$/)?.[1])) - (b.sourcePdfPage || Number(b.id.match(/(\d+)$/)?.[1])))
+    const order = new Map(lectures.map((lecture, index) => [lecture.id, index]))
+    return {
+      ...original,
+      lectures,
+      groups: [...original.groups, ...completion.groups].sort((a, b) => order.get(a.lectureIds[0]) - order.get(b.lectureIds[0])),
+      referenceImages: { ...original.referenceImages, ...completion.referenceImages },
+    }
+  }
+  matching = mergeCompletion(matching, bookCompletion)
+  technique = mergeCompletion(technique, techniqueCompletion)
   const referenceImages = { ...practice.referenceImages, ...matching.referenceImages, ...technique.referenceImages }
   const groups = []
   const lectures = []
@@ -26,7 +40,7 @@ export function organizePoliticsContent(practice, matching, technique) {
         ...group,
         topic: chapter.topic,
         title: label === '技巧班作业' ? `${chapter.title} · ${group.kindLabel === '匹配 / 归类' ? '连线匹配' : group.kindLabel}`
-          : label === '自测' ? chapter.title : group.title,
+          : label === '自测' ? `${chapter.title} · ${group.kindLabel === '匹配 / 归类' ? '连线匹配' : group.kindLabel}` : group.title,
         lectureEvidence: group.lectureEvidence ? { ...group.lectureEvidence, image: referenceImages[group.lectureEvidence.image] } : null,
       })
     }
