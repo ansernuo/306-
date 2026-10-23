@@ -1,4 +1,4 @@
-import { AdaptiveStudyGrid, optionColumnStyle } from './AdaptiveStudyGrid.jsx'
+import { AdaptiveStudyGrid, compactStudyGroup, compactTableGroup, optionColumnStyle } from './AdaptiveStudyGrid.jsx'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
@@ -1220,7 +1220,7 @@ function App() {
           </div>
         </aside>
 
-        <main className="main-content">
+        <main className={`main-content ${compactStudyGroup(group) ? 'compact-study' : ''}`}>
           <div className="mobile-topic-row">
             <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
             <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
@@ -1242,7 +1242,7 @@ function App() {
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
-            <div><h1>{group.title || '题库原题'}</h1><p>{group.studyNotice || (group.supplement ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}` : (group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。')))}</p></div>
+            <div><h1>{group.title || '题库原题'}</h1><p className={group.studyNotice || group.supplement ? '' : 'default-study-notice'}>{group.studyNotice || (group.supplement ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}` : (group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。')))}</p></div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
@@ -1255,7 +1255,7 @@ function App() {
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
             <div className="keyboard-help"><strong aria-live="polite">锁定小题 {activeStemIndex + 1} / {group.stems.length}{pendingShortcut ? ` · 输入 ${pendingShortcut}…` : ''}</strong><span>↑↓ 锁定小题 · ←→ 切换题组 · Enter {waitingForAnswers ? (isSubmitted ? '修改选择' : '保存') : (isSubmitted ? '重新作答' : '提交')}</span><span>字母／数字选择，再按取消；⌘＋字母选小写；多位编号连续输入。</span></div>
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
-            {group.answerLayout !== 'rows' && group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
+            {compactTableGroup(group) ? <CompactAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} activeStemIndex={activeStemIndex} /> : group.answerLayout !== 'rows' && group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
               ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} activeStemIndex={activeStemIndex} />
               : <div className="stem-list">
                 {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} active={activeStemIndex === index} />)}
@@ -1361,6 +1361,13 @@ function CategorizedAnswerTable({ group, selections, submitted, onSelect, active
       })}
     </div>
   )
+}
+
+function CompactAnswerTable({ group, selections, submitted, onSelect, activeStemIndex }) {
+  return <div className="compact-answer-table" style={{ '--compact-option-count': group.options.length }}><div className="answer-table-scroll"><table className="answer-table">
+    <thead><tr><th className="answer-table-number">题号</th><th className="answer-table-stem">题干</th>{group.options.map(option => <th key={option.key} className="answer-table-option" title={option.label}>{option.displayKey || option.key}</th>)}</tr></thead>
+    <tbody>{group.stems.map((stem, index) => <CategorizedAnswerRow key={index} group={group} stem={stem} index={index} options={group.options} selection={selections[index] || []} submitted={submitted} onSelect={onSelect} active={activeStemIndex === index} />)}</tbody>
+  </table></div></div>
 }
 
 function CategorizedAnswerRow({ group, stem, index, options, selection, submitted, onSelect, active }) {
