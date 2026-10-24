@@ -620,89 +620,86 @@
         {
           "key": "A",
           "label": "先复位桡骨",
-          "sourceText": "K. 均不稳定且发生在下段：先复位桡骨",
+          "sourceText": "讲义：Monteggia骨折先复位桡骨；前臂双骨折均不稳定、下段先复位桡骨",
           "sourceKey": "K",
-          "ocrScore": 1
+          "ocrScore": 1,
+          "sourceOptionKeys": [
+            "K",
+            "M"
+          ]
         },
         {
           "key": "B",
-          "label": "先复位桡骨头",
-          "sourceText": "M. 先复位桡骨头",
-          "sourceKey": "M",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
           "label": "先复位稳定性骨折",
           "sourceText": "H. 先复位稳定性骨折",
           "sourceKey": "H",
           "ocrScore": 1
         },
         {
-          "key": "D",
+          "key": "C",
           "label": "尺骨干上1/3骨折＋桡骨头脱位",
           "sourceText": "G. 尺骨干上1/3骨折＋桡骨头脱位",
           "sourceKey": "G",
           "ocrScore": 1
         },
         {
-          "key": "E",
+          "key": "D",
           "label": "先复位尺骨",
           "sourceText": "I. 均不稳定且发生在中上段：先复位尺骨",
           "sourceKey": "I",
           "ocrScore": 1
         },
         {
-          "key": "F",
+          "key": "E",
           "label": "手背着地，远折端向桡侧、掌侧移位",
           "sourceText": "F. 手背着地，远折端向桡侧、掌侧移位",
           "sourceKey": "F",
           "ocrScore": 1
         },
         {
-          "key": "G",
+          "key": "F",
           "label": "需达到解剖复位",
           "sourceText": "J. 前臂双骨折需解剖复位",
           "sourceKey": "J",
           "ocrScore": 1
         },
         {
-          "key": "H",
+          "key": "G",
           "label": "手掌着地，远折端向桡侧、背侧移位",
           "sourceText": "D. 手掌着地，远折端向桡侧、背侧移位",
           "sourceKey": "D",
           "ocrScore": 1
         },
         {
-          "key": "I",
+          "key": "H",
           "label": "桡骨远端关节面骨折伴腕关节脱位",
           "sourceText": "A. 桡骨远端关节面骨折伴腕关节脱位",
           "sourceKey": "A",
           "ocrScore": 1
         },
         {
-          "key": "J",
+          "key": "I",
           "label": "正位枪刺刀畸形，侧位餐叉/银叉畸形",
           "sourceText": "C. 正位枪刺刀畸形，侧位餐叉/银叉畸形",
           "sourceKey": "C",
           "ocrScore": 1
         },
         {
-          "key": "K",
+          "key": "J",
           "label": "手法复位＋屈腕尺偏位石膏外固定",
           "sourceText": "B. 手法复位＋屈腕尺偏位石膏外固定",
           "sourceKey": "B",
           "ocrScore": 1
         },
         {
-          "key": "L",
+          "key": "K",
           "label": "桡骨干下1/3骨折＋尺骨头脱位",
           "sourceText": "E. 桡骨干下1/3骨折＋尺骨头脱位",
           "sourceKey": "E",
           "ocrScore": 1
         },
         {
-          "key": "M",
+          "key": "L",
           "label": "多数类似Colles，少数类似Smith",
           "sourceText": "L. 多数类似Colles，少数类似Smith",
           "sourceKey": "L",
@@ -713,7 +710,7 @@
         {
           "text": "Galeazzi骨折",
           "answer": [
-            "L"
+            "K"
           ],
           "answerMode": "单选",
           "sourceText": "Galeazzi骨折",
@@ -723,19 +720,19 @@
         {
           "text": "Monteggia骨折",
           "answer": [
-            "B",
-            "D"
+            "A",
+            "C"
           ],
           "answerMode": "多选",
           "sourceText": "Monteggia骨折",
           "ocrScore": 1,
-          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+          "reviewMethod": "已按第28讲第5页核对为先复位桡骨；合并原桡骨与桡骨头重复复位选项，并保留尺骨干上1/3骨折＋桡骨头脱位的定义"
         },
         {
           "text": "前臂双骨折",
           "answer": [
-            "C",
-            "G"
+            "B",
+            "F"
           ],
           "answerMode": "多选",
           "sourceText": "前臂双骨折",
@@ -755,7 +752,7 @@
         {
           "text": "前臂双骨折：均不稳定、中上段",
           "answer": [
-            "E"
+            "D"
           ],
           "answerMode": "单选",
           "sourceText": "前臂双骨折：均不稳定、中上段",
@@ -765,9 +762,9 @@
         {
           "text": "Colles骨折",
           "answer": [
-            "H",
-            "J",
-            "K"
+            "G",
+            "I",
+            "J"
           ],
           "answerMode": "多选",
           "sourceText": "Colles骨折",
@@ -777,7 +774,7 @@
         {
           "text": "Smith骨折",
           "answer": [
-            "F"
+            "E"
           ],
           "answerMode": "单选",
           "sourceText": "Smith骨折",
@@ -787,8 +784,8 @@
         {
           "text": "Barton骨折",
           "answer": [
-            "I",
-            "M"
+            "H",
+            "L"
           ],
           "answerMode": "多选",
           "sourceText": "Barton骨折",
@@ -809,7 +806,7 @@
       "sourcePage": null,
       "sourceAnswer": [
         "E",
-        "GM",
+        "GK",
         "HJ",
         "K",
         "I",
@@ -849,10 +846,19 @@
         "I",
         "J",
         "K",
-        "L",
-        "M"
+        "L"
       ],
-      "optionShuffleVersion": 3
+      "optionShuffleVersion": 4,
+      "sourceAnswerRaw": [
+        "E",
+        "GM",
+        "HJ",
+        "K",
+        "I",
+        "BCD",
+        "F",
+        "AL"
+      ]
     },
     {
       "id": "limb-fracture-dislocation-g04",

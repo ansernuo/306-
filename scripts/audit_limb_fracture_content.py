@@ -11,7 +11,7 @@ from pathlib import Path
 EXPECTED_SOURCE_ANSWERS = {
     "limb-fracture-dislocation-g01": [set(x) for x in ["A", "D", "G", "I", "K", "A", "J", "E", "C", "B", "H", "L", "F"]],
     "limb-fracture-dislocation-g02": [set(x) for x in ["FHL", "ABGNR", "EIK", "S", "CDJO", "BPT", "MQ"]],
-    "limb-fracture-dislocation-g03": [set(x) for x in ["E", "GM", "HJ", "K", "I", "BCD", "F", "AL"]],
+    "limb-fracture-dislocation-g03": [set(x) for x in ["E", "GK", "HJ", "K", "I", "BCD", "F", "AL"]],
     "limb-fracture-dislocation-g04": [
         set(x) for x in ["DJKLPQU", "DJRST", "DGHJ", "BCIMOU", "ABEFNUV"]
     ],
@@ -35,7 +35,7 @@ def main() -> None:
 
     assert len(groups) == 10
     assert sum(len(group["stems"]) for group in groups) == 86
-    assert sum(len(group["options"]) for group in groups) == 116
+    assert sum(len(group["options"]) for group in groups) == 115
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 16))
     assert [group["id"] for group in groups[:9]] == list(EXPECTED_SOURCE_ANSWERS)
 
@@ -61,7 +61,7 @@ def main() -> None:
             "limb-fracture-dislocation-g07",
             "limb-fracture-dislocation-g08",
         } else 2
-        if group["id"] == "limb-fracture-dislocation-g04":
+        if group["id"] in {"limb-fracture-dislocation-g03", "limb-fracture-dislocation-g04"}:
             expected_version = 4
         assert group["kindLabel"] == "B型题" and group["optionShuffleVersion"] == expected_version
         option_keys = [option["key"] for option in group["options"]]
@@ -85,6 +85,11 @@ def main() -> None:
 
     forearm, hip, femoral_neck, treatment, complications = (groups[index] for index in (2, 3, 5, 6, 7))
     assert option_label(forearm, "K") == "先复位桡骨"
+    assert len(forearm["options"]) == 12
+    assert all(option["label"] != "先复位桡骨头" for option in forearm["options"])
+    radial = next(option["key"] for option in forearm["options"] if option["sourceKey"] == "K")
+    assert radial in forearm["stems"][1]["answer"]
+    assert forearm["stems"][3]["answer"] == [radial]
     assert option_label(forearm, "I") == "先复位尺骨"
     assert option_label(forearm, "J") == "需达到解剖复位"
     assert option_label(hip, "K") == "最常见的髋关节脱位类型"
@@ -113,7 +118,7 @@ def main() -> None:
     assert option_label(complications, "M") == "粉碎性骨折"
     assert option_label(complications, "H") == "横形骨折"
 
-    print({"groups": 10, "stems": 86, "options": 116, "shuffled": 9, "fill": 1, "status": "ok"})
+    print({"groups": 10, "stems": 86, "options": 115, "shuffled": 9, "fill": 1, "status": "ok"})
 
 
 def option_label(group: dict, source_key: str) -> str:
