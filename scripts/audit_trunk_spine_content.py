@@ -15,7 +15,7 @@ EXPECTED_SOURCE_ANSWERS = {
         {"HALO_6_8W"}, {"HALO_6_8W"}, {"HALO_12W"}, {"SURGERY"}, {"ATLANTOAXIAL_FUSION"},
     ],
     "trunk-spine-g02": [set("BDFHIM"), set("AEGKLNO"), set("CGJP")],
-    "trunk-spine-g03": [set("IL"), set("B"), set("K"), set("H"), set("C"), set("F"), set("DG"), set("EJ"), set("A")],
+    "trunk-spine-g03": [set("IL"), set("B"), set("K"), set("H"), set("C"), set("DEFGJ")],
     "trunk-spine-g04": [set("C"), set("A"), set("B")],
     "trunk-spine-g05": [set("CF"), set("BHK"), set("DGI"), set("AEJ")],
     "trunk-spine-g06": [set("ACEF"), set("G"), set("D"), set("H"), set("B")],
@@ -36,8 +36,8 @@ def main() -> None:
     groups = payload["groups"]
 
     assert len(groups) == 9
-    assert sum(len(group["stems"]) for group in groups) == 52
-    assert sum(len(group["options"]) for group in groups) == 82
+    assert sum(len(group["stems"]) for group in groups) == 49
+    assert sum(len(group["options"]) for group in groups) == 81
     assert [group["id"] for group in groups[:8]] == list(EXPECTED_SOURCE_ANSWERS)
     assert groups[8]["id"] == "trunk-spine-g09"
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 8))
@@ -61,7 +61,7 @@ def main() -> None:
 
     for group in groups[:8]:
         assert group["kindLabel"] == "B型题"
-        assert group["optionShuffleVersion"] == (4 if group["id"] == "trunk-spine-g01" else 3)
+        assert group["optionShuffleVersion"] == (4 if group["id"] in {"trunk-spine-g01", "trunk-spine-g03"} else 3)
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
         assert len(option_keys) == len(set(option_keys))
@@ -88,13 +88,14 @@ def main() -> None:
     assert all(stem["answerMode"] == ("多选" if index == 4 else "单选") for index, stem in enumerate(group1["stems"]))
 
     group3 = groups[2]
-    assert len(group3["stems"]) == 9 and len(group3["options"]) == 12
+    assert len(group3["stems"]) == 6 and len(group3["options"]) == 11
     assert [stem["text"] for stem in group3["stems"]] == [
         "Jefferson骨折", "爆裂型骨折", "Hangman/缢死者骨折", "Whiplash挥鞭损伤", "Chance骨折",
-        "骨盆骨折：临床表现", "骨盆骨折：休克及首要处理", "骨盆骨折：其他并发症", "骨盆骨折：不包括",
+        "骨盆骨折：临床表现、并发症及首要处理",
     ]
     assert not any("不选" in option["label"] for option in group3["options"])
-    assert any(option["label"] == "脊髓损伤" for option in group3["options"])
+    assert not any(option["label"] == "脊髓损伤" for option in group3["options"])
+    assert group3["stems"][-1]["answer"] == ["B", "D", "E", "G", "H"]
 
     group2 = groups[1]
     whiplash = next(option for option in group2["options"] if option["sourceKey"] == "O")
@@ -109,7 +110,7 @@ def main() -> None:
     assert all(len(stem["answer"]) == len(stem["blankLabels"]) for stem in fill["stems"])
     assert all(stem["answerMode"] == "填空" for stem in fill["stems"])
 
-    print({"groups": 9, "stems": 52, "options": 82, "shuffled": 8, "fill": 1, "status": "ok"})
+    print({"groups": 9, "stems": 49, "options": 81, "shuffled": 8, "fill": 1, "status": "ok"})
 
 
 if __name__ == "__main__":

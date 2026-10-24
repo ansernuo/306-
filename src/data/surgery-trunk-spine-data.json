@@ -3,7 +3,7 @@
     "title": "躯干骨骨折与脊髓损伤学成选择题",
     "lectureId": "lecture-26",
     "lecturePagesReviewed": [1, 2, 3, 4, 5, 6, 7],
-    "answerNote": "保持原有9个题组和52道题。第一组按第26讲第1～2页整理为完整治疗路径，合并同义牵引与12周固定选项；前8组选项固定乱序，第9组保留数字填空。"
+    "answerNote": "保留9个题组，共49道题。第一组整理为完整治疗路径；第三组骨盆骨折的表现、并发症及首要处理合为一问，删去不包括的反向设问；前8组选项固定乱序，第9组保留数字填空。"
   },
   "groups": [
     {
@@ -122,19 +122,15 @@
         {"key": "H", "label": "后尿道尤其膜部、膀胱、直肠、腰骶神经丛、坐骨神经等损伤", "sourceText": "J. 后尿道尤其膜部、膀胱、直肠、腰骶神经丛、坐骨神经等损伤", "sourceKey": "J", "ocrScore": 1},
         {"key": "I", "label": "无骨折-脱位的过伸损伤", "sourceText": "H. 无骨折-脱位的过伸损伤", "sourceKey": "H", "ocrScore": 1},
         {"key": "J", "label": "X线很难发现骨折线，务必加做CT", "sourceText": "I. X线很难发现骨折线，务必加做CT", "sourceKey": "I", "ocrScore": 1},
-        {"key": "K", "label": "脊髓损伤", "sourceText": "A. 脊髓损伤", "sourceKey": "A", "ocrScore": 1},
-        {"key": "L", "label": "经椎体、椎弓、棘突的横向撕裂性骨折", "sourceText": "C. 经椎体、椎弓、棘突的横向撕裂性骨折", "sourceKey": "C", "ocrScore": 1}
+        {"key": "K", "label": "经椎体、椎弓、棘突的横向撕裂性骨折", "sourceText": "C. 经椎体、椎弓、棘突的横向撕裂性骨折", "sourceKey": "C", "ocrScore": 1}
       ],
       "stems": [
         {"text": "Jefferson骨折", "answer": ["F", "J"], "answerMode": "多选", "sourceText": "Jefferson骨折", "ocrScore": 1, "reviewMethod": "已按第26讲第2页定位和影像逐项校对；第三组修正版答案已重映射"},
         {"text": "爆裂型骨折", "answer": ["A"], "answerMode": "单选", "sourceText": "爆裂型骨折", "ocrScore": 1, "reviewMethod": "已按第26讲第2页定位逐项校对；第三组修正版答案已重映射"},
         {"text": "Hangman/缢死者骨折", "answer": ["C"], "answerMode": "单选", "sourceText": "Hangman/缢死者骨折", "ocrScore": 1, "reviewMethod": "已按第26讲第2页定位逐项校对；第三组修正版答案已重映射"},
         {"text": "Whiplash挥鞭损伤", "answer": ["I"], "answerMode": "单选", "sourceText": "Whiplash挥鞭损伤", "ocrScore": 1, "reviewMethod": "已按第26讲第2页定位逐项校对；第三组修正版答案已重映射"},
-        {"text": "Chance骨折", "answer": ["L"], "answerMode": "单选", "sourceText": "Chance骨折", "ocrScore": 1, "reviewMethod": "已按第26讲第3页胸腰椎骨折逐项校对；第三组修正版答案已重映射"},
-        {"text": "骨盆骨折：临床表现", "answer": ["B"], "answerMode": "单选", "sourceText": "骨盆骨折：临床表现", "ocrScore": 1, "reviewMethod": "已按第26讲第3页骨盆骨折表现逐项校对；第三组修正版答案已重映射"},
-        {"text": "骨盆骨折：休克及首要处理", "answer": ["D", "E"], "answerMode": "多选", "sourceText": "骨盆骨折：休克及首要处理", "ocrScore": 1, "reviewMethod": "已按第26讲第3页休克及处理逐项校对；第三组修正版答案已重映射"},
-        {"text": "骨盆骨折：其他并发症", "answer": ["G", "H"], "answerMode": "多选", "sourceText": "骨盆骨折：其他并发症", "ocrScore": 1, "reviewMethod": "已按第26讲第3页并发症逐项校对；第三组修正版答案已重映射"},
-        {"text": "骨盆骨折：不包括", "answer": ["K"], "answerMode": "单选", "sourceText": "骨盆骨折：不包括", "ocrScore": 1, "reviewMethod": "已按第26讲第3页“不选脊髓损伤”提示核对；仅保留医学选项文字"}
+        {"text": "Chance骨折", "answer": ["K"], "answerMode": "单选", "sourceText": "Chance骨折", "ocrScore": 1, "reviewMethod": "已按第26讲第3页胸腰椎骨折逐项校对；删除冗余选项后同步重映射"},
+        {"text": "骨盆骨折：临床表现、并发症及首要处理", "answer": ["B", "D", "E", "G", "H"], "answerMode": "多选", "sourceText": "骨盆骨折：临床表现；休克及首要处理；其他并发症", "ocrScore": 1, "reviewMethod": "按第26讲第3页合并原第6～8问，保留各项考点；删除原第9问不包括的反向设问"}
       ],
       "reviewState": "已完成讲义校对",
       "reviewIssues": [],
@@ -145,14 +141,15 @@
       "sourceImage": null,
       "sourcePdf": null,
       "sourcePage": null,
-      "sourceAnswer": ["IL", "B", "K", "H", "C", "F", "DG", "EJ", "A"],
-      "sourceStemNumbers": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "sourceAnswer": ["IL", "B", "K", "H", "C", "DEFGJ"],
+      "sourceAnswerRaw": ["IL", "B", "K", "H", "C", "F", "DG", "EJ", "A"],
+      "sourceStemNumbers": ["1", "2", "3", "4", "5", "6～8"],
       "parseWarnings": [],
       "hideSource": true,
       "reviewNotes": [],
       "lectureEvidence": {"lectureId": "lecture-26", "page": "2～3", "image": "surgery/lecture-pages/lecture-26-page-02-03.webp", "title": "第26讲第2～3页：特殊骨折与骨盆骨折", "description": "第三组已按Jefferson、爆裂型、Hangman、Whiplash、Chance和骨盆骨折逐项复核。"},
-      "optionOriginalOrder": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
-      "optionShuffleVersion": 3
+      "optionOriginalOrder": ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
+      "optionShuffleVersion": 4
     },
     {
       "id": "trunk-spine-g04",
