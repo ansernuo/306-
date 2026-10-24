@@ -10,8 +10,9 @@ from pathlib import Path
 
 EXPECTED_SOURCE_ANSWERS = {
     "trunk-spine-g01": [
-        set("D"), set("H"), set("BIJ"), set("CEM"), set("AL"), set("O"), set("H"),
-        set("F"), set("P"), set("P"), set("K"), set("H"), set("GN"),
+        {"BRACE"}, {"SURGERY"}, {"FRACTURE_DISLOCATION"}, {"ANTERIOR_THEN_POSTERIOR"},
+        {"HALO_12W", "SKULL_TRACTION"}, {"HALO_OR_TRACTION"}, {"SURGERY"}, {"LAMINOPLASTY"},
+        {"HALO_6_8W"}, {"HALO_6_8W"}, {"HALO_12W"}, {"SURGERY"}, {"ATLANTOAXIAL_FUSION"},
     ],
     "trunk-spine-g02": [set("BDFHIM"), set("AEGKLNO"), set("CGJP")],
     "trunk-spine-g03": [set("IL"), set("B"), set("K"), set("H"), set("C"), set("F"), set("DG"), set("EJ"), set("A")],
@@ -36,7 +37,7 @@ def main() -> None:
 
     assert len(groups) == 9
     assert sum(len(group["stems"]) for group in groups) == 52
-    assert sum(len(group["options"]) for group in groups) == 88
+    assert sum(len(group["options"]) for group in groups) == 82
     assert [group["id"] for group in groups[:8]] == list(EXPECTED_SOURCE_ANSWERS)
     assert groups[8]["id"] == "trunk-spine-g09"
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 8))
@@ -60,7 +61,7 @@ def main() -> None:
 
     for group in groups[:8]:
         assert group["kindLabel"] == "B型题"
-        assert group["optionShuffleVersion"] == 3
+        assert group["optionShuffleVersion"] == (4 if group["id"] == "trunk-spine-g01" else 3)
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
         assert len(option_keys) == len(set(option_keys))
@@ -73,6 +74,18 @@ def main() -> None:
         assert semantic_answers == EXPECTED_SOURCE_ANSWERS[group["id"]], f"{group['id']}: answer remapping drift"
         for stem in group["stems"]:
             assert stem["answer"] and set(stem["answer"]) <= set(option_keys)
+
+    group1 = groups[0]
+    assert len(group1["options"]) == 10 and len(group1["stems"]) == 13
+    assert len({option["label"] for option in group1["options"]}) == 10
+    original_keys = [key for option in group1["options"] for key in option["sourceOptionKeys"]]
+    assert sorted(original_keys) == list("ABCDEFGHIJKLMNOP"), "original treatment steps were lost or duplicated"
+    assert not any("Ⅲ型" in option["label"] for option in group1["options"])
+    halo12 = next(option["key"] for option in group1["options"] if option["sourceKey"] == "HALO_12W")
+    assert halo12 in group1["stems"][4]["answer"]
+    assert group1["stems"][10]["answer"] == [halo12]
+    assert ["".join(stem["answer"]) for stem in group1["stems"]] == group1["sourceAnswer"]
+    assert all(stem["answerMode"] == ("多选" if index == 4 else "单选") for index, stem in enumerate(group1["stems"]))
 
     group3 = groups[2]
     assert len(group3["stems"]) == 9 and len(group3["options"]) == 12
@@ -96,7 +109,7 @@ def main() -> None:
     assert all(len(stem["answer"]) == len(stem["blankLabels"]) for stem in fill["stems"])
     assert all(stem["answerMode"] == "填空" for stem in fill["stems"])
 
-    print({"groups": 9, "stems": 52, "options": 88, "shuffled": 8, "fill": 1, "status": "ok"})
+    print({"groups": 9, "stems": 52, "options": 82, "shuffled": 8, "fill": 1, "status": "ok"})
 
 
 if __name__ == "__main__":
