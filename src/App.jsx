@@ -1,4 +1,4 @@
-import { AdaptiveStudyGrid } from './AdaptiveStudyGrid.jsx'
+import { AdaptiveAnswerLayout, AdaptiveStudyGrid, BalancedAnswerChoices } from './AdaptiveStudyGrid.jsx'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
@@ -503,6 +503,7 @@ function Icon({ name, size = 20, stroke = 'currentColor' }) {
     settings: <><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6 7 7M17 17l1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4" /><circle cx="12" cy="12" r="4" /></>,
     arrow: <><path d="M5 12h13" /><path d="m13 6 6 6-6 6" /></>,
     chevron: <path d="m7 9 5 5 5-5" />,
+    chevronUp: <path d="m7 15 5-5 5 5" />,
     left: <><path d="M19 12H5" /><path d="m11 18-6-6 6-6" /></>,
     right: <><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></>,
     bookmark: <path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-3.5L6 21z" />,
@@ -719,8 +720,8 @@ function App() {
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
+  const [topbarCollapsed, setTopbarCollapsed] = useState(false)
   const [keyboardStem, setKeyboardStem] = useState(null)
-  const [pendingShortcut, setPendingShortcut] = useState('')
   const questionCardRef = useRef(null)
   const pendingOptionRef = useRef(null)
   const flushPendingOption = useCallback(() => {
@@ -741,6 +742,7 @@ function App() {
     setNotes(readLocalStorage('med-notes', {}))
     setSidebarCollapsed(window.innerWidth <= 720 ? true : readLocalStorage('med-sidebar-collapsed', false))
     setEvidenceCollapsed(readLocalStorage('med-evidence-collapsed', false))
+    setTopbarCollapsed(readLocalStorage('study-topbar-collapsed', false))
     setStorageReady(true)
   }, [])
 
@@ -776,6 +778,7 @@ function App() {
   useEffect(() => { if (storageReady) window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes, storageReady])
   useEffect(() => { if (storageReady) window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed, storageReady])
   useEffect(() => { if (storageReady) window.localStorage.setItem('med-evidence-collapsed', JSON.stringify(evidenceCollapsed)) }, [evidenceCollapsed, storageReady])
+  useEffect(() => { if (storageReady) window.localStorage.setItem('study-topbar-collapsed', JSON.stringify(topbarCollapsed)) }, [topbarCollapsed, storageReady])
 
   const favoriteCounts = useMemo(() => {
     const byTopic = {}
@@ -991,7 +994,6 @@ function App() {
       window.clearTimeout(timer)
       sequence = ''
       pendingOptionRef.current = null
-      setPendingShortcut('')
     }
 
     function handleStudyKey(event) {
@@ -1058,7 +1060,6 @@ function App() {
       } else {
         sequence = nextSequence
         pendingOptionRef.current = match.exact?.button || null
-        setPendingShortcut(nextSequence)
         // Wait briefly only for ambiguous labels such as ① / ⑩ or A / AA.
         timer = window.setTimeout(() => {
           clearSequence()
@@ -1174,26 +1175,32 @@ function App() {
   }
 
   return (
-    <div className="app-shell">
-      <header className="topbar">
-        <div className="brand-lockup">
-          <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
-          <div className="brand-copy"><strong>{subjectConfig.title}</strong><span>{subjectConfig.subtitle}</span></div>
-        </div>
-        <div className="subject-switch" aria-label="选择科目">
-          {Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
-        </div>
-        <div className="progress-strip">
-          <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
-          <div className="progress-bar"><i style={{ width: `${filteredGroups.length ? ((groupIndex + 1) / filteredGroups.length) * 100 : 0}%` }} /></div>
-          <span>{filteredGroups.length ? Math.round(((groupIndex + 1) / filteredGroups.length) * 100) : 0}%</span>
-        </div>
-        <div className="top-actions">
-          <label className="search-box"><Icon name="search" size={18} /><input value={search} onChange={(event) => { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) }} placeholder="搜索题目 / 关键词" /><kbd>⌘ K</kbd></label>
-          <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
-          <button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button>
-        </div>
-      </header>
+    <div className={`app-shell ${topbarCollapsed ? 'topbar-collapsed' : ''}`}>
+      <div className="topbar-region">
+        <header id="study-topbar" className="topbar" hidden={topbarCollapsed}>
+          <div className="brand-lockup">
+            <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
+            <div className="brand-copy"><strong>{subjectConfig.title}</strong><span>{subjectConfig.subtitle}</span></div>
+          </div>
+          <div className="subject-switch" aria-label="选择科目">
+            {Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
+          </div>
+          <div className="progress-strip">
+            <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
+            <div className="progress-bar"><i style={{ width: `${filteredGroups.length ? ((groupIndex + 1) / filteredGroups.length) * 100 : 0}%` }} /></div>
+            <span>{filteredGroups.length ? Math.round(((groupIndex + 1) / filteredGroups.length) * 100) : 0}%</span>
+          </div>
+          <div className="top-actions">
+            <label className="search-box"><Icon name="search" size={18} /><input value={search} onChange={(event) => { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) }} placeholder="搜索题目 / 关键词" /><kbd>⌘ K</kbd></label>
+            <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
+            <button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button>
+          </div>
+        </header>
+        <button className="topbar-toggle" onClick={() => setTopbarCollapsed((value) => !value)} aria-controls="study-topbar" aria-expanded={!topbarCollapsed} aria-label={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'} title={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'}>
+          <Icon name={topbarCollapsed ? 'chevron' : 'chevronUp'} size={14} />
+          <span>{topbarCollapsed ? '展开顶栏' : '收起顶栏'}</span>
+        </button>
+      </div>
 
       <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
         <aside className="sidebar">
@@ -1253,13 +1260,8 @@ function App() {
           <div className="question-side">
           <section className="question-card" ref={questionCardRef} onClickCapture={lockStem} onFocusCapture={lockStem}>
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
-            <div className="keyboard-help"><strong aria-live="polite">锁定小题 {activeStemIndex + 1} / {group.stems.length}{pendingShortcut ? ` · 输入 ${pendingShortcut}…` : ''}</strong><span>↑↓ 锁定小题 · ←→ 切换题组 · Enter {waitingForAnswers ? (isSubmitted ? '修改选择' : '保存') : (isSubmitted ? '重新作答' : '提交')}</span><span>字母／数字选择，再按取消；⌘＋字母选小写；多位编号连续输入。</span></div>
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
-            {group.answerLayout !== 'rows' && group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
-              ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} activeStemIndex={activeStemIndex} />
-              : <div className="stem-list">
-                {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} active={activeStemIndex === index} />)}
-              </div>}
+            <QuestionList subject={subject} group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} activeStemIndex={activeStemIndex} />
             <div className="question-card-bottom">
               {isSubmitted ? <div className={`submit-summary ${waitingForAnswers ? 'pending-answer-summary' : ''}`}><Icon name={waitingForAnswers ? 'file' : 'check'} size={18} /><span>{group.selfReview ? '草稿已保存 · 请对照参考要点自评' : waitingForAnswers ? '已保存选择 · 待补答案，暂不计分' : group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">{group.selfReview ? '先写下思路，保存后展开参考要点；可随时继续修改草稿。' : waitingForAnswers ? '答案待补；可先完成匹配并保存选择，之后继续修改。' : '完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。'}</span>}
               <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{group.selfReview ? (isSubmitted ? '继续修改草稿' : '保存并查看参考') : waitingForAnswers ? (isSubmitted ? '修改本组选择' : '保存本组选择') : (isSubmitted ? '重新作答' : '提交本题组')}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
@@ -1328,6 +1330,15 @@ function GroupJump({ current, total, onJump }) {
       <button type="submit">跳转</button>
     </form>
   )
+}
+
+function QuestionList({ subject, group, selections, submitted, onSelect, onFill, activeStemIndex }) {
+  const rows = <div className="stem-list">{group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={selections[index] || []} submitted={submitted} onSelect={onSelect} onFill={onFill} active={activeStemIndex === index} />)}</div>
+  if (group.answerLayout === 'rows' || !group.options.some((option) => option.category) || !group.stems.some((stem) => stem.optionCategory)) return rows
+  const sizes = new Map()
+  for (const option of group.options) sizes.set(option.category, (sizes.get(option.category) || 0) + 1)
+  const minTableWidth = Math.max(480, 328 + Math.max(...sizes.values()) * 35)
+  return <AdaptiveAnswerLayout minTableWidth={minTableWidth} table={<CategorizedAnswerTable group={group} selections={selections} submitted={submitted} onSelect={onSelect} activeStemIndex={activeStemIndex} />}>{rows}</AdaptiveAnswerLayout>
 }
 
 function CategorizedAnswerTable({ group, selections, submitted, onSelect, activeStemIndex }) {
@@ -1409,6 +1420,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
     ? group.options.filter((option) => !stem.optionCategory || option.category === stem.optionCategory)
     : answer.map((item) => ({ key: item, displayKey: item }))
   const choiceCategories = unique(choiceOptions.map((option) => option.category).filter(Boolean))
+  const compact = !stem.image && !fill && !selfReview && !choiceCategories.length
   const keys = choiceOptions.map((option) => option.key)
   const answerDisplay = stem.answerDisplay || answer.map((item) => group.options.find((option) => option.key === item)?.displayKey || item).join('、')
   const unresolvedLabel = stem.answerState === '待补答案' ? '待补答案' : (stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对')
@@ -1425,13 +1437,19 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
     return <button key={item} data-option-label={label} aria-pressed={active} aria-label={`选项 ${label}${group.judgement ? ` ${option.label}` : ''}${stateLabel}`} className={`answer-chip ${group.judgement ? 'judgement-chip' : ''} ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{group.judgement ? `${label} · ${option.label}` : label}{order && <sup className="rank-order">{order}</sup>}</button>
   }
   return (
-    <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
+    <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
       {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div>
         : (choiceCategories.length
-          ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => <div className="answer-choice-category" key={category}><span>{category}</span><div>{choiceOptions.filter((option) => option.category === category).map(renderChoiceButton)}</div></div>)}</div>
-          : <div className="answer-choices">{choiceOptions.map(renderChoiceButton)}</div>)}
+          ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => {
+            const options = choiceOptions.filter((option) => option.category === category)
+            return <div className={`answer-choice-category ${options.length > 10 ? 'wide-choice-category' : ''}`} style={{ '--category-count': options.length }} key={category}>
+              <span>{category}</span>
+              <BalancedAnswerChoices count={options.length} className="category-choices">{options.map(renderChoiceButton)}</BalancedAnswerChoices>
+            </div>
+          })}</div>
+          : <BalancedAnswerChoices count={choiceOptions.length} judgement={group.judgement}>{choiceOptions.map(renderChoiceButton)}</BalancedAnswerChoices>)}
       {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{selfReview ? '草稿已保存 · 对照下方参考要点自评' : unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
       {submitted ? <QuestionStudyNotes stem={stem} /> : null}
     </div>
