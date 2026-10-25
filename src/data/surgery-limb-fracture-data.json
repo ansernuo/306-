@@ -19,7 +19,7 @@
       14,
       15
     ],
-    "answerNote": "保持原题组结构并按第28讲逐项校对；删除重复总括项，合并三踝骨折重复题干，改写直接复述题干条件的选项，并按讲义补全髋关节前脱位及横向鉴别内容后同步重映射答案。第10组保留为数字填空题。"
+    "answerNote": "按第28讲讲义逐项校对；踝关节三类韧带单独成组，以名称作题干、别名和强弱作选项。踝部扭伤与跟骨骨折保留原组，选项固定乱序并同步重映射，数字题保留填空。"
   },
   "groups": [
     {
@@ -2133,9 +2133,117 @@
       "optionShuffleVersion": 3
     },
     {
+      "id": "limb-fracture-dislocation-ankle-ligaments",
+      "page": 0,
+      "title": "踝关节韧带：名称与强弱鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "最薄弱",
+          "sourceText": "外侧副韧带最薄弱",
+          "sourceKey": "WEAKEST",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "又称三角韧带",
+          "sourceText": "内侧副韧带又称三角韧带",
+          "sourceKey": "DELTOID",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "最强",
+          "sourceText": "内侧副韧带最强",
+          "sourceKey": "STRONGEST",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "又称胫腓横韧带",
+          "sourceText": "下胫腓韧带／胫腓横韧带",
+          "sourceKey": "TRANSVERSE",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "内侧副韧带",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "内侧副韧带",
+          "ocrScore": 1,
+          "reviewMethod": "按第28讲第12页踝关节韧带小结核对；韧带名称作题干，别名和强弱特点作选项"
+        },
+        {
+          "text": "外侧副韧带",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "外侧副韧带",
+          "ocrScore": 1,
+          "reviewMethod": "按第28讲第12页踝关节韧带小结核对；韧带名称作题干，别名和强弱特点作选项"
+        },
+        {
+          "text": "下胫腓韧带",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "下胫腓韧带",
+          "ocrScore": 1,
+          "reviewMethod": "按第28讲第12页踝关节韧带小结核对；韧带名称作题干，别名和强弱特点作选项"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "第28讲四肢骨折和脱位讲义",
+      "sourceText": "第28讲第12页：踝关节的韧带",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "DELTOID+STRONGEST",
+        "WEAKEST",
+        "TRANSVERSE"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "12",
+        "image": "surgery/lecture-pages/lecture-28-page-12.webp",
+        "title": "第28讲第12页：踝关节韧带",
+        "description": "内侧副韧带又称三角韧带且最强，外侧副韧带最薄弱，下胫腓韧带又称胫腓横韧带；三类分别作答。"
+      },
+      "optionOriginalOrder": [
+        "DELTOID",
+        "STRONGEST",
+        "WEAKEST",
+        "TRANSVERSE"
+      ],
+      "optionShuffleVersion": 1
+    },
+    {
       "id": "limb-fracture-dislocation-g09",
       "page": 0,
-      "title": "踝部与跟骨",
+      "title": "踝部扭伤与跟骨骨折",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -2148,34 +2256,13 @@
         },
         {
           "key": "B",
-          "label": "下胫腓韧带/胫腓横韧带",
-          "sourceText": "B. 下胫腓韧带/胫腓横韧带",
-          "sourceKey": "B",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
-          "label": "外侧副韧带最薄弱",
-          "sourceText": "D. 外侧副韧带最薄弱",
-          "sourceKey": "D",
-          "ocrScore": 1
-        },
-        {
-          "key": "D",
-          "label": "内侧副韧带/三角韧带最强",
-          "sourceText": "C. 内侧副韧带/三角韧带最强",
-          "sourceKey": "C",
-          "ocrScore": 1
-        },
-        {
-          "key": "E",
           "label": "急性期立即冷敷",
           "sourceText": "A. 急性期立即冷敷",
           "sourceKey": "A",
           "ocrScore": 1
         },
         {
-          "key": "F",
+          "key": "C",
           "label": "跟骨结节关节角/Bohler角改变",
           "sourceText": "F. 跟骨结节关节角/Bohler角改变",
           "sourceKey": "F",
@@ -2184,22 +2271,10 @@
       ],
       "stems": [
         {
-          "text": "踝关节韧带",
-          "answer": [
-            "B",
-            "C",
-            "D"
-          ],
-          "answerMode": "多选",
-          "sourceText": "踝关节韧带",
-          "ocrScore": 1,
-          "reviewMethod": "已按第28讲第12页：踝部与跟骨逐项校对并完成选项重映射"
-        },
-        {
           "text": "踝部扭伤",
           "answer": [
             "A",
-            "E"
+            "B"
           ],
           "answerMode": "多选",
           "sourceText": "踝部扭伤",
@@ -2209,7 +2284,7 @@
         {
           "text": "跟骨骨折",
           "answer": [
-            "F"
+            "C"
           ],
           "answerMode": "单选",
           "sourceText": "跟骨骨折",
@@ -2229,12 +2304,10 @@
       "sourcePdf": null,
       "sourcePage": null,
       "sourceAnswer": [
-        "BCD",
         "AE",
         "F"
       ],
       "sourceStemNumbers": [
-        "1",
         "2",
         "3"
       ],
@@ -2246,17 +2319,20 @@
         "page": "12",
         "image": "surgery/lecture-pages/lecture-28-page-12.webp",
         "title": "第28讲第12页：踝部与跟骨",
-        "description": "踝关节韧带、扭伤机制和跟骨Bohler角已逐项复核。"
+        "description": "本组保留踝部扭伤的跖屈易损伤、急性期冷敷及跟骨Bohler角；韧带名称和强弱移至独立鉴别题组。"
       },
       "optionOriginalOrder": [
         "A",
-        "B",
-        "C",
-        "D",
         "E",
         "F"
       ],
-      "optionShuffleVersion": 2
+      "optionShuffleVersion": 3,
+      "sourceAnswerRaw": [
+        "BCD",
+        "AE",
+        "F"
+      ],
+      "answerRevision": "ankle-ligaments-split-20261025"
     },
     {
       "id": "limb-fracture-dislocation-g10",

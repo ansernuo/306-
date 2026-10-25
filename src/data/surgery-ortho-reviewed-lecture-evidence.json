@@ -2675,14 +2675,21 @@
         ]
       ]
     },
+    "limb-fracture-dislocation-ankle-ligaments": {
+      "pages": [
+        "surgery-compiled-218"
+      ],
+      "stemPages": [
+        ["surgery-compiled-218"],
+        ["surgery-compiled-218"],
+        ["surgery-compiled-218"]
+      ]
+    },
     "limb-fracture-dislocation-g09": {
       "pages": [
         "surgery-compiled-218"
       ],
       "stemPages": [
-        [
-          "surgery-compiled-218"
-        ],
         [
           "surgery-compiled-218"
         ],
