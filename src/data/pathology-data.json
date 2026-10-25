@@ -6553,19 +6553,9 @@
           "sourceText": "G.盲肠和升结肠"
         },
         {
-          "key": "H",
-          "label": "直肠和乙状结肠",
-          "sourceText": "H.直肠和乙状结肠"
-        },
-        {
           "key": "I",
           "label": "十二指肠球部前壁",
           "sourceText": "I.十二指肠球部前壁"
-        },
-        {
-          "key": "J",
-          "label": "胃窦小弯侧",
-          "sourceText": "J.胃窦小弯侧"
         },
         {
           "key": "K",
@@ -6641,10 +6631,10 @@
         {
           "text": "溃疡性结肠炎",
           "answer": [
-            "H"
+            "B"
           ],
           "answerMode": "单选",
-          "sourceText": "溃疡性结肠炎（H）",
+          "sourceText": "溃疡性结肠炎（B）",
           "sourceY": null,
           "lectureEvidence": {
             "lectureId": "lecture-21",
@@ -6673,10 +6663,11 @@
         {
           "text": "消化性溃疡",
           "answer": [
+            "D",
             "I"
           ],
-          "answerMode": "单选",
-          "sourceText": "消化性溃疡（I）",
+          "answerMode": "多选",
+          "sourceText": "消化性溃疡（DI）",
           "sourceY": null,
           "lectureEvidence": {
             "lectureId": "lecture-21",
@@ -6689,10 +6680,10 @@
         {
           "text": "胃癌溃疡型",
           "answer": [
-            "J"
+            "D"
           ],
           "answerMode": "单选",
-          "sourceText": "胃癌溃疡型（J）",
+          "sourceText": "胃癌溃疡型（D）",
           "sourceY": null,
           "lectureEvidence": {
             "lectureId": "lecture-21",
@@ -6735,7 +6726,7 @@
           }
         }
       ],
-      "sourceText": "A.回盲部 | B.直肠和乙状结肠 | C.回肠末端及邻近结肠 | D.胃窦小弯侧 | E.胃底、胃体 | F.回肠末端 | G.盲肠和升结肠 | H.直肠和乙状结肠 | I.十二指肠球部前壁 | J.胃窦小弯侧 | K.十二指肠球部 | 肠结核（A） | 肠伤寒（F） | 细菌性痢疾（B） | 阿米巴（G） | 溃疡性结肠炎（H） | 克罗恩病（C） | 消化性溃疡（I） | 胃癌溃疡型（J） | 胃泌素瘤（K） | 应激性溃疡（E）",
+      "sourceText": "A.回盲部 | B.直肠和乙状结肠 | C.回肠末端及邻近结肠 | D.胃窦小弯侧 | E.胃底、胃体 | F.回肠末端 | G.盲肠和升结肠 | I.十二指肠球部前壁 | K.十二指肠球部 | 肠结核（A） | 肠伤寒（F） | 细菌性痢疾（B） | 阿米巴（G） | 溃疡性结肠炎（B） | 克罗恩病（C） | 消化性溃疡（DI） | 胃癌溃疡型（D） | 胃泌素瘤（K） | 应激性溃疡（E）",
       "reviewState": "已按题册原图与讲义逐题复核",
       "topic": "传染病",
       "lectureIds": [
@@ -6747,7 +6738,8 @@
         "image": "pathology/lecture-pages/lecture-21-page-06.webp",
         "title": "第21讲第6页：病理 其它传染病",
         "description": "本题对应第21讲第6页讲义。"
-      }
+      },
+      "answerRevision": "ulcer-locations-20261025-v2"
     },
     {
       "id": "p23-g2",
