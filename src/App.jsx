@@ -105,18 +105,19 @@ const CONTENT_LOADERS = {
     }), reviewedEvidence, remainingEvidence)
   },
   pathology: async () => {
-    const [content, homework, exam] = await Promise.all([
+    const [content, homework, exam, reviewedEvidence] = await Promise.all([
       loadJson(() => import('./data/pathology-data.json')),
       loadJson(() => import('./data/pathology-teacher-supplement.json')),
       loadJson(() => import('./data/pathology-stage-exam-data.json')),
+      loadJson(() => import('./data/pathology-reviewed-lecture-evidence.json')),
     ])
-    return appendSupplement({
+    return applyReviewedEvidence(appendSupplement({
       ...content,
       topics: unique([...content.topics.filter((topic) => topic !== '综合'), ...exam.topics, '综合']),
     }, {
       groups: [...homework.groups, ...exam.groups],
       pages: [...homework.pages, ...exam.pages],
-    })
+    }), reviewedEvidence)
   },
   physiology: async () => {
     const [content, supplement, exam, endocrineSummary] = await Promise.all([
@@ -131,7 +132,7 @@ const CONTENT_LOADERS = {
     })
   },
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, orthoEvidence, remainingEvidence] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, updatedEvidence] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
@@ -149,8 +150,7 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/surgery-teacher-supplement.json')),
       loadJson(() => import('./data/surgery-stage-exam-data.json')),
       loadJson(() => import('./data/surgery-practitioner-upper-data.json')),
-      loadJson(() => import('./data/surgery-ortho-reviewed-lecture-evidence.json')),
-      loadJson(() => import('./data/surgery-remaining-reviewed-lecture-evidence.json')),
+      loadJson(() => import('./data/surgery-updated-lecture-evidence.json')),
     ])
     return applyReviewedEvidence(appendSupplement({
       ...surgeryContent,
@@ -161,7 +161,7 @@ const CONTENT_LOADERS = {
     }, {
       groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups],
       pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages],
-    }), orthoEvidence, remainingEvidence)
+    }), updatedEvidence)
   },
   biochemistry: async () => {
     const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent, biochemistryExamContent, reviewedEvidence] = await Promise.all([
