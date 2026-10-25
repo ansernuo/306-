@@ -6,10 +6,10 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 
-// Project budget for the reviewed medicine, surgery and biochemistry collections.
+// Project budget for the reviewed medicine, surgery, pathology and biochemistry collections.
 // Only the pages referenced by their manifests are included in the artifact.
-const WARN_MIB = 60
-const HARD_LIMIT_MIB = 70
+const WARN_MIB = 80
+const HARD_LIMIT_MIB = 90
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const requiredFiles = [
   join(root, 'dist/server/index.js'),
