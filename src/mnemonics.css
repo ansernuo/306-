@@ -1,0 +1,94 @@
+.study-mode-switch { display: flex; flex: 0 0 auto; align-items: center; gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: #f5f7fb; }
+.study-mode-switch button { height: 30px; border: 0; border-radius: 6px; padding: 0 11px; background: transparent; color: #6e7d91; font-size: 12px; font-weight: 700; white-space: nowrap; }
+.study-mode-switch button.active { background: white; color: var(--blue); box-shadow: 0 2px 6px #25395214; }
+.search-box .search-clear { display: grid; place-items: center; flex: 0 0 auto; width: 20px; height: 24px; padding: 0; border: 0; background: transparent; color: #8591a4; font-size: 20px; }
+.mnemonic-mode .brand-lockup { flex-basis: 150px; max-width: 210px; }
+.mnemonic-mode .brand-copy strong { font-size: 18px; letter-spacing: -.02em; }
+.mnemonic-mode .search-box { width: clamp(200px, 20vw, 310px); }
+.mnemonic-mode .filter-box { width: 185px; }
+.mnemonic-mode .filter-box select { min-width: 0; text-overflow: ellipsis; }
+.mnemonic-library { max-width: 980px; margin: 0 auto; padding: 48px 28px 80px; }
+.mnemonic-library-heading { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 32px; }
+.mnemonic-eyebrow { color: #7c8ba0; font-size: 11px; letter-spacing: .13em; margin-bottom: 7px; }
+.mnemonic-library-heading h1 { margin: 0 0 10px; color: var(--ink); font-size: 29px; letter-spacing: -.05em; font-weight: 750; }
+.mnemonic-library-heading p { margin: 0; color: #718096; font-size: 13px; }
+.mnemonic-library-heading p span { margin-left: 15px; color: #909caf; }
+.mnemonic-favorites-filter { display: flex; gap: 8px; align-items: center; border: 1px solid #dce4ef; border-radius: 8px; background: #fff; color: #60728c; padding: 9px 12px; font-size: 12px; white-space: nowrap; }
+.mnemonic-favorites-filter span { color: #91a0b2; }
+.mnemonic-favorites-filter.active { color: #1c63dc; border-color: #a5c4f5; background: #edf4ff; }
+.mnemonic-result-bar { min-height: 32px; display: flex; justify-content: space-between; gap: 14px; align-items: baseline; margin-bottom: 12px; color: #7d8b9e; font-size: 12px; line-height: 1.5; }
+.mnemonic-result-bar strong { color: #455a78; font-weight: 650; }
+.mnemonic-result-bar button { border: 0; padding: 0; background: transparent; color: var(--blue); font-size: 12px; white-space: nowrap; }
+.mnemonic-results { display: grid; gap: 13px; }
+.mnemonic-card { padding: 21px 24px 17px; border: 1px solid var(--line); border-radius: 12px; background: #fff; box-shadow: 0 3px 12px #294b7b03; scroll-margin-top: 100px; }
+.mnemonic-card-heading { display: flex; gap: 16px; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+.mnemonic-card-title { min-width: 0; }
+.mnemonic-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; color: #8592a6; font-size: 11px; line-height: 1.5; margin-bottom: 8px; }
+.mnemonic-subject { color: #3976c7; background: #edf4ff; padding: 2px 7px; border-radius: 4px; font-weight: 650; }
+.mnemonic-subject-surgery { color: #478775; background: #eaf7f1; }
+.mnemonic-subject-pathology { color: #8b6cb1; background: #f4effb; }
+.mnemonic-subject-physiology { color: #bd7a40; background: #fff5e9; }
+.mnemonic-subject-biochemistry { color: #4c8e9e; background: #ecf8fa; }
+.mnemonic-number { font-variant-numeric: tabular-nums; color: #a2adbd; }
+.mnemonic-card h2 { margin: 0; color: #243956; font-size: 17px; line-height: 1.65; font-weight: 700; overflow-wrap: anywhere; white-space: pre-line; }
+.mnemonic-save { flex: 0 0 auto; display: grid; place-items: center; width: 32px; height: 32px; border: 0; border-radius: 7px; background: transparent; color: #9caabd; }
+.mnemonic-save:hover { background: #f8f4e9; color: #b78b3e; }
+.mnemonic-save.is-saved { color: #bc9244; }
+.mnemonic-line { margin: 5px 0; font-size: 14px; line-height: 1.85; color: #4e5d72; overflow-wrap: anywhere; white-space: pre-line; }
+.mnemonic-red { color: #cd5854; }
+.mnemonic-blue { color: #447bc1; }
+.mnemonic-green { color: #3b9678; }
+.mnemonic-orange { color: #b77b39; }
+.mnemonic-purple { color: #9868b1; }
+.mnemonic-bold { font-weight: 600; }
+.mnemonic-line-note { color: #8090a5; font-size: 12px; }
+.mnemonic-library mark { padding: 1px 0; color: #744913; background: #fff0b8; border-radius: 2px; box-decoration-break: clone; }
+.mnemonic-expand { display: flex; gap: 7px; align-items: center; margin-top: 11px; border: 0; padding: 2px 0; background: transparent; color: #7491b6; font-size: 11px; }
+.mnemonic-expand:hover { color: var(--blue); }
+.mnemonic-expand span { font-size: 15px; line-height: 1; }
+.mnemonic-detail { margin-top: 12px; padding-top: 11px; border-top: 1px solid #edf1f6; }
+.mnemonic-empty { padding: 60px 20px; text-align: center; color: #8a98ab; background: #fff; border: 1px dashed #dce4ef; border-radius: 12px; }
+.mnemonic-empty h2 { margin: 0 0 10px; color: #52647e; font-size: 17px; }
+.mnemonic-empty p { font-size: 13px; line-height: 1.8; }
+.mnemonic-empty button { margin-top: 9px; }
+.mnemonic-more { display: flex; justify-content: center; padding-top: 26px; }
+.mnemonic-more button { gap: 16px; }
+.mnemonic-more span { font-size: 11px; color: #8b99ad; }
+.mnemonic-library button:focus-visible, .study-mode-switch button:focus-visible { outline: 2px solid #1c63dc; outline-offset: 3px; }
+@media (max-width: 1200px) and (min-width: 721px) {
+  .topbar { gap: 12px; }
+  .brand-lockup { flex-basis: 130px; }
+  .brand-copy strong { max-width: 160px; font-size: 16px; }
+  .mnemonic-mode .filter-box { width: 130px; }
+}
+@media (max-width: 1030px) and (min-width: 721px) {
+  .study-mode-switch button { padding-inline: 8px; }
+  .mnemonic-mode .brand-lockup { max-width: 55px; }
+  .mnemonic-mode .brand-copy { display: none; }
+  .mnemonic-mode .filter-box { width: 128px; padding: 0 8px; }
+  .mnemonic-mode .filter-box select { display: block; }
+}
+@media (max-width: 720px) {
+  .study-mode-switch { margin-left: auto; }
+  .study-mode-switch button { height: 28px; }
+  .mnemonic-mode .brand-lockup { flex-basis: 160px; max-width: none; }
+  .mnemonic-mode .brand-copy strong { max-width: none; font-size: 16px; }
+  .mnemonic-mode .top-actions { flex-wrap: wrap; }
+  .mnemonic-mode .search-box { flex: 1 1 100%; width: 100%; }
+  .mnemonic-mode .filter-box { display: flex; width: 100%; height: 32px; border-color: transparent; padding-inline: 1px; background: transparent; }
+  .mnemonic-mode .filter-box select { display: block; font-size: 12px; }
+  .mnemonic-mode .filter-box > svg:last-child { display: block; }
+  .mnemonic-mode .top-actions { gap: 3px; }
+  .mnemonic-library { padding: 37px 14px 60px; }
+  .mnemonic-library-heading { align-items: flex-start; gap: 10px; margin-bottom: 26px; }
+  .mnemonic-library-heading h1 { font-size: 25px; }
+  .mnemonic-library-heading p { font-size: 12px; }
+  .mnemonic-library-heading p span { display: block; margin: 5px 0 0; }
+  .mnemonic-favorites-filter { padding: 8px 10px; margin-top: 16px; }
+  .mnemonic-card { padding: 17px 16px 14px; border-radius: 10px; }
+  .mnemonic-card h2 { font-size: 16px; }
+  .mnemonic-line { font-size: 13px; }
+  .mnemonic-card-heading { gap: 5px; }
+  .mnemonic-meta { gap: 5px; font-size: 10px; }
+  .mnemonic-result-bar { font-size: 11px; }
+}

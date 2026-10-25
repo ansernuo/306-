@@ -20,4 +20,11 @@ ipconfig getifaddr en0
 pnpm run dev --host 0.0.0.0 --port 4173
 ```
 
+## 五科口诀库
+
+在顶栏选择“口诀”，复用原搜索框查找口诀、疾病或知识点；支持五科与章节筛选、命中高亮、完整内容展开和当前浏览器收藏。
+直接入口：`/?view=mnemonics`。可附加 `q` 和 `mnemonicSubject` 参数。
+
+数据来自五科现有 Notion 口诀文档，共 2557 条；来源标识和各科条数保存在 `src/data/mnemonics-data.json`。更新时将五页正文导出为 `mnemonic-source-{subject}.md`，再运行 `python3 scripts/import_mnemonics.py <导出目录>`；搜索和导入完整性校验：`node --test tests/mnemonics.test.mjs`。
+
 如需在本地调试，仍可使用上面的局域网方式；本地服务必须保持电脑运行。

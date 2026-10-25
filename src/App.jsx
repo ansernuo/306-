@@ -1,8 +1,12 @@
 import { AdaptiveAnswerLayout, AdaptiveStudyGrid, BalancedAnswerChoices } from './AdaptiveStudyGrid.jsx'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { MNEMONIC_SUBJECTS } from './mnemonic-search.js'
+import './mnemonics.css'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
+
+const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
 
 const SUBJECTS = {
   politics: {
@@ -693,6 +697,7 @@ function App() {
   const [subject, setSubject] = useState('med')
   const subjectConfig = SUBJECTS[subject] || SUBJECTS.med
   const [loadedContent, setLoadedContent] = useState(null)
+  const loadedSubjectRef = useRef(null)
   const [loadError, setLoadError] = useState(null)
   const [loadAttempt, setLoadAttempt] = useState(0)
   const [storageReady, setStorageReady] = useState(false)
@@ -706,6 +711,15 @@ function App() {
     && !(subject === 'surgery' && (topic === '骨科' || topic === '外科总论'))
   const [chapterId, setChapterId] = useState('')
   const [search, setSearch] = useState('')
+  const [viewMode, setViewMode] = useState('questions')
+  const [mnemonicSearch, setMnemonicSearch] = useState('')
+  const [mnemonicSubject, setMnemonicSubject] = useState('all')
+  const [mnemonicChapter, setMnemonicChapter] = useState('')
+  const [mnemonicData, setMnemonicData] = useState(null)
+  const [mnemonicLoadError, setMnemonicLoadError] = useState(false)
+  const [mnemonicLoadAttempt, setMnemonicLoadAttempt] = useState(0)
+  const [mnemonicFavorites, setMnemonicFavorites] = useState([])
+  const searchInputRef = useRef(null)
   const [typeFilter, setTypeFilter] = useState('全部题型')
   const [groupIndex, setGroupIndex] = useState(0)
   const [jumpGroupId, setJumpGroupId] = useState('')
@@ -731,6 +745,14 @@ function App() {
   }, [])
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    if (params.get('view') === 'mnemonics') {
+      setViewMode('mnemonics')
+      setMnemonicSearch(params.get('q') || '')
+      if (MNEMONIC_SUBJECTS[params.get('mnemonicSubject')]) setMnemonicSubject(params.get('mnemonicSubject'))
+    }
+    const savedMnemonics = readLocalStorage('study-mnemonic-favorites-v1', [])
+    setMnemonicFavorites(Array.isArray(savedMnemonics) ? savedMnemonics.filter(id => typeof id === 'string') : [])
     const requestedSubject = new URLSearchParams(window.location.search).get('subject')
     const storedSubject = SUBJECTS[requestedSubject] ? requestedSubject : readLocalStorage('study-subject', 'med')
     const nextSubject = SUBJECTS[storedSubject] ? storedSubject : 'med'
@@ -747,17 +769,68 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (!storageReady) return undefined
+    if (viewMode !== 'mnemonics' || mnemonicData || import.meta.env.SSR) return undefined
+    let cancelled = false
+    setMnemonicLoadError(false)
+    import('./data/mnemonics-data.json').then(module => {
+      if (!cancelled) setMnemonicData(module.default)
+    }).catch(() => { if (!cancelled) setMnemonicLoadError(true) })
+    return () => { cancelled = true }
+  }, [viewMode, mnemonicData, mnemonicLoadAttempt])
+
+  useEffect(() => {
+    if (storageReady) window.localStorage.setItem('study-mnemonic-favorites-v1', JSON.stringify(mnemonicFavorites))
+  }, [mnemonicFavorites, storageReady])
+
+  useEffect(() => {
+    function focusSearch(event) {
+      if ((event.metaKey || event.ctrlKey) && !event.altKey && !event.isComposing && event.key.toLowerCase() === 'k') {
+        event.preventDefault()
+        setTopbarCollapsed(false)
+        window.requestAnimationFrame(() => { searchInputRef.current?.focus(); searchInputRef.current?.select() })
+      }
+    }
+    window.addEventListener('keydown', focusSearch)
+    return () => window.removeEventListener('keydown', focusSearch)
+  }, [])
+
+  const mnemonicChapters = useMemo(() => {
+    const chapters = new Map()
+    for (const item of mnemonicData?.items || []) {
+      if (mnemonicSubject !== 'all' && mnemonicSubject !== item.subject) continue
+      chapters.set(`${item.subject}:${item.chapter}`, `${mnemonicSubject === 'all' ? MNEMONIC_SUBJECTS[item.subject] + ' · ' : ''}${item.chapter}`)
+    }
+    return [...chapters.entries()]
+  }, [mnemonicData, mnemonicSubject])
+
+  const toggleMnemonicFavorite = useCallback(id => {
+    setMnemonicFavorites(previous => previous.includes(id) ? previous.filter(item => item !== id) : [...previous, id])
+  }, [])
+
+  function selectView(nextView) {
+    setViewMode(nextView)
+    setShowSource(false)
+    setShowLectureEvidence(false)
+    pendingOptionRef.current = null
+    const url = new URL(window.location.href)
+    if (nextView === 'mnemonics') url.searchParams.set('view', 'mnemonics')
+    else { url.searchParams.delete('view'); url.searchParams.delete('q'); url.searchParams.delete('mnemonicSubject') }
+    window.history.replaceState(null, '', url)
+    window.scrollTo({ top: 0 })
+  }
+
+  useEffect(() => {
+    if (!storageReady || viewMode !== 'questions' || (loadedSubjectRef.current === subject && loadedContent)) return undefined
     let cancelled = false
     setLoadedContent(null)
     setLoadError(null)
     CONTENT_LOADERS[subject]().then((nextContent) => {
-      if (!cancelled) setLoadedContent(nextContent)
+      if (!cancelled) { loadedSubjectRef.current = subject; setLoadedContent(nextContent) }
     }).catch(() => {
       if (!cancelled) setLoadError('题库数据暂时加载失败，请检查网络后重试。')
     })
     return () => { cancelled = true }
-  }, [subject, loadAttempt, storageReady])
+  }, [subject, loadAttempt, storageReady, viewMode])
 
   useEffect(() => {
     if (!chapterId || !loadedContent || typeof window === 'undefined') return undefined
@@ -931,6 +1004,7 @@ function App() {
     let shiftTap = null
 
     function canUseLectureShortcut(event) {
+      if (viewMode !== 'questions') return false
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return false
       const target = event.target instanceof Element ? event.target : null
@@ -983,10 +1057,10 @@ function App() {
       window.removeEventListener('blur', cancelShiftTap)
       window.removeEventListener('pointerdown', cancelShiftTap, true)
     }
-  }, [activeStemIndex, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource])
+  }, [activeStemIndex, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource, viewMode])
 
   useEffect(() => {
-    if (isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence) return undefined
+    if (viewMode !== 'questions' || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence) return undefined
     let sequence = ''
     let timer
 
@@ -1075,7 +1149,7 @@ function App() {
       window.removeEventListener('blur', clearSequence)
       clearSequence()
     }
-  }, [activeStemIndex, answerStorageId, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showSource, submitGroup])
+  }, [activeStemIndex, answerStorageId, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showSource, submitGroup, viewMode])
 
   function jumpTo(index) {
     if (!filteredGroups.length) return
@@ -1163,7 +1237,7 @@ function App() {
     if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
   }
 
-  if (isLoadingContent) {
+  if (isLoadingContent && viewMode === 'questions') {
     return (
       <main className="app-loading" aria-live="polite">
         <div className="app-loading-mark"><Icon name="book" size={26} stroke="white" /></div>
@@ -1175,25 +1249,25 @@ function App() {
   }
 
   return (
-    <div className={`app-shell ${topbarCollapsed ? 'topbar-collapsed' : ''}`}>
+    <div className={`app-shell ${topbarCollapsed ? 'topbar-collapsed' : ''} ${viewMode === 'mnemonics' ? 'mnemonic-mode' : ''}`}>
       <div className="topbar-region">
         <header id="study-topbar" className="topbar" hidden={topbarCollapsed}>
           <div className="brand-lockup">
             <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
-            <div className="brand-copy"><strong>{subjectConfig.title}</strong><span>{subjectConfig.subtitle}</span></div>
+            <div className="brand-copy"><strong>{viewMode === 'mnemonics' ? '五科口诀库' : subjectConfig.title}</strong><span>{viewMode === 'mnemonics' ? '原口诀 · 对应知识点' : subjectConfig.subtitle}</span></div>
           </div>
+          <div className="study-mode-switch" aria-label="学习内容"><button className={viewMode === 'questions' ? 'active' : ''} aria-pressed={viewMode === 'questions'} onClick={() => selectView('questions')}>题库</button><button className={viewMode === 'mnemonics' ? 'active' : ''} aria-pressed={viewMode === 'mnemonics'} onClick={() => selectView('mnemonics')}>口诀</button></div>
           <div className="subject-switch" aria-label="选择科目">
-            {Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
+            {viewMode === 'mnemonics' ? <><button className={mnemonicSubject === 'all' ? 'active' : ''} aria-pressed={mnemonicSubject === 'all'} onClick={() => { setMnemonicSubject('all'); setMnemonicChapter('') }}>五科</button>{Object.entries(MNEMONIC_SUBJECTS).map(([key, label]) => <button key={key} className={mnemonicSubject === key ? 'active' : ''} aria-pressed={mnemonicSubject === key} onClick={() => { setMnemonicSubject(key); setMnemonicChapter('') }}>{label}</button>)}</> : Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
           </div>
-          <div className="progress-strip">
+          {viewMode === 'questions' ? <div className="progress-strip">
             <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
             <div className="progress-bar"><i style={{ width: `${filteredGroups.length ? ((groupIndex + 1) / filteredGroups.length) * 100 : 0}%` }} /></div>
             <span>{filteredGroups.length ? Math.round(((groupIndex + 1) / filteredGroups.length) * 100) : 0}%</span>
-          </div>
+          </div> : null}
           <div className="top-actions">
-            <label className="search-box"><Icon name="search" size={18} /><input value={search} onChange={(event) => { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) }} placeholder="搜索题目 / 关键词" /><kbd>⌘ K</kbd></label>
-            <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
-            <button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button>
+            <label className="search-box"><Icon name="search" size={18} /><input ref={searchInputRef} value={viewMode === 'mnemonics' ? mnemonicSearch : search} onChange={(event) => { if (viewMode === 'mnemonics') setMnemonicSearch(event.target.value); else { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) } }} placeholder={viewMode === 'mnemonics' ? '搜索口诀 / 疾病 / 知识点' : '搜索题目 / 关键词'} aria-label={viewMode === 'mnemonics' ? '搜索五科口诀' : '搜索题目'} />{(viewMode === 'mnemonics' ? mnemonicSearch : search) ? <button className="search-clear" aria-label="清空搜索" type="button" onClick={() => { if (viewMode === 'mnemonics') setMnemonicSearch(''); else { setSearch(''); setGroupIndex(0) } searchInputRef.current?.focus() }}>×</button> : <kbd>⌘ K</kbd>}</label>
+            {viewMode === 'mnemonics' ? <label className="filter-box"><Icon name="sliders" size={17} /><select aria-label="筛选口诀章节" value={mnemonicChapter} onChange={event => setMnemonicChapter(event.target.value)}><option value="">全部章节</option>{mnemonicChapters.map(([id, title]) => <option key={id} value={id}>{title}</option>)}</select><Icon name="chevron" size={15} /></label> : <><label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label><button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button></>}
           </div>
         </header>
         <button className="topbar-toggle" onClick={() => setTopbarCollapsed((value) => !value)} aria-controls="study-topbar" aria-expanded={!topbarCollapsed} aria-label={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'} title={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'}>
@@ -1202,7 +1276,7 @@ function App() {
         </button>
       </div>
 
-      <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
+      {viewMode === 'mnemonics' ? <Suspense fallback={<main className="mnemonic-library"><p role="status">正在加载口诀库…</p></main>}><MnemonicLibrary data={mnemonicData} query={mnemonicSearch} subject={mnemonicSubject} chapter={mnemonicChapter} favorites={mnemonicFavorites} onFavorite={toggleMnemonicFavorite} onClear={() => { setMnemonicSearch(''); setMnemonicSubject('all'); setMnemonicChapter('') }} error={mnemonicLoadError} onRetry={() => setMnemonicLoadAttempt(value => value + 1)} /></Suspense> : <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
         <aside className="sidebar">
           <div className="sidebar-heading"><div className="sidebar-title">{subjectConfig.sectionLabel}</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
           <nav className="topic-nav">
@@ -1275,12 +1349,12 @@ function App() {
         </main>
 
         {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} submitted={isSubmitted} setShowSource={setShowSource} setShowLectureEvidence={setShowLectureEvidence} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} evidenceCollapsed={evidenceCollapsed} setEvidenceCollapsed={setEvidenceCollapsed} /> : <EmptyEvidence subjectConfig={subjectConfig} evidenceCollapsed={evidenceCollapsed} setEvidenceCollapsed={setEvidenceCollapsed} />}
-      </div>
+      </div>}
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       {showLectureEvidence && <LectureEvidenceModal notice={group.lectureEvidenceNotice} pages={group.lectureEvidencePages} evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
-        {showContentWatermark && <span>内容制作byBi8bo</span>}
+        {viewMode === 'questions' && showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
       </div>
     </div>
