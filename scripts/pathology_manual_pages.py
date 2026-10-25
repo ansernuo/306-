@@ -249,9 +249,28 @@ def _page_21() -> list[dict]:
     ]
 
 
+def repair_ulcer_locations(group: dict) -> None:
+    """Merge duplicate locations and retain both peptic-ulcer sites (21:6)."""
+    aliases = {"H": "B", "J": "D"}
+    group["options"] = [row for row in group["options"] if row["key"] not in aliases]
+    for row in group["stems"]:
+        row["answer"] = list(dict.fromkeys(aliases.get(key, key) for key in row["answer"]))
+        if row["text"] == "消化性溃疡":
+            row["answer"] = ["D", "I"]
+        row["answerMode"] = "多选" if len(row["answer"]) > 1 else "单选"
+        row["sourceText"] = f"{row['text']}（{''.join(row['answer'])}）"
+    group["sourceText"] = " | ".join([
+        *(row["sourceText"] for row in group["options"]),
+        *(row["sourceText"] for row in group["stems"]),
+    ])
+    # Use the existing answer-revision mechanism to isolate stale H/J selections.
+    # Favorites/notes retain the same group ID and other groups are unaffected.
+    group["answerRevision"] = "ulcer-locations-20261025-v2"
+
+
 def _page_23() -> list[dict]:
     diseases = ["肠结核", "肠伤寒", "细菌性痢疾", "阿米巴", "溃疡性结肠炎", "克罗恩病", "消化性溃疡", "胃癌溃疡型", "胃泌素瘤", "应激性溃疡"]
-    return [
+    groups = [
         _group(
             "p23-g1", 23, "常见溃疡的好发部位",
             [
@@ -277,6 +296,8 @@ def _page_23() -> list[dict]:
             list(zip(diseases, ["A", "F", "B", "G", "H", "C", "I", "D", "J", "E"])),
         ),
     ]
+    repair_ulcer_locations(groups[0])
+    return groups
 
 
 def _page_25() -> list[dict]:

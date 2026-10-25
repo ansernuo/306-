@@ -12,6 +12,8 @@ import argparse
 import json
 from pathlib import Path
 
+from pathology_manual_pages import repair_ulcer_locations
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "src/data/pathology-data.json"
@@ -94,6 +96,7 @@ def make_evidence(lecture_id: str, page: int, lecture_title: str) -> dict:
 def repair_and_restore(groups: list[dict]) -> list[dict]:
     groups = [group for group in groups if group["id"] not in {"p05-g2", "p19-g2"}]
     by_id = {group["id"]: group for group in groups}
+    repair_ulcer_locations(by_id["p23-g1"])
 
     # Correct visible OCR glyphs while retaining the source booklet's answer key.
     text_repairs = {
