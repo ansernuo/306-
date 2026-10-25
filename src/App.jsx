@@ -825,6 +825,9 @@ function App() {
   }, [filteredGroups.length, groupIndex])
 
   const group = (jumpGroupId && filteredGroups.find((item) => item.id === jumpGroupId)) || filteredGroups[groupIndex] || content.groups[0]
+  const groupNotice = group.studyNotice || (group.supplement
+    ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}`
+    : '')
   const groupStorageId = groupStorageKey(subject, group.id)
   const answerStorageId = groupAnswerStorageKey(subject, group)
   const currentSelections = selections[answerStorageId] || {}
@@ -1196,7 +1199,7 @@ function App() {
             <button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button>
           </div>
         </header>
-        <button className="topbar-toggle" onClick={() => setTopbarCollapsed((value) => !value)} aria-controls="study-topbar" aria-expanded={!topbarCollapsed} aria-label={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'} title={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'}>
+        <button className="topbar-toggle" onClick={() => setTopbarCollapsed((value) => !value)} aria-controls="study-topbar study-chapter-controls" aria-expanded={!topbarCollapsed} aria-label={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'} title={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'}>
           <Icon name={topbarCollapsed ? 'chevron' : 'chevronUp'} size={14} />
           <span>{topbarCollapsed ? '展开顶栏' : '收起顶栏'}</span>
         </button>
@@ -1228,28 +1231,30 @@ function App() {
         </aside>
 
         <main className="main-content">
-          <div className="mobile-topic-row">
-            <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
-            <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
-            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
-            <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
-            <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
-            {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="text-button system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={16} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
-          </div>
-          <div className="desktop-chapter-jump">
-            <span>章节快速跳转</span>
-            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="章节快速跳转">
-              <option value="">{topic === '全部' ? '全部章节' : `${topic} · 全部章节`}</option>
-              {chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
-            </select>
-            {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={15} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
+          <div id="study-chapter-controls" hidden={topbarCollapsed}>
+            <div className="mobile-topic-row">
+              <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
+              <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
+              <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
+              <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
+              <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
+              {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="text-button system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={16} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
+            </div>
+            <div className="desktop-chapter-jump">
+              <span>章节快速跳转</span>
+              <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="章节快速跳转">
+                <option value="">{topic === '全部' ? '全部章节' : `${topic} · 全部章节`}</option>
+                {chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
+              </select>
+              {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={15} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
+            </div>
           </div>
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className={`study-content ${group.originalMatching ? 'original-matching' : ''}`} data-study-content>
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
-            <div><h1>{group.title || '题库原题'}</h1><p>{group.studyNotice || (group.supplement ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}` : (group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。')))}</p></div>
+            <div><h1>{group.title || '题库原题'}</h1>{groupNotice && <p>{groupNotice}</p>}</div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
@@ -1297,7 +1302,6 @@ function OptionBank({ group }) {
     <aside className={`option-bank option-rail ${categorized ? 'categorized-option-bank' : ''}`}>
       <div className="section-label"><span>{group.sharedStem ? '各题选项' : '共用选项'}</span><em>{group.kindLabel}</em></div>
       {categorized ? <div className="option-category-list">{sections.map((section) => <section className="option-category" key={section.title}><h3>{section.title}</h3><div className="option-grid">{section.options.map((option) => <div className="shared-option" key={option.key}><b>{option.displayKey || option.key}</b><span>{option.label}</span></div>)}</div></section>)}</div> : <div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.displayKey || option.key}</b><span>{option.label}</span></div>)}</div>}
-      <p className="option-rail-hint">{group.sharedStem ? '各小题选项按原题分区；字母与右侧答题区对应。' : (group.optionBankSections?.length ? '选项按类别分区；字母与右侧答题区对应。' : (categorized ? '选项已按考点分区，区内固定打乱；右侧题干逐题作答。' : '选项固定在左侧，右侧题干逐题作答。'))}</p>
     </aside>
   )
 }
