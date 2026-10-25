@@ -19,7 +19,10 @@ EXPECTED_SOURCE_ANSWERS = {
     "limb-fracture-dislocation-g06": [set(x) for x in ["A", "F", "G", "B", "J", "D", "I", "K", "H", "E", "C"]],
     "limb-fracture-dislocation-g07": [set(x) for x in ["E", "A", "L", "J", "B", "H", "G", "H", "O", "F", "N", "I", "CM"]],
     "limb-fracture-dislocation-g08": [set(x) for x in ["EGI", "C", "A", "D", "JK", "N", "B", "FL", "M", "H"]],
-    "limb-fracture-dislocation-g09": [set(x) for x in ["BCD", "AE", "F"]],
+    "limb-fracture-dislocation-ankle-ligaments": [
+        {"DELTOID", "STRONGEST"}, {"WEAKEST"}, {"TRANSVERSE"},
+    ],
+    "limb-fracture-dislocation-g09": [set(x) for x in ["AE", "F"]],
 }
 
 EXPECTED_FILL = [
@@ -33,11 +36,11 @@ def main() -> None:
     payload = json.loads((root / "src/data/surgery-limb-fracture-data.json").read_text(encoding="utf-8"))
     groups = payload["groups"]
 
-    assert len(groups) == 10
-    assert sum(len(group["stems"]) for group in groups) == 86
-    assert sum(len(group["options"]) for group in groups) == 115
+    assert len(groups) == 11
+    assert sum(len(group["stems"]) for group in groups) == 88
+    assert sum(len(group["options"]) for group in groups) == 116
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 16))
-    assert [group["id"] for group in groups[:9]] == list(EXPECTED_SOURCE_ANSWERS)
+    assert [group["id"] for group in groups[:-1]] == list(EXPECTED_SOURCE_ANSWERS)
 
     for group in groups:
         assert group["topic"] == "骨科"
@@ -54,15 +57,18 @@ def main() -> None:
         values.extend(stem["text"] for stem in group["stems"])
         assert not any(re.search(r"\s{2,}|[|•“”‘’]", value) for value in values), f"{group['id']}: punctuation or spacing issue"
 
-    for group in groups[:9]:
+    for group in groups[:-1]:
         expected_version = 3 if group["id"] in {
             "limb-fracture-dislocation-g03",
             "limb-fracture-dislocation-g06",
             "limb-fracture-dislocation-g07",
             "limb-fracture-dislocation-g08",
+            "limb-fracture-dislocation-g09",
         } else 2
         if group["id"] in {"limb-fracture-dislocation-g03", "limb-fracture-dislocation-g04"}:
             expected_version = 4
+        if group["id"] == "limb-fracture-dislocation-ankle-ligaments":
+            expected_version = 1
         assert group["kindLabel"] == "B型题" and group["optionShuffleVersion"] == expected_version
         option_keys = [option["key"] for option in group["options"]]
         option_labels = [option["label"] for option in group["options"]]
@@ -77,7 +83,14 @@ def main() -> None:
         assert semantic_answers == EXPECTED_SOURCE_ANSWERS[group["id"]], f"{group['id']}: answer remapping drift"
         assert all(stem["answer"] and set(stem["answer"]) <= set(option_keys) for stem in group["stems"])
 
-    fill = groups[9]
+    ligaments, ankle = groups[8:10]
+    assert [stem["text"] for stem in ligaments["stems"]] == ["内侧副韧带", "外侧副韧带", "下胫腓韧带"]
+    assert [option["label"] for option in ligaments["options"]] == ["最薄弱", "又称三角韧带", "最强", "又称胫腓横韧带"]
+    assert [stem["answer"] for stem in ligaments["stems"]] == [["B", "C"], ["A"], ["D"]]
+    assert [stem["text"] for stem in ankle["stems"]] == ["踝部扭伤", "跟骨骨折"]
+    assert ankle["answerRevision"] == "ankle-ligaments-split-20261025"
+
+    fill = groups[-1]
     assert fill["kind"] == "FILL" and fill["kindLabel"] == "填空题"
     assert fill["options"] == [] and fill["optionOriginalOrder"] == []
     assert [stem["answer"] for stem in fill["stems"]] == EXPECTED_FILL
@@ -118,7 +131,7 @@ def main() -> None:
     assert option_label(complications, "M") == "粉碎性骨折"
     assert option_label(complications, "H") == "横形骨折"
 
-    print({"groups": 10, "stems": 86, "options": 115, "shuffled": 9, "fill": 1, "status": "ok"})
+    print({"groups": 11, "stems": 88, "options": 116, "shuffled": 10, "fill": 1, "status": "ok"})
 
 
 def option_label(group: dict, source_key: str) -> str:
