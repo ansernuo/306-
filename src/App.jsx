@@ -797,14 +797,17 @@ function App() {
   const mnemonicChapters = useMemo(() => {
     const chapters = new Map()
     for (const item of mnemonicData?.items || []) {
-      if (mnemonicSubject !== 'all' && mnemonicSubject !== item.subject) continue
-      chapters.set(`${item.subject}:${item.chapter}`, `${mnemonicSubject === 'all' ? MNEMONIC_SUBJECTS[item.subject] + ' · ' : ''}${item.chapter}`)
+      for (const location of item.locations || [item]) {
+        if (mnemonicSubject !== 'all' && mnemonicSubject !== location.subject) continue
+        chapters.set(`${location.subject}:${location.chapter}`, `${mnemonicSubject === 'all' ? MNEMONIC_SUBJECTS[location.subject] + ' · ' : ''}${location.chapter}`)
+      }
     }
     return [...chapters.entries()]
   }, [mnemonicData, mnemonicSubject])
 
-  const toggleMnemonicFavorite = useCallback(id => {
-    setMnemonicFavorites(previous => previous.includes(id) ? previous.filter(item => item !== id) : [...previous, id])
+  const toggleMnemonicFavorite = useCallback((id, alternateIds = []) => {
+    const ids = new Set([id, ...alternateIds])
+    setMnemonicFavorites(previous => previous.some(item => ids.has(item)) ? previous.filter(item => !ids.has(item)) : [...previous, id])
   }, [])
 
   function selectView(nextView) {
@@ -1279,7 +1282,7 @@ function App() {
         </button>
       </div>
 
-      {viewMode === 'mnemonics' ? <Suspense fallback={<main className="mnemonic-library"><p role="status">正在加载口诀库…</p></main>}><MnemonicLibrary data={mnemonicData} query={mnemonicSearch} subject={mnemonicSubject} chapter={mnemonicChapter} favorites={mnemonicFavorites} onFavorite={toggleMnemonicFavorite} onClear={() => { setMnemonicSearch(''); setMnemonicSubject('all'); setMnemonicChapter('') }} error={mnemonicLoadError} onRetry={() => setMnemonicLoadAttempt(value => value + 1)} /></Suspense> : <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
+      {viewMode === 'mnemonics' ? <Suspense fallback={<main className="mnemonic-library"><p role="status">正在加载口诀库…</p></main>}><MnemonicLibrary data={mnemonicData} query={mnemonicSearch} subject={mnemonicSubject} chapter={mnemonicChapter} favorites={mnemonicFavorites} onFavorite={toggleMnemonicFavorite} onNavigate={(nextSubject, nextChapter) => { setMnemonicSubject(nextSubject); setMnemonicChapter(nextChapter); setMnemonicSearch(''); window.scrollTo({ top: 0 }) }} onClear={() => { setMnemonicSearch(''); setMnemonicSubject('all'); setMnemonicChapter('') }} error={mnemonicLoadError} onRetry={() => setMnemonicLoadAttempt(value => value + 1)} /></Suspense> : <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
         <aside className="sidebar">
           <div className="sidebar-heading"><div className="sidebar-title">{subjectConfig.sectionLabel}</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
           <nav className="topic-nav">

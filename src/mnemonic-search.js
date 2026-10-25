@@ -11,36 +11,35 @@ export const queryWords = (query) => query.trim().split(/\s+/u).map(normalizeMne
 export function indexMnemonics(items) {
   return items.map(item => ({ ...item,
     searchTitle: normalizeMnemonicText([item.title, ...(item.aliases || [])].join(' ')),
-    searchContext: normalizeMnemonicText([MNEMONIC_SUBJECTS[item.subject], item.chapter, item.section].join(' ')),
-    searchBody: normalizeMnemonicText(item.blocks.map(blockText).join(' ')),
+    searchContext: normalizeMnemonicText((item.locations || [item]).flatMap(location => [MNEMONIC_SUBJECTS[location.subject], location.chapter, location.section]).join(' ')),
+    searchBody: normalizeMnemonicText([item.scope || '', ...item.blocks.map(blockText)].join(' ')),
   }))
 }
 
-export function searchMnemonics(items, { query = '', subject = 'all', chapter = '', favoritesOnly = false, favorites = [] } = {}) {
+export function searchMnemonics(items, { query = '', subject = 'all', chapter = '', favoritesOnly = false, favorites = [], matchMode = 'auto' } = {}) {
   const words = queryWords(query)
   const favoriteIds = new Set(favorites)
   const matches = []
   for (const item of items) {
-    if (subject !== 'all' && item.subject !== subject) continue
-    if (chapter && `${item.subject}:${item.chapter}` !== chapter) continue
-    if (favoritesOnly && !favoriteIds.has(item.id)) continue
-    const combined = item.searchTitle + item.searchContext + item.searchBody
+    const locations = (item.locations || [item]).filter(location => (subject === 'all' || location.subject === subject) && (!chapter || `${location.subject}:${location.chapter}` === chapter))
+    if (!locations.length) continue
+    if (favoritesOnly && !favoriteIds.has(item.id) && !(item.alternateIds || []).some(id => favoriteIds.has(id))) continue
+    const combined = matchMode === 'title' ? item.searchTitle : matchMode === 'knowledge' ? item.searchContext + item.searchBody : item.searchTitle + item.searchContext + item.searchBody
     if (!words.every(word => combined.includes(word))) continue
     const score = words.reduce((total, word) => total + (item.searchTitle === word ? 100 : item.searchTitle.includes(word) ? 40 : item.searchContext.includes(word) ? 10 : 1), 0)
-    matches.push({ item, score })
+    const located = (subject !== 'all' || chapter) ? { ...item, ...locations[0] } : item
+    matches.push({ item: located, score, titleMatch: words.length > 0 && words.every(word => item.searchTitle.includes(word)) })
   }
+  if (matchMode === 'auto' && matches.some(match => match.titleMatch)) return matches.filter(match => match.titleMatch).sort((a, b) => b.score - a.score).map(match => match.item)
   if (words.length) matches.sort((a, b) => b.score - a.score)
   return matches.map(match => match.item)
 }
 
 export function previewBlocks(item, query) {
-  const candidates = item.blocks.filter(block => block.kind !== 'note')
-  const preferred = candidates.filter(block => block.kind === 'mapping')
-  const preview = (preferred.length ? preferred : candidates).slice(0, 3)
-  const namedContext = normalizeMnemonicText([item.title, item.chapter, item.section, ...(item.aliases || [])].join(' '))
-  const words = queryWords(query).filter(word => !namedContext.includes(word))
+  const preview = item.blocks.slice(0, 6)
+  const words = queryWords(query)
   const match = words.length ? item.blocks.find(block => words.some(word => normalizeMnemonicText(blockText(block)).includes(word))) : null
-  if (match && !preview.includes(match)) return [match, ...preview.slice(0, 2)]
+  if (match && !preview.includes(match)) return [...preview.slice(0, 5), match]
   return preview
 }
 
