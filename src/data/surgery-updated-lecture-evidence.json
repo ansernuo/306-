@@ -4323,9 +4323,6 @@
         ],
         [
           "surgery-revised-181"
-        ],
-        [
-          "surgery-revised-181"
         ]
       ]
     },
@@ -10372,6 +10369,22 @@
         [
           "surgery-revised-106",
           "surgery-revised-107"
+        ]
+      ]
+    },
+    "limb-fracture-dislocation-ankle-ligaments": {
+      "pages": [
+        "surgery-revised-181"
+      ],
+      "stemPages": [
+        [
+          "surgery-revised-181"
+        ],
+        [
+          "surgery-revised-181"
+        ],
+        [
+          "surgery-revised-181"
         ]
       ]
     }
