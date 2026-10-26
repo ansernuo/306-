@@ -1014,7 +1014,8 @@ function App() {
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return false
       const target = event.target instanceof Element ? event.target : null
-      if (!showLectureEvidence && target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')) return false
+      const editable = target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')
+      if (!showLectureEvidence && editable && !editable.matches('.fill-answers input')) return false
       return !isLoadingContent && filteredGroups.length > 0 && !showSource
     }
 
@@ -1084,12 +1085,36 @@ function App() {
       const target = event.target instanceof Element ? event.target : null
       const editable = target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')
       const plain = !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey
-      if (editable && !(plain && event.key === 'Enter' && editable.matches('.fill-answers input'))) {
+      const fillInput = editable?.matches('.fill-answers input') ? editable : null
+      const control = target?.closest('button, a, [role="button"]')
+      if (control && !control.matches('.answer-chip, .question-card-bottom .primary-button, .pager-button')) return
+
+      if (plain && (event.key === 'a' || event.key === 'd') && (!editable || fillInput)) {
+        const row = questionCardRef.current.querySelector(`[data-stem-index="${activeStemIndex}"]`)
+        const rowInputs = [...(row?.querySelectorAll('.fill-answers input:not(:disabled)') || [])]
+        if (fillInput || rowInputs.length) {
+          flushPendingOption()
+          clearSequence()
+          event.preventDefault()
+          if (event.repeat) return
+          const direction = event.key === 'd' ? 1 : -1
+          const inputs = [...questionCardRef.current.querySelectorAll('.fill-answers input:not(:disabled)')]
+          const index = inputs.indexOf(fillInput)
+          const next = fillInput
+            ? inputs[Math.min(Math.max(index + direction, 0), inputs.length - 1)]
+            : (direction > 0 ? rowInputs[0] : rowInputs.at(-1))
+          if (next && next !== fillInput) {
+            next.focus({ preventScroll: true })
+            next.select()
+            next.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+          }
+          return
+        }
+      }
+      if (editable && !(plain && fillInput && event.key === 'Enter')) {
         clearSequence()
         return
       }
-      const control = target?.closest('button, a, [role="button"]')
-      if (control && !control.matches('.answer-chip, .question-card-bottom .primary-button, .pager-button')) return
 
       if (plain && ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Enter'].includes(event.key)) {
         flushPendingOption()
@@ -1103,7 +1128,9 @@ function App() {
           const index = Math.min(Math.max(activeStemIndex + (event.key === 'ArrowDown' ? 1 : -1), 0), rows.length - 1)
           if (index < 0) return
           setKeyboardStem({ groupId: answerStorageId, index })
-          rows[index].focus({ preventScroll: true })
+          const next = rows[index].querySelector('.fill-answers input:not(:disabled)') || rows[index]
+          next.focus({ preventScroll: true })
+          if (next.matches('.fill-answers input')) next.select()
           rows[index].scrollIntoView({ block: 'nearest', inline: 'nearest' })
         } else {
           if (isSubmitted) redoGroup()
@@ -1427,7 +1454,6 @@ function CategorizedAnswerTable({ group, selections, submitted, onSelect, active
 
   return (
     <div className="categorized-answer-tables">
-      <div className="answer-table-hint"><Icon name="check" size={15} />左侧查看选项内容，右侧表格只勾选对应字母；多选题可在同一行选择多个。</div>
       {categories.map((category) => {
         const options = group.options.filter((option) => option.category === category)
         const rows = group.stems.map((stem, index) => ({ stem, index })).filter(({ stem }) => stem.optionCategory === category)
@@ -1519,7 +1545,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
   }
   return (
     <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
+      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}</div></div>
       {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div>
         : (choiceCategories.length

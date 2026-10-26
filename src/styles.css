@@ -169,7 +169,6 @@ button:disabled { cursor: default; }
 [data-stem-index]:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
 .stem-list > .stem-row { margin-inline: -8px; padding-inline: 8px; border-radius: 8px; }
 .categorized-answer-tables { padding: 0 20px 12px; }
-.answer-table-hint { display: flex; align-items: center; gap: 6px; margin: 0 -1px 12px; padding: 9px 10px; border: 1px solid #dbe7f7; border-radius: 7px; color: #6680a6; background: #f7faff; font-size: 11px; line-height: 1.5; }
 .answer-table-section + .answer-table-section { margin-top: 20px; padding-top: 18px; border-top: 1px solid #e8edf4; }
 .answer-table-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 9px; color: #3566a8; font-size: 12px; }
 .answer-table-title span { color: #9aa6b5; font-size: 11px; font-weight: 400; }
@@ -209,7 +208,6 @@ button:disabled { cursor: default; }
 .stem-image-heading { display: flex; justify-content: flex-end; }
 .answer-mode { flex: 0 0 auto; margin-top: 1px; padding: 3px 6px; border: 1px solid #d9e1ec; border-radius: 5px; color: #738196; background: #f7f9fc; font-size: 10px; line-height: 1.2; }
 .answer-mode.is-multi { border-color: #b8d2fa; color: var(--blue); background: var(--blue-soft); }
-.stem-copy small { display: block; color: #9aa6b5; font-size: 11px; margin-top: 4px; }
 .answer-choices { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 5px; max-width: 230px; }
 .answer-choices.balanced-choices { display: flex; flex-direction: column; width: 230px; gap: 6px; }
 .choice-row { display: flex; align-items: center; justify-content: flex-end; gap: inherit; width: 100%; }
@@ -400,7 +398,6 @@ button:disabled { cursor: default; }
   .shared-stem-panel { margin: 14px; padding: 13px 14px; }
   .stem-list { padding: 5px 14px; }
   .categorized-answer-tables { padding: 0 14px 10px; }
-  .answer-table-hint { align-items: flex-start; }
   .answer-table-title { align-items: flex-start; flex-direction: column; gap: 3px; }
   .stem-row { gap: 10px; padding: 14px 0; }
   .answer-choices { justify-content: flex-start; max-width: none; padding-left: 30px; }
