@@ -5,6 +5,7 @@ import './mnemonics.css'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
+import { fillNavigationTarget } from './fill-navigation.js'
 
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
 
@@ -1089,20 +1090,18 @@ function App() {
       const control = target?.closest('button, a, [role="button"]')
       if (control && !control.matches('.answer-chip, .question-card-bottom .primary-button, .pager-button')) return
 
-      if (plain && (event.key === 'a' || event.key === 'd') && (!editable || fillInput)) {
-        const row = questionCardRef.current.querySelector(`[data-stem-index="${activeStemIndex}"]`)
+      if (plain && ['a', 'd', 'w', 'e'].includes(event.key) && (!editable || fillInput)) {
+        const row = fillInput?.closest('[data-stem-index]') || questionCardRef.current.querySelector(`[data-stem-index="${activeStemIndex}"]`)
         const rowInputs = [...(row?.querySelectorAll('.fill-answers input:not(:disabled)') || [])]
         if (fillInput || rowInputs.length) {
           flushPendingOption()
           clearSequence()
           event.preventDefault()
           if (event.repeat) return
-          const direction = event.key === 'd' ? 1 : -1
-          const inputs = [...questionCardRef.current.querySelectorAll('.fill-answers input:not(:disabled)')]
-          const index = inputs.indexOf(fillInput)
-          const next = fillInput
-            ? inputs[Math.min(Math.max(index + direction, 0), inputs.length - 1)]
-            : (direction > 0 ? rowInputs[0] : rowInputs.at(-1))
+          const rows = [...questionCardRef.current.querySelectorAll('[data-stem-index]')]
+            .map(item => ({ row: item, inputs: [...item.querySelectorAll('.fill-answers input:not(:disabled)')] }))
+            .filter(item => item.inputs.length)
+          const next = fillNavigationTarget(rows.map(item => item.inputs), rows.findIndex(item => item.row === row), fillInput, event.key)
           if (next && next !== fillInput) {
             next.focus({ preventScroll: true })
             next.select()
@@ -1547,7 +1546,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
     <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}</div></div>
       {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
-        ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div>
+        ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空${stem.blankLabels?.[blankIndex] ? `，${stem.blankLabels[blankIndex]}` : ''}`} /></label>)}</div>
         : (choiceCategories.length
           ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => {
             const options = choiceOptions.filter((option) => option.category === category)
