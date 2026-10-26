@@ -4,6 +4,7 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
+from lecture_mnemonic_review import apply_lecture_review
 
 
 def norm(text):
@@ -186,10 +187,11 @@ def curate_records(data):
             unique.setdefault(norm(text_of(candidate)), candidate)
         item['blocks'] = list(unique.values())
     data['curation'] = {'merged': merged, 'excluded': excluded}
+    data = apply_lecture_review(data, block)
     for source in data['sources']:
         source.setdefault('sourceCount', source['count'])
         source['count'] = sum(any(location['subject'] == source['subject'] for location in item['locations']) for item in data['items'])
-    data['version'] = 2
+    data['version'] = max(2, data.get('version', 2))
     return data
 
 

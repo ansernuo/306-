@@ -1,5 +1,5 @@
 import { memo, useDeferredValue, useEffect, useMemo, useState } from 'react'
-import { blockText, highlightParts, indexMnemonics, MNEMONIC_SUBJECTS, previewBlocks, searchMnemonics } from './mnemonic-search.js'
+import { blockText, highlightParts, indexMnemonics, mnemonicDirectory, MNEMONIC_SUBJECTS, previewBlocks, searchMnemonics } from './mnemonic-search.js'
 
 const PAGE_SIZE = 40
 
@@ -35,28 +35,13 @@ const MnemonicCard = memo(function MnemonicCard({ item, query, favorite, onFavor
   </article>
 })
 
-function makeDirectory(items) {
-  return Object.entries(MNEMONIC_SUBJECTS).map(([subject, label]) => {
-    const chapters = new Map()
-    for (const item of items) {
-      const location = (item.locations || [item]).find(location => location.subject === subject)
-      if (!location) continue
-      const current = chapters.get(location.chapter) || { name: location.chapter, count: 0, sections: new Set() }
-      current.count++
-      if (location.section) current.sections.add(location.section)
-      chapters.set(location.chapter, current)
-    }
-    return { subject, label, chapters: [...chapters.values()], count: [...chapters.values()].reduce((sum, chapter) => sum + chapter.count, 0) }
-  })
-}
-
 export default function MnemonicLibrary({ data, query, subject, chapter, favorites, onFavorite, onClear, onNavigate, error, onRetry }) {
   const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [matchMode, setMatchMode] = useState('auto')
   const [limit, setLimit] = useState(PAGE_SIZE)
   const deferredQuery = useDeferredValue(query)
   const indexed = useMemo(() => indexMnemonics(data?.items || []), [data])
-  const directory = useMemo(() => makeDirectory(data?.items || []), [data])
+  const directory = useMemo(() => mnemonicDirectory(data?.items || []), [data])
   const options = useMemo(() => ({ query: deferredQuery, subject, chapter, favorites, favoritesOnly }), [deferredQuery, subject, chapter, favorites, favoritesOnly])
   const titleResults = useMemo(() => deferredQuery.trim() ? searchMnemonics(indexed, { ...options, matchMode: 'title' }) : [], [indexed, options, deferredQuery])
   const knowledgeResults = useMemo(() => deferredQuery.trim() ? searchMnemonics(indexed, { ...options, matchMode: 'knowledge' }) : [], [indexed, options, deferredQuery])

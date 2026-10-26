@@ -1,22 +1,24 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { blockText, highlightParts, indexMnemonics, normalizeMnemonicText, previewBlocks, searchMnemonics } from '../src/mnemonic-search.js'
+import { blockText, highlightParts, indexMnemonics, mnemonicDirectory, normalizeMnemonicText, previewBlocks, searchMnemonics } from '../src/mnemonic-search.js'
 
 const data = JSON.parse(readFileSync(new URL('../src/data/mnemonics-data.json', import.meta.url)))
 const indexed = indexMnemonics(data.items)
 
 test('all source entries are retained, explicitly consolidated, or explicitly excluded', () => {
   const expected = { med: 1011, surgery: 425, pathology: 326, physiology: 449, biochemistry: 346 }
-  assert.equal(data.items.length, 2363)
+  const lectureIds = new Set(data.curation.lectureAdditions)
+  assert.equal(lectureIds.size, 14)
+  assert.equal(data.items.length, 2256)
   const covered = [...data.items.map(item => item.id), ...Object.keys(data.curation.merged), ...Object.keys(data.curation.excluded)]
-  assert.equal(covered.length, 2557)
-  assert.equal(new Set(covered).size, 2557)
+  assert.equal(covered.length, 2557 + lectureIds.size)
+  assert.equal(new Set(covered).size, covered.length)
   for (const [subject, count] of Object.entries(expected)) {
     const source = data.sources.find(source => source.subject === subject)
     assert.equal(source.sourceCount, count)
     assert.equal(data.items.filter(item => item.locations.some(location => location.subject === subject)).length, source.count)
-    assert.equal(covered.filter(id => id.startsWith(subject + '-')).length, count)
+    assert.equal(covered.filter(id => id.startsWith(subject + '-') && !lectureIds.has(id)).length, count)
   }
   for (const item of data.items) {
     assert.ok(item.title.trim())
@@ -112,4 +114,85 @@ test('highlights preserve text and span subscript, punctuation and multiple term
     assert.equal(parts.map(part => part.text).join(''), text)
     assert.ok(parts.some(part => part.match))
   }
+})
+
+
+const review = JSON.parse(readFileSync(new URL('../src/data/med-mnemonic-review.json', import.meta.url)))
+const entry = id => data.items.find(item => item.id === id || item.alternateIds?.includes(id))
+const content = id => entry(id).blocks.map(blockText).join(' ')
+
+test('internal medicine review covers the entire lecture and existing classified inventory', () => {
+  assert.deepEqual(review.pageCoverage.map(page => page.page), Array.from({ length: 482 }, (_, index) => index + 1))
+  assert.equal(review.reviewedIds.length, 908)
+  const retained = new Set(data.items.flatMap(item => [item.id, ...(item.alternateIds || [])]))
+  for (const id of review.reviewedIds) assert.ok(retained.has(id), id)
+  assert.equal(review.additions.filter(item => !item.splitFrom).length, 11)
+  for (const item of [...review.additions, ...review.updates]) {
+    assert.ok(item.sourcePages.length, item.id)
+    assert.ok(item.sourcePages.every(page => page >= 1 && page <= 482), item.id)
+    assert.ok(item.evidence, item.id)
+  }
+})
+
+test('missing lecture mnemonics are searchable with their specific medical scope', () => {
+  for (const [query, expected] of [['Selina', /利福平.*C菌群/], ['小艾米', /血小板生成素.*艾曲泊帕.*罗米司亭/], ['赶紧', /肝静脉血栓/], ['洗衣机脱水', /二尖瓣狭窄/], ['麻辣烫伤胃', /Hp/]]) {
+    const results = searchMnemonics(indexed, { subject: 'med', query, matchMode: 'title' })
+    assert.equal(results.length, 1, query)
+    assert.match(results[0].scope + content(results[0].id), expected)
+  }
+  assert.match(content('med-304'), /内皮.*系膜.*GFR/)
+  assert.match(entry('med-304').title, /一筒和四筒/)
+})
+
+test('review preserves core numbers and contextual conditions instead of dropping decoding rows', () => {
+  assert.match(content('med-13'), /80.*50.*30/)
+  assert.match(content('med-10'), /3.*2/)
+  assert.match(content('med-140'), /0.5.*1 L/)
+  assert.match(content('med-1100'), /2.5.*5.*30.*1.6.*9.*50/)
+  assert.match(content('med-1163'), /静脉.*回心血量.*肥厚/)
+  assert.match(content('med-1202'), /中毒/)
+  assert.match(content('med-401'), /来那度胺/)
+  assert.match(content('med-260'), /器官功能障碍/)
+  assert.match(content('med-1028'), /Kussmaul征不是单纯压塞/)
+})
+
+test('same-meaning copies retain cross-chapter access and old bookmarks', () => {
+  for (const [oldId, target] of [['med-997', 'med-1163'], ['med-1050', 'med-254'], ['med-126', 'surgery-21'], ['med-922', 'med-314'], ['physiology-253', 'physiology-66']]) {
+    assert.equal(entry(oldId).id, target)
+    assert.equal(searchMnemonics(indexed, { favoritesOnly: true, favorites: [oldId] })[0].id, target)
+  }
+  assert.ok(entry('surgery-21').locations.some(location => location.subject === 'med' && location.chapter === '呼吸系统'))
+  assert.match(content('surgery-21'), /肺上沟瘤.*臂丛/)
+  assert.ok(entry('physiology-200').locations.some(location => location.subject === 'med' && location.chapter === '内分泌系统'))
+  assert.equal(searchMnemonics(indexed, { query: '静止', subject: 'med', matchMode: 'title' }).length, 1)
+})
+
+test('different meanings are separated and blood immunophenotypes have focused cards', () => {
+  const twoPlusThree = searchMnemonics(indexed, { subject: 'med', query: '2+3=5', matchMode: 'title' })
+  assert.ok(twoPlusThree.some(item => /CLL/.test(item.title)))
+  assert.ok(twoPlusThree.some(item => /间变性/.test(item.scope)))
+  assert.ok(!content('med-476').includes('MM—'))
+  assert.match(content('med-1311'), /CD38.*CD138/)
+  assert.match(content('med-1313'), /CD23.*CD5/)
+  const pang = searchMnemonics(indexed, { query: '胖胖不灵活', matchMode: 'title' })
+  assert.equal(pang.length, 2)
+  assert.ok(pang.some(item => /心肌病/.test(item.scope)))
+  assert.ok(pang.some(item => item.subject === 'physiology'))
+})
+
+
+test('directory includes every secondary chapter without inflating the subject or chapter count', () => {
+  const directory = mnemonicDirectory(data.items)
+  for (const group of directory) {
+    const classified = data.items.filter(item => item.locations.some(location => location.subject === group.subject))
+    assert.equal(group.count, classified.length)
+    for (const chapter of group.chapters) {
+      const matching = classified.filter(item => item.locations.some(location => location.subject === group.subject && location.chapter === chapter.name))
+      assert.equal(chapter.count, matching.length)
+      assert.deepEqual([...chapter.sections].sort(), [...new Set(matching.flatMap(item => item.locations.filter(location => location.subject === group.subject && location.chapter === chapter.name).map(location => location.section).filter(Boolean)))].sort())
+    }
+  }
+  const med = directory.find(group => group.subject === 'med')
+  assert.ok(med.chapters.find(chapter => chapter.name === '呼吸系统').sections.has('串·热型'))
+  assert.ok(med.chapters.find(chapter => chapter.name === '循环系统').sections.has('高血压'))
 })

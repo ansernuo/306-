@@ -72,3 +72,23 @@ export function highlightParts(text, query) {
   })
   return parts
 }
+
+
+export function mnemonicDirectory(items) {
+  return Object.entries(MNEMONIC_SUBJECTS).map(([subject, label]) => {
+    const chapters = new Map()
+    const subjectIds = new Set()
+    for (const item of items) {
+      const locations = (item.locations || [item]).filter(location => location.subject === subject)
+      if (!locations.length) continue
+      subjectIds.add(item.id)
+      for (const location of locations) {
+        const chapter = chapters.get(location.chapter) || { name: location.chapter, ids: new Set(), sections: new Set() }
+        chapter.ids.add(item.id)
+        if (location.section) chapter.sections.add(location.section)
+        chapters.set(location.chapter, chapter)
+      }
+    }
+    return { subject, label, count: subjectIds.size, chapters: [...chapters.values()].map(({ name, ids, sections }) => ({ name, count: ids.size, sections })) }
+  })
+}
