@@ -1,6 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
+import { execFileSync } from 'node:child_process'
 import { blockText, highlightParts, indexMnemonics, mnemonicDirectory, normalizeMnemonicText, previewBlocks, searchMnemonics } from '../src/mnemonic-search.js'
 
 const data = JSON.parse(readFileSync(new URL('../src/data/mnemonics-data.json', import.meta.url)))
@@ -9,8 +10,8 @@ const indexed = indexMnemonics(data.items)
 test('all source entries are retained, explicitly consolidated, or explicitly excluded', () => {
   const expected = { med: 1011, surgery: 425, pathology: 326, physiology: 449, biochemistry: 346 }
   const lectureIds = new Set(data.curation.lectureAdditions)
-  assert.equal(lectureIds.size, 14)
-  assert.equal(data.items.length, 2256)
+  assert.equal(lectureIds.size, 25)
+  assert.equal(data.items.length, 2234)
   const covered = [...data.items.map(item => item.id), ...Object.keys(data.curation.merged), ...Object.keys(data.curation.excluded)]
   assert.equal(covered.length, 2557 + lectureIds.size)
   assert.equal(new Set(covered).size, covered.length)
@@ -204,4 +205,73 @@ test('numeric mnemonic search preserves arithmetic operators and number boundari
   assert.deepEqual(searchMnemonics(indexed, { subject: 'med', query: '4×4＝16' }).map(item => item.id), ['med-1307'])
   assert.equal(searchMnemonics(indexed, { subject: 'med', query: '2+3=5', matchMode: 'title' }).length, 3)
   assert.deepEqual(searchMnemonics(indexed, { query: '甲生儿' }).map(item => item.id), ['physiology-115', 'physiology-435'])
+})
+
+const surgeryReview = JSON.parse(readFileSync(new URL('../src/data/surgery-mnemonic-review.json', import.meta.url)))
+
+test('surgery review covers the current lecture, annotated source and original classified inventory', () => {
+  assert.equal(surgeryReview.source.pageCount, 232)
+  assert.deepEqual(surgeryReview.pageCoverage.map(page => page.page), Array.from({ length: 232 }, (_, index) => index + 1))
+  assert.deepEqual(surgeryReview.legacyPageCoverage.map(page => page.page), Array.from({ length: 286 }, (_, index) => index + 1))
+  assert.equal(new Set(surgeryReview.reviewedIds).size, 425)
+  for (const id of surgeryReview.reviewedIds) assert.ok(entry(id), id)
+  for (const item of [...surgeryReview.updates, ...surgeryReview.additions]) {
+    assert.ok(item.sourcePages.length, item.id)
+    assert.ok(item.sourcePages.every(page => page >= 1 && page <= 232), item.id)
+    assert.ok(item.legacySourcePages.length && item.evidence, item.id)
+  }
+  assert.deepEqual(data.curation.reviewedSubjects, {
+    med: { pageCount: 482, reviewedCount: 908 },
+    surgery: { pageCount: 232, reviewedCount: 425 },
+  })
+})
+
+test('surgery corrections retain decimals, exact anatomy and conditional treatment', () => {
+  assert.match(content('surgery-14'), /0\.1.*0\.5.*0\.5.*2/)
+  assert.match(content('surgery-180'), /0\.6.*2cm/)
+  assert.match(content('surgery-336'), /13\.4.*KCl 1 g/)
+  assert.match(content('surgery-316'), /腓骨干下1\/3.*第2、3跖骨.*肋骨/)
+  assert.match(content('surgery-217'), /1.*2.*3/)
+  assert.match(content('surgery-228'), /Bechterew.*颈椎/)
+  assert.match(content('surgery-346'), /生发层.*乳头层/)
+  assert.match(content('surgery-348'), /第二个24小时.*晶、胶体量减半.*2000 mL不减半/)
+  assert.match(content('surgery-359'), /心肌炎/)
+  assert.match(content('surgery-294'), /重度Ⅱ.*Ⅲ.*非老年Ⅳ.*内固定.*老年Ⅳ.*置换/)
+  assert.match(content('surgery-144'), /Ⅲa.*右肝管.*Ⅲb.*左肝管.*Ⅳ.*左右肝管/)
+  assert.match(content('surgery-131'), /0\.6.*5mmol.*15mmol.*pH≤2.*10倍/)
+  assert.match(content('biochemistry-88'), /芳香族氨基酸.*假性神经递质.*比值＜1.*肠外营养/)
+})
+
+test('lecture import distinguishes leading decimal thresholds from numbered list markers', () => {
+  const script = `import json,sys
+sys.path.insert(0,'scripts')
+from curate_mnemonics import polish
+print(json.dumps([polish(s) for s in ['0.1～0.5 mmol/L','0.6–2cm','13.4 mmol K⁺','1.8','1. 低钾血症','1、低钾血症']],ensure_ascii=False))`
+  const result = execFileSync('python3', ['-c', script], { cwd: new URL('../', import.meta.url), encoding: 'utf8' })
+  assert.deepEqual(JSON.parse(result), ['0.1～0.5 mmol/L', '0.6–2cm', '13.4 mmol K⁺', '1.8', '低钾血症', '低钾血症'])
+})
+
+test('missing surgical mnemonics are concise, searchable and independent of adjacent extracts', () => {
+  for (const [query, expected] of [['Beyond', /Luminal B/], ['痛吐胀停', /梗阻/], ['咏胃周淋巴结', /16组/], ['么儿要救我', /膝胸位12点.*膝胸位1、9、5点/], ['前列腺肥大', /肛裂.*肛乳头肥大/], ['蓄水池', /黄疸/], ['di—die', /肾蒂损伤/]]) {
+    const results = searchMnemonics(indexed, { subject: 'surgery', query, matchMode: 'title' })
+    assert.equal(results.length, 1, query)
+    assert.match(results[0].scope + content(results[0].id), expected)
+  }
+  assert.equal(entry('surgery-376').id, 'surgery-376')
+  assert.match(content('surgery-376'), /术前1天.*2～3天/)
+  assert.match(content('surgery-85'), /切缘/)
+  assert.notEqual(entry('surgery-376').id, entry('surgery-85').id)
+})
+
+test('surgical consolidations preserve old favorites while removing incorrect classifications', () => {
+  for (const oldId of ['surgery-57', 'surgery-121', 'surgery-191', 'surgery-281', 'surgery-315']) {
+    const result = searchMnemonics(indexed, { favoritesOnly: true, favorites: [oldId] })
+    assert.equal(result.length, 1, oldId)
+    assert.equal(result[0].id, entry(oldId).id)
+  }
+  assert.equal(entry('surgery-121').id, 'med-244')
+  assert.match(content('surgery-121'), /态.*奥曲肽/)
+  assert.ok(!entry('surgery-168').locations.some(location => location.subject === 'surgery' && location.chapter === '周围血管'))
+  assert.equal(entry('surgery-168').id, 'med-213')
+  assert.notEqual(entry('surgery-183').id, entry('med-225').id)
 })

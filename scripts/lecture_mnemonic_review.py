@@ -4,10 +4,15 @@ from pathlib import Path
 
 
 def apply_lecture_review(data, make_block):
-    path = Path(__file__).resolve().parents[1] / 'src/data/med-mnemonic-review.json'
-    if not path.exists():
-        return data
-    review = json.loads(path.read_text())
+    root = Path(__file__).resolve().parents[1] / 'src/data'
+    for subject in ('med', 'surgery'):
+        path = root / f'{subject}-mnemonic-review.json'
+        if path.exists():
+            data = apply_review(data, make_block, json.loads(path.read_text()), subject)
+    return data
+
+
+def apply_review(data, make_block, review, subject):
     records = {item['id']: item for item in data['items']}
     for addition in review['additions']:
         if addition['id'] in records:
@@ -51,7 +56,7 @@ def apply_lecture_review(data, make_block):
     for change in review['merges']:
         duplicate, canonical = change['id'], resolve(change['canonical'])
         source, target = records[duplicate], records[canonical]
-        for location in source['locations']:
+        for location in source['locations'] if change.get('transferLocations', True) else []:
             if location not in target['locations']:
                 target['locations'].append(location)
         aliases = change.get('aliases', [])
@@ -66,8 +71,10 @@ def apply_lecture_review(data, make_block):
             item.pop('alternateIds')
     data['items'] = [item for key, item in records.items() if key not in merged]
     data['curation']['merged'] = merged
-    data['curation']['lectureAdditions'] = [item['id'] for item in review['additions']]
-    data['curation']['reviewedSubject'] = 'med'
-    data['curation']['reviewedPages'] = review['source']['pageCount']
-    data['version'] = 3
+    data['curation']['lectureAdditions'] = [*data['curation'].get('lectureAdditions', []), *[item['id'] for item in review['additions']]]
+    data['curation'].setdefault('reviewedSubjects', {})[subject] = {'pageCount': review['source']['pageCount'], 'reviewedCount': len(review['reviewedIds'])}
+    if subject == 'med':
+        data['curation']['reviewedSubject'] = subject
+        data['curation']['reviewedPages'] = review['source']['pageCount']
+    data['version'] = 3 if subject == 'med' else 4
     return data

@@ -50,8 +50,8 @@ for (const [subject,groups,review,count,stems] of [
 }
 test('orthopedic and other surgery reviews coexist across all surgery sources',()=>{
  const result=applyReviewedEvidence({groups:surgery},reviewedOrtho,reviewedSurgery)
- assert.equal(result.groups.length,486)
- assert.equal(result.groups.filter(g=>g.lectureEvidence?.image?.startsWith('site-assets/')).length,486)
+ assert.equal(result.groups.length,485)
+ assert.equal(result.groups.filter(g=>g.lectureEvidence?.image?.startsWith('site-assets/')).length,485)
  assert.ok(result.groups.find(g=>g.id==='limb-fracture-dislocation-ankle-ligaments')?.lectureEvidence)
  const caseGroup=result.groups.find(g=>g.id==='surgery-teacher-02-02-03')
  assert.ok(caseGroup.lectureEvidencePages.some(p=>p.sourceSubject==='med'&&p.lectureNumber===13))

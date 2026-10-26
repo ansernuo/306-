@@ -55,7 +55,7 @@ def polish(text):
             continue
         if re.fullmatch(r'(?:串联|连接|尾|用|提示)?字|不是物质|不是第三种药|不另造一种抑制剂|不另对应一个疾病|不额外对应药名', clause):
             continue
-        clause = re.sub(r'^(?:\d+[.、]|[①②③④⑤⑥⑦⑧⑨⑩])\s*', '', clause)
+        clause = re.sub(r'^(?:\d+(?:\.(?!\d)|、)|[①②③④⑤⑥⑦⑧⑨⑩])\s*', '', clause)
         kept.append(clause)
     return '；'.join(kept)
 
@@ -97,7 +97,7 @@ def curate_records(data):
         # A later paragraph often belongs to the next mnemonic or a chapter recap.
         # Only the first source paragraph may supply this entry's clinical scope.
         for context in contexts[:1]:
-            context = re.sub(r'^\s*(?:[一二三四五六七八九十]+、|\d+[.、]\s*)', '', context)
+            context = re.sub(r'^\s*(?:[一二三四五六七八九十]+、|\d+(?:\.(?!\d)|、)\s*)', '', context)
             context_key = norm(context)
             other = [title for key, title in titles.items() if key != own and len(key) >= 4 and key in context_key and key not in own]
             label = re.split(r'[:：]', context, maxsplit=1)[0]
