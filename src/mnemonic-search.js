@@ -6,10 +6,23 @@ export function normalizeMnemonicText(text = '') {
 }
 
 export const blockText = (block) => block.parts.map(part => part.text).join('').trim()
+const mathText = text => text.normalize('NFKC').toLowerCase().replace(/×/g, '*').replace(/÷/g, '/').replace(/\s+/g, '')
+const mathTerms = query => [...query.normalize('NFKC').matchAll(/\d+(?:\.\d+)?(?:\s*[+×*÷/=]\s*\d+(?:\.\d+)?)+/g)].map(match => mathText(match[0]))
+const hasMathTerm = (text, term) => {
+  let at = text.indexOf(term)
+  while (at >= 0) {
+    if (!/[\d.]/.test(text[at - 1] || '') && !/[\d.]/.test(text[at + term.length] || '')) return true
+    at = text.indexOf(term, at + 1)
+  }
+  return false
+}
+
 export const queryWords = (query) => query.trim().split(/\s+/u).map(normalizeMnemonicText).filter(Boolean)
 
 export function indexMnemonics(items) {
   return items.map(item => ({ ...item,
+    mathTitle: mathText([item.title, ...(item.aliases || [])].join('；')),
+    mathBody: mathText([item.scope || '', ...item.blocks.map(blockText)].join('；')),
     searchTitle: normalizeMnemonicText([item.title, ...(item.aliases || [])].join(' ')),
     searchContext: normalizeMnemonicText((item.locations || [item]).flatMap(location => [MNEMONIC_SUBJECTS[location.subject], location.chapter, location.section]).join(' ')),
     searchBody: normalizeMnemonicText([item.scope || '', ...item.blocks.map(blockText)].join(' ')),
@@ -18,6 +31,7 @@ export function indexMnemonics(items) {
 
 export function searchMnemonics(items, { query = '', subject = 'all', chapter = '', favoritesOnly = false, favorites = [], matchMode = 'auto' } = {}) {
   const words = queryWords(query)
+  const formulas = mathTerms(query)
   const favoriteIds = new Set(favorites)
   const matches = []
   for (const item of items) {
@@ -26,6 +40,10 @@ export function searchMnemonics(items, { query = '', subject = 'all', chapter = 
     if (favoritesOnly && !favoriteIds.has(item.id) && !(item.alternateIds || []).some(id => favoriteIds.has(id))) continue
     const combined = matchMode === 'title' ? item.searchTitle : matchMode === 'knowledge' ? item.searchContext + item.searchBody : item.searchTitle + item.searchContext + item.searchBody
     if (!words.every(word => combined.includes(word))) continue
+    if (formulas.length) {
+      const math = matchMode === 'title' ? item.mathTitle : matchMode === 'knowledge' ? item.mathBody : item.mathTitle + ' ' + item.mathBody
+      if (!formulas.every(term => hasMathTerm(math, term))) continue
+    }
     const score = words.reduce((total, word) => total + (item.searchTitle === word ? 100 : item.searchTitle.includes(word) ? 40 : item.searchContext.includes(word) ? 10 : 1), 0)
     const located = (subject !== 'all' || chapter) ? { ...item, ...locations[0] } : item
     matches.push({ item: located, score, titleMatch: words.length > 0 && words.every(word => item.searchTitle.includes(word)) })

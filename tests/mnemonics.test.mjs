@@ -196,3 +196,12 @@ test('directory includes every secondary chapter without inflating the subject o
   assert.ok(med.chapters.find(chapter => chapter.name === '呼吸系统').sections.has('串·热型'))
   assert.ok(med.chapters.find(chapter => chapter.name === '循环系统').sections.has('高血压'))
 })
+
+
+test('numeric mnemonic search preserves arithmetic operators and number boundaries', () => {
+  assert.deepEqual(searchMnemonics(indexed, { subject: 'med', query: '5÷2' }).map(item => item.id), ['med-1100'])
+  assert.deepEqual(searchMnemonics(indexed, { subject: 'med', query: '5 / 2' }).map(item => item.id), ['med-1100'])
+  assert.deepEqual(searchMnemonics(indexed, { subject: 'med', query: '4×4＝16' }).map(item => item.id), ['med-1307'])
+  assert.equal(searchMnemonics(indexed, { subject: 'med', query: '2+3=5', matchMode: 'title' }).length, 3)
+  assert.deepEqual(searchMnemonics(indexed, { query: '甲生儿' }).map(item => item.id), ['physiology-115', 'physiology-435'])
+})
