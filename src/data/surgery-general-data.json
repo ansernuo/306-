@@ -657,49 +657,49 @@
           "key": "A",
           "label": "头高脚低斜坡卧位",
           "sourceText": "A. 头高脚低斜坡卧位",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "C"
         },
         {
           "key": "B",
-          "label": "半坐或卧位，或头高脚低位",
-          "sourceText": "B. 半坐或卧位，或头高脚低位",
-          "ocrScore": 1.0,
+          "label": "半坐卧位，或头高脚低位",
+          "sourceText": "B. 半坐卧位，或头高脚低位",
+          "ocrScore": 1,
           "sourceKey": "F"
         },
         {
           "key": "C",
           "label": "高半坐位",
           "sourceText": "C. 高半坐位",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "D"
         },
         {
           "key": "D",
           "label": "低半坐位",
           "sourceText": "D. 低半坐位",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "E"
         },
         {
           "key": "E",
           "label": "头和躯干抬高20～30度、下肢抬高15～20度",
           "sourceText": "E. 头和躯干抬高20～30度、下肢抬高15～20度",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "G"
         },
         {
           "key": "F",
           "label": "去枕平卧或头低卧位",
           "sourceText": "F. 去枕平卧或头低卧位",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "B"
         },
         {
           "key": "G",
           "label": "平卧、头转向一侧",
           "sourceText": "G. 平卧、头转向一侧",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "A"
         }
       ],
@@ -711,7 +711,7 @@
           ],
           "answerMode": "单选",
           "sourceText": "全麻未清醒 G",
-          "ocrScore": 1.0
+          "ocrScore": 1
         },
         {
           "text": "腰麻",
@@ -720,68 +720,55 @@
           ],
           "answerMode": "单选",
           "sourceText": "腰麻 F",
-          "ocrScore": 1.0
+          "ocrScore": 1
         },
         {
-          "text": "全麻清醒后、腰麻6小时后",
-          "answer": [
-            "A",
-            "C",
-            "D",
-            "B",
-            "E"
-          ],
-          "answerMode": "多选",
-          "sourceText": "全麻清醒后、腰麻6小时后 A、C、D、B、E",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "颅脑手术",
+          "text": "全麻清醒后或腰麻6小时后：颅脑手术",
           "answer": [
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "颅脑手术 A",
-          "ocrScore": 1.0
+          "sourceText": "全麻清醒后或腰麻6小时后：颅脑手术 A",
+          "ocrScore": 1
         },
         {
-          "text": "颈、胸手术（食管癌等）",
+          "text": "全麻清醒后或腰麻6小时后：颈、胸手术（食管癌等）",
           "answer": [
             "C"
           ],
           "answerMode": "单选",
-          "sourceText": "颈、胸手术（食管癌等） C",
-          "ocrScore": 1.0
+          "sourceText": "全麻清醒后或腰麻6小时后：颈、胸手术（食管癌等） C",
+          "ocrScore": 1
         },
         {
-          "text": "腹部手术（胃大部切除术等）",
+          "text": "全麻清醒后或腰麻6小时后：腹部手术（胃大部切除术等）",
           "answer": [
             "D"
           ],
           "answerMode": "单选",
-          "sourceText": "腹部手术（胃大部切除术等） D",
-          "ocrScore": 1.0
+          "sourceText": "全麻清醒后或腰麻6小时后：腹部手术（胃大部切除术等） D",
+          "ocrScore": 1
         },
         {
-          "text": "腹腔内有污染",
+          "text": "全麻清醒后或腰麻6小时后：腹腔内有污染",
           "answer": [
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "腹腔内有污染 B",
-          "ocrScore": 1.0
+          "sourceText": "全麻清醒后或腰麻6小时后：腹腔内有污染 B",
+          "ocrScore": 1
         },
         {
-          "text": "休克",
+          "text": "全麻清醒后或腰麻6小时后：休克",
           "answer": [
             "E"
           ],
           "answerMode": "单选",
-          "sourceText": "休克 E",
-          "ocrScore": 1.0
+          "sourceText": "全麻清醒后或腰麻6小时后：休克 E",
+          "ocrScore": 1
         }
       ],
-      "sourceText": "围术期·术后体位；A. 头高脚低斜坡卧位；B. 半坐或卧位，或头高脚低位；C. 高半坐位；D. 低半坐位；E. 头和躯干抬高20～30度、下肢抬高15～20度；F. 去枕平卧或头低卧位；G. 平卧、头转向一侧；全麻未清醒 G；腰麻 F；全麻清醒后、腰麻6小时后 A、C、D、B、E；颅脑手术 A；颈、胸手术（食管癌等） C；腹部手术（胃大部切除术等） D；腹腔内有污染 B；休克 E",
+      "sourceText": "围术期·术后体位；A. 头高脚低斜坡卧位；B. 半坐卧位，或头高脚低位；C. 高半坐位；D. 低半坐位；E. 头和躯干抬高20～30度、下肢抬高15～20度；F. 去枕平卧或头低卧位；G. 平卧、头转向一侧；全麻未清醒 G；腰麻 F；全麻清醒后或腰麻6小时后：颅脑手术 A；全麻清醒后或腰麻6小时后：颈、胸手术（食管癌等） C；全麻清醒后或腰麻6小时后：腹部手术（胃大部切除术等） D；全麻清醒后或腰麻6小时后：腹腔内有污染 B；全麻清醒后或腰麻6小时后：休克 E",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -806,7 +793,8 @@
         "E",
         "F",
         "G"
-      ]
+      ],
+      "answerRevision": "postoperative-position-specific-20261027"
     },
     {
       "id": "surgery-general-p05",
@@ -965,24 +953,21 @@
       "options": [],
       "stems": [
         {
-          "text": "术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大",
+          "text": "术后____天多考虑吸收热、输血输液等；术后____天感染可能大",
           "answer": [
-            "1",
-            "4",
-            "2",
-            "7"
+            "1.4",
+            "2.7"
           ],
           "answerMode": "填空",
-          "sourceText": "术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大 1、4、2、7",
-          "ocrScore": 1.0,
+          "sourceText": "术后____天多考虑吸收热、输血输液等；术后____天感染可能大 1.4、2.7",
+          "ocrScore": 1,
           "blankLabels": [
-            "吸收热起始",
-            "吸收热结束",
-            "感染起始",
-            "感染结束"
+            "吸收热时间（天）",
+            "感染时间（天）"
           ],
-          "answerDisplay": "1～4天；2～7天",
-          "inputMode": "text"
+          "answerDisplay": "1.4天；2.7天",
+          "inputMode": "text",
+          "reviewMethod": "已视觉核对第35讲第2页原文为1.4天及2.7天；保留小数，不拆为时间范围"
         },
         {
           "text": "术后肺部并发症和死亡率仅次于____系统，居第____位",
@@ -992,13 +977,27 @@
           ],
           "answerMode": "填空",
           "sourceText": "术后肺部并发症和死亡率仅次于____系统，居第____位 心血管、2",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "系统",
             "位次"
           ],
           "answerDisplay": "心血管系统，第2位",
-          "inputMode": "text"
+          "inputMode": "text",
+          "acceptedAnswers": [
+            [
+              "心血管系统",
+              "2"
+            ],
+            [
+              "心血管",
+              "二"
+            ],
+            [
+              "心血管系统",
+              "二"
+            ]
+          ]
         },
         {
           "text": "导尿量＞____ml时留置尿管____～____天",
@@ -1009,7 +1008,7 @@
           ],
           "answerMode": "填空",
           "sourceText": "导尿量＞____ml时留置尿管____～____天 500、1、2",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "导尿量",
             "起始天数",
@@ -1026,7 +1025,7 @@
           ],
           "answerMode": "填空",
           "sourceText": "骶前神经损伤或前列腺肥大时留置尿管____～____天 4、5",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "起始天数",
             "结束天数"
@@ -1041,7 +1040,7 @@
           ],
           "answerMode": "填空",
           "sourceText": "腹腔手术后____小时内出现休克，应考虑内出血 24",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "小时"
           ],
@@ -1055,7 +1054,7 @@
           ],
           "answerMode": "填空",
           "sourceText": "胸腔手术引流量持续≥____ml/h，应考虑内出血 100",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "ml/h"
           ],
@@ -1072,7 +1071,7 @@
           ],
           "answerMode": "填空",
           "sourceText": "胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天 2、3、2、3",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "右半结肠",
             "左半结肠",
@@ -1083,7 +1082,8 @@
           "inputMode": "text"
         }
       ],
-      "sourceText": "围术期·术后并发症数字挖空；术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大 1、4、2、7；术后肺部并发症和死亡率仅次于____系统，居第____位 心血管、2；导尿量＞____ml时留置尿管____～____天 500、1、2；骶前神经损伤或前列腺肥大时留置尿管____～____天 4、5；腹腔手术后____小时内出现休克，应考虑内出血 24；胸腔手术引流量持续≥____ml/h，应考虑内出血 100；胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天 2、3、2、3",
+      "sourceText": "围术期·术后并发症数字挖空；术后____天多考虑吸收热、输血输液等；术后____天感染可能大 1.4、2.7；术后肺部并发症和死亡率仅次于____系统，居第____位 心血管、2；导尿量＞____ml时留置尿管____～____天 500、1、2；骶前神经损伤或前列腺肥大时留置尿管____～____天 4、5；腹腔手术后____小时内出现休克，应考虑内出血 24；胸腔手术引流量持续≥____ml/h，应考虑内出血 100；胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天 2、3、2、3",
+      "answerRevision": "postop-fever-decimals-20261027",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -2939,28 +2939,28 @@
           "key": "A",
           "label": "普鲁卡因",
           "sourceText": "A. 普鲁卡因",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "A"
         },
         {
           "key": "B",
           "label": "利多卡因",
           "sourceText": "B. 利多卡因",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "C"
         },
         {
           "key": "C",
           "label": "罗哌卡因、布比卡因",
           "sourceText": "C. 罗哌卡因、布比卡因",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "D"
         },
         {
           "key": "D",
           "label": "丁卡因",
           "sourceText": "D. 丁卡因",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "sourceKey": "B"
         }
       ],
@@ -2975,11 +2975,11 @@
           ],
           "answerMode": "排序",
           "sourceText": "pKa：由大到小排序 A、D、C、B",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "answerDisplay": "A＞D＞C＞B"
         },
         {
-          "text": "脂溶性：由大到小排序",
+          "text": "脂溶性：由大到小排序（讲义同档者先后不限）",
           "answer": [
             "D",
             "C",
@@ -2987,17 +2987,23 @@
             "A"
           ],
           "answerMode": "排序",
-          "sourceText": "脂溶性：由大到小排序 D、C、B、A",
-          "ocrScore": 1.0,
+          "sourceText": "脂溶性：由大到小排序（讲义同档者先后不限） D=C>B>A",
+          "ocrScore": 1,
           "acceptedAnswers": [
             [
               "C",
               "D",
               "B",
               "A"
+            ],
+            [
+              "D",
+              "C",
+              "B",
+              "A"
             ]
           ],
-          "answerDisplay": "D＝C＞B＞A"
+          "answerDisplay": "D=C>B>A"
         },
         {
           "text": "血浆蛋白结合率：由高到低排序",
@@ -3009,11 +3015,11 @@
           ],
           "answerMode": "排序",
           "sourceText": "血浆蛋白结合率：由高到低排序 C、D、B、A",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "answerDisplay": "C＞D＞B＞A"
         },
         {
-          "text": "相对效能：由强到弱排序",
+          "text": "相对效能：由强到弱排序（讲义同档者先后不限）",
           "answer": [
             "D",
             "C",
@@ -3021,20 +3027,26 @@
             "A"
           ],
           "answerMode": "排序",
-          "sourceText": "相对效能：由强到弱排序 D、C、B、A",
-          "ocrScore": 1.0,
+          "sourceText": "相对效能：由强到弱排序（讲义同档者先后不限） D=C>B>A",
+          "ocrScore": 1,
           "acceptedAnswers": [
             [
               "C",
               "D",
               "B",
               "A"
+            ],
+            [
+              "D",
+              "C",
+              "B",
+              "A"
             ]
           ],
-          "answerDisplay": "D＝C＞B＞A"
+          "answerDisplay": "D=C>B>A"
         },
         {
-          "text": "弥散性：由强到弱排序",
+          "text": "弥散性：由强到弱排序（讲义同档者先后不限）",
           "answer": [
             "B",
             "C",
@@ -3042,20 +3054,26 @@
             "D"
           ],
           "answerMode": "排序",
-          "sourceText": "弥散性：由强到弱排序 B、C、A、D",
-          "ocrScore": 1.0,
+          "sourceText": "弥散性：由强到弱排序（讲义同档者先后不限） B>C>A=D",
+          "ocrScore": 1,
           "acceptedAnswers": [
             [
               "B",
               "C",
               "D",
               "A"
+            ],
+            [
+              "B",
+              "C",
+              "A",
+              "D"
             ]
           ],
-          "answerDisplay": "B＞C＞A＝D"
+          "answerDisplay": "B>C>A=D"
         },
         {
-          "text": "神经阻滞起效时间：由快到慢排序",
+          "text": "神经阻滞起效时间：由快到慢排序（讲义同档者先后不限）",
           "answer": [
             "B",
             "C",
@@ -3063,9 +3081,23 @@
             "A"
           ],
           "answerMode": "排序",
-          "sourceText": "神经阻滞起效时间：由快到慢排序 B、C、D、A",
-          "ocrScore": 1.0,
-          "answerDisplay": "B＞C＞D＞A"
+          "sourceText": "神经阻滞起效时间：由快到慢排序（讲义同档者先后不限） B>C>A=D",
+          "ocrScore": 1,
+          "answerDisplay": "B>C>A=D",
+          "acceptedAnswers": [
+            [
+              "B",
+              "C",
+              "A",
+              "D"
+            ],
+            [
+              "B",
+              "C",
+              "D",
+              "A"
+            ]
+          ]
         },
         {
           "text": "作用时间：由长到短排序",
@@ -3077,11 +3109,11 @@
           ],
           "answerMode": "排序",
           "sourceText": "作用时间：由长到短排序 C、D、B、A",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "answerDisplay": "C＞D＞B＞A"
         }
       ],
-      "sourceText": "麻醉·局麻药作用排序；A. 普鲁卡因；B. 利多卡因；C. 罗哌卡因、布比卡因；D. 丁卡因；pKa：由大到小排序 A、D、C、B；脂溶性：由大到小排序 D、C、B、A；血浆蛋白结合率：由高到低排序 C、D、B、A；相对效能：由强到弱排序 D、C、B、A；弥散性：由强到弱排序 B、C、A、D；神经阻滞起效时间：由快到慢排序 B、C、D、A；作用时间：由长到短排序 C、D、B、A",
+      "sourceText": "麻醉·局麻药作用排序；A. 普鲁卡因；B. 利多卡因；C. 罗哌卡因、布比卡因；D. 丁卡因；pKa：由大到小排序 A、D、C、B；脂溶性：由大到小排序（讲义同档者先后不限） D=C>B>A；血浆蛋白结合率：由高到低排序 C、D、B、A；相对效能：由强到弱排序（讲义同档者先后不限） D=C>B>A；弥散性：由强到弱排序（讲义同档者先后不限） B>C>A=D；神经阻滞起效时间：由快到慢排序（讲义同档者先后不限） B>C>A=D；作用时间：由长到短排序 C、D、B、A",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -3103,7 +3135,8 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "answerRevision": "local-anesthetic-ties-20261027"
     },
     {
       "id": "surgery-general-a10",
@@ -3208,14 +3241,56 @@
           ],
           "answerMode": "填空",
           "sourceText": "麻醉前血糖＜____mmol/L，尿糖可____，尿酮须____ 8.3、阳性、阴性",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "血糖",
             "尿糖",
             "尿酮"
           ],
           "answerDisplay": "＜8.3mmol/L；尿糖可阳性；尿酮须阴性",
-          "inputMode": "text"
+          "inputMode": "text",
+          "acceptedAnswers": [
+            [
+              "8.3",
+              "阳性",
+              "-"
+            ],
+            [
+              "8.3",
+              "阳性",
+              "－"
+            ],
+            [
+              "8.3",
+              "+",
+              "阴性"
+            ],
+            [
+              "8.3",
+              "+",
+              "-"
+            ],
+            [
+              "8.3",
+              "+",
+              "－"
+            ],
+            [
+              "8.3",
+              "＋",
+              "阴性"
+            ],
+            [
+              "8.3",
+              "＋",
+              "-"
+            ],
+            [
+              "8.3",
+              "＋",
+              "－"
+            ]
+          ]
         },
         {
           "text": "气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm",
@@ -3227,7 +3302,7 @@
           ],
           "answerMode": "填空",
           "sourceText": "气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm 20、22、22、24",
-          "ocrScore": 1.0,
+          "ocrScore": 1,
           "blankLabels": [
             "女性起始",
             "女性结束",

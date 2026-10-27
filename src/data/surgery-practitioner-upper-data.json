@@ -912,10 +912,14 @@
           "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-34",
           "knowledgePoint": "感染源控制与糖皮质激素",
-          "explanation": "本例需充分引流、抗感染及纠正生理紊乱，不能因血培养阴性而忽略感染源控制。没有难治性脓毒性休克等适应证时，不常规使用糖皮质激素，故不宜选D所述措施。",
+          "explanation": "选D。本题按旧题及配套讲义口径复习，关键在于D的“小剂量”。讲义采用“在有效抗生素前提下，早期、大剂量、短时间使用糖皮质激素”的表述，D与该用量口径不符；不能仅用“没有休克，所以不用激素”取代剂量考点。本例仍需充分引流、抗感染及纠正生理紊乱。这里解释的是旧题答案，不代表当前临床用药方案。",
           "knowledgeConnections": [
-            "脓毒症激素有特定适应证，不是所有发热感染的常规治疗。"
+            "第37讲第3页的激素表述位于感染性休克章节，不能直接外推为本病例的临床给药方案。SCCM 2024指南不推荐成人感染性休克采用高剂量、短疗程糖皮质激素；旧题剂量口径应与现代临床规范分开掌握。"
           ],
+          "explanationReferences": [{
+            "title": "SCCM 2024糖皮质激素使用指南",
+            "url": "https://sccm.org/clinical-resources/guidelines/guidelines/use-of-corticosteroids-in-sepsis-ards-cap"
+          }],
           "explanationOrigin": "复习整理，非出版方官方解析",
           "lectureEvidencePages": [
             {

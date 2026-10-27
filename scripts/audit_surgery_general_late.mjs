@@ -81,7 +81,7 @@ const expectedSplitAnswers = {
   'surgery-general-infection-04a': ['CI', 'ABDE', 'FJ', 'GH'],
   'surgery-general-infection-04b': ['ABCF', 'DEG'],
   'surgery-general-shock-01a': ['B', 'E', 'ACDF'],
-  'surgery-general-shock-01b': ['BF', 'AC', 'DEG'],
+  'surgery-general-shock-01b': ['BE', 'AC', 'DF'],
   'surgery-general-shock-06a': ['H', 'F', 'B', 'J', 'I', 'EI', 'DI', 'CG', 'A', 'K'],
   'surgery-general-shock-06b': ['A', 'A', 'C', 'AB', 'AE', 'D'],
   'surgery-general-shock-06c': ['AB', 'E', 'C', 'D'],
@@ -91,7 +91,7 @@ const expectedSplitAnswers = {
   'surgery-general-other-04b': ['A', 'B'],
   'surgery-general-other-04c': ['A', 'C', 'B'],
   'surgery-general-other-04d': ['AD', 'BC'],
-  'surgery-general-other-05a': ['IJK', 'EH', 'DF', 'ABCG'],
+  'surgery-general-other-05a': ['HIJ', 'EG', 'DF', 'ABC'],
   'surgery-general-other-06a': ['CDF', 'AB', 'E'],
   'surgery-general-other-06b': ['ABDF', 'CEG'],
 }

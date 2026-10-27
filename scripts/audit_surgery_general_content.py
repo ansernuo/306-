@@ -46,7 +46,7 @@ def main() -> None:
     assert len(groups) == 31
     assert len(by_id) == len(groups)
     assert set(by_id) == REQUIRED_GROUPS
-    assert sum(len(group["stems"]) for group in groups) == 136
+    assert sum(len(group["stems"]) for group in groups) == 135
     assert sum(len(group["options"]) for group in groups) == 186
 
     forbidden = re.compile(r"\s{2,}|[|°•“”‘’]")
@@ -88,6 +88,7 @@ def main() -> None:
         assert not group["options"] and len(group["stems"]) == stem_count
         assert all(stem["answerMode"] == "填空" for stem in group["stems"])
         assert all(len(stem["blankLabels"]) == len(stem["answer"]) for stem in group["stems"])
+        assert all(len(re.findall(r"____", stem["text"])) == len(stem["answer"]) for stem in group["stems"])
 
     for group_id, expected_answers in RANKING_GROUPS.items():
         group = by_id[group_id]
@@ -103,6 +104,12 @@ def main() -> None:
     assert {option["sourceKey"]: option["label"] for option in by_id["surgery-general-a12"]["options"]} == {
         "A": "交感神经", "B": "副交感神经", "C": "感觉神经", "D": "运动神经", "E": "本体感觉"
     }
+
+    fever = by_id["surgery-general-p06"]["stems"][0]
+    assert fever["answer"] == ["1.4", "2.7"]
+    assert fever["text"].count("____") == 2 and "～" not in fever["text"]
+    assert fever["answerDisplay"] == "1.4天；2.7天"
+    assert by_id["surgery-general-p06"]["answerRevision"] == "postop-fever-decimals-20261027"
 
     p10a = by_id["surgery-general-p10a"]
     p10a_map = {option["key"]: option["sourceKey"] for option in p10a["options"]}
@@ -126,7 +133,7 @@ def main() -> None:
         all_ids.extend(group["id"] for group in data["groups"])
     assert len(all_ids) == len(set(all_ids)), "duplicate surgery group ids"
 
-    print({"groups": 31, "stems": 136, "options": 186, "fill": 8, "ranking": 2, "status": "ok"})
+    print({"groups": 31, "stems": 135, "options": 186, "fill": 8, "ranking": 2, "status": "ok"})
 
 
 if __name__ == "__main__":

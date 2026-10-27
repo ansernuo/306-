@@ -14,8 +14,8 @@ const byId = new Map(groups.map((group) => [group.id, group]))
 assert.deepEqual(content.topics, ['外科总论'])
 assert.equal(groups.length, 29)
 assert.equal(byId.size, 29)
-assert.equal(groups.reduce((sum, group) => sum + group.stems.length, 0), 118)
-assert.equal(groups.reduce((sum, group) => sum + group.options.length, 0), 235)
+assert.equal(groups.reduce((sum, group) => sum + group.stems.length, 0), 122)
+assert.equal(groups.reduce((sum, group) => sum + group.options.length, 0), 234)
 assert.equal(groups.filter((group) => group.kind === 'B').length, 25)
 assert.equal(groups.filter((group) => group.kind === 'FILL').length, 4)
 
@@ -36,14 +36,14 @@ const expectedChoiceAnswers = {
   'surgery-general-core-n03a': ['A', 'BCDE', 'F', 'GH'],
   'surgery-general-core-n02b': ['ABCDEFGHI', 'JKL', 'M', 'N', 'O', 'P'],
   'surgery-general-core-n03b': ['A', 'B', 'C'],
-  'surgery-general-core-n04a': ['ABC'],
+  'surgery-general-core-n04a': ['C', 'B', 'A'],
   'surgery-general-core-n04b': ['FJQS', 'ALT', 'BCEMO', 'DGIKNP', 'HRU'],
   'surgery-general-core-b01': ['BKOP', 'FHMN', 'ACGI', 'DEJL'],
   'surgery-general-core-b02': ['E', 'AJ', 'BCDFH', 'CDGHI', 'K'],
-  'surgery-general-core-b03': ['BDEG', 'ACF', 'H'],
+  'surgery-general-core-b03': ['BDEG', 'ACF'],
   'surgery-general-core-b04a': ['A', 'BCD'],
   'surgery-general-core-b04b': ['B', 'D', 'ACG', 'E', 'F'],
-  'surgery-general-core-b04c': ['ABCDEFGHIJ'],
+  'surgery-general-core-b04c': ['BC', 'DEFGIJ', 'A', 'H'],
   'surgery-general-core-b05a': ['AB', 'BC'],
 }
 
@@ -51,7 +51,7 @@ const expectedFillAnswers = {
   'surgery-general-core-t05': [['100', '70', '70', '100'], ['500', '1000', '1500', '1500'], ['30', '10', '3']],
   'surgery-general-core-f05': [['135', '150', '142'], ['280', '310'], ['5.5', '3.5'], ['130', '135', '120', '130', '120'], ['2.75', '2.25'], ['1', '1']],
   'surgery-general-core-n05': [['16'], ['2', '2'], ['2', '2'], ['3', '3.5', '2', '3', '50', '60'], ['0.7', '1.3', '30', '40'], ['1.2', '1.5', '1', '1', '1', '2', '150', '200']],
-  'surgery-general-core-b06': [['9', '46'], ['9', '18', '27', '46', '1'], ['1.5', '2000'], ['2', '1', '1', '1'], ['8', '16'], ['2000'], ['3', '5']],
+  'surgery-general-core-b06': [['9', '46'], ['9', '18', '26', '46', '1'], ['1.5', '2000'], ['2', '1', '1', '1'], ['8', '16'], ['2000'], ['3', '5']],
 }
 
 const malformed = /[|°•“”‘’]|\s{2,}/
@@ -130,4 +130,4 @@ assert.deepEqual(groups.filter((group) => group.id.startsWith('surgery-general-c
   'surgery-general-core-b04a', 'surgery-general-core-b04b', 'surgery-general-core-b04c',
 ])
 
-console.log({ groups: 29, stems: 118, options: 235, choice: 25, fill: 4, lecturePages: 12, status: 'ok' })
+console.log({ groups: 29, stems: 122, options: 234, choice: 25, fill: 4, lecturePages: 12, status: 'ok' })

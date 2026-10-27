@@ -77,9 +77,10 @@ function fillGroup({ id, title, lecture, page, stems, inputMode = 'decimal' }) {
   const lectureEvidence = evidence(lecture, page, `数字与单位已按《核心精讲·${title.split('·')[0]}》对应页逐项复核。`)
   return {
     id, page: 0, title, kind: 'FILL', kindLabel: '填空题', options: [],
-    stems: stems.map(([text, answer]) => ({
+    stems: stems.map(([text, answer, details = {}]) => ({
       text, answer, answerDisplay: answer.join('；'), answerMode: '填空',
       blankLabels: answer.map((_, index) => `第${index + 1}空`), inputMode, sourceText: text, ocrScore: 1,
+      ...details,
     })),
     sourceText: [title, ...stems.map(([text]) => text)].join('；'), reviewState: '已完成结构校对',
     reviewIssues: [], reviewNotes: [], topic: '外科总论', hideSource: true,
@@ -140,8 +141,9 @@ const shockGroups = [
   }),
   choiceGroup({
     id: 'surgery-general-shock-01b', title: '休克·微循环分期', lecture: 37, page: 1,
-    options: ['只进不出','收缩期／代偿期／休克早期','扩张期／抑制期','衰竭期','可出现DIC','只出不进','DIC早期／高凝期用肝素抗凝'],
-    stems: [['收缩期',['B','F']],['扩张期',['A','C']],['衰竭期',['D','E','G']]],
+    options: ['只进不出','代偿期／休克早期','抑制期','可出现DIC','只出不进','DIC早期／高凝期用肝素抗凝'],
+    stems: [['收缩期',['B','E']],['扩张期',['A','C']],['衰竭期',['D','F']]],
+    answerRevision: 'shock-phase-no-self-answer-20261027',
   }),
   choiceGroup({
     id: 'surgery-general-shock-02', title: '休克·休克分度', lecture: 37, page: 2,
@@ -180,7 +182,7 @@ const shockGroups = [
   }),
   fillGroup({
     id: 'surgery-general-shock-07', title: '休克·数字挖空', lecture: 37, page: 3,
-    stems: [['DIC：血小板＜____；凝血酶原时间延长＞____ s；纤维蛋白原＜____；破碎红细胞＞____%。',['80','3','1.5','2']],['休克指数____提示无休克；＞____～____提示休克；＞____提示严重休克。',['0.5','1','1.5','2']],['CVP正常值____～____ cmH₂O。',['5','10']],['尿量达____ ml/h提示微循环改善；＜____ ml/h且尿比重增高提示血容量不足。',['30','25']],['SIRS：体温＞____ ℃或＜____ ℃；心率＞____次／分；呼吸＞____次／分。',['38','36','90','20']],['SIRS：PaCO₂＜____ kPa（约____ mmHg）。',['4.3','32.29']]],
+    stems: [['DIC：血小板＜____×10⁹/L；凝血酶原时间延长＞____ s；纤维蛋白原＜____ g/L；破碎红细胞＞____%。',['80','3','1.5','2']],['休克指数____提示无休克；＞____～____提示休克；＞____提示严重休克。',['0.5','1','1.5','2']],['CVP正常值____～____ cmH₂O。',['5','10']],['尿量达____ ml/h提示微循环改善；＜____ ml/h且尿比重增高提示血容量不足。',['30','25']],['SIRS：体温＞____ ℃或＜____ ℃；心率＞____次／分；呼吸＞____次／分。',['38','36','90','20']],['SIRS：PaCO₂＜____ kPa（约____ mmHg）。',['4.3','32.29']]],
   }),
 ]
 
@@ -227,12 +229,13 @@ const otherGroups = [
   }),
   choiceGroup({
     id: 'surgery-general-other-05a', title: '其它外科总论·移植', lecture: 38, page: 2,
-    options: ['易并发严重感染','易发生GVHD','排斥反应发生率最高','肾','供受者ABO血型不符','慢性排斥反应是最大障碍','小肠','受者已有供者特异性HLA抗体','角膜','皮肤','皮肌瓣'],
-    stems: [['组织移植',['I','J','K']],['超急性排斥反应',['E','H']],['移植疗效最显著',['D','F']],['小肠移植',['A','B','C','G']]],
+    options: ['易并发严重感染','易发生GVHD','排斥反应发生率最高','肾','供受者ABO血型不符','慢性排斥反应是最大障碍','受者已有供者特异性HLA抗体','角膜','皮肤','皮肌瓣'],
+    stems: [['组织移植',['H','I','J']],['超急性排斥反应',['E','G']],['移植疗效最显著',['D','F']],['小肠移植',['A','B','C']]],
+    answerRevision: 'transplant-no-self-answer-20261027',
   }),
   fillGroup({
     id: 'surgery-general-other-05b', title: '其它外科总论·腹腔镜手术', lecture: 38, page: 2, inputMode: 'text',
-    stems: [['腹腔镜手术常见并发症与____气腹相关。',['CO₂']]],
+    stems: [['腹腔镜手术常见并发症与____气腹相关。',['CO₂'], { acceptedAnswers: [['CO2'], ['二氧化碳']] }]],
   }),
   choiceGroup({
     id: 'surgery-general-other-06a', title: '其它外科总论·肿瘤预防', lecture: 38, page: 2,

@@ -42,7 +42,7 @@ function evidence(lectureNumber, page, description) {
   }
 }
 
-function choiceGroup({ id, title, lecture, page, options, stems }) {
+function choiceGroup({ id, title, lecture, page, options, stems, answerRevision }) {
   const sourceKeys = [...LETTERS.slice(0, options.length)]
   const order = shuffledSourceKeys(id, options.length)
   const currentBySource = Object.fromEntries(order.map((sourceKey, index) => [sourceKey, LETTERS[index]]))
@@ -83,10 +83,11 @@ function choiceGroup({ id, title, lecture, page, options, stems }) {
     lectureEvidence,
     optionShuffleVersion: 1,
     optionOriginalOrder: sourceKeys,
+    ...(answerRevision ? { answerRevision } : {}),
   }
 }
 
-function fillGroup({ id, title, lecture, page, stems, note, inputMode = 'decimal' }) {
+function fillGroup({ id, title, lecture, page, stems, note, inputMode = 'decimal', answerRevision }) {
   const lectureEvidence = evidence(lecture, page, `本题组数字与公式已按《核心精讲·${title.split('·')[0]}》对应页逐项复核。`)
   return {
     id,
@@ -107,6 +108,7 @@ function fillGroup({ id, title, lecture, page, stems, note, inputMode = 'decimal
     })),
     sourceText: [title, ...stems.map(([text]) => text)].join('；'),
     reviewState: '已完成结构校对',
+    ...(answerRevision ? { answerRevision } : {}),
     reviewIssues: [],
     reviewNotes: note ? [{ title: '题型规范化', body: note }] : [],
     topic: '外科总论',
@@ -310,8 +312,9 @@ const groups = [
   }),
   choiceGroup({
     id: 'surgery-general-core-n04a', title: '营养代谢·肠内营养并发症', lecture: 32, page: 2,
-    options: ['常与输注过快有关', '吸入性肺炎最严重', '腹胀、腹泻最常见'],
-    stems: [['肠内营养', ['A', 'B', 'C']]],
+    options: ['输注过快', '吸入性肺炎', '腹胀、腹泻'],
+    stems: [['最常见的并发症', ['C']], ['最严重的并发症', ['B']], ['腹胀、腹泻的常见诱因', ['A']]],
+    answerRevision: 'en-complication-matching-20261027',
   }),
   choiceGroup({
     id: 'surgery-general-core-n04b', title: '营养代谢·肠外营养并发症', lecture: 32, page: 2,
@@ -356,8 +359,9 @@ const groups = [
   }),
   choiceGroup({
     id: 'surgery-general-core-b03', title: '烧伤·分期与治疗', lecture: 33, page: 2,
-    options: ['感染性休克是主要死因', '伤后2～3 h最为急剧、6～8 h达高峰，一般持续24～48 h', '抗生素、TAT；感染控制后及时停药', '补液是首选主要治疗措施', '可致低血容量性休克', '早期削痂、切痂、植皮是防治全身感染的关键措施', '先快后慢', '创面修复期、康复期'],
-    stems: [['体液渗出与回吸收期', ['B', 'D', 'E', 'G']], ['急性感染期', ['A', 'C', 'F']], ['创面修复期、康复期', ['H']]],
+    options: ['感染性休克是主要死因', '伤后2～3 h最为急剧、6～8 h达高峰，一般持续24～48 h', '抗生素、TAT；感染控制后及时停药', '补液是首选主要治疗措施', '可致低血容量性休克', '早期削痂、切痂、植皮是防治全身感染的关键措施', '先快后慢'],
+    stems: [['体液渗出与回吸收期', ['B', 'D', 'E', 'G']], ['急性感染期', ['A', 'C', 'F']]],
+    answerRevision: 'burn-phase-no-self-answer-20261027',
   }),
   choiceGroup({
     id: 'surgery-general-core-b04a', title: '烧伤·现场急救与转送', lecture: 33, page: 3,
@@ -371,8 +375,14 @@ const groups = [
   }),
   choiceGroup({
     id: 'surgery-general-core-b04c', title: '烧伤·吸入性损伤', lecture: 33, page: 3,
-    options: ['纤维支气管镜最直接和准确', '面、颈、前胸部尤其口鼻烧伤', '密闭环境', '刺激性咳嗽', '吞咽困难或疼痛', '声嘶', '哮鸣音', '及早气管切开', '痰中有炭屑', '呼吸困难'],
-    stems: [['吸入性损伤', ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']]],
+    options: ['纤维支气管镜', '面、颈、前胸部尤其口鼻烧伤', '密闭环境', '刺激性咳嗽', '吞咽困难或疼痛', '声嘶', '哮鸣音', '及早气管切开', '痰中有炭屑', '呼吸困难'],
+    stems: [
+      ['提示吸入性损伤的受伤环境与部位', ['B', 'C']],
+      ['提示吸入性损伤的临床表现', ['D', 'E', 'F', 'G', 'I', 'J']],
+      ['最直接、准确的检查', ['A']],
+      ['讲义列出的早期气道处理', ['H']],
+    ],
+    answerRevision: 'inhalation-injury-matching-20261027',
   }),
   choiceGroup({
     id: 'surgery-general-core-b05a', title: '烧伤·应激性溃疡', lecture: 33, page: 1,
@@ -383,14 +393,15 @@ const groups = [
     id: 'surgery-general-core-b06', title: '烧伤·数字挖空', lecture: 33, page: 2,
     note: '原文第1题只写出公式并把答案标为“公式记忆”，无法实际填写；已按讲义将公式中的固定数字9和46设为两个空。',
     stems: [
-      ['12岁以下：头面颈部面积＝____＋（12－年龄）%；双下肢面积＝____－（12－年龄）%。', ['9', '46']],
-      ['成人头面颈____%，双上肢____%，躯干____%，双下肢____%，会阴____%。', ['9', '18', '27', '46', '1']],
+      ['12岁以下：头面颈部面积＝（____＋12－年龄）%；双下肢面积＝（____－12＋年龄）%。', ['9', '46']],
+      ['成人头面颈____%，双上肢____%，前后躯干（不含会阴）____%，双下肢____%，会阴____%。', ['9', '18', '26', '46', '1']],
       ['第1个24 h：每1%的Ⅱ、Ⅲ度烧伤面积、每kg体重补晶胶液____ ml，另加葡萄糖溶液____ ml。', ['1.5', '2000']],
       ['第1个24 h晶体∶胶体＝____∶____；广泛深度烧伤时____∶____。', ['2', '1', '1', '1']],
-      ['第1个24 h前____ h输入晶胶液一半，后____ h输入另一半。', ['8', '16']],
+      ['第1个24 h前____ h输入补液总量的一半，后____ h输入另一半。', ['8', '16']],
       ['第2个24 h：晶胶液减半＋葡萄糖溶液____ ml。', ['2000']],
       ['包扎范围超出创缘____～____ cm。', ['3', '5']],
     ],
+    answerRevision: 'burn-area-no-double-count-20261027',
   }),
 ]
 

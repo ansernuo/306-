@@ -3714,12 +3714,9 @@
         ],
         [
           "surgery-compiled-263"
-        ],
-        [
-          "surgery-compiled-263"
         ]
       ],
-      "reviewNote": "术后体位表跨第1、2页。"
+      "reviewNote": "删除未区分手术类型的笼统设问，保留7个具体体位考点；术后体位表跨第1、2页。"
     },
     "surgery-general-p05": {
       "pages": [
@@ -4572,9 +4569,15 @@
       "stemPages": [
         [
           "surgery-compiled-243"
+        ],
+        [
+          "surgery-compiled-243"
+        ],
+        [
+          "surgery-compiled-243"
         ]
       ],
-      "reviewNote": "肠内营养并发症在第1页，旧第2页为肠外营养。"
+      "reviewNote": "将整池全选改为最常见、最严重及常见诱因三项匹配；答案用语不再提示设问。"
     },
     "surgery-general-core-n04b": {
       "pages": [
@@ -4678,12 +4681,9 @@
         ],
         [
           "surgery-compiled-250"
-        ],
-        [
-          "surgery-compiled-250"
         ]
       ],
-      "reviewNote": "烧伤急性感染期与修复期在第3页。"
+      "reviewNote": "去除题干与选项完全相同的创面修复期、康复期空设问，保留有实质内容的两期。"
     },
     "surgery-general-core-b04a": {
       "pages": [
@@ -4727,8 +4727,18 @@
       "stemPages": [
         [
           "surgery-compiled-250"
+        ],
+        [
+          "surgery-compiled-250"
+        ],
+        [
+          "surgery-compiled-250"
+        ],
+        [
+          "surgery-compiled-250"
         ]
-      ]
+      ],
+      "reviewNote": "按环境部位、临床表现、确诊检查和早期气道处理作匹配，避免全选整池。"
     },
     "surgery-general-core-b05a": {
       "pages": [
@@ -4772,7 +4782,7 @@
           "surgery-compiled-250"
         ]
       ],
-      "reviewNote": "儿童/成人面积在第1页，补液公式在第2页，包扎范围在第3页；九分法与补液公式已视觉核验。"
+      "reviewNote": "儿童/成人面积在第1页，补液公式在第2页，包扎范围在第3页；前后躯干为13%+13%=26%，会阴1%另列，不重复计入。"
     },
     "surgery-general-infection-01a": {
       "pages": [
@@ -5517,8 +5527,8 @@
           "surgery-compiled-281"
         ]
       ],
-      "notice": "讲义将糖皮质激素列于感染性休克处理；本例尚无休克，未直接给出本题“不宜用”的完整判断。",
-      "reviewNote": "34:4脓毒症控制感染灶，37:3及37:5小结将糖皮质激素放在感染性休克且有效抗生素前提下使用。"
+      "notice": "旧题剂量口径与现代指南应分开理解；37:3、37:5为感染性休克用药页，不直接代表本例的临床方案。",
+      "reviewNote": "34:4支持感染源控制；37:3、37:5保留有效抗生素前提下早期大剂量短时间的讲义表述。第122题答案仍为D，解析补回小剂量这一旧题考点，另注明SCCM 2024指南与旧题的区别。"
     },
     "practitioner-upper-20261019-q123": {
       "pages": [

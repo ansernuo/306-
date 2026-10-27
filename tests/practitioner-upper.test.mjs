@@ -36,6 +36,15 @@ test('all 197 questions occur once and match every supplied five-answer row', ()
   assert.deepEqual(stem(24).answerCorrection, { from:'C', to:'A', source:'用户于2026-10-19明确确认：这道题选A' })
 })
 
+test('q122 retains D and separates the old dose wording from modern corticosteroid guidance', () => {
+  assert.deepEqual(stem(122).answer, ['D'])
+  assert.match(stem(122).explanation, /小剂量/)
+  assert.match(stem(122).explanation, /早期、大剂量、短时间/)
+  assert.match(stem(122).explanation, /旧题/)
+  assert.ok(stem(122).knowledgeConnections.some(value => /SCCM 2024.*不推荐.*高剂量、短疗程/.test(value)))
+  assert.ok(stem(122).explanationReferences.some(ref => /^https:\/\/sccm\.org\//.test(ref.url)))
+})
+
 test('shared cases retain context, independent options, updates, and source pages', () => {
   assert.equal(groups.filter(g => g.sharedStem).length, 8)
   for (const g of groups.filter(g => g.sharedStem)) {
