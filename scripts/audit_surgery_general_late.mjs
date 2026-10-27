@@ -61,6 +61,11 @@ if (shallow.options.find(option => option.sourceKey === 'X')?.label !== '边界�
 if (shallow.answerRevision !== 'shallow-infection-20261027') errors.push('浅部感染旧答案记录未隔离')
 
 const byId = new Map(groups.map((group) => [group.id, group]))
+const pathogenFeatures = byId.get('surgery-general-infection-04a')
+const pathogenNames = new Set(pathogenFeatures.stems.map(stem => stem.text))
+if (pathogenFeatures.options.some(option => pathogenNames.has(option.label))) errors.push('脓毒症病原特征选项重复题干病原名称')
+if (pathogenFeatures.options.length !== 10 || pathogenFeatures.stems.length !== 4) errors.push('脓毒症应保留4类病原及10项鉴别特征')
+if (pathogenFeatures.answerRevision !== 'sepsis-pathogen-features-20261027') errors.push('脓毒症选项重排后旧记录未隔离')
 for (const retiredMixedId of [
   'surgery-general-infection-01', 'surgery-general-infection-04',
   'surgery-general-shock-01', 'surgery-general-shock-06',
@@ -73,7 +78,7 @@ const expectedSplitAnswers = {
   'surgery-general-infection-02': ['EGJKUV', 'EGHJKPRTU', 'FGINQW', 'ACDFLMNSX', 'B', 'O', 'K'],
   'surgery-general-infection-01a': ['ACDE', 'G', 'BCF'],
   'surgery-general-infection-01b': ['CE', 'DFM', 'ABGHIJKL', 'N'],
-  'surgery-general-infection-04a': ['EGL', 'ACDFH', 'IMN', 'BJK'],
+  'surgery-general-infection-04a': ['CI', 'ABDE', 'FJ', 'GH'],
   'surgery-general-infection-04b': ['ABCF', 'DEG'],
   'surgery-general-shock-01a': ['B', 'E', 'ACDF'],
   'surgery-general-shock-01b': ['BF', 'AC', 'DEG'],

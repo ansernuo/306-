@@ -112,8 +112,9 @@ export const surgeryGeneralInfectionGroups = [
   }),
   choiceGroup({
     id: 'surgery-general-infection-04a', title: '感染·脓毒症病原体特征', lecture: 34, page: 4,
-    options: ['金黄色葡萄球菌','真菌','迁徙／转移性脓肿','心肌炎','易发生冷休克','皮疹','G⁻杆菌','寒战高热','多合并需氧菌感染','结膜瘀斑','视网膜灶性絮样斑','血压、体温、WBC三低','恶臭','厌氧菌'],
-    stems: [['G⁻杆菌',['E','G','L']],['金黄色葡萄球菌',['A','C','D','F','H']],['厌氧菌',['I','M','N']],['真菌',['B','J','K']]],
+    options: ['迁徙／转移性脓肿','心肌炎','易发生冷休克','皮疹','寒战高热','多合并需氧菌感染','结膜瘀斑','视网膜灶性絮样斑','血压、体温、WBC三低','恶臭'],
+    stems: [['G⁻杆菌',['C','I']],['金黄色葡萄球菌',['A','B','D','E']],['厌氧菌',['F','J']],['真菌',['G','H']]],
+    answerRevision: 'sepsis-pathogen-features-20261027',
   }),
   choiceGroup({
     id: 'surgery-general-infection-04b', title: '感染·脓毒症检查与治疗', lecture: 34, page: 4,
