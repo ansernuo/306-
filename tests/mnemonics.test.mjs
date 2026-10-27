@@ -11,7 +11,7 @@ test('all source entries are retained, explicitly consolidated, or explicitly ex
   const expected = { med: 1011, surgery: 425, pathology: 326, physiology: 449, biochemistry: 346 }
   const lectureIds = new Set(data.curation.lectureAdditions)
   assert.equal(lectureIds.size, 30)
-  assert.equal(data.items.length, 2198)
+  assert.equal(data.items.length, 2189)
   const covered = [...data.items.map(item => item.id), ...Object.keys(data.curation.merged), ...Object.keys(data.curation.excluded)]
   assert.equal(covered.length, 2557 + lectureIds.size)
   assert.equal(new Set(covered).size, covered.length)
@@ -225,6 +225,7 @@ test('surgery review covers the current lecture, annotated source and original c
     surgery: { pageCount: 232, reviewedCount: 425 },
     pathology: { pageCount: 195, reviewedCount: 326 },
     physiology: { pageCount: 383, reviewedCount: 446 },
+    biochemistry: { pageCount: 193, reviewedCount: 345 },
   })
 })
 
@@ -354,4 +355,66 @@ test('additional context never replaces the surgical mnemonic core or its thresh
   assert.match(content('surgery-64'), /开放.*肝.*闭合.*脾/)
   assert.match(content('surgery-105'), /精索.*疝囊后方/)
   assert.match(content('surgery-106'), /精索.*疝囊前外方/)
+})
+
+const biochemistryReview = JSON.parse(readFileSync(new URL('../src/data/biochemistry-mnemonic-review.json', import.meta.url)))
+
+test('biochemistry audit covers the annotated lecture, all classified records and preserved old IDs', () => {
+  assert.equal(biochemistryReview.source.pageCount, 193)
+  assert.deepEqual(biochemistryReview.pageCoverage.map(p => p.page), Array.from({ length: 193 }, (_, index) => index + 1))
+  assert.equal(new Set(biochemistryReview.reviewedIds).size, 345)
+  for (const id of biochemistryReview.reviewedIds) assert.ok(entry(id), id)
+  for (const update of biochemistryReview.updates) {
+    assert.ok(update.evidence && update.sourcePages.length, update.id)
+    assert.ok(update.sourcePages.every(p => p >= 1 && p <= 193), update.id)
+    assert.ok(update.mappings.length && update.notes.length, update.id)
+  }
+  for (let n = 1; n <= 346; n++) assert.ok(entry(`biochemistry-${n}`) || data.curation.excluded[`biochemistry-${n}`], `biochemistry-${n}`)
+})
+
+test('biochemistry retains metabolic compartments, cofactor products and conditional exceptions', () => {
+  assert.match(content('biochemistry-20'), /FADH₂.*1.5ATP/)
+  assert.match(content('biochemistry-21'), /2.5ATP.*32ATP/)
+  assert.match(content('biochemistry-22'), /丙酮酸脱氢酶复合体.*含FAD.*最终.*NADH/)
+  assert.match(content('biochemistry-25'), /F₀.*F₁.*基质/)
+  assert.match(content('biochemistry-56'), /FAD.*NAD.*7n−6.*106ATP/)
+  assert.match(content('biochemistry-66'), /甘油.*糖异生.*奇数碳.*丙酰CoA.*琥珀酰CoA/)
+  assert.match(content('biochemistry-79'), /CPS.*线粒体.*胞浆.*精氨酸.*CPSⅠ/)
+  assert.match(content('biochemistry-80'), /两氮.*3ATP.*4个.*精氨酸代琥珀酸合成酶/)
+})
+
+test('biochemistry preserves complete inhibition tables and exact molecular targets', () => {
+  assert.match(content('biochemistry-166'), /Km↑.*Vmax不变.*Km不变.*Vmax↓.*Km↓.*Vmax↓/)
+  assert.match(content('biochemistry-139'), /亚甲基FH₄.*不来自SAM/)
+  assert.match(content('biochemistry-146'), /PRPP酰胺转移酶.*GMP合成酶.*CPS-Ⅱ.*CTP合成酶/)
+  assert.match(content('biochemistry-143'), /OMP.*脱羧.*UMP/)
+  assert.match(content('biochemistry-237'), /I.*A、C、U.*G.*C或U.*U.*A或G.*C.*G.*A.*U/)
+  assert.match(content('biochemistry-288'), /IF₁.*A位.*IF₃.*大小亚基/)
+  assert.match(content('biochemistry-303'), /ADP核糖基化.*NAD⁺/)
+  assert.match(content('biochemistry-287'), /EF-G.*GTP酶/)
+  assert.match(content('biochemistry-224'), /数据库.*RNA剪接.*内含子/)
+  assert.match(content('biochemistry-226'), /5′.*RACE.*生物信息学/)
+})
+
+test('biochemistry same-meaning copies consolidate while different meanings stay separate', () => {
+  for (const [oldId, canonical] of [['biochemistry-7', 'biochemistry-6'], ['biochemistry-18', 'biochemistry-3'], ['biochemistry-64', 'biochemistry-35'], ['biochemistry-125', 'biochemistry-124'], ['biochemistry-155', 'med-225'], ['biochemistry-160', 'biochemistry-159'], ['biochemistry-182', 'biochemistry-68'], ['biochemistry-194', 'physiology-96'], ['biochemistry-295', 'physiology-100']]) {
+    assert.equal(entry(oldId).id, canonical)
+    assert.equal(searchMnemonics(indexed, { favoritesOnly: true, favorites: [oldId] })[0].id, canonical)
+    assert.ok(entry(oldId).locations.some(l => l.subject === 'biochemistry'), oldId)
+  }
+  assert.match(content('biochemistry-159'), /H₄.*心肌.*M₄.*骨骼肌和肝/)
+  assert.match(content('biochemistry-35'), /HDL-C.*逆向.*LDL-C.*肝外/)
+  assert.match(content('biochemistry-295'), /酪氨酸.*苏氨酸.*丝氨酸.*半胱氨酸.*天冬氨酸.*组氨酸/)
+  assert.notEqual(entry('biochemistry-250').id, entry('biochemistry-264').id)
+  assert.notEqual(entry('med-225').id, entry('surgery-183').id)
+})
+
+test('lecture marginal cues resolve to one focused card and preserve corrected mnemonic aliases', () => {
+  for (const [query, canonical] of [['瓜兮兮的跑', 'biochemistry-79'], ['同亮来', 'biochemistry-13'], ['冰激凌', 'biochemistry-8'], ['niao-liao', 'biochemistry-133'], ['我单身', 'biochemistry-332'], ['第2个甜筒半价', 'biochemistry-273'], ['瘦白红乳长干产', 'biochemistry-192']]) {
+    const results = searchMnemonics(indexed, { subject: 'biochemistry', query, matchMode: 'title' })
+    assert.equal(results.length, 1, query)
+    assert.equal(results[0].id, canonical)
+  }
+  assert.match(content('biochemistry-192'), /缩宫素.*G蛋白/)
+  assert.ok(!entry('biochemistry-192').blocks.filter(b => b.kind === 'mapping').some(b => /生长因子|缩宫素|催产素/.test(blockText(b))))
 })
