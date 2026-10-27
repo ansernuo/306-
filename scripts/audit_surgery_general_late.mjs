@@ -50,8 +50,15 @@ if (!orderedInsertion) errors.push('外科总论讲义顺序应为30～34、35�
 const shallow = surgeryGeneralInfectionGroups.find((group) => group.id === 'surgery-general-infection-02')
 const sourceAnswerFor = (text) => shallow.stems.find((stem) => stem.text === text).answer.map((key) => shallow.options.find((option) => option.key === key).sourceKey)
 for (const key of ['E', 'J']) {
-  if (!sourceAnswerFor('疖').includes(key) || sourceAnswerFor('痈').includes(key)) errors.push(`浅部感染讲义修正未落实：${key}`)
+  if (!sourceAnswerFor('疖').includes(key) || !sourceAnswerFor('痈').includes(key)) errors.push(`疖、痈的危险三角条件漏选：${key}`)
 }
+for (const text of ['疖', '痈', '蜂窝织炎']) {
+  if (!sourceAnswerFor(text).includes('G') || sourceAnswerFor(text).includes('L')) errors.push(`${text} 化脓性炎属性错误`)
+}
+if (!sourceAnswerFor('丹毒').includes('L') || sourceAnswerFor('丹毒').includes('G')) errors.push('丹毒应为非化脓性炎')
+if (sourceAnswerFor('疖').includes('H')) errors.push('疖不应套用痈的多合并糖尿病特点')
+if (shallow.options.find(option => option.sourceKey === 'X')?.label !== '边界清楚的片状红疹，周围鲜红、中间淡红') errors.push('丹毒边界选项缺少皮疹条件')
+if (shallow.answerRevision !== 'shallow-infection-20261027') errors.push('浅部感染旧答案记录未隔离')
 
 const byId = new Map(groups.map((group) => [group.id, group]))
 for (const retiredMixedId of [
@@ -63,6 +70,7 @@ for (const retiredMixedId of [
 }
 
 const expectedSplitAnswers = {
+  'surgery-general-infection-02': ['EGJKUV', 'EGHJKPRTU', 'FGINQW', 'ACDFLMNSX', 'B', 'O', 'K'],
   'surgery-general-infection-01a': ['ACDE', 'G', 'BCF'],
   'surgery-general-infection-01b': ['CE', 'DFM', 'ABGHIJKL', 'N'],
   'surgery-general-infection-04a': ['EGL', 'ACDFH', 'IMN', 'BJK'],

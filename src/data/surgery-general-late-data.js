@@ -39,7 +39,7 @@ function evidence(lectureNumber, page, description) {
   }
 }
 
-function choiceGroup({ id, title, lecture, page, options, stems, note }) {
+function choiceGroup({ id, title, lecture, page, options, stems, note, answerRevision }) {
   const sourceKeys = KEYS.slice(0, options.length)
   const order = shuffledSourceKeys(id, options.length)
   const currentBySource = Object.fromEntries(order.map((sourceKey, index) => [sourceKey, KEYS[index]]))
@@ -69,6 +69,7 @@ function choiceGroup({ id, title, lecture, page, options, stems, note }) {
     reviewNotes: note ? [{ title: '讲义核对修正', body: note }] : [],
     topic: '外科总论', hideSource: true, lectureIds: [lectureEvidence.lectureId], lectureEvidence,
     optionShuffleVersion: 1, optionOriginalOrder: sourceKeys,
+    ...(answerRevision ? { answerRevision } : {}),
   }
 }
 
@@ -99,9 +100,10 @@ export const surgeryGeneralInfectionGroups = [
   }),
   choiceGroup({
     id: 'surgery-general-infection-02', title: '感染·浅部组织感染', lecture: 34, page: 2,
-    options: ['累及皮肤淋巴管网','小儿多见，早期切开减压防窒息','反复发作可致象皮肿','好发于下肢、面部','危险三角内严禁挤压和切开','乙型溶血性链球菌','化脓性炎','多合并糖尿病','累及疏松结缔组织','可致海绵状静脉窦炎','金黄色葡萄球菌','非化脓性炎','症状消失后继续用药','产生透明质酸酶，感染弥漫','厌氧菌多见，可有捻发感','好发于项背部','边界不清','出现波动感后十字切口引流，切口超过边缘、深达筋膜','不切开引流','多个相邻脓点','产生凝血酶，感染较局限','1个脓点','出现波动感后切开引流','边界清楚'],
-    stems: [['疖',['E','J','K','U','V']],['痈',['H','K','P','R','T','U']],['蜂窝织炎',['F','G','I','N','Q','W']],['丹毒',['A','C','D','F','L','M','N','S','X']],['颌下蜂窝织炎',['B']],['产气性皮下蜂窝织炎',['O']],['新生儿皮下坏疽',['K']]],
-    note: '原文把“危险三角内严禁挤压和切开、可致海绵状静脉窦炎”误归入痈；讲义明确属于疖，已据此纠正答案。',
+    options: ['累及皮肤淋巴管网','小儿多见，早期切开减压防窒息','反复发作可致象皮肿','好发于下肢、面部','危险三角内严禁挤压和切开','乙型溶血性链球菌','化脓性炎','多合并糖尿病','累及疏松结缔组织','危险三角区感染扩散可致海绵状静脉窦炎','金黄色葡萄球菌','非化脓性炎','症状消失后继续用药','产生透明质酸酶，感染弥漫','厌氧菌多见，可有捻发感','好发于项背部','感染范围弥漫，边界不清','出现波动感后十字切口引流，切口超过边缘、深达筋膜','不切开引流','多个相邻脓点','产生凝血酶，感染较局限','1个脓点','出现波动感后切开引流','边界清楚的片状红疹，周围鲜红、中间淡红'],
+    stems: [['疖',['E','G','J','K','U','V']],['痈',['E','G','H','J','K','P','R','T','U']],['蜂窝织炎',['F','G','I','N','Q','W']],['丹毒',['A','C','D','F','L','M','N','S','X']],['颌下蜂窝织炎：特殊表现与处理',['B']],['产气性皮下蜂窝织炎：病原与体征',['O']],['新生儿皮下坏疽：常见病原',['K']]],
+    note: '按第34讲第1～2页补全疖、痈的化脓性炎共性；危险三角的限制及并发症同样适用于唇痈。',
+    answerRevision: 'shallow-infection-20261027',
   }),
   choiceGroup({
     id: 'surgery-general-infection-03', title: '感染·手部化脓性感染', lecture: 34, page: 4,
