@@ -10,8 +10,8 @@ const indexed = indexMnemonics(data.items)
 test('all source entries are retained, explicitly consolidated, or explicitly excluded', () => {
   const expected = { med: 1011, surgery: 425, pathology: 326, physiology: 449, biochemistry: 346 }
   const lectureIds = new Set(data.curation.lectureAdditions)
-  assert.equal(lectureIds.size, 25)
-  assert.equal(data.items.length, 2234)
+  assert.equal(lectureIds.size, 30)
+  assert.equal(data.items.length, 2198)
   const covered = [...data.items.map(item => item.id), ...Object.keys(data.curation.merged), ...Object.keys(data.curation.excluded)]
   assert.equal(covered.length, 2557 + lectureIds.size)
   assert.equal(new Set(covered).size, covered.length)
@@ -27,7 +27,7 @@ test('all source entries are retained, explicitly consolidated, or explicitly ex
     assert.ok(item.blocks.length)
     assert.ok(item.blocks.every(block => blockText(block)))
     assert.ok(!item.blocks.some(block => block.kind === 'context'), item.id)
-    assert.ok(!item.blocks.some(block => /<\/?(?:page|table|h[123])\b|〔PDF|出处：PDF|口诀(?:字|片段)|对应原文考点|本节口诀|原文汇总|讲义汇总|串联语|保留原|原表|原页/.test(blockText(block))), item.id)
+    assert.ok(!item.blocks.some(block => /<\/?(?:page|table|h[123])\b|〔PDF|出处：PDF|口诀(?:字|片段)|对应原文考点|本节口诀|原文汇总|讲义汇总|串联语|保留原(?:文|句|表|资料)|原表|原页/.test(blockText(block))), item.id)
     assert.ok(item.blocks.every(block => blockText(block).length < 180), item.id)
   }
 })
@@ -223,6 +223,8 @@ test('surgery review covers the current lecture, annotated source and original c
   assert.deepEqual(data.curation.reviewedSubjects, {
     med: { pageCount: 482, reviewedCount: 908 },
     surgery: { pageCount: 232, reviewedCount: 425 },
+    pathology: { pageCount: 195, reviewedCount: 326 },
+    physiology: { pageCount: 383, reviewedCount: 446 },
   })
 })
 
@@ -274,4 +276,82 @@ test('surgical consolidations preserve old favorites while removing incorrect cl
   assert.ok(!entry('surgery-168').locations.some(location => location.subject === 'surgery' && location.chapter === '周围血管'))
   assert.equal(entry('surgery-168').id, 'med-213')
   assert.notEqual(entry('surgery-183').id, entry('med-225').id)
+})
+
+const pathologyReview = JSON.parse(readFileSync(new URL('../src/data/pathology-mnemonic-review.json', import.meta.url)))
+const physiologyReview = JSON.parse(readFileSync(new URL('../src/data/physiology-mnemonic-review.json', import.meta.url)))
+
+test('pathology and physiology audits cover complete lectures and all existing classified records', () => {
+  for (const [audit, pageCount, count] of [[pathologyReview, 195, 326], [physiologyReview, 383, 446]]) {
+    assert.equal(audit.source.pageCount, pageCount)
+    assert.deepEqual(audit.pageCoverage.map(p => p.page), Array.from({ length: pageCount }, (_, index) => index + 1))
+    assert.equal(new Set(audit.reviewedIds).size, count)
+    for (const id of audit.reviewedIds) assert.ok(entry(id), id)
+    for (const item of [...audit.updates, ...audit.additions]) {
+      assert.ok(item.evidence, item.id)
+      assert.ok(item.sourcePages.length || (item.sourceKind === 'legacy-annotated-diagram' && item.legacySourcePages.length), item.id)
+      assert.ok(item.sourcePages.every(p => p >= 1 && p <= pageCount), item.id)
+    }
+  }
+  assert.deepEqual(physiologyReview.legacyPageCoverage.map(p => p.page), Array.from({ length: 437 }, (_, index) => index + 1))
+  assert.equal(pathologyReview.additions.length, 1)
+  assert.equal(physiologyReview.additions.filter(i => !i.splitFrom).length, 1)
+  assert.equal(physiologyReview.additions.filter(i => i.splitFrom).length, 3)
+})
+
+test('pathology distinguishes foam cells, giant cells, inclusion locations and body-cell containment', () => {
+  assert.match(content('pathology-66'), /巨噬细胞.*平滑肌细胞.*脂质/)
+  assert.match(content('pathology-182'), /小胶质细胞.*脂质.*泡沫细胞/)
+  assert.match(content('pathology-91'), /上皮细胞融合.*巨噬细胞融合/)
+  assert.match(content('pathology-90'), /麻疹.*胞核.*胞质.*合胞病毒.*胞质.*腺病毒.*胞核/)
+  assert.match(content('pathology-113'), /包含.*狼疮小体.*风湿小体/)
+  assert.match(content('pathology-112'), /肾小球狼疮.*最具/)
+  assert.match(content('pathology-285'), /LCA.*白细胞共同抗原/)
+  assert.match(content('pathology-318'), /FOS.*JUN.*MYC/)
+})
+
+test('missing notes and split mnemonics produce focused searchable results', () => {
+  for (const [query, expected] of [['吸血鬼哎', /痢疾.*血吸虫.*溃疡性结肠炎.*大肠癌/], ['流量KB', /维生素K.*B族/], ['胰蛋白酶是胰酶激活的扳机', /肠激酶.*胰蛋白酶/], ['本来染粪便结果把自己染黄了', /胆色素.*黄疸/]]) {
+    const results = searchMnemonics(indexed, { query, matchMode: 'title' })
+    assert.equal(results.length, 1, query)
+    assert.match(results[0].scope + content(results[0].id), expected)
+  }
+  assert.ok(!content('physiology-280').includes('维生素'))
+  assert.ok(!content('physiology-278').includes('黄疸'))
+  assert.ok(!content('physiology-341').includes('白内障'))
+})
+
+test('physiology restores occupied placeholders and distinguishes unrelated mechanisms', () => {
+  assert.match(content('physiology-19'), /球状带.*醛固酮.*束状带.*糖皮质.*网状带.*性激素.*髓质.*儿茶酚胺/)
+  assert.match(content('physiology-92'), /cAMP.*DAG.*cGMP.*神经酰胺.*cGAMP.*cADPR.*IP₃.*PIP₃/)
+  assert.match(content('physiology-192'), /0期.*速度.*邻旁.*兴奋性.*细胞直径.*闰盘/)
+  assert.match(content('physiology-165'), /视交叉上核/)
+  assert.match(content('physiology-228'), /声门.*回心血量.*迷走/)
+  assert.match(content('physiology-248'), /外周|颈动脉体/)
+  assert.match(content('physiology-248'), /脑脊液.*H⁺/)
+  assert.match(content('physiology-443'), /孕激素.*排卵后.*高峰/)
+  assert.match(content('physiology-351'), /Na⁺-K⁺-2Cl⁻/)
+  assert.ok(!content('physiology-351').includes('NKCC2'))
+  assert.match(content('physiology-286'), /不溶性钙皂.*减少.*吸收/)
+})
+
+test('shared knowledge has one canonical record while aliases, favorites and chapter access survive', () => {
+  for (const [oldId, canonical] of [['pathology-270', 'surgery-28'], ['pathology-97', 'med-457'], ['pathology-317', 'surgery-40'], ['physiology-153', 'med-37'], ['physiology-449', 'surgery-38'], ['biochemistry-195', 'pathology-318']]) {
+    assert.equal(entry(oldId).id, canonical)
+    assert.equal(searchMnemonics(indexed, { favoritesOnly: true, favorites: [oldId] })[0].id, canonical)
+  }
+  assert.match(content('med-37'), /Ⅻa.*t-PA.*激肽释放酶.*u-PA.*月经血/)
+  assert.ok(!content('physiology-446').includes('12月'))
+  assert.ok(entry('surgery-39').locations.some(l => l.subject === 'physiology' && l.chapter === '生殖'))
+  assert.ok(!entry('surgery-38').aliases?.some(t => /阿姨/.test(t)))
+  assert.equal(searchMnemonics(indexed, { query: '比伯', matchMode: 'title' }).length, 1)
+})
+
+test('additional context never replaces the surgical mnemonic core or its thresholds', () => {
+  assert.match(content('surgery-28'), /T₁≤2.*T₂＞2且≤5.*T₃＞5/)
+  assert.match(content('surgery-22'), /上动脉.*贴近.*喉上神经.*下动脉.*远离.*喉返/)
+  assert.match(content('surgery-55'), /Ⅰ型.*Ⅱ型.*Ⅲ型.*Ⅳ型/)
+  assert.match(content('surgery-64'), /开放.*肝.*闭合.*脾/)
+  assert.match(content('surgery-105'), /精索.*疝囊后方/)
+  assert.match(content('surgery-106'), /精索.*疝囊前外方/)
 })

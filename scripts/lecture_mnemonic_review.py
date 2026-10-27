@@ -5,7 +5,7 @@ from pathlib import Path
 
 def apply_lecture_review(data, make_block):
     root = Path(__file__).resolve().parents[1] / 'src/data'
-    for subject in ('med', 'surgery'):
+    for subject in ('med', 'surgery', 'pathology', 'physiology'):
         path = root / f'{subject}-mnemonic-review.json'
         if path.exists():
             data = apply_review(data, make_block, json.loads(path.read_text()), subject)
@@ -76,5 +76,5 @@ def apply_review(data, make_block, review, subject):
     if subject == 'med':
         data['curation']['reviewedSubject'] = subject
         data['curation']['reviewedPages'] = review['source']['pageCount']
-    data['version'] = 3 if subject == 'med' else 4
+    data['version'] = {'med': 3, 'surgery': 4, 'pathology': 5, 'physiology': 6}[subject]
     return data
