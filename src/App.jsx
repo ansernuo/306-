@@ -88,14 +88,15 @@ const CONTENT_LOADERS = {
   politics: async () => {
     // This loader runs in useEffect. Keep its PDF proof images out of the unused SSR bundle.
     if (import.meta.env.SSR) return EMPTY_CONTENT
-    const [practice, matching, technique, bookCompletion, techniqueCompletion] = await Promise.all([
+    const [practice, matching, technique, bookCompletion, techniqueCompletion, dailySelftest] = await Promise.all([
       loadJson(() => import('./data/politics-data.json')),
       loadJson(() => import('./data/politics-selftest-data.json')),
       loadJson(() => import('./data/politics-technique-data.json')),
       loadJson(() => import('./data/politics-selftest-completion.json')),
       loadJson(() => import('./data/politics-technique-completion.json')),
+      loadJson(() => import('./data/politics-daily-selftest-data.json')),
     ])
-    return organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion)
+    return organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion, dailySelftest)
   },
   med: async () => {
     const [content, homework, exam, practitioner, reviewedEvidence, remainingEvidence] = await Promise.all([
@@ -574,7 +575,7 @@ function normalizeSelection(selection) {
 }
 
 function isUnresolvedStem(stem) {
-  return stem.answerState === '待原题页核对' || stem.answerMode === '待核对' || answerLetters(stem).length === 0
+  return stem.answerState === '待补答案' || stem.answerState === '待原题页核对' || stem.answerMode === '待核对' || answerLetters(stem).length === 0
 }
 
 function sameAnswer(a, b, ordered = false) {
@@ -898,7 +899,7 @@ function App() {
       if (favoritesOnly && !favorites.includes(groupStorageKey(subject, group.id))) return false
       if (typeFilter !== '全部题型' && group.kindLabel !== typeFilter) return false
       if (!query) return true
-      const haystack = [group.title, group.topic, group.sourceText, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.map((stem) => stem.text)].join(' ').toLowerCase()
+      const haystack = [group.title, group.topic, group.sourceText, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.flatMap((stem) => [stem.text, stem.sourceTextForSearch])].join(' ').toLowerCase()
       return haystack.includes(query)
     })
   }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter])
@@ -1378,8 +1379,8 @@ function App() {
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
             <QuestionList subject={subject} group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} activeStemIndex={activeStemIndex} />
             <div className="question-card-bottom">
-              {isSubmitted ? <div className={`submit-summary ${waitingForAnswers ? 'pending-answer-summary' : ''}`}><Icon name={waitingForAnswers ? 'file' : 'check'} size={18} /><span>{group.selfReview ? '草稿已保存 · 请对照参考要点自评' : waitingForAnswers ? '已保存选择 · 待补答案，暂不计分' : group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">{group.selfReview ? '先写下思路，保存后展开参考要点；可随时继续修改草稿。' : waitingForAnswers ? '答案待补；可先完成匹配并保存选择，之后继续修改。' : '完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。'}</span>}
-              <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{group.selfReview ? (isSubmitted ? '继续修改草稿' : '保存并查看参考') : waitingForAnswers ? (isSubmitted ? '修改本组选择' : '保存本组选择') : (isSubmitted ? '重新作答' : '提交本题组')}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
+              {isSubmitted ? <div className={`submit-summary ${waitingForAnswers ? 'pending-answer-summary' : ''}`}><Icon name={waitingForAnswers ? 'file' : 'check'} size={18} /><span>{group.selfReview ? '草稿已保存 · 请对照参考要点自评' : waitingForAnswers ? '已保存作答 · 待补答案，暂不计分' : group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">{group.selfReview ? '先写下思路，保存后展开参考要点；可随时继续修改草稿。' : waitingForAnswers ? '答案待补；可先完成作答并保存，之后继续修改。' : '完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。'}</span>}
+              <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{group.selfReview ? (isSubmitted ? '继续修改草稿' : '保存并查看参考') : waitingForAnswers ? (isSubmitted ? '修改本组作答' : '保存本组作答') : (isSubmitted ? '重新作答' : '提交本题组')}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
             </div>
           </section>
 
@@ -1497,7 +1498,7 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
   const missed = submitted && !unresolved && answer.some((item) => !selection.includes(item))
   const answerDisplay = stem.answerDisplay || answer.map((item) => group.options.find((option) => option.key === item)?.displayKey || item).join('、')
   const unresolvedLabel = stem.answerState === '待补答案' ? '待补答案' : (stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对')
-  const unresolvedResult = stem.answerState === '待补答案' ? '已保存选择 · 待补答案，不计对错' : (stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分')
+  const unresolvedResult = stem.answerState === '待补答案' ? '已保存作答 · 待补答案，不计对错' : (stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分')
 
   return (
     <>
@@ -1539,7 +1540,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
   const keys = choiceOptions.map((option) => option.key)
   const answerDisplay = stem.answerDisplay || answer.map((item) => group.options.find((option) => option.key === item)?.displayKey || item).join('、')
   const unresolvedLabel = stem.answerState === '待补答案' ? '待补答案' : (stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对')
-  const unresolvedResult = stem.answerState === '待补答案' ? '已保存选择 · 待补答案，不计对错' : (stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分')
+  const unresolvedResult = stem.answerState === '待补答案' ? '已保存作答 · 待补答案，不计对错' : (stem.answerState === '暂无参考答案' ? '暂无参考答案：暂不自动判分' : '原题页核对：暂不自动判分')
   const renderChoiceButton = (option) => {
     const item = option.key
     const label = option.displayKey || item
@@ -1552,10 +1553,10 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
     return <button key={item} data-option-label={label} aria-pressed={active} aria-label={`选项 ${label}${group.judgement ? ` ${option.label}` : ''}${stateLabel}`} className={`answer-chip ${group.judgement ? 'judgement-chip' : ''} ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{group.judgement ? `${label} · ${option.label}` : label}{order && <sup className="rank-order">{order}</sup>}</button>
   }
   return (
-    <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}</div></div>
+    <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${group.dailySelftest ? 'daily-fill-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
+      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{group.dailySelftest && stem.image ? <details className="daily-prompt-zoom"><summary>放大题干（可左右滑动）</summary><div><img src={assetPath(stem.image)} alt={stem.imageAlt || '填空题原文'} loading="lazy" /></div></details> : null}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}</div></div>
       {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
-        ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空${stem.blankLabels?.[blankIndex] ? `，${stem.blankLabels[blankIndex]}` : ''}`} /></label>)}</div>
+        ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}>{group.dailySelftest ? <span>空{blankIndex + 1}</span> : null}<input placeholder={group.dailySelftest ? `第${blankIndex + 1}空` : undefined} value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空${stem.blankLabels?.[blankIndex] ? `，${stem.blankLabels[blankIndex]}` : ''}`} /></label>)}</div>
         : (choiceCategories.length
           ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => {
             const options = choiceOptions.filter((option) => option.category === category)
@@ -1589,7 +1590,7 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
     <div className="evidence-rail"><button className="evidence-toggle" onClick={() => setEvidenceCollapsed(false)} aria-label="展开讲义栏"><Icon name="left" size={17} /></button><span className="evidence-rail-label">作业依据</span></div>
     <div className="evidence-panel-content">
       <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>{group.bookSelftest ? '自测依据' : '作业依据'}</h2><p>{group.lectureEvidence.pageLabel}</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
-        <div className="politics-source-note"><strong>{group.unit} · {group.kindLabel}</strong><p>{group.studyNotice}</p><p>参考《{group.answerDocumentLabel || '技巧班课后作业答案'}》PDF 第 {group.answerPageRange || group.answerPdfPage} 页 · 本组 {group.stems.length} 个小题</p><button className="ghost-button" onClick={() => setReveal(value => !value)}>{reveal ? '收起原题' : group.bookSelftest ? '查看本组自测原题' : '查看本组作业原题'}</button></div>
+        <div className="politics-source-note"><strong>{group.unit} · {group.kindLabel}</strong><p>{group.studyNotice}</p><p>{group.dailySelftest ? `Day${group.day} · 本组 ${group.stems.length} 个小题 · 参考答案待补` : <>参考《{group.answerDocumentLabel || '技巧班课后作业答案'}》PDF 第 {group.answerPageRange || group.answerPdfPage} 页 · 本组 {group.stems.length} 个小题</>}</p><button className="ghost-button" onClick={() => setReveal(value => !value)}>{reveal ? '收起原题' : group.bookSelftest ? '查看本组自测原题' : '查看本组作业原题'}</button></div>
       </div>
       {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>原页题号保留在图片中，点击放大核对。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={group.lectureEvidence.image} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
     </div>

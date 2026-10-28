@@ -1,7 +1,7 @@
 const POLITICS_SUBJECTS = ['马原', '毛中特', '习思想', '史纲', '思法']
 
 // Source identity belongs to evidence; the study directory belongs to the subject.
-export function organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion) {
+export function organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion, dailySelftest) {
   const mergeCompletion = (original, completion) => {
     if (!completion) return original
     const lectures = [...original.lectures, ...completion.lectures]
@@ -15,6 +15,15 @@ export function organizePoliticsContent(practice, matching, technique, bookCompl
     }
   }
   matching = mergeCompletion(matching, bookCompletion)
+  if (dailySelftest) {
+    matching = {
+      ...matching,
+      meta: { ...matching.meta, sourcePages: matching.meta.sourcePages + dailySelftest.meta.sourcePages },
+      lectures: [...matching.lectures, ...dailySelftest.lectures],
+      groups: [...matching.groups, ...dailySelftest.groups],
+      referenceImages: { ...matching.referenceImages, ...dailySelftest.referenceImages },
+    }
+  }
   technique = mergeCompletion(technique, techniqueCompletion)
   const referenceImages = { ...practice.referenceImages, ...matching.referenceImages, ...technique.referenceImages }
   const groups = []
