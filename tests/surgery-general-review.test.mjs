@@ -13,7 +13,7 @@ const sourceAnswer = (group, stem) => stem.answer.map(key => group.options.find(
 
 test('all general-surgery pools have valid answers and no repeated or self-answering correct options', () => {
   assert.equal(groups.length, 93)
-  assert.equal(groups.reduce((count, group) => count + group.stems.length, 0), 398)
+  assert.equal(groups.reduce((count, group) => count + group.stems.length, 0), 399)
   for (const group of groups) {
     const labels = group.options.map(option => option.label)
     assert.equal(new Set(labels).size, labels.length, group.id)
@@ -89,6 +89,29 @@ test('text blanks accept equivalent symbols and DIC values carry their units', (
   assert.match(get('surgery-general-shock-07').stems[0].text, /纤维蛋白原＜____ g\/L/)
 })
 
+test('PN complications remain one shared group with six focused stems, 32 shuffled options, and complete lecture facts', () => {
+  const group = get('surgery-general-core-n04b')
+  assert.equal(group.stems.length, 6)
+  assert.equal(group.options.length, 32)
+  assert.equal(new Set(group.options.map(option => option.key)).size, 32)
+  assert.equal(new Set(group.options.map(option => option.sourceKey)).size, 32)
+  assert.ok(group.options.some(option => option.key === '⑥'))
+  assert.notDeepEqual(group.options.map(option => option.sourceKey), group.optionOriginalOrder)
+  assert.deepEqual(group.stems.map(stem => sourceAnswer(group, stem)), ['ABCD', 'EFG', 'HIJ', 'KLMNOP', 'QRSTUVWXYZ', '①②③④⑤⑥'])
+  const answerLabels = index => group.stems[index].answer.map(key => group.options.find(option => option.key === key).label)
+  assert.deepEqual(new Set(answerLabels(0)), new Set(['气胸', '空气栓塞', '血管损伤', '神经损伤']))
+  assert.deepEqual(new Set(answerLabels(1)), new Set(['立即拔管', '抗生素治疗', '导管尖端细菌培养']))
+  assert.ok(answerLabels(3).includes('葡萄糖耐受下降'))
+  assert.ok(answerLabels(4).includes('胆囊收缩素分泌减少'))
+  assert.ok(answerLabels(4).includes('急性非结石性胆囊炎'))
+  for (const label of ['血钙升高', '尿钙升高', '碱性磷酸酶（ALP）升高']) assert.ok(answerLabels(5).includes(label))
+  assert.ok(group.options.every(option => !/最常见|最严重|为标志/.test(option.label)))
+  assert.match(group.stems[0].explanation, /气胸最常见、空气栓塞最严重/)
+  assert.match(group.stems[3].explanation, /低磷为标志/)
+  assert.equal(group.answerRevision, 'pn-complications-complete-20261028')
+  assert.equal(new Set(group.stems.flatMap(stem => stem.answer)).size, 32)
+})
+
 test('both lecture editions stay aligned after restructuring and retain exact burn and EN pages', () => {
   for (const name of ['surgery-remaining-reviewed-lecture-evidence', 'surgery-updated-lecture-evidence']) {
     const review = read(name)
@@ -103,5 +126,7 @@ test('both lecture editions stay aligned after restructuring and retain exact bu
     const en = reviewed.find(group => group.id === 'surgery-general-core-n04a')
     assert.equal(lectureForStem(en, 0).lectureNumber, 32)
     assert.equal(lectureForStem(en, 0).chapterPage, 1)
+    const pn = reviewed.find(group => group.id === 'surgery-general-core-n04b')
+    assert.deepEqual(pn.stems.map((_, index) => lectureForStem(pn, index).chapterPage), [2, 2, 2, 2, 2, 3])
   }
 })

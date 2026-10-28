@@ -1,4 +1,4 @@
-const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ①②③④⑤⑥⑦⑧⑨⑩'
 
 const lectureMeta = {
   30: { id: 'lecture-30', title: '第30讲 · 输血' },
@@ -43,6 +43,7 @@ function evidence(lectureNumber, page, description) {
 }
 
 function choiceGroup({ id, title, lecture, page, options, stems, answerRevision }) {
+  if (options.length > LETTERS.length) throw new Error(`${id}: option pool exceeds supported keys`)
   const sourceKeys = [...LETTERS.slice(0, options.length)]
   const order = shuffledSourceKeys(id, options.length)
   const currentBySource = Object.fromEntries(order.map((sourceKey, index) => [sourceKey, LETTERS[index]]))
@@ -53,7 +54,8 @@ function choiceGroup({ id, title, lecture, page, options, stems, answerRevision 
     ocrScore: 1,
     sourceKey,
   }))
-  const normalizedStems = stems.map(([text, answer]) => {
+  const normalizedStems = stems.map(([text, answer, details = {}]) => {
+    if (answer.some(key => !sourceKeys.includes(key))) throw new Error(`${id}: unknown answer key`)
     const remapped = answer.map((sourceKey) => currentBySource[sourceKey])
     return {
       text,
@@ -62,6 +64,7 @@ function choiceGroup({ id, title, lecture, page, options, stems, answerRevision 
       answerMode: remapped.length > 1 ? '多选' : '单选',
       sourceText: `${text} ${answer.join('、')}`,
       ocrScore: 1,
+      ...details,
     }
   })
   const lectureEvidence = evidence(lecture, page, `本题组已按《核心精讲·${title.split('·')[0]}》对应页逐项复核。`)
@@ -319,14 +322,34 @@ const groups = [
   choiceGroup({
     id: 'surgery-general-core-n04b', title: '营养代谢·肠外营养并发症', lecture: 32, page: 2,
     options: [
-      '伤口愈合延迟', '维生素缺乏', '低钾', '体内谷氨酰胺大量消耗', '心衰',
-      '中心静脉导管放置过程中气胸最常见', '肠内缺乏食物刺激', '血钙、尿钙和ALP升高',
-      '肠道细菌和内毒素移位', '空气栓塞最严重', '肠黏膜萎缩和通透性增加', '脱发',
-      '低磷为标志', '肝脂肪浸润、胆汁淤积等功能损害', '低镁',
-      '过高能量供给，特别是大量单一使用葡萄糖', '立即拔管、抗生素、导管尖端细菌培养',
-      '四肢关节疼痛甚至骨折', '中心静脉导管相关感染', '皮肤干燥脱屑', '骨钙丢失、骨质疏松',
+      '气胸', '空气栓塞', '血管损伤', '神经损伤',
+      '立即拔管', '抗生素治疗', '导管尖端细菌培养',
+      '伤口愈合延迟', '皮肤干燥脱屑', '脱发',
+      '葡萄糖耐受下降', '低磷血症', '低钾血症', '低镁血症', '维生素缺乏', '心衰',
+      '肝脂肪浸润', '胆汁淤积', '急性非结石性胆囊炎',
+      '肠内缺乏食物刺激', '胆囊收缩素分泌减少', '肠黏膜萎缩', '肠黏膜通透性增加',
+      '肠道细菌和内毒素移位', '能量供给过高，尤其葡萄糖过负荷', '体内谷氨酰胺大量消耗',
+      '骨钙丢失、骨质疏松', '四肢关节疼痛', '骨折', '血钙升高', '尿钙升高', '碱性磷酸酶（ALP）升高',
     ],
-    stems: [['肠外营养：导管相关', ['F', 'J', 'Q', 'S']], ['必需脂肪酸缺乏', ['A', 'L', 'T']], ['再喂养综合征', ['B', 'C', 'E', 'M', 'O']], ['长期肠外营养：肝胆', ['D', 'G', 'I', 'K', 'N', 'P']], ['长期肠外营养：骨', ['H', 'R', 'U']]],
+    stems: [
+      ['中心静脉置管：非感染性并发症', ['A', 'B', 'C', 'D'], {
+        explanation: '按讲义，置管过程中气胸最常见、空气栓塞最严重，还可损伤血管和神经。导管相关感染及其处理另列下一小题。',
+      }],
+      ['中心静脉导管相关感染：处理', ['E', 'F', 'G'], {
+        explanation: '本题按讲义列出的处理措施作答：立即拔管、抗生素治疗，并将导管尖端送细菌培养。',
+      }],
+      ['必需脂肪酸缺乏：表现', ['H', 'I', 'J']],
+      ['再喂养综合征：代谢异常与表现', ['K', 'L', 'M', 'N', 'O', 'P'], {
+        explanation: '讲义以低磷为标志，同时列出低钾、低镁、维生素缺乏、葡萄糖耐受下降及心衰。不能漏掉葡萄糖耐受下降，也不要与长期肠外营养代谢性骨病的钙改变混淆。',
+      }],
+      ['长期肠外营养：肝胆损害及发生机制', ['Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'], {
+        explanation: '肝脂肪浸润、胆汁淤积及急性非结石性胆囊炎属于表现；肠内刺激减少、胆囊收缩素减少、肠黏膜屏障改变、细菌和内毒素移位、葡萄糖过负荷及谷氨酰胺消耗属于相关机制。',
+      }],
+      ['长期肠外营养：代谢性骨病的表现与化验', ['①', '②', '③', '④', '⑤', '⑥'], {
+        explanation: '按讲义第3页：骨钙丢失、骨质疏松，四肢关节疼痛甚至骨折；血钙、尿钙及碱性磷酸酶升高。',
+      }],
+    ],
+    answerRevision: 'pn-complications-complete-20261028',
   }),
   fillGroup({
     id: 'surgery-general-core-n05', title: '营养代谢·数字挖空', lecture: 32, page: 2,
