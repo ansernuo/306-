@@ -109,6 +109,37 @@ test('a match buried in the full entry is brought into the visible preview', () 
   assert.ok(previewBlocks(item, query).some(block => blockText(block).includes(query)))
 })
 
+test('every mnemonic decoding stays fully visible in all five subjects, including during searches', () => {
+  for (const subject of ['med', 'surgery', 'pathology', 'physiology', 'biochemistry']) {
+    const items = indexed.filter(item => item.locations.some(location => location.subject === subject))
+    assert.ok(items.some(item => item.blocks.filter(block => block.kind === 'mapping').length > 6), subject)
+    for (const item of items) {
+      const mappings = item.blocks.filter(block => block.kind === 'mapping')
+      for (const query of ['', item.title, blockText(item.blocks.at(-1)).slice(-8)]) {
+        const visible = previewBlocks(item, query)
+        assert.deepEqual(visible.filter(block => block.kind === 'mapping'), mappings, `${subject}/${item.id}/${query}`)
+        assert.deepEqual(visible, item.blocks.filter(block => visible.includes(block)), `${item.id}: preserve source order`)
+        assert.ok(item.blocks.filter(block => !visible.includes(block)).every(block => block.kind !== 'mapping'))
+      }
+    }
+  }
+})
+
+test('the highway analogy is complete without expansion and extra notes are the only collapsible content', () => {
+  const highway = indexed.find(item => item.id === 'biochemistry-286')
+  assert.equal(highway.blocks.filter(block => block.kind === 'mapping').length, 9)
+  assert.deepEqual(previewBlocks(highway, ''), highway.blocks)
+  const longNotes = indexed.find(item => item.blocks.filter(block => block.kind !== 'mapping').length > 3)
+  const preview = previewBlocks(longNotes, '')
+  assert.equal(preview.filter(block => block.kind !== 'mapping').length, 2)
+  assert.ok(longNotes.blocks.filter(block => !preview.includes(block)).every(block => block.kind !== 'mapping'))
+  const lastNote = longNotes.blocks.findLast(block => block.kind !== 'mapping')
+  const query = blockText(lastNote).slice(-8)
+  const searched = previewBlocks(longNotes, query)
+  assert.ok(searched.includes(lastNote))
+  assert.ok(longNotes.blocks.filter(block => block.kind === 'mapping').every(block => searched.includes(block)))
+})
+
 test('highlights preserve text and span subscript, punctuation and multiple term boundaries', () => {
   for (const [text, query] of [['甲状腺激素', '甲状腺'], ['H₂O和ＥＰＯ', 'h2o epo'], ['肾上腺素／去甲肾上腺素', '肾上腺素'], ['<img onerror=alert(1)>', 'img']]) {
     const parts = highlightParts(text, query)

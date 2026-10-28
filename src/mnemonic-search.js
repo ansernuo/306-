@@ -54,11 +54,14 @@ export function searchMnemonics(items, { query = '', subject = 'all', chapter = 
 }
 
 export function previewBlocks(item, query) {
-  const preview = item.blocks.slice(0, 6)
   const words = queryWords(query)
-  const match = words.length ? item.blocks.find(block => words.some(word => normalizeMnemonicText(blockText(block)).includes(word))) : null
-  if (match && !preview.includes(match)) return [...preview.slice(0, 5), match]
-  return preview
+  let noteCount = 0
+  return item.blocks.filter(block => {
+    // A mnemonic is one complete decoding, regardless of how many rows it has.
+    if (block.kind === 'mapping') return true
+    const leadingNote = noteCount++ < 2
+    return leadingNote || words.some(word => normalizeMnemonicText(blockText(block)).includes(word))
+  })
 }
 
 export function highlightParts(text, query) {

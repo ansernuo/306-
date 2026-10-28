@@ -17,7 +17,7 @@ function KnowledgeBlock({ block, query }) {
 const MnemonicCard = memo(function MnemonicCard({ item, query, favorite, onFavorite }) {
   const [expanded, setExpanded] = useState(false)
   const preview = previewBlocks(item, query)
-  const remaining = item.blocks.filter(block => !preview.includes(block))
+  const remaining = item.blocks.filter(block => block.kind !== 'mapping' && !preview.includes(block))
   return <article className="mnemonic-card" aria-labelledby={`mnemonic-${item.id}`}>
     <div className="mnemonic-card-heading">
       <div className="mnemonic-card-title">
@@ -29,7 +29,7 @@ const MnemonicCard = memo(function MnemonicCard({ item, query, favorite, onFavor
     </div>
     <div className="mnemonic-knowledge">{preview.map((block, index) => <KnowledgeBlock key={index} block={block} query={query} />)}</div>
     {remaining.length ? <>
-      <button className="mnemonic-expand" aria-expanded={expanded} aria-controls={`mnemonic-detail-${item.id}`} onClick={() => setExpanded(value => !value)}>{expanded ? '收起' : `其余 ${remaining.length} 项要点`}<span aria-hidden="true">{expanded ? '−' : '+'}</span></button>
+      <button className="mnemonic-expand" aria-expanded={expanded} aria-controls={`mnemonic-detail-${item.id}`} onClick={() => setExpanded(value => !value)}>{expanded ? '收起补充说明' : '补充说明'}<span aria-hidden="true">{expanded ? '−' : '+'}</span></button>
       {expanded ? <div id={`mnemonic-detail-${item.id}`} className="mnemonic-detail">{remaining.map((block, index) => <KnowledgeBlock key={index} block={block} query={query} />)}</div> : null}
     </> : null}
   </article>
