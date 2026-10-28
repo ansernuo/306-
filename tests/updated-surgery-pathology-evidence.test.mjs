@@ -60,13 +60,14 @@ test('surgery edition migration retains every prior cross-source page and covera
   assert.ok(pages.some(page => page.previousPage === 180 && page.page === 147))
   assert.ok(pages.some(page => page.previousPage === 284 && page.page === 231))
 })
-test('pathology fixes specific misplaced pages and retains a visible answer-source discrepancy notice', () => {
+test('pathology fixes misplaced pages and resolves the lecture-backed RAS answer', () => {
   const updated = applyReviewedEvidence({ groups: pathology }, pathologyReview).groups
   const get = id => updated.find(group => group.id === id)
   assert.equal(lectureForStem(get('p06-g1'), 0).page, 31)
   assert.equal(lectureForStem(get('p28-g3'), 4).page, 169)
   assert.ok(get('p35-g1').lectureEvidencePages.some(page => page.page === 220))
-  assert.match(get('p36-g1').lectureEvidenceNotice, /RAS.*大肠癌/)
+  assert.equal(get('p36-g1').lectureEvidenceNotice, undefined)
+  assert.deepEqual(get('p36-g1').stems.find(stem => stem.text === 'RAS').answer, ['E', 'F', 'H', 'J', 'L', '①'])
   for (const number of [34, 35, 36]) {
     const group = get(`pathology-stage-exam-2026-09-q${String(number).padStart(3, '0')}`)
     assert.ok(group.lectureEvidencePages.some(page => page.sourceSubject === 'med'), group.id)

@@ -505,8 +505,19 @@ def _page_32() -> list[dict]:
     ]
 
 
+def repair_ras_tumors(group: dict) -> None:
+    """Use the RAS row in precision PDF page 221, not the booklet's K typo."""
+    ras = next(row for row in group["stems"] if row["text"] == "RAS")
+    ras.update(answer=list("EFHJL①"), answerMode="多选", sourceText="RAS（EFHJL①）")
+    group["sourceText"] = " | ".join([
+        *(row["sourceText"] for row in group["options"]),
+        *(row["sourceText"] for row in group["stems"]),
+    ])
+    group["answerRevision"] = "ras-colorectal-20261028-v2"
+
+
 def _page_36() -> list[dict]:
-    return [
+    groups = [
         _group(
             "p36-g1", 36, "原癌基因与相关肿瘤",
             [
@@ -519,7 +530,7 @@ def _page_36() -> list[dict]:
                 ("①", "小G蛋白"), ("②", "丝氨酸/苏氨酸激酶"), ("③", "酪氨酸激酶"),
             ],
             [
-                ("PDGF", "AC"), ("RAS", "EFHJK①"), ("BRAF", "N②"), ("ABL", "BI③"),
+                ("PDGF", "AC"), ("RAS", "EFHJL①"), ("BRAF", "N②"), ("ABL", "BI③"),
                 ("ERBB2/HER2", "DGJQ③"), ("KIT", "MR③"), ("c-MYC", "O"),
                 ("MYC", "S"), ("CyclinD1", "KT"),
             ],
@@ -536,6 +547,8 @@ def _page_36() -> list[dict]:
             ],
         ),
     ]
+    repair_ras_tumors(groups[0])
+    return groups
 
 
 MANUAL_PAGE_BUILDERS = {

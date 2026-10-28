@@ -229,7 +229,7 @@ def main() -> None:
         "p32-g3": [("结核", "ABE"), ("风湿病", "CDG"), ("伤寒", "FHJ"), ("梅毒III期", "IMN"), ("慢性血吸虫虫卵", "AOP")],
         "p33-g1": [("良性肿瘤", "AEFGIMNOSU"), ("恶性肿瘤", "BCDGHJLPQRT")],
         "p35-g2": [("P53", "ABE"), ("APC", "FGJ"), ("RB", "HM"), ("BRCA", "CI"), ("NF", "DK"), ("WT", "L"), ("VHL", "N")],
-        "p36-g1": [("PDGF", "AC"), ("RAS", "EFHJK①"), ("BRAF", "N②"), ("ABL", "BI③"), ("ERBB2/HER2", "DGJQ③"), ("KIT", "MR③"), ("c-MYC", "O"), ("MYC", "S"), ("CyclinD1", "KT")],
+        "p36-g1": [("PDGF", "AC"), ("RAS", "EFHJL①"), ("BRAF", "N②"), ("ABL", "BI③"), ("ERBB2/HER2", "DGJQ③"), ("KIT", "MR③"), ("c-MYC", "O"), ("MYC", "S"), ("CyclinD1", "KT")],
         "p36-g2": [("生长因子", "A"), ("信号转导蛋白", "CFI"), ("生长因子受体", "BE"), ("转录因子", "GH"), ("细胞周期调节蛋白", "D")],
         "p37-g2": [("原癌基因", "ACEGJLNOP"), ("抑癌基因", "BDFHIKM")],
     }
