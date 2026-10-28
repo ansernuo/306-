@@ -470,3 +470,6 @@ button:disabled { cursor: default; }
 .shared-option span, .stem-copy p { min-width: 0; overflow-wrap: anywhere; }
 .answer-choices, .answer-choice-category > div { min-width: 0; }
 .answer-chip { flex-shrink: 0; }
+
+/* Scanned fill-in prompts retain the full text size, including cross-page continuations. */
+.daily-fill-stem .stem-figure img { max-height: none; }
