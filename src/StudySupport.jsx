@@ -3,12 +3,14 @@ import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, restore
 
 const SESSION_KEY = 'study-practice-session-v1'
 const encouragements = [
-  '这一段是你实实在在做完的。先让自己高兴几秒，再决定是继续一组，还是休息一下。',
-  '有些题要遇见几次才会熟。现在还没记牢，也不抹掉你刚才花下的时间。慢一点，我们接着来。',
-  '我知道你想把它学得更扎实。眼前这一段已经完成了，先收下这点进展，再往下走。',
-  '先不用催自己。今天这一段练习已经留下来了，你可以踏踏实实地休息一会儿。',
-  '分数能告诉你哪些还没掌握，但不能把今天这段练习判成白费。做完这一轮，值得对自己好一点。',
-  '你不用一直绷着才算认真。先把肩膀放松，喝口水，回来还是从这里接着学。',
+  '欸，已经做了这么多啦。刚才一题接一题的时候，是不是都没注意？先抬头看看远处吧，下一题等你一会儿也没关系。',
+  '要是刚才有道题让你很烦，就先别跟它较劲啦。喝口水，缓一缓，回来我们再把它弄明白。',
+  '想学好的东西一多，就容易觉得时间不够用。可是也得给吃饭、发呆留一点位置呀。先歇一小会儿，好不好？',
+  '今天有没有哪一处，是“啊，原来是这样”的？哪怕只有一处，也挺让人高兴的。下次碰见它，就没那么陌生啦。',
+  '还想继续的话，我们就再做一点。要是脑袋已经转不动了，今天先到这里也好。明天打开，我们还从这里接着来。',
+  '做题的时候容易只盯着哪里错了。先看看做对的那些嘛，有没有以前也拿不准的？那些也是你一点点学会的呀。',
+  '先松松肩膀吧，坐了好一会儿了。窗外现在是什么样子？去看一眼也好，总不能今天只和题目见面呀。',
+  '有些东西今天看着还是绕，隔几天再看，说不定就接上了。暂时没想通的先留着，我们不用现在就跟它分出胜负。',
 ]
 
 export function usePracticeEncouragement(enabled, blocked) {
@@ -111,7 +113,7 @@ export function EncouragementDialog({ notice, onDismiss }) {
   return <div className="modal-backdrop encouragement-backdrop" onClick={() => onDismiss(false)}>
     <section ref={dialog} className="encouragement-dialog" role="dialog" aria-modal="true" aria-labelledby="encouragement-title" aria-describedby="encouragement-message" onClick={event => event.stopPropagation()}>
       <button className="encouragement-close" aria-label="关闭鼓励" onClick={() => onDismiss(false)}>×</button>
-      <span className="encouragement-eyebrow">给这一段练习，一个停顿</span>
+      <span className="encouragement-eyebrow">歇一小会儿，聊两句</span>
       <h2 id="encouragement-title">{title}</h2>
       <p id="encouragement-message">{notice.message}</p>
       <div className="encouragement-actions"><button className="ghost-button" onClick={() => onDismiss(true)}>休息一下</button><button className="primary-button" onClick={() => onDismiss(false)}>继续练习 <span aria-hidden="true">→</span></button></div>
