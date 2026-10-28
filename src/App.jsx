@@ -6,6 +6,8 @@ import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js
 import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
+import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
+import { groupHasResponses } from './study-milestones.js'
 
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
 
@@ -738,6 +740,10 @@ function App() {
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
   const [topbarCollapsed, setTopbarCollapsed] = useState(false)
   const [keyboardStem, setKeyboardStem] = useState(null)
+  const { notice: encouragement, recordCompletion, dismiss: dismissEncouragement } = usePracticeEncouragement(
+    storageReady && viewMode === 'questions' && !isLoadingContent,
+    Boolean(showSource || showLectureEvidence || mobileEvidence),
+  )
   const questionCardRef = useRef(null)
   const pendingOptionRef = useRef(null)
   const flushPendingOption = useCallback(() => {
@@ -958,8 +964,9 @@ function App() {
   }
 
   const submitGroup = useCallback(() => {
+    if (!isSubmitted && groupHasResponses(group, currentSelections)) recordCompletion(answerStorageId)
     setSubmitted((previous) => ({ ...previous, [answerStorageId]: true }))
-  }, [answerStorageId])
+  }, [answerStorageId, currentSelections, group, isSubmitted, recordCompletion])
 
   const redoGroup = useCallback(() => {
     setSubmitted((previous) => {
@@ -1012,7 +1019,7 @@ function App() {
     let shiftTap = null
 
     function canUseLectureShortcut(event) {
-      if (viewMode !== 'questions') return false
+      if (viewMode !== 'questions' || encouragement) return false
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return false
       const target = event.target instanceof Element ? event.target : null
@@ -1066,10 +1073,10 @@ function App() {
       window.removeEventListener('blur', cancelShiftTap)
       window.removeEventListener('pointerdown', cancelShiftTap, true)
     }
-  }, [activeStemIndex, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource, viewMode])
+  }, [activeStemIndex, encouragement, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource, viewMode])
 
   useEffect(() => {
-    if (viewMode !== 'questions' || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence) return undefined
+    if (viewMode !== 'questions' || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement) return undefined
     let sequence = ''
     let timer
 
@@ -1182,7 +1189,7 @@ function App() {
       window.removeEventListener('blur', clearSequence)
       clearSequence()
     }
-  }, [activeStemIndex, answerStorageId, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showSource, submitGroup, viewMode])
+  }, [activeStemIndex, answerStorageId, encouragement, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showSource, submitGroup, viewMode])
 
   function jumpTo(index) {
     if (!filteredGroups.length) return
@@ -1388,6 +1395,8 @@ function App() {
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       {showLectureEvidence && <LectureEvidenceModal notice={group.lectureEvidenceNotice} pages={group.lectureEvidencePages} evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
+      <VisitorCount />
+      {encouragement && <EncouragementDialog notice={encouragement} onDismiss={dismissEncouragement} />}
       <div className="site-watermark" aria-hidden="true">
         {viewMode === 'questions' && showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
