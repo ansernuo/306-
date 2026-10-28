@@ -2726,67 +2726,99 @@
       "options": [
         {
           "key": "A",
-          "label": "颈丛",
-          "sourceText": "A. 颈丛",
-          "ocrScore": 1.0,
-          "sourceKey": "A"
-        },
-        {
-          "key": "B",
-          "label": "臂丛锁骨上径路",
-          "sourceText": "B. 臂丛锁骨上径路",
-          "ocrScore": 1.0,
-          "sourceKey": "C"
-        },
-        {
-          "key": "C",
-          "label": "肋间",
-          "sourceText": "C. 肋间",
+          "label": "喉返神经麻痹",
+          "sourceText": "A. 喉返神经麻痹",
           "ocrScore": 1.0,
           "sourceKey": "D"
         },
         {
+          "key": "B",
+          "label": "高位硬膜外阻滞",
+          "sourceText": "B. 高位硬膜外阻滞",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "C",
+          "label": "气胸",
+          "sourceText": "C. 气胸",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
           "key": "D",
-          "label": "臂丛肌间沟径路",
-          "sourceText": "D. 臂丛肌间沟径路",
+          "label": "膈神经麻痹",
+          "sourceText": "D. 膈神经麻痹",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "E",
+          "label": "全脊髓麻醉",
+          "sourceText": "E. 全脊髓麻醉",
           "ocrScore": 1.0,
           "sourceKey": "B"
+        },
+        {
+          "key": "F",
+          "label": "颈交感神经麻痹",
+          "sourceText": "F. 颈交感神经麻痹",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
         }
       ],
       "stems": [
         {
-          "text": "易致高位硬膜外阻滞、全脊髓麻醉",
+          "text": "颈丛阻滞",
           "answer": [
             "A",
-            "D"
-          ],
-          "answerMode": "多选",
-          "sourceText": "易致高位硬膜外阻滞、全脊髓麻醉 A、D",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "易致膈神经、喉返神经或颈交感神经麻痹",
-          "answer": [
-            "A",
-            "D",
-            "B"
-          ],
-          "answerMode": "多选",
-          "sourceText": "易致膈神经、喉返神经或颈交感神经麻痹 A、D、B",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "易致气胸",
-          "answer": [
             "B",
+            "D",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "颈丛阻滞 A、B、D、E、F",
+          "ocrScore": 1.0,
+          "explanation": "按讲义可见高位硬膜外阻滞、全脊髓麻醉，以及膈神经、喉返神经、颈交感神经麻痹。另须注意：不能同时进行双侧深颈丛阻滞。"
+        },
+        {
+          "text": "臂丛阻滞：肌间沟径路",
+          "answer": [
+            "A",
+            "B",
+            "D",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "臂丛阻滞：肌间沟径路 A、B、D、E、F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "臂丛阻滞：锁骨上径路",
+          "answer": [
+            "A",
+            "C",
+            "D",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "臂丛阻滞：锁骨上径路 A、C、D、F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "肋间神经阻滞",
+          "answer": [
             "C"
           ],
-          "answerMode": "多选",
-          "sourceText": "易致气胸 B、C",
+          "answerMode": "单选",
+          "sourceText": "肋间神经阻滞 C",
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "麻醉·神经阻滞并发症；A. 颈丛；B. 臂丛锁骨上径路；C. 肋间；D. 臂丛肌间沟径路；易致高位硬膜外阻滞、全脊髓麻醉 A、D；易致膈神经、喉返神经或颈交感神经麻痹 A、D、B；易致气胸 B、C",
+      "sourceText": "麻醉·神经阻滞并发症；A. 喉返神经麻痹；B. 高位硬膜外阻滞；C. 气胸；D. 膈神经麻痹；E. 全脊髓麻醉；F. 颈交感神经麻痹；颈丛阻滞 A、B、D、E、F；臂丛阻滞：肌间沟径路 A、B、D、E、F；臂丛阻滞：锁骨上径路 A、C、D、F；肋间神经阻滞 C",
+      "answerRevision": "nerve-block-complications-transposed-20261028",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -2807,7 +2839,9 @@
         "A",
         "B",
         "C",
-        "D"
+        "D",
+        "E",
+        "F"
       ]
     },
     {

@@ -46,8 +46,8 @@ def main() -> None:
     assert len(groups) == 31
     assert len(by_id) == len(groups)
     assert set(by_id) == REQUIRED_GROUPS
-    assert sum(len(group["stems"]) for group in groups) == 135
-    assert sum(len(group["options"]) for group in groups) == 186
+    assert sum(len(group["stems"]) for group in groups) == 136
+    assert sum(len(group["options"]) for group in groups) == 188
 
     forbidden = re.compile(r"\s{2,}|[|°•“”‘’]")
     for group in groups:
@@ -133,7 +133,7 @@ def main() -> None:
         all_ids.extend(group["id"] for group in data["groups"])
     assert len(all_ids) == len(set(all_ids)), "duplicate surgery group ids"
 
-    print({"groups": 31, "stems": 135, "options": 186, "fill": 8, "ranking": 2, "status": "ok"})
+    print({"groups": 31, "stems": 136, "options": 188, "fill": 8, "ranking": 2, "status": "ok"})
 
 
 if __name__ == "__main__":

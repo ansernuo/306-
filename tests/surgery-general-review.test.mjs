@@ -13,7 +13,7 @@ const sourceAnswer = (group, stem) => stem.answer.map(key => group.options.find(
 
 test('all general-surgery pools have valid answers and no repeated or self-answering correct options', () => {
   assert.equal(groups.length, 93)
-  assert.equal(groups.reduce((count, group) => count + group.stems.length, 0), 399)
+  assert.equal(groups.reduce((count, group) => count + group.stems.length, 0), 400)
   for (const group of groups) {
     const labels = group.options.map(option => option.label)
     assert.equal(new Set(labels).size, labels.length, group.id)
@@ -112,6 +112,23 @@ test('PN complications remain one shared group with six focused stems, 32 shuffl
   assert.equal(new Set(group.stems.flatMap(stem => stem.answer)).size, 32)
 })
 
+test('nerve-block complications transpose the lecture table and separate the three nerve palsies', () => {
+  const group = get('surgery-general-a07')
+  assert.deepEqual(group.stems.map(stem => stem.text), [
+    '颈丛阻滞', '臂丛阻滞：肌间沟径路', '臂丛阻滞：锁骨上径路', '肋间神经阻滞',
+  ])
+  assert.equal(group.options.length, 6)
+  assert.deepEqual(new Set(group.options.map(option => option.label)), new Set([
+    '高位硬膜外阻滞', '全脊髓麻醉', '膈神经麻痹', '喉返神经麻痹', '颈交感神经麻痹', '气胸',
+  ]))
+  assert.notDeepEqual(group.options.map(option => option.sourceKey), group.optionOriginalOrder)
+  assert.deepEqual(group.stems.map(stem => sourceAnswer(group, stem)), ['ABCDE', 'ABCDE', 'CDEF', 'F'])
+  assert.equal(group.stems.reduce((sum, stem) => sum + stem.answer.length, 0), 15)
+  assert.deepEqual(group.stems.map(stem => stem.answerMode), ['多选', '多选', '多选', '单选'])
+  assert.match(group.stems[0].explanation, /不能同时进行双侧深颈丛阻滞/)
+  assert.equal(group.answerRevision, 'nerve-block-complications-transposed-20261028')
+})
+
 test('both lecture editions stay aligned after restructuring and retain exact burn and EN pages', () => {
   for (const name of ['surgery-remaining-reviewed-lecture-evidence', 'surgery-updated-lecture-evidence']) {
     const review = read(name)
@@ -128,5 +145,7 @@ test('both lecture editions stay aligned after restructuring and retain exact bu
     assert.equal(lectureForStem(en, 0).chapterPage, 1)
     const pn = reviewed.find(group => group.id === 'surgery-general-core-n04b')
     assert.deepEqual(pn.stems.map((_, index) => lectureForStem(pn, index).chapterPage), [2, 2, 2, 2, 2, 3])
+    const nerveBlocks = reviewed.find(group => group.id === 'surgery-general-a07')
+    assert.deepEqual(nerveBlocks.stems.map((_, index) => [lectureForStem(nerveBlocks, index).lectureNumber, lectureForStem(nerveBlocks, index).chapterPage]), [[36, 3], [36, 3], [36, 3], [36, 3]])
   }
 })
