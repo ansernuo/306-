@@ -12182,11 +12182,11 @@
             "F",
             "H",
             "J",
-            "K",
+            "L",
             "①"
           ],
           "answerMode": "多选",
-          "sourceText": "RAS（EFHJK①）",
+          "sourceText": "RAS（EFHJL①）",
           "sourceY": null,
           "lectureEvidence": {
             "lectureId": "lecture-26",
@@ -12319,7 +12319,7 @@
           }
         }
       ],
-      "sourceText": "A.星形细胞瘤 | B.慢粒CML | C.骨肉瘤 | D.乳腺癌 | E.胰腺癌 | F.白血病 | G.卵巢癌 | H.膀胱癌 | I.急性白血病 | J.肺癌 | K.套细胞淋巴瘤 | L.大肠癌 | M.胃肠间质瘤 | N.黑色素瘤 | O.Burkitt淋巴瘤t(8;14) | Q.胃癌 | R.精原细胞瘤 | S.肺小细胞癌 | T.多发性骨髓瘤 | ①.小G蛋白 | ②.丝氨酸/苏氨酸激酶 | ③.酪氨酸激酶 | PDGF（AC） | RAS（EFHJK①） | BRAF（N②） | ABL（BI③） | ERBB2/HER2（DGJQ③） | KIT（MR③） | c-MYC（O） | MYC（S） | CyclinD1（KT）",
+      "sourceText": "A.星形细胞瘤 | B.慢粒CML | C.骨肉瘤 | D.乳腺癌 | E.胰腺癌 | F.白血病 | G.卵巢癌 | H.膀胱癌 | I.急性白血病 | J.肺癌 | K.套细胞淋巴瘤 | L.大肠癌 | M.胃肠间质瘤 | N.黑色素瘤 | O.Burkitt淋巴瘤t(8;14) | Q.胃癌 | R.精原细胞瘤 | S.肺小细胞癌 | T.多发性骨髓瘤 | ①.小G蛋白 | ②.丝氨酸/苏氨酸激酶 | ③.酪氨酸激酶 | PDGF（AC） | RAS（EFHJL①） | BRAF（N②） | ABL（BI③） | ERBB2/HER2（DGJQ③） | KIT（MR③） | c-MYC（O） | MYC（S） | CyclinD1（KT）",
       "reviewState": "已按题册原图与讲义逐题复核",
       "topic": "肿瘤",
       "lectureIds": [
@@ -12331,7 +12331,8 @@
         "image": "pathology/lecture-pages/lecture-26-page-13.webp",
         "title": "第26讲第13页：病理 肿瘤",
         "description": "本题对应第26讲第13页讲义。"
-      }
+      },
+      "answerRevision": "ras-colorectal-20261028-v2"
     },
     {
       "id": "p36-g2",
