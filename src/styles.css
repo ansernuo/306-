@@ -486,3 +486,11 @@ button:disabled { cursor: default; }
 
 /* Scanned fill-in prompts retain the full text size, including cross-page continuations. */
 .daily-fill-stem .stem-figure img { max-height: none; }
+
+.daily-prompt-zoom { display: none; }
+@media (max-width: 720px) {
+  .daily-prompt-zoom { display: block; margin: 0 0 10px; min-width: 0; }
+  .daily-prompt-zoom summary { cursor: pointer; color: #2563eb; font-size: 12px; padding: 5px 0; }
+  .daily-prompt-zoom > div { max-width: 100%; overflow-x: auto; padding: 8px; border: 1px solid #dce5f0; border-radius: 8px; background: white; }
+  .daily-prompt-zoom img { display: block; width: 900px; max-width: none; }
+}
