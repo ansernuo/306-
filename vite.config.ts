@@ -13,6 +13,7 @@ export default defineConfig(async () => {
   const externalAssetBase = process.env.VITE_ASSET_BASE?.trim();
   const { cloudflare } = await import("@cloudflare/vite-plugin");
   return {
+    base: './',
     // Sites production loads the large, public teaching images from GitHub
     // Pages. Local development keeps Vite's normal public/ directory so the
     // same source paths continue to work without a network dependency.
