@@ -44,10 +44,6 @@ button:disabled { cursor: default; }
 .encouragement-quote p::before { content: '“'; color: #79a3ee; }
 .encouragement-quote p::after { content: '”'; color: #79a3ee; }
 .encouragement-attribution { margin-top: 16px; color: #6d7d94; font-size: 12px; line-height: 1.8; }
-.encouragement-attribution cite { font-style: normal; }
-.encouragement-source { display: inline-block; margin-top: 7px; color: var(--blue); font-size: 11px; text-decoration: none; text-underline-offset: 3px; }
-.encouragement-source:hover { text-decoration: underline; }
-.encouragement-source:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 2px; }
 .encouragement-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 27px; }
 .encouragement-actions .primary-button { width: auto; background: var(--blue); box-shadow: 0 5px 14px rgba(28,99,220,.18); }
 .encouragement-actions .primary-button:hover { background: var(--blue-deep); }

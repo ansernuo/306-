@@ -95,7 +95,7 @@ export function EncouragementDialog({ notice, onDismiss }) {
     function keydown(event) {
       if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); dismissRef.current(false) }
       if (event.key === 'Tab') {
-        const buttons = [...dialog.current.querySelectorAll('button, a[href]')]
+        const buttons = [...dialog.current.querySelectorAll('button')]
         const first = buttons[0], last = buttons.at(-1)
         if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus() }
         else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus() }
@@ -114,8 +114,7 @@ export function EncouragementDialog({ notice, onDismiss }) {
       <blockquote className="encouragement-quote">
         <p id="encouragement-message">{notice.message}</p>
         <footer id="encouragement-attribution" className="encouragement-attribution">
-          <div>— {notice.quote.author} <cite>《{notice.quote.work}》</cite></div>
-          <a className="encouragement-source" href={notice.quote.url} target="_blank" rel="noopener noreferrer">{notice.quote.original ? '查看原文 · 中文为本站译文' : '查看出处'} <span aria-hidden="true">↗</span></a>
+          <div>— {notice.quote.author}</div>
         </footer>
       </blockquote>
       <div className="encouragement-actions"><button className="ghost-button" onClick={() => onDismiss(true)}>休息一下</button><button className="primary-button" onClick={() => onDismiss(false)}>继续练习 <span aria-hidden="true">→</span></button></div>
