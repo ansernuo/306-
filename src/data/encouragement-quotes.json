@@ -1,0 +1,791 @@
+[
+  {
+    "id": "quote-001",
+    "text": "何妨吟啸且徐行。",
+    "author": "苏轼",
+    "work": "定风波·莫听穿林打叶声",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%AE%9A%E9%A2%A8%E6%B3%A2_(%E8%8E%AB%E8%81%BD%E7%A9%BF%E6%9E%97%E6%89%93%E8%91%89%E8%81%B2)"
+  },
+  {
+    "id": "quote-002",
+    "text": "向来枉费推移力，此日中流自在行。",
+    "author": "朱熹",
+    "work": "观书有感·其二",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%A7%80%E6%9B%B8%E6%9C%89%E6%84%9F"
+  },
+  {
+    "id": "quote-003",
+    "text": "自小刺头深草里，而今渐觉出蓬蒿。",
+    "author": "杜荀鹤",
+    "work": "小松",
+    "url": "https://www.gushiwen.cn/mingju/juv_0735351b32e3.aspx"
+  },
+  {
+    "id": "quote-005",
+    "text": "尽吾志也而不能至者，可以无悔矣。",
+    "author": "王安石",
+    "work": "游褒禅山记",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%81%8A%E8%A4%92%E7%A6%AA%E5%B1%B1%E8%A8%98"
+  },
+  {
+    "id": "quote-006",
+    "text": "盖亦以精力自致者，非天成也。",
+    "author": "曾巩",
+    "work": "墨池记",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%A2%A8%E6%B1%A0%E8%A8%98"
+  },
+  {
+    "id": "quote-007",
+    "text": "吾谋适不用，勿谓知音稀。",
+    "author": "王维",
+    "work": "送綦毋潜落第还乡",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%80%81%E7%B6%A6%E6%AF%8B%E6%BD%9B%E8%90%BD%E7%AC%AC%E9%82%84%E9%84%89"
+  },
+  {
+    "id": "quote-009",
+    "text": "无望其速成，无诱于势利。",
+    "author": "韩愈",
+    "work": "答李翊书",
+    "url": "https://zh.wikisource.org/zh-hans/%E7%AD%94%E6%9D%8E%E7%BF%8A%E6%9B%B8"
+  },
+  {
+    "id": "quote-010",
+    "text": "试玉要烧三日满，辨材须待七年期。",
+    "author": "白居易",
+    "work": "放言五首·其三",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%94%BE%E8%A8%80%E4%BA%94%E9%A6%96_(%E7%99%BD%E5%B1%85%E6%98%93)"
+  },
+  {
+    "id": "quote-011",
+    "text": "不信君看弈棋者，输赢须待局终头。",
+    "author": "白居易",
+    "work": "放言五首·其一",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%94%BE%E8%A8%80%E4%BA%94%E9%A6%96_(%E7%99%BD%E5%B1%85%E6%98%93)"
+  },
+  {
+    "id": "quote-016",
+    "text": "便觉眼前生意满，东风吹水绿参差。",
+    "author": "张栻",
+    "work": "立春偶成",
+    "url": "https://zh.wikisource.org/zh-hans/%E7%AB%8B%E6%98%A5%E5%81%B6%E6%88%90"
+  },
+  {
+    "id": "quote-018",
+    "text": "衣沾不足惜，但使愿无违。",
+    "author": "陶渊明",
+    "work": "归园田居·其三",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%AD%B8%E5%9C%92%E7%94%B0%E5%B1%85"
+  },
+  {
+    "id": "quote-019",
+    "text": "奇文共欣赏，疑义相与析。",
+    "author": "陶渊明",
+    "work": "移居·其一",
+    "url": "https://zh.wikisource.org/zh-hans/%E7%A7%BB%E5%B1%85"
+  },
+  {
+    "id": "quote-020",
+    "text": "悟已往之不谏，知来者之可追。",
+    "author": "陶渊明",
+    "work": "归去来兮辞",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%AD%B8%E5%8E%BB%E4%BE%86%E8%BE%AD"
+  },
+  {
+    "id": "quote-022",
+    "text": "经事还谙事，阅人如阅川。",
+    "author": "刘禹锡",
+    "work": "酬乐天咏老见示",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%85%AC%E6%A8%82%E5%A4%A9%E8%A9%A0%E8%80%81%E8%A6%8B%E7%A4%BA"
+  },
+  {
+    "id": "quote-023",
+    "text": "东隅已逝，桑榆非晚。",
+    "author": "王勃",
+    "work": "滕王阁序",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%BB%95%E7%8E%8B%E9%96%A3%E5%BA%8F"
+  },
+  {
+    "id": "quote-024",
+    "text": "操千曲而后晓声，观千剑而后识器。",
+    "author": "刘勰",
+    "work": "文心雕龙·知音",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%96%87%E5%BF%83%E9%9B%95%E9%BE%8D/%E7%9F%A5%E9%9F%B3"
+  },
+  {
+    "id": "quote-027",
+    "text": "且举世而誉之，而不加劝，举世而非之，而不加沮。",
+    "author": "庄子",
+    "work": "逍遥游",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E9%80%8D%E9%81%99%E9%81%8A"
+  },
+  {
+    "id": "quote-028",
+    "text": "君子深造之以道，欲其自得之也。",
+    "author": "孟子",
+    "work": "离娄下",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E9%9B%A2%E5%A9%81%E4%B8%8B"
+  },
+  {
+    "id": "quote-031",
+    "text": "譬如平地，虽覆一篑，进，吾往也。",
+    "author": "孔子",
+    "work": "论语·子罕",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%AD%90%E7%BD%95%E7%AC%AC%E4%B9%9D"
+  },
+  {
+    "id": "quote-033",
+    "text": "德不孤，必有邻。",
+    "author": "孔子",
+    "work": "论语·里仁",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E9%87%8C%E4%BB%81%E7%AC%AC%E5%9B%9B"
+  },
+  {
+    "id": "quote-034",
+    "text": "取其一，不责其二；即其新，不究其旧。",
+    "author": "韩愈",
+    "work": "原毁",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%8E%9F%E6%AF%80"
+  },
+  {
+    "id": "quote-036",
+    "text": "松柏本孤直，难为桃李颜。",
+    "author": "李白",
+    "work": "古风·其十二",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%8F%A4%E9%A2%A8%E4%BA%94%E5%8D%81%E4%B9%9D%E9%A6%96"
+  },
+  {
+    "id": "quote-037",
+    "text": "水流心不竞，云在意俱迟。",
+    "author": "杜甫",
+    "work": "江亭",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%B1%9F%E4%BA%AD_(%E6%9D%9C%E7%94%AB)"
+  },
+  {
+    "id": "quote-041",
+    "text": "今夜偏知春气暖，虫声新透绿窗沙。",
+    "author": "刘方平",
+    "work": "月夜",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%9C%88%E5%A4%9C_(%E5%8A%89%E6%96%B9%E5%B9%B3)"
+  },
+  {
+    "id": "quote-043",
+    "text": "一年好景君须记，最是橙黄橘绿时。",
+    "author": "苏轼",
+    "work": "赠刘景文",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%B4%88%E5%8A%89%E6%99%AF%E6%96%87"
+  },
+  {
+    "id": "quote-045",
+    "text": "江南无所有，聊赠一枝春。",
+    "author": "陆凯",
+    "work": "赠范晔诗",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%B4%88%E8%8C%83%E6%9B%84%E8%A9%A9"
+  },
+  {
+    "id": "quote-048",
+    "text": "泠泠七丝上，静听松风寒。",
+    "author": "刘长卿",
+    "work": "听弹琴",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%BD%88%E7%90%B4"
+  },
+  {
+    "id": "quote-049",
+    "text": "粗缯大布裹生涯，腹有诗书气自华。",
+    "author": "苏轼",
+    "work": "和董传留别",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%92%8C%E8%91%A3%E5%82%B3%E7%95%99%E5%88%A5"
+  },
+  {
+    "id": "quote-050",
+    "text": "俯仰终宇宙，不乐复何如。",
+    "author": "陶渊明",
+    "work": "读山海经·其一",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%AE%80%E5%B1%B1%E6%B5%B7%E7%B6%93"
+  },
+  {
+    "id": "quote-051",
+    "text": "兴来每独往，胜事空自知。",
+    "author": "王维",
+    "work": "终南别业",
+    "url": "https://zh.wikisource.org/zh-hans/%E7%B5%82%E5%8D%97%E5%88%A5%E6%A5%AD"
+  },
+  {
+    "id": "quote-052",
+    "text": "山气日夕佳，飞鸟相与还。",
+    "author": "陶渊明",
+    "work": "饮酒·其五",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%A3%B2%E9%85%92_(%E9%99%B6%E6%B7%B5%E6%98%8E)"
+  },
+  {
+    "id": "quote-053",
+    "text": "惟有绿荷红菡萏，卷舒开合任天真。",
+    "author": "李商隐",
+    "work": "赠荷花",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%B4%88%E8%8D%B7%E8%8A%B1"
+  },
+  {
+    "id": "quote-054",
+    "text": "绿阴不减来时路，添得黄鹂四五声。",
+    "author": "曾几",
+    "work": "三衢道中",
+    "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E8%A1%A2%E9%81%93%E4%B8%AD"
+  },
+  {
+    "id": "quote-055",
+    "text": "人闲桂花落，夜静春山空。",
+    "author": "王维",
+    "work": "鸟鸣涧",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%B3%A5%E9%B3%B4%E6%BE%97"
+  },
+  {
+    "id": "quote-056",
+    "text": "此中有真意，欲辩已忘言。",
+    "author": "陶渊明",
+    "work": "饮酒·其五",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%A3%B2%E9%85%92_(%E9%99%B6%E6%B7%B5%E6%98%8E)"
+  },
+  {
+    "id": "quote-057",
+    "text": "归根结底，神圣的是忠于自己的心。",
+    "author": "拉尔夫·沃尔多·爱默生",
+    "work": "自立",
+    "url": "https://www.gutenberg.org/cache/epub/16643/pg16643.txt",
+    "original": "Nothing is at last sacred but the integrity of your own mind."
+  },
+  {
+    "id": "quote-058",
+    "text": "没有什么比这一事实更令人振奋：人能够通过自觉的努力，提升自己的生活。",
+    "author": "亨利·戴维·梭罗",
+    "work": "瓦尔登湖",
+    "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt",
+    "original": "I know of no more encouraging fact than the unquestionable ability of man to elevate his life by a conscious endeavor."
+  },
+  {
+    "id": "quote-059",
+    "text": "我以自己的样子存在，这就足够了。",
+    "author": "沃尔特·惠特曼",
+    "work": "自我之歌",
+    "url": "https://www.gutenberg.org/cache/epub/1322/pg1322.txt",
+    "original": "I exist as I am, that is enough."
+  },
+  {
+    "id": "quote-060",
+    "text": "不知道黎明何时到来，我便打开每一扇门。",
+    "author": "艾米莉·狄金森",
+    "work": "黎明（狄金森诗集）",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "original": "Not knowing when the Dawn will come, I open every Door."
+  },
+  {
+    "id": "quote-061",
+    "text": "我的灵魂绝不怯懦。",
+    "author": "艾米莉·勃朗特",
+    "work": "我的灵魂绝不怯懦",
+    "url": "https://en.wikiquote.org/wiki/Emily_Bront%C3%AB",
+    "original": "No coward soul is mine."
+  },
+  {
+    "id": "quote-062",
+    "text": "我总愿意选择快乐，而非一本正经的体面。",
+    "author": "夏洛蒂·勃朗特",
+    "work": "简·爱",
+    "url": "https://en.wikiquote.org/wiki/Charlotte_Bront%C3%AB",
+    "original": "I would always rather be happy than dignified."
+  },
+  {
+    "id": "quote-063",
+    "text": "若想得到玫瑰，也要敢于握住它的刺。",
+    "author": "安妮·勃朗特",
+    "work": "狭窄的路",
+    "url": "https://en.wikiquote.org/wiki/Anne_Bront%C3%AB",
+    "original": "But he that dares not grasp the thorn Should never crave the rose."
+  },
+  {
+    "id": "quote-064",
+    "text": "我们活着，难道不正是为了让彼此的生活少一些艰难吗？",
+    "author": "乔治·艾略特",
+    "work": "米德尔马契",
+    "url": "https://en.wikiquote.org/wiki/George_Eliot",
+    "original": "What do we live for, if it is not to make life less difficult to each other?"
+  },
+  {
+    "id": "quote-065",
+    "text": "认清属于你的幸福。你需要的只是耐心——或给它一个更动人的名字，叫作希望。",
+    "author": "简·奥斯汀",
+    "work": "理智与情感",
+    "url": "https://www.gutenberg.org/cache/epub/161/pg161.txt",
+    "original": "Know your own happiness. You want nothing but patience—or give it a more fascinating name, call it hope."
+  },
+  {
+    "id": "quote-066",
+    "text": "没有什么比一个坚定的目标更能让心安定下来。",
+    "author": "玛丽·雪莱",
+    "work": "弗兰肯斯坦",
+    "url": "https://en.wikiquote.org/wiki/Mary_Shelley",
+    "original": "Nothing contributes so much to tranquilize the mind as a steady purpose."
+  },
+  {
+    "id": "quote-068",
+    "text": "我不怕风暴，因为我正在学习如何驾驶自己的船。",
+    "author": "路易莎·梅·奥尔科特",
+    "work": "小妇人",
+    "url": "https://en.wikiquote.org/wiki/Louisa_May_Alcott",
+    "original": "I'm not afraid of storms, for I'm learning how to sail my ship."
+  },
+  {
+    "id": "quote-069",
+    "text": "想到明天是崭新的一天，还没有任何错误，不是很好吗？",
+    "author": "露西·莫德·蒙哥马利",
+    "work": "绿山墙的安妮",
+    "url": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "original": "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?"
+  },
+  {
+    "id": "quote-070",
+    "text": "你用心栽培玫瑰的地方，蓟草便无从生长。",
+    "author": "弗朗西丝·霍奇森·伯内特",
+    "work": "秘密花园",
+    "url": "https://www.gutenberg.org/cache/epub/113/pg113.txt",
+    "original": "Where you tend a rose, my lad, A thistle cannot grow."
+  },
+  {
+    "id": "quote-072",
+    "text": "始终燃烧着这宝石般明亮的火焰，始终保持这份热情，便是人生的成功。",
+    "author": "沃尔特·佩特",
+    "work": "文艺复兴·结语",
+    "url": "https://en.wikiquote.org/wiki/Walter_Pater",
+    "original": "To burn always with this hard, gemlike flame, to maintain this ecstasy, is success in life."
+  },
+  {
+    "id": "quote-073",
+    "text": "世界有这么多丰富的事物，我想，我们都能拥有国王般的快乐。",
+    "author": "罗伯特·路易斯·史蒂文森",
+    "work": "快乐的念头（一个孩子的诗园）",
+    "url": "https://en.wikiquote.org/wiki/Robert_Louis_Stevenson",
+    "original": "The world is so full of a number of things, I'm sure we should all be as happy as kings."
+  },
+  {
+    "id": "quote-074",
+    "text": "凭自己的翅膀飞翔的鸟，飞得再高也不算太高。",
+    "author": "威廉·布莱克",
+    "work": "地狱箴言",
+    "url": "https://en.wikiquote.org/wiki/William_Blake",
+    "original": "No bird soars too high, if he soars with his own wings."
+  },
+  {
+    "id": "quote-075",
+    "text": "让自然做你的老师。",
+    "author": "威廉·华兹华斯",
+    "work": "反其道而行之",
+    "url": "https://en.wikiquote.org/wiki/William_Wordsworth",
+    "original": "Let Nature be your teacher."
+  },
+  {
+    "id": "quote-076",
+    "text": "怀抱希望，直到希望从废墟中创造出它所向往的事物。",
+    "author": "珀西·比希·雪莱",
+    "work": "解放了的普罗米修斯",
+    "url": "https://www.gutenberg.org/cache/epub/4797/pg4797.txt",
+    "original": "To hope till Hope creates From its own wreck the thing it contemplates."
+  },
+  {
+    "id": "quote-077",
+    "text": "美好的事物，是永远的喜悦。",
+    "author": "约翰·济慈",
+    "work": "恩底弥翁",
+    "url": "https://en.wikiquote.org/wiki/John_Keats",
+    "original": "A thing of beauty is a joy for ever."
+  },
+  {
+    "id": "quote-079",
+    "text": "来吧，朋友们，去寻找一个新的世界，为时未晚。",
+    "author": "阿尔弗雷德·丁尼生",
+    "work": "尤利西斯",
+    "url": "https://en.wikiquote.org/wiki/Alfred%2C_Lord_Tennyson",
+    "original": "Come, my friends, 'Tis not too late to seek a newer world."
+  },
+  {
+    "id": "quote-081",
+    "text": "决心成为你自己；找到自己的人，也就走出了自己的苦恼。",
+    "author": "马修·阿诺德",
+    "work": "自立",
+    "url": "https://en.wikiquote.org/wiki/Matthew_Arnold",
+    "original": "Resolve to be thyself; and know, that he Who finds himself, loses his misery."
+  },
+  {
+    "id": "quote-082",
+    "text": "请轻轻地走，因为你走在我的梦上。",
+    "author": "威廉·巴特勒·叶芝",
+    "work": "他希求天国的锦缎",
+    "url": "https://en.wikiquote.org/wiki/William_Butler_Yeats",
+    "original": "Tread softly because you tread on my dreams."
+  },
+  {
+    "id": "quote-084",
+    "text": "家中只留下你知道有用、或相信美好的东西。",
+    "author": "威廉·莫里斯",
+    "work": "生活之美（1880年演讲）",
+    "url": "https://en.wikiquote.org/wiki/William_Morris",
+    "original": "Have nothing in your houses that you do not know to be useful, or believe to be beautiful."
+  },
+  {
+    "id": "quote-085",
+    "text": "清楚地看见，本身就兼有诗意、预见与信仰。",
+    "author": "约翰·罗斯金",
+    "work": "现代画家",
+    "url": "https://en.wikiquote.org/wiki/John_Ruskin",
+    "original": "To see clearly is poetry, prophecy, and religion,—all in one."
+  },
+  {
+    "id": "quote-087",
+    "text": "只了解自己这一方理由的人，其实对此了解得还很少。",
+    "author": "约翰·斯图亚特·密尔",
+    "work": "论自由",
+    "url": "https://en.wikiquote.org/wiki/John_Stuart_Mill",
+    "original": "He who knows only his own side of the case, knows little of that."
+  },
+  {
+    "id": "quote-088",
+    "text": "明智的人创造的机会，比他发现的机会更多。",
+    "author": "弗朗西斯·培根",
+    "work": "论仪式与礼节（培根随笔）",
+    "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt",
+    "original": "A wise man will make more opportunities than he finds."
+  },
+  {
+    "id": "quote-091",
+    "text": "美好的生活，由爱激励，由知识引导。",
+    "author": "伯特兰·罗素",
+    "work": "我的信仰",
+    "url": "https://en.wikiquote.org/wiki/Bertrand_Russell",
+    "original": "The good life is one inspired by love and guided by knowledge."
+  },
+  {
+    "id": "quote-092",
+    "text": "专注，是最稀有、最纯粹的慷慨。",
+    "author": "西蒙娜·薇依",
+    "work": "致若埃·布斯凯的信",
+    "url": "https://en.wikiquote.org/wiki/Simone_Weil",
+    "original": "Attention is the rarest and purest form of generosity."
+  },
+  {
+    "id": "quote-094",
+    "text": "对未来真正的慷慨，是把一切献给现在。",
+    "author": "阿尔贝·加缪",
+    "work": "反抗者",
+    "url": "https://en.wikiquote.org/wiki/Albert_Camus",
+    "original": "La vraie générosité envers l'avenir consiste à tout donner au présent."
+  },
+  {
+    "id": "quote-095",
+    "text": "对心中尚未解开的事情耐心一点，也试着去爱这些问题本身。",
+    "author": "赖纳·马利亚·里尔克",
+    "work": "给一个青年诗人的十封信·第四封",
+    "url": "https://en.wikiquote.org/wiki/Rainer_Maria_Rilke",
+    "original": "Be patient toward all that is unsolved in your heart and try to love the questions themselves."
+  },
+  {
+    "id": "quote-096",
+    "text": "人只要有所追求，就难免犯错。",
+    "author": "约翰·沃尔夫冈·歌德",
+    "work": "浮士德·天上序曲",
+    "url": "https://en.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+    "original": "Es irrt der Mensch, solang er strebt."
+  },
+  {
+    "id": "quote-097",
+    "text": "与自己的时代一起生活，但不要成为它的附属品。",
+    "author": "弗里德里希·席勒",
+    "work": "审美教育书简",
+    "url": "https://en.wikiquote.org/wiki/Friedrich_Schiller",
+    "original": "Live with your century; but do not be its creature."
+  },
+  {
+    "id": "quote-098",
+    "text": "每个人都容易把自己视野的边界，当成世界的边界。",
+    "author": "阿图尔·叔本华",
+    "work": "论心理观察",
+    "url": "https://en.wikiquote.org/wiki/Arthur_Schopenhauer",
+    "original": "Every man takes the limits of his own field of vision for the limits of the world."
+  },
+  {
+    "id": "quote-099",
+    "text": "一切卓越之事，既难得，也难成。",
+    "author": "巴鲁赫·斯宾诺莎",
+    "work": "伦理学·第五部分",
+    "url": "https://en.wikiquote.org/wiki/Baruch_Spinoza",
+    "original": "All things excellent are as difficult as they are rare."
+  },
+  {
+    "id": "quote-102",
+    "text": "我们得耕耘自己的园地。",
+    "author": "伏尔泰",
+    "work": "老实人",
+    "url": "https://en.wikiquote.org/wiki/Voltaire",
+    "original": "Let us cultivate our garden."
+  },
+  {
+    "id": "quote-104",
+    "text": "让生活像普通人那样有规律、有秩序，好让创作大胆而独出心裁。",
+    "author": "居斯塔夫·福楼拜",
+    "work": "致热特鲁德·坦南特的信",
+    "url": "https://en.wikiquote.org/wiki/Gustave_Flaubert",
+    "original": "Be regular and orderly in your life like a bourgeois, so that you may be violent and original in your work."
+  },
+  {
+    "id": "quote-105",
+    "text": "没有朴素、善良与真实，就没有伟大。",
+    "author": "列夫·托尔斯泰",
+    "work": "战争与和平",
+    "url": "https://en.wikiquote.org/wiki/Leo_Tolstoy",
+    "original": "There is no greatness where there is not simplicity, goodness, and truth."
+  },
+  {
+    "id": "quote-106",
+    "text": "蝴蝶不数月份，只数瞬间，时间便已充足。",
+    "author": "拉宾德拉纳特·泰戈尔",
+    "work": "飞鸟集",
+    "url": "https://en.wikiquote.org/wiki/Rabindranath_Tagore",
+    "original": "The butterfly counts not months but moments, and has time enough."
+  },
+  {
+    "id": "quote-107",
+    "text": "工作，是让爱有了可见的模样。",
+    "author": "哈利勒·纪伯伦",
+    "work": "先知·工作",
+    "url": "https://www.gutenberg.org/cache/epub/58585/pg58585.txt",
+    "original": "Work is love made visible."
+  },
+  {
+    "id": "quote-108",
+    "text": "先告诉自己想成为怎样的人，再去做该做的事。",
+    "author": "爱比克泰德",
+    "work": "谈话录·第三卷第二十三章",
+    "url": "https://en.wikiquote.org/wiki/Epictetus",
+    "original": "First say to yourself what you would be; and then do what you have to do."
+  },
+  {
+    "id": "quote-109",
+    "text": "在我们一再推迟的时候，生命正疾驰而过。",
+    "author": "塞涅卡",
+    "work": "道德书简·第一封",
+    "url": "https://en.wikiquote.org/wiki/Seneca_the_Younger",
+    "original": "While we are postponing, life speeds by."
+  },
+  {
+    "id": "quote-110",
+    "text": "人天生就渴望求知。",
+    "author": "亚里士多德",
+    "work": "形而上学·第一卷",
+    "url": "https://en.wikiquote.org/wiki/Aristotle",
+    "original": "All men by nature desire to know."
+  },
+  {
+    "id": "quote-111",
+    "text": "开端，是一件事最重要的部分。",
+    "author": "柏拉图",
+    "work": "理想国·第二卷",
+    "url": "https://en.wikiquote.org/wiki/Plato",
+    "original": "The beginning is the most important part of any work."
+  },
+  {
+    "id": "quote-112",
+    "text": "我们应当在带来幸福的事情上不断练习。",
+    "author": "伊壁鸠鲁",
+    "work": "致美诺寇的信",
+    "url": "https://en.wikiquote.org/wiki/Epicurus",
+    "original": "We must exercise ourselves in the things which bring happiness."
+  },
+  {
+    "id": "quote-115",
+    "text": "科学远不止是一套知识。它是一种思考方式。",
+    "author": "卡尔·萨根",
+    "work": "为何我们需要理解科学",
+    "url": "https://en.wikiquote.org/wiki/Carl_Sagan",
+    "original": "Science is much more than a body of knowledge. It is a way of thinking."
+  },
+  {
+    "id": "quote-116",
+    "text": "凝望大地之美的人，会从中找到足以伴随一生的力量。",
+    "author": "蕾切尔·卡森",
+    "work": "惊奇之心",
+    "url": "https://en.wikiquote.org/wiki/Rachel_Carson",
+    "original": "Those who contemplate the beauty of the earth find reserves of strength that will endure as long as life lasts."
+  },
+  {
+    "id": "quote-117",
+    "text": "世界虽充满苦难，也充满了战胜苦难的故事。",
+    "author": "海伦·凯勒",
+    "work": "乐观",
+    "url": "https://en.wikiquote.org/wiki/Helen_Keller",
+    "original": "Although the world is full of suffering, it is full also of the overcoming of it."
+  },
+  {
+    "id": "quote-119",
+    "text": "新的一天，带来新的力量与新的想法。",
+    "author": "埃莉诺·罗斯福",
+    "work": "我的一天·1936年1月8日",
+    "url": "https://en.wikiquote.org/wiki/Eleanor_Roosevelt",
+    "original": "With the new day comes new strength and new thoughts."
+  },
+  {
+    "id": "quote-120",
+    "text": "传播光有两种方式：成为蜡烛，或成为映出烛光的镜子。",
+    "author": "伊迪丝·华顿",
+    "work": "扎金索斯的维萨里",
+    "url": "https://en.wikiquote.org/wiki/Edith_Wharton",
+    "original": "There are two ways of spreading light: to be the candle or the mirror that reflects it."
+  },
+  {
+    "id": "quote-121",
+    "text": "有深厚的爱，就总会有奇迹。",
+    "author": "薇拉·凯瑟",
+    "work": "大主教之死",
+    "url": "https://en.wikiquote.org/wiki/Willa_Cather",
+    "original": "Where there is great love there are always miracles."
+  },
+  {
+    "id": "quote-123",
+    "text": "最好的出路，往往是穿过去。",
+    "author": "罗伯特·弗罗斯特",
+    "work": "仆人中的仆人",
+    "url": "https://en.wikiquote.org/wiki/Robert_Frost",
+    "original": "The best way out is always through."
+  },
+  {
+    "id": "quote-126",
+    "text": "你触及的一切，都会被你改变；你改变的一切，也在改变你。",
+    "author": "奥克塔维娅·巴特勒",
+    "work": "播种者寓言",
+    "url": "https://en.wikiquote.org/wiki/Octavia_E._Butler",
+    "original": "All that you touch You Change. All that you Change Changes you."
+  },
+  {
+    "id": "quote-127",
+    "text": "并非所有面对的事都能改变，但唯有面对，改变才有可能。",
+    "author": "詹姆斯·鲍德温",
+    "work": "尽可能多的真实",
+    "url": "https://en.wikiquote.org/wiki/James_Baldwin",
+    "original": "Not everything that is faced can be changed; but nothing can be changed until it is faced."
+  },
+  {
+    "id": "quote-128",
+    "text": "有些岁月提出问题，有些岁月给出答案。",
+    "author": "佐拉·尼尔·赫斯顿",
+    "work": "他们眼望上苍",
+    "url": "https://en.wikiquote.org/wiki/Zora_Neale_Hurston",
+    "original": "There are years that ask questions and years that answer."
+  },
+  {
+    "id": "quote-129",
+    "text": "无论灵感是什么，它都诞生于持续不断的“我不知道”。",
+    "author": "维斯瓦娃·辛波丝卡",
+    "work": "诗人与世界·诺贝尔演讲",
+    "url": "https://en.wikiquote.org/wiki/Wis%C5%82awa_Szymborska",
+    "original": "Whatever inspiration is, it's born from a continuous 'I don't know.'"
+  },
+  {
+    "id": "quote-131",
+    "text": "我们记住的不是一天天，而是一个个瞬间。",
+    "author": "切萨雷·帕韦塞",
+    "work": "生活的技艺",
+    "url": "https://en.wikiquote.org/wiki/Cesare_Pavese",
+    "original": "We do not remember days, we remember moments."
+  },
+  {
+    "id": "quote-132",
+    "text": "我迈开脚步，心情轻快，走上开阔的路。",
+    "author": "沃尔特·惠特曼",
+    "work": "开阔道路之歌",
+    "url": "https://www.gutenberg.org/cache/epub/1322/pg1322.txt",
+    "original": "Afoot and light-hearted I take to the open road."
+  },
+  {
+    "id": "quote-133",
+    "text": "灵魂的门，应当总是虚掩着。",
+    "author": "艾米莉·狄金森",
+    "work": "灵魂应当总是虚掩着门（狄金森诗集）",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "original": "The Soul should always stand ajar."
+  },
+  {
+    "id": "quote-135",
+    "text": "伟大的事物，没有一样是骤然造就的。",
+    "author": "爱比克泰德",
+    "work": "谈话录·第一卷第十五章",
+    "url": "https://en.wikiquote.org/wiki/Epictetus",
+    "original": "No thing great is created suddenly."
+  },
+  {
+    "id": "quote-137",
+    "text": "人所追求的，总应比已能握住的更远一点；否则，天堂还有何意义？",
+    "author": "罗伯特·勃朗宁",
+    "work": "安德烈亚·德尔·萨托",
+    "url": "https://en.wikiquote.org/wiki/Robert_Browning",
+    "original": "Ah, but a man's reach should exceed his grasp, Or what's a heaven for?"
+  },
+  {
+    "id": "quote-138",
+    "text": "走进群山，听听它们带来的好消息。",
+    "author": "约翰·缪尔",
+    "work": "我们的国家公园",
+    "url": "https://en.wikiquote.org/wiki/John_Muir",
+    "original": "Climb the mountains and get their good tidings."
+  },
+  {
+    "id": "quote-139",
+    "text": "我不能没有书。",
+    "author": "托马斯·杰斐逊",
+    "work": "致约翰·亚当斯的信·1815年6月10日",
+    "url": "https://en.wikiquote.org/wiki/Thomas_Jefferson",
+    "original": "I cannot live without books."
+  },
+  {
+    "id": "quote-141",
+    "text": "责任，始于梦想。",
+    "author": "威廉·巴特勒·叶芝",
+    "work": "责任·卷首题词",
+    "url": "https://en.wikiquote.org/wiki/William_Butler_Yeats",
+    "original": "In dreams begins responsibility."
+  },
+  {
+    "id": "quote-143",
+    "text": "即使已考虑过所有现实，也依然怀抱喜悦。",
+    "author": "温德尔·贝里",
+    "work": "宣言：疯狂农夫解放阵线",
+    "url": "https://en.wikiquote.org/wiki/Wendell_Berry",
+    "original": "Be joyful though you have considered all the facts."
+  },
+  {
+    "id": "quote-146",
+    "text": "也许，真理有时就藏在绕湖走一圈之中。",
+    "author": "华莱士·史蒂文斯",
+    "work": "最高虚构笔记",
+    "url": "https://en.wikiquote.org/wiki/Wallace_Stevens",
+    "original": "Perhaps The truth depends on a walk around a lake."
+  },
+  {
+    "id": "quote-147",
+    "text": "总有人爱着我们每一个人。",
+    "author": "伊丽莎白·毕肖普",
+    "work": "加油站",
+    "url": "https://en.wikiquote.org/wiki/Elizabeth_Bishop",
+    "original": "Somebody loves us all."
+  },
+  {
+    "id": "quote-148",
+    "text": "若想伟大，就完整地成为自己：不夸大，也不舍弃自己的任何部分。",
+    "author": "费尔南多·佩索阿",
+    "work": "欲求伟大，就完整地成为自己（里卡多·雷斯）",
+    "url": "https://en.wikiquote.org/wiki/Fernando_Pessoa",
+    "original": "Para ser grande, sê inteiro: nada Teu exagera ou exclui."
+  },
+  {
+    "id": "quote-149",
+    "text": "行路人，本没有路；路，是在行走中走出来的。",
+    "author": "安东尼奥·马查多",
+    "work": "箴言与歌·第二十九首",
+    "url": "https://en.wikiquote.org/wiki/Antonio_Machado",
+    "original": "Caminante, no hay camino, se hace camino al andar."
+  }
+]

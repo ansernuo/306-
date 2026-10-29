@@ -2,6 +2,16 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { drawEncouragement, encouragements } from '../src/encouragements.js'
 
+test('at least one hundred distinct quotations include authors and verifiable sources', () => {
+  assert.ok(encouragements.length >= 100)
+  assert.equal(new Set(encouragements.map(quote => quote.id)).size, encouragements.length)
+  assert.equal(new Set(encouragements.map(quote => quote.text)).size, encouragements.length)
+  for (const quote of encouragements) {
+    assert.ok(quote.author && quote.work && quote.text)
+    assert.equal(new URL(quote.url).protocol, 'https:')
+  }
+})
+
 test('each reader gets a shuffled deck with no repeats across a whole round', () => {
   const messages = []
   let raw = null
@@ -20,7 +30,8 @@ test('reload continues the saved deck; invalid saved decks recover safely', () =
   const next = drawEncouragement(JSON.stringify(first.state), () => { throw Error('must not reshuffle a saved deck') })
   assert.notEqual(first.message, next.message)
   for (const raw of ['broken', '{}', '{"version":2,"remaining":[-1]}', '{"version":2,"remaining":[0,0]}']) {
-    assert.ok(encouragements.includes(drawEncouragement(raw).message))
+    const drawn = drawEncouragement(raw)
+    assert.ok(encouragements.some(quote => quote.text === drawn.message))
   }
 })
 
@@ -28,4 +39,13 @@ test('a new round never repeats the preceding last message even with the same sh
   const first = drawEncouragement(null, () => 0)
   const empty = JSON.stringify({ ...first.state, remaining: [] })
   assert.notEqual(drawEncouragement(empty, () => 0).message, first.message)
+})
+
+test('old or changed catalogs reset safely, and notices retain quotation attribution', () => {
+  const drawn = drawEncouragement('{"version":2,"remaining":[0,1],"last":2}')
+  assert.equal(drawn.quote.text, drawn.message)
+  assert.equal(drawn.state.remaining.length, encouragements.length - 1)
+  const changed = drawEncouragement(JSON.stringify({ ...drawn.state, catalog: 'old-catalog' }))
+  assert.equal(changed.state.remaining.length, encouragements.length - 1)
+  assert.notEqual(changed.quote.id, drawn.quote.id)
 })

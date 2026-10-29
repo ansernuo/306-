@@ -3,7 +3,7 @@ import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, restore
 import { drawEncouragement } from './encouragements.js'
 
 const SESSION_KEY = 'study-practice-session-v1'
-const MESSAGE_KEY = 'study-encouragement-deck-v2'
+const MESSAGE_KEY = 'study-encouragement-deck-v3'
 
 export function usePracticeEncouragement(enabled, blocked) {
   const session = useRef(null)
@@ -45,7 +45,7 @@ export function usePracticeEncouragement(enabled, blocked) {
           const drawn = drawEncouragement(storedDeck)
           messageDeck.current = JSON.stringify(drawn.state)
           try { localStorage.setItem(MESSAGE_KEY, messageDeck.current) } catch { /* Practice still works without storage. */ }
-          noticeRef.current = { ...next.notice, message: drawn.message }
+          noticeRef.current = { ...next.notice, message: drawn.message, quote: drawn.quote }
           setNotice(noticeRef.current)
         }
       }
@@ -95,7 +95,7 @@ export function EncouragementDialog({ notice, onDismiss }) {
     function keydown(event) {
       if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); dismissRef.current(false) }
       if (event.key === 'Tab') {
-        const buttons = [...dialog.current.querySelectorAll('button')]
+        const buttons = [...dialog.current.querySelectorAll('button, a[href]')]
         const first = buttons[0], last = buttons.at(-1)
         if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus() }
         else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus() }
@@ -107,11 +107,17 @@ export function EncouragementDialog({ notice, onDismiss }) {
   const title = notice.kind === 'groups' ? `这一轮，已完成 ${notice.groups} 组。`
     : notice.kind === 'time' ? `已经练习 ${notice.minutes} 分钟了。` : `${notice.groups} 组，${notice.minutes} 分钟。`
   return <div className="modal-backdrop encouragement-backdrop" onClick={() => onDismiss(false)}>
-    <section ref={dialog} className="encouragement-dialog" role="dialog" aria-modal="true" aria-labelledby="encouragement-title" aria-describedby="encouragement-message" onClick={event => event.stopPropagation()}>
+    <section ref={dialog} className="encouragement-dialog" role="dialog" aria-modal="true" aria-labelledby="encouragement-title" aria-describedby="encouragement-message encouragement-attribution" onClick={event => event.stopPropagation()}>
       <button className="encouragement-close" aria-label="关闭鼓励" onClick={() => onDismiss(false)}>×</button>
-      <span className="encouragement-eyebrow">有句话想对你说</span>
+      <span className="encouragement-eyebrow"><span aria-hidden="true">✨</span> 送你一句话</span>
       <h2 id="encouragement-title">{title}</h2>
-      <p id="encouragement-message">{notice.message}</p>
+      <blockquote className="encouragement-quote">
+        <p id="encouragement-message">{notice.message}</p>
+        <footer id="encouragement-attribution" className="encouragement-attribution">
+          <div>— {notice.quote.author} <cite>《{notice.quote.work}》</cite></div>
+          <a className="encouragement-source" href={notice.quote.url} target="_blank" rel="noopener noreferrer">{notice.quote.original ? '查看原文 · 中文为本站译文' : '查看出处'} <span aria-hidden="true">↗</span></a>
+        </footer>
+      </blockquote>
       <div className="encouragement-actions"><button className="ghost-button" onClick={() => onDismiss(true)}>休息一下</button><button className="primary-button" onClick={() => onDismiss(false)}>继续练习 <span aria-hidden="true">→</span></button></div>
     </section>
   </div>
