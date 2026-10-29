@@ -149,7 +149,7 @@
       "options": [
         {
           "key": "A",
-          "label": "在血浆中合成"
+          "label": "可在血浆中经脂质与载脂蛋白重组形成或成熟"
         },
         {
           "key": "B",
@@ -194,7 +194,7 @@
         },
         {
           "number": 4,
-          "text": "HDL的形成来源",
+          "text": "HDL形成与成熟的来源",
           "answer": [
             "A",
             "B",
@@ -208,7 +208,8 @@
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "区分肝肠合成与血浆中HDL的重组、成熟。"
       ],
       "topic": "脂代谢",
       "lectureIds": [
@@ -224,8 +225,8 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-04-01"
     },
     {
@@ -613,7 +614,7 @@
         },
         {
           "key": "B",
-          "label": "外源性脂肪"
+          "label": "脂肪消化产物（2-甘油一酯、脂肪酸）"
         },
         {
           "key": "C",
@@ -677,7 +678,9 @@
       "sourceText": "脂蛋白的作用与小肠脂质吸收",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "小肠吸收的是脂肪消化产物，不能写成直接吸收甘油三酯。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-04"
@@ -693,8 +696,8 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-04-05"
     }
   ],

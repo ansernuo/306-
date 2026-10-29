@@ -479,22 +479,25 @@
         },
         {
           "number": 8,
-          "text": "含腺嘌呤的辅因子（按考试标准）",
+          "text": "讲义列出的含腺嘌呤辅因子",
           "answer": [
             "A",
+            "D",
+            "I",
             "J",
-            "K",
-            "D"
+            "K"
           ],
-          "answerRaw": "A、J、K、D",
-          "answerMode": "多选"
+          "answerRaw": "A、D、I、J、K",
+          "answerMode": "多选",
+          "explanation": "本题按讲义列举选择A、D、I、J、K。结构上须区分：脂肪酸合成中的ACP由蛋白质及4′-磷酸泛酰巯基乙胺辅基组成，并不含腺嘌呤；某些其他ACP（如柠檬酸裂解酶ACP）的辅基结构不同。不能将讲义这一列表推广为所有ACP的结构结论。"
         }
       ],
       "sourceText": "辅因子小结：B族维生素、VitK 与 VitC",
       "reviewState": "已按维生素讲义、真题要点与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "保留用户与讲义指定的I选项，同时说明脂肪酸ACP不含腺嘌呤的结构边界。"
       ],
       "topic": "维生素",
       "lectureIds": [
@@ -510,9 +513,13 @@
         "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
         "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
-      "sourceGroupId": "bio-13-03"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "sourceGroupId": "bio-13-03",
+      "contentReviewReferences": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68000213",
+        "https://pubmed.ncbi.nlm.nih.gov/179809/"
+      ]
     },
     {
       "id": "bio-13-03-focus-2",
@@ -736,7 +743,7 @@
         },
         {
           "key": "D",
-          "label": "氢原子"
+          "label": "可在单电子与双电子转移之间衔接"
         },
         {
           "key": "E",
@@ -756,27 +763,29 @@
         },
         {
           "key": "I",
-          "label": "氢原子、电子"
+          "label": "通常以氢负离子（H⁻，含两个电子）形式转移还原当量"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "NAD⁺、NADP⁺参与转移什么？",
+          "text": "NAD⁺、NADP⁺在典型脱氢反应中的递氢方式",
           "answer": [
             "I"
           ],
           "answerRaw": "I",
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "explanation": "典型脱氢反应中，烟酰胺辅酶接受或提供一个氢负离子，即两个电子和一个质子；另一个质子通常进入介质。"
         },
         {
           "number": 2,
-          "text": "FMN、FAD参与转移什么？",
+          "text": "FMN、FAD在氧化还原链中的电子传递特点",
           "answer": [
             "D"
           ],
           "answerRaw": "D",
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "explanation": "黄素可处于氧化态、半醌态及完全还原态，因而能够衔接双电子供体和单电子受体，不宜与烟酰胺辅酶用两个重叠的“递氢”选项强行区分。"
         },
         {
           "number": 3,
@@ -846,7 +855,8 @@
       "reviewState": "已按维生素讲义、真题要点与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "替换氢原子/氢原子与电子的重叠选项，明确典型递氢方式和黄素电子转移特点。"
       ],
       "topic": "维生素",
       "lectureIds": [
@@ -862,9 +872,12 @@
         "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
         "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
-      "sourceGroupId": "bio-13-04"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "sourceGroupId": "bio-13-04",
+      "contentReviewReferences": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6890364/"
+      ]
     }
   ],
   "lectures": [

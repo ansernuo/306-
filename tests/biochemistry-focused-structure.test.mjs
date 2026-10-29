@@ -20,7 +20,7 @@ test('all twenty chapters were reviewed, including preserved standalone question
     assert.equal(b.meta.structureReviewedAt, '2026-10-18')
     assert.equal(b.meta.stemCount, b.groups.flatMap(g => g.stems).length)
   }
-  assert.equal(new Set(groups.filter(g => g.answerRevision === 'bio-focused-20261017-v1').map(g => g.sourceGroupId)).size, 103)
+  assert.equal(new Set(groups.filter(g => g.sourceGroupId).map(g => g.sourceGroupId)).size, 103)
   const fill = groups.flatMap(g => g.stems).filter(s => s.answerMode === '填空')
   assert.equal(fill.length, 60)
 })
@@ -32,7 +32,7 @@ test('new split groups retain their chapter, source page and lecture instead of 
     assert.equal(g.topic, source.topic, g.id)
     assert.deepEqual(g.lectureIds, source.lectureIds, g.id)
     assert.deepEqual(g.lectureEvidence, source.lectureEvidence, g.id)
-    assert.equal(g.answerRevision, 'bio-focused-20261017-v1')
+    assert.ok(['bio-focused-20261017-v1', 'bio-answer-audit-20261029-v1'].includes(g.answerRevision), g.id)
     assert.ok(g.options.length >= 2 && g.options.length <= 11, g.id)
     assert.equal(g.stackedOptionCategories, undefined)
     if (g.lectureEvidence?.image) assert.ok(existsSync(new URL(`../public/${g.lectureEvidence.image}`, import.meta.url)))

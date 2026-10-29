@@ -517,7 +517,7 @@
         {
           "number": 7,
           "text": "非极性氨基酸",
-          "answerRaw": "I、L、B、E、N、M、K、J",
+          "answerRaw": "I、L、B、E、N、M、K、J、A",
           "answer": [
             "I",
             "L",
@@ -526,15 +526,19 @@
             "N",
             "M",
             "K",
-            "J"
+            "J",
+            "A"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "按常用侧链极性分类，色氨酸归入非极性芳香族氨基酸；芳香族描述环结构，非极性描述侧链性质，两种分类可重叠。色氨酸的吲哚氮能够参与氢键，并不改变此处整体侧链的常用归类。"
         }
       ],
       "sourceText": "氨基酸的结构、极性与支链分类",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "非极性氨基酸补入色氨酸；芳香族与非极性不是互斥分类。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-07"
@@ -549,7 +553,12 @@
         "title": "第 07 讲《生化 氨基酸代谢与氨基酸》· 第 7 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 07 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "contentReviewReferences": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK9879/"
+      ]
     },
     {
       "id": "bio-07-03",

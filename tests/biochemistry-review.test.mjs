@@ -52,6 +52,18 @@ test('vitamins separate cofactors, enzymes and reactions while preserving ADEK a
   assert.deepEqual(stem('bio-13-01', 4).answer, ['H', 'O'])
 })
 
+test('vitamin group question eight preserves the supplied lecture list including ACP', () => {
+  const g = group('bio-13-03')
+  const q = stem(g.id, 8)
+  assert.equal(q.text, '讲义列出的含腺嘌呤辅因子')
+  assert.deepEqual(q.answer, ['A', 'D', 'I', 'J', 'K'])
+  assert.equal(q.answerRaw, 'A、D、I、J、K')
+  assert.equal(q.answerMode, '多选')
+  assert.equal(g.options.find(o => o.key === 'I').label, '酰基载体蛋白（ACP）')
+  assert.equal(g.answerRevision, 'bio-answer-audit-20261029-v1')
+  assert.deepEqual(stem(g.id, 4).answer, ['D', 'I'])
+})
+
 test('shared biochemical mechanisms remain complete after splitting', () => {
   assert.ok(labels('bio-18-03-focus-3', 1).includes('EF-G'))
   assert.ok(labels('bio-17-05-focus-2', 1).includes('参与翻译的起始过程'))
@@ -100,5 +112,5 @@ test('unordered fill-in lists accept all valid permutations and protect stored a
     assert.equal(group(id).answerRevision, 'bio-review-20261017')
   }
   assert.deepEqual(stem('bio-16-fill-02', 11).answer, ['相同', '连续', '相反', '不连续', '冈崎片段'])
-  assert.equal(group('bio-18-08').answerRevision, 'bio-focused-20261017-v1')
+  assert.equal(group('bio-18-08').answerRevision, 'bio-answer-audit-20261029-v1')
 })

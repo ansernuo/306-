@@ -349,8 +349,8 @@
     },
     {
       "id": "bio-20-04-focus-2",
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "page": 4,
       "title": "DNA碱基脱氨基：产物",
       "kind": "B",
@@ -362,7 +362,7 @@
         },
         {
           "key": "B",
-          "label": "A→I"
+          "label": "腺嘌呤→次黄嘌呤"
         },
         {
           "key": "C",
@@ -386,14 +386,16 @@
             "B"
           ],
           "answerRaw": "B",
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "explanation": "腺嘌呤碱基脱氨基生成次黄嘌呤；相应核苷腺苷脱氨基生成肌苷（I）。碱基名称与核苷名称不可混用。"
         }
       ],
       "sourceText": "《生化_真核基因组与DNA损伤_学成选择题》原第 4 组",
       "reviewState": "已按用户提供的 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "碱基腺嘌呤脱氨基生成次黄嘌呤，不能把核苷I直接写成碱基产物。"
       ],
       "topic": "核酸",
       "lectureIds": [
@@ -409,7 +411,10 @@
         "description": "DNA 损伤类型、碱基改变、直接修复、切除修复、重组修复及修复缺陷疾病。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
       },
-      "sourceGroupId": "bio-20-04"
+      "sourceGroupId": "bio-20-04",
+      "contentReviewReferences": [
+        "https://pubmed.ncbi.nlm.nih.gov/8016081/"
+      ]
     },
     {
       "id": "bio-20-05",
@@ -730,7 +735,7 @@
         },
         {
           "key": "B",
-          "label": "DNApol"
+          "label": "DNA聚合酶Ⅰ"
         },
         {
           "key": "C",
@@ -752,7 +757,8 @@
       "reviewState": "已按用户提供的 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "将泛称DNApol改为具体DNA聚合酶Ⅰ，消除包含正确答案的干扰项。"
       ],
       "topic": "核酸",
       "lectureIds": [
@@ -768,8 +774,8 @@
         "description": "DNA 损伤类型、碱基改变、直接修复、切除修复、重组修复及修复缺陷疾病。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-20-06"
     },
     {

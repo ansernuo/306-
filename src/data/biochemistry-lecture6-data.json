@@ -97,7 +97,7 @@
         },
         {
           "key": "B",
-          "label": "合成脂肪的甘油只能来自糖酵解的 3-磷酸甘油"
+          "label": "主要由糖酵解中间物磷酸二羟丙酮生成3-磷酸甘油"
         }
       ],
       "stems": [
@@ -124,7 +124,8 @@
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "去掉脂肪细胞甘油骨架只能来自糖酵解的绝对化表述。"
       ],
       "topic": "脂代谢",
       "lectureIds": [
@@ -141,8 +142,8 @@
         "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。"
       },
       "sourceGroupId": "bio-06-01",
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     },
     {
       "id": "bio-06-02",

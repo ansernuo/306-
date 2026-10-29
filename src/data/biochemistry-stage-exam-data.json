@@ -736,7 +736,7 @@
       "studyNotice": "生物化学",
       "answerSourceLabel": "答案",
       "answerSourceName": "用户校正（2026-10-17）",
-      "answerRevision": "bio-stage-cpsii-20261017-v2",
+      "answerRevision": "bio-answer-audit-20261029-v1",
       "options": [
         {
           "key": "A",
@@ -774,7 +774,7 @@
           "sourceAnswerMode": "多选",
           "answerState": "用户校正",
           "answerProvenance": "user-correction",
-          "explanation": "本题选A、C。CPSⅡ位于胞质，以谷氨酰胺为氮源；细菌嘧啶合成的经典关键酶是天冬氨酸氨基甲酰转移酶。CPSⅡ反映细胞增殖程度，肝细胞分化程度对应CPSⅠ，注意区分B、D中的表述。",
+          "explanation": "本卷沿用已确认答案，选A、C，C项保留原卷UMP。需区分通行机制：哺乳动物CPSⅡ通常受UTP负反馈调节；特定实验中UMP也可产生抑制，但不能据此概括为普遍的主要反馈物。CPSⅡ位于胞质，氮源为谷氨酰胺；细菌嘧啶合成经典调节酶为天冬氨酸氨基甲酰转移酶。CPSⅡ与细胞增殖程度有关，肝细胞分化程度常联系CPSⅠ，故D不选。",
           "answerReferences": [
             "https://pubmed.ncbi.nlm.nih.gov/14651476/"
           ],
@@ -783,6 +783,14 @@
             "CPSⅠ：线粒体、氨为氮源、尿素合成；CPSⅡ：胞质、谷氨酰胺为氮源、嘧啶合成。"
           ]
         }
+      ],
+      "reviewedAt": "2026-10-29",
+      "reviewNotes": [
+        "保留用户校正AC及原卷UMP，说明常规哺乳动物CPSⅡ反馈机制与该题约定的差异。"
+      ],
+      "contentReviewReferences": [
+        "https://pubmed.ncbi.nlm.nih.gov/1499569/",
+        "https://pubmed.ncbi.nlm.nih.gov/3966920/"
       ]
     },
     {

@@ -1,0 +1,280 @@
+{
+  "date": "2026-10-29",
+  "revision": "bio-answer-audit-20261029-v1",
+  "method": "通读20章、教师补充与阶段考试全部题干、选项、答案和已有解析；对照工作区讲义摘录，对发现的机制冲突查阅原始研究或权威资料。逐组保留来源和ID，修订后另做数据完整性及判分回归。",
+  "limitations": "阶段考试没有官方答案页，仍为用户授权拟答；ACP列表和阶段考试第10题保留明确的讲义/用户约定，解析说明科学范围，不能视为这些约定已被外部研究证实。自动测试验证映射与回归，不能证明全部科学事实绝对无误。",
+  "scope": [
+    {
+      "file": "src/data/biochemistry-data.json",
+      "groups": 9,
+      "stems": 26
+    },
+    {
+      "file": "src/data/biochemistry-lecture2-data.json",
+      "groups": 17,
+      "stems": 53
+    },
+    {
+      "file": "src/data/biochemistry-lecture3-data.json",
+      "groups": 11,
+      "stems": 52
+    },
+    {
+      "file": "src/data/biochemistry-lecture4-data.json",
+      "groups": 7,
+      "stems": 27
+    },
+    {
+      "file": "src/data/biochemistry-lecture5-data.json",
+      "groups": 13,
+      "stems": 50
+    },
+    {
+      "file": "src/data/biochemistry-lecture6-data.json",
+      "groups": 17,
+      "stems": 45
+    },
+    {
+      "file": "src/data/biochemistry-lecture7-data.json",
+      "groups": 19,
+      "stems": 81
+    },
+    {
+      "file": "src/data/biochemistry-lecture8-data.json",
+      "groups": 14,
+      "stems": 33
+    },
+    {
+      "file": "src/data/biochemistry-lecture9-data.json",
+      "groups": 15,
+      "stems": 54
+    },
+    {
+      "file": "src/data/biochemistry-lecture10-data.json",
+      "groups": 6,
+      "stems": 28
+    },
+    {
+      "file": "src/data/biochemistry-lecture11-data.json",
+      "groups": 8,
+      "stems": 29
+    },
+    {
+      "file": "src/data/biochemistry-lecture12-data.json",
+      "groups": 21,
+      "stems": 53
+    },
+    {
+      "file": "src/data/biochemistry-lecture13-data.json",
+      "groups": 6,
+      "stems": 38
+    },
+    {
+      "file": "src/data/biochemistry-lecture14-data.json",
+      "groups": 21,
+      "stems": 81
+    },
+    {
+      "file": "src/data/biochemistry-lecture15-data.json",
+      "groups": 23,
+      "stems": 66
+    },
+    {
+      "file": "src/data/biochemistry-lecture16-data.json",
+      "groups": 19,
+      "stems": 57
+    },
+    {
+      "file": "src/data/biochemistry-lecture17-data.json",
+      "groups": 19,
+      "stems": 57
+    },
+    {
+      "file": "src/data/biochemistry-lecture18-data.json",
+      "groups": 19,
+      "stems": 56
+    },
+    {
+      "file": "src/data/biochemistry-lecture19-data.json",
+      "groups": 13,
+      "stems": 42
+    },
+    {
+      "file": "src/data/biochemistry-lecture20-data.json",
+      "groups": 11,
+      "stems": 29
+    },
+    {
+      "file": "src/data/biochemistry-teacher-supplement.json",
+      "groups": 23,
+      "stems": 23
+    },
+    {
+      "file": "src/data/biochemistry-stage-exam-data.json",
+      "groups": 25,
+      "stems": 25
+    }
+  ],
+  "changes": [
+    {
+      "id": "bio-02-04-focus-2",
+      "note": "复合体Ⅱ补回血红素b；题干改问辅基组成，避免把存在的辅基等同于必经电子路线。",
+      "file": "src/data/biochemistry-lecture2-data.json"
+    },
+    {
+      "id": "bio-02-08",
+      "note": "补选甲状腺激素核受体介导基因表达这一正确选项。",
+      "file": "src/data/biochemistry-lecture2-data.json"
+    },
+    {
+      "id": "bio-02-05-focus-2",
+      "note": "辅酶Q可单电子和双电子转移，不将两者错误设为排他分类。",
+      "file": "src/data/biochemistry-lecture2-data.json"
+    },
+    {
+      "id": "bio-02-05-focus-4",
+      "note": "ATP合成驱动力明确为质子电化学梯度，不只浓度差。",
+      "file": "src/data/biochemistry-lecture2-data.json"
+    },
+    {
+      "id": "bio-03-06",
+      "note": "纯生酮不等于只能生成酮体，改为不能净生成葡萄糖。",
+      "file": "src/data/biochemistry-lecture3-data.json"
+    },
+    {
+      "id": "bio-04-01-focus-2",
+      "note": "区分肝肠合成与血浆中HDL的重组、成熟。",
+      "file": "src/data/biochemistry-lecture4-data.json"
+    },
+    {
+      "id": "bio-04-05",
+      "note": "小肠吸收的是脂肪消化产物，不能写成直接吸收甘油三酯。",
+      "file": "src/data/biochemistry-lecture4-data.json"
+    },
+    {
+      "id": "bio-05-03",
+      "note": "限定哺乳动物：磷脂酰丝氨酸主要由碱基交换合成，不套用酵母CDP-DAG路线。",
+      "file": "src/data/biochemistry-lecture5-data.json"
+    },
+    {
+      "id": "bio-05-04",
+      "note": "区分直接甲基化产物和利用磷脂酰胆碱的后续鞘磷脂合成。",
+      "file": "src/data/biochemistry-lecture5-data.json"
+    },
+    {
+      "id": "bio-06-01",
+      "note": "去掉脂肪细胞甘油骨架只能来自糖酵解的绝对化表述。",
+      "file": "src/data/biochemistry-lecture6-data.json"
+    },
+    {
+      "id": "bio-07-02",
+      "note": "非极性氨基酸补入色氨酸；芳香族与非极性不是互斥分类。",
+      "file": "src/data/biochemistry-lecture7-data.json"
+    },
+    {
+      "id": "bio-08-03",
+      "note": "分子病与构象病可能有交叉，改问讲义用于对比的典型例子。",
+      "file": "src/data/biochemistry-lecture8-data.json"
+    },
+    {
+      "id": "bio-08-08",
+      "note": "血浆可含细胞泄漏蛋白，删除所有血浆蛋白均为分泌型的绝对判断。",
+      "file": "src/data/biochemistry-lecture8-data.json"
+    },
+    {
+      "id": "bio-09-03",
+      "note": "分支供能和自身反馈不应统称交叉调节。",
+      "file": "src/data/biochemistry-lecture9-data.json"
+    },
+    {
+      "id": "bio-12-05",
+      "note": "酶抑制剂的宽泛题干会使竞争性分类选项也成立，改问区别于变性的基本特征。",
+      "file": "src/data/biochemistry-lecture12-data.json"
+    },
+    {
+      "id": "bio-12-09",
+      "note": "酸碱催化、共价催化并非酶所独有，限定为讲义概括的特点而非排他性不同点。",
+      "file": "src/data/biochemistry-lecture12-data.json"
+    },
+    {
+      "id": "bio-13-03",
+      "note": "保留用户与讲义指定的I选项，同时说明脂肪酸ACP不含腺嘌呤的结构边界。",
+      "file": "src/data/biochemistry-lecture13-data.json"
+    },
+    {
+      "id": "bio-13-04",
+      "note": "替换氢原子/氢原子与电子的重叠选项，明确典型递氢方式和黄素电子转移特点。",
+      "file": "src/data/biochemistry-lecture13-data.json"
+    },
+    {
+      "id": "bio-15-fill-02",
+      "note": "快速冷却仅抑制复性，不是任何序列在4℃以下均不能复性。",
+      "file": "src/data/biochemistry-lecture15-data.json"
+    },
+    {
+      "id": "bio-16-01",
+      "note": "真核染色体复制方式补选多复制子复制。",
+      "file": "src/data/biochemistry-lecture16-data.json"
+    },
+    {
+      "id": "bio-16-05",
+      "note": "区分DnaA识别的DnaA盒与邻近富AT解链区。",
+      "file": "src/data/biochemistry-lecture16-data.json"
+    },
+    {
+      "id": "bio-16-fill-04",
+      "note": "删除真核复制起点序列普遍更短的错误比较；明确DNApolα-引物酶复合物。",
+      "file": "src/data/biochemistry-lecture16-data.json"
+    },
+    {
+      "id": "bio-17-01-focus-4",
+      "note": "编码链应与初级转录本对应区段比较，不能忽略成熟mRNA剪接。",
+      "file": "src/data/biochemistry-lecture17-data.json"
+    },
+    {
+      "id": "bio-17-02",
+      "note": "校正α、ω功能，避免与σ的启动子识别混淆。",
+      "file": "src/data/biochemistry-lecture17-data.json"
+    },
+    {
+      "id": "bio-17-03",
+      "note": "启动子DNA局部开放是全酶协同过程，不只归于β′亚基。",
+      "file": "src/data/biochemistry-lecture17-data.json"
+    },
+    {
+      "id": "bio-18-03",
+      "note": "EF-Ts是EF-Tu的核苷酸交换因子，不是其调节亚基。",
+      "file": "src/data/biochemistry-lecture18-data.json"
+    },
+    {
+      "id": "bio-18-08",
+      "note": "放线菌酮改为结合60S亚基E位区域并阻断延长转位。",
+      "file": "src/data/biochemistry-lecture18-data.json"
+    },
+    {
+      "id": "bio-18-08-focus-3",
+      "note": "删除正确但未计入答案的eIF2同义选项，换成明确错误的干扰项。",
+      "file": "src/data/biochemistry-lecture18-data.json"
+    },
+    {
+      "id": "bio-19-07-focus-2",
+      "note": "HIF缺氧应答的关键是α亚基稳定积累，不能仅写高表达。",
+      "file": "src/data/biochemistry-lecture19-data.json"
+    },
+    {
+      "id": "bio-20-04-focus-2",
+      "note": "碱基腺嘌呤脱氨基生成次黄嘌呤，不能把核苷I直接写成碱基产物。",
+      "file": "src/data/biochemistry-lecture20-data.json"
+    },
+    {
+      "id": "bio-20-06-focus-4",
+      "note": "将泛称DNApol改为具体DNA聚合酶Ⅰ，消除包含正确答案的干扰项。",
+      "file": "src/data/biochemistry-lecture20-data.json"
+    },
+    {
+      "id": "biochemistry-stage-exam-2026-10-q010",
+      "note": "保留用户校正AC及原卷UMP，说明常规哺乳动物CPSⅡ反馈机制与该题约定的差异。",
+      "file": "src/data/biochemistry-stage-exam-data.json"
+    }
+  ]
+}

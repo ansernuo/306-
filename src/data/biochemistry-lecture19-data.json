@@ -749,7 +749,7 @@
       "options": [
         {
           "key": "A",
-          "label": "在缺氧时高表达"
+          "label": "缺氧时HIF-α降解减少、稳定积累并激活缺氧应答基因"
         },
         {
           "key": "B",
@@ -780,7 +780,8 @@
       "reviewState": "已按修订版 Word 与对应思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "HIF缺氧应答的关键是α亚基稳定积累，不能仅写高表达。"
       ],
       "topic": "核酸",
       "lectureIds": [
@@ -797,8 +798,11 @@
         "method": "以用户提供的修订版 Word 为题干、选项和答案依据，并与对应思维导图逐项核对。"
       },
       "sourceGroupId": "bio-19-07",
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "contentReviewReferences": [
+        "https://www.nobelprize.org/prizes/medicine/2019/advanced-information/"
+      ]
     },
     {
       "id": "bio-19-08",

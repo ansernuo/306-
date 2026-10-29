@@ -329,7 +329,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "酶与一般催化剂的不同点",
+          "text": "本讲义归纳的酶催化特点及其高效催化机制",
           "answerRaw": "C、J、D、M、I、G、K、F",
           "answer": [
             "C",
@@ -341,11 +341,12 @@
             "K",
             "F"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "本题匹配讲义归纳的酶催化特点，不将每一条都视为酶所独有。酸碱催化、共价催化等机制也可见于非酶催化；高效率、高特异性及生理可调节性是比较时的重要特征。"
         },
         {
           "number": 2,
-          "text": "酶与一般催化剂的共同点",
+          "text": "酶与一般催化剂共有的催化规律",
           "answerRaw": "L、E、A、B、H",
           "answer": [
             "L",
@@ -361,7 +362,8 @@
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "共同点 5 项、不同点 8 项均取自讲义第 2–3 页，选项已混合打散。"
+        "共同点 5 项、不同点 8 项均取自讲义第 2–3 页，选项已混合打散。",
+        "酸碱催化、共价催化并非酶所独有，限定为讲义概括的特点而非排他性不同点。"
       ],
       "topic": "酶",
       "lectureIds": [
@@ -377,7 +379,9 @@
         "title": "第 12 讲《生化 酶》· 第 2–3 页",
         "description": "酶与一般催化剂的共同点和不同点；点击可查看对应讲义原页。",
         "method": "按 2027 考研生化第 12 讲第 2–3 页逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     },
     {
       "id": "bio-12-02",
@@ -1094,7 +1098,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "酶抑制剂",
+          "text": "酶抑制作用区别于酶变性的基本特征",
           "answerRaw": "H、F",
           "answer": [
             "H",
@@ -1129,7 +1133,9 @@
       "sourceText": "抑制剂总分类",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "酶抑制剂的宽泛题干会使竞争性分类选项也成立，改问区别于变性的基本特征。"
+      ],
       "topic": "酶",
       "lectureIds": [
         "lecture-12"
@@ -1145,8 +1151,8 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     },
     {
       "id": "bio-12-06",

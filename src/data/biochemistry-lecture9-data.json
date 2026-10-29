@@ -397,7 +397,7 @@
         },
         {
           "number": 7,
-          "text": "AMP 合成分支的交叉调节",
+          "text": "AMP合成分支的供能与反馈调节",
           "answerRaw": "J、E",
           "answer": [
             "J",
@@ -407,7 +407,7 @@
         },
         {
           "number": 8,
-          "text": "GMP 合成分支的交叉调节",
+          "text": "GMP合成分支的供能与反馈调节",
           "answerRaw": "I、K",
           "answer": [
             "I",
@@ -428,7 +428,9 @@
       "sourceText": "从头合成：方式、第一产物与分支调节",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "分支供能和自身反馈不应统称交叉调节。"
+      ],
       "topic": "核苷酸代谢",
       "lectureIds": [
         "lecture-09"
@@ -443,7 +445,9 @@
         "title": "第 09 讲《生化 核苷酸代谢》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     },
     {
       "id": "bio-09-04",

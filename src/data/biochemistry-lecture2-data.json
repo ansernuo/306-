@@ -538,7 +538,7 @@
     {
       "id": "bio-02-04-focus-2",
       "page": 4,
-      "title": "呼吸链复合体：电子传递组分",
+      "title": "呼吸链复合体：氧化还原辅基",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -570,7 +570,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "复合体Ⅰ含有哪些电子传递组分？",
+          "text": "复合体Ⅰ含有哪些氧化还原辅基？",
           "answer": [
             "C",
             "A"
@@ -580,17 +580,19 @@
         },
         {
           "number": 2,
-          "text": "复合体Ⅱ含有哪些电子传递组分？",
+          "text": "复合体Ⅱ含有哪些氧化还原辅基？",
           "answer": [
             "F",
-            "A"
+            "A",
+            "B"
           ],
-          "answerRaw": "F、A",
-          "answerMode": "多选"
+          "answerRaw": "F、A、B",
+          "answerMode": "多选",
+          "explanation": "哺乳动物复合体Ⅱ含FAD、铁硫中心和血红素b。血红素b位于膜锚定部分；本题问辅基组成，不要求它处于琥珀酸向泛醌传递电子的必经路径。"
         },
         {
           "number": 3,
-          "text": "复合体Ⅲ含有哪些电子传递组分？",
+          "text": "复合体Ⅲ含有哪些氧化还原辅基？",
           "answer": [
             "A",
             "B"
@@ -600,7 +602,7 @@
         },
         {
           "number": 4,
-          "text": "复合体Ⅳ含有哪些电子传递组分？",
+          "text": "复合体Ⅳ含有哪些氧化还原辅基？",
           "answer": [
             "B",
             "D",
@@ -614,7 +616,8 @@
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "复合体Ⅱ补回血红素b；题干改问辅基组成，避免把存在的辅基等同于必经电子路线。"
       ],
       "topic": "呼吸链组成与 P/O 比值",
       "lectureIds": [
@@ -630,9 +633,12 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
-      "sourceGroupId": "bio-02-04"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "sourceGroupId": "bio-02-04",
+      "contentReviewReferences": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10161127/"
+      ]
     },
     {
       "id": "bio-02-04-focus-3",
@@ -773,11 +779,11 @@
       "options": [
         {
           "key": "A",
-          "label": "单电子载体"
+          "label": "仅进行单电子转移"
         },
         {
           "key": "B",
-          "label": "双电子传递体"
+          "label": "可进行单电子和双电子转移"
         }
       ],
       "stems": [
@@ -804,7 +810,8 @@
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "辅酶Q可单电子和双电子转移，不将两者错误设为排他分类。"
       ],
       "topic": "呼吸链组成与 P/O 比值",
       "lectureIds": [
@@ -820,8 +827,8 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-02-05"
     },
     {
@@ -897,7 +904,7 @@
         },
         {
           "key": "B",
-          "label": "H⁺顺浓度回流时释放能量并耦联生成 ATP"
+          "label": "H⁺经ATP合酶沿电化学梯度回流，驱动ATP合成"
         }
       ],
       "stems": [
@@ -924,7 +931,8 @@
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "ATP合成驱动力明确为质子电化学梯度，不只浓度差。"
       ],
       "topic": "呼吸链组成与 P/O 比值",
       "lectureIds": [
@@ -940,8 +948,8 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-02-05"
     },
     {
@@ -1380,9 +1388,10 @@
       "stems": [
         {
           "number": 2,
-          "text": "甲状腺激素",
-          "answerRaw": "L、G",
+          "text": "甲状腺激素调节能量代谢的机制",
+          "answerRaw": "I、L、G",
           "answer": [
+            "I",
             "L",
             "G"
           ],
@@ -1446,7 +1455,9 @@
       "sourceText": "氧化磷酸化调节与解偶联机制",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "补选甲状腺激素核受体介导基因表达这一正确选项。"
+      ],
       "topic": "氧化磷酸化调节与抑制",
       "lectureIds": [
         "lecture-02"
@@ -1462,8 +1473,8 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-02-08"
     }
   ],

@@ -369,7 +369,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "甘油二酯途径可合成",
+          "text": "由甘油二酯分支可直接合成的脂类",
           "answerRaw": "C、L、D",
           "answer": [
             "C",
@@ -380,14 +380,14 @@
         },
         {
           "number": 2,
-          "text": "CDP-甘油二酯途径可合成",
-          "answerRaw": "G、B、M",
+          "text": "哺乳动物细胞中，经CDP-甘油二酯途径合成的磷脂",
+          "answerRaw": "B、M",
           "answer": [
-            "G",
             "B",
             "M"
           ],
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "哺乳动物经CDP-甘油二酯途径合成磷脂酰肌醇、磷脂酰甘油及心磷脂；磷脂酰丝氨酸主要由磷脂酰胆碱或磷脂酰乙醇胺与丝氨酸发生碱基交换生成。酵母、部分细菌的磷脂酰丝氨酸合成途径不同。"
         },
         {
           "number": 3,
@@ -448,7 +448,9 @@
       "sourceText": "甘油磷脂合成的活化中间物",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "限定哺乳动物：磷脂酰丝氨酸主要由碱基交换合成，不套用酵母CDP-DAG路线。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-05"
@@ -464,8 +466,11 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "contentReviewReferences": [
+        "https://pubmed.ncbi.nlm.nih.gov/9642289/"
+      ]
     },
     {
       "id": "bio-05-04",
@@ -498,13 +503,13 @@
       "stems": [
         {
           "number": 1,
-          "text": "合成时与甲基化反应有关的磷脂",
-          "answerRaw": "B、E",
+          "text": "脑磷脂接受SAM提供的甲基后，直接生成的磷脂",
+          "answerRaw": "B",
           "answer": [
-            "B",
-            "E"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选",
+          "explanation": "磷脂酰乙醇胺（脑磷脂）经连续甲基化可生成磷脂酰胆碱（卵磷脂）。鞘磷脂合成酶通常将磷脂酰胆碱的磷酸胆碱头基转移给神经酰胺，不是直接将脑磷脂甲基化成鞘磷脂。"
         },
         {
           "number": 2,
@@ -519,7 +524,9 @@
       "sourceText": "磷脂合成中的甲基化反应",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "区分直接甲基化产物和利用磷脂酰胆碱的后续鞘磷脂合成。"
+      ],
       "topic": "脂代谢",
       "lectureIds": [
         "lecture-05"
@@ -534,7 +541,12 @@
         "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "contentReviewReferences": [
+        "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=2525"
+      ]
     },
     {
       "id": "bio-05-05",

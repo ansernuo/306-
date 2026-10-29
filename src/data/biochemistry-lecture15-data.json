@@ -1575,20 +1575,23 @@
         },
         {
           "number": 13,
-          "text": "DNA 加热变性后，______去除变性条件才可能复性；迅速冷却至______℃以下则不能复性。",
+          "text": "DNA加热变性后，通常______降温有利于复性；迅速冷却至约______℃可抑制复性并暂时保存单链状态。",
           "answerRaw": "缓慢、4",
           "answerDisplay": "缓慢；4",
           "answer": [
             "缓慢",
             "4"
           ],
-          "answerMode": "填空"
+          "answerMode": "填空",
+          "explanation": "复性还受序列、浓度、盐浓度及时间影响。缓慢降温通常有利于互补链退火，快速冷却抑制而非绝对禁止复性。"
         }
       ],
       "sourceText": "填空题 F8–F13",
       "reviewState": "已按核酸 DOCX 原文逐空核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "快速冷却仅抑制复性，不是任何序列在4℃以下均不能复性。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-15"
@@ -1604,8 +1607,8 @@
         "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     },
     {
       "id": "bio-15-fill-03",

@@ -362,7 +362,7 @@
         },
         {
           "key": "H",
-          "label": "EF-Tu的调节亚基"
+          "label": "促进EF-Tu释放GDP、重新结合GTP的鸟嘌呤核苷酸交换因子"
         }
       ],
       "stems": [
@@ -435,7 +435,8 @@
       "reviewState": "已按用户提供的 Word、精编版讲义与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "EF-Ts是EF-Tu的核苷酸交换因子，不是其调节亚基。"
       ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
@@ -451,9 +452,12 @@
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
-      "sourceGroupId": "bio-18-03"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "sourceGroupId": "bio-18-03",
+      "contentReviewReferences": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5087732/"
+      ]
     },
     {
       "id": "bio-18-03-focus-2",
@@ -1202,7 +1206,7 @@
         },
         {
           "key": "F",
-          "label": "结合真核60S亚基抑制成肽"
+          "label": "结合真核60S亚基E位区域，阻断翻译延长中的转位"
         },
         {
           "key": "G",
@@ -1282,7 +1286,8 @@
       "reviewState": "已按用户提供的 Word、精编版讲义与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "放线菌酮改为结合60S亚基E位区域并阻断延长转位。"
       ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
@@ -1298,9 +1303,12 @@
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
-      "sourceGroupId": "bio-18-08"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "sourceGroupId": "bio-18-08",
+      "contentReviewReferences": [
+        "https://www.nature.com/articles/s41467-021-25411-y"
+      ]
     },
     {
       "id": "bio-18-08-focus-2",
@@ -1396,7 +1404,7 @@
         },
         {
           "key": "D",
-          "label": "作用靶点涉及eIF2"
+          "label": "促进eIF2去磷酸化并增强病毒蛋白翻译"
         }
       ],
       "stems": [
@@ -1408,14 +1416,20 @@
             "C"
           ],
           "answerRaw": "B、C",
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "干扰素诱导的抗病毒蛋白可通过PKR使eIF2α磷酸化、抑制翻译起始；也可通过OAS—2-5A—RNase L通路促进RNA降解。ADP-核糖基化eEF2是白喉毒素的机制。"
         }
       ],
       "sourceText": "《生化_翻译_学成选择题》原第 8、9 组",
       "reviewState": "已按用户提供的 Word、精编版讲义与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "删除正确但未计入答案的eIF2同义选项，换成明确错误的干扰项。"
+      ],
+      "contentReviewReferences": [
+        "https://pubmed.ncbi.nlm.nih.gov/12582177/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7307175/"
       ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
@@ -1431,8 +1445,8 @@
         "description": "翻译体系、能量、起始延长终止、翻译后加工及翻译干扰。点击可查看对应思维导图。",
         "method": "以用户提供的 Word 为分组、题干、选项和答案依据，结合精编版讲义与思维导图复核知识点。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-18-08"
     },
     {

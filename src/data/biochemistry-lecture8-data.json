@@ -499,7 +499,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "属于分子病",
+          "text": "本讲义用于对比的分子病典型例子",
           "answer": [
             "C",
             "F"
@@ -509,7 +509,7 @@
         },
         {
           "number": 2,
-          "text": "属于构象病",
+          "text": "本讲义用于对比的构象病典型例子",
           "answer": [
             "D",
             "B",
@@ -517,14 +517,16 @@
             "A"
           ],
           "answerRaw": "D、B、E、A",
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "此处按讲义列举的典型例子匹配，不表示两类机制互斥：例如亨廷顿病既有遗传改变，也有异常蛋白折叠与聚集。"
         }
       ],
       "sourceText": "分子病与构象病",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [
-        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。"
+        "按独立考点重整；保留原始来源，删除跨维度拼接和重复设问。",
+        "分子病与构象病可能有交叉，改问讲义用于对比的典型例子。"
       ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
@@ -541,8 +543,8 @@
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
       },
       "sourceGroupId": "bio-08-03",
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18"
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     },
     {
       "id": "bio-08-04",
@@ -1074,7 +1076,7 @@
       "options": [
         {
           "key": "A",
-          "label": "均为分泌型蛋白质"
+          "label": "正常血浆中的主要功能性蛋白多为分泌型蛋白质"
         },
         {
           "key": "B",
@@ -1120,7 +1122,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "血浆蛋白的性质",
+          "text": "正常血浆中主要功能性蛋白的常见性质",
           "answerRaw": "G、A、F、B、K",
           "answer": [
             "G",
@@ -1156,7 +1158,9 @@
       "sourceText": "血浆蛋白：性质与功能",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "血浆可含细胞泄漏蛋白，删除所有血浆蛋白均为分泌型的绝对判断。"
+      ],
       "topic": "氨基酸与蛋白质",
       "lectureIds": [
         "lecture-08"
@@ -1171,7 +1175,9 @@
         "title": "第 08 讲《生化 蛋白质》· 第 1 页",
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     }
   ],
   "lectures": [

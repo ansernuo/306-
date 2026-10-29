@@ -174,9 +174,10 @@
         {
           "number": 1,
           "text": "真核生物染色体 DNA 的复制方式",
-          "answerRaw": "A、C、D",
+          "answerRaw": "A、B、C、D",
           "answer": [
             "A",
+            "B",
             "C",
             "D"
           ],
@@ -204,7 +205,9 @@
       "sourceText": "DNA 复制方式",
       "reviewState": "已按 DNA 的合成原始讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "真核染色体复制方式补选多复制子复制。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-16"
@@ -219,7 +222,9 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 1–2 页",
         "description": "DNA 复制方式：半保留、双向、半不连续与多复制子。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29"
     },
     {
       "id": "bio-16-02",
@@ -501,12 +506,13 @@
       "stems": [
         {
           "number": 1,
-          "text": "辨认复制起点（如富含 AT 的重复序列）",
+          "text": "识别大肠埃希菌oriC中的DnaA盒并启动复制",
           "answerRaw": "D",
           "answer": [
             "D"
           ],
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "explanation": "DnaA识别oriC中的DnaA盒，并促进邻近富AT的DNA解链区开放；不能将DnaA盒与富AT解链重复序列混为一谈。"
         },
         {
           "number": 2,
@@ -566,7 +572,9 @@
       "sourceText": "DNA 复制相关蛋白 / 酶",
       "reviewState": "已按 DNA 的合成原始讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "区分DnaA识别的DnaA盒与邻近富AT解链区。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-16"
@@ -581,7 +589,12 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 4 页",
         "description": "DnaA、DnaB、DnaC、DnaG、SSB 与拓扑异构酶。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "contentReviewReferences": [
+        "https://pubmed.ncbi.nlm.nih.gov/12682358/"
+      ]
     },
     {
       "id": "bio-16-06",
@@ -1395,27 +1408,34 @@
       "stems": [
         {
           "number": 13,
-          "text": "真核 DNA 复制起点序列比原核______；真核 DNApol 催化速率比原核生物______；引物、冈崎片段比原核生物______。",
-          "answerRaw": "短；慢；短",
-          "answerDisplay": "短；慢；短",
+          "text": "与典型细菌染色体相比，真核染色体的复制起点通常更______；复制叉推进一般较______；冈崎片段通常更______。",
+          "answerRaw": "多；慢；短",
+          "answerDisplay": "多；慢；短",
           "answer": [
-            "短",
+            "多",
             "慢",
             "短"
           ],
-          "answerMode": "填空"
+          "answerMode": "填空",
+          "explanation": "真核染色体具有多个复制起点，复制叉速度通常低于细菌，冈崎片段也较短。不同真核生物的起点序列规则不同，不能笼统比较起点序列长度。"
         },
         {
           "number": 14,
-          "text": "真核 DNA 复制中，引物酶为______；切除引物的是______和______。",
-          "answerRaw": "DNApol α；RNase H；FEN1",
-          "answerDisplay": "DNApol α；RNase H；FEN1",
+          "text": "真核复制起始合成RNA-DNA引物的复合物为______；切除引物涉及______和______。",
+          "answerRaw": "DNApol α-引物酶复合物；RNase H；FEN1",
+          "answerDisplay": "DNApol α-引物酶复合物；RNase H；FEN1",
           "answer": [
-            "DNApol α",
+            "DNApol α-引物酶复合物",
             "RNase H",
             "FEN1"
           ],
-          "answerMode": "填空"
+          "answerMode": "填空",
+          "explanation": "复合物的引物酶亚基合成RNA引物，DNA聚合酶α随后接续合成一小段DNA；DNA聚合酶α催化亚基本身不是RNA引物酶。",
+          "acceptedAnswers": [
+            ["DNApol α-引物酶复合物", "FEN1", "RNase H"],
+            ["DNA聚合酶α-引物酶复合物", "RNase H", "FEN1"],
+            ["DNA聚合酶α-引物酶复合物", "FEN1", "RNase H"]
+          ]
         },
         {
           "number": 15,
@@ -1444,7 +1464,9 @@
       "sourceText": "填空题 F13–F16",
       "reviewState": "已按 DNA 的合成 DOCX 原文逐空核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "删除真核复制起点序列普遍更短的错误比较；明确DNApolα-引物酶复合物。"
+      ],
       "topic": "核酸",
       "lectureIds": [
         "lecture-16"
@@ -1459,7 +1481,12 @@
         "title": "第 16 讲《生化 DNA 的合成》· 第 8 页",
         "description": "真核 DNA 聚合酶及线粒体 DNA 的 D 环复制。 点击可查看讲义原页。",
         "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
-      }
+      },
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
+      "contentReviewReferences": [
+        "https://www.nature.com/articles/s41467-020-18527-0"
+      ]
     },
     {
       "id": "bio-16-fill-05",

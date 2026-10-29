@@ -887,7 +887,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "生酮氨基酸：只能生成酮体",
+          "text": "纯生酮氨基酸（碳骨架不能净生成葡萄糖）",
           "sourceText": "1. 生酮氨基酸：只能生成酮体",
           "answerRaw": "BF",
           "answer": [
@@ -929,7 +929,9 @@
       "sourceText": "糖异生原料：氨基酸辨析",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        "纯生酮不等于只能生成酮体，改为不能净生成葡萄糖。"
+      ],
       "topic": "糖异生",
       "lectureIds": [
         "lecture-03"
@@ -944,8 +946,8 @@
         "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
       },
-      "answerRevision": "bio-focused-20261017-v1",
-      "reviewedAt": "2026-10-18",
+      "answerRevision": "bio-answer-audit-20261029-v1",
+      "reviewedAt": "2026-10-29",
       "sourceGroupId": "bio-03-06"
     },
     {
